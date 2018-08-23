@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Card>
+	<Type>Character</Type>
+	<ID>AB-W11-103</ID>
+	<Name>Girl Who Fights Destiny</Name>
+	<Colour>Yellow</Colour>
+	<Level>1</Level>
+	<Cost>1</Cost>
+	<Trigger>None</Trigger>
+	<Rarity>TD</Rarity>
+	<Character>
+		<Power>7000</Power>
+		<Trait>Dead</Trait>
+		<Trait>Student Council</Trait>
+		<Soul></Soul>
+	</Character>
+</Card>

@@ -1,0 +1,140 @@
+package model.player;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.board.Board;
+import model.board.PlayerPhase;
+import model.card.Card;
+import model.card.Climax;
+
+public class Player {
+	List<Card> deck;
+	Board board;
+	Player opponent;
+	PlayerPhase phase;
+	String name;
+	
+	public Player(List<Card> deck, String name) {
+		super();
+		this.deck = new ArrayList<Card>(deck);
+		board = new Board(this.deck);
+		opponent = null;
+		phase = PlayerPhase.OPPONENTS_TURN;
+		this.name = name;
+	}
+
+	public Player getOpponent() {
+		return opponent;
+	}
+
+	public void setOpponent(Player opponent) {
+		this.opponent = opponent;
+	}
+
+	public Board getBoard() {
+		return board;
+	}
+
+	public void setDeck(List<Card> deck) {
+		this.deck = new ArrayList<Card>(deck);
+	}
+	
+	public void draw(){
+		board.getHand().add(board.getLibrary().draw());
+		if(board.getLibrary().size() == 0){
+			board.getLibrary().addCards(board.getWaitingRoom().refresh());
+			board.getDamage().takeRefreshDamage(board.getLibrary().draw());
+		}
+	}
+	
+	public void draw(int i){
+		for (int j = 0; j < i; j++) {
+			draw();
+		}
+	}
+	
+	public void displayHand(){
+		board.getHand().display();
+	}
+	
+	public void discardCard(int i){
+		board.getWaitingRoom().sendToWaitingRoom(board.getHand().get(i));
+	}
+	
+	public void displayLibrarySize(){
+		System.out.println(board.getLibrary().size() + " cards in library");
+	}
+	
+	public void endPhase(){
+		switch(phase){
+		case STAND: phase = PlayerPhase.DRAW; break;
+		case DRAW: phase = PlayerPhase.CLOCK; break;
+		case CLOCK: phase = PlayerPhase.MAIN; break;
+		case MAIN: phase = PlayerPhase.CLIMAX; break;
+		case CLIMAX: phase = PlayerPhase.ATTACK; board.endClimax();	break;
+		case ATTACK: phase = PlayerPhase.ENCORE; break;
+		case ENCORE: phase = PlayerPhase.END; break;
+		case END: phase = PlayerPhase.OPPONENTS_TURN; break;
+		case OPPONENTS_TURN: phase = PlayerPhase.DRAW; break;
+		default: break;
+		}
+	}
+	
+	public void nextStep(){
+		switch(phase){
+			case ATTACK: phase = PlayerPhase.ATTACK_DECLARATION; break;
+			case ATTACK_DECLARATION: phase = PlayerPhase.TRIGGER; break;
+			case TRIGGER: phase = PlayerPhase.COUNTER; break;
+			case COUNTER: phase = PlayerPhase.DAMAGE; break;
+			case DAMAGE: phase = PlayerPhase.END_OF_ATTACK; break;
+			case END_OF_ATTACK: phase = PlayerPhase.ATTACK; break;
+			default: break;
+		}
+	}
+	
+	public PlayerPhase getPhase(){
+		return phase;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	public int getLibrarySize(){
+		return board.getLibrary().size();
+	}
+	
+	public int getWaitingRoomSize(){
+		return board.getWaitingRoom().size();
+	}
+	
+	public void discard(int i){
+		board.getWaitingRoom().sendToWaitingRoom(board.getHand().get(i));
+	}
+	
+	public void shuffleLibrary(){
+		board.getLibrary().shuffle();
+	}
+	
+	public void displayWaitingRoom(){
+		board.getWaitingRoom().displayWaitingRoom();
+	}
+
+	public int getHandSize() {
+		return board.getHand().size();
+	}
+
+	public void displayDamage() {
+		board.getDamage().display();
+	}
+
+	public void playClimax(int index) {
+		Card c = board.getHand().get(index);
+		if (c instanceof Climax)
+			board.playClimax((Climax) c);
+		else
+			System.out.println("Not a climax");
+	}
+
+}

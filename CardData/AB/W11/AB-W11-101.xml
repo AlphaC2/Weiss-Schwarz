@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Card>
+	<Type>Character</Type>
+	<ID>AB-W11-101</ID>
+	<Name>Kanade, the Girl Called "Angel"</Name>
+	<Colour>Yellow</Colour>
+	<Level>1</Level>
+	<Cost>0</Cost>
+	<Trigger>None</Trigger>
+	<Rarity>TD</Rarity>
+	<Character>
+		<Power>5000</Power>
+		<Trait>Dead</Trait>
+		<Trait>Student Council</Trait>
+		<Soul>1</Soul>
+	</Character>
+</Card>
