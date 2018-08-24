@@ -110,10 +110,13 @@ public class CardPage {
 			saveToFile();
 		} catch (ParseJPException e) {
 			String filename = "traits.txt";
+			System.out.println(e.getMessage());
 			FileUtilities.appendToFile(filename, e.getMessage());
+			String error = "errors.txt";
+			FileUtilities.appendToFile(error, url);
 		} catch (Exception e) {
-			String filename = "errors.txt";
-			FileUtilities.appendToFile(filename, url);
+			String error = "errors.txt";
+			FileUtilities.appendToFile(error, url);
 			
 		}
 		
