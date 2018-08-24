@@ -20,18 +20,17 @@ public class GameManager {
 	}
 
 	public void gameLoop() {
-		String input = "";
 		player1.shuffleLibrary();
 		player2.shuffleLibrary();
 		player1.endPhase();
 		player1.draw(4);
 		player2.draw(5);
-		while (!input.equals("quit") && alive) {
+		
+		while (alive) {
 			System.out.println(currentPlayer.getName() + ":"+ currentPlayer.getPhase() + "Phase");
 			switch (currentPlayer.getPhase()) {
 			case STAND:
-				currentPlayer.getBoard().getStage().standAll();
-				
+				currentPlayer.getBoard().standAll();
 
 			case DRAW:
 				currentPlayer.draw();

@@ -8,12 +8,12 @@ import model.card.Card;
 public class LevelZone {
 	List<Card> levelzone;
 	
-	public LevelZone() {
+	LevelZone() {
 		super();
 		levelzone = new ArrayList<Card>();
 	}
 
-	public boolean hasColour(String colour){
+	boolean hasColour(String colour){
 		for (Card card : levelzone) {
 			if (card.getColour().equals(colour) && card.isFaceUp())
 				return true;
@@ -21,7 +21,7 @@ public class LevelZone {
 		return false;
 	}
 	
-	public boolean hasCardByName(String name){
+	boolean hasCardByName(String name){
 		for (Card card : levelzone) {
 			if (card.getName().equals(name) && card.isFaceUp())
 				return true;
@@ -29,7 +29,7 @@ public class LevelZone {
 		return false;
 	}
 	
-	public int totalLevel(){
+	int totalLevel(){
 		int total = 0;
 		for (Card card : levelzone) {
 			if(card.isFaceUp())
@@ -38,15 +38,13 @@ public class LevelZone {
 		return total;
 	}
 	
-	public int level(){
+	int level(){
 		return levelzone.size();
 	}
 	
-	public void levelUp(Card c){
+	void levelUp(Card c){
 		c.flipFaceUp();
 		levelzone.add(c);
 	}
-	
-	
 	
 }

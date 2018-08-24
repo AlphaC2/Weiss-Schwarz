@@ -9,7 +9,7 @@ import model.card.Card;
 public class Library {
 	private List<Card> cards;
 
-	public Library(List<Card> cards) {
+	Library(List<Card> cards) {
 		super();
 		this.cards = new ArrayList<Card>(cards);
 		for (Card card : this.cards) {
@@ -17,25 +17,25 @@ public class Library {
 		}
 	}
 	
-	public Card draw(){
+	Card draw(){
 		Card c = cards.get(0);
 		cards.remove(c);
 		return c;
 	}
 	
-	public void placeTop(Card c){
+	void placeTop(Card c){
 		cards.add(0, c);
 	}
 	
-	public void placeBottom(Card c){
+	void placeBottom(Card c){
 		cards.add(cards.size() - 1, c);
 	}
 	
-	public void shuffle(){
+	void shuffle(){
 		Collections.shuffle(cards);
 	}
 	
-	public void addCards(List<Card> passedCards){
+	void addCards(List<Card> passedCards){
 		for (Card card : passedCards) {
 			cards.add(card);
 		}

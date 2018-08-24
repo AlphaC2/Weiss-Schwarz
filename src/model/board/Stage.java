@@ -3,9 +3,9 @@ package model.board;
 import model.card.Character;
 
 public class Stage {
-	Character[] stage;
+	private Character[] stage;
 
-	public Stage() {
+	Stage() {
 		super();
 		stage = new Character[5];
 	}
@@ -13,7 +13,7 @@ public class Stage {
 	 * 		Rear_Left		Rear_Right
 	 * */
 	
-	public Character getSlot(Slot slot){
+	Character getSlot(Slot slot){
 		switch(slot){
 			case FRONT_LEFT: return stage[0];
 			case FRONT_CENTER: return stage[1];
@@ -24,7 +24,7 @@ public class Stage {
 		}
 	}
 	
-	public void place(Character c, Slot slot){
+	void place(Character c, Slot slot){
 		switch(slot){
 			case FRONT_LEFT: stage[0] = c;
 			case FRONT_CENTER: stage[1] = c;
@@ -34,7 +34,7 @@ public class Stage {
 		}
 	}
 	
-	public void displayStage(){
+	void displayStage(){
 		if (stage[0] != null)
 			System.out.println("Front Left:" + stage[0]);
 		if (stage[1] != null)
@@ -47,7 +47,7 @@ public class Stage {
 			System.out.println("Rear Right:" + stage[4]);
 	}
 
-	public void standAll() {
+	void standAll() {
 		if (stage[0] != null)
 			stage[0].stand();
 		if (stage[1] != null)

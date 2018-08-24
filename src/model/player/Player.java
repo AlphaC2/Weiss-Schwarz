@@ -41,11 +41,7 @@ public class Player {
 	}
 	
 	public void draw(){
-		board.getHand().add(board.getLibrary().draw());
-		if(board.getLibrary().size() == 0){
-			board.getLibrary().addCards(board.getWaitingRoom().refresh());
-			board.getDamage().takeRefreshDamage(board.getLibrary().draw());
-		}
+		board.draw();
 	}
 	
 	public void draw(int i){
@@ -55,11 +51,11 @@ public class Player {
 	}
 	
 	public void displayHand(){
-		board.getHand().display();
+		board.displayHand();
 	}
 	
 	public void discardCard(int i){
-		board.getWaitingRoom().sendToWaitingRoom(board.getHand().get(i));
+		board.sendToWaitingRoom(board.chooseFromHand(i));
 	}
 	
 	public void displayLibrarySize(){
@@ -106,31 +102,31 @@ public class Player {
 	}
 	
 	public int getWaitingRoomSize(){
-		return board.getWaitingRoom().size();
+		return board.cardsInWaitingRoom();
 	}
 	
 	public void discard(int i){
-		board.getWaitingRoom().sendToWaitingRoom(board.getHand().get(i));
+		board.discard(i);
 	}
 	
 	public void shuffleLibrary(){
-		board.getLibrary().shuffle();
+		board.shuffleLibrary();
 	}
 	
 	public void displayWaitingRoom(){
-		board.getWaitingRoom().displayWaitingRoom();
+		board.displayWaitingRoom();
 	}
 
 	public int getHandSize() {
-		return board.getHand().size();
+		return board.cardsInHand();
 	}
 
 	public void displayDamage() {
-		board.getDamage().display();
+		board.displayDamage();
 	}
 
 	public void playClimax(int index) {
-		Card c = board.getHand().get(index);
+		Card c = board.chooseFromHand(index);
 		if (c instanceof Climax)
 			board.playClimax((Climax) c);
 		else

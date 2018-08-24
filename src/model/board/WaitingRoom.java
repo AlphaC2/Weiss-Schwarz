@@ -1,7 +1,6 @@
 package model.board;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import model.card.Card;
@@ -14,37 +13,34 @@ public class WaitingRoom {
 		cards = new ArrayList<Card>();
 	}
 	
-	public void sendToWaitingRoom(Card c){
+	void sendToWaitingRoom(Card c){
 		c.flipFaceUp();
 		cards.add(c);
 	}
 	
-	public Card salvage(String name){
-		Card card;
-		Iterator<Card> cardIterator = cards.iterator();
-		
-		while(cardIterator.hasNext()){
-			card = cardIterator.next();
-			if (card.getName().equals(name)){
-				cardIterator.remove();
-				return card;
-			}
+	void sendToWaitingRoom(List<Card> c){
+		for (Card card : c) {
+			sendToWaitingRoom(card);
 		}
-		
-		return null;
 	}
-	
+
+	Card salvage(int i){
+		Card c = cards.get(i);
+		cards.remove(i);
+		return c;
+	}
+		
 	public List<Card> refresh(){
 		List<Card> newList = new ArrayList<Card>(cards);
 		cards.clear();
 		return newList;
 	}
 	
-	public int size(){
+	int size(){
 		return cards.size();
 	}
 	
-	public void displayWaitingRoom(){
+	void displayWaitingRoom(){
 		for (int i = 0; i < cards.size(); i++) {
 			System.out.println(i + "-" + cards.get(i).toShortString());
 		}

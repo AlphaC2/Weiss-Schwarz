@@ -22,6 +22,7 @@ public class MainApp {
 		System.out.println("Game Ended");
 		
 	}
+	
 	public static List<Card> buildDeck(){
 		DeckBuilder db = new DeckBuilder();
 		try {

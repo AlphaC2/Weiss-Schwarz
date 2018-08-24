@@ -75,4 +75,60 @@ public class Board {
 			System.out.println("Active Climax: " + climaxZone);
 	}
 	
+	public void standAll(){
+		stage.standAll();
+	}
+	
+	public void sendToWaitingRoom(Card c){
+		waitingRoom.sendToWaitingRoom(c);
+	}
+	
+	public int cardsInWaitingRoom(){
+		return waitingRoom.size();
+	}
+	
+	public void displayWaitingRoom(){
+		waitingRoom.displayWaitingRoom();
+	}
+	
+	public void refreshWaitingRoom(){
+		library.addCards(waitingRoom.refresh());
+		damage.takeRefreshDamage(library.draw());
+	}
+	
+	public int memorySize(){
+		return memory.size();
+	}
+	
+	public void draw(){
+		hand.add(library.draw());
+	}
+	
+	public void addToLibrary(List<Card> passedCards){
+		library.addCards(passedCards);
+	}
+	
+	public void shuffleLibrary(){
+		library.shuffle();
+	}
+	
+	public void displayDamage(){
+		damage.display();
+	}
+	
+	public Card chooseFromHand(int i){
+		return hand.get(i);
+	}
+	
+	public void discard(int i){
+		waitingRoom.sendToWaitingRoom(hand.get(i));
+	}
+	
+	public int cardsInHand(){
+		return hand.size();
+	} 
+	
+	public void displayHand(){
+		hand.display();
+	}
 }
