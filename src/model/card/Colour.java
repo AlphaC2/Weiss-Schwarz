@@ -19,7 +19,7 @@ public enum Colour {
 		case "green":
 			return GREEN;
 		default:
-			throw new IllegalArgumentException();
+			throw new ParseJPException(sanitized);
 
 		}
 	}

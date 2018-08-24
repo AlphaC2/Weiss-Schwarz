@@ -5,7 +5,6 @@ public enum Trigger {
 	NONE, SOUL, TWOSOUL, WHIRLWIND, GOLDBAG, DOOR, BOOK, FIRE, GOLDBAR, PANTS, STANDBY;
 
 	public static Trigger[] parseImage(String url) {
-		System.out.println(url);
 		switch (url.split("/ws/")[1]) {
 		case "icon_tri_0.png":
 			return new Trigger[] { NONE };
@@ -16,7 +15,7 @@ public enum Trigger {
 		case "icon_tri_1A.png":
 			return new Trigger[] { SOUL, WHIRLWIND };
 		case "icon_tri_1E.png":
-			return new Trigger[] {FIRE, SOUL};
+			return new Trigger[] {SOUL,FIRE};
 		case "icon_tri_G.png":
 		case "icon_tri_1G.png":
 			return new Trigger[] { SOUL, PANTS};

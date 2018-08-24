@@ -12,7 +12,7 @@ public enum CardType {
 		case "イベント":
 			return EVENT;
 			default:
-				throw new IllegalArgumentException(text);
+				throw new ParseJPException(text);
 		}
 	}
 }
