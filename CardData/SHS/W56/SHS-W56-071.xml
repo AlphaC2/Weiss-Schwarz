@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-071</ID>
+    <Name>羞恥心の発露</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私脱ぐなんて聞いてないよぅ!</FlavourText>
+    <Ability>【永】他のあなたの《ゲーム》のキャラすべてに、パワーを＋500。【自】［手札の《ゲーム》のキャラを1枚控え室に置く］あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンがなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

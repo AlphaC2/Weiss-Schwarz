@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-043</ID>
+    <Name>表情パターン不足</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうしろと言われても……</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1500。【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から1枚見てよい。そうしたら、あなたはそのカードをこのカードの下にマーカーとして裏向きに置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-103</ID>
+    <Name>ねんどろいどぷらす</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10129.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あ、安芸君</FlavourText>
+    <Ability>【永】他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋1000。【自】[(1)］アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>GAME</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

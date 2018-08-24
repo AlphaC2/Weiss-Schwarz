@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>SHS-W56-T20</ID>
+    <Name>女子高生ラノベ作家</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10020.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>DOOR</Trigger>
+    <FlavourText>倫也「豊ヶ崎学園始まって以来の秀才、霞ヶ丘詩羽……」</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）</Ability>
+</Card>

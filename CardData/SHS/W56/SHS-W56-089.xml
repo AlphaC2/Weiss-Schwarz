@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-089</ID>
+    <Name>icy</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10115.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>つまりあたしら目当てで来る客はいないってことだね?</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラすべてに、パワーを＋1000。【自】共鳴［手札を1枚控え室に置き、手札の「icytail美智留」を1枚公開する］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「blessingsoftware美智留」を1枚選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GAME</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

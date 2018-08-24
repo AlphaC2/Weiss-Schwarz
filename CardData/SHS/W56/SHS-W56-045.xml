@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-045</ID>
+    <Name>ひらめく天啓</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10071.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>けれど……ごめん。帰り、送れなくなった。今すぐ行かなくちゃならない所があるんだ……</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、パワーを＋500。【起】[(1)あなたのキャラを2枚【レスト】する］あなたは自分の控え室の「倫也の企画書」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GAME</Trait>
+        <Trait>OTAKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

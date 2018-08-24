@@ -118,7 +118,17 @@ public class CardPage {
 				e2.printStackTrace();
 			}
 		} catch (Exception e) {
-			System.exit(0);
+			String filename = "errors.txt";
+			try {
+				new File(filename).createNewFile();
+				String text = System.lineSeparator() + url;
+				System.out.println(e.getMessage());
+				Files.write(Paths.get(filename), text.getBytes(), StandardOpenOption.APPEND);
+				e.printStackTrace();
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+			
 		}
 		
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-068</ID>
+    <Name>ドヤ顔で決める</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それこそがギャルゲーの主人公の醍醐味だよ、詩羽先輩!</FlavourText>
+    <Ability>【永】他のあなたの《ゲーム》のキャラすべてに、パワーを＋500。【自】【ＣＸコンボ】相手がレベルアップした時、あなたは自分のクライマックス置場の「二人の夜の選択肢」を1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>GAME</Trait>
+        <Trait>OTAKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

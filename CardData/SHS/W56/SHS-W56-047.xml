@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-047</ID>
+    <Name>演技指導</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恵「それと、このしゃべり方や演技は霞ヶ丘先輩の台本通り……」</FlavourText>
+    <Ability>【永】他のあなたの「衣装デザイン英梨々」がいるなら、他のあなたの、《ゲーム》か《小説》のキャラすべてに、パワーを＋500。【起】[(2)このカードを【レスト】する］あなたは自分の控え室の、《ゲーム》か《小説》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GAME</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-004</ID>
+    <Name>懐かしい記憶</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>英梨々「リトラブはアタシがアンタに初めて布教したゲームじゃないっ」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋2000。【自】[(1)手札を1枚控え室に置き、このカードを思い出にする］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

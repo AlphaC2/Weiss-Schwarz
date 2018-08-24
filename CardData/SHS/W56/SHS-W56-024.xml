@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SHS-W56-024</ID>
+    <Name>倫也の企画書</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何がどうなったらそういう意味不明で馬鹿げた痛々しい発想に至るのか是非とも知りたいわね</FlavourText>
+    <Ability>【カウンター】あなたは自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

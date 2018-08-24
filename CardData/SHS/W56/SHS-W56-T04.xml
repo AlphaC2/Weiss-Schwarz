@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-T04</ID>
+    <Name>メインヒロイン担当</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10004.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんな見てると思うけど、オタクやってくのって色々大変なんだね。</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】【ＣＸコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「運命との出逢い」があり、他のあなたの《ゲーム》のキャラが2枚以上なら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

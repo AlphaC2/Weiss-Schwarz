@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-061</ID>
+    <Name>下品な煽り</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ああ、今日一日あったことを色々と思い出して……一人でするのね?</FlavourText>
+    <Ability>【自】[(2)］あなたがこのカードの『助太刀』を使った時、あなたの、《ゲーム》か《小説》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。【起】【カウンター】助太刀2500レベル2[(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GAME</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

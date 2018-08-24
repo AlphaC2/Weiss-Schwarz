@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-058</ID>
+    <Name>多彩な衣装</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あ、なんか急に元気になった</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを-1。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードがアタックした時、あなたは他の自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>GAME</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

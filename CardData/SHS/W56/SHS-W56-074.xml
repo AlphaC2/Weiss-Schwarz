@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-074</ID>
+    <Name>みんなで合宿</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10100.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>何?　澤村さんの一押しってアレなの?　1話からパンチラや全裸満載だったくだらないハーレムアニメよね?</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場の、《ゲーム》か《小説》のキャラが2枚以上なら、このカードのパワーを＋4000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>GAME</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

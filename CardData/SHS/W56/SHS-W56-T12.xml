@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-T12</ID>
+    <Name>初めての出逢いの坂</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10012.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>本当に初めて会ったのは一年前の入学式だけどね</FlavourText>
+    <Ability>【永】他のあなたの「はじまりの日倫也」すべてに、パワーを＋1000。【自】絆／「はじまりの日倫也」[(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「はじまりの日倫也」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

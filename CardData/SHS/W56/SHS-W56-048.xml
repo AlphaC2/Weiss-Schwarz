@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-048</ID>
+    <Name>ムッとした時の表情</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わたし全然こんな顔してないよう</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の手札を1枚選び、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

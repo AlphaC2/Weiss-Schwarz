@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-064</ID>
+    <Name>blessing</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>彼を茂みの奥に連れ込んで思いを果たそうとするの</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。【自】あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>GAME</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

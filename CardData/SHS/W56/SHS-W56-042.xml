@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-042</ID>
+    <Name>怒りのボルテージ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>かぁすぅみぃがぁおぉかぁうたはぁーーー!</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のカード名に「詩羽」を含むキャラを1枚選び、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

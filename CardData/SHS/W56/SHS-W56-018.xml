@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-018</ID>
+    <Name>ジャージでメガネ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そんな薄情なこと言わなくてもいいじゃない!</FlavourText>
+    <Ability>【永】このカードのバトル中、このカードは《メガネ》を得る。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

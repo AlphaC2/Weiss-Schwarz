@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-073</ID>
+    <Name>二人の朝</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>嬉しかったわ、昨夜のこと</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「二人の夜詩羽」があるなら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【永】このカードは相手のキャラの【自】の効果によって【リバース】されない。』</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>GAME</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>
