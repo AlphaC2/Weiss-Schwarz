@@ -20,8 +20,10 @@ public enum Colour {
 		case "緑色":
 		case "green":
 			return GREEN;
-			
-		case "紫色": case "purple": return PURPLE;
+
+		case "紫色":
+		case "purple":
+			return PURPLE;
 		default:
 			throw new ParseJPException(sanitized);
 
