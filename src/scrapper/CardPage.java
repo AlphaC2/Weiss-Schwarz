@@ -25,6 +25,7 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import io.FileUtilities;
 import model.card.CardType;
 import model.card.Colour;
 import model.card.Trait;
@@ -108,26 +109,11 @@ public class CardPage {
 		try {
 			saveToFile();
 		} catch (ParseJPException e) {
-			try {
-				String filename = "traits.txt";
-				new File(filename).createNewFile();
-				String text = System.lineSeparator() + e.getMessage();
-				System.out.println(e.getMessage());
-				Files.write(Paths.get(filename), text.getBytes(), StandardOpenOption.APPEND);
-			} catch (IOException e2) {
-				e2.printStackTrace();
-			}
+			String filename = "traits.txt";
+			FileUtilities.appendToFile(filename, e.getMessage());
 		} catch (Exception e) {
 			String filename = "errors.txt";
-			try {
-				new File(filename).createNewFile();
-				String text = System.lineSeparator() + url;
-				System.out.println(e.getMessage());
-				Files.write(Paths.get(filename), text.getBytes(), StandardOpenOption.APPEND);
-				e.printStackTrace();
-			} catch (IOException e1) {
-				e1.printStackTrace();
-			}
+			FileUtilities.appendToFile(filename, url);
 			
 		}
 		
