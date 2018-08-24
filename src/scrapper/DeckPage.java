@@ -17,6 +17,7 @@ public class DeckPage {
 		this.url = url;
 		driver = DriverUtilities.createDriver(true);
 		run();
+		driver.quit();
 	}
 
 	private void processGroup(WebElement group) {

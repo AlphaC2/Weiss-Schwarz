@@ -1,4 +1,4 @@
-package model.card;
+package model.exceptions;
 
 public class ParseJPException extends IllegalArgumentException{
 

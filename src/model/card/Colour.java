@@ -1,5 +1,7 @@
 package model.card;
 
+import model.exceptions.ParseJPException;
+
 public enum Colour {
 	RED, YELLOW, BLUE, GREEN;
 

@@ -14,9 +14,9 @@ import org.openqa.selenium.WebElement;
 
 import model.card.CardType;
 import model.card.Colour;
-import model.card.ParseJPException;
 import model.card.Trait;
 import model.card.Trigger;
+import model.exceptions.ParseJPException;
 
 public class CardPage {
 
@@ -89,7 +89,8 @@ public class CardPage {
 			try {
 				String filename = "traits.txt";
 				new File(filename).createNewFile();
-			    Files.write(Paths.get(filename), e.getMessage().getBytes(), StandardOpenOption.APPEND);
+				String text = System.lineSeparator() + e.getMessage() ;
+			    Files.write(Paths.get(filename), text.getBytes(), StandardOpenOption.APPEND);
 			}catch (IOException e2) {
 				e2.printStackTrace();
 			}
