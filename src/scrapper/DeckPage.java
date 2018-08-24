@@ -1,5 +1,6 @@
 package scrapper;
 
+import java.io.File;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -19,12 +20,25 @@ public class DeckPage {
 		run();
 		driver.quit();
 	}
+	
+	private boolean fileExist(String ID){
+		String setID = ID.split("-")[0];
+		String folder = "CardData/" + setID;
+		ID = ID.replace("/", "-");
+		String filename = folder + "/" +ID + ".xml";
+		File f = new File(filename);
+		if (f.exists()){
+			System.out.println(ID + " skipped");
+			return true;
+		}
+		return false;
+	}
 
 	private void processGroup(WebElement group) {
 		for (WebElement webElement : group.findElements(By.className("card_unit"))) {
 			String headline = webElement.findElement(By.className("headline")).getText();
 			char lastChar = headline.charAt(headline.length() - 1);
-			if (lastChar >= '0' && lastChar <= '9') {
+			if (lastChar >= '0' && lastChar <= '9' && !fileExist(headline)) {
 				String url = webElement.findElement(By.cssSelector("div.image_box > a")).getAttribute("href");
 				new CardPage(url,this.driver);
 			}
