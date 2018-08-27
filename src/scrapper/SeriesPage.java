@@ -13,7 +13,7 @@ public class SeriesPage {
 	private static String url = "https://yuyu-tei.jp/game_ws/sell/sell_price.php";
 	
 	public static void main(String[] args) {
-		WebDriver driver = DriverUtilities.createDriver(true);
+		WebDriver driver = DriverUtilities.createDriver(false);
 		driver.get(url);
 		driver.findElement(By.className("item_single_card")).click();
 		WebElement navbar = driver.findElement(By.className("nav_list_second"));
