@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-019</ID>
+    <Name>妹系後輩</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>夏コミ、絶対、ぜったい、ぜーったい来て下さいねーっ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《ゲーム》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】【ＣＸコンボ】あなたのクライマックス置場に「敵か味方か新キャラか」が置かれた時、あなたは他の自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

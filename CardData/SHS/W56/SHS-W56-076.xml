@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SHS-W56-076</ID>
+    <Name>消えていくハイライト</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちょっと自主練してくる</FlavourText>
+    <Ability>あなたは自分のクロックを1枚選び、レベル置場に置いてよい。そうしたら、あなたは自分の控え室のキャラを3枚まで選び、手札に戻し、自分の控え室のクライマックスを1枚まで選び、手札に戻し、自分の控え室の《ゲーム》のキャラを3枚まで選び、ストック置場好きな順番で置く。</Ability>
+</Card>

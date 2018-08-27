@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-017</ID>
+    <Name>憧れの存在</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だってっウチの学区じゃ一番の有名人でしたもんっ</FlavourText>
+    <Ability>【永】他のあなたの前列の「ジャージでメガネ英梨々」1枚につき、このカードのパワーを＋4000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-001</ID>
+    <Name>乙女な本質</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたし、あんたの一番になってやる……それまでは絶対に謝らない</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋500。【自】【ＣＸコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「八年ぶりの個別ルート」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】このカードがフロントアタックされた時、あなたは他の自分のキャラを1枚と、このカードを選び、手札に戻してよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

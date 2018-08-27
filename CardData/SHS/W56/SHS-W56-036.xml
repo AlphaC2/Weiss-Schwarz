@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-036</ID>
+    <Name>クリエイターの闇</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヤンデレヒロインを差し置いて、他の女とデートに行ってしまった主人公……</FlavourText>
+    <Ability>【自】【ＣＸコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「徹夜の代償」があるなら、あなたは自分の山札の上から2枚までを、ストック置場に置く。【自】バトル中のこのカードが【リバース】した時、そのターン中、あなたは『【自】アンコール』を使えない。（ルールによる『【自】アンコール[(3)］』も使えない）</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>GAME</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-088</ID>
+    <Name>icy</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……</FlavourText>
+    <Ability>【永】相手の前列のキャラが2枚以下なら、このカードのパワーを＋1000。【自】共鳴［手札の「icytail美智留」を1枚公開する］相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを前列のキャラのいない枠に動かす。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GAME</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

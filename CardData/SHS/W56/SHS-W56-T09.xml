@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-T09</ID>
+    <Name>原画担当</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10009.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>1日が48時間あれば48ページのオフセット本が作れるのに……</FlavourText>
+    <Ability>【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《ゲーム》のキャラの枚数に等しい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>GAME</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

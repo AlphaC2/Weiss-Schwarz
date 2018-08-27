@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-035</ID>
+    <Name>フラグの立たない彼女</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>安芸君ってさ、私のどういう所が良かった?</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「理想の女の子恵」があるなら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【永】このカードは相手の効果に選ばれない。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

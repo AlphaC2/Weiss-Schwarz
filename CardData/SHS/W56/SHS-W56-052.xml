@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SHS-W56-052</ID>
+    <Name>徹夜でゲーム</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恵「も??、めんどくさいなぁ安芸君はぁ」</FlavourText>
+    <Ability>あなたは自分の《ゲーム》のキャラを2枚選び【レスト】し、それらのキャラは次のあなたのスタンドフェイズに【スタンド】しない。2枚【レスト】したなら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分の控え室の《ゲーム》のキャラを1枚まで選び、ストック置場に置き、このカードを山札の下に置く。</Ability>
+</Card>

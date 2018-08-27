@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-095</ID>
+    <Name>ライブ衣装</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>頼むよミッチー!</FlavourText>
+    <Ability>【永】あなたの後列のキャラが1枚以下なら、このカードはアタックできない。【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>GAME</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

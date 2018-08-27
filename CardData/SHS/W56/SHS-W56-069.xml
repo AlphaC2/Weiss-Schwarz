@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SHS-W56-069</ID>
+    <Name>霞詩子の担当編集</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saekano/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>その点、顔見知りなら安心かな?って</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、他のあなたの前列の《小説》のキャラ1枚につき、このカードのパワーを＋3000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「混乱の極み詩羽」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>
