@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-E16</ID>
+    <Name>水着のアリス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext1.0/10016.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>子供っぽいですか……</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚を公開する。そのカードが自分のレベル以下のレベルのキャラなら、舞台の好きな枠に置いてよい。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>DOLL</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

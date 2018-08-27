@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-T04</ID>
+    <Name>若き首領</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10006.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それが未来の一つの顔だというなら、いまは祝福してやるさ。新たな王の誕生を――</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

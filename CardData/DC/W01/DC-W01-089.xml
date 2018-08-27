@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-089</ID>
+    <Name>眞子&amp;萌</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10096.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お姉ちゃん、そろそろ行こうか</FlavourText>
+    <Ability>【永】相手のターン中、このカードのパワーを＋1000。【起】［(2)このカードを【レスト】する］あなたは1枚引く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

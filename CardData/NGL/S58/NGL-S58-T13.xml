@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-T13</ID>
+    <Name>『</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10013.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……盟約に誓って</FlavourText>
+    <Ability>【永】あなたのストックが2枚以下なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

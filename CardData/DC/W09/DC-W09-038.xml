@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-038</ID>
+    <Name>軽音バンド</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>小恋「準備、オッケーだよー！」ななか「じゃ、いっくよー！」</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

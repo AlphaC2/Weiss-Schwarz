@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-P01</ID>
+    <Name>仲良しお風呂タイム</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10027.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText/>
+    <Ability/>
+    <Character>
+        <Power>4000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

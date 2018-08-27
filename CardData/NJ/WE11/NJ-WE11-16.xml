@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-16</ID>
+    <Name>高崎先生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>失神よりも不純異性交遊を取り締まることのほうが、教育者としての…なんだ！その…教育者だ！</FlavourText>
+    <Ability>【永】他のあなたの「桜井先生」1枚につき、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>GO_SOCCER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

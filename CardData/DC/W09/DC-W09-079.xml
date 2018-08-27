@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-079</ID>
+    <Name>白衣の麻耶</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10115.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『なる』んじゃないわ。『する』の。私たちの手で、ね</FlavourText>
+    <Ability>【永】他のあなたの、《委員長》か《メカ》のキャラが2枚以上なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

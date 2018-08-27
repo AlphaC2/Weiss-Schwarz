@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-123</ID>
+    <Name>運命を受け入れる涯</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10158.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>終わることは許されないというわけか</FlavourText>
+    <Ability>【永】他のあなたの、《葬儀社》かカード名に「真名」を含むキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

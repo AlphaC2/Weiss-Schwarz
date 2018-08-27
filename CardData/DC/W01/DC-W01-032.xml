@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-032</ID>
+    <Name>工藤</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私をずっと守ってくれる――それがあなたの今でも変わらない想いですか？</FlavourText>
+    <Ability>【永】このカードは、あなたの「学生服の工藤」がいないなら、手札からプレイできない。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

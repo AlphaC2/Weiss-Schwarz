@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-045</ID>
+    <Name>仲間と大切な人に</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10048.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ななかには、もー、兄ちゃんがいるからなー</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

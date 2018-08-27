@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-071</ID>
+    <Name>ななことヤギ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ひゃうううう！　やーめーてー！　それを食べないでーーー！！！</FlavourText>
+    <Ability>あなたはレベル1以下の相手のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

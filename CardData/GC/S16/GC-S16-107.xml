@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-107</ID>
+    <Name>“告白”真名</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10152.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あなたと私の遺伝子で、新しい世界を作りましょう</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

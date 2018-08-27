@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-026</ID>
+    <Name>晴れ着のななか</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10028.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あけましておめでとーございまーーーっす！</FlavourText>
+    <Ability>【永】他のあなたの「月島小恋」すべてに、パワーを＋1000。【自】絆／「月島小恋」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「月島小恋」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

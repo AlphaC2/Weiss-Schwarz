@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-127</ID>
+    <Name>“入れ物”いのり</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10162.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だから私、入れ物でしかないのに、普通の人みたいに恋できたの</FlavourText>
+    <Ability>【永】他のあなたの《葬儀社》のキャラすべてに、パワーを＋500。【起】集中［(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-027</ID>
+    <Name>晴れ着の小恋</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10029.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あけましておめでとうー</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「伝わる温もり」があるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、そのターン中、このカードのパワーを＋3000。【起】［このカードを【レスト】する］あなたは自分の山札の上から1枚を、ストック置場に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

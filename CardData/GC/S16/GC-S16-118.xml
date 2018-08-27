@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-118</ID>
+    <Name>ちみ綾瀬</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10132.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>勝手に食べちゃダメよ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WHEELCHAIR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

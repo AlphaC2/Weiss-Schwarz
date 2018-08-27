@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE01-023</ID>
+    <Name>沢井美秋</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10226.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>迷わないで。お姉ちゃんがついてるから</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の《委員長》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

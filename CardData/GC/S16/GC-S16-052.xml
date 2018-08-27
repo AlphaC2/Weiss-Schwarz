@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-052</ID>
+    <Name>集のパートナー</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お願い…私を、使って…</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「楪いのり」を1枚選び、このカードがいた枠に置く。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

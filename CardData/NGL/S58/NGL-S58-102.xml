@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-102</ID>
+    <Name>人類種のために</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10129.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私達にスパイをやれっていうんでしょ？</FlavourText>
+    <Ability>【永】舞台のこのカードのレベルを-2。【自】他のあなたの《ゲーム》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

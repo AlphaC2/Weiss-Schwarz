@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-14</ID>
+    <Name>立花</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>別にあんたなんか、何とも思ってないんだからっ!!</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

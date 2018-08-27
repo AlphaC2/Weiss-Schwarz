@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SMP-W60-T18</ID>
+    <Name>Summer</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/smp/10025.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>眩しさだけは、忘れなかった。</FlavourText>
+    <Ability>あなたは自分の山札を見て《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。</Ability>
+</Card>

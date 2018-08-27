@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-17</ID>
+    <Name>仏像フェチ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>弥勒菩薩…</FlavourText>
+    <Ability>【自】このカードがサイドアタックした時、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>GLASSES</Trait>
+        <Trait>BUDDHA_STATUE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

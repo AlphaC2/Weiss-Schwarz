@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>NGL-S58-074</ID>
+    <Name>希望の鍵</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お爺様……これ何の鍵ですの……？</FlavourText>
+    <Ability>このカードは、あなたのカード名に「空」か「白」を含むキャラがいないなら、手札からプレイできない。あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

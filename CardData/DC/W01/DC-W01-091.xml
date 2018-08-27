@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-091</ID>
+    <Name>水着の杏</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10098.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いいのよ。『ないちち』には『ないちち』の良さがあるから</FlavourText>
+    <Ability>【自】アラームあなたのターンの終わりに、このカードがクロックの１番上にあり、あなたのレベルが2以上なら、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

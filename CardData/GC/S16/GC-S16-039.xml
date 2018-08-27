@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-039</ID>
+    <Name>魂館</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここにいたって、無事って保障はないんだろ。だったら動く方がいいじゃん</FlavourText>
+    <Ability>【永】あなたのストックが3枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-015</ID>
+    <Name>“葬儀社”アルゴ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いい眺めが見てえんだよ。――涯と一緒に</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

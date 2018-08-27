@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>NGL-S58-046</ID>
+    <Name>似たもの同士</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うわーーーーん</FlavourText>
+    <Ability>あなたは自分の山札を上から2枚まで見て、《ゲーム》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。このカードを思い出にする。</Ability>
+</Card>

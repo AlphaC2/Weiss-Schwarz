@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-003</ID>
+    <Name>“第一感染者”真名</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>トリトンは私のナイトなんでしょう？だから、これからも私を守って</FlavourText>
+    <Ability>【自】絆／「運命を受け入れる涯」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「運命を受け入れる涯」を1枚選び、手札に戻す）【自】【クロック】シフトレベル0（あなたのメインフェイズの始めに、あなたは自分の手札の黄のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

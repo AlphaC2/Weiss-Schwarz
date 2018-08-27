@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-036</ID>
+    <Name>私服のことり</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10039.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……私に分かるのは、心だけだから……</FlavourText>
+    <Ability>【永】大活躍【自】このカードがプレイされて舞台に置かれた時、あなたは相手の手札を見る。【自】このカードがアタックした時、クライマックス置場に「結婚式の歌姫」があるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、そのターン中、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

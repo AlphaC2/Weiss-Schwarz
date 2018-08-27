@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-041</ID>
+    <Name>突然の居候</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ねぇ、集……おなかへった</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

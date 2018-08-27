@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W01-048</ID>
+    <Name>伝わる温もり</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>GOLDBAG</Trigger>
+    <FlavourText>こうやって義之におんぶされるの……幼い頃以来だね</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（溜＠：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）</Ability>
+</Card>

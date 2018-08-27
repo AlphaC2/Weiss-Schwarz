@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-057</ID>
+    <Name>彩珠</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>かっ、かっ、かわっ、かわいいって、その、あっ、あたっ、あたしが……ですか？</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあり、あなたのレベルが2以上なら、赤のあなたのキャラすべてに、次の能力を与える。『【自】このカードが【リバース】した時、このカードとバトルしているキャラのレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GLASSES</Trait>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-006</ID>
+    <Name>共闘を誓う涯</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10034.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>よくやったな、集</FlavourText>
+    <Ability>【永】あなたのストックが6枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】他のあなたの《葬儀社》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

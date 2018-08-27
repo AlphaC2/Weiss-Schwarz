@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-104</ID>
+    <Name>登校する朝倉姉妹</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10170.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>「今度からは一緒に勉強しようね。 お姉ちゃんが教えてあげるから」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

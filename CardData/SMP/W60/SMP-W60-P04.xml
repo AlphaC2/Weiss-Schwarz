@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SMP-W60-P04</ID>
+    <Name>“島の伝承を追う少女”蒼</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/smp/10004.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたしの名前は、空門蒼よ</FlavourText>
+    <Ability>【自】 このカードが手札から舞台に置かれた時、あなたは自分の《サマポケ》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SUMMER_POCKET</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

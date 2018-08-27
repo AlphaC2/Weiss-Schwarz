@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-109</ID>
+    <Name>不敵に微笑む杏</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10175.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふふ。 そういうときは深く考えないのが一番よ</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W01-050</ID>
+    <Name>わたくしの大切な人のために……</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この舞は……私にとって、とてもとても大切な意味を持つ舞ですから……</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、ソウルを＋2。</Ability>
+</Card>

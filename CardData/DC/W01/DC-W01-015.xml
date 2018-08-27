@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-015</ID>
+    <Name>芳乃</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10016.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ボディーランゲージは愛情表現の基本だよっ</FlavourText>
+    <Ability>【起】【カウンター】助太刀2000レベル1［(1)手札のこのカードを控え室に置く］（あなたはフロントアタックされている自分のキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

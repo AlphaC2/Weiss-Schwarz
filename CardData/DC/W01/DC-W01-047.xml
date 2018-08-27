@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-047</ID>
+    <Name>転入生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10050.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はじめまして…………になるんでしょうか</FlavourText>
+    <Ability>あなたは自分のストックを上から1枚見る。そのカードがレベル1以下のキャラなら、舞台のいずれかの枠に置いてよい。</Ability>
+</Card>

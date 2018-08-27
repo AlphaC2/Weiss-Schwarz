@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-067</ID>
+    <Name>平凡な高校生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>でも、これでいいのかな？僕にももっと、やれることってないのかな……</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

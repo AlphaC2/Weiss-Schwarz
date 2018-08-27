@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-107</ID>
+    <Name>異世界からの来訪者</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10134.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>にぃは、言った……常にゲームを始める前に勝っている……</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

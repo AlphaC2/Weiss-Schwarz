@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W01-075</ID>
+    <Name>おかえりなさい</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>――おかえりなさい、兄さん！</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、ソウルを＋2。</Ability>
+</Card>

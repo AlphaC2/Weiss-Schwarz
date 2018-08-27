@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>NGL-S58-077</ID>
+    <Name>人類への信頼の全て</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お爺様……お爺様……</FlavourText>
+    <Ability>【自】このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+</Card>

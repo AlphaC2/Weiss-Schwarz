@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-T13</ID>
+    <Name>ウェブアーティスト</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10015.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>桜満集は、臆病なヒト？</FlavourText>
+    <Ability>【自】他のあなたのバトル中のキャラが【リバース】した時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

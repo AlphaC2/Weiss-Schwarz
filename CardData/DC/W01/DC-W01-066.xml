@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-066</ID>
+    <Name>ゆず&amp;慎</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10071.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>父ちゃん寂しがり屋なんだー。ゆずがいないと何もできない</FlavourText>
+    <Ability>【永】他の《音楽》のあなたのキャラが2枚以上いるなら、このカードのパワーを＋1000。【自】このカードが【リバース】した時、このカードとバトルしているキャラのレベルが1以下なら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

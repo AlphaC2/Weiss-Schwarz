@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-033</ID>
+    <Name>佇むアイシア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10182.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ずっと迷ってたことがあって……</FlavourText>
+    <Ability>【永】大活躍（相手がアタックする時、【リバース】していないこのカードが前列の中央の枠にいるなら、かわりに相手はこのカードにフロントアタックする）【起】［(6)］あなたは相手の前列のキャラすべてを、手札に戻す。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

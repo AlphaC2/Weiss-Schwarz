@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>SMP-W60-T08</ID>
+    <Name>ようこそ!鳥白島へ!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/smp/10015.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>美希「これより、鷹原羽依里君の歓迎会を始める」</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、ソウルを＋2。</Ability>
+</Card>

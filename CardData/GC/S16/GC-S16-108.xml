@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-108</ID>
+    <Name>スクルージ&amp;キャロル</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10153.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キャロル「スクルージ。わたしを、つかって。こわれるくらいに。メチャクチャに」</FlavourText>
+    <Ability>【起】［(1)］あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

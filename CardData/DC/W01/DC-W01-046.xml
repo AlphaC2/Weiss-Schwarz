@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-046</ID>
+    <Name>音夢のお弁当</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10049.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ね、兄さん。騙されたと思って♪</FlavourText>
+    <Ability>あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを-4500。</Ability>
+</Card>

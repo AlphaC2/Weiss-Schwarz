@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-068</ID>
+    <Name>幼少の涯</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10096.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ねえ……ホントに飛ぶの？</FlavourText>
+    <Ability>【永】他のあなたのカード名に「集」を含むキャラがいるなら、このカードのレベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

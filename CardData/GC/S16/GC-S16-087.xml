@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-087</ID>
+    <Name>“葬儀社”ツグミ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10115.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>今回は、かなり大がかりなオペレーションになるはずよ</FlavourText>
+    <Ability>【永】あなたのストックが4枚以上なら、このカードは｢【自】アンコール［手札のキャラを1枚控え室に置く］｣を得る。【自】このカードがアタックした時、クライマックス置場に「情報戦の要」があるなら、あなたは1枚引いてよい。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

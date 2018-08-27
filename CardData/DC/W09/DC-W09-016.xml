@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-016</ID>
+    <Name>キュートで元気</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お兄ちゃーん！</FlavourText>
+    <Ability>【起】【カウンター】助太刀1500レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

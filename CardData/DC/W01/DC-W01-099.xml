@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W01-099</ID>
+    <Name>もう、忘れない</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10106.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>BOOK</Trigger>
+    <FlavourText>義之のことだけは、もう絶対に忘れないんだから……</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（引＠：このカードがトリガーした時、あなたは1枚引いてよい）</Ability>
+</Card>

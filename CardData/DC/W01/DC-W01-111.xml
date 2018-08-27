@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-111</ID>
+    <Name>特別留学生エリカ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10177.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>主導権はわたし！</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SMP-W60-T17</ID>
+    <Name>“それは夏のせい”蒼</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/smp/10024.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>強引なのは……嫌いじゃないけど……せめて……ひ、人気のないところで……</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】［手札を2枚控え室に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SUMMER_POCKET</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

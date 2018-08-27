@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-008</ID>
+    <Name>城戸</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10036.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>出番でしょ？俺のヴォイド</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

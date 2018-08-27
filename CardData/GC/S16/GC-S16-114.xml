@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-114</ID>
+    <Name>綾瀬&amp;ツグミ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10027.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ツグミ「心拍数絶賛上昇ちゅうー」綾瀬「黙んなさいよ、ツグミ!!」</FlavourText>
+    <Ability>【自】相手のターン中、他のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>OPERATOR</Trait>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

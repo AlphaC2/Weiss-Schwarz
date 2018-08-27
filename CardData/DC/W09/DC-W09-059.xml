@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-059</ID>
+    <Name>素直でがんばり屋μさん</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10092.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すごいですね、これ！　私より高性能です！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】【カウンター】助太刀1000レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MECHA</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

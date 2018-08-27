@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-051</ID>
+    <Name>元気な音夢</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、お腹すいた？</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたは自分の、《バナナ》か《風紀委員》のキャラを1枚選び、そのターン中、レベルを＋1。【起】【カウンター】助太刀1000レベル0［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

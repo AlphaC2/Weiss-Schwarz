@@ -15,7 +15,6 @@ import model.card.Climax;
 import model.card.Colour;
 import model.card.Event;
 import model.card.Rarity;
-import model.card.Trait;
 import model.card.Trigger;
 import model.card.ability.Ability;
 

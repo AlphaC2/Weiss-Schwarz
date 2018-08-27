@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-084</ID>
+    <Name>杉並</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10091.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんな信じないだろうが、世界の平和は俺が守っているんだぞ</FlavourText>
+    <Ability>【自】バトルしているこのカードが【リバース】した時、あなたは1枚引いてよい。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

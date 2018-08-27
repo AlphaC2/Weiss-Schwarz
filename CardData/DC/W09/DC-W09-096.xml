@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W09-096</ID>
+    <Name>明日の目覚まし予報</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10133.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>エルニーニョ絵梨奈『グッドイーブニーング！今夜もまだ起きててくれたかな？　夜更かしさんのお休みの時間、明日の目覚まし予報の時間だよ。明日の朝の目覚め方で貴方の一日を占っちゃおう』</FlavourText>
+    <Ability>あなたは自分の山札の上から1枚をクロック置場に置く。そのカードが《スポーツ》のキャラなら、あなたは3枚まで引き、自分の手札を1枚選び、控え室に置く。このカードを思い出にする。</Ability>
+</Card>

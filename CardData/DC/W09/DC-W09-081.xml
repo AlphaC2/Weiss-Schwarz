@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-081</ID>
+    <Name>“雪月花”小恋&amp;杏&amp;茜</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>杏「当たり前よ。ね、茜」茜「うん、見損なわないでよね」</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「“3バカ”杉並＆義之＆渉」があるなら、このカードのパワーを＋2000。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>THEATER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

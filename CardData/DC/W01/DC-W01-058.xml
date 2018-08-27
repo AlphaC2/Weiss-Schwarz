@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-058</ID>
+    <Name>白河</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>頼れよな。これでもお前たちより２歳くらい年は取ってるんだ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「美春」を含むキャラすべてに、パワーを＋500。【自】絆／「ロボ美春」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ロボ美春」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

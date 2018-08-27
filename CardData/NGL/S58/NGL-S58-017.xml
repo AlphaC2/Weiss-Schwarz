@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>NGL-S58-017</ID>
+    <Name>ジャンケン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ただし……俺は、パーしか出さない</FlavourText>
+    <Ability>あなたと相手は＄ゲームをする＄。リプレイ＠＄ゲームをする＄あなたはパーを出すと宣言し、相手と1回ジャンケンする。あなたがパーで勝ったなら、あなたは4枚まで引く。あなたがパーであいこか、グーかチョキで勝ったなら、あなたは2枚まで引く。あなたが負けたか、グーかチョキであいこなら、このカードをクロック置場に置く。（あなたはパー以外を出してもよい）</Ability>
+</Card>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-093</ID>
+    <Name>ホラーは苦手</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10100.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ひっ！</FlavourText>
+    <Ability>【カウンター】あなたはバトルしているキャラを1枚選び、そのターン中、次の能力を与える。『【永】このカードはプレイヤーにダメージを与えることができない。』</Ability>
+</Card>

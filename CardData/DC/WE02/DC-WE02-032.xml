@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-032</ID>
+    <Name>小さな幼なじみ小恋</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10235.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えへへ。また……一緒のクラスだね</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

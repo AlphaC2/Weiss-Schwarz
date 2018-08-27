@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-033</ID>
+    <Name>白河</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……私、歌っていると、周りの事が頭に入らなくなっちゃうんですよね</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、相手は自分の手札を公開してよい。そうしたら、それらのカードにクライマックスがあるなら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-094</ID>
+    <Name>風変わりな子</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まーまー。これで機嫌直したまえよ</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

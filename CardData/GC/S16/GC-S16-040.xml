@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-040</ID>
+    <Name>学園の集</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>僕にはわからないんだ。みんなと何を話したらいいのか</FlavourText>
+    <Ability>【永】他のあなたのキャラが1枚以下なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

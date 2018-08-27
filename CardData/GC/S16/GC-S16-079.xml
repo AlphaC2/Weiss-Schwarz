@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-079</ID>
+    <Name>振袖姿のツグミ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたしにハズカシイことした責任は取ってもらうかんね！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの《葬儀社》のキャラが2枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀1000レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

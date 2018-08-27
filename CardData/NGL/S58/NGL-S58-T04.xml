@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-T04</ID>
+    <Name>戦闘指揮</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10004.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>騎兵2番隊！　ポーンがあけた活路を無駄にするな！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《ゲーム》のキャラの枚数×1000に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-T15</ID>
+    <Name>コミュニケーションエラー</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10015.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>にぃ！</FlavourText>
+    <Ability>【永】このカードの正面のキャラに、『【自】アンコール［あなたの山札の上から1枚をクロック置場に置く］』を与える。【自】バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

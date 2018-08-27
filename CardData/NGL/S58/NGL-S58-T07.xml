@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-T07</ID>
+    <Name>スパイ一掃</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>では行くぞ</FlavourText>
+    <Ability>【永】他のあなたの《ゲーム》のキャラすべてに、パワーを＋1000。【起】[(2)このカードを【レスト】する］あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-069</ID>
+    <Name>かけがえのない仲間</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10074.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『ななかの声が……みんなの演奏が、ずっと聞こえてたよ……』</FlavourText>
+    <Ability>あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

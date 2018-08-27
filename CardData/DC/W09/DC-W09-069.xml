@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-069</ID>
+    <Name>バナナミン美夏</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……ば、ばななみん</FlavourText>
+    <Ability>【永】他のあなたの《バナナ》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MECHA</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

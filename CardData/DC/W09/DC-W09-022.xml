@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W09-022</ID>
+    <Name>最後のお見舞い</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>FIRE</Trigger>
+    <FlavourText>音姫ちゃんと由夢ちゃんのこと、お願いね</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（射＠：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）</Ability>
+</Card>

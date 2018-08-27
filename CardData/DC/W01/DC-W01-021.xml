@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-021</ID>
+    <Name>着ぐるみの中の人</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10022.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>え、これ、その、誰、誰だっけ？</FlavourText>
+    <Ability>あなたは相手のキャラを1枚選び、そのターン中、レベルを-2。</Ability>
+</Card>

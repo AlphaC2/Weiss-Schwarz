@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-054</ID>
+    <Name>エリカ・ムラサキ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まったく。わかってるのかしら、あの超鈍感男はっ</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《生徒会》なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-085</ID>
+    <Name>沢井</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10092.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ご名答。成績も授業態度も悪いのに、空気を読むのだけは得意みたいね</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

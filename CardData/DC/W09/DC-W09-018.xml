@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-018</ID>
+    <Name>体操着のまひる</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あはは。それで息切れしないようにね</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>PARABLE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W09-099</ID>
+    <Name>屋上への招待状</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10137.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>萌「あの、よかったら一緒に食べませんか？」</FlavourText>
+    <Ability>【自】このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+</Card>

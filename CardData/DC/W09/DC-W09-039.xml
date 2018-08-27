@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-039</ID>
+    <Name>料理中の茜</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふふ。茜さんは家庭的な娘なのですよ</FlavourText>
+    <Ability>【起】［このカードを【レスト】する］あなたは自分の山札の上から2枚を、クロック置場に置く。あなたは自分のクロック置場のキャラを1枚選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

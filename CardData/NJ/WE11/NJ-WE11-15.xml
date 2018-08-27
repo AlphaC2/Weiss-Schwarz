@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-15</ID>
+    <Name>安中</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10029.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>まあ、なけなしのお金払っちゃったんだし、やつは持って帰んなきゃね</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

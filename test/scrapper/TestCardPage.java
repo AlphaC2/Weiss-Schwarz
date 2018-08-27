@@ -7,6 +7,7 @@ import io.DriverUtilities;
 
 public class TestCardPage {
 
+	@Ignore
 	@Test
 	public void TestCard(){
 		String url = "https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saekano&CID=10157&MODE=sell";

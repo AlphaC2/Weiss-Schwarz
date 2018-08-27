@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-093</ID>
+    <Name>デート中の麻耶</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10130.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>今日はありがとね</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「お友達」があるなら、あなたは自分の山札の上から4枚を、控え室に置く。それらのカードに《メカ》のキャラがあるなら、あなたは1枚引いてよい。それらのカードに《委員長》のキャラがあるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

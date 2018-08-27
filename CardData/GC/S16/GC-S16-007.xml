@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-007</ID>
+    <Name>恙神</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……たった一人の女をこの手で抱きたい。だから戦っています</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に｢再会の抱擁｣があるなら、次の相手のターンの終わりまで、このカードのパワーを＋2000し、このカードは次の能力を得る。『【永】このカードの正面のキャラのソウルを-1。』【自】このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。【自】【クロック】シフトレベル3（あなたのメインフェイズの始めに、あなたは自分の手札の黄のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

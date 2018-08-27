@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-081</ID>
+    <Name>美夏&amp;麻耶</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10087.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>行く行く。沢井が行くならなおさらだ。美夏は行くぞ。</FlavourText>
+    <Ability>【永】相手のターン中、このカードのパワーを＋1000。【起】［(2)このカードを【レスト】する］あなたは自分のクロックを上から1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>CHAIRMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-101</ID>
+    <Name>異世界からの来訪者</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10128.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『神様』に挑むんだ。正気でやれるか。</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの《ゲーム》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

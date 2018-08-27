@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-T01</ID>
+    <Name>空</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10001.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ああ、やっぱこの格好が一番落ち着く</FlavourText>
+    <Ability>【自】他のあなたのキャラのバトル相手が【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。【起】集中[(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

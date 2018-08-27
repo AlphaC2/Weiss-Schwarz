@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-009</ID>
+    <Name>桜内</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10010.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>こんな能力、別に何かの役に立つわけでもないけどな</FlavourText>
+    <Ability>【永】このカードは、《魔法》のあなたのキャラがいないなら、手札からプレイできない。【永】他の《魔法》のあなたのキャラすべてに、パワーを＋500。【起】［(4)］あなたはレベル2以下の相手の前列のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

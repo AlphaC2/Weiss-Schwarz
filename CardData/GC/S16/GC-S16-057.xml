@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-057</ID>
+    <Name>楪</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私なら…止められる</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】[手札を1枚控え室に置く]このカードがアタックした時、クライマックス置場に｢エウテルペ｣があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

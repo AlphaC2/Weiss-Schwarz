@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>NGL-S58-098</ID>
+    <Name>ようこそ、ゲーマー</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10125.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>BOOK</Trigger>
+    <FlavourText>空「獅子に素手で挑むのは、獅子に任せるよ」</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは1枚引いてよい）</Ability>
+</Card>

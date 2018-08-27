@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-088</ID>
+    <Name>不意打ち</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…………！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の手札を公開してよい。そうしたら、それらのカードにレベル0以下のキャラがないなら、あなたは自分の山札を見て｢学園の集｣を1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置く。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-114</ID>
+    <Name>恋する女の子</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10180.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すごくすごく好きなんだからねっ！</FlavourText>
+    <Ability>【起】[あなたのカード名に「義之」を含むキャラを1枚【レスト】する]そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

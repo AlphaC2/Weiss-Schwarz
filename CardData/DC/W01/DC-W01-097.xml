@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-097</ID>
+    <Name>個人指導</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10104.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>違うってば！そうじゃなくて、こうッ！</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。あなたはバトルしているキャラを1枚選び、そのターン中、ソウルを-1。</Ability>
+</Card>

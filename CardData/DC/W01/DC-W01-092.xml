@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-092</ID>
+    <Name>おねむな萌</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10099.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>くぅ……</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「思い出の……品なんです」があるなら、あなたは1枚引く。【起】［(3)］あなたは2枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

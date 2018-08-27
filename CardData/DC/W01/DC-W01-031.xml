@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-031</ID>
+    <Name>学園のアイドル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10034.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>大好きな人に、膝枕をして上げたいんです</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの１番上にあり、あなたのレベルが2以上なら、緑のあなたのキャラすべてに、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

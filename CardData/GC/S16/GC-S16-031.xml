@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-031</ID>
+    <Name>空を見上げる集</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>その人と心を通わせれば、僕の力も変わっていくんだろうか？</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分のストックの上から1枚を、控え室に置く。【自】このカードがアタックした時、クライマックス置場に｢王の素質｣があるなら、あなたは自分のストックの上から1枚を、手札に戻し、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

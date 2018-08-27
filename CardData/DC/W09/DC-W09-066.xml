@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-066</ID>
+    <Name>決意のエリカ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いいえ……兄さまを、お止めしますわ！</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋2500。【自】［手札かあなたのクライマックス置場の、「真実」を1枚控え室に置く］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置き、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

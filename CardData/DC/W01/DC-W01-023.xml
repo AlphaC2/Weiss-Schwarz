@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W01-023</ID>
+    <Name>存在のなくなる日</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10024.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>WHIRLWIND</Trigger>
+    <FlavourText>大好きなのに……誰よりも大切な人なのに……絶対絶対、離れたくないのにっ……！</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（戻＠：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-E08</ID>
+    <Name>水着のななか&amp;由夢</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext1.0/10008.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ななか「楽しいことはあっという間だね」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、そのターン中、このカードのパワーを＋2000。（クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

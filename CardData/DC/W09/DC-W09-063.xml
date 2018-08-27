@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-063</ID>
+    <Name>お掃除μさん</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10096.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふんふん、ふふん♪</FlavourText>
+    <Ability>【永】他のあなたの《メカ》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

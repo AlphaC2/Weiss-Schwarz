@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-029</ID>
+    <Name>パジャマの茜</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10031.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>そりゃもちろん、『愛してるよ……』に決まってるじゃない！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたのカード名に「小恋」か「杏」を含むキャラがいるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。【起】【カウンター】助太刀2000レベル1［(1)手札のこのカードを控え室に置く］（あなたはフロントアタックされている自分のキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-085</ID>
+    <Name>今井</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まゆきとは抜きつ抜かれつのライバルでーすっ</FlavourText>
+    <Ability>【永】他のあなたの「陸上部のエースまゆき」がいるなら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

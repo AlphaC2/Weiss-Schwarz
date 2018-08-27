@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-062</ID>
+    <Name>旅立つエリカ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>義之は、わたしのモノなんだからね！</FlavourText>
+    <Ability>【永】他のあなたの《王族》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《王族》のキャラなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-003</ID>
+    <Name>音夢&amp;さくら</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>純一「しかし、お前らの兄さんとかお兄ちゃん、ってどうにかならないか？」</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。【自】このカードがアタックした時、あなたのキャラすべてに、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

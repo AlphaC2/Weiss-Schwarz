@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-093</ID>
+    <Name>強い心</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>余計な心配とかしなくていいからね、集！</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは山札の上から1枚を公開する。そのカードのレベルが1以上ならこのカードの下にマーカーとして置いてよい。（そうでないなら元に戻す。クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

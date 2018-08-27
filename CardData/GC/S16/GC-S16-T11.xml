@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-T11</ID>
+    <Name>ダリル・ヤン</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10013.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いい？僕は自分の好きにやる。もしジャマしたら、パパに言いつけるからね</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ARMY</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

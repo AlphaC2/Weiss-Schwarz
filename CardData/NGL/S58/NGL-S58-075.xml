@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>NGL-S58-075</ID>
+    <Name>愚王と呼ばれた男</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>我が孫よ。最弱ゆえに知恵を持って強者と渡り合う。それこそが人類の希望なのぢゃ?なのじゃ?</FlavourText>
+    <Ability>あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。このカードを思い出にする。【永】記憶あなたのターン中、思い出置場にこのカードがあるなら、あなたの《ゲーム》のキャラすべてに、パワーを＋500。</Ability>
+</Card>

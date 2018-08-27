@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-014</ID>
+    <Name>複雑なお年頃</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わ、私がいいたいのは、それだけ……</FlavourText>
+    <Ability>【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1し、ターンの終わりに、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

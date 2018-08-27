@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-086</ID>
+    <Name>しっかり者</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>エンドレイヴは涯がくれた足なの</FlavourText>
+    <Ability>【自】［あなたの控え室のキャラを2枚山札に戻す。その山札をシャッフルする］このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2000。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WHEELCHAIR</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

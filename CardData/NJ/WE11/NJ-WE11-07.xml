@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-07</ID>
+    <Name>桜井先生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10013.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あっ。はい。いませんよ？</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

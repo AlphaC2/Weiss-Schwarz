@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-088</ID>
+    <Name>音楽部の眞子</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10095.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わかんないところがあったら、あたしが教えてあげるから</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

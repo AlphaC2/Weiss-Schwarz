@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-061</ID>
+    <Name>水越</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10066.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>良かったわねー。物分りのいい先生が保健室にいて♪</FlavourText>
+    <Ability>【自】［(1)］このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《メカ》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

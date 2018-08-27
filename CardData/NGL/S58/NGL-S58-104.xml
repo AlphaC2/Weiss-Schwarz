@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-104</ID>
+    <Name>間違った言葉遣い</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10131.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はやく、続けろや、です</FlavourText>
+    <Ability>【永】このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>GAME</Trait>
+        <Trait>WEREBEAST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

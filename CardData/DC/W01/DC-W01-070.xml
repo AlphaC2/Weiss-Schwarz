@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-070</ID>
+    <Name>見事なカウンター</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……痛い</FlavourText>
+    <Ability>あなたは相手に5ダメージを与える。</Ability>
+</Card>

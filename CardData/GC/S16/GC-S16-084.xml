@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-084</ID>
+    <Name>ムードメーカー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10112.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だってこんなご時世だもん。言ったもん勝ちだと違う？</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

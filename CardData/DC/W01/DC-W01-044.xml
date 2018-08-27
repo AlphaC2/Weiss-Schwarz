@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-044</ID>
+    <Name>ミス風見学園コンテスト</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10047.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これより、手芸部主催の“ミス風見学園コンテスト”を実施します！</FlavourText>
+    <Ability>あなたは自分の山札の上から1枚を、ストック置場に置く。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+</Card>

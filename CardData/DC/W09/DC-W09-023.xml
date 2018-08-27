@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>DC-W09-023</ID>
+    <Name>桜の咲く季節に</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ばか、ばかばかばか！　弟くんのばか！寂しかったんだからね！　私をひとりにして！</FlavourText>
+    <Ability>【自】このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。</Ability>
+</Card>

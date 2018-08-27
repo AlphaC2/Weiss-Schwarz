@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-061</ID>
+    <Name>風紀委員</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>兄さんと並んでゆっくり歩くの、何日かぶりだよね</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「たった1つの願い」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

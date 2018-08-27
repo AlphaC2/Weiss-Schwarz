@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-072</ID>
+    <Name>バナナパフェ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10077.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>5</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すっごい、おいしそうですねぇ！</FlavourText>
+    <Ability>あなたは相手の控え室のカードを2枚まで選び、思い出にする。このカードを思い出にする。</Ability>
+</Card>

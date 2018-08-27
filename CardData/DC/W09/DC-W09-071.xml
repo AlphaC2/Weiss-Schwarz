@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W09-071</ID>
+    <Name>咲耶へのプレゼント</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>これ、大事にします</FlavourText>
+    <Ability>【カウンター】あなたは自分の、《メイド》か《ウェイトレス》のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

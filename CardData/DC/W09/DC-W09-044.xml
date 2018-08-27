@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-044</ID>
+    <Name>朝比奈</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ふっふっふー、勝負の世界は甘くないのですよ</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>CHAIRMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

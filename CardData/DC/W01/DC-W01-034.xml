@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-034</ID>
+    <Name>スキーウェアのななか</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10037.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>最初は皆、初心者コースで滑ろうだって</FlavourText>
+    <Ability>【自】［(1)］このカードとバトルしているキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。【起】［(2)］そのターン中、このカードのパワーを＋5000。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

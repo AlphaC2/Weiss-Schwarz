@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-004</ID>
+    <Name>桜の枝を携える少女</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10028.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……ボクはどうしてこんなところにいるのだろう？</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場にカードがあるなら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

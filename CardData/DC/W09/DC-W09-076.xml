@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-076</ID>
+    <Name>鍋パーティ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10110.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>眞子「じゃあ、お姉ちゃん、行こ」</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「屋上への招待状」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《鍋》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

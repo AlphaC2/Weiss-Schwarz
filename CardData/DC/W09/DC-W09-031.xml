@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-031</ID>
+    <Name>料理中の小恋</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、いや。義之の包丁捌きは、いつ見てもすごいなぁって思って</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「信用してるし」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋X。Xは他のあなたの《音楽》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-060</ID>
+    <Name>嘘界=ヴァルツ・誠</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>初めまして。桜満集君。あなたを逮捕します</FlavourText>
+    <Ability>【起】［(1)］あなたは相手の山札の上から1枚を控え室に置き、相手の控え室のカードを1枚選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ARMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

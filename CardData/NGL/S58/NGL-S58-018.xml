@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>NGL-S58-018</ID>
+    <Name>『</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>5</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そろそろ教育してやる。てめぇの弱さを――。</FlavourText>
+    <Ability>【カウンター】あなたの、カード名に「空」を含むキャラと「白」を含むキャラが別々に1枚ずついるなら、あなたは自分のカード名に「ステ」を含むキャラを1枚選び、控え室に置く。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

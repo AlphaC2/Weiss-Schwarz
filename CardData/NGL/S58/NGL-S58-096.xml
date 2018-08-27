@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>NGL-S58-096</ID>
+    <Name>生まれながらの天才</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……にぃ――おぼえた</FlavourText>
+    <Ability>このカードは、あなたのカード名に「白」を含むキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から6枚まで見て、カードを1枚まで選び、ストック置場の上か下に置き、残りのカードを控え室に置く。</Ability>
+</Card>

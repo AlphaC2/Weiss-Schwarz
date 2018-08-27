@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SMP-W60-P02</ID>
+    <Name>“夏休みを忘れた少女”しろは</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/smp/10002.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……ぁ。あの……しろは</FlavourText>
+    <Ability>【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>SUMMER_POCKET</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

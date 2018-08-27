@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-072</ID>
+    <Name>敗者の姿</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……どういう、ことですの？</FlavourText>
+    <Ability>【永】他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、他のあなたの《ゲーム》のキャラが4枚以上なら、あなたは自分の控え室の《ゲーム》のキャラを1枚選び、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-028</ID>
+    <Name>体操着のミキ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何人たりとも私の前を走らせないぞーっ</FlavourText>
+    <Ability>【自】絆／「体操着のまひる」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「体操着のまひる」を1枚選び、手札に戻す）【起】［(1)］あなたは自分の《スポーツ》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>CHAIRMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

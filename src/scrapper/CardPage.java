@@ -2,7 +2,6 @@ package scrapper;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -24,7 +23,6 @@ import org.w3c.dom.Element;
 import io.FileUtilities;
 import model.card.CardType;
 import model.card.Colour;
-import model.card.Trait;
 import model.card.Trigger;
 import model.exceptions.ParseJPException;
 
@@ -45,7 +43,7 @@ public class CardPage {
 	private int power;
 	private int soul;
 	private Trigger[] triggers;
-	private List<Trait> traits = new ArrayList<>();
+	private List<String> traits;
 	private Colour color;
 	private Document doc;
 	private String folder;
@@ -65,8 +63,8 @@ public class CardPage {
 		return color;
 	}
 
-	public final Trait[] getTraits() {
-		return (Trait[]) traits.toArray();
+	public final String[] getTraits() {
+		return (String[]) traits.toArray();
 	}
 
 	private String cardImageURL;
@@ -106,16 +104,13 @@ public class CardPage {
 		try {
 			saveToFile();
 		} catch (ParseJPException e) {
-			String trait = "missing traits.txt";
-			System.out.println(e.getMessage());
-			FileUtilities.appendToFile(trait, e.getMessage());
-			FileUtilities.appendToFile(error, url);
+			FileUtilities.appendToFile(error, "Missing Trait:" + e.getMessage() + url);
+			System.out.println("Missing Trait:" + e.getMessage() + url);
 		} catch (Exception e) {
-			FileUtilities.appendToFile(error, url);
-			
+			FileUtilities.appendToFile(error,"Error parsing: " + url);
+			System.out.println("Error parsing " + url);
 		}
 		
-
 	}
 
 	public String getID() {
@@ -169,9 +164,7 @@ public class CardPage {
 			power = Integer.parseInt(row1.findElement(By.cssSelector("td:nth-child(4)")).getText());
 			soul = Integer.parseInt(row1.findElement(By.cssSelector("td:nth-child(5)")).getText());
 			String traitText = row2.findElement(By.cssSelector("td:nth-child(1)")).getText();
-			for (String trait : traitText.split("・")) {
-				traits.add(Trait.parseString(trait));
-			}
+			traits = FileUtilities.getTraits(traitText);
 		}
 
 		String triggerURL = row1.findElement(By.cssSelector("td:nth-child(6) > img")).getAttribute("src");
@@ -224,8 +217,8 @@ public class CardPage {
 				rootElement.appendChild(characterNode);
 
 				addNode(characterNode,"Power", "" + power);
-				for (Trait trait : traits) {
-					addNode(characterNode,"Trait", trait.toString());
+				for (String trait : traits) {
+					addNode(characterNode,"Trait", trait);
 				}
 				addNode(characterNode,"Soul", "" + soul);
 				

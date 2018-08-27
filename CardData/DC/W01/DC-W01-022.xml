@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-022</ID>
+    <Name>朝倉姉妹のお料理</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10023.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あっ、包丁、そんな風に持っちゃ危ないよ。ちゃんと手を添えて、こう……</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、パワーを＋6000。</Ability>
+</Card>

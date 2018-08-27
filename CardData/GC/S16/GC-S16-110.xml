@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-110</ID>
+    <Name>“運命の邂逅”集&amp;いのり</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10001.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>これは力。人の心を紡いで形となす――“罪の王冠”</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「死にゆくものへ餞を」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

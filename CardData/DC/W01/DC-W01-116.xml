@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-116</ID>
+    <Name>不安な幼なじみ小恋</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10222.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あわわわわわわわわわわわわわわ！！</FlavourText>
+    <Ability>【起】[(1)]あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

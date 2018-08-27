@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-094</ID>
+    <Name>謎の木琴少女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10131.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>こん、かん、きん、とん、ころん</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

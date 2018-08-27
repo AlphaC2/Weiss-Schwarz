@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-091</ID>
+    <Name>“葬儀社”綾瀬</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10119.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>知りたいなら、とりあえず、明日の模擬戦に勝つことね</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WHEELCHAIR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

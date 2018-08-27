@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-019</ID>
+    <Name>物憂げなさくら</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext2.0/10019.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…女の子は桜の木に幸せを願いました</FlavourText>
+    <Ability>【起】[このカードを思い出にする]あなたは自分の山札を見てカード名に「桜」を含むキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

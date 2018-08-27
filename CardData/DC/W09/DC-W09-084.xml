@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-084</ID>
+    <Name>スキーウェアを選ぶ杏</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うん……可愛い。それにする……</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「家族の顔」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>THEATER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

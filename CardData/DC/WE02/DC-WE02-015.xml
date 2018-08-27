@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-015</ID>
+    <Name>ボランティア巫女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext2.0/10015.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>は、恥ずかしいから、あんまり見ないで……</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「委員長の巫女姿」が置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《メカ》のキャラならストック置場に置く。（そうでないなら元に戻す）【起】［(1)このカードを【レスト】する］あなたは自分の山札の上から1枚を公開する。そのカードが《メカ》のキャラなら手札に加える。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

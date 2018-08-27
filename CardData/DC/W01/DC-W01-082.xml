@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-082</ID>
+    <Name>八木ブリッヂ長官</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10089.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>杉並「ブリッヂ長官は、いつも街の平和のためにご尽力されている方なんだぞ？」</FlavourText>
+    <Ability>【永】このカードが《本》か《漫画》のキャラとバトルしているなら、このカードのパワーを＋2000。【自】［このカードを控え室に置く］他のあなたのキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのカードをそのカードがいた枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

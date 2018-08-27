@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>BD-WE31-030</ID>
+    <Name>重なり合う青薔薇</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10042.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>BOOK</Trigger>
+    <FlavourText>友希那「だって、バンドの新衣装のことを考えていたのだから、真剣にならざるを得ないでしょ？」</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは1枚引いてよい）</Ability>
+</Card>

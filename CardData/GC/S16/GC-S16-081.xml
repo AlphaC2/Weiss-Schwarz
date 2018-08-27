@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-081</ID>
+    <Name>オペレーター</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>アヤねえ、接続よろし？</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【自】この能力は1ターンにつき2回まで発動する。他のあなたの《葬儀社》のキャラが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>OPERATOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-102</ID>
+    <Name>決断の時</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10019.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……わかった。僕も一緒に行くよ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。【自】他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FUNERAL_PARLOR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

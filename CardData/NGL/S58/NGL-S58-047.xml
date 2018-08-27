@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>NGL-S58-047</ID>
+    <Name>遠き約束の日</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>クラミー「フィー……もう私に優しくしないで私みたいな奴隷なんかを友達扱いしてたら……」</FlavourText>
+    <Ability>【自】このカードが手札からクライマックス置場に置かれた時、あなたは自分の緑のキャラを2枚まで選び、そのターン中、パワーを＋3000し、ソウルを＋1。</Ability>
+</Card>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W09-045</ID>
+    <Name>夢見ていた情景</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ミキ「ちょ、ちょっとやめてよね、あんたたち……。これだから、似た物カップルってのは」</FlavourText>
+    <Ability>あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。このカードを思い出にする。</Ability>
+</Card>

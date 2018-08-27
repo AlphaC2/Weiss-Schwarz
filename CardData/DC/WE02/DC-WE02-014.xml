@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-014</ID>
+    <Name>星に願う杏</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext2.0/10014.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何を書いたかは……秘密よ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WAFUKU</Trait>
+        <Trait>THEATER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

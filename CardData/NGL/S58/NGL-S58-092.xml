@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NGL-S58-092</ID>
+    <Name>人格崩壊</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10119.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……にぃ……どこぉ……</FlavourText>
+    <Ability>【永】他のあなたの「コミュニケーションエラー空」がいないなら、このカードはアタックできない。【自】［手札の《ゲーム》のキャラを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「コミュニケーションエラー空」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。【自】他のあなたの「コミュニケーションエラー空」が舞台から控え室に置かれた時、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GAME</Trait>
+        <Trait>IMANITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

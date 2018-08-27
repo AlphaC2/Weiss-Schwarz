@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-055</ID>
+    <Name>天枷</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>友達、だろ？</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「美夏の願い」が置かれた時、このカードの下にマーカーがないなら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。【自】［(1)このカードの下のマーカーを1枚控え室に置く］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

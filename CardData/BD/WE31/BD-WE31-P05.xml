@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-P05</ID>
+    <Name>“お揃いの衣装”戸山香澄</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10009.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText/>
+    <Ability>【自】 このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの控え室のイベントの枚数×1500に等しい。 【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>Poppin’Party</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-06</ID>
+    <Name>お調子者</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>じゃあ、写したらすぐ返すね</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［(1)］あなたのクライマックス置場に「時定高校の日常」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻し、自分のキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>NONE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

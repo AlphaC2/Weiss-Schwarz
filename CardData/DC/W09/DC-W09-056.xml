@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W09-056</ID>
+    <Name>ゼンマイ美春</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcpc/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えへへ。先輩。これからも時々美春のねじをまいてくださいね♪</FlavourText>
+    <Ability>【永】このカードはあなたのスタンドフェイズに【スタンド】しない。【自】［あなたのキャラを1枚【レスト】する］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

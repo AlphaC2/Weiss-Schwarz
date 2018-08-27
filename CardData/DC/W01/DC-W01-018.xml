@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>DC-W01-018</ID>
+    <Name>記憶消去</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10019.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>え？あ、あやや……その、ちょっとごめんなさい！</FlavourText>
+    <Ability>相手は自分の手札を1枚選び、控え室に置く。</Ability>
+</Card>

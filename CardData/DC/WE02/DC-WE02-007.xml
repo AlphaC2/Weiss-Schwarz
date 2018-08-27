@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-007</ID>
+    <Name>歌姫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext2.0/10007.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わたしの気持を歌で伝えたいの</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>
