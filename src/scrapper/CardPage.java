@@ -102,16 +102,15 @@ public class CardPage {
 	public CardPage(String url, WebDriver driver) {
 		this.driver = driver;
 		driver.get(url);
+		String error = "errors.txt";
 		try {
 			saveToFile();
 		} catch (ParseJPException e) {
-			String filename = "traits.txt";
+			String trait = "missing traits.txt";
 			System.out.println(e.getMessage());
-			FileUtilities.appendToFile(filename, e.getMessage());
-			String error = "errors.txt";
+			FileUtilities.appendToFile(trait, e.getMessage());
 			FileUtilities.appendToFile(error, url);
 		} catch (Exception e) {
-			String error = "errors.txt";
 			FileUtilities.appendToFile(error, url);
 			
 		}
