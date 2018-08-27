@@ -16,7 +16,7 @@ public class DeckPage {
 
 	public DeckPage(String url) {
 		this.url = url;
-		driver = DriverUtilities.createDriver(true);
+		driver = DriverUtilities.createDriver(false);
 		run();
 		driver.quit();
 	}
@@ -47,7 +47,7 @@ public class DeckPage {
 	}
 
 	private void run() {
-		WebDriver driver = DriverUtilities.createDriver(true);
+		WebDriver driver = DriverUtilities.createDriver(false);
 		driver.get(url);
 		WebElement root = driver.findElement(By.className("card_list_box"));
 		List<WebElement> groups = root.findElements(By.cssSelector("div.group_box > ul.card_list"));

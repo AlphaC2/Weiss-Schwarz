@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>GC-S16-111</ID>
+    <Name>死にゆくものへ餞を</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10002.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>俺たちは淘汰される者に葬送の歌を送り続ける</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、ソウルを＋2。</Ability>
+</Card>

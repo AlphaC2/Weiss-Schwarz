@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>GC-S16-047</ID>
+    <Name>ゲノムレゾナンスゲージ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ツグミ「ぶっちゃけ言えば、ヴォイドの強さを計る装置みたいなものね」</FlavourText>
+    <Ability>あなたは相手のキャラを1枚選び、そのターン中、パワーを-4000。</Ability>
+</Card>

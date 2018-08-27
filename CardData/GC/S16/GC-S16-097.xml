@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>GC-S16-097</ID>
+    <Name>渾身の一撃</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10125.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ミサイルぅぅぅぅ……キイィィィィィィック！</FlavourText>
+    <Ability>あなたは自分の山札を上からX枚まで見て、カードを2枚まで選び、手札に加える。残りのカードを控え室に置く。Xはあなたの《葬儀社》のキャラの枚数に等しい。</Ability>
+</Card>

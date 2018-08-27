@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-03</ID>
+    <Name>長野原</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10089.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゆっこ、おはよー</FlavourText>
+    <Ability>【永】他のあなたの「相生祐子」がいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-22</ID>
+    <Name>はかせの発明品</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10049.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もー。なんでこんなウエポンつけるんですかー</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「なののギミック」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「雨がっぱはかせ」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

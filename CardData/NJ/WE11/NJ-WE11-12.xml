@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-12</ID>
+    <Name>憤慨</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10023.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゆっこ「え？焼きサバでしょ？」みお「焼きそばだよっ!!」</FlavourText>
+    <Ability>【永】このカードの正面のキャラのソウルを＋1。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

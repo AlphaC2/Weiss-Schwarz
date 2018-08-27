@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-05</ID>
+    <Name>ハートブレイク</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>笹原先輩が…先輩が…先輩…先輩…</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「みおの暴走」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは以下の能力のうちあなたが選んだ1つを得る。『【永】このカードのパワーを＋6000し、ソウルを＋1。』『【自】このカードのバトル相手が【リバース】した時、あなたは相手のコスト1以下のキャラを1枚選び、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MANGA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

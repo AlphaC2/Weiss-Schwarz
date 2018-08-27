@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-21</ID>
+    <Name>コスプレ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10047.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちょっと阪本と散歩してくる</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(2)あなたの山札の上から1枚をクロック置場に置く］あなたは自分のカード名に「なの」を含むキャラを1枚選び、そのターン中、《武器》を与え、次の能力を与える。『【永】このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

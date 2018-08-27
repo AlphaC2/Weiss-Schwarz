@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NJ-WE11-25</ID>
+    <Name>東雲</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/njext/10088.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>よーし、じゃあ探しますよー</FlavourText>
+    <Ability>【自】このカードが、手札か山札から舞台に置かれた時、他のあなたの、「はかせ」と「阪本さん」がいるなら、あなたは自分のクロックの上から1枚を、手札に戻してよい。【自】あなたのキャラのトリガーチェックでクライマックスがでた時、次の相手のターンの終わりまで、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MECHA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

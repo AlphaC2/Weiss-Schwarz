@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>GC-S16-046</ID>
+    <Name>後夜祭のステージ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。このカードをストック置場に置く。</Ability>
+</Card>
