@@ -1,5 +1,6 @@
 package model.board;
 
+import model.card.Card;
 import model.card.Character;
 
 public class Stage {
@@ -58,6 +59,15 @@ public class Stage {
 			stage[3].stand();
 		if (stage[4] != null)
 			stage[4].stand();
+	}
+	
+	Character remove(int i){
+		if ( i>= 0 && i <= 4){
+			Character c = stage[i];
+			stage[i] = null;
+			return c;
+		}
+		throw new IllegalArgumentException("Invalid Slot:" + i);
 	}
 	
 	

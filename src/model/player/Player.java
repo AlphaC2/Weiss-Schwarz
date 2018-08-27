@@ -59,7 +59,7 @@ public class Player {
 	}
 	
 	public void displayLibrarySize(){
-		System.out.println(board.getLibrary().size() + " cards in library");
+		System.out.println(board.cardsInLibrary() + " cards in library");
 	}
 	
 	public void endPhase(){
@@ -98,7 +98,7 @@ public class Player {
 	}
 	
 	public int getLibrarySize(){
-		return board.getLibrary().size();
+		return board.cardsInLibrary();
 	}
 	
 	public int getWaitingRoomSize(){

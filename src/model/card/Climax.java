@@ -7,7 +7,7 @@ import model.card.ability.Ability;
 public class Climax extends Card implements Activatable{
 	private Ability ability;
 	
-	public Climax(String name, String cardID, String imagePath, String colour, List<Trigger> triggers,
+	public Climax(String name, String cardID, String imagePath, Colour colour, List<Trigger> triggers,
 			Rarity rarity, String flavourText, Ability ability) {
 		super(name, cardID, imagePath, 0, 0, colour, triggers, rarity, flavourText);
 		this.ability = ability;

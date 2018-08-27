@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
+import model.card.Colour;
 
 public class LevelZone {
 	List<Card> levelzone;
@@ -13,9 +14,9 @@ public class LevelZone {
 		levelzone = new ArrayList<Card>();
 	}
 
-	boolean hasColour(String colour){
+	boolean hasColour(Colour colour){
 		for (Card card : levelzone) {
-			if (card.getColour().equals(colour) && card.isFaceUp())
+			if (card.getColour() == colour && card.isFaceUp())
 				return true;
 		}
 		return false;

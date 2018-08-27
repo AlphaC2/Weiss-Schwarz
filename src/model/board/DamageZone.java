@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
+import model.card.Colour;
 
 public class DamageZone {
 	private List<Card> damage;
@@ -49,9 +50,13 @@ public class DamageZone {
 			System.out.println(card.toShortString());
 		}
 	}
-
-	void takeRefreshDamage(Card refresh) {
-		damage.add(refresh);
-	}
 	
+	boolean hasColour(Colour colour){
+		for (Card card : damage) {
+			if(card.getColour() == colour && card.isFaceUp())
+				return true;
+		}
+		return false;
+	}
+
 }

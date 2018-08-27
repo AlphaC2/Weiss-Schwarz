@@ -13,7 +13,7 @@ public class Character extends Card {
 	private List<Ability> abilities;
 	private Position state;
 		
-	public Character(String name, String cardID, String imagePath, int level, int cost, String colour, List<Trigger> triggers,
+	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
 			Rarity rarity, String flavourText, Trait trait1, Trait trait2, int power, int soul,	List<Ability> abilities) {
 		super(name, cardID, imagePath, level, cost, colour, triggers, rarity, flavourText);
 		this.trait1 = trait1;

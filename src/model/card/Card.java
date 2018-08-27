@@ -9,13 +9,13 @@ public abstract class Card {
 	private String imagePath;
 	private int level;
 	private int cost;
-	private String colour;
+	private Colour colour;
 	private List<Trigger> triggers;
 	private Rarity rarity;
 	private String flavourText;
 	private boolean visible;
 	
-	public Card(String name, String cardID, String imagePath, int level, int cost, String colour, List<Trigger> passedTriggers,
+	public Card(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> passedTriggers,
 			Rarity rarity, String flavourText) {
 		super();
 		this.name = name;
@@ -46,7 +46,7 @@ public abstract class Card {
 		return cost;
 	}
 
-	public String getColour() {
+	public Colour getColour() {
 		return colour;
 	}
 

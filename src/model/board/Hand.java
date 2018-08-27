@@ -1,11 +1,9 @@
 package model.board;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import model.card.Card;
-import model.exceptions.CardNotInZoneException;
 
 public class Hand {
 	private List<Card> cards;

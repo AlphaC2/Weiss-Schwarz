@@ -4,6 +4,8 @@ import java.util.List;
 
 import model.card.Card;
 import model.card.Climax;
+import model.card.Colour;
+import model.card.Character;
 
 public class Board {
 	private Library library;
@@ -30,49 +32,60 @@ public class Board {
 		climaxZone = null;
 	}
 	
-	public Library getLibrary() {
-		return library;
+	/* Display */
+	public void displayHand(){
+		hand.display();
 	}
-	public Stock getStock() {
-		return stock;
+	
+	public void displayStage(){
+		stage.displayStage();
+		if (climaxZone != null)
+			System.out.println("Active Climax: " + climaxZone);
 	}
-	public LevelZone getLevel() {
-		return level;
+	
+	public void displayWaitingRoom(){
+		waitingRoom.displayWaitingRoom();
 	}
-	public DamageZone getDamage() {
-		return damage;
+	
+	public void displayDamage(){
+		damage.display();
 	}
-	public MemoryZone getMemory() {
-		return memory;
-	}
-	public WaitingRoom getWaitingRoom() {
-		return waitingRoom;
-	}
-	public Hand getHand() {
-		return hand;
-	}
-	public Stage getStage() {
-		return stage;
-	}
-	public Climax getClimaxZone() {
-		return climaxZone;
-	}
+	
+	/* Get */
 	public PlayerPhase getPhase(){
 		return phase;
 	}
+	
+	public int cardsInHand(){
+		return hand.size();
+	} 
+	
+	public int cardsInWaitingRoom(){
+		return waitingRoom.size();
+	}
+	
+	public int cardsInLibrary() {
+		return library.size();
+	}
+	
+	public boolean hasColour(Colour colour){
+		return level.hasColour(colour) || damage.hasColour(colour);
+	}
+	
+	public int memorySize(){
+		return memory.size();
+	}
+	
+	/* Actions*/
 	public void playClimax(Climax c){
 		climaxZone = c;
 	}
+	
 	public void endClimax(){
 		if(climaxZone != null){
 			waitingRoom.sendToWaitingRoom(climaxZone);
 			climaxZone = null;
 		}
-	}
-	public void displayStage(){
-		stage.displayStage();
-		if (climaxZone != null)
-			System.out.println("Active Climax: " + climaxZone);
 	}
 	
 	public void standAll(){
@@ -83,21 +96,9 @@ public class Board {
 		waitingRoom.sendToWaitingRoom(c);
 	}
 	
-	public int cardsInWaitingRoom(){
-		return waitingRoom.size();
-	}
-	
-	public void displayWaitingRoom(){
-		waitingRoom.displayWaitingRoom();
-	}
-	
 	public void refreshWaitingRoom(){
 		library.addCards(waitingRoom.refresh());
-		damage.takeRefreshDamage(library.draw());
-	}
-	
-	public int memorySize(){
-		return memory.size();
+		damage.takeDamage(library.draw());
 	}
 	
 	public void draw(){
@@ -111,11 +112,7 @@ public class Board {
 	public void shuffleLibrary(){
 		library.shuffle();
 	}
-	
-	public void displayDamage(){
-		damage.display();
-	}
-	
+
 	public Card chooseFromHand(int i){
 		return hand.get(i);
 	}
@@ -124,11 +121,41 @@ public class Board {
 		waitingRoom.sendToWaitingRoom(hand.get(i));
 	}
 	
-	public int cardsInHand(){
-		return hand.size();
-	} 
-	
-	public void displayHand(){
-		hand.display();
+	public void payCost(){
+		waitingRoom.sendToWaitingRoom(stock.pay());
 	}
+	
+	public void payCost(int i){
+		for (int j = 0; j < i; j++) {
+			payCost();
+		}
+	}
+	
+	public void bounce(int i){
+		hand.add(stage.remove(i));
+	}
+	
+	public void topDeck(int i){
+		library.placeTop(stage.remove(i));
+	}
+	
+	public void kickToClock(int i){
+		damage.takeDamage(stage.remove(i));
+	}
+	
+	public void stockBomb(int i){
+		stock.addStock(stage.remove(i));
+	}
+	
+	public void kickToMemory(int i){
+		memory.sendToMemory(stage.remove(i));
+	}
+	
+	public void encore(int i){
+		Character c = stage.remove(i);
+		waitingRoom.sendToWaitingRoom(c);
+		waitingRoom.salvage(waitingRoom.size() - 1);
+		stage.place(c, Slot.getName(i));
+	}
+	
 }

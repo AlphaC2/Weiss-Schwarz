@@ -12,6 +12,7 @@ import org.w3c.dom.Document;
 import model.card.Card;
 import model.card.Character;
 import model.card.Climax;
+import model.card.Colour;
 import model.card.Event;
 import model.card.Rarity;
 import model.card.Trait;
@@ -37,7 +38,7 @@ public class CardXMLReader {
 			String type = doc.getElementsByTagName("Type").item(0).getTextContent();
 			String cardID = doc.getElementsByTagName("ID").item(0).getTextContent();
 			String name = doc.getElementsByTagName("Name").item(0).getTextContent();
-			String colour = doc.getElementsByTagName("Colour").item(0).getTextContent();
+			Colour colour = Colour.parseString(doc.getElementsByTagName("Colour").item(0).getTextContent());
 			int level = Integer.parseInt(doc.getElementsByTagName("Level").item(0).getTextContent());
 			int cost = Integer.parseInt(doc.getElementsByTagName("Cost").item(0).getTextContent());
 
