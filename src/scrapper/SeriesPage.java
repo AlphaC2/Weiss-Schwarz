@@ -1,6 +1,8 @@
 package scrapper;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,14 +20,19 @@ public class SeriesPage {
 		driver.findElement(By.className("item_single_card")).click();
 		WebElement navbar = driver.findElement(By.className("nav_list_second"));
 		List<WebElement> series = navbar.findElements(By.cssSelector("a[href]"));
-		driver.quit();
+		Set<String> deckURLs = new HashSet<>();
 		for (WebElement serie : series) {
 			String deckURL = serie.getAttribute("href");
-			System.out.println(deckURL);
 			if (!deckURL.endsWith("=smp")){
-				new DeckPage(deckURL);
+				deckURLs.add(deckURL);
 			}
 		}
 		
+		for (String deckURL : deckURLs) {
+			System.out.println();
+			System.out.println("Parsing deck "+deckURL);
+			new DeckPage(deckURL,driver);
+		}
+		driver.quit();
 	}
 }

@@ -1,6 +1,7 @@
 package scrapper;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -13,12 +14,12 @@ public class DeckPage {
 
 	private String url;
 	private WebDriver driver;
+	List<String> cardURLs = new ArrayList<>();
 
-	public DeckPage(String url) {
+	public DeckPage(String url,WebDriver driver) {
 		this.url = url;
-		driver = DriverUtilities.createDriver(false);
+		this.driver = driver;
 		run();
-		driver.quit();
 	}
 	
 	private boolean fileExist(String ID){
@@ -35,26 +36,28 @@ public class DeckPage {
 	}
 
 	private void processGroup(WebElement group) {
+		
 		for (WebElement webElement : group.findElements(By.className("card_unit"))) {
 			String headline = webElement.findElement(By.className("headline")).getText();
 			char lastChar = headline.charAt(headline.length() - 1);
 			if (lastChar >= '0' && lastChar <= '9' && !fileExist(headline)) {
 				String url = webElement.findElement(By.cssSelector("div.image_box > a")).getAttribute("href");
-				new CardPage(url,this.driver);
+				cardURLs.add(url);
 			}
-
 		}
+		
 	}
 
 	private void run() {
-		WebDriver driver = DriverUtilities.createDriver(false);
 		driver.get(url);
 		WebElement root = driver.findElement(By.className("card_list_box"));
 		List<WebElement> groups = root.findElements(By.cssSelector("div.group_box > ul.card_list"));
 		for (WebElement group : groups) {
 			processGroup(group);
 		}
-		driver.quit();
+		for (String cardURL : cardURLs) {
+			new CardPage(cardURL,driver);
+		}
 	}
 
 }

@@ -31,13 +31,9 @@ public class FileUtilities {
 	
 	public static List<String> getTraits(String traitText){
 		List<String> traits = new ArrayList<>();;
-		String splitChar=null;
-		if (traitText.contains("･")){
-			splitChar = "･";
-		} else if (traitText.contains("・")){
+		String splitChar="･";
+		if (traitText.contains("・")){
 			splitChar = "・";
-		} else {
-			throw new ParseJPException(traitText);
 		}
 		for (String trait : traitText.split(splitChar)) {
 			String translatedTrait = translateJP(trait);
