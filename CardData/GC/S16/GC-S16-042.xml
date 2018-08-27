@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-042</ID>
+    <Name>寒川</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10070.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いいじゃんか颯汰。やれるっていうんだし</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

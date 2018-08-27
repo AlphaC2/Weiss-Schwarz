@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GC-S16-026</ID>
+    <Name>魅惑のビーチ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ほら、はやくっ</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、パワーを＋500。【自】あなたのメインフェイズの始めに、あなたは自分の山札を上から1枚見て、山札の上か下に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

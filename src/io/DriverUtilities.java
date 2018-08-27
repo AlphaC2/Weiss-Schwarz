@@ -3,6 +3,7 @@ package io;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -18,13 +19,23 @@ public class DriverUtilities {
 		case "Google Chrome":
 			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
-			if (headless)
-			options.addArguments("--headless");
+			if (headless) {
+				 options.addArguments("--headless");
+			}
+			HashMap<String,Object> prefs = new HashMap<>();
+			prefs.put("profile.managed_default_content_settings.images", 2);
+			options.setExperimentalOption("prefs", prefs);
 			return new ChromeDriver(options);
-			
+
 		case "FireFox":
-			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-			return new FirefoxDriver();
+			/*System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+			FirefoxOptions options2 = new FirefoxOptions();
+			if (headless) {
+				 options2.addArguments("--headless");
+			}
+			options2.addPreference("permissions.default.image", 2);*/
+			FirefoxDriver driver = new FirefoxDriver();
+			return driver;
 		}
 		return null;
 	}

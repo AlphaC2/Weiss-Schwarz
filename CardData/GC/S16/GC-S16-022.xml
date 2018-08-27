@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>GC-S16-022</ID>
+    <Name>崩壊の危機</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ツグミ「あんたのせいよ、集。あんたが来ないから。ヴォイドを使わないから！」</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの《葬儀社》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+</Card>

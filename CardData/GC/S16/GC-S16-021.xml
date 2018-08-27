@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>GC-S16-021</ID>
+    <Name>ロストクリスマス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gc/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いやぁぁぁぁぁぁぁぁぁぁぁぁーーッッ！！</FlavourText>
+    <Ability>あなたは相手の前列のレベル2以下のキャラを1枚選び、ストック置場に置く。</Ability>
+</Card>
