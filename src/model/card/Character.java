@@ -5,8 +5,8 @@ import java.util.List;
 import model.card.ability.Ability;
 
 public class Character extends Card {
-	private Trait trait1;
-	private Trait trait2;
+	private String trait1;
+	private String trait2;
 	private int basePower;
 	private int currentPower;
 	private int soul;
@@ -14,7 +14,7 @@ public class Character extends Card {
 	private Position state;
 		
 	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
-			Rarity rarity, String flavourText, Trait trait1, Trait trait2, int power, int soul,	List<Ability> abilities) {
+			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul,	List<Ability> abilities) {
 		super(name, cardID, imagePath, level, cost, colour, triggers, rarity, flavourText);
 		this.trait1 = trait1;
 		this.trait2 = trait2;
@@ -24,11 +24,11 @@ public class Character extends Card {
 		this.abilities = abilities;
 	}
 
-	public Trait getTrait1() {
+	public String getTrait1() {
 		return trait1;
 	}
 
-	public Trait getTrait2() {
+	public String getTrait2() {
 		return trait2;
 	}
 

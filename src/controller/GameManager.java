@@ -1,8 +1,8 @@
 package controller;
 
 import io.ReadUserInput;
-import model.board.PlayerPhase;
 import model.player.Player;
+import model.player.PlayerPhase;
 
 public class GameManager {
 	ReadUserInput reader;
@@ -25,9 +25,9 @@ public class GameManager {
 		player1.endPhase();
 		player1.draw(4);
 		player2.draw(5);
-		
+
 		while (alive) {
-			System.out.println(currentPlayer.getName() + ":"+ currentPlayer.getPhase() + "Phase");
+			System.out.println(currentPlayer.getName() + ":" + currentPlayer.getPhase() + "Phase");
 			switch (currentPlayer.getPhase()) {
 			case STAND:
 				currentPlayer.getBoard().standAll();
@@ -43,24 +43,24 @@ public class GameManager {
 			case MAIN:
 				mainPhase();
 				break;
-				
+
 			case CLIMAX:
-				//System.out.println("CLIMAX");
+				// System.out.println("CLIMAX");
 				climax();
 				break;
-				
+
 			case ATTACK:
 				break;
-				
+
 			case ENCORE:
 				break;
-				
+
 			case END:
 				break;
-				
+
 			default:
-				//System.out.println("Phase:" + currentPlayer.getPhase());
-				
+				// System.out.println("Phase:" + currentPlayer.getPhase());
+
 				break;
 			}
 			endPhase();
@@ -68,9 +68,9 @@ public class GameManager {
 	}
 
 	private void mainPhase() {
-		String input; 
+		String input;
 		// Main Phase
-		while(true){
+		while (true) {
 			input = reader.getLine().toLowerCase().trim();
 			switch (input) {
 			// Display
@@ -89,7 +89,7 @@ public class GameManager {
 			case "display damage":
 				currentPlayer.displayDamage();
 				break;
-				
+
 			// Always available actions
 			case "end phase":
 				endPhase();
@@ -97,13 +97,13 @@ public class GameManager {
 				return;
 			case "quit":
 				break;
-	
+
 			// Phase Specific Actions
 			case "draw":
 				currentPlayer.draw();
 				currentPlayer.displayHand();
 				break;
-	
+
 			// Other Actions
 			case "discard":
 				int index = chooseCardFromHand();
@@ -111,11 +111,11 @@ public class GameManager {
 					currentPlayer.discard(index);
 				}
 				break;
-	
+
 			case "shuffle":
 				currentPlayer.shuffleLibrary();
 				break;
-	
+
 			default:
 				System.out.println("Invalid Command");
 				break;
@@ -131,7 +131,7 @@ public class GameManager {
 			int index = chooseCardFromHand();
 			if (index != -1) {
 				currentPlayer.playClimax(index);
-				
+
 				return;
 			}
 		}
@@ -169,7 +169,7 @@ public class GameManager {
 		currentPlayer.displayHand();
 		System.out.println("Which card?");
 		int i = reader.getInt();
-		//System.out.println("IPNUT:" + i);
+		// System.out.println("IPNUT:" + i);
 		if (i >= 0 && i < currentPlayer.getHandSize()) {
 			return i;
 		} else {
@@ -178,4 +178,13 @@ public class GameManager {
 		}
 	}
 
+	private int chooseCard(int max) {
+		int i;
+		System.out.println("Which card?");
+		while(true){
+			i = reader.getInt();
+			if (i >= 0 && i < max) 
+				return i;
+		}
+	}
 }

@@ -1,13 +1,13 @@
 package model.card.ability;
 
-import model.board.Board;
-import model.board.PlayerPhase;
+import model.player.Player;
+import model.player.PlayerPhase;
 
 public class Conditions{
-	private Board player;
-	private Board opponent;
+	private Player player;
+	private Player opponent;
 	
-	public Conditions(Board player, Board opponent){
+	public Conditions(Player player, Player opponent){
 		this.player = player;
 		this.opponent = opponent;
 	}

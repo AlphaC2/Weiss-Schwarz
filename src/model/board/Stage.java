@@ -1,6 +1,5 @@
 package model.board;
 
-import model.card.Card;
 import model.card.Character;
 
 public class Stage {
@@ -70,5 +69,12 @@ public class Stage {
 		throw new IllegalArgumentException("Invalid Slot:" + i);
 	}
 	
+	int cardsOnStage(){
+		int total = 0;
+		for (int i = 0; i < stage.length; i++) {
+			if (stage[i] != null) total++;
+		}
+		return total;
+	}
 	
 }

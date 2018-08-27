@@ -17,7 +17,6 @@ public class Board {
 	private Hand hand;
 	private Stage stage;
 	private Climax climaxZone;
-	private PlayerPhase phase;
 	
 	public Board(List<Card> deck) {
 		super();
@@ -52,10 +51,6 @@ public class Board {
 	}
 	
 	/* Get */
-	public PlayerPhase getPhase(){
-		return phase;
-	}
-	
 	public int cardsInHand(){
 		return hand.size();
 	} 

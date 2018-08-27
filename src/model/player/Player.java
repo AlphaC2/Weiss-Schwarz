@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.board.Board;
-import model.board.PlayerPhase;
 import model.card.Card;
 import model.card.Climax;
 
@@ -29,17 +28,14 @@ public class Player {
 	}
 
 	public void setOpponent(Player opponent) {
-		this.opponent = opponent;
+		if (this.opponent == null && opponent != null)
+			this.opponent = opponent;
 	}
 
 	public Board getBoard() {
 		return board;
 	}
 
-	public void setDeck(List<Card> deck) {
-		this.deck = new ArrayList<Card>(deck);
-	}
-	
 	public void draw(){
 		board.draw();
 	}
@@ -55,7 +51,7 @@ public class Player {
 	}
 	
 	public void discardCard(int i){
-		board.sendToWaitingRoom(board.chooseFromHand(i));
+		board.discard(i);
 	}
 	
 	public void displayLibrarySize(){
@@ -131,6 +127,10 @@ public class Player {
 			board.playClimax((Climax) c);
 		else
 			System.out.println("Not a climax");
+	}
+
+	public int memorySize() {
+		return board.memorySize();
 	}
 
 }

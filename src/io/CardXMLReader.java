@@ -53,8 +53,8 @@ public class CardXMLReader {
 			switch (type){
 				case "Character":
 					int power = Integer.parseInt(doc.getElementsByTagName("Power").item(0).getTextContent());
-					Trait trait1 = Trait.parseString(doc.getElementsByTagName("Trait").item(0).getTextContent());
-					Trait trait2 = Trait.parseString(doc.getElementsByTagName("Trait").item(1).getTextContent());
+					String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent();
+					String trait2 = doc.getElementsByTagName("Trait").item(1).getTextContent();
 					int soul = Integer.parseInt(doc.getElementsByTagName("Soul").item(0).getTextContent());
 					List<Ability> abilities = new ArrayList<Ability>();
 					
