@@ -1,10 +1,12 @@
 package model.board;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
 import model.card.Climax;
 import model.card.Colour;
+import model.card.Trigger;
 import model.card.Character;
 
 public class Board {
@@ -71,6 +73,10 @@ public class Board {
 		return memory.size();
 	}
 	
+	public int damageSize(){
+		return damage.size();
+	}
+	
 	/* Actions*/
 	public void playClimax(Climax c){
 		climaxZone = c;
@@ -93,7 +99,7 @@ public class Board {
 	
 	public void refreshWaitingRoom(){
 		library.addCards(waitingRoom.refresh());
-		damage.takeDamage(library.draw());
+		damage.takeNoCancelDamage(library.draw());
 	}
 	
 	public void draw(){
@@ -126,31 +132,91 @@ public class Board {
 		}
 	}
 	
-	public void bounce(int i){
-		hand.add(stage.remove(i));
+	public void bounce(Slot s){
+		hand.add(stage.remove(s));
 	}
 	
-	public void topDeck(int i){
-		library.placeTop(stage.remove(i));
+	public void topDeck(Slot s){
+		library.placeTop(stage.remove(s));
 	}
 	
-	public void kickToClock(int i){
-		damage.takeDamage(stage.remove(i));
+	public void kickToClock(Slot s){
+		damage.takeNoCancelDamage(stage.remove(s));
 	}
 	
-	public void stockBomb(int i){
-		stock.addStock(stage.remove(i));
+	public void stockBomb(Slot s){
+		stock.addStock(stage.remove(s));
 	}
 	
-	public void kickToMemory(int i){
-		memory.sendToMemory(stage.remove(i));
+	public void kickToMemory(Slot s){
+		memory.sendToMemory(stage.remove(s));
 	}
 	
-	public void encore(int i){
-		Character c = stage.remove(i);
+	public void encore(Slot s){
+		Character c = stage.remove(s);
 		waitingRoom.sendToWaitingRoom(c);
 		waitingRoom.salvage(waitingRoom.size() - 1);
-		stage.place(c, Slot.getName(i));
+		stage.place(c, s);
+	}
+	
+	public void play(int i, Slot s){
+		Card c = hand.get(i);
+		if (c instanceof Character){
+			if (stage.hasChar(s))
+				waitingRoom.sendToWaitingRoom(stage.remove(s));
+			stage.place((Character) c, s);
+		}else{
+			hand.add(c);
+			System.out.println("Card is not a Character");
+		}
+	}
+
+	public void clock(int index) {
+		damage.takeNoCancelDamage(hand.get(index));
+	}
+
+	public List<Trigger> trigger() {
+		Card trigger = library.draw();
+		System.out.println("Triggerd:" + trigger);
+		List<Trigger> triggers = trigger.getTrigger();
+		stock.addStock(trigger);
+		return triggers;
+	}
+
+	public boolean declareAttack(Slot s) {
+		if (s == Slot.REAR_LEFT || s== Slot.REAR_RIGHT){
+			System.out.println("Cannot attack from back row");
+			return false;
+		}
+		return stage.rest(s);
+	}
+
+	public int getSoul(Slot s){
+		Character c = stage.getCard(s);
+		if (c == null)
+			return 0;
+		else
+			return c.getSoul();
+	}
+
+	public List<Card> takeDamage(int amount) {
+		List<Card> cards = new ArrayList<Card>();
+		Card c;
+		for (int i = 0; i < amount; i++) {
+			c = library.draw();
+			cards.add(c);
+			if (c instanceof Climax){
+				waitingRoom.sendToWaitingRoom(cards);
+				return null;
+			}
+		}
+		return damage.takeDamage(cards);
+		
+	}
+
+	public void levelUp(List<Card> cards, int index) {
+		level.levelUp(cards.remove(index));
+		waitingRoom.sendToWaitingRoom(cards);
 	}
 	
 }

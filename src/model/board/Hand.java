@@ -18,6 +18,8 @@ public class Hand {
 	}
 	
 	void display(){
+		if (cards.size() == 0)
+			System.out.println("Empty");
 		for (int i = 0; i < cards.size(); i++) {
 			System.out.println(i + "-" + cards.get(i).toShortString());
 		}

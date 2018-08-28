@@ -5,12 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ReadUserInput {
-	//private Scanner sc;
 	private BufferedReader r;
 	
 	public ReadUserInput() {
 		super();
-		//sc = new Scanner(System.in);
 		r = new BufferedReader(new InputStreamReader(System.in));
 	}
 
@@ -22,9 +20,10 @@ public class ReadUserInput {
 				return Integer.parseInt(r.readLine());
 			} catch (IOException e) {
 				e.printStackTrace();
+			} catch (NumberFormatException e){
+				System.out.println("Not a number");
 			}
 		}
-		//return sc.nextInt();
 	}
 	
 	public String getLine(){
@@ -36,7 +35,6 @@ public class ReadUserInput {
 				e.printStackTrace();
 			}
 		}
-		//return sc.nextLine();
 	}
 	
 }

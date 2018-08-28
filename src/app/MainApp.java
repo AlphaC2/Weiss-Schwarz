@@ -15,12 +15,12 @@ public class MainApp {
 	public static void main(String[] args) {
 		//readCard();
 		List<Card> deck = buildDeck();
+		List<Card> deck2 = buildDeck();
 		Player p1 = new Player(deck, "P1");
-		Player p2 = new Player(deck, "P2");
+		Player p2 = new Player(deck2, "P2");
 		GameManager gm = new GameManager(p1, p2);
 		gm.gameLoop();
 		System.out.println("Game Ended");
-		
 	}
 	
 	public static List<Card> buildDeck(){
@@ -38,8 +38,6 @@ public class MainApp {
 		} catch (InvalidDeckException e) {
 			e.printStackTrace();
 		}
-		
-		
 		
 		return null;
 	}

@@ -3,11 +3,16 @@ package model.player;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.ReadUserInput;
 import model.board.Board;
+import model.board.Slot;
 import model.card.Card;
 import model.card.Climax;
+import model.card.Trigger;
+import model.card.ability.Abilities;
 
 public class Player {
+	ReadUserInput reader;
 	List<Card> deck;
 	Board board;
 	Player opponent;
@@ -16,6 +21,7 @@ public class Player {
 	
 	public Player(List<Card> deck, String name) {
 		super();
+		reader = new ReadUserInput();
 		this.deck = new ArrayList<Card>(deck);
 		board = new Board(this.deck);
 		opponent = null;
@@ -30,10 +36,6 @@ public class Player {
 	public void setOpponent(Player opponent) {
 		if (this.opponent == null && opponent != null)
 			this.opponent = opponent;
-	}
-
-	public Board getBoard() {
-		return board;
 	}
 
 	public void draw(){
@@ -66,6 +68,7 @@ public class Player {
 		case MAIN: phase = PlayerPhase.CLIMAX; break;
 		case CLIMAX: phase = PlayerPhase.ATTACK; board.endClimax();	break;
 		case ATTACK: phase = PlayerPhase.ENCORE; break;
+		case ATTACK_DECLARATION: phase = PlayerPhase.ENCORE; break;
 		case ENCORE: phase = PlayerPhase.END; break;
 		case END: phase = PlayerPhase.OPPONENTS_TURN; break;
 		case OPPONENTS_TURN: phase = PlayerPhase.DRAW; break;
@@ -80,7 +83,7 @@ public class Player {
 			case TRIGGER: phase = PlayerPhase.COUNTER; break;
 			case COUNTER: phase = PlayerPhase.DAMAGE; break;
 			case DAMAGE: phase = PlayerPhase.END_OF_ATTACK; break;
-			case END_OF_ATTACK: phase = PlayerPhase.ATTACK; break;
+			case END_OF_ATTACK: phase = PlayerPhase.ATTACK_DECLARATION; break;
 			default: break;
 		}
 	}
@@ -133,4 +136,70 @@ public class Player {
 		return board.memorySize();
 	}
 
+	public void displayStage() {
+		board.displayStage();
+	}
+
+	public void playCharacter(int cardIndex, Slot slot) {
+		board.play(cardIndex, slot);
+	}
+
+	public void clock(int index) {
+		board.clock(index);
+	}
+
+	public void trigger() {
+		List<Trigger> triggers = board.trigger();
+		//Activate triggers
+		for (Trigger trigger : triggers) {
+			Abilities.trigger(trigger);
+		}
+	}
+
+	public boolean declareAttack(Slot s) {
+		return board.declareAttack(s);
+	}
+
+	public void standAll() {
+		board.standAll();
+	}
+
+	public int getSoul(Slot s){
+		return board.getSoul(s);
+	}
+
+	public void takeDamage(int damage) {
+		List<Card> cards = board.takeDamage(damage);
+		if(cards != null){
+			System.out.println("Level Up");
+			for (Card card : cards) {
+				System.out.println(cards.indexOf(card) + " - " + card.toShortString());
+			}
+			int index = chooseCard(cards.size());
+			board.levelUp(cards, index);
+		}
+		
+		
+	}
+
+	public Slot chooseSlot(){
+		displayStage();
+		return Slot.getName(chooseCard(5));
+	}
+	
+	public int chooseCard(int max) {
+		int i;
+		System.out.println("Which card?");
+		while(true){
+			i = reader.getInt();
+			if (i >= 0 && i < max) 
+				return i;
+		}
+	}
+	
+	public int chooseCardFromHand() {
+		displayHand();
+		return chooseCard(getHandSize());
+	}
+	
 }

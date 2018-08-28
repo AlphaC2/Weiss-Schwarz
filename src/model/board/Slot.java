@@ -13,4 +13,15 @@ public enum Slot {
 		default: throw new IllegalArgumentException("Invalid Slot:" + i);
 		}
 	}
+	
+	public static int getIndex(Slot s){
+		switch(s){
+		case FRONT_LEFT: 	return 0;
+		case FRONT_CENTER: 	return 1;
+		case FRONT_RIGHT:	return 2;
+		case REAR_LEFT: 	return 3;
+		case REAR_RIGHT: 	return 4;
+		default: throw new IllegalArgumentException("Invalid Slot:" + s);
+		}
+	}
 }

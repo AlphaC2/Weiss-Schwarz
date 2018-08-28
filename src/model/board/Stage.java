@@ -1,6 +1,7 @@
 package model.board;
 
 import model.card.Character;
+import model.card.Position;
 
 public class Stage {
 	private Character[] stage;
@@ -14,37 +15,24 @@ public class Stage {
 	 * */
 	
 	Character getSlot(Slot slot){
-		switch(slot){
-			case FRONT_LEFT: return stage[0];
-			case FRONT_CENTER: return stage[1];
-			case FRONT_RIGHT: return stage[2];
-			case REAR_LEFT: return stage[3];
-			case REAR_RIGHT: return stage[4];
-			default: return null;
-		}
+		int i = Slot.getIndex(slot);
+		return stage[i];
 	}
 	
 	void place(Character c, Slot slot){
-		switch(slot){
-			case FRONT_LEFT: stage[0] = c;
-			case FRONT_CENTER: stage[1] = c;
-			case FRONT_RIGHT: stage[2] = c;
-			case REAR_LEFT: stage[3] = c;
-			case REAR_RIGHT: stage[4] = c;
-		}
+		c.flipFaceUp();
+		c.stand();
+		int i = Slot.getIndex(slot);
+		stage[i] = c;
 	}
 	
 	void displayStage(){
-		if (stage[0] != null)
-			System.out.println("Front Left:" + stage[0]);
-		if (stage[1] != null)
-			System.out.println("Front Center:" + stage[1]);
-		if (stage[2] != null)
-			System.out.println("Front Right:" + stage[2]);
-		if (stage[3] != null)
-			System.out.println("Rear Left:" + stage[3]);
-		if (stage[4] != null)
-			System.out.println("Rear Right:" + stage[4]);
+		for (int i = 0; i < 5; i++) {
+			if (stage[i] == null)
+				System.out.println(i + " - " + Slot.getName(i) + ":");
+			else
+				System.out.println(i + " - " + Slot.getName(i) + ":" + stage[i].toString());
+		}
 	}
 
 	void standAll() {
@@ -60,13 +48,12 @@ public class Stage {
 			stage[4].stand();
 	}
 	
-	Character remove(int i){
-		if ( i>= 0 && i <= 4){
-			Character c = stage[i];
-			stage[i] = null;
-			return c;
-		}
-		throw new IllegalArgumentException("Invalid Slot:" + i);
+	Character remove(Slot s){
+		int index = Slot.getIndex(s);
+		Character c = stage[index];
+		stage[index] = null;
+		return c;
+		
 	}
 	
 	int cardsOnStage(){
@@ -75,6 +62,32 @@ public class Stage {
 			if (stage[i] != null) total++;
 		}
 		return total;
+	}
+	
+	boolean hasChar(Slot s){
+		return stage[Slot.getIndex(s)] != null;
+	}
+	
+	boolean rest(Slot s){
+		int index = Slot.getIndex(s);
+		if (stage[index] == null){
+			System.out.println("No Character in slot");
+			return false;
+		}else if(stage[index].getState() != Position.STANDING){
+			System.out.println("Character not Standing:Unable to attack");
+			return false;
+		}else{
+			stage[index].rest();
+			return true;
+		}
+	}
+
+	public Character getCard(Slot s){
+		int index = Slot.getIndex(s);
+		if (stage[index] != null){
+			return stage[index];
+		}
+		return null;
 	}
 	
 }

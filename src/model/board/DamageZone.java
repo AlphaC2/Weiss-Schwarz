@@ -14,11 +14,14 @@ public class DamageZone {
 		damage = new ArrayList<Card>();
 	}	
 	
-	void takeDamage(Card c){
-		damage.add(c);
+	List<Card> takeDamage(List<Card> cards){
+		for (Card card : cards) {
+			damage.add(card);			
+		}
+		return levelUp();
 	}
 	
-	Card getTop(){
+	Card getBottom(){
 		if (damage.size() > 0){
 			return damage.get(damage.size());
 		}else
@@ -34,20 +37,22 @@ public class DamageZone {
 			return null;
 	}
 	
-	Card getLevelCard(int i){
-		Card c = damage.remove(i);
-		return c;
-	}
-	
 	List<Card> levelUp(){
-		List<Card> result = new ArrayList<Card>(damage);
-		damage.clear();
-		return result;
+		if (damage.size() >= 7){
+			List<Card> result = new ArrayList<Card>();
+			for (int i = 0; i < 7; i++) {
+				result.add(damage.remove(0));
+			}
+			return result;
+		}
+		else return null;
 	}
 	
 	void display(){
+		if (damage.size() == 0)
+			System.out.println("Empty");
 		for (Card card : damage) {
-			System.out.println(card.toShortString());
+			System.out.println(damage.indexOf(card) + " - " + card.toShortString());
 		}
 	}
 	
@@ -57,6 +62,14 @@ public class DamageZone {
 				return true;
 		}
 		return false;
+	}
+
+	public void takeNoCancelDamage(Card card) {
+		damage.add(card);
+	}
+
+	public int size() {
+		return damage.size();
 	}
 
 }

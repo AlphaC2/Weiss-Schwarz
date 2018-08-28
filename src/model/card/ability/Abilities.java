@@ -1,5 +1,7 @@
 package model.card.ability;
 
+import model.card.Trigger;
+
 public class Abilities {
 	public class bounce extends Ability{
 
@@ -9,6 +11,10 @@ public class Abilities {
 			// TODO Auto-generated method stub
 			
 		};
+	}
+
+	public static void trigger(Trigger trigger) {
+		
 	}
 	
 }

@@ -18,7 +18,7 @@ public enum Trigger {
 			return new Trigger[] {SOUL,FIRE};
 		case "icon_tri_G.png":
 		case "icon_tri_1G.png":
-			return new Trigger[] { SOUL, PANTS};
+			return new Trigger[] {SOUL, PANTS};
 		case "icon_tri_1H.png":
 			return new Trigger[] {SOUL, STANDBY};
 		case "icon_tri_B.png":
@@ -29,11 +29,6 @@ public enum Trigger {
 			return new Trigger[] {BOOK};
 		case "icon_tri_F.png":
 			return new Trigger[] {GOLDBAR};
-
-	
-		
-
-			
 		default: throw new IllegalArgumentException(url);
 		}
 	}
@@ -64,7 +59,6 @@ public enum Trigger {
 		case "standby":
 			return STANDBY;
 		default: throw new IllegalArgumentException();
-
 		}
 	}
 }
