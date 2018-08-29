@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
+import model.card.Character;
 
 public class WaitingRoom {
 	private List<Card> cards;
@@ -46,6 +47,10 @@ public class WaitingRoom {
 		for (int i = 0; i < cards.size(); i++) {
 			System.out.println(i + "-" + cards.get(i).toShortString());
 		}
+	}
+
+	public void salvage(Character current) {
+		cards.remove(current);
 	}
 	
 }

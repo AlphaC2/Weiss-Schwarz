@@ -1,9 +1,11 @@
 package controller;
 
 import io.ReadUserInput;
+import model.card.Character;
 import model.board.Slot;
 import model.player.Player;
 import model.player.PlayerPhase;
+
 
 public class GameManager {
 	ReadUserInput reader;
@@ -20,6 +22,8 @@ public class GameManager {
 		player2 = p2;
 		currentPlayer = player1;
 		currentOpponent = player2;
+		player1.setOpponent(p2);
+		player2.setOpponent(p1);
 	}
 
 	public void gameLoop() {
@@ -56,6 +60,7 @@ public class GameManager {
 				break;
 
 			case ENCORE:
+				encore();
 				break;
 
 			case END:
@@ -67,6 +72,11 @@ public class GameManager {
 			}
 			endPhase();
 		}
+	}
+
+	private void encore() {
+		currentPlayer.encore();
+		currentOpponent.encore();
 	}
 
 	private void mainPhase() {
@@ -98,6 +108,14 @@ public class GameManager {
 			
 			case "display stage":
 				currentPlayer.displayStage();
+				break;
+				
+			case "display level":
+				currentPlayer.displayLevel();
+				break;
+				
+			case "display stock":
+				currentPlayer.displayStock();
 				break;
 				
 			// Always available actions
@@ -143,6 +161,9 @@ public class GameManager {
 	private void attack() {
 		String input;
 		Slot s = null;
+		Slot across = null;
+		Character attacking = null;
+		Character defending = null;
 		Boolean declared;
 		//Beginning of Attack Phase
 		currentPlayer.nextStep();
@@ -156,11 +177,15 @@ public class GameManager {
 				if (!input.trim().toLowerCase().equals("y")){
 					return;
 				}
-				System.out.println("Chose a character to attack with");
-				s = Slot.getName(reader.getInt());
+				System.out.println("Choose a character to attack with");
+				s = Slot.getName(reader.getInt(5));
 				declared = currentPlayer.declareAttack(s);
 			}
 			System.out.println(currentPlayer.getPhase());
+			across = Slot.getAcross(s);
+			currentPlayer.nextStep();
+			attacking = currentPlayer.getCharacter(s);
+			defending = currentOpponent.getCharacter(across);
 			currentPlayer.nextStep();
 
 			//Trigger
@@ -175,14 +200,27 @@ public class GameManager {
 			//Damage
 			System.out.println(currentPlayer.getPhase());
 			int amount = currentPlayer.getSoul(s);
+			if (defending == null)
+				amount++;
 			System.out.println("Deal " + amount + " damage to opponent");
 			currentOpponent.takeDamage(	amount );
 			currentPlayer.nextStep();
 
 			//End of Attack
 			System.out.println(currentPlayer.getPhase());
-			currentPlayer.nextStep();
-
+			if(defending != null){
+				if (attacking.getCurrentPower() > defending.getCurrentPower()){
+					defending.reverse();
+				}else if(attacking.getCurrentPower() < defending.getCurrentPower()){
+					attacking.reverse();
+				}else if(attacking.getCurrentPower() == defending.getCurrentPower()){
+					defending.reverse();
+					attacking.reverse();
+				}else{
+					throw new IllegalStateException("End of Attack step, should be unreachable code");
+				}
+			}
+			
 			//Attack
 		}
 	}

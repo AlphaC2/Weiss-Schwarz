@@ -47,5 +47,13 @@ public class LevelZone {
 		c.flipFaceUp();
 		levelzone.add(c);
 	}
+
+	public void display() {
+		if (levelzone.size() == 0)
+			System.out.println("Empty");
+		for (Card card : levelzone) {
+			System.out.println(card.toShortString());
+		}
+	}
 	
 }

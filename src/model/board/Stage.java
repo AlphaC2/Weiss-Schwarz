@@ -1,5 +1,8 @@
 package model.board;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import model.card.Character;
 import model.card.Position;
 
@@ -27,7 +30,7 @@ public class Stage {
 	}
 	
 	void displayStage(){
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < stage.length; i++) {
 			if (stage[i] == null)
 				System.out.println(i + " - " + Slot.getName(i) + ":");
 			else
@@ -88,6 +91,24 @@ public class Stage {
 			return stage[index];
 		}
 		return null;
+	}
+	
+	public Slot getSlot(Character c){
+		for (int i = 0; i < stage.length; i++) {
+			if (stage[i] != null && stage[i].equals(c))
+				return Slot.getName(i);
+		}
+		System.out.println("Character not on Stage");
+		return null;
+	}
+
+	public List<Character> getReversed() {
+		List<Character> result = new ArrayList<Character>();
+		for (int i = 0; i < stage.length; i++) {
+			if (stage[i] != null && stage[i].getState() == Position.REVERSED)
+				result.add(stage[i]);
+		}
+		return result;
 	}
 	
 }

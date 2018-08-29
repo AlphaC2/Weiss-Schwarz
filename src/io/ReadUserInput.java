@@ -12,7 +12,17 @@ public class ReadUserInput {
 		r = new BufferedReader(new InputStreamReader(System.in));
 	}
 
-
+	public int getInt(int max){
+		int n;
+		while(true){
+			n = getInt();
+			if (n >= 0 && n < max)
+				return n;
+			else
+				System.out.println("Out of Range");
+		}
+	}
+	
 	public int getInt(){
 		System.out.println("Enter a number:");
 		while(true){

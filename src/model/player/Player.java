@@ -1,12 +1,14 @@
 package model.player;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import io.ReadUserInput;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;
+import model.card.Character;
 import model.card.Climax;
 import model.card.Trigger;
 import model.card.ability.Abilities;
@@ -71,7 +73,7 @@ public class Player {
 		case ATTACK_DECLARATION: phase = PlayerPhase.ENCORE; break;
 		case ENCORE: phase = PlayerPhase.END; break;
 		case END: phase = PlayerPhase.OPPONENTS_TURN; break;
-		case OPPONENTS_TURN: phase = PlayerPhase.DRAW; break;
+		case OPPONENTS_TURN: phase = PlayerPhase.STAND; break;
 		default: break;
 		}
 	}
@@ -171,7 +173,7 @@ public class Player {
 	public void takeDamage(int damage) {
 		List<Card> cards = board.takeDamage(damage);
 		if(cards != null){
-			System.out.println("Level Up");
+			System.out.println(name + " Leveled Up");
 			for (Card card : cards) {
 				System.out.println(cards.indexOf(card) + " - " + card.toShortString());
 			}
@@ -188,18 +190,53 @@ public class Player {
 	}
 	
 	public int chooseCard(int max) {
-		int i;
 		System.out.println("Which card?");
-		while(true){
-			i = reader.getInt();
-			if (i >= 0 && i < max) 
-				return i;
-		}
+		return reader.getInt(max);
 	}
 	
 	public int chooseCardFromHand() {
 		displayHand();
 		return chooseCard(getHandSize());
+	}
+
+	public void encore() {
+		List<Character> dead = board.getReversed();
+		Iterator<Character> iterator = dead.iterator();
+		Character current;
+		String input;
+		Slot s;
+		while(iterator.hasNext()){
+			current = iterator.next();
+			s = board.getSlot(current);
+			board.sendToWaitingRoom(current);
+			board.remove(s);
+			
+			System.out.println(name + " Encore:" + current.toShortString() + "?(y/n)");
+			input = reader.getLine();
+			if (input.trim().toLowerCase().equals("y")){
+				if (board.payCost(3)){
+					board.salvage(current);
+					board.play(current, s);
+					System.out.println(current.toShortString() + " encored");
+					
+				}else{
+					System.out.println("Not enough stock to encore");
+				}
+			}
+			
+		}
+	}
+
+	public Character getCharacter(Slot s) {
+		return board.getCharacter(s);
+	}
+
+	public void displayLevel() {
+		board.displayLevel();
+	}
+
+	public void displayStock() {
+		board.displayStock();
 	}
 	
 }

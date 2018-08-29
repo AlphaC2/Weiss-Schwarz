@@ -24,4 +24,14 @@ public enum Slot {
 		default: throw new IllegalArgumentException("Invalid Slot:" + s);
 		}
 	}
+	
+	public static Slot getAcross(Slot s){
+		switch(s){
+		case FRONT_LEFT: 	return FRONT_RIGHT;
+		case FRONT_CENTER: 	return FRONT_CENTER;
+		case FRONT_RIGHT:	return FRONT_LEFT;
+		default: throw new IllegalArgumentException("Invalid Slot:" + s);
+		}
+		
+	}
 }

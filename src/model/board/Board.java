@@ -122,13 +122,13 @@ public class Board {
 		waitingRoom.sendToWaitingRoom(hand.get(i));
 	}
 	
-	public void payCost(){
-		waitingRoom.sendToWaitingRoom(stock.pay());
-	}
-	
-	public void payCost(int i){
-		for (int j = 0; j < i; j++) {
-			payCost();
+	public boolean payCost(int i){
+		List<Card> cards = stock.pay(i);
+		if (cards == null)
+			return false;
+		else{
+			waitingRoom.sendToWaitingRoom(cards);
+			return true;
 		}
 	}
 	
@@ -170,7 +170,17 @@ public class Board {
 			System.out.println("Card is not a Character");
 		}
 	}
+	
+	public void remove(Slot s){
+		stage.remove(s);
+	}
 
+	public void play(Character current, Slot s) {
+		if (stage.hasChar(s))
+			waitingRoom.sendToWaitingRoom(stage.remove(s));
+		stage.place(current, s);
+	}
+	
 	public void clock(int index) {
 		damage.takeNoCancelDamage(hand.get(index));
 	}
@@ -218,5 +228,29 @@ public class Board {
 		level.levelUp(cards.remove(index));
 		waitingRoom.sendToWaitingRoom(cards);
 	}
+
+	public Character getCharacter(Slot s) {
+		return stage.getCard(s);
+	}
+
+	public void displayLevel() {
+		level.display();
+	}
+
+	public List<Character> getReversed() {
+		return stage.getReversed();
+	}
+
+	public void salvage(Character current) {
+		waitingRoom.salvage(current);
+	}
 	
+	public Slot getSlot(Character c){
+		return stage.getSlot(c);
+	}
+
+	public void displayStock() {
+		stock.display();
+	}
+
 }
