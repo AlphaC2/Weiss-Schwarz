@@ -14,6 +14,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,6 +26,7 @@ import model.card.CardType;
 import model.card.Colour;
 import model.card.Trigger;
 import model.exceptions.ParseJPException;
+import util.Util;
 
 public class CardPage {
 
@@ -47,7 +49,9 @@ public class CardPage {
 	private Colour color;
 	private Document doc;
 	private String folder;
-	
+
+	private final static Logger log = Logger.getLogger(CardPage.class);
+
 	public final String getFlavourText() {
 		return flavourText;
 	}
@@ -59,6 +63,7 @@ public class CardPage {
 	private String flavourText;
 	private String abilityJP;
 	private File f;
+
 	public final Colour getColor() {
 		return color;
 	}
@@ -100,17 +105,16 @@ public class CardPage {
 	public CardPage(String url, WebDriver driver) {
 		this.driver = driver;
 		driver.get(url);
-		String error = "errors.txt";
 		try {
 			saveToFile();
 		} catch (ParseJPException e) {
-			FileUtilities.appendToFile(error, "Missing Trait:" + e.getMessage() + url);
-			System.out.println("Missing Trait:" + e.getMessage() + url);
+			log.error(e.getMessage() + url);
+			log.error(Util.formatStackTrace(e));
 		} catch (Exception e) {
-			FileUtilities.appendToFile(error,"Error parsing: " + url);
-			System.out.println("Error parsing " + url);
+			log.error("Error parsing: " + url);
+			log.error(Util.formatStackTrace(e));
 		}
-		
+
 	}
 
 	public String getID() {
@@ -123,17 +127,19 @@ public class CardPage {
 	}
 
 	private void saveToFile() {
+		
 		ID = driver.findElement(By.cssSelector("div.information_box > table.heading > tbody > tr.headline.gr_bg > th"))
 				.getText();
-		System.out.println(ID);
 		String setID = ID.split("-")[0];
 		folder = "CardData/" + setID;
 		ID = ID.replace("/", "-");
 		String filename = folder + "/" +ID + ".xml";
 		f = new File(filename);
 		if (f.exists()){
-			System.out.println(ID + " skipped");
+			log.debug("Skipped card "+ ID);
 			return;
+		} else {
+			log.debug("Parsing card " + ID);
 		}
 		
 		
@@ -154,15 +160,31 @@ public class CardPage {
 		WebElement row1 = table.findElement(By.cssSelector("tr:nth-child(2)"));
 		WebElement row2 = table.findElement(By.cssSelector("tr:nth-child(4)"));
 		String typeJP = row1.findElement(By.cssSelector("td:nth-child(1)")).getText();
-		cardType = CardType.parseJP(typeJP);
+		String powerText = row1.findElement(By.cssSelector("td:nth-child(4)")).getText();
+		String soulText = row1.findElement(By.cssSelector("td:nth-child(5)")).getText();
+		String levelText = row1.findElement(By.cssSelector("td:nth-child(2)")).getText();
+		String costText = row1.findElement(By.cssSelector("td:nth-child(3)")).getText();
+		
+		// Attempt to determine the card type based on other fields
+		if (typeJP.isEmpty()){
+			if (levelText.equals("-") || costText.equals("-")){
+				cardType = CardType.CLIMAX;
+			}else if (powerText.equals("-") || soulText.equals("-")){
+				cardType = CardType.EVENT;
+			} else {
+				cardType = CardType.CHARACTER;
+			}
+		} else {
+			cardType = CardType.parseJP(typeJP);
+		}
 
 		if (cardType != CardType.CLIMAX) {
-			level = Integer.parseInt(row1.findElement(By.cssSelector("td:nth-child(2)")).getText());
-			cost = Integer.parseInt(row1.findElement(By.cssSelector("td:nth-child(3)")).getText());
+			level = Integer.parseInt(levelText);
+			cost = Integer.parseInt(costText);
 		}
 		if (cardType == CardType.CHARACTER) {
-			power = Integer.parseInt(row1.findElement(By.cssSelector("td:nth-child(4)")).getText());
-			soul = Integer.parseInt(row1.findElement(By.cssSelector("td:nth-child(5)")).getText());
+			power = Integer.parseInt(powerText);
+			soul = Integer.parseInt(soulText);
 			String traitText = row2.findElement(By.cssSelector("td:nth-child(1)")).getText();
 			traits = FileUtilities.getTraits(traitText);
 		}
@@ -170,7 +192,7 @@ public class CardPage {
 		String triggerURL = row1.findElement(By.cssSelector("td:nth-child(6) > img")).getAttribute("src");
 		triggers = Trigger.parseImage(triggerURL);
 
-		String colorText = row2.findElement(By.cssSelector("td:nth-child(2)")).getText();
+		String colorText = row2.findElement(By.cssSelector("td:nth-child(2)")).getText().trim();
 		color = Colour.parseString(colorText);
 		flavourText = driver
 				.findElement(By.cssSelector("div.information_box > table:nth-child(3) > tbody > tr:nth-child(2) > td"))
@@ -188,7 +210,7 @@ public class CardPage {
 	}
 
 	public void writeToXML() {
-		
+
 		try {
 
 			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
@@ -200,30 +222,30 @@ public class CardPage {
 			doc.appendChild(rootElement);
 
 			addNode(rootElement, "Type", cardType.toString());
-			addNode(rootElement,"ID", ID);
-			addNode(rootElement,"Name", name);
-			addNode(rootElement,"Rarity", rarity);
-			addNode(rootElement,"ImageURL", cardImageURL);
-			addNode(rootElement,"Colour", color.toString());
-			addNode(rootElement,"Level", "" + level);
-			addNode(rootElement,"Cost", "" + cost);
+			addNode(rootElement, "ID", ID);
+			addNode(rootElement, "Name", name);
+			addNode(rootElement, "Rarity", rarity);
+			addNode(rootElement, "ImageURL", cardImageURL);
+			addNode(rootElement, "Colour", color.toString());
+			addNode(rootElement, "Level", "" + level);
+			addNode(rootElement, "Cost", "" + cost);
 			for (Trigger trigger : triggers) {
-				addNode(rootElement,"Trigger", trigger.toString());
+				addNode(rootElement, "Trigger", trigger.toString());
 			}
-			addNode(rootElement,"FlavourText", flavourText);
-			addNode(rootElement,"Ability", abilityJP);
+			addNode(rootElement, "FlavourText", flavourText);
+			addNode(rootElement, "Ability", abilityJP);
 			if (cardType == CardType.CHARACTER) {
 				Element characterNode = doc.createElement("Character");
 				rootElement.appendChild(characterNode);
 
-				addNode(characterNode,"Power", "" + power);
+				addNode(characterNode, "Power", "" + power);
 				for (String trait : traits) {
-					addNode(characterNode,"Trait", trait);
+					addNode(characterNode, "Trait", trait);
 				}
-				addNode(characterNode,"Soul", "" + soul);
-				
+				addNode(characterNode, "Soul", "" + soul);
+
 			}
-			
+
 			// write the content into xml file
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();

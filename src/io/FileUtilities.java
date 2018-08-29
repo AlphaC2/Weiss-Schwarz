@@ -4,49 +4,47 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
 
 import model.exceptions.ParseJPException;
 
 public class FileUtilities {
 	
-
-	public static void appendToFile(String filename, String s) {
-		try {
-			new File(filename).createNewFile();
-			String text = System.lineSeparator() + s;
-			for (String line : Files.readAllLines(Paths.get(filename))) {
-				if (line.equals(s)){
-					return;
-				}
-			}
-			
-			Files.write(Paths.get(filename), text.getBytes(), StandardOpenOption.APPEND);
-		} catch (IOException e2) {
-			e2.printStackTrace();
-		}
-	}
-	
 	public static List<String> getTraits(String traitText){
+
+		
 		List<String> traits = new ArrayList<>();;
 		String splitChar="･";
 		if (traitText.contains("・")){
 			splitChar = "・";
 		}
-		for (String trait : traitText.split(splitChar)) {
-			String translatedTrait = translateJP(trait);
-			traits.add(translatedTrait);
+		
+		if (StringUtils.countMatches(traitText, splitChar)>1){
+			int index = traitText.lastIndexOf(splitChar);
+			String trait1 = traitText.substring(0,index);
+			String trait2 = traitText.substring(index+1,traitText.length());
+			traits.add(trait1);
+			traits.add(trait2);
+		} else {
+			for (String trait : traitText.split(splitChar)) {
+				if (!trait.equals("-")){
+					String translatedTrait = translateJP(trait);
+					traits.add(translatedTrait);
+				}
+			}
 		}
-		if (traits.contains(null)){
-			throw new ParseJPException(traitText);
+		
+		if (traits.contains(null) || traits.contains("")){
+			throw new ParseJPException("Missing Trait " + traitText);
 		}
 		return traits;
 	}
 	
 	public static String translateJP(String trait){
-	
+		trait = trait.trim();
 		String filename = "traits.txt";
 		try {
 			new File(filename).createNewFile();

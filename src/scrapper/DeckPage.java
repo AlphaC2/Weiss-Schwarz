@@ -4,17 +4,18 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import io.DriverUtilities;
 
 public class DeckPage {
 
 	private String url;
 	private WebDriver driver;
 	List<String> cardURLs = new ArrayList<>();
+	
+	private final static Logger log = Logger.getLogger(DeckPage.class);
 
 	public DeckPage(String url,WebDriver driver) {
 		this.url = url;
@@ -29,7 +30,7 @@ public class DeckPage {
 		String filename = folder + "/" +ID + ".xml";
 		File f = new File(filename);
 		if (f.exists()){
-			System.out.println(ID + " skipped");
+			log.debug(ID + " skipped");
 			return true;
 		}
 		return false;

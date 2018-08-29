@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +14,8 @@ import io.DriverUtilities;
 public class SeriesPage {
 	
 	private static String url = "https://yuyu-tei.jp/game_ws/sell/sell_price.php";
-	
+	private final static Logger log = Logger.getLogger(DeckPage.class);
+
 	public static void run() {
 		WebDriver driver = DriverUtilities.createDriver(false);
 		driver.get(url);
@@ -29,8 +31,7 @@ public class SeriesPage {
 		}
 		
 		for (String deckURL : deckURLs) {
-			System.out.println();
-			System.out.println("Parsing deck "+deckURL);
+			log.info("Parsing deck "+deckURL);
 			new DeckPage(deckURL,driver);
 		}
 		driver.quit();
