@@ -1,10 +1,13 @@
 package model.player;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import io.ReadUserInput;
+import command.Command;
+import command.DisplayHand;
+import controller.PlayerController;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;
@@ -14,21 +17,25 @@ import model.card.Trigger;
 import model.card.ability.Abilities;
 
 public class Player {
-	ReadUserInput reader;
 	List<Card> deck;
 	Board board;
 	Player opponent;
 	PlayerPhase phase;
 	String name;
+	PlayerController controller;
+	List<Command> commands = new ArrayList<>();
+
+	public Player(String name, PlayerController controller) {
+		this.name = name;
+		opponent = null;
+		this.controller = controller;
+		phase = PlayerPhase.OPPONENTS_TURN;
+		commands.add(new DisplayHand());
+	}
 	
-	public Player(List<Card> deck, String name) {
-		super();
-		reader = new ReadUserInput();
+	public void setDeck(List<Card> deck){
 		this.deck = new ArrayList<Card>(deck);
 		board = new Board(this.deck);
-		opponent = null;
-		phase = PlayerPhase.OPPONENTS_TURN;
-		this.name = name;
 	}
 
 	public Player getOpponent() {
@@ -54,12 +61,12 @@ public class Player {
 		board.displayHand();
 	}
 	
-	public void discardCard(int i){
-		board.discard(i);
+	public void discardCard(Card c){
+		board.discard(c);
 	}
 	
 	public void displayLibrarySize(){
-		System.out.println(board.cardsInLibrary() + " cards in library");
+		controller.log(board.cardsInLibrary() + " cards in library");
 	}
 	
 	public void endPhase(){
@@ -106,8 +113,8 @@ public class Player {
 		return board.cardsInWaitingRoom();
 	}
 	
-	public void discard(int i){
-		board.discard(i);
+	public void discard(Card c){
+		board.discard(c);
 	}
 	
 	public void shuffleLibrary(){
@@ -126,12 +133,18 @@ public class Player {
 		board.displayDamage();
 	}
 
-	public void playClimax(int index) {
-		Card c = board.chooseFromHand(index);
-		if (c instanceof Climax)
-			board.playClimax((Climax) c);
-		else
-			System.out.println("Not a climax");
+	public void playClimax() {
+		displayHand();
+		boolean choice = controller.getChoice("Play a Climax");
+		if (choice) {
+			Card card = chooseCardFromHand();
+			if (card instanceof Climax){
+				board.playClimax((Climax) card);
+				return;
+			} else {
+				controller.log("Not a climax");
+			}
+		}
 	}
 
 	public int memorySize() {
@@ -142,12 +155,12 @@ public class Player {
 		board.displayStage();
 	}
 
-	public void playCharacter(int cardIndex, Slot slot) {
-		board.play(cardIndex, slot);
+	public void playCharacter(Card card, Slot slot) {
+		board.play(card, slot);
 	}
 
-	public void clock(int index) {
-		board.clock(index);
+	public void clock(Card c) {
+		board.clock(c);
 	}
 
 	public void trigger() {
@@ -173,54 +186,41 @@ public class Player {
 	public void takeDamage(int damage) {
 		List<Card> cards = board.takeDamage(damage);
 		if(cards != null){
-			System.out.println(name + " Leveled Up");
-			for (Card card : cards) {
-				System.out.println(cards.indexOf(card) + " - " + card.toShortString());
-			}
-			int index = chooseCard(cards.size());
-			board.levelUp(cards, index);
+			controller.log(name + " Leveled Up");
+			Card chosen = controller.getChoice(name + " choose a card to level up", cards);
+			board.levelUp(cards, chosen);
 		}
 		
 		
 	}
 
 	public Slot chooseSlot(){
-		displayStage();
-		return Slot.getName(chooseCard(5));
+		return controller.getChoice("Choose Slot", Arrays.asList(Slot.values()));
 	}
 	
-	public int chooseCard(int max) {
-		System.out.println("Which card?");
-		return reader.getInt(max);
-	}
-	
-	public int chooseCardFromHand() {
-		displayHand();
-		return chooseCard(getHandSize());
+	public Card chooseCardFromHand() {
+		return controller.getChoice("Which card?", board.getHand());
 	}
 
 	public void encore() {
 		List<Character> dead = board.getReversed();
 		Iterator<Character> iterator = dead.iterator();
 		Character current;
-		String input;
 		Slot s;
 		while(iterator.hasNext()){
 			current = iterator.next();
 			s = board.getSlot(current);
 			board.sendToWaitingRoom(current);
 			board.remove(s);
-			
-			System.out.println(name + " Encore:" + current.toShortString() + "?(y/n)");
-			input = reader.getLine();
-			if (input.trim().toLowerCase().equals("y")){
+			boolean choice = controller.getChoice(name + " Encore:" + current.toShortString() + "?(y/n)");
+			if (choice){
 				if (board.payCost(3)){
 					board.salvage(current);
 					board.play(current, s);
-					System.out.println(current.toShortString() + " encored");
+					controller.log(current.toShortString() + " encored");
 					
 				}else{
-					System.out.println("Not enough stock to encore");
+					controller.log("Not enough stock to encore");
 				}
 			}
 			
@@ -237,6 +237,88 @@ public class Player {
 
 	public void displayStock() {
 		board.displayStock();
+	}
+	
+	public void clock() {
+		displayHand();
+		boolean clock = controller.getChoice("Clock?");
+		if (clock) {
+			Card c = chooseCardFromHand();
+			clock(c);
+			draw(2);
+			return;
+		}
+	}
+	
+	public void attack() {
+		Slot s = null;
+		Slot across = null;
+		Character attacking = null;
+		Character defending = null;
+		Boolean declared;
+		//Beginning of Attack Phase
+		nextStep();
+		while(true){
+			declared = false;
+			while(!declared){
+				//Attack Declaration
+				displayStage();
+				boolean attack = controller.getChoice("Declare an attack");
+				if (!attack){
+					return;
+				}
+				
+				Character c = controller.getChoice("Choose a character to attack with", board.getStanding());
+				s = board.getSlot(c);
+				declared = declareAttack(s);
+			}
+			controller.log(getPhase());
+			across = Slot.getAcross(s);
+			nextStep();
+			attacking = getCharacter(s);
+			defending = opponent.getCharacter(across);
+			nextStep();
+
+			//Trigger
+			trigger();
+			controller.log(getPhase());
+			nextStep();
+
+			//Counter
+			controller.log(getPhase());
+			nextStep();
+
+			//Damage
+			controller.log(getPhase());
+			int amount = getSoul(s);
+			if (defending == null)
+				amount++;
+			controller.log("Deal " + amount + " damage to opponent");
+			opponent.takeDamage(	amount );
+			nextStep();
+
+			//End of Attack
+			controller.log(getPhase());
+			if(defending != null){
+				if (attacking.getCurrentPower() > defending.getCurrentPower()){
+					defending.reverse();
+				}else if(attacking.getCurrentPower() < defending.getCurrentPower()){
+					attacking.reverse();
+				}else if(attacking.getCurrentPower() == defending.getCurrentPower()){
+					defending.reverse();
+					attacking.reverse();
+				}else{
+					throw new IllegalStateException("End of Attack step, should be unreachable code");
+				}
+			}
+			
+			//Attack
+		}
+	}
+
+	public void executeCommand() {
+		Command cmd = controller.getChoice("Enter command", commands);
+		cmd.execute(controller, opponent.controller);
 	}
 	
 }

@@ -10,6 +10,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 
 import model.card.Card;
+import model.card.CardType;
 import model.card.Character;
 import model.card.Climax;
 import model.card.Colour;
@@ -29,12 +30,13 @@ public class CardXMLReader {
 		Card c = null;
 		try {
 			File fXmlFile = new File(filePath);
+			//System.out.println(fXmlFile.exists());
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(fXmlFile);
 			doc.getDocumentElement().normalize();
 			
-			String type = doc.getElementsByTagName("Type").item(0).getTextContent();
+			CardType type = CardType.parse(doc.getElementsByTagName("Type").item(0).getTextContent());
 			String cardID = doc.getElementsByTagName("ID").item(0).getTextContent();
 			String name = doc.getElementsByTagName("Name").item(0).getTextContent();
 			Colour colour = Colour.parseString(doc.getElementsByTagName("Colour").item(0).getTextContent());
@@ -48,9 +50,8 @@ public class CardXMLReader {
 			//triggers.add(Trigger.parseString(doc.getElementsByTagName("Trigger").item(1).getTextContent()));
 			
 			Rarity rarity= Rarity.parseString(doc.getElementsByTagName("Rarity").item(0).getTextContent());
-			
 			switch (type){
-				case "Character":
+				case CHARACTER:
 					int power = Integer.parseInt(doc.getElementsByTagName("Power").item(0).getTextContent());
 					String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent();
 					String trait2 = doc.getElementsByTagName("Trait").item(1).getTextContent();
@@ -60,11 +61,11 @@ public class CardXMLReader {
 					c = new Character(name, cardID, "", level, cost, colour, triggers, rarity, "", trait1, trait2, power, soul, abilities);
 					
 					break;
-				case "Climax":
+				case CLIMAX:
 					Ability cAbility = null;
 					c = new Climax(name, cardID, "", colour, triggers, rarity, "", cAbility);
 					break;
-				case "Event":
+				case EVENT:
 					Ability eAbility = null;
 					c = new Event(name, cardID, "", level, cost, colour, triggers, rarity, "", eAbility);
 					

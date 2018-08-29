@@ -6,6 +6,7 @@ import java.util.List;
 import model.card.Card;
 import model.card.Climax;
 import model.card.Colour;
+import model.card.Position;
 import model.card.Trigger;
 import model.card.Character;
 
@@ -114,12 +115,12 @@ public class Board {
 		library.shuffle();
 	}
 
-	public Card chooseFromHand(int i){
-		return hand.get(i);
+	public Card chooseFromHand(Card c){
+		return hand.get(c);
 	}
 	
-	public void discard(int i){
-		waitingRoom.sendToWaitingRoom(hand.get(i));
+	public void discard(Card c){
+		waitingRoom.sendToWaitingRoom(hand.get(c));
 	}
 	
 	public boolean payCost(int i){
@@ -159,8 +160,7 @@ public class Board {
 		stage.place(c, s);
 	}
 	
-	public void play(int i, Slot s){
-		Card c = hand.get(i);
+	public void play(Card c, Slot s){
 		if (c instanceof Character){
 			if (stage.hasChar(s))
 				waitingRoom.sendToWaitingRoom(stage.remove(s));
@@ -181,8 +181,8 @@ public class Board {
 		stage.place(current, s);
 	}
 	
-	public void clock(int index) {
-		damage.takeNoCancelDamage(hand.get(index));
+	public void clock(Card c) {
+		damage.takeNoCancelDamage(hand.get(c));
 	}
 
 	public List<Trigger> trigger() {
@@ -224,8 +224,9 @@ public class Board {
 		
 	}
 
-	public void levelUp(List<Card> cards, int index) {
-		level.levelUp(cards.remove(index));
+	public void levelUp(List<Card> cards, Card card) {
+		level.levelUp(card);
+		cards.remove(card);
 		waitingRoom.sendToWaitingRoom(cards);
 	}
 
@@ -238,7 +239,7 @@ public class Board {
 	}
 
 	public List<Character> getReversed() {
-		return stage.getReversed();
+		return stage.getCharacterByPosition(Position.REVERSED);
 	}
 
 	public void salvage(Character current) {
@@ -251,6 +252,14 @@ public class Board {
 
 	public void displayStock() {
 		stock.display();
+	}
+	
+	public List<Card> getHand(){
+		return hand.getHand();
+	}
+	
+	public List<Character> getStanding(){
+		return stage.getCharacterByPosition(Position.STANDING);
 	}
 
 }

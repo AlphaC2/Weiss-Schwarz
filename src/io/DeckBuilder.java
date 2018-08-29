@@ -1,6 +1,7 @@
 package io;
 
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +43,7 @@ public class DeckBuilder {
 				if (sections.length != 3)
 					throw new InvalidIDException();
 				int quantity = Integer.parseInt(element.getElementsByTagName("Quantity").item(0).getTextContent());
-				String filepath = Directories.homeDirectory + "\\CardData\\"+ sections[0] + "\\" + sections[1] + "\\" + id+".xml";
+				String filepath = "CardData\\"+ sections[0] + "\\" + sections[1] + "\\" + id+".xml";
 				
 				for (int j = 0; j < quantity; j++) {
 					Card c = reader.read(filepath);
@@ -73,11 +74,31 @@ public class DeckBuilder {
 		int climax = 0;
 		
 		for (Card card : deck) {
+			//System.out.println(card);
 			if(card instanceof Climax)
 				climax++;
 		}
 		
 		return climax == 8;
+	}
+
+	public List<String> getDecks() {
+		File f = new File("Decks");
+		List<String> outputs = new ArrayList<>();
+		FilenameFilter xmlFilter = new FilenameFilter() {
+			public boolean accept(File dir, String name) {
+				String lowercaseName = name.toLowerCase();
+				if (lowercaseName.endsWith(".xml")) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+		};
+		for (File file : f.listFiles(xmlFilter)) {
+			outputs.add(file.getName().replace(".xml", ""));
+		}
+		return outputs;
 	}
 	
 }

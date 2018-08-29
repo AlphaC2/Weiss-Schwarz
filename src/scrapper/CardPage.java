@@ -175,7 +175,7 @@ public class CardPage {
 				cardType = CardType.CHARACTER;
 			}
 		} else {
-			cardType = CardType.parseJP(typeJP);
+			cardType = CardType.parse(typeJP);
 		}
 
 		if (cardType != CardType.CLIMAX) {

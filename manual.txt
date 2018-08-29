@@ -1,0 +1,1917 @@
+2018-08-29 12:59:52 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivesimext
+2018-08-29 13:00:01 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=irspset
+2018-08-29 13:00:07 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=irspset&CID=10002&MODE=sell
+2018-08-29 13:00:07 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:00:07 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=imc
+2018-08-29 13:00:25 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=imd
+2018-08-29 13:00:32 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=aw
+2018-08-29 13:00:41 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nsm1m2
+2018-08-29 13:00:51 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=charlotte1.0
+2018-08-29 13:01:01 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=clpset
+2018-08-29 13:01:03 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ab
+2018-08-29 13:01:12 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lbe
+2018-08-29 13:01:20 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=vvs
+2018-08-29 13:01:31 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10056&MODE=sell
+2018-08-29 13:01:31 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:33 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10090&MODE=sell
+2018-08-29 13:01:33 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:35 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10122&MODE=sell
+2018-08-29 13:01:35 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:37 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10123&MODE=sell
+2018-08-29 13:01:37 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:38 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10057&MODE=sell
+2018-08-29 13:01:38 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:40 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10091&MODE=sell
+2018-08-29 13:01:40 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:43 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10124&MODE=sell
+2018-08-29 13:01:43 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:45 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=vvs&CID=10155&MODE=sell
+2018-08-29 13:01:45 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:01:45 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kancolleext
+2018-08-29 13:01:52 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=animelb
+2018-08-29 13:02:01 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sb
+2018-08-29 13:02:10 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kill
+2018-08-29 13:02:20 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=se
+2018-08-29 13:02:28 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sh
+2018-08-29 13:02:37 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gf2.0
+2018-08-29 13:02:46 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=loveliveext
+2018-08-29 13:02:50 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rz
+2018-08-29 13:03:05 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz&CID=10138&MODE=sell
+2018-08-29 13:03:05 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:06 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz&CID=10139&MODE=sell
+2018-08-29 13:03:06 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:08 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz&CID=10140&MODE=sell
+2018-08-29 13:03:08 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz&CID=10141&MODE=sell
+2018-08-29 13:03:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:12 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz&CID=10142&MODE=sell
+2018-08-29 13:03:12 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:14 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz&CID=10200&MODE=sell
+2018-08-29 13:03:14 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:14 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=bd2.0
+2018-08-29 13:03:40 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10054&MODE=sell
+2018-08-29 13:03:40 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:42 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10079&MODE=sell
+2018-08-29 13:03:42 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:45 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10098&MODE=sell
+2018-08-29 13:03:45 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:47 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10099&MODE=sell
+2018-08-29 13:03:47 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:49 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10130&MODE=sell
+2018-08-29 13:03:49 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:51 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10056&MODE=sell
+2018-08-29 13:03:51 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:53 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10057&MODE=sell
+2018-08-29 13:03:53 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:55 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10080&MODE=sell
+2018-08-29 13:03:55 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:57 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10081&MODE=sell
+2018-08-29 13:03:57 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:03:59 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10082&MODE=sell
+2018-08-29 13:03:59 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:02 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10100&MODE=sell
+2018-08-29 13:04:02 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:04 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10131&MODE=sell
+2018-08-29 13:04:04 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:06 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10132&MODE=sell
+2018-08-29 13:04:06 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:08 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10006&MODE=sell
+2018-08-29 13:04:08 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10007&MODE=sell
+2018-08-29 13:04:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:12 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10008&MODE=sell
+2018-08-29 13:04:12 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:14 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10009&MODE=sell
+2018-08-29 13:04:14 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:16 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10010&MODE=sell
+2018-08-29 13:04:16 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:18 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10011&MODE=sell
+2018-08-29 13:04:18 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:20 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10012&MODE=sell
+2018-08-29 13:04:20 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:21 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10013&MODE=sell
+2018-08-29 13:04:21 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:23 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10014&MODE=sell
+2018-08-29 13:04:23 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:26 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10015&MODE=sell
+2018-08-29 13:04:26 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:28 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10016&MODE=sell
+2018-08-29 13:04:28 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:30 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10017&MODE=sell
+2018-08-29 13:04:30 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:32 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10018&MODE=sell
+2018-08-29 13:04:32 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:34 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10019&MODE=sell
+2018-08-29 13:04:34 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:37 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10020&MODE=sell
+2018-08-29 13:04:37 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:39 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10021&MODE=sell
+2018-08-29 13:04:39 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:41 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10022&MODE=sell
+2018-08-29 13:04:41 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:42 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10023&MODE=sell
+2018-08-29 13:04:42 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:44 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10024&MODE=sell
+2018-08-29 13:04:44 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:46 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10339&MODE=sell
+2018-08-29 13:04:46 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:48 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10138&MODE=sell
+2018-08-29 13:04:48 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:49 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10139&MODE=sell
+2018-08-29 13:04:49 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:51 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10140&MODE=sell
+2018-08-29 13:04:51 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:54 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10141&MODE=sell
+2018-08-29 13:04:54 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:56 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10142&MODE=sell
+2018-08-29 13:04:56 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:04:58 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10288&MODE=sell
+2018-08-29 13:04:58 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:05:00 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10289&MODE=sell
+2018-08-29 13:05:00 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:05:02 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10290&MODE=sell
+2018-08-29 13:05:02 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:05:04 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10291&MODE=sell
+2018-08-29 13:05:04 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:05:06 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=bd2.0&CID=10292&MODE=sell
+2018-08-29 13:05:06 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:05:06 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=animep4ext1.0
+2018-08-29 13:05:12 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=bd
+2018-08-29 13:05:26 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tld2nd
+2018-08-29 13:05:35 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rw
+2018-08-29 13:05:44 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=zmf
+2018-08-29 13:05:47 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dc3
+2018-08-29 13:05:57 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivess
+2018-08-29 13:06:07 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=mikuext1.0
+2018-08-29 13:06:19 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=mikuext1.0&CID=10112&MODE=sell
+2018-08-29 13:06:19 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:06:22 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=mikuext1.0&CID=10113&MODE=sell
+2018-08-29 13:06:22 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:06:24 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=mikuext1.0&CID=10115&MODE=sell
+2018-08-29 13:06:24 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:06:26 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=mikuext1.0&CID=10116&MODE=sell
+2018-08-29 13:06:26 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:06:26 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tf
+2018-08-29 13:06:36 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ss
+2018-08-29 13:06:46 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=awib
+2018-08-29 13:06:54 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ca
+2018-08-29 13:06:57 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmhmovie
+2018-08-29 13:07:05 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivessext
+2018-08-29 13:07:17 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10105&MODE=sell
+2018-08-29 13:07:17 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:19 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10130&MODE=sell
+2018-08-29 13:07:19 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:21 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10131&MODE=sell
+2018-08-29 13:07:21 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:23 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10132&MODE=sell
+2018-08-29 13:07:23 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:24 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10133&MODE=sell
+2018-08-29 13:07:24 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:26 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10134&MODE=sell
+2018-08-29 13:07:26 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:28 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10135&MODE=sell
+2018-08-29 13:07:28 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:30 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10136&MODE=sell
+2018-08-29 13:07:30 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:31 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10137&MODE=sell
+2018-08-29 13:07:31 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:33 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10138&MODE=sell
+2018-08-29 13:07:33 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:35 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10139&MODE=sell
+2018-08-29 13:07:35 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:37 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10140&MODE=sell
+2018-08-29 13:07:37 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:39 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10141&MODE=sell
+2018-08-29 13:07:39 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:41 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10142&MODE=sell
+2018-08-29 13:07:41 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:43 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10143&MODE=sell
+2018-08-29 13:07:43 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:45 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10144&MODE=sell
+2018-08-29 13:07:45 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:47 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10145&MODE=sell
+2018-08-29 13:07:47 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:48 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10146&MODE=sell
+2018-08-29 13:07:48 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:50 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10147&MODE=sell
+2018-08-29 13:07:50 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:52 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10148&MODE=sell
+2018-08-29 13:07:52 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:53 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10149&MODE=sell
+2018-08-29 13:07:53 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:55 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10150&MODE=sell
+2018-08-29 13:07:55 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:57 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10151&MODE=sell
+2018-08-29 13:07:57 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:07:59 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10106&MODE=sell
+2018-08-29 13:07:59 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:02 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10109&MODE=sell
+2018-08-29 13:08:02 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:04 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10110&MODE=sell
+2018-08-29 13:08:04 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:06 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10111&MODE=sell
+2018-08-29 13:08:06 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:07 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10112&MODE=sell
+2018-08-29 13:08:07 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:09 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10113&MODE=sell
+2018-08-29 13:08:09 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:11 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10114&MODE=sell
+2018-08-29 13:08:11 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:13 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10115&MODE=sell
+2018-08-29 13:08:13 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:14 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10116&MODE=sell
+2018-08-29 13:08:14 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:16 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10117&MODE=sell
+2018-08-29 13:08:16 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:18 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=lovelivessext&CID=10127&MODE=sell
+2018-08-29 13:08:18 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:18 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tld2nd2.0
+2018-08-29 13:08:26 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=animep4
+2018-08-29 13:08:28 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dc
+2018-08-29 13:08:37 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcsakuraext
+2018-08-29 13:08:42 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kmn
+2018-08-29 13:08:54 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kmn&CID=10169&MODE=sell
+2018-08-29 13:08:54 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:08:54 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nsr
+2018-08-29 13:09:04 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=nsr&CID=10001&MODE=sell
+2018-08-29 13:09:04 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:09:04 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gochiusaext
+2018-08-29 13:09:13 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusaext&CID=10015&MODE=sell
+2018-08-29 13:09:13 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:09:15 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusaext&CID=10016&MODE=sell
+2018-08-29 13:09:15 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:09:17 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusaext&CID=10113&MODE=sell
+2018-08-29 13:09:17 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:09:17 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dg
+2018-08-29 13:09:25 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ds2ext
+2018-08-29 13:09:31 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=killpset
+2018-08-29 13:09:32 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmhext
+2018-08-29 13:09:36 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=magica
+2018-08-29 13:09:45 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nsa
+2018-08-29 13:09:55 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rwhf
+2018-08-29 13:10:02 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=hinaext2.0
+2018-08-29 13:10:09 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fapo
+2018-08-29 13:10:21 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=fapo&CID=10109&MODE=sell
+2018-08-29 13:10:21 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:23 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=fapo&CID=10005&MODE=sell
+2018-08-29 13:10:23 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:25 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=fapo&CID=10018&MODE=sell
+2018-08-29 13:10:25 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:25 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=miku
+2018-08-29 13:10:36 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=starwars
+2018-08-29 13:10:51 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10050&MODE=sell
+2018-08-29 13:10:51 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:53 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10051&MODE=sell
+2018-08-29 13:10:53 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:55 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10104&MODE=sell
+2018-08-29 13:10:55 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:57 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10105&MODE=sell
+2018-08-29 13:10:57 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:10:59 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10106&MODE=sell
+2018-08-29 13:10:59 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:01 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10138&MODE=sell
+2018-08-29 13:11:01 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:04 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10139&MODE=sell
+2018-08-29 13:11:04 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:06 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10140&MODE=sell
+2018-08-29 13:11:06 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:08 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10052&MODE=sell
+2018-08-29 13:11:08 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10053&MODE=sell
+2018-08-29 13:11:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:13 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10107&MODE=sell
+2018-08-29 13:11:13 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:15 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10141&MODE=sell
+2018-08-29 13:11:15 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:18 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=starwars&CID=10181&MODE=sell
+2018-08-29 13:11:18 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:18 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ir2.0
+2018-08-29 13:11:28 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=promo
+2018-08-29 13:11:35 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=promo&CID=10063&MODE=sell
+2018-08-29 13:11:35 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:11:35 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nsm
+2018-08-29 13:11:40 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=abext2.0
+2018-08-29 13:11:45 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=mhext2.0
+2018-08-29 13:11:48 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fsubw
+2018-08-29 13:11:57 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fsubw2.0
+2018-08-29 13:12:05 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=abre
+2018-08-29 13:12:16 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=bake
+2018-08-29 13:12:24 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fz
+2018-08-29 13:12:33 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=p4ext
+2018-08-29 13:12:35 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fs
+2018-08-29 13:12:44 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sbext1.0
+2018-08-29 13:12:50 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ft
+2018-08-29 13:12:58 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fh
+2018-08-29 13:13:04 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmh
+2018-08-29 13:13:14 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nsm2
+2018-08-29 13:13:21 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=magicamv
+2018-08-29 13:13:29 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dgd2ext
+2018-08-29 13:13:35 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=puyopuyo
+2018-08-29 13:13:45 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rinneext
+2018-08-29 13:13:54 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=saoos
+2018-08-29 13:14:07 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10021&MODE=sell
+2018-08-29 13:14:07 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:08 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10022&MODE=sell
+2018-08-29 13:14:08 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10051&MODE=sell
+2018-08-29 13:14:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:12 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10052&MODE=sell
+2018-08-29 13:14:12 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:14 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10072&MODE=sell
+2018-08-29 13:14:14 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:16 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10073&MODE=sell
+2018-08-29 13:14:16 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:18 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10007&MODE=sell
+2018-08-29 13:14:18 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:20 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10023&MODE=sell
+2018-08-29 13:14:20 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:22 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10024&MODE=sell
+2018-08-29 13:14:22 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:24 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10025&MODE=sell
+2018-08-29 13:14:24 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:26 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10026&MODE=sell
+2018-08-29 13:14:26 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:28 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10027&MODE=sell
+2018-08-29 13:14:28 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:30 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10053&MODE=sell
+2018-08-29 13:14:30 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:32 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10054&MODE=sell
+2018-08-29 13:14:32 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:34 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10055&MODE=sell
+2018-08-29 13:14:34 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:37 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10056&MODE=sell
+2018-08-29 13:14:37 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:39 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10057&MODE=sell
+2018-08-29 13:14:39 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:41 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10018&MODE=sell
+2018-08-29 13:14:41 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:43 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10058&MODE=sell
+2018-08-29 13:14:43 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:46 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10014&MODE=sell
+2018-08-29 13:14:46 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:48 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10042&MODE=sell
+2018-08-29 13:14:48 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:50 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10043&MODE=sell
+2018-08-29 13:14:50 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:52 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10089&MODE=sell
+2018-08-29 13:14:52 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:54 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10090&MODE=sell
+2018-08-29 13:14:54 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:56 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10091&MODE=sell
+2018-08-29 13:14:56 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:14:59 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10092&MODE=sell
+2018-08-29 13:14:59 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:01 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10093&MODE=sell
+2018-08-29 13:15:01 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:04 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10094&MODE=sell
+2018-08-29 13:15:04 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:06 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10101&MODE=sell
+2018-08-29 13:15:06 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:09 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10103&MODE=sell
+2018-08-29 13:15:09 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:11 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10104&MODE=sell
+2018-08-29 13:15:11 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:14 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10127&MODE=sell
+2018-08-29 13:15:14 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:16 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10128&MODE=sell
+2018-08-29 13:15:16 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:17 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saoos&CID=10129&MODE=sell
+2018-08-29 13:15:17 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:15:17 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=animeim
+2018-08-29 13:15:29 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gf
+2018-08-29 13:15:43 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=mhext1.0
+2018-08-29 13:15:45 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=symphogearg
+2018-08-29 13:15:53 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=hinaext1.0
+2018-08-29 13:16:02 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10047&MODE=sell
+2018-08-29 13:16:02 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:05 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10049&MODE=sell
+2018-08-29 13:16:05 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:08 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10048&MODE=sell
+2018-08-29 13:16:08 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10050&MODE=sell
+2018-08-29 13:16:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:12 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10112&MODE=sell
+2018-08-29 13:16:12 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:14 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10113&MODE=sell
+2018-08-29 13:16:14 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:17 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10114&MODE=sell
+2018-08-29 13:16:17 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:19 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=hinaext1.0&CID=10115&MODE=sell
+2018-08-29 13:16:19 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:16:19 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivesif2.0
+2018-08-29 13:16:30 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gc
+2018-08-29 13:16:39 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=genei
+2018-08-29 13:16:48 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmhext2.0
+2018-08-29 13:16:55 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=abext
+2018-08-29 13:17:00 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcext3.0
+2018-08-29 13:17:07 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=robono
+2018-08-29 13:17:18 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=robono&CID=10019&MODE=sell
+2018-08-29 13:17:18 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:17:18 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=konosuba
+2018-08-29 13:17:32 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba&CID=10038&MODE=sell
+2018-08-29 13:17:32 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:17:34 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba&CID=10091&MODE=sell
+2018-08-29 13:17:34 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:17:36 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba&CID=10092&MODE=sell
+2018-08-29 13:17:36 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:17:38 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba&CID=10079&MODE=sell
+2018-08-29 13:17:38 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:17:40 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba&CID=10083&MODE=sell
+2018-08-29 13:17:40 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:17:40 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fpi
+2018-08-29 13:17:45 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcvslbdc
+2018-08-29 13:17:51 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gurren
+2018-08-29 13:18:04 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gurren&CID=10154&MODE=sell
+2018-08-29 13:18:04 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:18:06 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gurren&CID=10155&MODE=sell
+2018-08-29 13:18:06 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:18:06 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=bdsp
+2018-08-29 13:18:17 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=im2.0
+2018-08-29 13:18:28 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lbcmext
+2018-08-29 13:18:33 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivesif
+2018-08-29 13:18:41 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nisekoi
+2018-08-29 13:18:52 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=nisekoi&CID=10121&MODE=sell
+2018-08-29 13:18:52 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:18:52 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ssext
+2018-08-29 13:18:57 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=aot2.0
+2018-08-29 13:19:08 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=aot2.0&CID=10035&MODE=sell
+2018-08-29 13:19:08 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:19:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=aot2.0&CID=10087&MODE=sell
+2018-08-29 13:19:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:19:10 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ddext3.0
+2018-08-29 13:19:17 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmh2nd
+2018-08-29 13:19:28 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=zm
+2018-08-29 13:19:37 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ir
+2018-08-29 13:19:46 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmh2.0
+2018-08-29 13:19:58 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=tmh2.0&CID=10011&MODE=sell
+2018-08-29 13:19:58 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:19:58 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gstext
+2018-08-29 13:20:04 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivess2.0
+2018-08-29 13:20:15 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=symphogeargx
+2018-08-29 13:20:27 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=symphogeargx&CID=10143&MODE=sell
+2018-08-29 13:20:27 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:20:27 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=im
+2018-08-29 13:20:35 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=shext
+2018-08-29 13:20:40 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=logho
+2018-08-29 13:20:47 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=symphogearxd
+2018-08-29 13:21:00 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=symphogearxd&CID=10097&MODE=sell
+2018-08-29 13:21:00 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:21:00 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcext2.0
+2018-08-29 13:21:03 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sgs
+2018-08-29 13:21:16 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=katanaext
+2018-08-29 13:21:23 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gochiusa
+2018-08-29 13:22:08 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusa&CID=10174&MODE=sell
+2018-08-29 13:22:08 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusa&CID=10175&MODE=sell
+2018-08-29 13:22:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:11 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusa&CID=10176&MODE=sell
+2018-08-29 13:22:11 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:13 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusa&CID=10177&MODE=sell
+2018-08-29 13:22:13 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:16 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusa&CID=10178&MODE=sell
+2018-08-29 13:22:16 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:18 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusa&CID=10179&MODE=sell
+2018-08-29 13:22:18 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:18 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=clext3.0
+2018-08-29 13:22:24 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=imc2nd
+2018-08-29 13:22:37 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=imc2nd&CID=10133&MODE=sell
+2018-08-29 13:22:37 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:193)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:37 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ftext1.0
+2018-08-29 13:22:43 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kancolle3.0
+2018-08-29 13:22:56 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kancolle3.0&CID=10134&MODE=sell
+2018-08-29 13:22:56 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:22:56 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fpi2.0
+2018-08-29 13:23:03 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=woo
+2018-08-29 13:23:10 ERROR CardPage:111 - Missing color キャラhttps://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=woo&CID=10020&MODE=sell
+2018-08-29 13:23:10 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:196)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:23:12 ERROR CardPage:111 - Missing color キャラhttps://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=woo&CID=10021&MODE=sell
+2018-08-29 13:23:12 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:196)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:23:12 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ddext2.0
+2018-08-29 13:23:19 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=loghopset
+2018-08-29 13:23:21 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lb
+2018-08-29 13:23:30 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=magicamagireco
+2018-08-29 13:23:43 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=magicamagireco&CID=10005&MODE=sell
+2018-08-29 13:23:43 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:23:43 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lbext1.0
+2018-08-29 13:23:47 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=p4uext1.0
+2018-08-29 13:23:51 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kiznaiver
+2018-08-29 13:24:08 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kiznaiver&CID=10036&MODE=sell
+2018-08-29 13:24:08 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:24:10 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kiznaiver&CID=10123&MODE=sell
+2018-08-29 13:24:10 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:24:12 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kiznaiver&CID=10042&MODE=sell
+2018-08-29 13:24:12 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:24:14 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kiznaiver&CID=10124&MODE=sell
+2018-08-29 13:24:14 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:24:17 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=kiznaiver&CID=10008&MODE=sell
+2018-08-29 13:24:17 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:24:17 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=irs
+2018-08-29 13:24:24 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kk
+2018-08-29 13:24:27 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dc10th
+2018-08-29 13:24:37 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=animedcext1.0
+2018-08-29 13:24:44 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=shpset
+2018-08-29 13:24:46 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=konosuba2.0
+2018-08-29 13:24:58 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba2.0&CID=10013&MODE=sell
+2018-08-29 13:24:58 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:25:00 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba2.0&CID=10023&MODE=sell
+2018-08-29 13:25:00 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:25:02 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=konosuba2.0&CID=10131&MODE=sell
+2018-08-29 13:25:02 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:25:02 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sao2.0
+2018-08-29 13:25:08 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kf
+2018-08-29 13:25:19 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gochiusadms
+2018-08-29 13:25:33 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gochiusadms&CID=10150&MODE=sell
+2018-08-29 13:25:33 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:25:33 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcext1.0
+2018-08-29 13:25:37 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=mb
+2018-08-29 13:26:19 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ls
+2018-08-29 13:26:29 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=chain
+2018-08-29 13:26:42 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=chain&CID=10021&MODE=sell
+2018-08-29 13:26:42 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:26:42 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kancolle2.0
+2018-08-29 13:26:52 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rsl
+2018-08-29 13:26:59 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rsl&CID=10001&MODE=sell
+2018-08-29 13:26:59 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:27:01 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rsl&CID=10002&MODE=sell
+2018-08-29 13:27:01 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:27:01 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=godzilla
+2018-08-29 13:27:03 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=im765proext
+2018-08-29 13:27:05 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=monogatari2nd
+2018-08-29 13:27:15 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=saore
+2018-08-29 13:27:26 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sao2ext2.0
+2018-08-29 13:27:32 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sao2ext
+2018-08-29 13:27:39 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=oms
+2018-08-29 13:27:51 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcpc
+2018-08-29 13:28:00 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ddext1.0
+2018-08-29 13:28:06 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelive
+2018-08-29 13:28:18 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelivesifvset
+2018-08-29 13:28:22 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=miku2.0
+2018-08-29 13:28:33 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=zmfext
+2018-08-29 13:28:41 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fpi2.0helz
+2018-08-29 13:28:49 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=kancolle
+2018-08-29 13:29:06 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rz2.0
+2018-08-29 13:29:19 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rz2.0&CID=10139&MODE=sell
+2018-08-29 13:29:19 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:192)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:29:19 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dgext1.0
+2018-08-29 13:29:26 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ppext
+2018-08-29 13:29:33 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=lovelive2.0
+2018-08-29 13:29:41 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=shinchan
+2018-08-29 13:29:51 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=brext1.0
+2018-08-29 13:29:57 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=skext2.0
+2018-08-29 13:30:00 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=vivid
+2018-08-29 13:30:09 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=clext1.0
+2018-08-29 13:30:14 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=rwanime
+2018-08-29 13:30:25 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=rwanime&CID=10011&MODE=sell
+2018-08-29 13:30:25 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:30:25 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=njext
+2018-08-29 13:30:30 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=p3
+2018-08-29 13:30:38 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=p4
+2018-08-29 13:30:46 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ns
+2018-08-29 13:30:57 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=p5
+2018-08-29 13:31:11 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=p5&CID=10107&MODE=sell
+2018-08-29 13:31:11 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:13 ERROR CardPage:111 - Missing Trait https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=p5&CID=10116&MODE=sell
+2018-08-29 13:31:13 ERROR CardPage:112 - scrapper.CardPage.saveToFile(CardPage.java:189)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:13 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fzext
+2018-08-29 13:31:16 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=darlifra
+2018-08-29 13:31:23 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=darlifra&CID=10005&MODE=sell
+2018-08-29 13:31:23 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:43 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=darlifra&CID=10018&MODE=sell
+2018-08-29 13:31:43 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:187)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:43 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=siyoko
+2018-08-29 13:31:50 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=siyoko&CID=10043&MODE=sell
+2018-08-29 13:31:50 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:53 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=siyoko&CID=10044&MODE=sell
+2018-08-29 13:31:53 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:56 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=siyoko&CID=10045&MODE=sell
+2018-08-29 13:31:56 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:31:58 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=siyoko&CID=10046&MODE=sell
+2018-08-29 13:31:58 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:32:01 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=siyoko&CID=10047&MODE=sell
+2018-08-29 13:32:01 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:32:01 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=aot
+2018-08-29 13:32:12 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dsdc
+2018-08-29 13:32:24 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=dsdc&CID=10153&MODE=sell
+2018-08-29 13:32:24 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:32:24 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=animelbrext
+2018-08-29 13:32:31 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=tmhffpp
+2018-08-29 13:32:40 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=mfi
+2018-08-29 13:32:49 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nisem
+2018-08-29 13:32:56 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=impset
+2018-08-29 13:32:59 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=dcvslblb
+2018-08-29 13:33:04 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sao
+2018-08-29 13:33:14 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=clext2.0
+2018-08-29 13:33:17 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=gargan
+2018-08-29 13:33:28 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=gargan&CID=10014&MODE=sell
+2018-08-29 13:33:28 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:33:28 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=saekano
+2018-08-29 13:33:41 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=saekano&CID=10157&MODE=sell
+2018-08-29 13:33:41 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:33:41 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=sre
+2018-08-29 13:33:47 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=skext1.0
+2018-08-29 13:33:50 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=imm
+2018-08-29 13:33:59 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=pr
+2018-08-29 13:34:08 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=symphogear
+2018-08-29 13:34:18 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=nisekoiext
+2018-08-29 13:34:23 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=eva
+2018-08-29 13:34:31 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=fpi3.0
+2018-08-29 13:34:39 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=pqext
+2018-08-29 13:34:44 INFO  DeckPage:34 - Parsing deck https://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=ngl
+2018-08-29 13:34:58 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=ngl&CID=10009&MODE=sell
+2018-08-29 13:34:58 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:34:59 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=ngl&CID=10010&MODE=sell
+2018-08-29 13:34:59 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:35:01 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=ngl&CID=10019&MODE=sell
+2018-08-29 13:35:01 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:186)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+
+2018-08-29 13:35:03 ERROR CardPage:114 - Error parsing: https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=ngl&CID=10020&MODE=sell
+2018-08-29 13:35:03 ERROR CardPage:115 - scrapper.CardPage.saveToFile(CardPage.java:182)
+scrapper.CardPage.<init>(CardPage.java:109)
+scrapper.DeckPage.run(DeckPage.java:60)
+scrapper.DeckPage.<init>(DeckPage.java:23)
+scrapper.SeriesPage.run(SeriesPage.java:35)
+scrapper.TestSeries.TestDeckScrapping(TestSeries.java:9)
+

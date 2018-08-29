@@ -1,6 +1,7 @@
 package controller;
 
-import io.ReadUserInput;
+import io.ConsoleReadUserInput;
+import model.card.Card;
 import model.card.Character;
 import model.board.Slot;
 import model.player.Player;
@@ -8,22 +9,22 @@ import model.player.PlayerPhase;
 
 
 public class GameManager {
-	ReadUserInput reader;
+	ConsoleReadUserInput reader;
 	Player player1;
 	Player player2;
 	Player currentPlayer;
 	Player currentOpponent;
 	boolean alive = true;
 
-	public GameManager(Player p1, Player p2) {
+	public GameManager(PlayerController p1, PlayerController p2) {
 		super();
-		reader = new ReadUserInput();
-		player1 = p1;
-		player2 = p2;
+		reader = new ConsoleReadUserInput();
+		player1 = p1.getPlayer();
+		player2 = p2.getPlayer();
 		currentPlayer = player1;
 		currentOpponent = player2;
-		player1.setOpponent(p2);
-		player2.setOpponent(p1);
+		player1.setOpponent(player2);
+		player2.setOpponent(player1);
 	}
 
 	public void gameLoop() {
@@ -44,7 +45,7 @@ public class GameManager {
 				break;
 
 			case CLOCK:
-				clock();
+				currentPlayer.clock();
 				break;
 
 			case MAIN:
@@ -56,7 +57,7 @@ public class GameManager {
 				break;
 
 			case ATTACK:
-				attack();
+				currentPlayer.attack();
 				break;
 
 			case ENCORE:
@@ -80,10 +81,11 @@ public class GameManager {
 	}
 
 	private void mainPhase() {
-		String input;
 		// Main Phase
 		while (true) {
-			input = reader.getLine().toLowerCase().trim();
+			currentPlayer.executeCommand();
+			
+			/*input = reader.getLine().toLowerCase().trim();
 			switch (input) {
 			// Display
 			case "display hand":
@@ -128,11 +130,6 @@ public class GameManager {
 				
 			case "quit":
 				break;
-
-			// Phase Specific Actions
-			case "attack":
-				attack();
-				break;
 				
 			case "draw":
 				currentPlayer.draw();
@@ -141,10 +138,8 @@ public class GameManager {
 
 			// Other Actions
 			case "discard":
-				int index = currentPlayer.chooseCardFromHand();
-				if (index != -1) {
-					currentPlayer.discard(index);
-				}
+				Card c = currentPlayer.chooseCardFromHand();
+					currentPlayer.discard(c);
 				break;
 
 			case "shuffle":
@@ -155,103 +150,20 @@ public class GameManager {
 				System.out.println("Invalid Command");
 				break;
 			}
+			*/
 		}
 	}
 
-	private void attack() {
-		String input;
-		Slot s = null;
-		Slot across = null;
-		Character attacking = null;
-		Character defending = null;
-		Boolean declared;
-		//Beginning of Attack Phase
-		currentPlayer.nextStep();
-		while(true){
-			declared = false;
-			while(!declared){
-				//Attack Declaration
-				currentPlayer.displayStage();
-				System.out.println("Declare an attack? (Y/N)");
-				input = reader.getLine().toLowerCase().trim();
-				if (!input.trim().toLowerCase().equals("y")){
-					return;
-				}
-				System.out.println("Choose a character to attack with");
-				s = Slot.getName(reader.getInt(5));
-				declared = currentPlayer.declareAttack(s);
-			}
-			System.out.println(currentPlayer.getPhase());
-			across = Slot.getAcross(s);
-			currentPlayer.nextStep();
-			attacking = currentPlayer.getCharacter(s);
-			defending = currentOpponent.getCharacter(across);
-			currentPlayer.nextStep();
-
-			//Trigger
-			currentPlayer.trigger();
-			System.out.println(currentPlayer.getPhase());
-			currentPlayer.nextStep();
-
-			//Counter
-			System.out.println(currentPlayer.getPhase());
-			currentPlayer.nextStep();
-
-			//Damage
-			System.out.println(currentPlayer.getPhase());
-			int amount = currentPlayer.getSoul(s);
-			if (defending == null)
-				amount++;
-			System.out.println("Deal " + amount + " damage to opponent");
-			currentOpponent.takeDamage(	amount );
-			currentPlayer.nextStep();
-
-			//End of Attack
-			System.out.println(currentPlayer.getPhase());
-			if(defending != null){
-				if (attacking.getCurrentPower() > defending.getCurrentPower()){
-					defending.reverse();
-				}else if(attacking.getCurrentPower() < defending.getCurrentPower()){
-					attacking.reverse();
-				}else if(attacking.getCurrentPower() == defending.getCurrentPower()){
-					defending.reverse();
-					attacking.reverse();
-				}else{
-					throw new IllegalStateException("End of Attack step, should be unreachable code");
-				}
-			}
-			
-			//Attack
-		}
-	}
+	
 
 	private void playCharacter() {
-		int cardIndex = currentPlayer.chooseCardFromHand();
+		Card card = currentPlayer.chooseCardFromHand();
 		Slot slot = currentPlayer.chooseSlot();
-		currentPlayer.playCharacter(cardIndex, slot);
+		currentPlayer.playCharacter(card, slot);
 	}
 
 	private void climax() {
-		currentPlayer.displayHand();
-		System.out.println("Play a Climax? (Y/N)");
-		String input = reader.getLine();
-		if (input.trim().toLowerCase().equals("y")) {
-			int index = currentPlayer.chooseCardFromHand();
-			currentPlayer.playClimax(index);
-			return;
-		}
-	}
-
-	private void clock() {
-		currentPlayer.displayHand();
-		System.out.println("Clock? (Y/N)");
-		String input = reader.getLine();
-		if (input.trim().toLowerCase().equals("y")) {
-			int index = currentPlayer.chooseCardFromHand();
-			currentPlayer.clock(index);
-			currentPlayer.draw(2);
-			return;
-		}
+		currentPlayer.playClimax();
 	}
 
 	private void endPhase() {

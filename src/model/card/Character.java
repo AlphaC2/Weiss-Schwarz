@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.card.ability.Ability;
 
-public class Character extends Card {
+public final class Character extends Card {
 	private String trait1;
 	private String trait2;
 	private int basePower;
@@ -40,11 +40,11 @@ public class Character extends Card {
 		return currentPower;
 	}
 	
-	public void setCurrentPower(int newPower){
+	protected void setCurrentPower(int newPower){
 		this.currentPower = newPower;
 	}
 
-	public void changePower(int change){
+	protected void changePower(int change){
 		this.currentPower += change;
 	}
 	

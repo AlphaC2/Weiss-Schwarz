@@ -102,13 +102,30 @@ public class Stage {
 		return null;
 	}
 
-	public List<Character> getReversed() {
+	public List<Character> getCharacterByPosition(Position position) {
 		List<Character> result = new ArrayList<Character>();
 		for (int i = 0; i < stage.length; i++) {
-			if (stage[i] != null && stage[i].getState() == Position.REVERSED)
+			if (stage[i] != null && stage[i].getState() == position)
 				result.add(stage[i]);
 		}
 		return result;
+	}
+	
+	public List<Character> getCharacterByPosition() {
+		List<Character> result = new ArrayList<Character>();
+		for (int i = 0; i < stage.length; i++) {
+			if (stage[i] != null)
+				result.add(stage[i]);
+		}
+		return result;
+	}
+	
+	public List<Character> getStage(){
+		List<Character> arr = new ArrayList<Character>();
+		for (Character character : stage) {
+			arr.add(character);
+		}
+		return arr;
 	}
 	
 }

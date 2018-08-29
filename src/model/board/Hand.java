@@ -25,10 +25,13 @@ public class Hand {
 		}
 	}
 
-	Card get(int i) {
-		Card c = cards.get(i);
+	Card get(Card c) {
 		cards.remove(c);
 		return c;
+	}
+	
+	List<Card> getHand(){
+		return new ArrayList<>(cards);
 	}
 
 	int size() {
