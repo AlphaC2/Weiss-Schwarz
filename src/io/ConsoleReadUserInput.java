@@ -17,6 +17,7 @@ public class ConsoleReadUserInput implements ReadUserInput{
 	
 	public <T> T getChoice(String prompt, List<T> choices){
 		while(true){
+			System.out.println();
 			System.out.println(prompt);
 			for (int i = 0; i < choices.size(); i++){
 				Object o = choices.get(i);
@@ -27,6 +28,7 @@ public class ConsoleReadUserInput implements ReadUserInput{
 				String choice =  r.readLine();
 				int opt = Integer.parseInt(choice);
 				if (opt >= 0 && opt < choices.size()){
+					System.out.println();
 					return choices.get(opt);
 				}
 			} catch (IOException e) {

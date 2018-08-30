@@ -17,8 +17,8 @@ public class Clock extends Command{
 			Card c = p1.chooseCardFromHand();
 			p1.getPlayer().getBoard().clock(c);
 			p1.getPlayer().getBoard().draw(2);
-			return;
 		}
+		p1.getPlayer().endPhase();
 		
 	}
 

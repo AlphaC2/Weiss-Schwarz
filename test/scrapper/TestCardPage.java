@@ -1,5 +1,10 @@
 package scrapper;
 
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +15,15 @@ public class TestCardPage {
 	
 	private final static Logger log = Logger.getLogger(TestCardPage.class);
 
+	@Test
+	public void testList(){
+		List<String> list = new ArrayList<>(); 
+		list.add(null);
+		list.add(null);
+		assertEquals(2,list.size());
+	}
 	
+	@Ignore
 	@Test
 	public void TestCard(){
 		String url = "https://yuyu-tei.jp/game_ws/carddetail/cardpreview.php?VER=symphogeargx&CID=10145&MODE=sell";

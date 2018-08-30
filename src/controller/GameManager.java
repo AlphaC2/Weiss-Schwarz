@@ -1,36 +1,54 @@
 package controller;
 
+import java.util.List;
+
+import command.*;
 import io.ConsoleReadUserInput;
 import model.player.Player;
 import model.player.PlayerPhase;
 
 
 public class GameManager {
+	
+	private static GameManager instance;
+	
 	ConsoleReadUserInput reader;
-	Player player1;
-	Player player2;
+	PlayerController player1;
+	PlayerController player2;
 	Player currentPlayer;
 	boolean alive = true;
 
-	public GameManager(PlayerController p1, PlayerController p2) {
-		super();
+	public static GameManager getInstance(){
+		if (instance == null){
+			instance = new GameManager();
+		}
+		return instance;
+	}
+	
+	public void init(PlayerController p1, PlayerController p2) {
 		reader = new ConsoleReadUserInput();
-		player1 = p1.getPlayer();
-		player2 = p2.getPlayer();
-		currentPlayer = player1;
-		player1.setOpponent(player2);
-		player2.setOpponent(player1);
+		player1 = p1;
+		player2 = p2;
+		currentPlayer = player1.getPlayer();
+	}
+	
+	private void init(){
+		player1.getPlayer().shuffleLibrary();
+		player2.getPlayer().shuffleLibrary();
+		new EndPhase().execute(player1,null);
+		player1.getPlayer().getBoard().draw(4);
+		player2.getPlayer().getBoard().draw(5);
 	}
 
 	public void gameLoop() {
-		player1.shuffleLibrary();
-		player2.shuffleLibrary();
-		player1.endPhase();
-		player1.draw(4);
-		player2.draw(5);
+		init();
 
 		while (alive) {
-			System.out.println(currentPlayer.getName() + ":" + currentPlayer.getPhase() + "Phase");
+			log(currentPlayer,currentPlayer.getName() + ":" + currentPlayer.getPhase() + " Phase");
+			currentPlayer.executeCommand();
+		
+		/*while (alive) {
+			
 			switch (currentPlayer.getPhase()) {
 			case STAND:
 				currentPlayer.standAll();
@@ -40,7 +58,7 @@ public class GameManager {
 				break;
 
 			case CLOCK:
-//				currentPlayer.clock();
+				currentPlayer.clock();
 				break;
 
 			case MAIN:
@@ -52,7 +70,7 @@ public class GameManager {
 				break;
 
 			case ATTACK:
-				currentPlayer.attack();
+//				currentPlayer.attack();
 				break;
 
 			case ENCORE:
@@ -67,26 +85,28 @@ public class GameManager {
 				break;
 			}
 			endPhase();
+	*/
 		}
+	}
+	
+	public void log(Player p, Object text){
+		getController(p).log(text);
 	}
 
 	private void encore() {
 		currentPlayer.encore();
-		currentPlayer.getOpponent().encore();
+		getOpponent(currentPlayer).getPlayer().encore();
 	}
 
+	/*
 	private void mainPhase() {
 		// Main Phase
 		while (currentPlayer.getPhase() == PlayerPhase.MAIN) {
 			currentPlayer.executeCommand();
 			
-			/*input = reader.getLine().toLowerCase().trim();
+			input = reader.getLine().toLowerCase().trim();
 			switch (input) {
 			// Display
-			case "display hand":
-				currentPlayer.displayHand();
-				break;
-				
 			case "display phase":
 				System.out.println(currentPlayer.getPhase());
 				break;
@@ -98,11 +118,7 @@ public class GameManager {
 			case "display waitingroom":
 				currentPlayer.displayWaitingRoom();
 				break;
-				
-			case "display damage":
-				currentPlayer.displayDamage();
-				break;
-			
+
 			case "display stage":
 				currentPlayer.displayStage();
 				break;
@@ -119,9 +135,6 @@ public class GameManager {
 			case "play character":
 				playCharacter();
 				break;
-				
-			case "end phase":
-				return;
 				
 			case "quit":
 				break;
@@ -145,22 +158,48 @@ public class GameManager {
 				System.out.println("Invalid Command");
 				break;
 			}
-			*/
+			
+		}
+	}*/
+
+	public void endTurn(Player player) {
+		if (player.getPhase() == PlayerPhase.OPPONENTS_TURN) {
+			if (currentPlayer == player1.getPlayer()){
+				currentPlayer = player2.getPlayer();
+			}else if (currentPlayer == player2.getPlayer()){
+				currentPlayer = player1.getPlayer();
+			}else
+				System.out.println("ERROR");
+//			currentPlayer.endPhase();
 		}
 	}
 
-	private void endPhase() {
-		currentPlayer.endPhase();
-		if (currentPlayer.getPhase() == PlayerPhase.OPPONENTS_TURN) {
-			if (currentPlayer == player1){
-				currentPlayer = player2;
-			}else if (currentPlayer == player2){
-				currentPlayer = player1;
-			}else
-				System.out.println("ERROR");
-			currentPlayer.endPhase();
-			System.out.println("\n\n");
+	public void execute(Command cmd, Player player) {
+		cmd.execute(getController(player), getOpponent(player));
+	}
+	
+	private PlayerController getController(Player player){
+		if (player1.getPlayer().equals(player)){
+			return player1;
+		} else {
+			return player2;
 		}
+	}
+	
+	private PlayerController getOpponent(Player player){
+		if (player1.getPlayer().equals(player)){
+			return player2;
+		} else {
+			return player1;
+		}
+	}
+
+	public <T> T getChoice(Player player, String prompt, List<T> choices) {
+		return getController(player).getChoice(prompt, choices);
+	}
+
+	public boolean getChoice(Player player, String prompt) {
+		return getController(player).getChoice(prompt);
 	}
 
 }

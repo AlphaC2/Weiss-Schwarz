@@ -6,11 +6,11 @@ import java.util.List;
 import model.card.Card;
 import model.card.Colour;
 
-public class DamageZone {
+public class DamageZone extends SearchableZone {
 	private List<Card> damage;
 	
 	DamageZone() {
-		super();
+		super("Damage", true);
 		damage = new ArrayList<Card>();
 	}	
 	
@@ -19,13 +19,6 @@ public class DamageZone {
 			damage.add(card);			
 		}
 		return levelUp();
-	}
-	
-	Card getBottom(){
-		if (damage.size() > 0){
-			return damage.get(damage.size());
-		}else
-			return null;
 	}
 	
 	Card heal(){
@@ -48,14 +41,6 @@ public class DamageZone {
 		else return null;
 	}
 	
-	void display(){
-		if (damage.size() == 0)
-			System.out.println("Empty");
-		for (Card card : damage) {
-			System.out.println(damage.indexOf(card) + " - " + card.toShortString());
-		}
-	}
-	
 	boolean hasColour(Colour colour){
 		for (Card card : damage) {
 			if(card.getColour() == colour && card.isFaceUp())
@@ -63,13 +48,5 @@ public class DamageZone {
 		}
 		return false;
 	}
-
-	public void takeNoCancelDamage(Card card) {
-		damage.add(card);
-	}
-
-	public int size() {
-		return damage.size();
-	}
-
+	
 }

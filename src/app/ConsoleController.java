@@ -21,7 +21,8 @@ public class ConsoleController extends PlayerController {
 	public static void main(String[] args) {
 		PlayerController c1 = new ConsoleController("P1");
 		PlayerController c2 = new ConsoleController("P2");
-		GameManager gm = new GameManager(c1, c2);
+		GameManager gm = GameManager.getInstance();
+		gm.init(c1, c2);
 		gm.gameLoop();
 	}
 
@@ -30,6 +31,7 @@ public class ConsoleController extends PlayerController {
 		// TODO Auto-generated method stub
 
 	}
+	
 
 	@Override
 	public void readDeck() {
@@ -77,10 +79,16 @@ public class ConsoleController extends PlayerController {
 	public void displayDamageZone() {
 		System.out.println(getPlayer().getDamageZone());
 	}
+	
 
 	@Override
-	public Card chooseCardFromHand() {
-		return getPlayer().chooseCardFromHand();
+	public void displayLevel() {
+		System.out.println(getPlayer().getLevel());
+	}
+
+	@Override
+	public void displayStock() {
+		System.out.println(getPlayer().getStock());
 	}
 
 }

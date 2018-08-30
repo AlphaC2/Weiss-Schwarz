@@ -34,10 +34,6 @@ public class Board {
 		climaxZone = null;
 	}
 	
-	public void displayDamage(){
-		damage.display();
-	}
-	
 	/* Get */
 	public int cardsInHand(){
 		return hand.size();
@@ -65,13 +61,14 @@ public class Board {
 	
 	/* Actions*/
 	public void playClimax(Climax c){
+		//TODO abilities activation
 		hand.remove(c);
 		climaxZone = c;
 	}
 	
 	public void endClimax(){
 		if(climaxZone != null){
-			waitingRoom.sendToWaitingRoom(climaxZone);
+			waitingRoom.add(climaxZone);
 			climaxZone = null;
 		}
 	}
@@ -81,12 +78,12 @@ public class Board {
 	}
 	
 	public void sendToWaitingRoom(Card c){
-		waitingRoom.sendToWaitingRoom(c);
+		waitingRoom.add(c);
 	}
 	
 	public void refreshWaitingRoom(){
 		library.addCards(waitingRoom.refresh());
-		damage.takeNoCancelDamage(library.draw());
+		damage.add(library.draw());
 	}
 	
 	public void draw(int count){
@@ -95,8 +92,10 @@ public class Board {
 		}
 	}
 	
-	public void draw(){
-		hand.add(library.draw());
+	public Card draw(){
+		Card c = library.draw();
+		hand.add(c);
+		return c;
 	}
 	
 	public void addToLibrary(List<Card> passedCards){
@@ -106,13 +105,10 @@ public class Board {
 	public void shuffleLibrary(){
 		library.shuffle();
 	}
-
-	public Card chooseFromHand(Card c){
-		return hand.get(c);
-	}
 	
 	public void discard(Card c){
-		waitingRoom.sendToWaitingRoom(hand.get(c));
+		hand.remove(c);
+		waitingRoom.add(c);
 	}
 	
 	public boolean payCost(int i){
@@ -120,7 +116,7 @@ public class Board {
 		if (cards == null)
 			return false;
 		else{
-			waitingRoom.sendToWaitingRoom(cards);
+			waitingRoom.add(cards);
 			return true;
 		}
 	}
@@ -134,28 +130,28 @@ public class Board {
 	}
 	
 	public void kickToClock(SlotType s){
-		damage.takeNoCancelDamage(stage.removeCharacter(s));
+		damage.add(stage.removeCharacter(s));
 	}
 	
 	public void stockBomb(SlotType s){
-		stock.addStock(stage.removeCharacter(s));
+		stock.add(stage.removeCharacter(s));
 	}
 	
 	public void kickToMemory(SlotType s){
-		memory.sendToMemory(stage.removeCharacter(s));
+		memory.add(stage.removeCharacter(s));
 	}
 	
 	public void encore(SlotType s){
 		Character c = stage.removeCharacter(s);
-		waitingRoom.sendToWaitingRoom(c);
-		waitingRoom.salvage(waitingRoom.size() - 1);
+		waitingRoom.add(c);
+		waitingRoom.remove(c);
 		stage.place(c, s);
 	}
 	
 	public void play(Card c, SlotType s){
 		if (c instanceof Character){
 			if (stage.hasCharacter(s))
-				waitingRoom.sendToWaitingRoom(stage.removeCharacter(s));
+				waitingRoom.add(stage.removeCharacter(s));
 			stage.place((Character) c, s);
 		}else{
 			hand.add(c);
@@ -169,19 +165,20 @@ public class Board {
 
 	public void play(Character current, SlotType s) {
 		if (stage.hasCharacter(s))
-			waitingRoom.sendToWaitingRoom(stage.removeCharacter(s));
+			waitingRoom.add(stage.removeCharacter(s));
 		stage.place(current, s);
 	}
 	
 	public void clock(Card c) {
-		damage.takeNoCancelDamage(hand.get(c));
+		hand.remove(c);
+		damage.add(c);
 	}
 
 	public List<Trigger> trigger() {
 		Card trigger = library.draw();
 		System.out.println("Triggerd:" + trigger);
 		List<Trigger> triggers = trigger.getTrigger();
-		stock.addStock(trigger);
+		stock.add(trigger);
 		return triggers;
 	}
 
@@ -208,7 +205,7 @@ public class Board {
 			c = library.draw();
 			cards.add(c);
 			if (c instanceof Climax){
-				waitingRoom.sendToWaitingRoom(cards);
+				waitingRoom.add(cards);
 				return null;
 			}
 		}
@@ -217,17 +214,13 @@ public class Board {
 	}
 
 	public void levelUp(List<Card> cards, Card card) {
-		level.levelUp(card);
+		level.add(card);
 		cards.remove(card);
-		waitingRoom.sendToWaitingRoom(cards);
+		waitingRoom.add(cards);
 	}
 
 	public Character getCharacter(SlotType s) {
 		return stage.getCharacter(s);
-	}
-
-	public void displayLevel() {
-		level.display();
 	}
 
 	public List<Character> getReversed() {
@@ -235,15 +228,11 @@ public class Board {
 	}
 
 	public void salvage(Character current) {
-		waitingRoom.salvage(current);
+		waitingRoom.remove(current);
 	}
 	
 	public Slot getSlot(Character c){
 		return stage.getSlot(c);
-	}
-
-	public void displayStock() {
-		stock.display();
 	}
 	
 	public Hand getHand(){
@@ -264,6 +253,14 @@ public class Board {
 
 	public DamageZone getDamageZone() {
 		return damage;
+	}
+
+	public LevelZone getLevel() {
+		return level;
+	}
+
+	public Stock getStock() {
+		return stock;
 	}
 
 }

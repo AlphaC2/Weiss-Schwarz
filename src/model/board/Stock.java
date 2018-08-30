@@ -5,12 +5,10 @@ import java.util.List;
 
 import model.card.Card;
 
-public class Stock {
-	private List<Card> cards;
+public class Stock extends Zone{
 
 	Stock() {
-		super();
-		cards = new ArrayList<Card>();
+		super("Stock");
 	}
 	
 	List<Card> pay(int i){
@@ -29,22 +27,6 @@ public class Stock {
 		Card c = cards.get(cards.size() - 1);
 		cards.remove(c);
 		return c;
-	}
-	
-	void addStock(Card c){
-		cards.add(c);
-	}
-	
-	void addToBottom(Card c){
-		cards.add(0, c);
-	}
-	
-	int getStock(){
-		return cards.size();
-	}
-
-	public void display() {
-		System.out.println(cards.size());
 	}
 	
 }
