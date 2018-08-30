@@ -1,9 +1,6 @@
 package controller;
 
 import io.ConsoleReadUserInput;
-import model.card.Card;
-import model.card.Character;
-import model.board.Slot;
 import model.player.Player;
 import model.player.PlayerPhase;
 
@@ -13,7 +10,6 @@ public class GameManager {
 	Player player1;
 	Player player2;
 	Player currentPlayer;
-	Player currentOpponent;
 	boolean alive = true;
 
 	public GameManager(PlayerController p1, PlayerController p2) {
@@ -22,7 +18,6 @@ public class GameManager {
 		player1 = p1.getPlayer();
 		player2 = p2.getPlayer();
 		currentPlayer = player1;
-		currentOpponent = player2;
 		player1.setOpponent(player2);
 		player2.setOpponent(player1);
 	}
@@ -45,7 +40,7 @@ public class GameManager {
 				break;
 
 			case CLOCK:
-				currentPlayer.clock();
+//				currentPlayer.clock();
 				break;
 
 			case MAIN:
@@ -53,7 +48,7 @@ public class GameManager {
 				break;
 
 			case CLIMAX:
-				climax();
+				//TODO
 				break;
 
 			case ATTACK:
@@ -77,12 +72,12 @@ public class GameManager {
 
 	private void encore() {
 		currentPlayer.encore();
-		currentOpponent.encore();
+		currentPlayer.getOpponent().encore();
 	}
 
 	private void mainPhase() {
 		// Main Phase
-		while (true) {
+		while (currentPlayer.getPhase() == PlayerPhase.MAIN) {
 			currentPlayer.executeCommand();
 			
 			/*input = reader.getLine().toLowerCase().trim();
@@ -154,27 +149,13 @@ public class GameManager {
 		}
 	}
 
-	
-
-	private void playCharacter() {
-		Card card = currentPlayer.chooseCardFromHand();
-		Slot slot = currentPlayer.chooseSlot();
-		currentPlayer.playCharacter(card, slot);
-	}
-
-	private void climax() {
-		currentPlayer.playClimax();
-	}
-
 	private void endPhase() {
 		currentPlayer.endPhase();
 		if (currentPlayer.getPhase() == PlayerPhase.OPPONENTS_TURN) {
 			if (currentPlayer == player1){
 				currentPlayer = player2;
-				currentOpponent = player1;
 			}else if (currentPlayer == player2){
 				currentPlayer = player1;
-				currentOpponent = player2;
 			}else
 				System.out.println("ERROR");
 			currentPlayer.endPhase();

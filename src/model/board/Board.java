@@ -34,21 +34,6 @@ public class Board {
 		climaxZone = null;
 	}
 	
-	/* Display */
-	public void displayHand(){
-		hand.display();
-	}
-	
-	public void displayStage(){
-		stage.displayStage();
-		if (climaxZone != null)
-			System.out.println("Active Climax: " + climaxZone);
-	}
-	
-	public void displayWaitingRoom(){
-		waitingRoom.displayWaitingRoom();
-	}
-	
 	public void displayDamage(){
 		damage.display();
 	}
@@ -80,6 +65,7 @@ public class Board {
 	
 	/* Actions*/
 	public void playClimax(Climax c){
+		hand.remove(c);
 		climaxZone = c;
 	}
 	
@@ -101,6 +87,12 @@ public class Board {
 	public void refreshWaitingRoom(){
 		library.addCards(waitingRoom.refresh());
 		damage.takeNoCancelDamage(library.draw());
+	}
+	
+	public void draw(int count){
+		for (int j = 0; j < count; j++) {
+			draw();
+		}
 	}
 	
 	public void draw(){
@@ -133,37 +125,37 @@ public class Board {
 		}
 	}
 	
-	public void bounce(Slot s){
-		hand.add(stage.remove(s));
+	public void bounce(SlotType s){
+		hand.add(stage.removeCharacter(s));
 	}
 	
-	public void topDeck(Slot s){
-		library.placeTop(stage.remove(s));
+	public void topDeck(SlotType s){
+		library.placeTop(stage.removeCharacter(s));
 	}
 	
-	public void kickToClock(Slot s){
-		damage.takeNoCancelDamage(stage.remove(s));
+	public void kickToClock(SlotType s){
+		damage.takeNoCancelDamage(stage.removeCharacter(s));
 	}
 	
-	public void stockBomb(Slot s){
-		stock.addStock(stage.remove(s));
+	public void stockBomb(SlotType s){
+		stock.addStock(stage.removeCharacter(s));
 	}
 	
-	public void kickToMemory(Slot s){
-		memory.sendToMemory(stage.remove(s));
+	public void kickToMemory(SlotType s){
+		memory.sendToMemory(stage.removeCharacter(s));
 	}
 	
-	public void encore(Slot s){
-		Character c = stage.remove(s);
+	public void encore(SlotType s){
+		Character c = stage.removeCharacter(s);
 		waitingRoom.sendToWaitingRoom(c);
 		waitingRoom.salvage(waitingRoom.size() - 1);
 		stage.place(c, s);
 	}
 	
-	public void play(Card c, Slot s){
+	public void play(Card c, SlotType s){
 		if (c instanceof Character){
-			if (stage.hasChar(s))
-				waitingRoom.sendToWaitingRoom(stage.remove(s));
+			if (stage.hasCharacter(s))
+				waitingRoom.sendToWaitingRoom(stage.removeCharacter(s));
 			stage.place((Character) c, s);
 		}else{
 			hand.add(c);
@@ -171,13 +163,13 @@ public class Board {
 		}
 	}
 	
-	public void remove(Slot s){
-		stage.remove(s);
+	public void remove(SlotType s){
+		stage.removeCharacter(s);
 	}
 
-	public void play(Character current, Slot s) {
-		if (stage.hasChar(s))
-			waitingRoom.sendToWaitingRoom(stage.remove(s));
+	public void play(Character current, SlotType s) {
+		if (stage.hasCharacter(s))
+			waitingRoom.sendToWaitingRoom(stage.removeCharacter(s));
 		stage.place(current, s);
 	}
 	
@@ -193,16 +185,16 @@ public class Board {
 		return triggers;
 	}
 
-	public boolean declareAttack(Slot s) {
-		if (s == Slot.REAR_LEFT || s== Slot.REAR_RIGHT){
+	public boolean declareAttack(SlotType s) {
+		if (s == SlotType.REAR_LEFT || s== SlotType.REAR_RIGHT){
 			System.out.println("Cannot attack from back row");
 			return false;
 		}
 		return stage.rest(s);
 	}
 
-	public int getSoul(Slot s){
-		Character c = stage.getCard(s);
+	public int getSoul(SlotType s){
+		Character c = stage.getCharacter(s);
 		if (c == null)
 			return 0;
 		else
@@ -230,8 +222,8 @@ public class Board {
 		waitingRoom.sendToWaitingRoom(cards);
 	}
 
-	public Character getCharacter(Slot s) {
-		return stage.getCard(s);
+	public Character getCharacter(SlotType s) {
+		return stage.getCharacter(s);
 	}
 
 	public void displayLevel() {
@@ -254,12 +246,24 @@ public class Board {
 		stock.display();
 	}
 	
-	public List<Card> getHand(){
-		return hand.getHand();
+	public Hand getHand(){
+		return hand;
 	}
 	
 	public List<Character> getStanding(){
 		return stage.getCharacterByPosition(Position.STANDING);
+	}
+
+	public Stage getStage() {
+		return stage;
+	}
+
+	public WaitingRoom getWaitingRoom() {
+		return waitingRoom;
+	}
+
+	public DamageZone getDamageZone() {
+		return damage;
 	}
 
 }

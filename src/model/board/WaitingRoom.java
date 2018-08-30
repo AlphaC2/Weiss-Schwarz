@@ -53,4 +53,12 @@ public class WaitingRoom {
 		cards.remove(current);
 	}
 	
+	public String toString(){
+		String output = "Waiting room has " + cards.size() + " cards" + System.lineSeparator();
+		for (Card card : cards) {
+			output += card.toShortString() + System.lineSeparator(); 
+		}
+		return output;
+	}
+	
 }

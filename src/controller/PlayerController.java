@@ -36,4 +36,14 @@ public abstract class PlayerController {
 	public Player getPlayer() {
 		return player;
 	}
+
+	public abstract void displayStage();
+
+	public abstract void displayHand();
+	
+	public abstract void displayWaitingRoom();
+	
+	public abstract void displayDamageZone();
+
+	public abstract Card chooseCardFromHand();
 }

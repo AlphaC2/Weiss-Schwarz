@@ -2,15 +2,15 @@ package command;
 
 import controller.PlayerController;
 
-public class DisplayHand extends Command{
+public class EndPhase extends Command {
 
-	public DisplayHand() {
-		super("Display Hand");
+	public EndPhase( ) {
+		super("End Phase");
 	}
 
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
-		p1.displayHand();
+		p1.getPlayer().endPhase();
 	}
 
 }

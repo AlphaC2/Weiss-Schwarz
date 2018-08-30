@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
+import model.card.Climax;
 
 public class Hand {
 	private List<Card> cards;
@@ -17,25 +18,35 @@ public class Hand {
 		cards.add(c);
 	}
 	
-	void display(){
-		if (cards.size() == 0)
-			System.out.println("Empty");
-		for (int i = 0; i < cards.size(); i++) {
-			System.out.println(i + "-" + cards.get(i).toShortString());
-		}
-	}
 
 	Card get(Card c) {
 		cards.remove(c);
 		return c;
 	}
 	
-	List<Card> getHand(){
+	public List<Card> getCards(){
 		return new ArrayList<>(cards);
 	}
 
 	int size() {
 		return cards.size();
+	}
+	
+	@Override
+	public String toString(){
+		String s = "";
+		if (getCards().size() == 0)
+			return "Empty";
+		for (Card c : getCards()) {
+			s+= c + System.lineSeparator();
+		}
+		return s;
+	}
+
+	public void remove(Card c) {
+		if (!cards.remove(c)){
+			throw new IllegalArgumentException("Card not in hand " + System.lineSeparator() + c);
+		}
 	}
 
 }

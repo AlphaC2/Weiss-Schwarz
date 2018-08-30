@@ -1,23 +1,28 @@
-package controller;
+package app;
 
 import java.util.List;
 
-import app.Directories;
+import controller.GameManager;
+import controller.PlayerController;
 import io.DeckBuilder;
 import io.ConsoleReadUserInput;
+import model.board.Slot;
+import model.board.Stage;
 import model.card.Card;
 import model.exceptions.InvalidDeckException;
 import model.exceptions.InvalidIDException;
 
 public class ConsoleController extends PlayerController {
-	
+
 	public ConsoleController(String name) {
 		super(name, new ConsoleReadUserInput());
-		
 	}
 
 	public static void main(String[] args) {
-		
+		PlayerController c1 = new ConsoleController("P1");
+		PlayerController c2 = new ConsoleController("P2");
+		GameManager gm = new GameManager(c1, c2);
+		gm.gameLoop();
 	}
 
 	@Override
@@ -47,6 +52,35 @@ public class ConsoleController extends PlayerController {
 	@Override
 	public void log(Object text) {
 		System.out.println(text.toString());
+	}
+
+	@Override
+	public void displayStage() {
+		System.out.println(getPlayer().getName() + " stage:");
+		Stage stage = getPlayer().getBoard().getStage();
+		for (Slot slot : stage.getSlots()) {
+			System.out.println(slot);
+		}
+	}
+
+	@Override
+	public void displayHand() {
+		System.out.println(getPlayer().getHand());
+	}
+
+	@Override
+	public void displayWaitingRoom() {
+		System.out.println(getPlayer().getWaitingRoom());
+	}
+
+	@Override
+	public void displayDamageZone() {
+		System.out.println(getPlayer().getDamageZone());
+	}
+
+	@Override
+	public Card chooseCardFromHand() {
+		return getPlayer().chooseCardFromHand();
 	}
 
 }
