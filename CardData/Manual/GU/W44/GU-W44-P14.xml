@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-W44-P14</ID>
+    <Name>旋律にのせて チノ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusa/10176.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>COFFEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

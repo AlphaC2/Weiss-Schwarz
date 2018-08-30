@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>BD-W54-T57</ID>
+    <Name>いつも通りだから</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10339.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>蘭「うん。あたし達は、来年もその先も、いつも通りだから」</FlavourText>
+    <Ability>【自】このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+</Card>

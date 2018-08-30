@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-078</ID>
+    <Name>“救援”ミカサ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>後は……私達に任せて</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】アタックフェイズ中、あなたのキャラが、他の枠に動いた時、そのターン中、そのキャラのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>CORPS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

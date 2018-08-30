@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-W44-P13</ID>
+    <Name>旋律にのせて メグ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusa/10175.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>BALLET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-093</ID>
+    <Name>三角関係? 楽</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

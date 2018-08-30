@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>BD-W54-112</ID>
+    <Name>憧れのステージ(銀箔押し入り)</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10289.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>GATE</Trigger>
+    <FlavourText>......ライブ前って、ワクワクしますよね。どんな音楽に出会えるんだろうとか、どんな演奏が聞けるんだろうとか</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）</Ability>
+</Card>

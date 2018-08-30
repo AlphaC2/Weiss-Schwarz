@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-W44-P16</ID>
+    <Name>旋律にのせて モカ&青山</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusa/10178.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>BREAD</Trait>
+        <Trait>NOVEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

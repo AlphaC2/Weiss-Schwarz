@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>Woo-SE19-J02</ID>
+    <Name>旅に出ます うーさー</Name>
+    <Rarity>WR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/woo/10020.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【自】 バトル中のこのカードが【リバース】した時、あなたは旅に出る。相手が探しに来たなら、すぐに戻る。そうでないなら、しばらくして戻ってくる。（お買い物やお手洗いに行ってきてもよい） 
+※このカードは公式・公認大会では使用できません。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MYSTERY</Trait>
+        <Trait>LETTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

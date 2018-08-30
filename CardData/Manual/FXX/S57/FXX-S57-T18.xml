@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>FXX-S57-T18</ID>
+    <Name>13部隊のリーダー イチゴ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/darlifra/10018.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ヒロはここに残ることになったんだから、堂々としてればいいんだよ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの、《パラサイト》か《フランクス》のキャラの枚数に等しい。【自】このカードがアタックした時、他のあなたの、《パラサイト》か《フランクス》のキャラが4枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>PARASITE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

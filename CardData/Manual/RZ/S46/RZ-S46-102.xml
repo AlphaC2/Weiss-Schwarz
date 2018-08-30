@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-102</ID>
+    <Name>ぷちベアトリス</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10139.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【自】他のあなたのバトル中の、《魔法》か《武器》のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

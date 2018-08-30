@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>KI-S44-015</ID>
+    <Name>ゴモリン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kiznaiver/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【永】このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「ゴモリン」をＸ枚まで選び、このカードの下にマーカーとして裏向きに置く。Ｘはあなたの前列の「ゴモリン」の枚数に等しい。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

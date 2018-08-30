@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>KS-W49-057</ID>
+    <Name>キャベツ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キャベキャベぷーーー！</FlavourText>
+    <Ability>【永】このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。【自】あなたのクライマックスフェイズの始めに、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの前列の「キャベツ」の枚数×2000に等しい。【自】このカードの与えたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。</Ability>
+</Card>

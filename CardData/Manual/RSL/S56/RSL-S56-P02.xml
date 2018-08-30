@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>RSL-S56-P02</ID>
+    <Name>“聖翔音楽学園99期生”西條 クロディーヌ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rsl/10002.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>REVIEW</Trait>
+        <Trait>CHILD_ACTOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

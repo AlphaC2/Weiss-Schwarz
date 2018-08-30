@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>NGL-S58-T10</ID>
+    <Name>ディスボードへようこそ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ngl/10010.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>WHIRLWIND</Trigger>
+    <FlavourText>空＆白「超クソゲー」</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）</Ability>
+</Card>

@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Card>
-	<Type></Type>
-	<Name></Name>
-	<ID></ID>
-	<Colour></Colour>
-	<Level></Level>
-	<Cost></Cost>
-	<Trigger></Trigger>
-	<Rarity></Rarity>
-	<Event>
-		<Ability></Ability>
-	</Event>
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID></ID>
+    <Name></Name>
+    <Rarity></Rarity>
+    <ImageURL></ImageURL>
+    <Colour></Colour>
+    <Level></Level>
+    <Cost></Cost>
+    <Trigger></Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
 </Card>

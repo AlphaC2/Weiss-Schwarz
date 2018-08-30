@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-079</ID>
+    <Name>Star Destroyer</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>オッゼル「数千ものプローブ・ドロイドが銀河系を捜索している。欲しいのは証拠だ、手掛かりではない」</FlavourText>
+    <Ability>あなたは自分の【スタンド】しているキャラを2枚選び【レスト】する。2枚【レスト】したなら、あなたは自分の控え室のコスト0以下のカード名に「トルーパー」を含むキャラを2枚まで選び、舞台の別々の枠に置き、あなたのキャラすべてに、そのターン中、パワーを＋1000。</Ability>
+</Card>

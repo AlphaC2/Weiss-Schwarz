@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S55-P07</ID>
+    <Name>月より団子 エミリア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/noimage_front.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【自】 このカードが手札から舞台に置かれた時、他のあなたの、《魔法》か《武器》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENTAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

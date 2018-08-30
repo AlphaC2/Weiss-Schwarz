@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T09</ID>
+    <Name>“ステージ”氷川紗夜</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10014.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いつか、私も......本当の自分を見せられる日が......</FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

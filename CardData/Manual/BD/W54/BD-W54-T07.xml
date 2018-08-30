@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T07</ID>
+    <Name>“ステージ”宇田川あこ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10012.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ばーん!衣装完成ーーーっ!超カッコイイ!まさに黒の騎士団、闇の破壊者......!!</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《音楽》のキャラなら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

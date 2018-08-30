@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>BD-W54-T18</ID>
+    <Name>1stライブがんばろう会</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10023.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>PANTS</Trigger>
+    <FlavourText>友希那「私たちはやるべき事はやったわ。明日のライブは最善を尽くしましょう。……乾杯」</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）</Ability>
+</Card>

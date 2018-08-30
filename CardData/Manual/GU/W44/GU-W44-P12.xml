@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-W44-P12</ID>
+    <Name>旋律にのせて シャロ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusa/10174.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>FLEUR_DE_LAPIN</Trait>
+        <Trait>SPECIAL_STUDENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

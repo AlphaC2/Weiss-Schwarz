@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-025</ID>
+    <Name>“ARアイドル”ユナ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10025.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日のMVPはあなた！おめでとー！！</FlavourText>
+    <Ability>【永】このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「夢だった大舞台」があるなら、あなたは自分のストックの上から1枚を、手札に戻してよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>NET</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Card>
-	<Type></Type>
-	<ID></ID>
-	<Name></Name>
-	<Colour></Colour>
-	<Level></Level>
-	<Cost></Cost>
-	<Trigger></Trigger>
-	<Rarity></Rarity>
-	<Character>
-		<Power></Power>
-		<Trait></Trait>
-		<Trait></Trait>
-		<Soul></Soul>
-	</Character>
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID></ID>
+    <Name></Name>
+    <Rarity></Rarity>
+    <ImageURL></ImageURL>
+    <Colour></Colour>
+    <Level></Level>
+    <Cost></Cost>
+    <Trigger></Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power></Power>
+        <Trait></Trait>
+        <Soul></Soul>
+    </Character>
 </Card>

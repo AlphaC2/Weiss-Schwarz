@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-027</ID>
+    <Name>jakku</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>マズ・カナタ「もう、真実を知っているはずだ。お前がジャクーで待つ人は、もう戻らない」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《フォースの覚醒》のキャラの枚数×1000に等しい。</Ability>
+</Card>

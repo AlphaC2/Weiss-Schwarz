@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-WE27-A18</ID>
+    <Name>“さあどこへ行こうかな”国木田 花丸</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivessext/10147.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POTATO</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

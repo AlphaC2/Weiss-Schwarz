@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>VA-W30-55</ID>
+    <Name>鬼召集</Name>
+    <Rarity>SEC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>STANDBY</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+</Card>

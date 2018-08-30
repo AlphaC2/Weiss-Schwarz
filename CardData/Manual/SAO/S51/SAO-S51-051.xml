@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-051</ID>
+    <Name>折れない意思 リズベット</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10051.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おーらい。このまま続けていこう</FlavourText>
+    <Ability>【永】あなたの後列のキャラが1枚以下なら、このカードはアタックできない。【自】【CXコンボ】［(1)］このカードがアタックした時、クライマックス置場に「年季入りのパーティプレイ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、そのターン中、次の能力を与える。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

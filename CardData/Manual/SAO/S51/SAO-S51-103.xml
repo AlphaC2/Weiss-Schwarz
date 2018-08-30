@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-103</ID>
+    <Name>ボーナスタイム! ユナ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10103.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さー、戦闘開始だよ、ミュージックスタート！</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、相手は2枚引いてよい。そうしたら、相手は自分の手札を2枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>NET</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

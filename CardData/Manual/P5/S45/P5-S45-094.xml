@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>P5-S45-094</ID>
+    <Name>ベルベットルームの“主”イゴール</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/p5/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私は、主を務めているイゴール。覚えてくれたまえ</FlavourText>
+    <Ability>【自】【クロック】アラームこのカードがクロックの1番上にあるなら、あなたのメインフェイズの始めに、あなたは相手の手札を見る。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

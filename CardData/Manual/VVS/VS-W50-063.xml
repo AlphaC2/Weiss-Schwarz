@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>VS-W50-063</ID>
+    <Name>セイクリッド・ハート</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>セイクリッドハート！セーットアーップ！！</FlavourText>
+    <Ability>このカードは、あなたのカード名に「ヴィヴィオ」を含むキャラがいないなら、手札からプレイできない。あなたは自分の控え室の『助太刀』を持つキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置き、自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。</Ability>
+</Card>

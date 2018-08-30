@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T03</ID>
+    <Name>“天使のほほえみ”宇田川あこ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10008.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そりゃあ世界で一番カッコイイ、最高で最強なドラマーの妹ですからっ!!</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠の《音楽》のキャラに、パワーを＋500し、『【自】アンコール［手札の青のカードを1枚控え室に置く］』を与える。【起】集中［(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

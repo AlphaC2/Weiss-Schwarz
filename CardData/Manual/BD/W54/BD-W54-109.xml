@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CLIMAX</Type>
+    <ID>BD-W54-109</ID>
+    <Name>みんなと感じた感動(金箔押し入り)</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10141.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>PANTS</Trigger>
+    <FlavourText>きらきら星がきっかけで、商店街のお祭りの時も頑張れた。私だけじゃなくて、みんなにとって思い出深い......</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）</Ability>
+</Card>

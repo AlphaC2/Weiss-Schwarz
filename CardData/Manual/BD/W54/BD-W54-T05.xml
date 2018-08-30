@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T05</ID>
+    <Name>“ステージ”白金燐子</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10010.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わたし......衣装をつくっている間......ずっとRoseliaのこと......友希那さんの歌のこと......考えて......ました......</FlavourText>
+    <Ability>【起】［このカードを【レスト】する］あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

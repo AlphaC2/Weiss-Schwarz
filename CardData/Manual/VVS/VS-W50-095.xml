@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>VS-W50-095</ID>
+    <Name>スクーデリア</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【カウンター】あなたは自分のカード名に「リンネ」を含むキャラを1枚選び、控え室に置く。そうしたら、あなたは自分のクロックの上から1枚を、手札に戻し、このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>KS-W49-065</ID>
+    <Name>ドレインタッチ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すいません！ドレインタッチ―!!</FlavourText>
+    <Ability>このカードは、あなたのカード名に「ウィズ」か「カズマ」を含むキャラがいないなら、手札からプレイできない。あなたは相手のレベル1以下のキャラを1枚選び、控え室に置いてよい。そうしたら、相手は自分の控え室のレベル0以下のキャラを1枚まで選び、そのキャラがいた枠に置く。このカードをストック置場に置く。</Ability>
+</Card>

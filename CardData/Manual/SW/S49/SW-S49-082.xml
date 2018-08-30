@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-082</ID>
+    <Name>Lightsaber Duel</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10107.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger></Trigger>
+    <FlavourText>ダース・ベイダー「守りを甘くするな、愚か者」</FlavourText>
+    <Ability>あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、自分の控え室の、カード名に「ルーク」を含むキャラを1枚までとカード名に「ベイダー」か「アナキン」を含むキャラを1枚まで選び、手札に戻す。</Ability>
+</Card>

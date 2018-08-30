@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-P04</ID>
+    <Name>“愛Dee”初音ミク＆巡音ルカ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10116.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-093</ID>
+    <Name>緊急参戦 クライン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10093.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>間に合ったぜ！</FlavourText>
+    <Ability>【永】あなたの、《アバター》か《ネット》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを?1。【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

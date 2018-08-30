@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>VS-W50-028</ID>
+    <Name>ウラカン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>にゃあー！</FlavourText>
+    <Ability>【カウンター】このカードは、あなたのカード名に「フーカ」を含むキャラがいないなら、手札からプレイできない。あなたは自分の《覇王流》のキャラを1枚まで選び、【レスト】し、自分の控え室の《覇王流》のキャラを1枚まで選び、自分の「リンネとの対峙フーカ」か「大きな背中フーカ」の下にマーカーとして裏向きに置く。</Ability>
+</Card>
+

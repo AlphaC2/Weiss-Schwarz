@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-P03</ID>
+    <Name>昔のように リンネ&フーカ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10155.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>BLANK</Trigger>
+    <FlavourText>院の頃を思うと、夢のような幸せじゃのー</FlavourText>
+    <Ability>【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。
+【起】［(2) このカードを【レスト】する］ あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MELEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

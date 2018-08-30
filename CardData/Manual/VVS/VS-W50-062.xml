@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>VS-W50-062</ID>
+    <Name>スターセイバー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>スターセイバー！セーット・アップ！</Trigger>
+    <FlavourText>にゃあー！</FlavourText>
+    <Ability>あなたは自分の「必殺の打撃ミウラ」を1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】このカードがアタックした時、あなたは相手に5ダメージを与えてよい。』（ダメージキャンセルは発生する）</Ability>
+</Card>
+

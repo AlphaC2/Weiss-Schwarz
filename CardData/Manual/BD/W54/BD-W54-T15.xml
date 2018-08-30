@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T15</ID>
+    <Name>“努力の跡”今井リサ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10020.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>みんなとバンドを始めて、友希那の笑顔が増えていって、そうしたら、もっと友希那に喜んでもらいたい!って思いが大きくなっていって......</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か「“ステージ”湊友希那」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《音楽》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

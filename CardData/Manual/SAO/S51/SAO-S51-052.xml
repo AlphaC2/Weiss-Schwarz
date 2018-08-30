@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-052</ID>
+    <Name>“連携攻撃”シリカ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10052.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ピナ！</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《アバター》か《ネット》なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。』【自】このカードが手札から舞台に置かれた時か「“連携攻撃”キリト」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T10</ID>
+    <Name>“ステージ”今井リサ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10015.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>その情熱が感動だよっ。『Roseliaにすべてを賭けてる』よ!</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

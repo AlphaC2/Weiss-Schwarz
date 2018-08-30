@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-115</ID>
+    <Name>AT-AT</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10140.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヴィアーズ「全兵士、地上攻撃を開始しろ。メイン・ジェネレータに照準用意」</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。あなたは自分の山札の上から1枚を控え室に置く。そのカードのレベルが1以上なら、あなたは相手のキャラを1枚選び、山札の下に置く。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

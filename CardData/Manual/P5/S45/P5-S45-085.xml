@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>P5-S45-085</ID>
+    <Name>更生を課す者 イゴール</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/p5/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いよいよだ…お前の更生が始まる</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。【自】［手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「処刑」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

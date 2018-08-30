@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-081</ID>
+    <Name>Death Star</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10106.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>4</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ルーク「すごく嫌な予感がする」</FlavourText>
+    <Ability>あなたの控え室のクライマックスが4枚以上なら、あなたは自分の手札の赤のキャラを1枚選び、控え室に置いてよい。そうしたら、あなたはすべてのプレイヤーのキャラすべてを、控え室に置く。</Ability>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W48-011</ID>
+    <Name“託すメモリー”井上</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwanime/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ん？</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】記憶あなたの思い出置場に「“託すメモリー”井上」があるなら、このカードのパワーを＋500。』【自】［(1)手札を1枚控え室に置き、このカードを思い出にする］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

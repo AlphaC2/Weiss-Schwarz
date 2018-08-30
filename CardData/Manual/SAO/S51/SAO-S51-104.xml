@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-104</ID>
+    <Name>負けられない理由 キリト</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10104.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level><2/Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>過去の自分を否定するようなやつに、負けるわけにはいかない</FlavourText>
+    <Ability>【自】このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

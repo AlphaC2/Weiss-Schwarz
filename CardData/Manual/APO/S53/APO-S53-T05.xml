@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-T05</ID>
+    <Name>“進撃”赤のバーサーカー</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10005.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【永】あなたはイベントと『助太刀』を手札からプレイできない。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MUSCLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

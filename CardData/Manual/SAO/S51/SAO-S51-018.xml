@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SAO-S51-018</ID>
+    <Name>不意の呟き</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10018.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エイジ「スイッチ」</FlavourText>
+    <Ability>【カウンター】あなたは自分のバトル中のキャラを1枚選び、手札に戻し、自分の後列のキャラを1枚選び、バトル中のキャラがいた枠に防御キャラとして動かす。</Ability>
+</Card>

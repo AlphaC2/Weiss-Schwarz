@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T04</ID>
+    <Name>“人混みはニガテ”白金燐子</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10009.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>......あの、あこちゃん、わたし......何を話したら......</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

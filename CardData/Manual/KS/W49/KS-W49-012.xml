@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-012</ID>
+    <Name>ルナ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>繰り返します。冒険者各員は至急正門に集まってください!!</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

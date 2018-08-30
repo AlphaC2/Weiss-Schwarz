@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-P03</ID>
+    <Name>羽ばたく少女 リオン</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10114.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>FOREIGNER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

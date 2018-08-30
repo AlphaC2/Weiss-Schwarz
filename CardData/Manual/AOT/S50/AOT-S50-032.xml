@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-032</ID>
+    <Name>ニック司祭</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>こ……れは……</FlavourText>
+    <Ability>【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「壁の中」を1枚選び、手札に戻す。【自】あなたのメインフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが1以上なら、このカードを控え室に置く。（クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

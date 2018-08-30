@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-116</ID>
+    <Name>Rey’s Speeder</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10141.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私、待つことには慣れっこなの</FlavourText>
+    <Ability>このカードは、あなたの《フォースの覚醒》のキャラがいないなら、手札からプレイできない。あなたは自分のクロックを1枚選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

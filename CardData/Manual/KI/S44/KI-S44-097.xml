@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>KI-S44-097</ID>
+    <Name>のりちゃんストラップ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kiznaiver/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>漆原「のりちゃんはキズナの会のアイドルなの」</FlavourText>
+    <Ability>カウンター＠あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《キズナ》のキャラの枚数×1000に等しい。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-P09</ID>
+    <Name>異世界常夏生活</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10200.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-P05</ID>
+    <Name>謎がいっぱい ツチノコ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10169.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>MYSTERY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

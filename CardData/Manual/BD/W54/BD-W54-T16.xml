@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-T16</ID>
+    <Name>慣れない電話</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10021.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、あこちゃん……わたし、電話するの……苦手だから……深呼吸して、落ち着こうと……思って……</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの《音楽》のキャラが1枚以下なら、手札からプレイできない。以下の効果のうちあなたが選んだ1つを行う。あなたの、カード名に「友希那」を含むキャラと「リサ」を含むキャラと「紗夜」を含むキャラと「あこ」を含むキャラと「燐子」を含むキャラが別々に1枚ずついるなら、代わりに選んだ1つを2回行う。『あなたは相手のキャラを1枚選び、そのターン中、ソウルを?1。』『あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3000。』『あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-042</ID>
+    <Name>魔法攻撃 リーファ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10042.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「妖精たちの援護」があるなら、あなたは自分の控え室の、《アバター》か《ネット》のキャラを1枚まで選び、ストック置場に置き、自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら手札に加える。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

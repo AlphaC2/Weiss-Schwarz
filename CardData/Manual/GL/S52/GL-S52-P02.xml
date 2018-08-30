@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-P02</ID>
+    <Name>これからも一緒に シモン＆ニア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10154.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-094</ID>
+    <Name>どこか寂しげ 和人</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10094.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…</FlavourText>
+    <Ability>【永】舞台のこのカードのレベルを?2。【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《アバター》か《ネット》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

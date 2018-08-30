@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>EVENT</Type>
+    <ID>KS-W49-053</ID>
+    <Name>博士</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おっと、これ作った責任者、俺でした！</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』【起】［あなたのキャラを2枚【レスト】する］このカードの下にマーカーがないなら、あなたは自分の控え室の「デストロイヤー警報！」を1枚選び、このカードの下にマーカーとして裏向きに置く。【起】［あなたのキャラを2枚【レスト】する］あなたはこのカードの下のマーカーを1枚手札に戻す。</Ability>
+</Card>

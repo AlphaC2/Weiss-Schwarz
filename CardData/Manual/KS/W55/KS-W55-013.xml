@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W55-013</ID>
+    <Name>“当主の威厳”ダクネスの父</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba2.0/10013.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうだね？庭の散歩でもしてきては</FlavourText>
+    <Ability>【自】【クロック】アラームこのカードがクロックの1番上にあるなら、あなたのクライマックスフェイズの始めに、あなたは自分の《煩悩》のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

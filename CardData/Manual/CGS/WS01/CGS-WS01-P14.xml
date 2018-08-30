@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>CGS-WS01-P14</ID>
+    <Name>プードル犬 しよ子</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/siyoko/10045.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText></FlavourText>
+    <Ability></Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>CARD_GAME</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

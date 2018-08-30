@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-056</ID>
+    <Name>身構えるシリカ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アスナさん！</FlavourText>
+    <Ability>【永】他のあなたの、《アバター》か《ネット》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

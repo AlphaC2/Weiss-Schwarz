@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Card>
+    <Type>CHARACTER</Type>
+    <ID>Woo-SE19-J03</ID>
+    <Name>渾身の土下座 うーさー</Name>
+    <Rarity>WR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/woo/10021.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText></FlavourText>
+    <Ability>【永】 あなたの受けたダメージがキャンセルされなかった時、あなたが相手にお願いして相手が認めたなら、かわりにそのダメージをキャンセルし、ゲームの終わりに、あなたは相手の肩を揉む。 【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。 
+※このカードは公式・公認大会では使用できません。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MYSTERY</Trait>
+        <Trait>KOWTOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>
