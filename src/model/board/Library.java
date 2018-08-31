@@ -17,7 +17,7 @@ public class Library {
 		}
 	}
 	
-	Card draw(){
+	public Card draw(){
 		Card c = cards.get(0);
 		cards.remove(c);
 		return c;

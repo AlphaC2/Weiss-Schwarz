@@ -74,14 +74,6 @@ public class Board {
 		}
 	}
 	
-	public void standAll(){
-		stage.standAll();
-	}
-	
-	public void sendToWaitingRoom(Card c){
-		waitingRoom.add(c);
-	}
-	
 	public void refreshWaitingRoom(){
 		library.addCards(waitingRoom.refresh());
 		damage.add(library.draw());
@@ -159,10 +151,6 @@ public class Board {
 			System.out.println("Card is not a Character");
 		}
 	}
-	
-	public void remove(SlotType s){
-		stage.removeCharacter(s);
-	}
 
 	public void play(Character current, SlotType s) {
 		if (stage.hasCharacter(s))
@@ -209,33 +197,11 @@ public class Board {
 		return damage.takeDamage(cards);
 		
 	}
-
-	public void levelUp(List<Card> cards, Card card) {
-		level.add(card);
-		cards.remove(card);
-		waitingRoom.add(cards);
-	}
-
-	public List<Character> getReversed() {
-		return stage.getCharacterByPosition(Position.REVERSED);
-	}
-
-	public void salvage(Character current) {
-		waitingRoom.remove(current);
-	}
-	
-	public Slot getSlot(Character c){
-		return stage.getSlot(c);
-	}
 	
 	public Hand getHand(){
 		return hand;
 	}
 	
-	public List<Character> getStanding(){
-		return stage.getCharacterByPosition(Position.STANDING);
-	}
-
 	public Stage getStage() {
 		return stage;
 	}
@@ -254,6 +220,10 @@ public class Board {
 
 	public Stock getStock() {
 		return stock;
+	}
+
+	public Library getLibrary() {
+		return library;
 	}
 
 }

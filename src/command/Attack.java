@@ -26,11 +26,10 @@ public class Attack extends Command {
 		Player player = p1.getPlayer();
 		Board board = p1.getBoard();
 		
-		// Beginning of Attack Phase
-		player.nextStep();
 		List<Character> attackingChars = board.getStage().getAttacking();
 		while (attackingChars.size() > 0) {
 			declared = false;
+
 			while (!declared) {
 				// Attack Declaration
 				p1.displayStage();
@@ -41,9 +40,12 @@ public class Attack extends Command {
 				}
 				
 				Character c = p1.getChoice("Choose a character to attack with", attackingChars);
-				attacking = board.getSlot(c);
+				attacking = board.getStage().getSlot(c);
 				declared = board.declareAttack(attacking);
 			}
+			// Beginning of Attack Phase
+			player.nextStep();
+			
 			p1.log(player.getPhase());
 			SlotType across = SlotType.getAcross(attacking.getSlotType());
 			player.nextStep();
@@ -62,18 +64,16 @@ public class Attack extends Command {
 			// Damage
 			p1.log(player.getPhase());
 			int amount = attacking.getCharacter().getSoul();
-			if (defending == null)
+			if (defending.getCharacter() == null)
 				amount++;
 			p1.log("Deal " + amount + " damage to opponent");
-			for (int i = 0; i <amount; i++) {
-				Command c = new TakeDamage();
-				c.execute(p2, null);
-			}
+			new TakeDamage(amount).execute(p2, null);
 			player.nextStep();
 
 			// End of Attack
 			p1.log(player.getPhase());
-			if (defending != null) {
+			if (defending.getCharacter() != null) {
+				//Front/Side Attack
 				if (attacking.getCharacter().getCurrentPower() > defending.getCharacter().getCurrentPower()) {
 					defending.reverse();
 				} else if (attacking.getCharacter().getCurrentPower() < defending.getCharacter().getCurrentPower()) {
@@ -84,11 +84,7 @@ public class Attack extends Command {
 				} else {
 					throw new IllegalStateException("End of Attack step, should be unreachable code");
 				}
-			} else {
-				//TODO
-			}
-
-			// Attack
+			} 
 		}
 	}
 

@@ -14,7 +14,7 @@ public class DamageZone extends SearchableZone {
 		damage = new ArrayList<Card>();
 	}	
 	
-	List<Card> takeDamage(List<Card> cards){
+	public List<Card> takeDamage(List<Card> cards){
 		for (Card card : cards) {
 			damage.add(card);			
 		}

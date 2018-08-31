@@ -48,7 +48,7 @@ public class Stage {
 		}
 	}
 	
-	Character removeCharacter(SlotType s){
+	public Character removeCharacter(SlotType s){
 		Character c = null;
 		for (Slot slot : slots) {
 			if (slot.getSlotType() == s){
@@ -96,7 +96,7 @@ public class Stage {
 	
 	public Slot getSlot(Character c){
 		for (Slot slot : slots) {
-			if (slot.getCharacter().equals(c)){
+			if (slot.getCharacter()!=null && slot.getCharacter().equals(c)){
 				return slot;
 			}
 		}
