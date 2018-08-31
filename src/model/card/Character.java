@@ -11,7 +11,6 @@ public final class Character extends Card {
 	private int currentPower;
 	private int soul;
 	private List<Ability> abilities;
-	private Position state;
 		
 	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
 			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul,	List<Ability> abilities) {
@@ -52,10 +51,6 @@ public final class Character extends Card {
 		return soul;
 	}
 
-	public Position getState() {
-		return state;
-	}
-
 	public List<Ability> getAbilities() {
 		return abilities;
 	}
@@ -64,27 +59,10 @@ public final class Character extends Card {
 		return abilities.get(i);
 	}
 	
-	public void stand(){
-		state = Position.STANDING;
-	}
-	
-	public void rest(){
-		state = Position.RESTED;
-	}
-	
-	public void reverse(){
-		state = Position.REVERSED;
-	}
-	
-	@Override
-	public String toShortString(){
-		return  super.toShortString() + ", State=" + state;
-	}
-	
 	@Override
 	public String toString() {
 		return super.toString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", basePower=" + basePower + ", currentPower="
-				+ currentPower + ", soul=" + soul + ", abilities=" + abilities + ", state=" + state + "]";
+				+ currentPower + ", soul=" + soul + ", abilities=" + abilities + "]";
 	}
 
 

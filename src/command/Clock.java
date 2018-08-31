@@ -14,11 +14,10 @@ public class Clock extends Command{
 		p1.displayHand();
 		boolean clock = p1.getChoice("Clock?");
 		if (clock) {
-			Card c = p1.chooseCardFromHand();
-			p1.getPlayer().getBoard().clock(c);
-			p1.getPlayer().getBoard().draw(2);
+			Card c = p1.getChoice("Pick card to clock", p1.getBoard().getHand().getCards());
+			p1.getBoard().clock(c);
+			p1.getBoard().draw(2);
 		}
-		p1.getPlayer().endPhase();
 		
 	}
 

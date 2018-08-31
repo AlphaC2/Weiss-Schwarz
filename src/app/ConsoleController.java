@@ -59,7 +59,7 @@ public class ConsoleController extends PlayerController {
 	@Override
 	public void displayStage() {
 		System.out.println(getPlayer().getName() + " stage:");
-		Stage stage = getPlayer().getBoard().getStage();
+		Stage stage = getBoard().getStage();
 		for (Slot slot : stage.getSlots()) {
 			System.out.println(slot);
 		}
@@ -67,28 +67,28 @@ public class ConsoleController extends PlayerController {
 
 	@Override
 	public void displayHand() {
-		System.out.println(getPlayer().getHand());
+		System.out.println(getBoard().getHand());
 	}
 
 	@Override
 	public void displayWaitingRoom() {
-		System.out.println(getPlayer().getWaitingRoom());
+		System.out.println(getBoard().getWaitingRoom());
 	}
 
 	@Override
 	public void displayDamageZone() {
-		System.out.println(getPlayer().getDamageZone());
+		System.out.println(getBoard().getDamageZone());
 	}
 	
 
 	@Override
 	public void displayLevel() {
-		System.out.println(getPlayer().getLevel());
+		System.out.println(getBoard().getLevel());
 	}
 
 	@Override
 	public void displayStock() {
-		System.out.println(getPlayer().getStock());
+		System.out.println(getBoard().getStock());
 	}
 
 }

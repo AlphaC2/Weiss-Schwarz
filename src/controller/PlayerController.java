@@ -1,14 +1,15 @@
 package controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import model.board.Board;
 import model.card.Card;
 import model.player.Player;
 
 public abstract class PlayerController {
 
 	private Player player;
+	private Board board;
 	private ReadUserInput reader;
 
 	public PlayerController(String name, ReadUserInput reader) {
@@ -18,26 +19,12 @@ public abstract class PlayerController {
 	}
 
 	public final void setDeck(List<Card> deck) {
-		player.setDeck(deck);
+		board = new Board(deck);
 	}
 
 	public abstract void buildDeck();
 
 	public abstract void readDeck();
-
-	public Card chooseCardFromHand() {
-		return getChoice("Which card?", getPlayer().getBoard().getHand().getCards());
-	}
-
-	public Card chooseCardFromHand(Class<? extends Card> c) {
-		List<Card> list = new ArrayList<>();
-		for (Card card : getPlayer().getBoard().getHand().getCards()) {
-			if (card.getClass().equals(c)) {
-				list.add(card);
-			}
-		}
-		return getChoice("Which card?", list);
-	}
 
 	public final <T> T getChoice(String prompt, List<T> choices) {
 		return reader.getChoice(prompt, choices);
@@ -64,4 +51,8 @@ public abstract class PlayerController {
 	public abstract void displayLevel();
 
 	public abstract void displayStock();
+
+	public Board getBoard() {
+		return board;
+	}
 }

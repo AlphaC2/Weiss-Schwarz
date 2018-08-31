@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
-import model.card.Character;
 
 public class WaitingRoom extends SearchableZone{
 	private List<Card> cards;
@@ -19,5 +18,4 @@ public class WaitingRoom extends SearchableZone{
 		cards.clear();
 		return newList;
 	}
-
 }

@@ -1,28 +1,12 @@
 package model.player;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 import command.*;
 import controller.GameManager;
-import controller.PlayerController;
-import model.board.Board;
-import model.board.DamageZone;
-import model.board.Hand;
-import model.board.LevelZone;
-import model.board.SlotType;
-import model.board.Stock;
-import model.board.WaitingRoom;
-import model.card.Card;
-import model.card.Character;
-import model.card.Trigger;
-import model.card.ability.Abilities;
 
 public class Player {
-	List<Card> deck;
-	Board board;
 	GameManager gm;
 	PlayerPhase phase;
 	String name;
@@ -32,15 +16,6 @@ public class Player {
 		this.gm = GameManager.getInstance();
 		this.name = name;
 		phase = PlayerPhase.OPPONENTS_TURN;
-	}
-
-	public void setDeck(List<Card> deck) {
-		this.deck = new ArrayList<Card>(deck);
-		board = new Board(this.deck);
-	}
-
-	public void discardCard(Card c) {
-		board.discard(c);
 	}
 	
 	public void endPhase() {
@@ -58,6 +33,9 @@ public class Player {
 			phase = PlayerPhase.MAIN;
 			commands.add(new DisplayHand());
 			commands.add(new DisplayDamage());
+			commands.add(new DisplayWaitingRoom());
+			commands.add(new DisplayStage());
+			commands.add(new PlayCharacter());
 			commands.add(new EndPhase());
 			break;
 		case MAIN:
@@ -74,10 +52,11 @@ public class Player {
 			break;
 		case ATTACK_DECLARATION:
 			phase = PlayerPhase.ENCORE;
+			commands.add(new Encore());
 			break;
 		case ENCORE:
 			phase = PlayerPhase.END;
-			board.endClimax();
+			
 			break;
 		case END:
 			phase = PlayerPhase.OPPONENTS_TURN;
@@ -125,105 +104,6 @@ public class Player {
 		return name;
 	}
 
-	public int getLibrarySize() {
-		return board.cardsInLibrary();
-	}
-
-	public int getWaitingRoomSize() {
-		return board.cardsInWaitingRoom();
-	}
-
-	public void discard(Card c) {
-		board.discard(c);
-	}
-
-	public void shuffleLibrary() {
-		board.shuffleLibrary();
-	}
-
-	public int getHandSize() {
-		return board.cardsInHand();
-	}
-
-	public DamageZone getDamageZone() {
-		return board.getDamageZone();
-	}
-
-	public int memorySize() {
-		return board.memorySize();
-	}
-
-	public void playCharacter(Card card, SlotType slot) {
-		board.play(card, slot);
-	}
-
-	public void clock(Card c) {
-		board.clock(c);
-	}
-
-	public void trigger() {
-		List<Trigger> triggers = board.trigger();
-		// Activate triggers
-		for (Trigger trigger : triggers) {
-			Abilities.trigger(trigger);
-		}
-	}
-
-	public boolean declareAttack(SlotType s) {
-		return board.declareAttack(s);
-	}
-
-	public void standAll() {
-		board.standAll();
-	}
-
-	public int getSoul(SlotType s) {
-		return board.getSoul(s);
-	}
-
-	public void takeDamage(int damage) {
-		List<Card> cards = board.takeDamage(damage);
-		if (cards != null) {
-			gm.log(this,name + " Leveled Up");
-			Card chosen = gm.getChoice(this,name + " choose a card to level up", cards);
-			board.levelUp(cards, chosen);
-		}
-
-	}
-
-	public SlotType chooseSlot() {
-		return gm.getChoice(this,"Choose Slot", Arrays.asList(SlotType.values()));
-	}
-
-	public void encore() {
-		List<Character> dead = board.getReversed();
-		Iterator<Character> iterator = dead.iterator();
-		Character current;
-		SlotType s;
-		while (iterator.hasNext()) {
-			current = iterator.next();
-			s = board.getSlot(current).getSlotType();
-			board.sendToWaitingRoom(current);
-			board.remove(s);
-			boolean choice = gm.getChoice(this,name + " Encore:" + current.toShortString() + "?(y/n)");
-			if (choice) {
-				if (board.payCost(3)) {
-					board.salvage(current);
-					board.play(current, s);
-					gm.log(this,current.toShortString() + " encored");
-
-				} else {
-					gm.log(this,"Not enough stock to encore");
-				}
-			}
-
-		}
-	}
-
-	public Character getCharacter(SlotType s) {
-		return board.getCharacter(s);
-	}
-
 	public void executeCommand() {
 		if (commands.size() == 0){
 			endPhase();
@@ -232,30 +112,13 @@ public class Player {
 		Command cmd = null;
 		if (commands.size() == 1){
 			cmd = commands.get(0);
+			gm.execute(cmd,this);
+			endPhase();
 		}else{
 			cmd = gm.getChoice(this,"Enter command", commands);
+			gm.execute(cmd,this);
 		}
-		gm.execute(cmd,this);
-	}
-
-	public Board getBoard() {
-		return board;
-	}
-
-	public Hand getHand() {
-		return board.getHand();
-	}
-
-	public WaitingRoom getWaitingRoom() {
-		return board.getWaitingRoom();
-	}
-
-	public LevelZone getLevel() {
-		return board.getLevel();
-	}
-
-	public Stock getStock() {
-		return board.getStock();
+		
 	}
 
 }

@@ -8,6 +8,7 @@ import model.card.Climax;
 import model.card.Colour;
 import model.card.Position;
 import model.card.Trigger;
+import model.card.ability.Abilities;
 import model.card.Character;
 
 public class Board {
@@ -166,6 +167,7 @@ public class Board {
 	public void play(Character current, SlotType s) {
 		if (stage.hasCharacter(s))
 			waitingRoom.add(stage.removeCharacter(s));
+		hand.remove(current);
 		stage.place(current, s);
 	}
 	
@@ -174,28 +176,23 @@ public class Board {
 		damage.add(c);
 	}
 
-	public List<Trigger> trigger() {
+	public void trigger() {
 		Card trigger = library.draw();
 		System.out.println("Triggerd:" + trigger);
 		List<Trigger> triggers = trigger.getTrigger();
 		stock.add(trigger);
-		return triggers;
+		for (Trigger t : triggers) {
+			Abilities.trigger(t);
+		}
 	}
 
-	public boolean declareAttack(SlotType s) {
+	public boolean declareAttack(Slot slot) {
+		SlotType s = slot.getSlotType();
 		if (s == SlotType.REAR_LEFT || s== SlotType.REAR_RIGHT){
 			System.out.println("Cannot attack from back row");
 			return false;
 		}
 		return stage.rest(s);
-	}
-
-	public int getSoul(SlotType s){
-		Character c = stage.getCharacter(s);
-		if (c == null)
-			return 0;
-		else
-			return c.getSoul();
 	}
 
 	public List<Card> takeDamage(int amount) {
@@ -217,10 +214,6 @@ public class Board {
 		level.add(card);
 		cards.remove(card);
 		waitingRoom.add(cards);
-	}
-
-	public Character getCharacter(SlotType s) {
-		return stage.getCharacter(s);
 	}
 
 	public List<Character> getReversed() {

@@ -7,22 +7,22 @@ import model.card.Character;
 import model.card.Position;
 
 public class Stage {
-	private List<Slot> stage = new ArrayList<>();
+	private List<Slot> slots = new ArrayList<>();
 
 	Stage() {
 		super();
 		for (SlotType slotType : SlotType.values()) {
-			stage.add(new Slot(slotType));
+			slots.add(new Slot(slotType));
 		}
 	}
 	/* Front_Left	Front_Center	Front_Right
 	 * 		Rear_Left		Rear_Right
 	 * */
 	
-	Character getCharacter(SlotType slotType){
-		for (Slot slot : stage) {
+	public Slot getSlot(SlotType slotType){
+		for (Slot slot : slots) {
 			if (slot.getSlotType() == slotType){
-				return slot.getCharacter();
+				return slot;
 			}
 		}
 		return null;
@@ -30,8 +30,8 @@ public class Stage {
 	
 	void place(Character c, SlotType slotType){
 		c.flipFaceUp();
-		c.stand();
-		for (Slot slot : stage) {
+		getSlot(slotType).stand();
+		for (Slot slot : slots) {
 			if (slot.getSlotType() == slotType){
 				slot.setCharacter(c);
 			}
@@ -40,17 +40,17 @@ public class Stage {
 	
 
 	void standAll() {
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			Character c = slot.getCharacter();
 			if (c != null){
-				c.stand();
+				slot.stand();
 			}
 		}
 	}
 	
 	Character removeCharacter(SlotType s){
 		Character c = null;
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			if (slot.getSlotType() == s){
 				c = slot.getCharacter();
 				slot.setCharacter(null);
@@ -62,7 +62,7 @@ public class Stage {
 	
 	int cardsOnStage(){
 		int total = 0;
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			if (slot.getCharacter() != null){
 				total++;
 			}
@@ -71,7 +71,7 @@ public class Stage {
 	}
 	
 	boolean hasCharacter(SlotType s){
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			if (slot.getSlotType() == s && slot.getCharacter() != null){
 				return true;
 			}
@@ -80,21 +80,22 @@ public class Stage {
 	}
 	
 	boolean rest(SlotType s){
-		Character c = getCharacter(s);
+		Slot slot = getSlot(s);
+		Character c = slot.getCharacter();
 		if (c == null){
 			System.out.println("No Character in slot");
 			return false;
-		}else if(c.getState() != Position.STANDING){
+		}else if(slot.getState() != Position.STANDING){
 			System.out.println("Character not Standing:Unable to attack");
 			return false;
 		}else{
-			c.rest();
+			slot.rest();
 			return true;
 		}
 	}
 	
 	public Slot getSlot(Character c){
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			if (slot.getCharacter().equals(c)){
 				return slot;
 			}
@@ -105,9 +106,9 @@ public class Stage {
 
 	public List<Character> getCharacterByPosition(Position position) {
 		List<Character> result = new ArrayList<Character>();
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
-			if (c != null && c.getState() == position)
+			if (c != null && slot.getState() == position)
 				result.add(c);
 		}
 		
@@ -116,7 +117,7 @@ public class Stage {
 	
 	public List<Character> getCharacters() {
 		List<Character> result = new ArrayList<Character>();
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
 			if (c != null)
 				result.add(c);
@@ -126,16 +127,19 @@ public class Stage {
 	
 	public List<Character> getAttacking(){
 		List<Character> result = new ArrayList<Character>();
-		for (Slot slot : stage) {
+		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
-			if (c != null && SlotType.isFront(slot.getSlotType()))
+			if (c != null && SlotType.isFront(slot.getSlotType()) && slot.getState() == Position.STANDING){
+				System.out.println("attacking " +slot );
 				result.add(c);
+			}
+				
 		}
 		return result;
 	}
 
 	public List<Slot> getSlots() {
-		return stage;
+		return slots;
 	}
 	
 }
