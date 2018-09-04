@@ -26,7 +26,7 @@ public final class Slot {
 		position = Position.REVERSED;
 	}
 
-	public Position getState() {
+	public Position getPosition() {
 		return position;
 	}
 
@@ -34,7 +34,8 @@ public final class Slot {
 	public String toString() {
 		String m = "Slot [slotType=" + slotType;
 		if (character != null) {
-			m +=  ", Position=" + position + ", character=" + character +  ", markers=" + markers.size();
+			m +=  ", Position=" + position + ", character=" + character.toShortString()
+				+  ", markers=" + markers.size();
 		}
 
 		return m + "]";
@@ -62,6 +63,10 @@ public final class Slot {
 
 	public SlotType getSlotType() {
 		return slotType;
+	}
+
+	public void setPosition(Position position) {
+		this.position = position;
 	}
 
 }

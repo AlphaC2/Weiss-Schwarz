@@ -85,7 +85,7 @@ public class Stage {
 		if (c == null){
 			System.out.println("No Character in slot");
 			return false;
-		}else if(slot.getState() != Position.STANDING){
+		}else if(slot.getPosition() != Position.STANDING){
 			System.out.println("Character not Standing:Unable to attack");
 			return false;
 		}else{
@@ -108,7 +108,7 @@ public class Stage {
 		List<Character> result = new ArrayList<Character>();
 		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
-			if (c != null && slot.getState() == position)
+			if (c != null && slot.getPosition() == position)
 				result.add(c);
 		}
 		
@@ -129,7 +129,7 @@ public class Stage {
 		List<Character> result = new ArrayList<Character>();
 		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
-			if (c != null && SlotType.isFront(slot.getSlotType()) && slot.getState() == Position.STANDING){
+			if (c != null && SlotType.isFront(slot.getSlotType()) && slot.getPosition() == Position.STANDING){
 				System.out.println("attacking " +slot );
 				result.add(c);
 			}

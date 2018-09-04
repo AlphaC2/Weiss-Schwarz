@@ -90,7 +90,8 @@ public abstract class Card {
 	}
 	
 	public String toShortString(){
-		return "Card [name=" + name + ", cardID=" + cardID + "]";
+		return "Card [name=" + name + ", cardID=" + cardID + ", level=" + level + ", cost="
+				+ cost + ", colour=" + colour + "]";
 	}
 	
 }

@@ -36,6 +36,7 @@ public class Player {
 			commands.add(new DisplayWaitingRoom());
 			commands.add(new DisplayStage());
 			commands.add(new PlayCharacter());
+			commands.add(new SwapCharacters());
 			commands.add(new EndPhase());
 			break;
 		case MAIN:
@@ -55,15 +56,18 @@ public class Player {
 			break;
 		case ENCORE:
 			phase = PlayerPhase.END;
-			
 			break;
+
 		case END:
 			phase = PlayerPhase.OPPONENTS_TURN;
 			gm.endTurn(this);
 			break;
+			
 		case OPPONENTS_TURN:
 			phase = PlayerPhase.STAND;
+			commands.add(new StandPhase());
 			break;
+			
 		default:
 			break;
 		}
@@ -117,7 +121,6 @@ public class Player {
 			cmd = gm.getChoice(this,"Enter command", commands);
 			gm.execute(cmd,this);
 		}
-		
 	}
 
 }

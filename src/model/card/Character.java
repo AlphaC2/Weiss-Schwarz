@@ -64,6 +64,12 @@ public final class Character extends Card {
 		return super.toString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", basePower=" + basePower + ", currentPower="
 				+ currentPower + ", soul=" + soul + ", abilities=" + abilities + "]";
 	}
+	
+	@Override
+	public String toShortString(){
+		return super.toShortString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", currentPower="
+				+ currentPower + ", soul=" + soul + "]"; 
+	}
 
 
 }

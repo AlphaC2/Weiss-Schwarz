@@ -1,14 +1,10 @@
 package model.board;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import model.card.Card;
 import model.card.Climax;
 import model.card.Colour;
-import model.card.Position;
-import model.card.Trigger;
-import model.card.ability.Abilities;
 import model.card.Character;
 
 public class Board {
@@ -67,16 +63,6 @@ public class Board {
 			waitingRoom.add(stage.removeCharacter(s));
 		hand.remove(current);
 		stage.place(current, s);
-	}
-	
-	public void trigger() {
-		Card trigger = library.draw();
-		System.out.println("Triggerd:" + trigger);
-		List<Trigger> triggers = trigger.getTrigger();
-		stock.add(trigger);
-		for (Trigger t : triggers) {
-			Abilities.trigger(t);
-		}
 	}
 
 	public boolean declareAttack(Slot slot) {

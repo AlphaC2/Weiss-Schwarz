@@ -65,9 +65,9 @@ public class GameManager {
 	}
 
 	public void endTurn(Player player) {
-		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
+/*		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
 			new Discard().execute(player1, player2);
-		}
+		}*/
 		
 		if (player.getPhase() == PlayerPhase.OPPONENTS_TURN) {
 			if (currentPlayer == player1.getPlayer()){

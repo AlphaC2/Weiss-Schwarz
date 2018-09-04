@@ -2,13 +2,18 @@ package command;
 
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
+import model.board.AttackType;
 import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;
+import model.card.Card;
 import model.card.Character;
+import model.card.Trigger;
+import model.card.ability.Abilities;
 import model.player.Player;
 
 public class AttackPhase extends Command {
@@ -27,6 +32,8 @@ public class AttackPhase extends Command {
 		Board board = p1.getBoard();
 		
 		List<Character> attackingChars = board.getStage().getAttacking();
+		// Beginning of Attack Phase
+		p1.log(player.getPhase());
 		player.nextStep();
 		
 		while (attackingChars.size() > 0) {
@@ -49,15 +56,30 @@ public class AttackPhase extends Command {
 				declared = board.declareAttack(attacking);
 				
 			}
-			player.nextStep();
-			// Beginning of Attack Phase
-			p1.log(player.getPhase());
 			SlotType across = SlotType.getAcross(attacking.getSlotType());
 			defending = p2.getBoard().getStage().getSlot(across);
+			AttackType attackType;
+			if (defending.getCharacter() == null){
+				attackType = AttackType.DIRECT_ATTACK;
+			}else{
+				List<AttackType> choices = new ArrayList<>();
+				choices.add(AttackType.FRONT_ATTACK);
+				choices.add(AttackType.SIDE_ATTACK);
+				attackType = p1.getChoice("Front or Side attack?", choices);
+			}
+			
+			
+			player.nextStep();
 
 			// Trigger
 			p1.log(player.getPhase());
-			board.trigger();
+			Card trigger = board.getLibrary().draw();
+			System.out.println("Triggerd:" + trigger);
+			List<Trigger> triggers = trigger.getTrigger();
+			for (Trigger t : triggers) {
+				Abilities.trigger(t);
+			}
+			board.getStock().add(trigger);
 			player.nextStep();
 
 			// Counter
@@ -67,16 +89,19 @@ public class AttackPhase extends Command {
 			// Damage
 			p1.log(player.getPhase());
 			int amount = attacking.getCharacter().getSoul();
-			if (defending.getCharacter() == null)
+			if (attackType == AttackType.SIDE_ATTACK){
+				amount -= defending.getCharacter().getLevel();
+				amount = Math.max(amount, 0);
+			}else if (attackType == AttackType.DIRECT_ATTACK){
 				amount++;
+			}
 			p1.log("Deal " + amount + " damage to opponent");
-			new TakeDamage(amount).execute(p2, null);
+			new TakeDamage(amount).execute(p2, p1);
 			player.nextStep();
 
 			// End of Attack
 			p1.log(player.getPhase());
-			if (defending.getCharacter() != null) {
-				//Front Attack
+			if (attackType == AttackType.FRONT_ATTACK) {
 				if (attacking.getCharacter().getCurrentPower() > defending.getCharacter().getCurrentPower()) {
 					defending.reverse();
 				} else if (attacking.getCharacter().getCurrentPower() < defending.getCharacter().getCurrentPower()) {
