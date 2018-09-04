@@ -43,8 +43,7 @@ public class Player {
 			phase = PlayerPhase.CLIMAX;
 			break;
 		case CLIMAX:
-			commands.add(new Attack());
-			commands.add(new EndPhase());
+			commands.add(new AttackPhase());
 			phase = PlayerPhase.ATTACK;
 			break;
 		case ATTACK:

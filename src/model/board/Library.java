@@ -31,7 +31,7 @@ public class Library {
 		cards.add(cards.size() - 1, c);
 	}
 	
-	void shuffle(){
+	public void shuffle(){
 		Collections.shuffle(cards);
 	}
 	

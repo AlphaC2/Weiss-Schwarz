@@ -11,9 +11,9 @@ import model.board.SlotType;
 import model.card.Character;
 import model.player.Player;
 
-public class Attack extends Command {
+public class AttackPhase extends Command {
 
-	public Attack() {
+	public AttackPhase() {
 		super("Attack");
 	}
 	
@@ -27,40 +27,43 @@ public class Attack extends Command {
 		Board board = p1.getBoard();
 		
 		List<Character> attackingChars = board.getStage().getAttacking();
+		player.nextStep();
+		
 		while (attackingChars.size() > 0) {
 			declared = false;
 
 			while (!declared) {
 				// Attack Declaration
+				p1.log(player.getPhase());
+				
 				p1.displayStage();
 				p2.displayStage();
-				boolean attack = p1.getChoice("Declare an attack");
+				boolean attack = p1.getChoice("Declare an attack?");
 				if (!attack) {
 					return;
 				}
 				
 				Character c = p1.getChoice("Choose a character to attack with", attackingChars);
 				attacking = board.getStage().getSlot(c);
+				
 				declared = board.declareAttack(attacking);
+				
 			}
-			// Beginning of Attack Phase
 			player.nextStep();
-			
+			// Beginning of Attack Phase
 			p1.log(player.getPhase());
 			SlotType across = SlotType.getAcross(attacking.getSlotType());
-			player.nextStep();
 			defending = p2.getBoard().getStage().getSlot(across);
-			player.nextStep();
 
 			// Trigger
-			board.trigger();
 			p1.log(player.getPhase());
+			board.trigger();
 			player.nextStep();
 
 			// Counter
 			p1.log(player.getPhase());
 			player.nextStep();
-
+			
 			// Damage
 			p1.log(player.getPhase());
 			int amount = attacking.getCharacter().getSoul();
@@ -73,7 +76,7 @@ public class Attack extends Command {
 			// End of Attack
 			p1.log(player.getPhase());
 			if (defending.getCharacter() != null) {
-				//Front/Side Attack
+				//Front Attack
 				if (attacking.getCharacter().getCurrentPower() > defending.getCharacter().getCurrentPower()) {
 					defending.reverse();
 				} else if (attacking.getCharacter().getCurrentPower() < defending.getCharacter().getCurrentPower()) {
@@ -85,7 +88,11 @@ public class Attack extends Command {
 					throw new IllegalStateException("End of Attack step, should be unreachable code");
 				}
 			} 
+			player.nextStep();
+			
+			attackingChars = board.getStage().getAttacking();
 		}
+		player.endPhase();
 	}
 
 }

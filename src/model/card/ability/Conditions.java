@@ -34,7 +34,7 @@ public class Conditions{
 		
 		@Override
 		public boolean check() {
-			return player.getBoard().memorySize() > total;
+			return player.getBoard().getMemoryZone().size() > total;
 		}
 	}
 	

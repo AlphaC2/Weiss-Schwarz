@@ -11,6 +11,7 @@ public class DisplayStage extends Command{
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
 		p1.displayStage();
+		p2.displayStage();
 	}
 
 }

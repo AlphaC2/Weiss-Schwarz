@@ -5,6 +5,7 @@ import java.util.List;
 import command.*;
 import io.ConsoleReadUserInput;
 import model.board.Hand;
+import model.card.Card;
 import model.player.Player;
 import model.player.PlayerPhase;
 
@@ -33,16 +34,26 @@ public class GameManager {
 		currentPlayer = player1.getPlayer();
 	}
 	
-	private void init(){
-		player1.getBoard().shuffleLibrary();
-		player2.getBoard().shuffleLibrary();
+	private void setup(){
+		player1.getBoard().getLibrary().shuffle();
+		player2.getBoard().getLibrary().shuffle();
 		player1.getPlayer().endPhase();
-		player1.getBoard().draw(4);
-		player2.getBoard().draw(5);
+		
+		Card c;
+		for (int i = 0; i < 4; i++) {
+			c = player1.getBoard().getLibrary().draw();
+			player1.getBoard().getHand().add(c);
+		}
+		
+		for (int i = 0; i < 5; i++) {
+			c = player2.getBoard().getLibrary().draw();
+			player2.getBoard().getHand().add(c);
+		}
+		
 	}
 
 	public void gameLoop() {
-		init();
+		setup();
 		while (alive) {
 			log(currentPlayer,currentPlayer.getName() + ":" + currentPlayer.getPhase() + " Phase");
 			currentPlayer.executeCommand();
