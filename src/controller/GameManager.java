@@ -65,9 +65,15 @@ public class GameManager {
 	}
 
 	public void endTurn(Player player) {
-/*		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
-			new Discard().execute(player1, player2);
-		}*/
+		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
+			if (player == player1.getPlayer()){
+				new Discard().execute(player1, player2);
+			}else if (player == player2.getPlayer()){
+				new Discard().execute(player2, player1);
+			}else{
+				throw new IllegalStateException("End Turn with invalid player, unreachable code");
+			}
+		}
 		
 		if (player.getPhase() == PlayerPhase.OPPONENTS_TURN) {
 			if (currentPlayer == player1.getPlayer()){
@@ -76,7 +82,6 @@ public class GameManager {
 				currentPlayer = player1.getPlayer();
 			}else
 				System.out.println("ERROR");
-//			currentPlayer.endPhase();
 		}
 	}
 
