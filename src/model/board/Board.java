@@ -5,7 +5,6 @@ import java.util.List;
 import model.card.Card;
 import model.card.Climax;
 import model.card.Colour;
-import model.card.Character;
 
 public class Board {
 	private Library library;
@@ -47,33 +46,7 @@ public class Board {
 			climaxZone = null;
 		}
 	}
-	
-	public boolean payCost(int i){
-		List<Card> cards = stock.pay(i);
-		if (cards == null)
-			return false;
-		else{
-			waitingRoom.add(cards);
-			return true;
-		}
-	}
 
-	public void play(Character current, SlotType s) {
-		if (stage.hasCharacter(s))
-			waitingRoom.add(stage.removeCharacter(s));
-		hand.remove(current);
-		stage.place(current, s);
-	}
-
-	public boolean declareAttack(Slot slot) {
-		SlotType s = slot.getSlotType();
-		if (s == SlotType.REAR_LEFT || s== SlotType.REAR_RIGHT){
-			System.out.println("Cannot attack from back row");
-			return false;
-		}
-		return stage.rest(s);
-	}
-	
 	public Hand getHand(){
 		return hand;
 	}

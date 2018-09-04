@@ -15,7 +15,7 @@ public abstract class Command {
 		return name;
 	}
 	
-	public abstract void execute(PlayerController p1, PlayerController p2);
+	public abstract void execute(PlayerController p1, PlayerController p2) throws Exception;
 	
 
 }

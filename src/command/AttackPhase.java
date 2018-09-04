@@ -26,7 +26,6 @@ public class AttackPhase extends Command {
 	public void execute(PlayerController p1, PlayerController p2) {
 		Slot attacking = null;
 		Slot defending = null;
-		boolean declared;
 	
 		Player player = p1.getPlayer();
 		Board board = p1.getBoard();
@@ -37,25 +36,19 @@ public class AttackPhase extends Command {
 		player.nextStep();
 		
 		while (attackingChars.size() > 0) {
-			declared = false;
-
-			while (!declared) {
-				// Attack Declaration
-				p1.log(player.getPhase());
-				
-				p1.displayStage();
-				p2.displayStage();
-				boolean attack = p1.getChoice("Declare an attack?");
-				if (!attack) {
-					return;
-				}
-				
-				Character c = p1.getChoice("Choose a character to attack with", attackingChars);
-				attacking = board.getStage().getSlot(c);
-				
-				declared = board.declareAttack(attacking);
-				
+			// Attack Declaration
+			p1.log(player.getPhase());
+			
+			p1.displayStage();
+			p2.displayStage();
+			boolean attack = p1.getChoice("Declare an attack?");
+			if (!attack) {
+				return;
 			}
+			
+			Character c = p1.getChoice("Choose a character to attack with", attackingChars);
+			attacking = board.getStage().getSlot(c);
+			attacking.rest();
 			SlotType across = SlotType.getAcross(attacking.getSlotType());
 			defending = p2.getBoard().getStage().getSlot(across);
 			AttackType attackType;
@@ -67,8 +60,6 @@ public class AttackPhase extends Command {
 				choices.add(AttackType.SIDE_ATTACK);
 				attackType = p1.getChoice("Front or Side attack?", choices);
 			}
-			
-			
 			player.nextStep();
 
 			// Trigger

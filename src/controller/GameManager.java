@@ -80,7 +80,12 @@ public class GameManager {
 	}
 
 	public void execute(Command cmd, Player player) {
-		cmd.execute(getController(player), getOpponent(player));
+		try {
+			cmd.execute(getController(player), getOpponent(player));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 	}
 	
 	private PlayerController getController(Player player){
