@@ -117,7 +117,6 @@ public class AttackPhase extends Command {
 			
 			attackingChars = board.getStage().getAttacking();
 		}
-		player.endPhase();
 	}
 
 }

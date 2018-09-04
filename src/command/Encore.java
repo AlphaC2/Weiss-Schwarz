@@ -26,7 +26,7 @@ public class Encore extends Command{
 			s = board.getStage().getSlot(current).getSlotType();
 			board.getWaitingRoom().add(current);
 			board.getStage().removeCharacter(s);
-			boolean choice = pc.getChoice(pc.getPlayer().getName() + " Encore:" + current.toShortString() + "?(y/n)");
+			boolean choice = pc.getChoice(pc.getPlayer().getName() + " Encore:" + current.toShortString() + "?");
 			if (choice) {
 				if (board.payCost(3)) {
 					board.getWaitingRoom().remove(current);
