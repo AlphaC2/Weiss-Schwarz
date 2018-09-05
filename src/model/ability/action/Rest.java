@@ -47,4 +47,9 @@ public class Rest extends Action {
 		
 	}
 
+	@Override
+	protected String failureMessage() {
+		return "Could not Rest";
+	}
+
 }

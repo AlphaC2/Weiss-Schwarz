@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.ability.Ability;
 
-public final class Character extends Card {
+public class Character extends Card {
 	private String trait1;
 	private String trait2;
 	private int basePower;

@@ -29,4 +29,9 @@ public class PayStock extends Action {
 		board.getWaitingRoom().add(cards);
 	}
 
+	@Override
+	protected String failureMessage() {
+		return "Could not pay stock";
+	}
+
 }

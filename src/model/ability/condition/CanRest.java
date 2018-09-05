@@ -25,8 +25,8 @@ public class CanRest extends Condition {
 		for (Slot slot : slots) {
 			if (slot.getCharacter() != null && slot.getPosition() == Position.STANDING	){
 				if( trait == null ||
-					slot.getCharacter().getTrait1().equals(trait) ||
-					slot.getCharacter().getTrait2().equals(trait)  ){
+					trait.equals(slot.getCharacter().getTrait1()) ||
+					trait.equals(slot.getCharacter().getTrait2())  ){
 					return true;
 				}
 			}

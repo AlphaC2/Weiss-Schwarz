@@ -33,9 +33,12 @@ public abstract class Action implements Activatable {
 		
 		if(canActivate){
 			executeAction(p1, p2);
+		}else{
+			p1.log(failureMessage());
 		}
 		
 	}
 	
 	protected abstract void executeAction(PlayerController p1, PlayerController p2);
+	protected abstract String failureMessage();
 }

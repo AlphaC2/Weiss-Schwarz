@@ -15,15 +15,18 @@ public final class Slot {
 	private Position position = null;
 
 	public void stand() {
-		position = Position.STANDING;
+		if(character != null)
+			position = Position.STANDING;
 	}
 
 	public void rest() {
-		position = Position.RESTED;
+		if(character != null)
+			position = Position.RESTED;
 	}
 
 	public void reverse() {
-		position = Position.REVERSED;
+		if(character != null)
+			position = Position.REVERSED;
 	}
 
 	public Position getPosition() {
@@ -50,7 +53,17 @@ public final class Slot {
 	}
 
 	public void setCharacter(Character character) {
-		this.character = character;
+		if(character != null){
+			this.character = character;
+			stand();
+		}
+	}
+	
+	public Character removeCharacter(){
+		Character c = character;
+		character = null;
+		position = null;
+		return c;
 	}
 
 	public List<Card> getMarkers() {
