@@ -2,7 +2,7 @@ package model.card;
 
 import java.util.List;
 
-import model.card.ability.Ability;
+import model.ability.Ability;
 
 public final class Character extends Card {
 	private String trait1;

@@ -8,7 +8,6 @@ import model.board.Board;
 import model.board.SlotType;
 import model.card.Character;
 import model.card.Position;
-import model.exceptions.NotEnoughStockException;
 
 public class Encore extends Command{
 
@@ -16,7 +15,7 @@ public class Encore extends Command{
 		super("Encore");
 	}
 	
-	private void encore(PlayerController pc) throws NotEnoughStockException{
+	private void encore(PlayerController pc){
 		Board board = pc.getBoard();
 		List<Character> dead = board.getStage().getCharacterByPosition(Position.REVERSED);
 		Iterator<Character> iterator = dead.iterator();
@@ -39,18 +38,8 @@ public class Encore extends Command{
 
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
-		try {
-			encore(p1);
-		} catch (NotEnoughStockException e) {
-			p1.handleException(e);
-		}
-		
-		try {
-			encore(p2);
-		} catch (NotEnoughStockException e) {
-			p2.handleException(e);
-		}
-		p1.getBoard().endClimax();
+		encore(p1);
+		encore(p2);
 	}
 
 }

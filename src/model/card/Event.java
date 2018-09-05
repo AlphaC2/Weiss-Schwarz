@@ -2,8 +2,8 @@ package model.card;
 
 import java.util.List;
 
-import model.card.ability.Ability;
-import model.card.ability.Activatable;
+import controller.PlayerController;
+import model.ability.Ability;
 
 public class Event extends Card implements Activatable{
 	private Ability ability;
@@ -15,8 +15,8 @@ public class Event extends Card implements Activatable{
 	}
 
 	@Override
-	public void activate() {
-		ability.activate();
+	public void execute(PlayerController p1, PlayerController p2) {
+		ability.execute(p1, p2);
 	}
 	
 

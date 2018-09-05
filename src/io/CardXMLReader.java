@@ -17,7 +17,7 @@ import model.card.Colour;
 import model.card.Event;
 import model.card.Rarity;
 import model.card.Trigger;
-import model.card.ability.Ability;
+import model.ability.Ability;
 
 public class CardXMLReader {
 

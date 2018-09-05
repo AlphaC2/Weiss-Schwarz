@@ -4,7 +4,6 @@ import java.util.List;
 
 import model.board.Board;
 import model.card.Card;
-import model.exceptions.NotEnoughStockException;
 import model.player.Player;
 
 public abstract class PlayerController {
@@ -56,7 +55,7 @@ public abstract class PlayerController {
 		return board;
 	}
 	
-	public abstract void handleException(NotEnoughStockException e);
+	//public abstract void handleException(NotEnoughStockException e);
 
 	public void setReader(ReadUserInput reader) {
 		this.reader = reader;

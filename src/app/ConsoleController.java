@@ -11,7 +11,6 @@ import model.board.Stage;
 import model.card.Card;
 import model.exceptions.InvalidDeckException;
 import model.exceptions.InvalidIDException;
-import model.exceptions.NotEnoughStockException;
 
 public class ConsoleController extends PlayerController {
 
@@ -91,11 +90,6 @@ public class ConsoleController extends PlayerController {
 	@Override
 	public void displayStock() {
 		System.out.println(getBoard().getStock());
-	}
-
-	@Override
-	public void handleException(NotEnoughStockException e) {
-		log(getPlayer().getName() + ", Not enough stock");
 	}
 
 }

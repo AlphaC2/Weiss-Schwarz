@@ -1,8 +1,8 @@
 package command;
 
-import controller.PlayerController;
+import model.card.Activatable;
 
-public abstract class Command {
+public abstract class Command implements Activatable{
 	
 	private final String name;
 	
@@ -15,7 +15,4 @@ public abstract class Command {
 		return name;
 	}
 	
-	public abstract void execute(PlayerController p1, PlayerController p2) throws Exception;
-	
-
 }

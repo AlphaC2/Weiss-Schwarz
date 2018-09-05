@@ -1,5 +1,7 @@
 package model.card;
 
+import controller.PlayerController;
+
 public interface Activatable {
-	public void activate();
+	public abstract void execute(PlayerController p1, PlayerController p2);
 }

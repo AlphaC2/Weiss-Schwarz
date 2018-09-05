@@ -13,7 +13,6 @@ import model.board.SlotType;
 import model.card.Card;
 import model.card.Character;
 import model.card.Trigger;
-import model.card.ability.Abilities;
 import model.player.Player;
 
 public class AttackPhase extends Command {
@@ -68,7 +67,8 @@ public class AttackPhase extends Command {
 			System.out.println("Triggerd:" + trigger);
 			List<Trigger> triggers = trigger.getTrigger();
 			for (Trigger t : triggers) {
-				Abilities.trigger(t);
+				//TODO
+				//Abilities.trigger(t);
 			}
 			board.getStock().add(trigger);
 			player.nextStep();
