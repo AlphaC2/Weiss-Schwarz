@@ -16,7 +16,6 @@ public abstract class PlayerController {
 	public PlayerController(String name, ReadUserInput reader) {
 		player = new Player(name);
 		this.reader = reader;
-		readDeck();
 	}
 
 	public final void setDeck(List<Card> deck) {
@@ -58,4 +57,8 @@ public abstract class PlayerController {
 	}
 	
 	public abstract void handleException(NotEnoughStockException e);
+
+	public void setReader(ReadUserInput reader) {
+		this.reader = reader;
+	}
 }

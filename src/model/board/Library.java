@@ -6,10 +6,10 @@ import java.util.List;
 import model.card.Card;
 
 public class Library extends SearchableZone{
-	private List<Card> cards;
 
 	Library(List<Card> cards) {
 		super("Library", false);
+		super.add(cards);
 		for (Card card : this.cards) {
 			card.flipFaceDown();
 		}
