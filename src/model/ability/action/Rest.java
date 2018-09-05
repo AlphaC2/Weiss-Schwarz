@@ -29,7 +29,7 @@ public class Rest extends Action {
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		List<Slot> slots = p1.getBoard().getStage().getCharacterByPosition(Position.STANDING);
-		//Remove any chars that don't meet the trait requirement, if any requiement exists
+		//Remove any chars that don't meet the trait requirement, if any requirement exists
 		if (trait == null){
 			Iterator<Slot> slotIterator = slots.iterator();
 			while(slotIterator.hasNext()){
