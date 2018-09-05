@@ -3,7 +3,6 @@ package command;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-import java.util.List;
 
 import org.junit.*;
 import org.mockito.*;
@@ -12,7 +11,6 @@ import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
 import io.ConsoleReadUserInput;
-import model.card.Card;
 
 public class TestDraw {
 	
@@ -47,5 +45,47 @@ public class TestDraw {
 		int sizeBefore = p1.getBoard().getLibrary().size();
 		new Draw().execute(p1, null);
 		assertEquals(sizeBefore-1, p1.getBoard().getLibrary().size());
+	}
+	
+	@Test
+	public void draw1CardNotFromDamageZone(){
+		int sizeBefore = p1.getBoard().getDamageZone().size();
+		new Draw().execute(p1, null);
+		assertEquals(sizeBefore, p1.getBoard().getDamageZone().size());
+	}
+	
+	@Test
+	public void draw1CardNotFromLevelZone(){
+		int sizeBefore = p1.getBoard().getLevel().size();
+		new Draw().execute(p1, null);
+		assertEquals(sizeBefore, p1.getBoard().getLevel().size());
+	}
+	
+	@Test
+	public void draw1CardNotFromMemoryZone(){
+		int sizeBefore = p1.getBoard().getMemoryZone().size();
+		new Draw().execute(p1, null);
+		assertEquals(sizeBefore, p1.getBoard().getMemoryZone().size());
+	}
+	
+	@Test
+	public void draw1CardNotFromStage(){
+		int sizeBefore = p1.getBoard().getStage().getCharacters().size();
+		new Draw().execute(p1, null);
+		assertEquals(sizeBefore, p1.getBoard().getStage().getCharacters().size());
+	}
+	
+	@Test
+	public void draw1CardNotFromStock(){
+		int sizeBefore = p1.getBoard().getStock().size();
+		new Draw().execute(p1, null);
+		assertEquals(sizeBefore, p1.getBoard().getStock().size());
+	}
+	
+	@Test
+	public void draw1CardNotFromWaitingRoom(){
+		int sizeBefore = p1.getBoard().getWaitingRoom().size();
+		new Draw().execute(p1, null);
+		assertEquals(sizeBefore, p1.getBoard().getWaitingRoom().size());
 	}
 }
