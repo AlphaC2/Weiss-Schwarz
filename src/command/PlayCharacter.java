@@ -21,7 +21,6 @@ public class PlayCharacter extends Command{
 		List<Character> list = board.getHand().getCardsOfType(Character.class);
 		Character c = p1.getChoice("Choose a character to put on stage", list);
 		SlotType slotType = p1.getChoice("Choose Slot", Arrays.asList(SlotType.values()));
-		//p1.getBoard().play(c, s);
 		
 		Slot slot = board.getStage().getSlot(slotType);
 		if (slot.getCharacter() != null){

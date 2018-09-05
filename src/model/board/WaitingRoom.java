@@ -10,7 +10,6 @@ public class WaitingRoom extends SearchableZone{
 
 	public WaitingRoom() {
 		super("Waiting Room", true);
-		cards = new ArrayList<Card>();
 	}
 	
 	public List<Card> refresh(){

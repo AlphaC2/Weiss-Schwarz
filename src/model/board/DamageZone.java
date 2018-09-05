@@ -1,7 +1,5 @@
 package model.board;
 
-import java.util.ArrayList;
-
 import model.card.Card;
 import model.card.Colour;
 
@@ -10,7 +8,6 @@ public class DamageZone extends SearchableZone {
 	
 	DamageZone() {
 		super("Damage", true);
-		cards = new ArrayList<Card>();
 	}
 	
 	

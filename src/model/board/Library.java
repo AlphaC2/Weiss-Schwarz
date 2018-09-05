@@ -1,17 +1,15 @@
 package model.board;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import model.card.Card;
 
-public class Library {
+public class Library extends SearchableZone{
 	private List<Card> cards;
 
 	Library(List<Card> cards) {
-		super();
-		this.cards = new ArrayList<Card>(cards);
+		super("Library", false);
 		for (Card card : this.cards) {
 			card.flipFaceDown();
 		}
@@ -28,20 +26,10 @@ public class Library {
 	}
 	
 	void placeBottom(Card c){
-		cards.add(cards.size() - 1, c);
+		super.add(c);
 	}
 	
 	public void shuffle(){
 		Collections.shuffle(cards);
-	}
-	
-	void addCards(List<Card> passedCards){
-		for (Card card : passedCards) {
-			cards.add(card);
-		}
-	}
-	
-	public int size(){
-		return cards.size();
 	}
 }

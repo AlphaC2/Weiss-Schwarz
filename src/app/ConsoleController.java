@@ -29,7 +29,6 @@ public class ConsoleController extends PlayerController {
 
 	@Override
 	public void buildDeck() {
-		// TODO Auto-generated method stub
 
 	}
 	
