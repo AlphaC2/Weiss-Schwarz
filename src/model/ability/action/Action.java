@@ -5,7 +5,6 @@ import java.util.List;
 
 import controller.PlayerController;
 import model.ability.condition.Condition;
-import model.board.Board;
 import model.card.Activatable;
 
 public abstract class Action implements Activatable {

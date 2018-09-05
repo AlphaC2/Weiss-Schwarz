@@ -53,12 +53,12 @@ public class Stage {
 		return result;
 	}
 	
-	public List<Character> getCharacterByPosition(Position position) {
-		List<Character> result = new ArrayList<Character>();
+	public List<Slot> getCharacterByPosition(Position position) {
+		List<Slot> result = new ArrayList<Slot>();
 		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
 			if (c != null && slot.getPosition() == position)
-				result.add(c);
+				result.add(slot);
 		}
 		
 		return result;

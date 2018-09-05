@@ -13,9 +13,9 @@ import controller.PlayerController;
 import io.ConsoleReadUserInput;
 
 public class TestDraw {
-	
 	private static PlayerController p1;
 	private static PlayerController p2;
+
 	@Mock
 	private static ConsoleReadUserInput reader;
 	
