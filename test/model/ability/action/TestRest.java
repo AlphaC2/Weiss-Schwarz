@@ -170,5 +170,95 @@ public class TestRest {
 		assertEquals(mockCharacter, s.getCharacter());
 	}
 	
+	@Test
+	public void standingFrontRowNotMeetingTraitRequirement(){
+		Slot s = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		
+		when(mockCharacter.getTrait1()).thenReturn(null);
+		when(mockCharacter.getTrait2()).thenReturn(null);
+		when(mockPlayerController.getChoice(anyString(), anyListOf(Slot.class))).thenReturn(s);
+		
+		s.setCharacter(mockCharacter);
+		assertEquals(Position.STANDING, s.getPosition());
+		
+		Rest rest = new Rest("MUSIC");
+		rest.execute(mockPlayerController, mockPlayerController);
+		assertEquals(Position.STANDING, s.getPosition());
+		assertEquals(mockCharacter, s.getCharacter());
+		verify(mockPlayerController).log(rest.failureMessage());
+	}
+	
+	@Test
+	public void restedFrontRowMeetingTrait(){
+		Slot s = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		
+		when(mockCharacter.getTrait1()).thenReturn("MUSIC");
+		when(mockCharacter.getTrait2()).thenReturn(null);
+		when(mockPlayerController.getChoice(anyString(), anyListOf(Slot.class))).thenReturn(s);
+		
+		s.setCharacter(mockCharacter);
+		s.rest();
+		assertEquals(Position.RESTED, s.getPosition());
+		
+		Rest rest = new Rest("MUSIC");
+		rest.execute(mockPlayerController, mockPlayerController);
+		assertEquals(Position.RESTED, s.getPosition());
+		assertEquals(mockCharacter, s.getCharacter());
+		verify(mockPlayerController).log(rest.failureMessage());
+	}
+	
+	@Test
+	public void reversedFrontRowMeetingTrait(){
+		Slot s = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		
+		when(mockCharacter.getTrait1()).thenReturn("MUSIC");
+		when(mockCharacter.getTrait2()).thenReturn(null);
+		when(mockPlayerController.getChoice(anyString(), anyListOf(Slot.class))).thenReturn(s);
+		
+		s.setCharacter(mockCharacter);
+		s.reverse();
+		assertEquals(Position.REVERSED, s.getPosition());
+		
+		Rest rest = new Rest("MUSIC");
+		rest.execute(mockPlayerController, mockPlayerController);
+		assertEquals(Position.REVERSED, s.getPosition());
+		assertEquals(mockCharacter, s.getCharacter());
+		verify(mockPlayerController).log(rest.failureMessage());
+	}
+	
+	@Test
+	public void standingFrontRowMeetingTrait1Requirement(){
+		Slot s = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		
+		when(mockCharacter.getTrait1()).thenReturn("MUSIC");
+		when(mockCharacter.getTrait2()).thenReturn(null);
+		when(mockPlayerController.getChoice(anyString(), anyListOf(Slot.class))).thenReturn(s);
+		
+		s.setCharacter(mockCharacter);
+		assertEquals(Position.STANDING, s.getPosition());
+		
+		Rest rest = new Rest("MUSIC");
+		rest.execute(mockPlayerController, mockPlayerController);
+		assertEquals(Position.RESTED, s.getPosition());
+		assertEquals(mockCharacter, s.getCharacter());
+	}
+	
+	@Test
+	public void standingFrontRowMeetingTrait2Requirement(){
+		Slot s = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		
+		when(mockCharacter.getTrait1()).thenReturn(null);
+		when(mockCharacter.getTrait2()).thenReturn("MUSIC");
+		when(mockPlayerController.getChoice(anyString(), anyListOf(Slot.class))).thenReturn(s);
+		
+		s.setCharacter(mockCharacter);
+		assertEquals(Position.STANDING, s.getPosition());
+		
+		Rest rest = new Rest("MUSIC");
+		rest.execute(mockPlayerController, mockPlayerController);
+		assertEquals(Position.RESTED, s.getPosition());
+		assertEquals(mockCharacter, s.getCharacter());
+	}
+	
 	
 }
