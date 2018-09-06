@@ -15,17 +15,17 @@ public final class Slot {
 	private Position position = null;
 
 	public void stand() {
-		if(character != null)
+		//if(character != null)
 			position = Position.STANDING;
 	}
 
 	public void rest() {
-		if(character != null)
+		//if(character != null)
 			position = Position.RESTED;
 	}
 
 	public void reverse() {
-		if(character != null)
+		//if(character != null)
 			position = Position.REVERSED;
 	}
 
@@ -53,10 +53,8 @@ public final class Slot {
 	}
 
 	public void setCharacter(Character character) {
-		if(character != null){
-			this.character = character;
-			stand();
-		}
+		this.character = character;
+		stand();
 	}
 	
 	public Character removeCharacter(){

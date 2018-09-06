@@ -24,17 +24,18 @@ public abstract class Action implements Activatable {
 		return name;
 	}
 	
-	@Override
-	public final void execute(PlayerController p1, PlayerController p2) {
-		boolean canActivate = true;
+	public boolean canActivate(PlayerController p1, PlayerController p2){
 		for (Condition condition : conditions) {
 			if (!condition.check(p1.getBoard(), p2.getBoard())){
-				canActivate = false;
-				break;
+				return false;
 			}
 		}
-		
-		if(canActivate){
+		return true;
+	}
+	
+	@Override
+	public final void execute(PlayerController p1, PlayerController p2) {
+		if(canActivate(p1, p2)){
 			executeAction(p1, p2);
 		}else{
 			p1.log(failureMessage());

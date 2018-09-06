@@ -30,18 +30,17 @@ public class Rest extends Action {
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		List<Slot> slots = p1.getBoard().getStage().getCharacterByPosition(Position.STANDING);
 		//Remove any chars that don't meet the trait requirement, if any requirement exists
-		if (trait == null){
+		if (trait != null){
 			Iterator<Slot> slotIterator = slots.iterator();
 			while(slotIterator.hasNext()){
 				Slot s = slotIterator.next();
 				Character c = s.getCharacter();
-				if (!c.getTrait1().equals(trait) && !c.getTrait2().equals(trait)){
+				if (!trait.equals(c.getTrait1()) && !trait.equals(c.getTrait2())){
 					slotIterator.remove();
 				}
 			}
 			
 		}
-		
 		Slot chosen = p1.getChoice("Choose a character to rest:", slots);
 		chosen.rest();
 		

@@ -3,34 +3,44 @@ package command;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
+import java.util.ArrayList;
+import java.util.List;
 
 import org.junit.*;
 import org.mockito.*;
 
-import app.ConsoleController;
-import controller.GameManager;
 import controller.PlayerController;
 import io.ConsoleReadUserInput;
+import model.board.Board;
+import model.card.Card;
+import model.player.Player;
 
 public class TestDraw {
-	private static PlayerController p1;
-	private static PlayerController p2;
-
+	private Board board;
+	
+	@Mock
+	Card mockCard;
+	
+	@Mock
+	PlayerController p1;
+	
 	@Mock
 	private static ConsoleReadUserInput reader;
+	
+	@Mock
+	Player mockPlayer;
 	
 	@Before
 	public void init(){
 		MockitoAnnotations.initMocks(this);
-		p1 = new ConsoleController("P1");
-		p2 = new ConsoleController("P2");
-		when(reader.getChoice(anyString(), anyListOf(String.class))).thenReturn("AngelBeats1");
-		p1.setReader(reader);
-		p2.setReader(reader);
-		GameManager gm = GameManager.getInstance();
-		gm.init(p1, p2);
-		p1.readDeck();
-		p2.readDeck();
+		List<Card> deck = new ArrayList<>();
+		for (int i = 0; i < 50; i++) {
+			deck.add(mockCard);
+		}
+		board = new Board(deck);
+		when(p1.getBoard()).thenReturn(board);
+		when(p1.getPlayer()).thenReturn(mockPlayer);
+		when(mockPlayer.getName()).thenReturn("p1");
 	}
 	
 	@Test

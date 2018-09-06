@@ -57,7 +57,7 @@ public abstract class PlayerController {
 	
 	//public abstract void handleException(NotEnoughStockException e);
 
-	public void setReader(ReadUserInput reader) {
+	public final void setReader(ReadUserInput reader) {
 		this.reader = reader;
 	}
 }
