@@ -5,7 +5,7 @@ import model.board.Board;
 public abstract class Condition {
 	private String name;
 	
-	Condition(String name){
+	protected Condition(String name){
 		this.name = name;
 	}
 	

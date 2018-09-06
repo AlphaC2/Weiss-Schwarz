@@ -11,6 +11,8 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import model.ability.condition.character.CharacterCondition;
+import model.ability.condition.character.HasTrait;
 import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;
@@ -108,7 +110,10 @@ public class TestCanRest {
 		s.setCharacter(mockCharacter);
 		when(mockCharacter.getTrait1()).thenReturn("NOTMUSIC");
 		when(mockCharacter.getTrait2()).thenReturn(null);
-		CanRest condition = new CanRest("MUSIC");
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		CanRest condition = new CanRest();
+		
+		condition.addCharCondition(traitRequirement);
 		assertEquals(Position.STANDING, s.getPosition());
 		assertFalse(condition.check(board, null));
 	}
@@ -119,7 +124,10 @@ public class TestCanRest {
 		s.setCharacter(mockCharacter);
 		when(mockCharacter.getTrait1()).thenReturn("MUSIC");
 		when(mockCharacter.getTrait2()).thenReturn(null);
-		CanRest condition = new CanRest("MUSIC");
+		CanRest condition = new CanRest();
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		condition.addCharCondition(traitRequirement);
+		
 		assertEquals(Position.STANDING, s.getPosition());
 		assertTrue(condition.check(board, null));
 	}

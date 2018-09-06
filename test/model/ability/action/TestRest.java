@@ -14,6 +14,7 @@ import org.mockito.MockitoAnnotations;
 
 import controller.PlayerController;
 import controller.ReadUserInput;
+import model.ability.condition.character.HasTrait;
 import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;
@@ -181,7 +182,9 @@ public class TestRest {
 		s.setCharacter(mockCharacter);
 		assertEquals(Position.STANDING, s.getPosition());
 		
-		Rest rest = new Rest("MUSIC");
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		Rest rest = new Rest(traitRequirement );
+		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.STANDING, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
@@ -200,7 +203,9 @@ public class TestRest {
 		s.rest();
 		assertEquals(Position.RESTED, s.getPosition());
 		
-		Rest rest = new Rest("MUSIC");
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		Rest rest = new Rest(traitRequirement);
+		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.RESTED, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
@@ -219,7 +224,9 @@ public class TestRest {
 		s.reverse();
 		assertEquals(Position.REVERSED, s.getPosition());
 		
-		Rest rest = new Rest("MUSIC");
+		Rest rest = new Rest();
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		rest.addCharCondition(traitRequirement);
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.REVERSED, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
@@ -237,7 +244,9 @@ public class TestRest {
 		s.setCharacter(mockCharacter);
 		assertEquals(Position.STANDING, s.getPosition());
 		
-		Rest rest = new Rest("MUSIC");
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		Rest rest = new Rest(traitRequirement);
+		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.RESTED, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
@@ -254,7 +263,9 @@ public class TestRest {
 		s.setCharacter(mockCharacter);
 		assertEquals(Position.STANDING, s.getPosition());
 		
-		Rest rest = new Rest("MUSIC");
+		HasTrait traitRequirement = new HasTrait("MUSIC");
+		Rest rest = new Rest(traitRequirement);
+		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.RESTED, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
