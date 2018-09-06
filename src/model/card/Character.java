@@ -2,7 +2,7 @@ package model.card;
 
 import java.util.List;
 
-import model.ability.Ability;
+import model.ability.action.Action;
 
 public class Character extends Card {
 	private String trait1;
@@ -10,10 +10,10 @@ public class Character extends Card {
 	private int basePower;
 	private int currentPower;
 	private int soul;
-	private List<Ability> abilities;
+	private List<Action> abilities;
 		
 	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
-			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul,	List<Ability> abilities) {
+			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul,	List<Action> abilities) {
 		super(name, cardID, imagePath, level, cost, colour, triggers, rarity, flavourText);
 		this.trait1 = trait1;
 		this.trait2 = trait2;
@@ -51,11 +51,11 @@ public class Character extends Card {
 		return soul;
 	}
 
-	public List<Ability> getAbilities() {
+	public List<Action> getAbilities() {
 		return abilities;
 	}
 	
-	public Ability getAbility(int i) {
+	public Action getAbility(int i) {
 		return abilities.get(i);
 	}
 	

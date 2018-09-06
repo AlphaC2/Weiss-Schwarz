@@ -16,5 +16,10 @@ public abstract class Condition<T> {
 
 	public void setTarget(T target) {
 		this.target = target;
+		"".getClass();
+	}
+	
+	public String getTargetClassName(){
+		return target.getClass().toString();
 	}
 }

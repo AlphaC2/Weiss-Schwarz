@@ -96,6 +96,22 @@ public class TestPayStock {
 		assertEquals(3, board.getWaitingRoom().size());
 	}
 	
+	@Test
+	public void chainStock(){
+		board.getStock().add(mockCard);
+		board.getStock().add(mockCard);
+		board.getStock().add(mockCard);
+		board.getStock().add(mockCard);
+		
+		assertEquals(4, board.getStock().size());
+		assertEquals(0, board.getWaitingRoom().size());
+		PayStock payStock = new PayStock(2);
+		PayStock payStock2 = new PayStock(2);
+		payStock.setNextAction(payStock2);
+		payStock.execute(mockPlayerController, mockPlayerController);
+		assertEquals(0, board.getStock().size());
+		assertEquals(4, board.getWaitingRoom().size());
+	}
 	
 	
 	

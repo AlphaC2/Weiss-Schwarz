@@ -12,6 +12,21 @@ public abstract class Action<T> implements Activatable {
 	private List<Condition<T>> conditions;
 	protected List<T> targets;
 	private String name;
+	@SuppressWarnings("rawtypes")
+	private Action nextAction = null;
+	private boolean isRequired = false;
+
+	public boolean isRequired() {
+		return isRequired;
+	}
+
+	public void setRequired(boolean isRequired) {
+		this.isRequired = isRequired;
+	}
+
+	public <S> void setNextAction(Action<S> nextAction) {
+		this.nextAction = nextAction;
+	}
 
 	Action(String name) {
 		this.name = name;
@@ -54,6 +69,9 @@ public abstract class Action<T> implements Activatable {
 		setTargets(p1, p2);
 		if (canActivate()) {
 			executeAction(p1,p2);
+			if (nextAction != null){
+				nextAction.executeAction(p1, p2);
+			}
 		} else {
 			p1.log(failureMessage());
 		}
@@ -63,4 +81,13 @@ public abstract class Action<T> implements Activatable {
 	protected abstract void executeAction(PlayerController p1, PlayerController p2);
 
 	protected abstract String failureMessage();
+	
+	public String getTargetClassName(){
+		if (targets.size() == 0){
+			throw new RuntimeException();
+		}
+		return targets.get(0).getClass().toString();
+	}
+	
+	
 }

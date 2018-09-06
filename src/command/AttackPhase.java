@@ -68,7 +68,6 @@ public class AttackPhase extends Command {
 			List<Trigger> triggers = trigger.getTrigger();
 			for (Trigger t : triggers) {
 				//TODO
-				//Abilities.trigger(t);
 			}
 			board.getStock().add(trigger);
 			player.nextStep();
