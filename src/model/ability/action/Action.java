@@ -1,48 +1,66 @@
 package model.ability.action;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import controller.PlayerController;
 import model.ability.condition.Condition;
 import model.card.Activatable;
 
-public abstract class Action implements Activatable {
-	private List<Condition> conditions;
+public abstract class Action<T> implements Activatable {
+	private List<Condition<T>> conditions;
+	protected List<T> targets;
 	private String name;
-	
-	Action(String name){
+
+	Action(String name) {
 		this.name = name;
-		conditions = new ArrayList<Condition>();
+		targets = new ArrayList<>();
+		conditions = new ArrayList<Condition<T>>();
 	}
-	
-	public void addCondition(Condition c){
+
+	protected abstract void setTargets(PlayerController p1, PlayerController p2);
+
+	public void addCondition(Condition<T> c) {
 		conditions.add(c);
 	}
-	
-	public String getName(){
+
+	public String getName() {
 		return name;
 	}
-	
-	public boolean canActivate(PlayerController p1, PlayerController p2){
-		for (Condition condition : conditions) {
-			if (!condition.check(p1.getBoard(), p2.getBoard())){
-				return false;
+
+	private boolean canActivate() {
+		Iterator<T> ite = targets.iterator();
+		while (ite.hasNext()) {
+			T target = ite.next();
+			boolean targetIsValid = true;
+			for (Condition<T> condition : conditions) {
+				condition.setTarget(target);
+				if (!condition.check()) {
+					targetIsValid = false;
+					break;
+				}
 			}
+			if (!targetIsValid) {
+				ite.remove();
+			}
+
 		}
-		return true;
+		return targets.size() > 0;
 	}
-	
+
 	@Override
 	public final void execute(PlayerController p1, PlayerController p2) {
-		if(canActivate(p1, p2)){
-			executeAction(p1, p2);
-		}else{
+		setTargets(p1, p2);
+		if (canActivate()) {
+			executeAction(p1,p2);
+		} else {
 			p1.log(failureMessage());
 		}
-		
+
 	}
-	
+
 	protected abstract void executeAction(PlayerController p1, PlayerController p2);
+
 	protected abstract String failureMessage();
 }

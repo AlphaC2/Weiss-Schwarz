@@ -33,7 +33,7 @@ public abstract class Ability implements Activatable {
 	
 	public boolean canActivate(PlayerController p1, PlayerController p2){
 		for (Condition condition : conditions) {
-			if (!condition.check(p1.getBoard(), p2.getBoard())){
+			if (!condition.check()){
 				return false;
 			}
 		}

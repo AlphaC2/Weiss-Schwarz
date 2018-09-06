@@ -1,9 +1,10 @@
 package model.ability.condition.character;
 
-import model.board.Board;
+import model.ability.condition.Condition;
+import model.board.Slot;
 import model.card.Character;
 
-public class HasTrait extends CharacterCondition{
+public class HasTrait extends Condition<Slot>{
 	private String trait;
 	
 	public HasTrait(String trait) {
@@ -12,9 +13,9 @@ public class HasTrait extends CharacterCondition{
 	}
 	
 	@Override
-	public boolean check(Board p1, Board p2) {
+	public boolean check() {
 		if (trait != null){
-			Character c = getCharacter();
+			Character c = target.getCharacter();
 			if(trait.equals(c.getTrait1()) || trait.equals(c.getTrait2())){
 				return true;
 			}

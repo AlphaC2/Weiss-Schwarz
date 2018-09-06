@@ -1,9 +1,8 @@
 package model.ability.condition;
 
-import model.board.Board;
-
-public abstract class Condition {
+public abstract class Condition<T> {
 	private String name;
+	protected T target;
 	
 	protected Condition(String name){
 		this.name = name;
@@ -13,5 +12,9 @@ public abstract class Condition {
 		return name;
 	}
 	
-	public abstract boolean check(Board p1, Board p2);
+	public abstract boolean check();
+
+	public void setTarget(T target) {
+		this.target = target;
+	}
 }

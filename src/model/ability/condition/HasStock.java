@@ -1,8 +1,8 @@
 package model.ability.condition;
 
-import model.board.Board;
+import model.board.Stock;
 
-public class HasStock extends Condition {
+public class HasStock extends Condition<Stock> {
 	private int amount;
 	
 	public HasStock(int amount) {
@@ -11,8 +11,8 @@ public class HasStock extends Condition {
 	}
 
 	@Override
-	public boolean check(Board p1, Board p2) {
-		return p1.getStock().size() >= amount;
+	public boolean check() {
+		return target.size() >= amount;
 	}
 
 }

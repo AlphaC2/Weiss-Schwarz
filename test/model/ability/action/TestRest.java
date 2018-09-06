@@ -181,10 +181,9 @@ public class TestRest {
 		
 		s.setCharacter(mockCharacter);
 		assertEquals(Position.STANDING, s.getPosition());
-		
 		HasTrait traitRequirement = new HasTrait("MUSIC");
-		Rest rest = new Rest(traitRequirement );
-		
+		Rest rest = new Rest();
+		rest.addCondition(traitRequirement);
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.STANDING, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
@@ -204,7 +203,8 @@ public class TestRest {
 		assertEquals(Position.RESTED, s.getPosition());
 		
 		HasTrait traitRequirement = new HasTrait("MUSIC");
-		Rest rest = new Rest(traitRequirement);
+		Rest rest = new Rest();
+		rest.addCondition(traitRequirement);
 		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.RESTED, s.getPosition());
@@ -224,9 +224,9 @@ public class TestRest {
 		s.reverse();
 		assertEquals(Position.REVERSED, s.getPosition());
 		
-		Rest rest = new Rest();
 		HasTrait traitRequirement = new HasTrait("MUSIC");
-		rest.addCharCondition(traitRequirement);
+		Rest rest = new Rest();
+		rest.addCondition(traitRequirement);
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.REVERSED, s.getPosition());
 		assertEquals(mockCharacter, s.getCharacter());
@@ -245,7 +245,8 @@ public class TestRest {
 		assertEquals(Position.STANDING, s.getPosition());
 		
 		HasTrait traitRequirement = new HasTrait("MUSIC");
-		Rest rest = new Rest(traitRequirement);
+		Rest rest = new Rest();
+		rest.addCondition(traitRequirement);
 		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.RESTED, s.getPosition());
@@ -264,7 +265,8 @@ public class TestRest {
 		assertEquals(Position.STANDING, s.getPosition());
 		
 		HasTrait traitRequirement = new HasTrait("MUSIC");
-		Rest rest = new Rest(traitRequirement);
+		Rest rest = new Rest();
+		rest.addCondition(traitRequirement);
 		
 		rest.execute(mockPlayerController, mockPlayerController);
 		assertEquals(Position.RESTED, s.getPosition());
