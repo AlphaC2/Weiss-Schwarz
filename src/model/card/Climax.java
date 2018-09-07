@@ -3,6 +3,7 @@ package model.card;
 import java.util.List;
 
 import controller.PlayerController;
+import model.ability.Activatable;
 import model.ability.action.Action;
 
 public class Climax extends Card implements Activatable{

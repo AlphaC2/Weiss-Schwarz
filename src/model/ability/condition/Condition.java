@@ -22,4 +22,11 @@ public abstract class Condition<T> {
 	public String getTargetClassName(){
 		return target.getClass().toString();
 	}
+
+	@Override
+	public String toString() {
+		return "Condition [name=" + name + "]";
+	}
+	
+	
 }

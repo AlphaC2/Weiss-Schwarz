@@ -16,6 +16,7 @@ public class Board {
 	private Hand hand;
 	private Stage stage;
 	private Climax climaxZone;
+	private ResolutionZone resolution;
 	
 	public Board(List<Card> deck) {
 		super();
@@ -28,6 +29,7 @@ public class Board {
 		hand = new Hand();
 		stage = new Stage();
 		climaxZone = null;
+		resolution = new ResolutionZone();
 	}
 	
 	public boolean hasColour(Colour colour){
@@ -77,6 +79,10 @@ public class Board {
 
 	public MemoryZone getMemoryZone() {
 		return memory;
+	}
+	
+	public ResolutionZone getResolutionZone(){
+		return resolution;
 	}
 
 }

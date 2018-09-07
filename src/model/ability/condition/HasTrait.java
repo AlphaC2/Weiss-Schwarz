@@ -1,6 +1,5 @@
-package model.ability.condition.character;
+package model.ability.condition;
 
-import model.ability.condition.Condition;
 import model.board.Slot;
 import model.card.Character;
 
@@ -16,11 +15,16 @@ public class HasTrait extends Condition<Slot>{
 	public boolean check() {
 		if (trait != null){
 			Character c = target.getCharacter();
-			if(trait.equals(c.getTrait1()) || trait.equals(c.getTrait2())){
+			if(trait.equalsIgnoreCase(c.getTrait1()) || trait.equalsIgnoreCase(c.getTrait2())){
 				return true;
 			}
 		}
 		return false;
+	}
+
+	@Override
+	public String toString() {
+		return "HasTrait [trait=" + trait + "]";
 	}
 
 }

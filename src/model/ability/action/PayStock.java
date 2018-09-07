@@ -31,7 +31,7 @@ public class PayStock extends Action<Stock> {
 	}
 
 	@Override
-	protected String failureMessage() {
+	public String failureMessage() {
 		return "Could not pay stock";
 	}
 

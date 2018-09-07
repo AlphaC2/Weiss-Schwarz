@@ -1,19 +1,14 @@
 package model.ability.action;
 
 import controller.PlayerController;
-import model.ability.condition.CanRest;
+import model.ability.condition.CharacterOnStage;
 import model.board.Slot;
 
-public class Rest extends Action<Slot> {
+public class ChooseCharacterFromStage extends Action<Slot> {
 
-	public Rest() {
-		super("Rest");
-		addCondition(new CanRest());
-	}
-	
-	public Rest(boolean required){
-		super("Rest", required);
-		addCondition(new CanRest());
+	ChooseCharacterFromStage() {
+		super("Choose Character");
+		addCondition(new CharacterOnStage());
 	}
 
 	@Override
@@ -23,14 +18,13 @@ public class Rest extends Action<Slot> {
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		Slot chosen = p1.getChoice("Choose a character to rest:", targets);
-		chosen.rest();
+		Slot chosen = p1.getChoice("Choose a character", targets);
+		p1.getBoard().getResolutionZone().add(chosen.getCharacter());
 	}
 
 	@Override
 	public String failureMessage() {
-		return "Could not Rest";
+		return "Failed to choose character";
 	}
-
 
 }

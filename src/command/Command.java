@@ -1,6 +1,6 @@
 package command;
 
-import model.card.Activatable;
+import model.ability.Activatable;
 
 public abstract class Command implements Activatable{
 	

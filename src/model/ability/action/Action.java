@@ -5,10 +5,10 @@ import java.util.Iterator;
 import java.util.List;
 
 import controller.PlayerController;
+import model.ability.AbilityInterface;
 import model.ability.condition.Condition;
-import model.card.Activatable;
 
-public abstract class Action<T> implements Activatable {
+public abstract class Action<T> implements AbilityInterface {
 	private List<Condition<T>> conditions;
 	protected List<T> targets;
 	private String name;
@@ -33,7 +33,13 @@ public abstract class Action<T> implements Activatable {
 		targets = new ArrayList<>();
 		conditions = new ArrayList<Condition<T>>();
 	}
-
+	
+	Action(String name, boolean required) {
+		this(name);
+		isRequired = required;
+	}
+	
+	
 	protected abstract void setTargets(PlayerController p1, PlayerController p2);
 
 	public void addCondition(Condition<T> c) {
@@ -43,8 +49,14 @@ public abstract class Action<T> implements Activatable {
 	public String getName() {
 		return name;
 	}
-
-	private boolean canActivate() {
+	
+	@Override
+	public AbilityInterface next(){
+		return nextAction;
+	}
+	
+	public void setValidTargets(PlayerController p1, PlayerController p2){
+		setTargets(p1,p2);
 		Iterator<T> ite = targets.iterator();
 		while (ite.hasNext()) {
 			T target = ite.next();
@@ -61,12 +73,16 @@ public abstract class Action<T> implements Activatable {
 			}
 
 		}
-		return targets.size() > 0;
+	}
+
+	@Override
+	public boolean canActivate() {
+			return targets.size() > 0;
 	}
 
 	@Override
 	public final void execute(PlayerController p1, PlayerController p2) {
-		setTargets(p1, p2);
+		setValidTargets(p1, p2);
 		if (canActivate()) {
 			executeAction(p1,p2);
 			if (nextAction != null){
@@ -80,8 +96,6 @@ public abstract class Action<T> implements Activatable {
 
 	protected abstract void executeAction(PlayerController p1, PlayerController p2);
 
-	protected abstract String failureMessage();
-	
 	public String getTargetClassName(){
 		if (targets.size() == 0){
 			throw new RuntimeException();

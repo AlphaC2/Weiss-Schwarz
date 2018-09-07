@@ -1,4 +1,4 @@
-package model.card;
+package model.ability;
 
 import controller.PlayerController;
 
