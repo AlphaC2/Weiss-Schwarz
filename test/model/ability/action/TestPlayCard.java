@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -101,4 +102,49 @@ public class TestPlayCard {
 		assertEquals(1, board.getWaitingRoom().size());
 		assertEquals(mockCharacter2, board.getWaitingRoom().getCards().get(0));
 	}
+	
+	@Test
+	public void PlayCharacterWithNotEnoughCost(){
+		//Setup Test
+		when(mockCharacter.getCost()).thenReturn(1);
+		
+		//Verify preconditions
+		assertEquals(0, board.getStock().size());
+		assertEquals(1, board.getHand().size());
+		
+		//Perform actions
+		PlayCard playCard = new PlayCard();
+		playCard.execute(mockPlayerController, mockPlayerController);
+		
+		//Verify postconditions
+		verify(mockPlayerController).log(playCard.failureMessage());
+	}
+
+	@Test
+	public void PlayCharacterWithExactlyEnoughCost(){
+		//Setup Test
+		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		when(mockCharacter.getCost()).thenReturn(1);
+		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
+		board.getStock().add(mockCard);
+		
+		//Verify preconditions
+		assertEquals(1, board.getStock().size());
+		assertEquals(1, board.getHand().size());
+		
+		//Perform actions
+		PlayCard playCard = new PlayCard();
+		playCard.execute(mockPlayerController, mockPlayerController);
+		
+		//Verify postconditions
+		assertEquals(0, board.getStock().size());
+		assertEquals(0, board.getHand().size());
+		assertEquals(1, board.getWaitingRoom().size());
+		assertEquals(mockCharacter, slot.getCharacter());
+	}
+	
+	@Test
+	public void PlayCharacterWithoutColourRequirement(){
+		
+	} 
 }
