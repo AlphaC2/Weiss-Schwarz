@@ -1,7 +1,7 @@
 package model.ability.condition;
 
 import model.board.Slot;
-import model.card.Character;
+import model.card.Karacter;
 
 public class HasTrait extends Condition<Slot>{
 	private String trait;
@@ -14,7 +14,7 @@ public class HasTrait extends Condition<Slot>{
 	@Override
 	public boolean check() {
 		if (trait != null){
-			Character c = target.getCharacter();
+			Karacter c = target.getCharacter();
 			if(trait.equalsIgnoreCase(c.getTrait1()) || trait.equalsIgnoreCase(c.getTrait2())){
 				return true;
 			}

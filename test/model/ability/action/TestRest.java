@@ -24,7 +24,7 @@ import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;
 import model.card.Card;
-import model.card.Character;
+import model.card.Karacter;
 import model.card.Position;
 import util.Util;
 
@@ -64,7 +64,7 @@ public class TestRest {
 	Card mockCard;
 
 	@Mock
-	Character mockCharacter;
+	Karacter mockCharacter;
 
 	@Mock
 	PlayerController mockPlayerController;
