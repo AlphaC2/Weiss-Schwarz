@@ -20,7 +20,7 @@ import model.ability.AbilityInterface;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;
-import model.card.Karacter;
+import model.card.Character;
 
 @RunWith(Parameterized.class)
 public class TestStageAction {
@@ -31,7 +31,7 @@ public class TestStageAction {
 	Card mockCard;
 	
 	@Mock
-	Karacter mockCharacter;
+	Character mockCharacter;
 	
 	@Mock
 	PlayerController mockPlayerController;

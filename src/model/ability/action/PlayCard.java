@@ -10,7 +10,7 @@ import model.ability.condition.HasStock;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;
-import model.card.Karacter;
+import model.card.Character;
 import model.card.Event;
 
 public class PlayCard extends Action<Card>{
@@ -40,9 +40,9 @@ public class PlayCard extends Action<Card>{
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		Card c = p1.getChoice("Choose a card to play", targets);
 		Board board = p1.getBoard();
-		if (c instanceof Karacter){
+		if (c instanceof Character){
 			
-			Karacter charCard = (Karacter) c;
+			Character charCard = (Character) c;
 			Slot slot = p1.getChoice("Choose Slot", board.getStage().getSlots());
 			
 			if (slot.getCharacter() != null){

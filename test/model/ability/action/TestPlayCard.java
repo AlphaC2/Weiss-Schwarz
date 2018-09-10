@@ -18,7 +18,7 @@ import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;
 import model.card.Card;
-import model.card.Karacter;
+import model.card.Character;
 
 public class TestPlayCard {
 	private Board board;
@@ -27,10 +27,10 @@ public class TestPlayCard {
 	Card mockCard;
 	
 	@Mock
-	Karacter mockCharacter;
+	Character mockCharacter;
 	
 	@Mock
-	Karacter mockCharacter2;
+	Character mockCharacter2;
 	
 	@Mock
 	PlayerController mockPlayerController;

@@ -17,7 +17,7 @@ import controller.ReadUserInput;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;
-import model.card.Karacter;
+import model.card.Character;
 
 public class TestChooseCharacterFromStage {
 	private Board board;
@@ -26,7 +26,7 @@ public class TestChooseCharacterFromStage {
 	Card mockCard;
 	
 	@Mock
-	Karacter mockCharacter;
+	Character mockCharacter;
 	
 	@Mock
 	PlayerController mockPlayerController;

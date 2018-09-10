@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.ability.action.Action;
 
-public class Karacter extends Card {
+public class Character extends Card {
 	private String trait1;
 	private String trait2;
 	private int basePower;
@@ -13,7 +13,7 @@ public class Karacter extends Card {
 	@SuppressWarnings("rawtypes")
 	private List<Action> abilities;
 		
-	public Karacter(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
+	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
 			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul,	List<Action> abilities) {
 		super(name, cardID, imagePath, level, cost, colour, triggers, rarity, flavourText);
 		this.trait1 = trait1;
