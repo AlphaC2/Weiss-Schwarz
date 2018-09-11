@@ -19,7 +19,7 @@ public class PlayCard extends Action<Card>{
 	private HasStockCard hasStock;
 	private HasColor hasColor;
 	
-	PlayCard() {
+	public PlayCard() {
 		super("Play Card");
 		haslevel = new HasLevel();
 		hasStock = new HasStockCard();
