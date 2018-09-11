@@ -4,6 +4,7 @@ package model.ability.action;
 import java.util.List;
 
 import controller.PlayerController;
+import model.ability.condition.HasColor;
 import model.ability.condition.HasLevel;
 import model.ability.condition.HasStockCard;
 import model.board.Board;
@@ -16,13 +17,16 @@ public class PlayCard extends Action<Card>{
 	
 	private HasLevel haslevel;
 	private HasStockCard hasStock;
+	private HasColor hasColor;
 	
 	PlayCard() {
 		super("Play Card");
 		haslevel = new HasLevel();
 		hasStock = new HasStockCard();
+		hasColor = new HasColor();
 		addCondition(haslevel);
 		addCondition(hasStock);
+		addCondition(hasColor);
 	}
 
 	@Override
@@ -34,6 +38,7 @@ public class PlayCard extends Action<Card>{
 	protected void setTargets(PlayerController p1, PlayerController p2) {
 		haslevel.setLevel(p1.getBoard().getLevel());
 		hasStock.setStock(p1.getBoard().getStock());
+		hasColor.init(p1.getBoard());
 		List<Card> hand = p1.getBoard().getHand().getCards();
 		targets.addAll(hand);
 	}

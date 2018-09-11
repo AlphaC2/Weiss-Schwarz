@@ -4,6 +4,7 @@ import model.board.Board;
 import model.board.DamageZone;
 import model.board.LevelZone;
 import model.card.Card;
+import model.card.Character;
 
 public class HasColor extends Condition<Card>{
 
@@ -21,7 +22,7 @@ public class HasColor extends Condition<Card>{
 
 	@Override
 	public boolean check() {
-		if (target.getLevel() != 0){
+		if (! (target instanceof Character) || target.getLevel() != 0 ){
 			for (Card card : level.getCards()) {
 				if (card.getColour() == target.getColour()){
 					return true;
