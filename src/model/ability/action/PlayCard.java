@@ -44,7 +44,7 @@ public class PlayCard extends Action<Card>{
 	}
 
 	@Override
-	protected void executeAction(PlayerController p1, PlayerController p2) {
+	protected void executeAction(PlayerController p1, PlayerController p2) throws Exception{
 		Card c = p1.getChoice("Choose a card to play", targets);
 		Board board = p1.getBoard();
 		if (c instanceof Character){

@@ -133,7 +133,11 @@ public class TestRest {
 			expected = sp.p;
 		}
 
-		rest.execute(mockPlayerController, mockPlayerController);
+		try {
+			rest.execute(mockPlayerController, mockPlayerController);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 		if (!flag) {
 			verify(mockPlayerController).log(rest.failureMessage());

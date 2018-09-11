@@ -81,7 +81,7 @@ public abstract class Action<T> implements AbilityInterface {
 	}
 
 	@Override
-	public final void execute(PlayerController p1, PlayerController p2) {
+	public final void execute(PlayerController p1, PlayerController p2) throws Exception {
 		setValidTargets(p1, p2);
 		if (canActivate()) {
 			executeAction(p1,p2);
@@ -94,7 +94,7 @@ public abstract class Action<T> implements AbilityInterface {
 
 	}
 
-	protected abstract void executeAction(PlayerController p1, PlayerController p2);
+	protected abstract void executeAction(PlayerController p1, PlayerController p2) throws Exception;
 
 	public String getTargetClassName(){
 		if (targets.size() == 0){

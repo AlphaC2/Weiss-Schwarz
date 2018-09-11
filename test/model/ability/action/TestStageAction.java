@@ -71,7 +71,12 @@ public class TestStageAction {
 			assertNull(slot.getCharacter());
 		}
 		
-		action.execute(mockPlayerController, mockPlayerController);
+		try {
+			action.execute(mockPlayerController, mockPlayerController);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		verify(mockPlayerController).log(action.failureMessage());
 	}
 	

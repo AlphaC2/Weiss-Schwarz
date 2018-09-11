@@ -16,7 +16,7 @@ public class Event extends Card implements Activatable{
 	}
 
 	@Override
-	public void execute(PlayerController p1, PlayerController p2) {
+	public void execute(PlayerController p1, PlayerController p2) throws Exception{
 		ability.execute(p1, p2);
 	}
 	

@@ -54,7 +54,12 @@ public class TestChooseCharacterFromStage {
 		}
 		
 		Action<Slot> action = new ChooseCharacterFromStage();
-		action.execute(mockPlayerController, mockPlayerController);
+		try {
+			action.execute(mockPlayerController, mockPlayerController);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		verify(mockPlayerController).log(action.failureMessage());
 	}
@@ -67,7 +72,12 @@ public class TestChooseCharacterFromStage {
 		}
 		
 		Action<Slot> action = new ChooseCharacterFromStage();
-		action.execute(mockPlayerController, mockPlayerController);
+		try {
+			action.execute(mockPlayerController, mockPlayerController);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		verify(mockPlayerController).log(action.failureMessage());
 	}
