@@ -20,6 +20,7 @@ import model.board.Slot;
 import model.board.SlotType;
 import model.card.Card;
 import model.card.Character;
+import model.card.Colour;
 
 public class TestPlayCard {
 	private Board board;
@@ -51,56 +52,73 @@ public class TestPlayCard {
 		when(mockPlayerController.getBoard()).thenReturn(board);
 		mockPlayerController.setReader(mockReader);
 	}
-	
+
+	//Setup Test
+	//Check Preconditions
+	//Perform Actions
+	//Check Postconditions
+
 	@Test
-	public void testCharacterAboveLevel(){
+	public void CharacterAbovePlayerLevel(){
+		//Setup Test
 		when(mockCharacter.getLevel()).thenReturn(3);
-		board.getLevel().add(mockCard);
+		board.getLevel().add(mockCharacter2);
+
+		//Check Preconditions
 		assertEquals(1, board.getLevel().size());
-		assertEquals(1, board.getHand().size());		
+		assertEquals(1, board.getHand().size());
 		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
-		
+
+		//Perform Actions
 		PlayCard playCard = new PlayCard();
 		playCard.execute(mockPlayerController, mockPlayerController);
+
+		//Check Postconditions
 		verify(mockPlayerController).log(playCard.failureMessage());
 	}
-	
+
 	@Test
-	public void testCharacterSameLevel(){
+	public void CharacterSameLevel(){
+		//Setup Test
 		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
 		when(mockCharacter.getLevel()).thenReturn(1);
 		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
 		board.getLevel().add(mockCard);
+
+		//Check Preconditions
 		assertEquals(1, board.getLevel().size());
 		assertEquals(1, board.getHand().size());	
 		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
+
+		//Perform Actions
 		PlayCard playCard = new PlayCard();
 		playCard.execute(mockPlayerController, mockPlayerController);
+
+		//Check Postconditions
 		assertEquals(mockCharacter, slot.getCharacter());
 		assertEquals(0, board.getHand().size());
 	}
-	
+
 	@Test
-	public void testPlayOnTopOfCharacter(){
-		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
-		slot.setCharacter(mockCharacter2);
+	public void CharacterDoesNotMeetColourRequirement(){
+		//Setup Test
 		when(mockCharacter.getLevel()).thenReturn(1);
-		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
+		board.getLevel().add(mockCharacter2);
+		when(mockCharacter.getColour()).thenReturn(Colour.YELLOW);
+		when(mockCharacter2.getColour()).thenReturn(Colour.RED);
 		
-		board.getLevel().add(mockCard);
+		//Check Preconditions
 		assertEquals(1, board.getLevel().size());
-		assertEquals(1, board.getHand().size());
-		assertEquals(0, board.getWaitingRoom().size());
+		assertEquals(1, board.getHand().size());	
 		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
-		assertEquals(mockCharacter2, slot.getCharacter());
+		assertNotEquals(mockCharacter.getColour(), mockCharacter2.getColour());
 		
+		//Perform Actions
 		PlayCard playCard = new PlayCard();
 		playCard.execute(mockPlayerController, mockPlayerController);
 		
-		assertEquals(mockCharacter, slot.getCharacter());
-		assertEquals(0, board.getHand().size());
-		assertEquals(1, board.getWaitingRoom().size());
-		assertEquals(mockCharacter2, board.getWaitingRoom().getCards().get(0));
+		//Check Postconditions
+		verify(mockPlayerController).log(playCard.failureMessage());
 	}
 	
 	@Test
@@ -144,7 +162,55 @@ public class TestPlayCard {
 	}
 	
 	@Test
-	public void PlayCharacterWithoutColourRequirement(){
+	public void CharacterMeetsLevelAndColourRequirements(){
+		//Setup Test
+		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		when(mockCharacter.getLevel()).thenReturn(2);
+		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
+		board.getLevel().add(mockCard);
+		board.getLevel().add(mockCharacter2);
+		when(mockCharacter.getColour()).thenReturn(Colour.YELLOW);
+		when(mockCharacter2.getColour()).thenReturn(Colour.YELLOW);
 		
-	} 
+		//Check Preconditions
+		assertEquals(2, board.getLevel().size());
+		assertEquals(2, mockCharacter.getLevel());
+		assertEquals(1, board.getHand().size());
+		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
+		assertEquals(mockCharacter.getColour(), mockCharacter2.getColour());
+		
+		//Perform Actions
+		PlayCard playCard = new PlayCard();
+		playCard.execute(mockPlayerController, mockPlayerController);
+		
+		//Check Postconditions
+		assertEquals(mockCharacter, slot.getCharacter());
+		assertEquals(0, board.getHand().size());
+		assertEquals(2, board.getLevel().size());
+	}
+
+	@Test
+	public void PlayCharacterOnTopOfCharacter(){
+		//Setup Test
+		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
+		slot.setCharacter(mockCharacter2);
+		doReturn(mockCharacter, slot).when(mockReader).getChoice(anyString(), anyList());
+		
+		//Check Preconditions
+		assertEquals(1, board.getHand().size());
+		assertEquals(0, board.getWaitingRoom().size());
+		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
+		assertEquals(mockCharacter2, slot.getCharacter());
+		
+		//Perform Actions
+		PlayCard playCard = new PlayCard();
+		playCard.execute(mockPlayerController, mockPlayerController);
+
+		//Check Postconditions		
+		assertEquals(mockCharacter, slot.getCharacter());
+		assertEquals(0, board.getHand().size());
+		assertEquals(1, board.getWaitingRoom().size());
+		assertEquals(mockCharacter2, board.getWaitingRoom().getCards().get(0));
+	}
+	
 }
