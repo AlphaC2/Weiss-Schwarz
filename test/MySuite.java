@@ -5,8 +5,9 @@ import com.googlecode.junittoolbox.WildcardPatternSuite;
 
 @RunWith(WildcardPatternSuite.class)
 @SuiteClasses(
-		{"**/action/Test*.class",
-		"**/util/Test*.class"})
+		{"**/Test*.class",
+		"!**/scrapper/Test*.class"
+		})
 public class MySuite {
 
 }
