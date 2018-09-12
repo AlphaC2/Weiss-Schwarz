@@ -26,9 +26,9 @@ public class TakeOneDamage extends Action<ResolutionZone> {
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		List<Card> cards = targets.get(0).getCards();
-		Card c = cards.get(0);
-		cards.remove(c);
+		ResolutionZone zone = targets.get(0);
+		Card c = zone.getCards().get(0);
+		zone.remove(c);
 		p1.getBoard().getDamageZone().add(c);
 		p1.log("Damage:" + c.toShortString());
 		if (p1.getBoard().getDamageZone().size() >= DamageZone.cardsPerLevel) {
