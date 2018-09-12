@@ -1,8 +1,5 @@
 package model.ability.action;
 
-import java.util.List;
-
-import command.LevelUp;
 import controller.PlayerController;
 import model.board.DamageZone;
 import model.board.ResolutionZone;
