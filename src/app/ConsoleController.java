@@ -92,4 +92,9 @@ public class ConsoleController extends PlayerController {
 		System.out.println(getBoard().getStock());
 	}
 
+	@Override
+	public void deckOut() {
+		System.out.println(getPlayer().getName() + "deck out");
+	}
+
 }

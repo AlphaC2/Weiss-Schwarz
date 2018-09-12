@@ -48,6 +48,7 @@ public class TakeDamage extends Action<ResolutionZone>{
 			}
 			
 		}
+		// p1.resolveActions();
 	}
 
 }

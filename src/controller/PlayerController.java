@@ -60,4 +60,6 @@ public abstract class PlayerController {
 	public final void setReader(ReadUserInput reader) {
 		this.reader = reader;
 	}
+
+	public abstract void deckOut();
 }

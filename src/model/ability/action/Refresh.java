@@ -18,6 +18,9 @@ public class Refresh extends Action<Card>{
 	@Override
 	protected void setTargets(PlayerController p1, PlayerController p2) {
 		targets.addAll(p1.getBoard().getWaitingRoom().getCards());
+		if (targets.isEmpty()){
+			p1.deckOut();
+		}
 	}
 
 	@Override
