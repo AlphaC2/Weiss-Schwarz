@@ -47,6 +47,7 @@ public abstract class PlayerController {
 		for (AbilityInterface action : unresolvedActions) {
 			action.execute(this, p2);
 		}
+		unresolvedActions.clear();
 	}
 	
 	

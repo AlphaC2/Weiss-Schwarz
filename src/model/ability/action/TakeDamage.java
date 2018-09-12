@@ -35,12 +35,13 @@ public class TakeDamage extends Action<ResolutionZone>{
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		head.execute(p1, p2);
-		List<Card> cards = targets.get(0).getCards();
+		ResolutionZone zone = targets.get(0);
+		List<Card> cards = zone.getCards();
 		Card lastCard = cards.get(cards.size()-1);
 		if (lastCard instanceof Climax){
 			p1.log("Damage cancelled on card " + (Climax) lastCard);
 			p1.getBoard().getWaitingRoom().add(cards);
-			cards.clear();
+			zone.remove(cards);
 		} else {
 			p1.log(p1.getPlayer().getName() + " took " + amount + " damage");
 			for (int i = 0; i <  cards.size(); i++) {
