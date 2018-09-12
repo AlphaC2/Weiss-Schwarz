@@ -41,6 +41,10 @@ public class LevelUp extends Action<DamageZone> {
 		board.getLevel().add(chosen);
 		levelCards.remove(chosen);
 		board.getWaitingRoom().add(levelCards);
+		
+		if (p1.getBoard().getLevel().size() == 4){
+			p1.level4();
+		}
 
 	}
 

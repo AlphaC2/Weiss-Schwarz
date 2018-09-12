@@ -94,7 +94,12 @@ public class ConsoleController extends PlayerController {
 
 	@Override
 	public void deckOut() {
-		System.out.println(getPlayer().getName() + "deck out");
+		System.out.println(getPlayer().getName() + " deck out");
+	}
+
+	@Override
+	public void level4() {
+		System.out.println(getPlayer().getName() + " is level 4");
 	}
 
 }

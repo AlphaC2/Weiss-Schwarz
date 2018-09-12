@@ -62,4 +62,6 @@ public abstract class PlayerController {
 	}
 
 	public abstract void deckOut();
+
+	public abstract void level4();
 }
