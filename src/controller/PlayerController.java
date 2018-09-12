@@ -1,7 +1,9 @@
 package controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import model.ability.AbilityInterface;
 import model.board.Board;
 import model.card.Card;
 import model.player.Player;
@@ -11,16 +13,18 @@ public abstract class PlayerController {
 	private Player player;
 	private Board board;
 	private ReadUserInput reader;
+	private List<AbilityInterface> unresolvedActions;
 
 	public PlayerController(String name, ReadUserInput reader) {
 		player = new Player(name);
 		this.reader = reader;
+		unresolvedActions = new ArrayList<>();
 	}
 
 	public final void setDeck(List<Card> deck) {
 		board = new Board(deck);
 	}
-
+	
 	public abstract void buildDeck();
 
 	public abstract void readDeck();
@@ -37,6 +41,17 @@ public abstract class PlayerController {
 
 	public Player getPlayer() {
 		return player;
+	}
+	
+	public void checkTiming(PlayerController p2){
+		for (AbilityInterface action : unresolvedActions) {
+			action.execute(this, p2);
+		}
+	}
+	
+	
+	public void addToUnresolved(AbilityInterface action){
+		unresolvedActions.add(action);
 	}
 
 	public abstract void displayStage();

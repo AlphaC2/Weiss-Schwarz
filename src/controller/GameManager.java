@@ -18,8 +18,9 @@ public class GameManager {
 	ConsoleReadUserInput reader;
 	PlayerController player1;
 	PlayerController player2;
-	Player currentPlayer;
+	PlayerController currentPlayer;
 	boolean alive = true;
+
 
 	public static GameManager getInstance(){
 		if (instance == null){
@@ -32,7 +33,7 @@ public class GameManager {
 		reader = new ConsoleReadUserInput();
 		player1 = p1;
 		player2 = p2;
-		currentPlayer = player1.getPlayer();
+		currentPlayer = p1;
 	}
 	
 	private void setup(){
@@ -53,8 +54,8 @@ public class GameManager {
 	public void gameLoop() {
 		setup();
 		while (alive) {
-			log(currentPlayer,currentPlayer.getName() + ":" + currentPlayer.getPhase() + " Phase");
-			currentPlayer.executeCommand();
+			log(currentPlayer.getPlayer(),currentPlayer.getPlayer().getName() + ":" + currentPlayer.getPlayer().getPhase() + " Phase");
+			currentPlayer.getPlayer().executeCommand();
 		}
 	}
 	
@@ -64,14 +65,14 @@ public class GameManager {
 
 	public void endTurn(Player player) {
 		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
-			new Discard().execute(getController(currentPlayer),	getOpponent(currentPlayer));
+			new Discard().execute(getController(player), getOpponent(getController(player)));
 		}
 		
 		if (player.getPhase() == PlayerPhase.OPPONENTS_TURN){
-			if (currentPlayer == player1.getPlayer()){
-				currentPlayer = player2.getPlayer();
-			}else if (currentPlayer == player2.getPlayer()){
-				currentPlayer = player1.getPlayer();
+			if (currentPlayer == player1){
+				currentPlayer = player2;
+			}else if (currentPlayer == player2){
+				currentPlayer = player1;
 			}else
 				System.out.println("ERROR");
 		}
@@ -79,11 +80,10 @@ public class GameManager {
 
 	public void execute(Activatable cmd, Player player) {
 		try {
-			cmd.execute(getController(player), getOpponent(player));
+			cmd.execute(getController(player), getOpponent(getController(player)));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
 	}
 	
 	private PlayerController getController(Player player){
@@ -94,8 +94,8 @@ public class GameManager {
 		}
 	}
 	
-	private PlayerController getOpponent(Player player){
-		if (player1.getPlayer().equals(player)){
+	private PlayerController getOpponent(PlayerController player){
+		if (player1.equals(player)){
 			return player2;
 		} else {
 			return player1;

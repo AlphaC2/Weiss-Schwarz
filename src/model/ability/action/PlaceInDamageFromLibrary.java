@@ -4,15 +4,15 @@ import controller.PlayerController;
 import model.card.Card;
 import model.exceptions.EmptyLibraryException;
 
-public class DrawToHand extends Action<Card>{
+public class PlaceInDamageFromLibrary extends Action<Card>{
 
-	public DrawToHand() {
-		super("Draw to hand");
+	public PlaceInDamageFromLibrary() {
+		super("Place damage from library");
 	}
 
 	@Override
 	public String failureMessage() {
-		return "You lose";
+		return "empty library";
 	}
 
 	@Override
@@ -23,13 +23,13 @@ public class DrawToHand extends Action<Card>{
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		Card c = targets.get(0);
-		p1.getBoard().getHand().add(c);
 		try {
+			p1.getBoard().getDamageZone().add(c);
 			p1.getBoard().getLibrary().remove(c);
 		} catch (EmptyLibraryException e) {
 			new Refresh().execute(p1, p2);
 		}
-		p1.log(p1.getPlayer().getName() + " drew " + System.lineSeparator() +targets.get(0).toShortString());
+		
 	}
 
 }
