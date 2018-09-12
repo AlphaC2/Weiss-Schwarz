@@ -112,8 +112,8 @@ public class GameManager {
 
 	public void gameOver(PlayerController pc) {
 		this.alive = false;
-		pc.log("is winner");
-		getOpponent(pc).log("is loser");
+		pc.log("is loser");
+		getOpponent(pc).log("is winner");
 	}
 
 }
