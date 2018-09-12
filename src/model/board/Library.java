@@ -63,11 +63,11 @@ public class Library extends Zone implements Searchable{
 		return results;
 	}
 	
-	void placeTop(Card c){
+	public void placeTop(Card c){
 		cards.add(0, c);
 	}
 	
-	void placeBottom(Card c){
+	public void placeBottom(Card c){
 		super.add(c);
 	}
 	

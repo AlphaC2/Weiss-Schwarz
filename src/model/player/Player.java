@@ -13,9 +13,12 @@ public class Player {
 	List<Command> commands = new ArrayList<>();
 
 	public Player(String name) {
-		this.gm = GameManager.getInstance();
 		this.name = name;
 		phase = PlayerPhase.OPPONENTS_TURN;
+	}
+
+	public void setGM(GameManager gm){
+		this.gm = gm;
 	}
 	
 	public void endPhase() {

@@ -13,7 +13,7 @@ public class TakeOneDamage extends Action<ResolutionZone> {
 
 	@Override
 	public String failureMessage() {
-		return null;
+		return "YA DUN GOOFED";
 	}
 
 	@Override

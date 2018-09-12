@@ -43,9 +43,11 @@ public class TakeDamage extends Action<ResolutionZone>{
 			p1.getBoard().getWaitingRoom().add(cards);
 			zone.remove(cards);
 		} else {
-			p1.log("took " + amount + " damage");
 			for (int i = 0; i <  cards.size(); i++) {
 				new TakeOneDamage().execute(p1, p2);;
+			}
+			if(p1.isAlive()){
+				p1.log("took " + amount + " damage");
 			}
 			
 		}

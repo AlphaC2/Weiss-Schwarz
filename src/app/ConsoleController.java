@@ -21,8 +21,7 @@ public class ConsoleController extends PlayerController {
 	public static void main(String[] args) {
 		PlayerController c1 = new ConsoleController("P1");
 		PlayerController c2 = new ConsoleController("P2");
-		GameManager gm = GameManager.getInstance();
-		gm.init(c1, c2);
+		GameManager gm = new GameManager(c1, c2);
 		c1.readDeck();
 		c2.readDeck();
 		gm.gameLoop();

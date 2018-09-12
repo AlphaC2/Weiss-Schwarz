@@ -62,6 +62,7 @@ public class TestStageAction {
 		board = new Board(deck);
 		when(mockPlayerController.getBoard()).thenReturn(board);
 		mockPlayerController.setReader(mockReader);
+		when(mockPlayerController.isAlive()).thenReturn(true);
 	}
 	
 	@Test

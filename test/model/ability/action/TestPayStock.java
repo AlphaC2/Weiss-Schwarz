@@ -34,6 +34,7 @@ public class TestPayStock {
 		}
 		board = new Board(deck);
 		when(mockPlayerController.getBoard()).thenReturn(board);
+		when(mockPlayerController.isAlive()).thenReturn(true);
 	}
 	
 	@Test
