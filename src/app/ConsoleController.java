@@ -101,5 +101,9 @@ public class ConsoleController extends PlayerController {
 	public void level4() {
 		System.out.println(getPlayer().getName() + " is level 4");
 	}
+	
+	private void gameOver(){
+		GameManager.getInstance().gameOver(this);
+	}
 
 }

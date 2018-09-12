@@ -110,4 +110,11 @@ public class GameManager {
 		return getController(player).getChoice(prompt);
 	}
 
+	public void gameOver(PlayerController pc) {
+		this.alive = false;
+		pc.log("is winner");
+		getOpponent(pc).log("is loser");
+		System.exit(0);
+	}
+
 }
