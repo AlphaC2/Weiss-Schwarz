@@ -6,7 +6,7 @@ import com.googlecode.junittoolbox.WildcardPatternSuite;
 @RunWith(WildcardPatternSuite.class)
 @SuiteClasses(
 		{"**/action/Test*.class",
-		"**/command/Test*.class"})
+		"**/util/Test*.class"})
 public class MySuite {
 
 }

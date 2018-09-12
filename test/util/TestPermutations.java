@@ -11,11 +11,11 @@ public class TestPermutations {
 	
 	@Test
 	public void testingPermutations(){
-		int listSize = 25;
-		int expectedSize = (int) Math.pow(2, listSize);
+		int maxListSize = 10;
+		int expectedSize = (int) Math.pow(2, maxListSize);
 		
-		Integer[] numbers = new Integer[listSize];
-		for (int i = 0; i < listSize; i++) {
+		Integer[] numbers = new Integer[maxListSize];
+		for (int i = 0; i < maxListSize; i++) {
 			numbers[i] = i;
 		}
 		
