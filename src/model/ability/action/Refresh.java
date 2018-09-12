@@ -28,8 +28,8 @@ public class Refresh extends Action<Card>{
 		for (Card card : targets) {
 			p1.getBoard().getWaitingRoom().remove(card);
 			p1.getBoard().getLibrary().add(card);
-			p1.log("Refreshed library");
 		}
+		p1.log("Refreshed library");
 		p1.addToUnresolved(new PlaceInDamageFromLibrary());
 	}
 
