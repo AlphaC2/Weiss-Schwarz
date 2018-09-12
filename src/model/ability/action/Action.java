@@ -91,10 +91,10 @@ public abstract class Action<T> implements AbilityInterface {
 
 	@Override
 	public final void execute(PlayerController p1, PlayerController p2) {
+		setValidTargets(p1, p2);
 		if (!p1.isAlive()){
 			return;
 		}
-		setValidTargets(p1, p2);
 		if (canActivate()) {
 			executeAction(p1,p2);
 			if (nextAction != null){
