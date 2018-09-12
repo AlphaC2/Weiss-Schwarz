@@ -23,13 +23,13 @@ public class PlaceInDamageFromLibrary extends Action<Card>{
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		Card c = targets.get(0);
+		p1.getBoard().getDamageZone().add(c);
 		try {
-			p1.getBoard().getDamageZone().add(c);
 			p1.getBoard().getLibrary().remove(c);
 		} catch (EmptyLibraryException e) {
 			new Refresh().execute(p1, p2);
 		}
-		
+		p1.log("took 1 damage");
 	}
 
 }

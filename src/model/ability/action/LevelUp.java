@@ -30,7 +30,7 @@ public class LevelUp extends Action<DamageZone> {
 	public void executeAction(PlayerController p1, PlayerController p2) {
 		Board board = p1.getBoard();
 		DamageZone damage = targets.get(0);
-		p1.log(p1.getPlayer().getName() + " Leveled Up");
+		p1.log("leveled Up");
 
 		List<Card> levelCards = new ArrayList<Card>();
 		for (int i = 0; i < DamageZone.cardsPerLevel; i++) {

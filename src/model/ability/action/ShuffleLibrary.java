@@ -22,6 +22,7 @@ public class ShuffleLibrary extends Action<Library>{
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		targets.get(0).shuffle();
+		p1.log("Shuffled library");
 	}
 
 }

@@ -54,7 +54,7 @@ public class ConsoleController extends PlayerController {
 
 	@Override
 	public void log(Object text) {
-		System.out.println(text.toString());
+		System.out.println(getPlayer().getName() + ": " + text.toString());
 	}
 
 	@Override
