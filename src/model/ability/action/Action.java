@@ -100,7 +100,7 @@ public abstract class Action<T> implements AbilityInterface {
 		} else {
 			p1.log(failureMessage());
 		}
-
+		targets.clear();
 	}
 
 	protected abstract void executeAction(PlayerController p1, PlayerController p2);

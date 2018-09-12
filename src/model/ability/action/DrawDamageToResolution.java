@@ -35,8 +35,6 @@ public class DrawDamageToResolution extends Action<Card>{
 			new Refresh().execute(p1, p2);
 		}
 		
-		targets.clear();
-
 	}
 
 }

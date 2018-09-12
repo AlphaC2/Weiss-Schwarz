@@ -30,7 +30,6 @@ public class DrawToHand extends Action<Card>{
 			new Refresh().execute(p1, p2);
 		}
 		p1.log(p1.getPlayer().getName() + " drew " + System.lineSeparator() +targets.get(0).toShortString());
-		targets.clear();
 	}
 
 }
