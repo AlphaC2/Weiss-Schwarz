@@ -1,6 +1,7 @@
 package command;
 
 import controller.PlayerController;
+import model.ability.action.DrawToHand;
 import model.card.Card;
 
 public class Clock extends Command{
@@ -19,8 +20,7 @@ public class Clock extends Command{
 			p1.getBoard().getDamageZone().add(c);
 			
 			for (int i = 0; i < 2; i++) {
-				c = p1.getBoard().getLibrary().draw();
-				p1.getBoard().getHand().add(c);
+				new DrawToHand().execute(p1, p2);
 			}
 		}
 	}

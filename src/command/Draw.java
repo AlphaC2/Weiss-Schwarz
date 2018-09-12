@@ -1,7 +1,7 @@
 package command;
 
 import controller.PlayerController;
-import model.card.Card;
+import model.ability.action.DrawToHand;
 
 public class Draw extends Command{
 
@@ -10,10 +10,8 @@ public class Draw extends Command{
 	}
 
 	@Override
-	public void execute(PlayerController p1, PlayerController p2) {
-		Card c = p1.getBoard().getLibrary().draw();
-		p1.getBoard().getHand().add(c);
-		p1.log(p1.getPlayer().getName() + " drew " + System.lineSeparator() +c.toShortString());
+	public void execute(PlayerController p1, PlayerController p2)  {
+		new DrawToHand().execute(p1, p2);
 	}
 
 }

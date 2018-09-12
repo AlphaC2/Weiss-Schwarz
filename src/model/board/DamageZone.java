@@ -10,7 +10,6 @@ public class DamageZone extends SearchableZone {
 		super("Damage", true);
 	}
 	
-	
 	public Card removeFromBottom(){
 		Card c = cards.get(0);
 		cards.remove(c);

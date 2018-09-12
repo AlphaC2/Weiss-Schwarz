@@ -1,11 +1,10 @@
 package command;
 
-
-
 import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
+import model.ability.action.TakeDamage;
 import model.board.AttackType;
 import model.board.Board;
 import model.board.Slot;
@@ -13,6 +12,7 @@ import model.board.SlotType;
 import model.card.Card;
 import model.card.Character;
 import model.card.Trigger;
+import model.exceptions.EmptyLibraryException;
 import model.player.Player;
 
 public class AttackPhase extends Command {
@@ -22,7 +22,7 @@ public class AttackPhase extends Command {
 	}
 	
 	@Override
-	public void execute(PlayerController p1, PlayerController p2) {
+	public void execute(PlayerController p1, PlayerController p2)  {
 		Slot attacking = null;
 		Slot defending = null;
 	
@@ -63,7 +63,13 @@ public class AttackPhase extends Command {
 
 			// Trigger
 			p1.log(player.getPhase());
-			Card trigger = board.getLibrary().draw();
+			Card trigger = null;
+			try {
+				trigger = board.getLibrary().draw();
+			} catch (EmptyLibraryException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			System.out.println("Triggerd:" + trigger);
 			List<Trigger> triggers = trigger.getTrigger();
 			for (Trigger t : triggers) {

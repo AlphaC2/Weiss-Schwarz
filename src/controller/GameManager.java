@@ -4,8 +4,9 @@ import java.util.List;
 
 import command.*;
 import io.ConsoleReadUserInput;
+import model.ability.Activatable;
+import model.ability.action.DrawToHand;
 import model.board.Hand;
-import model.card.Card;
 import model.player.Player;
 import model.player.PlayerPhase;
 
@@ -38,16 +39,13 @@ public class GameManager {
 		player1.getBoard().getLibrary().shuffle();
 		player2.getBoard().getLibrary().shuffle();
 		player1.getPlayer().endPhase();
-		
-		Card c;
+		DrawToHand draw = new DrawToHand();
 		for (int i = 0; i < 4; i++) {
-			c = player1.getBoard().getLibrary().draw();
-			player1.getBoard().getHand().add(c);
+			this.execute(draw, player1.getPlayer());
 		}
 		
 		for (int i = 0; i < 5; i++) {
-			c = player2.getBoard().getLibrary().draw();
-			player2.getBoard().getHand().add(c);
+			this.execute(draw, player2.getPlayer());
 		}
 		
 	}
@@ -79,7 +77,7 @@ public class GameManager {
 		}
 	}
 
-	public void execute(Command cmd, Player player) {
+	public void execute(Activatable cmd, Player player) {
 		try {
 			cmd.execute(getController(player), getOpponent(player));
 		} catch (Exception e) {
