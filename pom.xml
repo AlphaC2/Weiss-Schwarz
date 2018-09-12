@@ -44,6 +44,11 @@
 			<version>1.18.0</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.googlecode.junit-toolbox</groupId>
+			<artifactId>junit-toolbox</artifactId>
+			<version>1.5</version>
+		</dependency>
 	</dependencies>
 
 </project>
