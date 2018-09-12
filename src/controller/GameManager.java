@@ -50,6 +50,10 @@ public class GameManager {
 		}
 		
 	}
+	
+	public boolean isAlive(){
+		return alive;
+	}
 
 	public void gameLoop() {
 		setup();

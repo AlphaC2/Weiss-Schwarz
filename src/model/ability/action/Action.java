@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import controller.GameManager;
 import controller.PlayerController;
 import model.ability.AbilityInterface;
 import model.ability.condition.Condition;
@@ -86,7 +87,7 @@ public abstract class Action<T> implements AbilityInterface {
 
 	@Override
 	public boolean canActivate() {
-			return targets.size() > 0;
+			return targets.size() > 0 && GameManager.getInstance().isAlive();
 	}
 
 	@Override
