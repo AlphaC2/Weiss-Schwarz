@@ -77,7 +77,16 @@ public abstract class PlayerController {
 		this.reader = reader;
 	}
 
-	public abstract void deckOut();
+	public void deckOut() {
+		log(getPlayer().getName() + " deck out");
+		gameOver();
+	}
 
-	public abstract void level4();
+	public void level4() {
+		log(getPlayer().getName() + " is level 4");
+	}
+	
+	private void gameOver(){
+		GameManager.getInstance().gameOver(this);
+	}
 }

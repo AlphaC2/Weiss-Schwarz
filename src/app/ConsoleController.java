@@ -92,18 +92,4 @@ public class ConsoleController extends PlayerController {
 		System.out.println(getBoard().getStock());
 	}
 
-	@Override
-	public void deckOut() {
-		System.out.println(getPlayer().getName() + " deck out");
-	}
-
-	@Override
-	public void level4() {
-		System.out.println(getPlayer().getName() + " is level 4");
-	}
-	
-	private void gameOver(){
-		GameManager.getInstance().gameOver(this);
-	}
-
 }
