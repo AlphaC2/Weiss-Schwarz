@@ -114,7 +114,6 @@ public class GameManager {
 		this.alive = false;
 		pc.log("is winner");
 		getOpponent(pc).log("is loser");
-		System.exit(0);
 	}
 
 }

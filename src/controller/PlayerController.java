@@ -87,6 +87,7 @@ public abstract class PlayerController {
 	}
 	
 	private void gameOver(){
+		unresolvedActions.clear();
 		GameManager.getInstance().gameOver(this);
 	}
 }
