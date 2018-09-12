@@ -14,6 +14,7 @@ public abstract class PlayerController {
 	private Board board;
 	private ReadUserInput reader;
 	private List<AbilityInterface> unresolvedActions;
+	private boolean isAlive = true;
 
 	public PlayerController(String name, ReadUserInput reader) {
 		player = new Player(name);
@@ -87,7 +88,12 @@ public abstract class PlayerController {
 	}
 	
 	private void gameOver(){
+		isAlive = false;
 		unresolvedActions.clear();
 		GameManager.getInstance().gameOver(this);
+	}
+
+	public boolean isAlive() {
+		return isAlive;
 	}
 }
