@@ -12,8 +12,7 @@ public abstract class Action<T> implements AbilityInterface {
 	private List<Condition<T>> conditions;
 	protected List<T> targets;
 	private String name;
-	@SuppressWarnings("rawtypes")
-	private Action nextAction = null;
+	private AbilityInterface nextAction = null;
 	private boolean isRequired = false;
 
 	public boolean isRequired() {
@@ -24,7 +23,8 @@ public abstract class Action<T> implements AbilityInterface {
 		this.isRequired = isRequired;
 	}
 
-	public <S> void setNextAction(Action<S> nextAction) {
+	@Override
+	public void setNextAction(AbilityInterface nextAction) {
 		this.nextAction = nextAction;
 	}
 
@@ -55,6 +55,15 @@ public abstract class Action<T> implements AbilityInterface {
 		return nextAction;
 	}
 	
+	@Override
+	public AbilityInterface last(){
+		AbilityInterface last = this;
+		while (last.next() != null){
+			last = last.next();
+		}
+		return last;
+	}
+	
 	public void setValidTargets(PlayerController p1, PlayerController p2){
 		setTargets(p1,p2);
 		Iterator<T> ite = targets.iterator();
@@ -81,12 +90,12 @@ public abstract class Action<T> implements AbilityInterface {
 	}
 
 	@Override
-	public final void execute(PlayerController p1, PlayerController p2) throws Exception {
+	public final void execute(PlayerController p1, PlayerController p2) {
 		setValidTargets(p1, p2);
 		if (canActivate()) {
 			executeAction(p1,p2);
 			if (nextAction != null){
-				nextAction.executeAction(p1, p2);
+				nextAction.execute(p1, p2);
 			}
 		} else {
 			p1.log(failureMessage());
@@ -94,7 +103,7 @@ public abstract class Action<T> implements AbilityInterface {
 
 	}
 
-	protected abstract void executeAction(PlayerController p1, PlayerController p2) throws Exception;
+	protected abstract void executeAction(PlayerController p1, PlayerController p2);
 
 	public String getTargetClassName(){
 		if (targets.size() == 0){

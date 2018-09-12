@@ -14,7 +14,7 @@ public abstract class Ability implements Activatable, Checkable {
 	}
 
 	@Override
-	public void execute(PlayerController p1, PlayerController p2) throws Exception{
+	public void execute(PlayerController p1, PlayerController p2){
 		for (AbilityInterface action: actions) {
 			action.execute(p1, p2);
 		}

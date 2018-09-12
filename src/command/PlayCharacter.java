@@ -10,7 +10,7 @@ public class PlayCharacter extends Command{
 	}
 
 	@Override
-	public void execute(PlayerController p1, PlayerController p2) throws Exception{
+	public void execute(PlayerController p1, PlayerController p2) {
 		PlayCard playCard = new PlayCard();
 		playCard.execute(p1, p2);
 	}

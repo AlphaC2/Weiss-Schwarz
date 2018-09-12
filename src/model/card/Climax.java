@@ -21,7 +21,7 @@ public class Climax extends Card implements Activatable{
 	}
 
 	@Override
-	public void execute(PlayerController p1, PlayerController p2) throws Exception{
+	public void execute(PlayerController p1, PlayerController p2)  {
 		ability.execute(p1, p2);
 	}
 
