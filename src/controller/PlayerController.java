@@ -79,12 +79,13 @@ public abstract class PlayerController {
 	}
 
 	public void deckOut() {
-		log(getPlayer().getName() + " deck out");
+		log("deck out");
 		gameOver();
 	}
 
 	public void level4() {
-		log(getPlayer().getName() + " is level 4");
+		log("level 4");
+		gameOver();
 	}
 	
 	private void gameOver(){
