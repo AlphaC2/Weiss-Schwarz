@@ -48,6 +48,7 @@ public class TestDrawDamageToResolution {
 		board.getHand().add(mockCharacter);
 		when(mockPlayerController.getBoard()).thenReturn(board);
 		mockPlayerController.setReader(mockReader);
+		when(mockPlayerController.isAlive()).thenReturn(true);
 	}
 
 	//Setup Test

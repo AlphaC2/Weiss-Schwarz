@@ -15,13 +15,18 @@ public abstract class PlayerController {
 	private ReadUserInput reader;
 	private List<AbilityInterface> unresolvedActions;
 	private boolean isAlive = true;
-
+	private GameManager gm;
+	
 	public PlayerController(String name, ReadUserInput reader) {
 		player = new Player(name);
 		this.reader = reader;
 		unresolvedActions = new ArrayList<>();
 	}
 
+	public void setGM(GameManager gm){
+		this.gm = gm;
+		player.setGM(gm);
+	}
 	public final void setDeck(List<Card> deck) {
 		board = new Board(deck);
 	}
@@ -91,7 +96,7 @@ public abstract class PlayerController {
 	private void gameOver(){
 		isAlive = false;
 		unresolvedActions.clear();
-		GameManager.getInstance().gameOver(this);
+		gm.gameOver(this);
 	}
 
 	public boolean isAlive() {

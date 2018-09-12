@@ -13,27 +13,19 @@ import model.player.PlayerPhase;
 
 public class GameManager {
 	
-	private static GameManager instance;
-	
 	ConsoleReadUserInput reader;
 	PlayerController player1;
 	PlayerController player2;
 	PlayerController currentPlayer;
 	boolean alive = true;
 
-
-	public static GameManager getInstance(){
-		if (instance == null){
-			instance = new GameManager();
-		}
-		return instance;
-	}
-	
-	public void init(PlayerController p1, PlayerController p2) {
+	public GameManager(PlayerController p1, PlayerController p2) {
 		reader = new ConsoleReadUserInput();
 		player1 = p1;
 		player2 = p2;
 		currentPlayer = p1;
+		p1.setGM(this);
+		p2.setGM(this);
 	}
 	
 	private void setup(){

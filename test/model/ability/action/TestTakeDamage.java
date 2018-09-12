@@ -82,15 +82,14 @@ public class TestTakeDamage {
 		controller.setReader(mockReader);
 		controller.setDeck(deck);
 		board = controller.getBoard();
-		gm = GameManager.getInstance();
-		gm.init(controller, mockPlayerController);
+		gm = new GameManager(controller, mockPlayerController);
 		
 		// Mock Controller setup
 		when(mockPlayerController.getBoard()).thenReturn(board);
 		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
 		mockPlayerController.setReader(mockReader);
 		doReturn("mockPlayer").when(mockPlayer).getName();
-
+		
 		// Zone setup
 		library = board.getLibrary();
 		resolution = board.getResolutionZone();

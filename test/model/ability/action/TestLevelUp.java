@@ -54,6 +54,7 @@ public class TestLevelUp {
 		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
 		mockPlayerController.setReader(mockReader);
 		doReturn("mockPlayer").when(mockPlayer).getName();
+		when(mockPlayerController.isAlive()).thenReturn(true);
 	}
 
 	//Setup Test
