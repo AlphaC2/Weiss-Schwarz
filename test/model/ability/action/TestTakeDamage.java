@@ -9,14 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.ExpectedSystemExit;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import app.ConsoleController;
-import controller.GameManager;
 import controller.PlayerController;
 import controller.ReadUserInput;
 import model.board.Board;
@@ -40,7 +37,6 @@ public class TestTakeDamage {
 	private DamageZone damage;
 	private WaitingRoom waitingRoom;
 	private LevelZone level;
-	private GameManager gm;
 
 	//@Rule
 	//public final ExpectedSystemExit exit;
@@ -82,7 +78,6 @@ public class TestTakeDamage {
 		controller.setReader(mockReader);
 		controller.setDeck(deck);
 		board = controller.getBoard();
-		gm = new GameManager(controller, mockPlayerController);
 		
 		// Mock Controller setup
 		when(mockPlayerController.getBoard()).thenReturn(board);

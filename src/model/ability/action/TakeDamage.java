@@ -7,6 +7,7 @@ import model.ability.AbilityInterface;
 import model.board.ResolutionZone;
 import model.card.Card;
 import model.card.Climax;
+import model.player.PhaseTiming;
 
 public class TakeDamage extends Action<ResolutionZone>{
 
@@ -51,7 +52,7 @@ public class TakeDamage extends Action<ResolutionZone>{
 			}
 			
 		}
-		p1.checkTiming(p2);
+		p1.checkTiming(p2, PhaseTiming.MANUAL);
 	}
 
 }

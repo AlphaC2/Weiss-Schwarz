@@ -5,6 +5,7 @@ import java.util.List;
 
 import command.*;
 import controller.GameManager;
+import model.ability.action.CheckTiming;
 
 public class Player {
 	GameManager gm;
@@ -23,6 +24,8 @@ public class Player {
 	
 	public void endPhase() {
 		commands.clear();
+		CheckTiming check = new CheckTiming(PhaseTiming.END);
+		gm.execute(check, this);
 		switch (phase) {
 		case STAND:
 			phase = PlayerPhase.DRAW;
@@ -74,7 +77,10 @@ public class Player {
 		default:
 			break;
 		}
+		
 		gm.log(this, System.lineSeparator());
+		check = new CheckTiming(PhaseTiming.START);
+		gm.execute(check, this);
 	}
 
 	public void nextStep() {

@@ -1,7 +1,6 @@
 package model.ability.action;
 
 import static org.junit.Assert.*;
-import static org.junit.Assume.*;
 import static org.mockito.Mockito.*;
 
 import java.util.ArrayList;

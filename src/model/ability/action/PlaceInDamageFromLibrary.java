@@ -3,11 +3,12 @@ package model.ability.action;
 import controller.PlayerController;
 import model.card.Card;
 import model.exceptions.EmptyLibraryException;
+import model.player.PhaseTiming;
 
-public class PlaceInDamageFromLibrary extends Action<Card>{
+public class PlaceInDamageFromLibrary extends TimedAction<Card>{
 
 	public PlaceInDamageFromLibrary() {
-		super("Place damage from library");
+		super("Place damage from library", PhaseTiming.MANUAL);
 	}
 
 	@Override

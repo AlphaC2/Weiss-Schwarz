@@ -1,7 +1,6 @@
 package model.ability.action;
 
 import static org.junit.Assert.*;
-import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Mockito.*;
 
 import java.util.ArrayList;
@@ -27,7 +26,7 @@ import model.card.Card;
 import model.card.Character;
 import model.card.Position;
 import util.Util;
-
+@SuppressWarnings("rawtypes")
 @RunWith(Parameterized.class)
 public class TestRest {
 	private Board board;
@@ -79,6 +78,7 @@ public class TestRest {
 		String trait = "MUSIC";
 		String[] traits = { trait, trait };
 		List<List<String>> traitList = Util.powerSet(traits);
+		
 		Condition[] conditions = new Condition[] { new HasTrait(trait) };
 
 		List<List<Condition>> conditionPermutations = Util.powerSet(conditions);
@@ -115,7 +115,7 @@ public class TestRest {
 		when(mockCharacter.getTrait1()).thenReturn(sp.trait1);
 		when(mockCharacter.getTrait2()).thenReturn(sp.trait2);
 		when(mockCharacter.toShortString()).thenReturn("MOCK");
-		when(mockPlayerController.getChoice(anyString(), anyListOf(Slot.class))).thenReturn(s);
+		when(mockPlayerController.getChoice(anyString(), anyList())).thenReturn(s);
 
 		s.setCharacter(mockCharacter);
 		s.setPosition(sp.p);

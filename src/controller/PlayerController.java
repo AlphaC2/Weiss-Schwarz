@@ -1,19 +1,25 @@
 package controller;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import model.ability.AbilityInterface;
+import model.ability.action.TimedAction;
 import model.board.Board;
 import model.card.Card;
+import model.player.PhaseTiming;
 import model.player.Player;
-
+import model.player.PlayerPhase;
+@SuppressWarnings("rawtypes")
 public abstract class PlayerController {
 
 	private Player player;
 	private Board board;
 	private ReadUserInput reader;
-	private List<AbilityInterface> unresolvedActions;
+	private List<TimedAction> unresolvedActions;
+	private Map<PlayerPhase,List<TimedAction>> map;
 	private boolean isAlive = true;
 	private GameManager gm;
 	
@@ -21,6 +27,7 @@ public abstract class PlayerController {
 		player = new Player(name);
 		this.reader = reader;
 		unresolvedActions = new ArrayList<>();
+		map = new HashMap<>();
 	}
 
 	public void setGM(GameManager gm){
@@ -49,16 +56,43 @@ public abstract class PlayerController {
 		return player;
 	}
 	
-	public void checkTiming(PlayerController p2){
-		for (AbilityInterface action : unresolvedActions) {
+	public void checkTiming(PlayerController p2, PhaseTiming timing){
+		/*for (AbilityInterface action : unresolvedActions) {
 			action.execute(this, p2);
 		}
-		unresolvedActions.clear();
+		unresolvedActions.clear();*/
+		if (map.containsKey(player.getPhase())){
+			List<TimedAction> actions = map.get(player.getPhase());
+			List<TimedAction> filteredActions = new ArrayList<>();
+			for (AbilityInterface action : actions) {
+				
+			}
+			int size = actions.size();
+			for (int i = 0; i < size; i++){
+				AbilityInterface choice = this.getChoice("Choose action to resolve", actions);
+				choice.execute(this, p2);
+				actions.remove(choice);
+			}
+			
+		}
 	}
 	
 	
-	public void addToUnresolved(AbilityInterface action){
-		unresolvedActions.add(action);
+	public void addToUnresolved(TimedAction action){
+		addToUnresolved(player.getPhase(), action);
+//		unresolvedActions.add(action);
+	}
+	
+	public void addToUnresolved(PlayerPhase phase, TimedAction action){
+		List<TimedAction> actions;
+		if (map.containsKey(phase)){
+			actions = map.get(phase);
+		} else {
+			actions = new ArrayList<>();
+			map.put(phase, actions);
+		}
+		actions.add(action);
+//		unresolvedActions.add(action);
 	}
 
 	public abstract void displayStage();

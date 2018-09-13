@@ -17,7 +17,7 @@ import model.card.Colour;
 import model.card.Event;
 import model.card.Rarity;
 import model.card.Trigger;
-import model.ability.action.Action;
+import model.ability.Ability;
 
 public class CardXMLReader {
 
@@ -56,17 +56,17 @@ public class CardXMLReader {
 					String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent();
 					String trait2 = doc.getElementsByTagName("Trait").item(1).getTextContent();
 					int soul = Integer.parseInt(doc.getElementsByTagName("Soul").item(0).getTextContent());
-					List<Action> abilities = new ArrayList<Action>();
+					List<Ability> abilities = new ArrayList<Ability>();
 					
 					c = new Character(name, cardID, "", level, cost, colour, triggers, rarity, "", trait1, trait2, power, soul, abilities);
 					
 					break;
 				case CLIMAX:
-					Action cAbility = null;
+					Ability cAbility = null;
 					c = new Climax(name, cardID, "", colour, triggers, rarity, "", cAbility);
 					break;
 				case EVENT:
-					Action eAbility = null;
+					Ability eAbility = null;
 					c = new Event(name, cardID, "", level, cost, colour, triggers, rarity, "", eAbility);
 					
 					break;

@@ -4,8 +4,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
+import model.card.Card;
 
 public abstract class Ability implements Activatable, Checkable {
+	
+	private Card source;
+	private int max = Integer.MAX_VALUE;
+	private int used = 0;
+	
+	protected Ability(Card source){
+		this.source = source;
+	}
+	
+	public int getMax() {
+		return max;
+	}
+
+	public int getUsed() {
+		return used;
+	}
+
+	public Card getSource(){
+		return source;
+	}
 	
 	List<AbilityInterface> actions = new ArrayList<>();
 	
