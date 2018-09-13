@@ -5,6 +5,7 @@ import java.util.List;
 import controller.GameManager;
 import controller.PlayerController;
 import io.DeckBuilder;
+import io.RandomReader;
 import io.ConsoleReadUserInput;
 import model.board.Slot;
 import model.board.Stage;
@@ -21,6 +22,7 @@ public class ConsoleController extends PlayerController {
 	public static void main(String[] args) {
 		PlayerController c1 = new ConsoleController("P1");
 		PlayerController c2 = new ConsoleController("P2");
+		c2.setReader(new RandomReader());
 		GameManager gm = new GameManager(c1, c2);
 		c1.readDeck();
 		c2.readDeck();

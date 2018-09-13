@@ -11,7 +11,7 @@ public class TestPermutations {
 	
 	@Test
 	public void testingPermutations(){
-		int maxListSize = 10;
+		int maxListSize = 20;
 		int expectedSize = (int) Math.pow(2, maxListSize);
 		
 		Integer[] numbers = new Integer[maxListSize];
