@@ -11,6 +11,8 @@ public abstract class Ability implements Activatable, Checkable {
 	private Card source;
 	private int max = Integer.MAX_VALUE;
 	private int used = 0;
+	private AbilityInterface cost;
+	List<AbilityInterface> actions = new ArrayList<>();
 	
 	protected Ability(Card source){
 		this.source = source;
@@ -28,7 +30,7 @@ public abstract class Ability implements Activatable, Checkable {
 		return source;
 	}
 	
-	List<AbilityInterface> actions = new ArrayList<>();
+
 	
 	public void addAction(AbilityInterface action){
 		actions.add(action);
@@ -36,9 +38,13 @@ public abstract class Ability implements Activatable, Checkable {
 
 	@Override
 	public void execute(PlayerController p1, PlayerController p2){
+		if (cost != null){
+			cost.execute(p1, p2);
+		}
 		for (AbilityInterface action: actions) {
 			action.execute(p1, p2);
 		}
+		used++;
 	}
 	
 	private boolean checkChain(AbilityInterface chain){
@@ -51,12 +57,7 @@ public abstract class Ability implements Activatable, Checkable {
 
 	@Override
 	public boolean canActivate() {
-		for (AbilityInterface action : actions) {
-			if (action.isRequired() && !checkChain(action)){
-				return false;
-			}
-		}
-		return true;
+		return checkChain(cost) && used < max;
 	}
 
 }
