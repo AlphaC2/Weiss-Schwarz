@@ -12,14 +12,23 @@ public abstract class AutoAbility extends Ability{
 	private int primed;
 	private boolean optional;
 	
-	AutoAbility(Card source, EventType trigger, boolean self) {
+	AutoAbility(Card source, EventType trigger, boolean self, boolean optional) {
 		super(source);
 		this.trigger = trigger;
 		this.self = self;
+		this.optional = optional;
 	}
-	
+
+	AutoAbility(Card source, EventType trigger, boolean self) {
+		this(source,trigger, self, false);
+	}
+
 	public boolean isOptional() {
 		return optional;
+	}
+	
+	public void setOptional(boolean optional){
+		this.optional = optional;
 	}
 	
 	public boolean isSelf(){

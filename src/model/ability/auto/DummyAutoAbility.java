@@ -11,6 +11,11 @@ public class DummyAutoAbility extends AutoAbility {
 		addAction(new PlaceInDamageFromLibrary());
 	}
 	
+	public DummyAutoAbility(Card source, EventType trigger, boolean self, boolean optional) {
+		super(source, trigger, self, optional);
+		addAction(new PlaceInDamageFromLibrary());
+	}
+	
 	
 
 }
