@@ -12,14 +12,23 @@ public abstract class Ability implements Activatable, Checkable {
 	private int max = Integer.MAX_VALUE;
 	private int used = 0;
 	private AbilityInterface cost;
+
 	List<AbilityInterface> actions = new ArrayList<>();
 	
 	protected Ability(Card source){
 		this.source = source;
 	}
 	
+	public void reset(){
+		used = 0;
+	}
+	
 	public int getMax() {
 		return max;
+	}
+	
+	public void setMax(int max) {
+		this.max = max;
 	}
 
 	public int getUsed() {
