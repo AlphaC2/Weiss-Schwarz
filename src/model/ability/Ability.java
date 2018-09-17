@@ -31,6 +31,13 @@ public abstract class Ability implements Activatable, Checkable {
 	}
 	
 
+	public void addCost(AbilityInterface newCost){
+		if (cost == null){
+			cost = newCost;
+		} else {
+			cost.setNextAction(newCost);
+		}
+	}
 	
 	public void addAction(AbilityInterface action){
 		actions.add(action);
