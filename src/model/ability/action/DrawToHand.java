@@ -1,9 +1,13 @@
 package model.ability.action;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import controller.PlayerController;
 import model.card.Card;
 import model.exceptions.EmptyLibraryException;
 import model.gameEvent.DrawEvent;
+import model.gameEvent.GameEvent;
 
 public class DrawToHand extends Action<Card>{
 
@@ -31,7 +35,9 @@ public class DrawToHand extends Action<Card>{
 			new Refresh().execute(p1, p2);
 		}
 		p1.log(p1.getPlayer().getName() + " drew " + System.lineSeparator() +targets.get(0).toShortString());
-		p1.addEvent(new DrawEvent(p1.getPlayer()));
+		List<GameEvent> events = new ArrayList<>();
+		events.add(new DrawEvent(p1.getPlayer()));
+		p1.addEvents(events);
 	}
 
 }

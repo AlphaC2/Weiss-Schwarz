@@ -109,8 +109,8 @@ public class GameManager {
 		getOpponent(pc).log("is winner");
 	}
 
-	public void checkTiming(GameEvent e) {
-		getOpponent(currentPlayer).checkTiming(e);
+	public void checkTiming(List<GameEvent> events) {
+		getOpponent(currentPlayer).checkTiming(events);
 	}
 
 }

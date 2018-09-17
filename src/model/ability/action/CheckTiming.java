@@ -1,6 +1,10 @@
 package model.ability.action;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import controller.PlayerController;
+import model.gameEvent.GameEvent;
 import model.gameEvent.PhaseEvent;
 import model.player.PhaseTiming;
 
@@ -25,7 +29,9 @@ public class CheckTiming extends Action<PlayerController>{
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		p1.addEvent(new PhaseEvent(p1.getPlayer(), timing));
+		List<GameEvent> events = new ArrayList<>();
+		events.add(new PhaseEvent(p1.getPlayer(), timing));
+		p1.addEvents(events);
 	}
 
 }

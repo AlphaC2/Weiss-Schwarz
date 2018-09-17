@@ -21,6 +21,7 @@ public abstract class PlayerController {
 	private boolean isAlive = true;
 	private GameManager gm;
 	private int refreshPoint = 0;
+	private List<AutoAbility> choices = new ArrayList<>();
 
 	public PlayerController(String name, ReadUserInput reader) {
 		player = new Player(name);
@@ -55,26 +56,14 @@ public abstract class PlayerController {
 		return player;
 	}
 
-	public void addEvent(GameEvent e) {
-		checkTiming(e);
-		gm.checkTiming(e);
-		events.add(e);
+	public void addEvents(List<GameEvent> events) {
+		checkTiming(events);
+		gm.checkTiming(events);
+		this.events.addAll(events);
 	}
-
-	public void checkTiming(GameEvent e) {
-
-		// refresh point
-		if (refreshPoint > 0) {
-			new PlaceInDamageFromLibrary().execute(this, null);
-			refreshPoint--;
-			return;
-		}
-
-		// TODO modifier update
-
-		// trigger (auto) abilities
-
-		List<AutoAbility> choices = new ArrayList<>();
+	
+	private void prime(List<GameEvent> events){
+		choices.clear();
 		List<Character> chars = new ArrayList<>();
 		// check stage
 		chars.addAll(board.getStage().getCharacters());
@@ -96,21 +85,58 @@ public abstract class PlayerController {
 		 * board.getWaitingRoom().getCardsOfType(Character.class)) {
 		 * choices.addAll(character.getAutoAbilities()); }
 		 */
+		
+		for (GameEvent e : events) {
+			for (Character character : chars) {
+				for (AutoAbility autoAbility : character.getAutoAbilities()) {
+					if (autoAbility.getTrigger() != e.getType()) {
+						break;
+					}
 
-		for (Character character : chars) {
-			for (AutoAbility autoAbility : character.getAutoAbilities()) {
-				if ((autoAbility.isSelf() && e.getSourcePlayer().equals(player))
-						|| (!autoAbility.isSelf() && !e.getSourcePlayer().equals(player))) {
-					choices.add(autoAbility);
+					if ((autoAbility.isSelf() && e.getSourcePlayer().equals(player))
+							|| (!autoAbility.isSelf() && !e.getSourcePlayer().equals(player))) {
+						autoAbility.prime();
+						choices.add(autoAbility);
+					}
 				}
 			}
 		}
-
-		if (!choices.isEmpty()) {
-			AutoAbility choice = getChoice("Pick auto ability to activate", choices);
-			gm.execute(choice, player);
+	}
+	
+	private boolean activateAuto(){
+		// refresh point
+		if (refreshPoint > 0) {
+			new PlaceInDamageFromLibrary().execute(this, null);
+			refreshPoint--;
+			return true;
 		}
 
+		// TODO modifier update
+
+		// trigger (auto) abilities
+
+		Iterator<AutoAbility> ite = choices.iterator();
+		while (ite.hasNext()){
+			AutoAbility auto = ite.next();
+			if ( auto.isResolved()){
+				ite.remove();
+			}
+		}
+		
+		if (choices.isEmpty()) {
+			return false;
+		}
+		
+		
+		System.out.println(player.getName() + " has " + choices.size() + " auto abilities to activate");
+		AutoAbility choice = getChoice("Pick auto ability to activate", choices);
+		gm.execute(choice, player);
+		return true;
+	}
+
+	public void checkTiming(List<GameEvent> events) {
+		prime(events);
+		while(activateAuto());
 	}
 
 	public abstract void displayStage();

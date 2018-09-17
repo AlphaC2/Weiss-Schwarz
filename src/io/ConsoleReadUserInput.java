@@ -16,12 +16,17 @@ public class ConsoleReadUserInput implements ReadUserInput{
 	}
 	
 	public <T> T getChoice(String prompt, List<T> choices){
+		if (choices.size() == 1){
+			return choices.get(0);
+		}
+		
+		
 		while(true){
 			System.out.println();
 			System.out.println(prompt);
 			for (int i = 0; i < choices.size(); i++){
 				Object o = choices.get(i);
-				System.out.println(i + ". " + o.toString());
+				System.out.println(i + ". " + o);
 			}
 			System.out.println("Enter choice: ");
 			try {

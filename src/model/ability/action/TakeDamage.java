@@ -1,5 +1,6 @@
 package model.ability.action;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
@@ -8,6 +9,7 @@ import model.board.ResolutionZone;
 import model.card.Card;
 import model.card.Climax;
 import model.gameEvent.DamageCancelledEvent;
+import model.gameEvent.GameEvent;
 import model.gameEvent.TakeDamageEvent;
 
 public class TakeDamage extends Action<ResolutionZone>{
@@ -45,7 +47,9 @@ public class TakeDamage extends Action<ResolutionZone>{
 			p1.log("Damage cancelled on card " + climax);
 			p1.getBoard().getWaitingRoom().add(cards);
 			zone.remove(cards);
-			p1.addEvent(new DamageCancelledEvent(p1.getPlayer(), climax));
+			List<GameEvent> events = new ArrayList<>();
+			events.add(new DamageCancelledEvent(p1.getPlayer(), climax));
+			p1.addEvents(events);
 		} else {
 			for (int i = 0; i <  cards.size(); i++) {
 				new TakeOneDamage().execute(p1, p2);;
@@ -53,7 +57,9 @@ public class TakeDamage extends Action<ResolutionZone>{
 			if(p1.isAlive()){
 				p1.log("took " + amount + " damage");
 			}
-			p1.addEvent(new TakeDamageEvent(p1.getPlayer(), amount));
+			List<GameEvent> events = new ArrayList<>();
+			events.add(new TakeDamageEvent(p1.getPlayer(), amount));
+			p1.addEvents(events);
 		}
 	}
 
