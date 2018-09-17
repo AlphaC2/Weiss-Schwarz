@@ -62,25 +62,22 @@ public abstract class PlayerController {
 	}
 
 	public void checkTiming(GameEvent e) {
-		
+
 		// refresh point
-		if (refreshPoint > 0){
+		if (refreshPoint > 0) {
 			new PlaceInDamageFromLibrary().execute(this, null);
 			refreshPoint--;
 			return;
 		}
-		
-		//TODO modifier update
-		
-		
-		// trigger (auto) abilities
-		
-		List<AutoAbility> choices = new ArrayList<>();
 
+		// TODO modifier update
+
+		// trigger (auto) abilities
+
+		List<AutoAbility> choices = new ArrayList<>();
+		List<Character> chars = new ArrayList<>();
 		// check stage
-		for (Character character : board.getStage().getCharacters()) {
-			choices.addAll(character.getAutoAbilities());
-		}
+		chars.addAll(board.getStage().getCharacters());
 
 		/*
 		 * // check hand for (Character character :
@@ -100,21 +97,20 @@ public abstract class PlayerController {
 		 * choices.addAll(character.getAutoAbilities()); }
 		 */
 
-		Iterator<AutoAbility> ite = choices.iterator();
-		while (ite.hasNext()) {
-			AutoAbility autoAbility = ite.next();
-			if ((autoAbility.isSelf() && e.getSourcePlayer().equals(this))
-					|| (!autoAbility.isSelf() && !e.getSourcePlayer().equals(this))) {
-				ite.remove();
+		for (Character character : chars) {
+			for (AutoAbility autoAbility : character.getAutoAbilities()) {
+				if ((autoAbility.isSelf() && e.getSourcePlayer().equals(player))
+						|| (!autoAbility.isSelf() && !e.getSourcePlayer().equals(player))) {
+					choices.add(autoAbility);
+				}
 			}
 		}
 
-		if (!choices.isEmpty()){
-			System.out.println(choices.size());
+		if (!choices.isEmpty()) {
 			AutoAbility choice = getChoice("Pick auto ability to activate", choices);
 			gm.execute(choice, player);
 		}
-		
+
 	}
 
 	public abstract void displayStage();

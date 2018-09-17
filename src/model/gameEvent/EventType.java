@@ -16,5 +16,6 @@ public enum EventType {
 	PLACED_ON_STAGE,
 	SALVAGE,
 	HEAL,
-	
+	PLAY_CLIMAX,
+	ACTIVATE_BACKUP,
 }

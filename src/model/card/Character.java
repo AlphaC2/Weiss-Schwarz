@@ -15,14 +15,14 @@ public class Character extends Card {
 	private List<Ability> abilities;
 		
 	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
-			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul,	List<Ability> abilities) {
+			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul) {
 		super(name, cardID, imagePath, level, cost, colour, triggers, rarity, flavourText);
 		this.trait1 = trait1;
 		this.trait2 = trait2;
 		this.basePower = power;
 		this.currentPower = power;
 		this.soul = soul;
-		this.abilities = abilities;
+		this.abilities = new ArrayList<Ability>();
 	}
 
 	public String getTrait1() {
@@ -83,5 +83,8 @@ public class Character extends Card {
 		return list;
 	}
 
+	public void addAbility(Ability a){
+		abilities.add(a);
+	}
 
 }

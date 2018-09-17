@@ -58,7 +58,7 @@ public class CardXMLReader {
 					int soul = Integer.parseInt(doc.getElementsByTagName("Soul").item(0).getTextContent());
 					List<Ability> abilities = new ArrayList<Ability>();
 					
-					c = new Character(name, cardID, "", level, cost, colour, triggers, rarity, "", trait1, trait2, power, soul, abilities);
+					c = new Character(name, cardID, "", level, cost, colour, triggers, rarity, "", trait1, trait2, power, soul);
 					
 					break;
 				case CLIMAX:
