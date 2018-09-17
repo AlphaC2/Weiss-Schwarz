@@ -57,10 +57,11 @@ public abstract class PlayerController {
 
 	public void addEvent(GameEvent e) {
 		checkTiming(e);
+		gm.checkTiming(e);
 		events.add(e);
 	}
 
-	private void checkTiming(GameEvent e) {
+	public void checkTiming(GameEvent e) {
 		
 		// refresh point
 		if (refreshPoint > 0){
@@ -113,7 +114,7 @@ public abstract class PlayerController {
 			AutoAbility choice = getChoice("Pick auto ability to activate", choices);
 			gm.execute(choice, player);
 		}
-
+		
 	}
 
 	public abstract void displayStage();
