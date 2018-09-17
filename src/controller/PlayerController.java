@@ -61,11 +61,18 @@ public abstract class PlayerController {
 	}
 
 	private void checkTiming(GameEvent e) {
+		
+		// refresh point
 		if (refreshPoint > 0){
 			new PlaceInDamageFromLibrary().execute(this, null);
 			refreshPoint--;
 			return;
 		}
+		
+		//TODO modifier update
+		
+		
+		// trigger (auto) abilities
 		
 		List<AutoAbility> choices = new ArrayList<>();
 

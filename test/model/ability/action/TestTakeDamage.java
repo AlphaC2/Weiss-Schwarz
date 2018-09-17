@@ -87,7 +87,7 @@ public class TestTakeDamage {
 		doReturn("mockPlayer").when(mockPlayer).getName();
 		
 		// Gamemanager setup
-		GameManager gm = new GameManager(controller, mockPlayerController);
+		new GameManager(controller, mockPlayerController);
 		
 		// Zone setup
 		library = board.getLibrary();
