@@ -1,43 +1,42 @@
 package controller;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 
-import model.ability.AbilityInterface;
-import model.ability.action.TimedAction;
+import model.ability.action.PlaceInDamageFromLibrary;
+import model.ability.auto.AutoAbility;
 import model.board.Board;
 import model.card.Card;
-import model.player.PhaseTiming;
+import model.card.Character;
+import model.gameEvent.GameEvent;
 import model.player.Player;
-import model.player.PlayerPhase;
-@SuppressWarnings("rawtypes")
+
 public abstract class PlayerController {
 
 	private Player player;
 	private Board board;
 	private ReadUserInput reader;
-	private List<TimedAction> unresolvedActions;
-	private Map<PlayerPhase,List<TimedAction>> map;
+	private List<GameEvent> events;
 	private boolean isAlive = true;
 	private GameManager gm;
-	
+	private int refreshPoint = 0;
+
 	public PlayerController(String name, ReadUserInput reader) {
 		player = new Player(name);
 		this.reader = reader;
-		unresolvedActions = new ArrayList<>();
-		map = new HashMap<>();
+		events = new ArrayList<>();
 	}
 
-	public void setGM(GameManager gm){
+	public void setGM(GameManager gm) {
 		this.gm = gm;
 		player.setGM(gm);
 	}
+
 	public final void setDeck(List<Card> deck) {
 		board = new Board(deck);
 	}
-	
+
 	public abstract void buildDeck();
 
 	public abstract void readDeck();
@@ -55,44 +54,59 @@ public abstract class PlayerController {
 	public Player getPlayer() {
 		return player;
 	}
-	
-	public void checkTiming(PlayerController p2, PhaseTiming timing){
-		/*for (AbilityInterface action : unresolvedActions) {
-			action.execute(this, p2);
-		}
-		unresolvedActions.clear();*/
-		if (map.containsKey(player.getPhase())){
-			List<TimedAction> actions = map.get(player.getPhase());
-			List<TimedAction> filteredActions = new ArrayList<>();
-			for (AbilityInterface action : actions) {
-				
-			}
-			int size = actions.size();
-			for (int i = 0; i < size; i++){
-				AbilityInterface choice = this.getChoice("Choose action to resolve", actions);
-				choice.execute(this, p2);
-				actions.remove(choice);
-			}
-			
-		}
+
+	public void addEvent(GameEvent e) {
+		checkTiming(e);
+		events.add(e);
 	}
-	
-	
-	public void addToUnresolved(TimedAction action){
-		addToUnresolved(player.getPhase(), action);
-//		unresolvedActions.add(action);
-	}
-	
-	public void addToUnresolved(PlayerPhase phase, TimedAction action){
-		List<TimedAction> actions;
-		if (map.containsKey(phase)){
-			actions = map.get(phase);
-		} else {
-			actions = new ArrayList<>();
-			map.put(phase, actions);
+
+	private void checkTiming(GameEvent e) {
+		if (refreshPoint > 0){
+			new PlaceInDamageFromLibrary().execute(this, null);
+			refreshPoint--;
+			return;
 		}
-		actions.add(action);
-//		unresolvedActions.add(action);
+		
+		List<AutoAbility> choices = new ArrayList<>();
+
+		// check stage
+		for (Character character : board.getStage().getCharacters()) {
+			choices.addAll(character.getAutoAbilities());
+		}
+
+		/*
+		 * // check hand for (Character character :
+		 * board.getHand().getCardsOfType(Character.class)) {
+		 * choices.addAll(character.getAutoAbilities()); }
+		 * 
+		 * // check memory for (Character character :
+		 * board.getMemoryZone().getCardsOfType(Character.class)) {
+		 * choices.addAll(character.getAutoAbilities()); }
+		 * 
+		 * // check level for (Character character :
+		 * board.getLevel().getCardsOfType(Character.class)) {
+		 * choices.addAll(character.getAutoAbilities()); }
+		 * 
+		 * // check waiting room for (Character character :
+		 * board.getWaitingRoom().getCardsOfType(Character.class)) {
+		 * choices.addAll(character.getAutoAbilities()); }
+		 */
+
+		Iterator<AutoAbility> ite = choices.iterator();
+		while (ite.hasNext()) {
+			AutoAbility autoAbility = ite.next();
+			if ((autoAbility.isSelf() && e.getSourcePlayer().equals(this))
+					|| (!autoAbility.isSelf() && !e.getSourcePlayer().equals(this))) {
+				ite.remove();
+			}
+		}
+
+		if (!choices.isEmpty()){
+			System.out.println(choices.size());
+			AutoAbility choice = getChoice("Pick auto ability to activate", choices);
+			gm.execute(choice, player);
+		}
+
 	}
 
 	public abstract void displayStage();
@@ -110,8 +124,8 @@ public abstract class PlayerController {
 	public Board getBoard() {
 		return board;
 	}
-	
-	//public abstract void handleException(NotEnoughStockException e);
+
+	// public abstract void handleException(NotEnoughStockException e);
 
 	public final void setReader(ReadUserInput reader) {
 		this.reader = reader;
@@ -126,14 +140,17 @@ public abstract class PlayerController {
 		log("level 4");
 		gameOver();
 	}
-	
-	private void gameOver(){
+
+	private void gameOver() {
 		isAlive = false;
-		unresolvedActions.clear();
 		gm.gameOver(this);
 	}
 
 	public boolean isAlive() {
 		return isAlive;
+	}
+
+	public void refresh() {
+		refreshPoint++;
 	}
 }

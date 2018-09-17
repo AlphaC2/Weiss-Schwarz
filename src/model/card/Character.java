@@ -1,8 +1,10 @@
 package model.card;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import model.ability.Ability;
+import model.ability.auto.AutoAbility;
 
 public class Character extends Card {
 	private String trait1;
@@ -69,6 +71,16 @@ public class Character extends Card {
 	public String toShortString(){
 		return super.toShortString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", currentPower="
 				+ currentPower + ", soul=" + soul + "]"; 
+	}
+
+	public List<AutoAbility> getAutoAbilities() {
+		List<AutoAbility> list = new ArrayList<>();
+		for (Ability ability : abilities) {
+			if (ability instanceof AutoAbility){
+				list.add((AutoAbility) ability);
+			}
+		}
+		return list;
 	}
 
 

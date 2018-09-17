@@ -7,7 +7,6 @@ import java.util.List;
 import controller.PlayerController;
 import model.ability.AbilityInterface;
 import model.ability.condition.Condition;
-import model.player.PhaseTiming;
 
 public abstract class Action<T> implements AbilityInterface {
 	private List<Condition<T>> conditions;
@@ -105,7 +104,6 @@ public abstract class Action<T> implements AbilityInterface {
 			p1.log(failureMessage());
 		}
 		targets.clear();
-		p1.checkTiming(p2, PhaseTiming.AUTO);
 	}
 
 	protected abstract void executeAction(PlayerController p1, PlayerController p2);

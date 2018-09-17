@@ -7,7 +7,8 @@ import model.ability.AbilityInterface;
 import model.board.ResolutionZone;
 import model.card.Card;
 import model.card.Climax;
-import model.player.PhaseTiming;
+import model.gameEvent.DamageCancelledEvent;
+import model.gameEvent.TakeDamageEvent;
 
 public class TakeDamage extends Action<ResolutionZone>{
 
@@ -40,9 +41,11 @@ public class TakeDamage extends Action<ResolutionZone>{
 		List<Card> cards = zone.getCards();
 		Card lastCard = cards.get(cards.size()-1);
 		if (lastCard instanceof Climax){
-			p1.log("Damage cancelled on card " + (Climax) lastCard);
+			Climax climax = (Climax) lastCard;
+			p1.log("Damage cancelled on card " + climax);
 			p1.getBoard().getWaitingRoom().add(cards);
 			zone.remove(cards);
+			p1.addEvent(new DamageCancelledEvent(p1.getPlayer(), climax));
 		} else {
 			for (int i = 0; i <  cards.size(); i++) {
 				new TakeOneDamage().execute(p1, p2);;
@@ -50,9 +53,8 @@ public class TakeDamage extends Action<ResolutionZone>{
 			if(p1.isAlive()){
 				p1.log("took " + amount + " damage");
 			}
-			
+			p1.addEvent(new TakeDamageEvent(p1.getPlayer(), amount));
 		}
-		p1.checkTiming(p2, PhaseTiming.MANUAL);
 	}
 
 }

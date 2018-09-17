@@ -1,6 +1,7 @@
 package model.ability.action;
 
 import controller.PlayerController;
+import model.gameEvent.PhaseEvent;
 import model.player.PhaseTiming;
 
 public class CheckTiming extends Action<PlayerController>{
@@ -24,7 +25,7 @@ public class CheckTiming extends Action<PlayerController>{
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		p1.checkTiming(p2, timing);
+		p1.addEvent(new PhaseEvent(p1.getPlayer(), timing));
 	}
 
 }

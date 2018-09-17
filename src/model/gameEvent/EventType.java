@@ -1,6 +1,9 @@
 package model.gameEvent;
 
 public enum EventType {
+	//Start or end of a phase
+	PHASE,
+	
 	//Attacking events
 	DECLARE_ATTACK,
 	REVERSED,

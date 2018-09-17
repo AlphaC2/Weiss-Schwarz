@@ -30,7 +30,7 @@ public class Refresh extends Action<Card>{
 			p1.getBoard().getLibrary().add(card);
 		}
 		p1.log("Refreshed library");
-		p1.addToUnresolved(new PlaceInDamageFromLibrary());
+		p1.refresh();
 	}
 
 }
