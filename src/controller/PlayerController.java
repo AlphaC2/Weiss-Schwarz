@@ -55,14 +55,20 @@ public abstract class PlayerController {
 	public Player getPlayer() {
 		return player;
 	}
+	
+	public void checkTiming(List<GameEvent> events) {
+		while(activateAuto());
+	}
 
 	public void addEvents(List<GameEvent> events) {
+		prime(events);
+		gm.prime(events);
 		checkTiming(events);
 		gm.checkTiming(events);
 		this.events.addAll(events);
 	}
 	
-	private void prime(List<GameEvent> events){
+	void prime(List<GameEvent> events){
 		choices.clear();
 		List<Character> chars = new ArrayList<>();
 		// check stage
@@ -132,11 +138,6 @@ public abstract class PlayerController {
 		AutoAbility choice = getChoice("Pick auto ability to activate", choices);
 		gm.execute(choice, player);
 		return true;
-	}
-
-	public void checkTiming(List<GameEvent> events) {
-		prime(events);
-		while(activateAuto());
 	}
 
 	public abstract void displayStage();

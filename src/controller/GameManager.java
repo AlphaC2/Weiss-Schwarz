@@ -113,4 +113,8 @@ public class GameManager {
 		getOpponent(currentPlayer).checkTiming(events);
 	}
 
+	public void prime(List<GameEvent> events) {
+		getOpponent(currentPlayer).prime(events);
+	}
+
 }
