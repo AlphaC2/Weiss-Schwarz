@@ -44,7 +44,7 @@ public abstract class Ability implements Activatable, Checkable {
 		if (cost == null){
 			cost = newCost;
 		} else {
-			cost.setNextAction(newCost);
+			cost.last().setNextAction(newCost);
 		}
 	}
 	

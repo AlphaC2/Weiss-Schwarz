@@ -25,7 +25,7 @@ public abstract class Action<T> implements AbilityInterface {
 
 	@Override
 	public void setNextAction(AbilityInterface nextAction) {
-		last().setNextAction(nextAction);
+		this.nextAction = nextAction;
 	}
 
 	Action(String name) {
