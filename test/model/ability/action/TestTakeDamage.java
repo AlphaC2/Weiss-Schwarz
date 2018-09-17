@@ -14,6 +14,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import app.ConsoleController;
+import controller.GameManager;
 import controller.PlayerController;
 import controller.ReadUserInput;
 import model.board.Board;
@@ -84,6 +85,9 @@ public class TestTakeDamage {
 		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
 		mockPlayerController.setReader(mockReader);
 		doReturn("mockPlayer").when(mockPlayer).getName();
+		
+		// Gamemanager setup
+		GameManager gm = new GameManager(controller, mockPlayerController);
 		
 		// Zone setup
 		library = board.getLibrary();
