@@ -16,6 +16,7 @@ import controller.GameManager;
 import controller.PlayerController;
 import controller.ReadUserInput;
 import model.ability.action.DrawToHand;
+import model.ability.action.PlaceInDamageFromLibrary;
 import model.board.Board;
 import model.board.DamageZone;
 import model.board.Hand;
@@ -117,6 +118,7 @@ public class TestDummyAutoAbility {
 		// Setup Test
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
 		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true);
+		dummy.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList = new ArrayList<>();
 		dummyList.add(dummy);
 		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
@@ -151,6 +153,7 @@ public class TestDummyAutoAbility {
 		// Setup Test
 		controller2.getBoard().getStage().place(mockCharacter, SlotType.FRONT_CENTER);
 		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, false);
+		dummy.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList = new ArrayList<>();
 		dummyList.add(dummy);
 		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
@@ -183,12 +186,14 @@ public class TestDummyAutoAbility {
 		// Setup Test
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
 		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true);
+		dummy.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList = new ArrayList<>();
 		dummyList.add(dummy);
 		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		
 		stage.place(mockCharacter2, SlotType.FRONT_LEFT);
 		AutoAbility dummy2 = new DummyAutoAbility(mockCharacter2, EventType.DREW_CARD, true);
+		dummy2.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList2 = new ArrayList<>();
 		dummyList2.add(dummy2);
 		when(mockCharacter2.getAutoAbilities()).thenReturn(dummyList2);
@@ -233,12 +238,14 @@ public class TestDummyAutoAbility {
 		// Setup Test
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
 		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true);
+		dummy.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList = new ArrayList<>();
 		dummyList.add(dummy);
 		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		
 		controller2.getBoard().getStage().place(mockCharacter2, SlotType.FRONT_LEFT);
 		AutoAbility dummy2 = new DummyAutoAbility(mockCharacter2, EventType.DREW_CARD, false);
+		dummy2.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList2 = new ArrayList<>();
 		dummyList2.add(dummy2);
 		when(mockCharacter2.getAutoAbilities()).thenReturn(dummyList2);
@@ -288,6 +295,7 @@ public class TestDummyAutoAbility {
 		// Setup Test
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
 		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true, true);
+		dummy.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList = new ArrayList<>();
 		dummyList.add(dummy);
 		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
@@ -324,6 +332,7 @@ public class TestDummyAutoAbility {
 		// Setup Test
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
 		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true, true);
+		dummy.addAction(new PlaceInDamageFromLibrary());
 		List<AutoAbility> dummyList = new ArrayList<>();
 		dummyList.add(dummy);
 		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);

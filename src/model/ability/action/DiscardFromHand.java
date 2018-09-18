@@ -11,7 +11,7 @@ import model.gameEvent.GameEvent;
 public class DiscardFromHand extends Action<Card>{
 
 	public DiscardFromHand(){
-		this(false);
+		super("Discard from hand");
 	}
 	
 	public DiscardFromHand(boolean required) {
