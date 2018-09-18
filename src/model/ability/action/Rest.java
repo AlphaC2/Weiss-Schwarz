@@ -18,7 +18,8 @@ public class Rest extends Action<Slot> {
 
 	@Override
 	protected void setTargets(PlayerController p1, PlayerController p2) {
-		targets = p1.getBoard().getStage().getSlots();
+		//Random Comment
+		targets.addAll(p1.getBoard().getStage().getSlots());
 	}
 
 	@Override

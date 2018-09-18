@@ -28,6 +28,7 @@ public class PayStock extends Action<Stock> {
 			cards.add( board.getStock().pay() ); 
 		}
 		board.getWaitingRoom().add(cards);
+		p1.log("Paid " + amount + " cost");
 	}
 
 	@Override

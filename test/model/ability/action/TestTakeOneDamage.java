@@ -132,5 +132,4 @@ public class TestTakeOneDamage {
 		assertEquals(3, resolution.size());
 	}
 	
-	
 }
