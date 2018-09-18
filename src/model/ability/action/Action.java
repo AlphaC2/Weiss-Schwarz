@@ -13,15 +13,6 @@ public abstract class Action<T> implements AbilityInterface {
 	protected List<T> targets;
 	private String name;
 	private AbilityInterface nextAction = null;
-	private boolean isRequired = false;
-
-	public boolean isRequired() {
-		return isRequired;
-	}
-
-	public void setRequired(boolean isRequired) {
-		this.isRequired = isRequired;
-	}
 
 	@Override
 	public void setNextAction(AbilityInterface nextAction) {
@@ -33,13 +24,6 @@ public abstract class Action<T> implements AbilityInterface {
 		targets = new ArrayList<>();
 		conditions = new ArrayList<Condition<T>>();
 	}
-	
-	Action(String name, boolean required) {
-		this(name);
-		isRequired = required;
-	}
-	
-	
 	protected abstract void setTargets(PlayerController p1, PlayerController p2);
 
 	public void addCondition(Condition<T> c) {

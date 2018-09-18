@@ -11,11 +11,6 @@ public abstract class TimedAction<T> extends Action<T>{
 		this.timing = timing;
 	}
 	
-	protected TimedAction(String name, boolean required, PhaseTiming timing){
-		super(name, required);
-		this.timing = timing;
-	}
-	
 	public PhaseTiming getTiming(){
 		return timing;
 	}

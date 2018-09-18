@@ -10,11 +10,6 @@ public class Rest extends Action<Slot> {
 		super("Rest");
 		addCondition(new CanRest());
 	}
-	
-	public Rest(boolean required){
-		super("Rest", required);
-		addCondition(new CanRest());
-	}
 
 	@Override
 	protected void setTargets(PlayerController p1, PlayerController p2) {

@@ -40,6 +40,7 @@ public abstract class Ability implements Activatable, Checkable {
 		return source;
 	}
 	
+	@SuppressWarnings("rawtypes")
 	public void setTargets(PlayerController p1, PlayerController p2){
 		Action  current = (Action) cost;
 		while(current != null){
