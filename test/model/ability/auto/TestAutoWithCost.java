@@ -100,7 +100,7 @@ public class TestAutoWithCost {
 		stock = board.getStock();
 		
 		// Setup Dummy Ability
-		dummy = new DummyAutoWithCost(mockCharacter, EventType.DREW_CARD, true, false);
+		dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true, false);
 		dummy.addCost(new PayStock(2));
 		dummy.addCost(new Rest());
 		dummy.addAction(new TakeDamage(1));
@@ -197,7 +197,7 @@ public class TestAutoWithCost {
 		new GameManager(controller2, controller1);
 		Slot s = stage.getSlot(SlotType.FRONT_CENTER);
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoWithCost(mockCharacter, EventType.DREW_CARD, false, false);
+		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, false, false);
 		dummy.addCost(new PayStock(2));
 		dummy.addCost(new Rest());
 		dummy.addAction(new DiscardFromHand());
@@ -242,7 +242,7 @@ public class TestAutoWithCost {
 		new GameManager(controller2, controller1);
 		Slot s = stage.getSlot(SlotType.FRONT_CENTER);
 		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoWithCost(mockCharacter, EventType.DREW_CARD, false, false);
+		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, false, false);
 		dummy.addCost(new PayStock(2));
 		dummy.addCost(new Rest());
 		dummy.addAction(new DiscardFromHand(false));
