@@ -20,12 +20,9 @@ import model.ability.action.PlaceInDamageFromLibrary;
 import model.board.Board;
 import model.board.DamageZone;
 import model.board.Hand;
-import model.board.LevelZone;
 import model.board.Library;
-import model.board.ResolutionZone;
 import model.board.SlotType;
 import model.board.Stage;
-import model.board.WaitingRoom;
 import model.card.Card;
 import model.card.Character;
 import model.card.Climax;
@@ -38,10 +35,7 @@ public class TestDummyAutoAbility {
 	private PlayerController controller2;
 	private static int testNumber = 0;
 	private Library library;
-	private ResolutionZone resolution;
 	private DamageZone damage;
-	private WaitingRoom waitingRoom;
-	private LevelZone level;
 	private Stage stage;
 	private Hand hand;
 	
@@ -101,10 +95,7 @@ public class TestDummyAutoAbility {
 		
 		// Zone setup
 		library = board.getLibrary();
-		resolution = board.getResolutionZone();
 		damage = board.getDamageZone();
-		waitingRoom = board.getWaitingRoom();
-		level = board.getLevel();
 		stage = board.getStage();
 		hand = board.getHand();
 	}

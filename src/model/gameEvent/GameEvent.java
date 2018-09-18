@@ -20,4 +20,9 @@ public abstract class GameEvent {
 		return type;
 	}
 	
+	@Override
+	public String toString(){
+		return sourcePlayer.getName() + " " + type;
+	}
+	
 }

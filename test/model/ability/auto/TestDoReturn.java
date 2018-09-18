@@ -10,7 +10,6 @@ import org.mockito.MockitoAnnotations;
 import app.ConsoleController;
 import controller.PlayerController;
 import controller.ReadUserInput;
-import model.card.Card;
 
 public class TestDoReturn {
 	PlayerController Controller;

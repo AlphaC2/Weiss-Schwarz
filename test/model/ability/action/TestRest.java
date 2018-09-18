@@ -106,6 +106,7 @@ public class TestRest {
 		when(mockPlayerController.isAlive()).thenReturn(true);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Test
 	public void testSlotPosition() {
 		boolean flag;

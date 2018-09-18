@@ -1,16 +1,13 @@
 package model.ability.auto;
 
 import static org.junit.Assert.*;
-import static org.mockito.ArgumentMatchers.anyList;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.doReturn;
-import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -19,7 +16,6 @@ import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
 import controller.ReadUserInput;
-import model.ability.action.Action;
 import model.ability.action.DiscardFromHand;
 import model.ability.action.DrawToHand;
 import model.ability.action.PayStock;
@@ -28,9 +24,7 @@ import model.ability.action.TakeDamage;
 import model.board.Board;
 import model.board.DamageZone;
 import model.board.Hand;
-import model.board.LevelZone;
 import model.board.Library;
-import model.board.ResolutionZone;
 import model.board.Slot;
 import model.board.SlotType;
 import model.board.Stage;
@@ -41,7 +35,6 @@ import model.card.Character;
 import model.card.Climax;
 import model.card.Position;
 import model.gameEvent.EventType;
-import model.player.Player;
 
 public class TestAutoWithCost {
 	private Board board;
@@ -49,10 +42,8 @@ public class TestAutoWithCost {
 	private PlayerController controller2;
 	private static int testNumber = 0;
 	private Library library;
-	private ResolutionZone resolution;
 	private DamageZone damage;
 	private WaitingRoom waitingRoom;
-	private LevelZone level;
 	private Stage stage;
 	private Hand hand;
 	private Stock stock;
@@ -102,10 +93,8 @@ public class TestAutoWithCost {
 		
 		// Zone setup
 		library = board.getLibrary();
-		resolution = board.getResolutionZone();
 		damage = board.getDamageZone();
 		waitingRoom = board.getWaitingRoom();
-		level = board.getLevel();
 		stage = board.getStage();
 		hand = board.getHand();
 		stock = board.getStock();

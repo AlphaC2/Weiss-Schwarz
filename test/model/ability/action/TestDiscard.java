@@ -15,22 +15,10 @@ import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
 import controller.ReadUserInput;
-import model.ability.condition.Condition;
 import model.ability.condition.MatchesCardType;
-import model.board.Board;
-import model.board.DamageZone;
-import model.board.Hand;
-import model.board.LevelZone;
-import model.board.Library;
-import model.board.ResolutionZone;
-import model.board.Stage;
-import model.board.Stock;
-import model.board.WaitingRoom;
-import model.card.Card;
-import model.card.CardType;
+import model.board.*;
+import model.card.*;
 import model.card.Character;
-import model.card.Climax;
-import model.card.Event;
 import model.player.Player;
 
 public class TestDiscard {
@@ -40,13 +28,8 @@ public class TestDiscard {
 	private ConsoleController realReader;
 	private static int testNumber = 0;
 	private Library library;
-	private ResolutionZone resolution;
-	private DamageZone damage;
 	private WaitingRoom waitingRoom;
-	private LevelZone level;
-	private Stage stage;
 	private Hand hand;
-	private Stock stock;
 	
 	//@Rule
 	//public final ExpectedSystemExit exit;
@@ -111,13 +94,8 @@ public class TestDiscard {
 		// Zone setup
 		board = controller1.getBoard();
 		library = board.getLibrary();
-		resolution = board.getResolutionZone();
-		damage = board.getDamageZone();
 		waitingRoom = board.getWaitingRoom();
-		level = board.getLevel();
-		stage = board.getStage();
 		hand = board.getHand();
-		stock = board.getStock();
 	}
 
 	// Setup Test
@@ -169,9 +147,8 @@ public class TestDiscard {
 		// Setup Test
 		hand.add(mockCharacter);
 		hand.add(mockClimax);
-		Action discard = new DiscardFromHand();
-		Condition c = new MatchesCardType(CardType.CHARACTER);
-		discard.addCondition(c);
+		DiscardFromHand discard = new DiscardFromHand();
+		discard.addCondition(new MatchesCardType(CardType.CHARACTER));
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(mockCharacter);
 		
 		// Check Preconditions
@@ -195,9 +172,8 @@ public class TestDiscard {
 		// Setup Test
 		hand.add(mockEvent);
 		hand.add(mockClimax);
-		Action discard = new DiscardFromHand();
-		Condition c = new MatchesCardType(CardType.CHARACTER);
-		discard.addCondition(c);
+		DiscardFromHand discard = new DiscardFromHand();
+		discard.addCondition(new MatchesCardType(CardType.CHARACTER));
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(mockCharacter);
 		
 		// Check Preconditions
