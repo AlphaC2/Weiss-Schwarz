@@ -6,10 +6,13 @@ import java.util.List;
 
 import model.ability.action.PlaceInDamageFromLibrary;
 import model.ability.auto.AutoAbility;
+import model.ability.auto.PhaseAutoAbility;
 import model.board.Board;
 import model.card.Card;
 import model.card.Character;
+import model.gameEvent.EventType;
 import model.gameEvent.GameEvent;
+import model.gameEvent.PhaseEvent;
 import model.player.Player;
 
 public abstract class PlayerController {
@@ -98,6 +101,14 @@ public abstract class PlayerController {
 				for (AutoAbility autoAbility : character.getAutoAbilities()) {
 					if (autoAbility.getTrigger() != e.getType()) {
 						break;
+					}
+					
+					if (autoAbility.getTrigger() == EventType.PHASE){
+						PhaseAutoAbility a = (PhaseAutoAbility) autoAbility;
+						PhaseEvent pe = (PhaseEvent) e;
+						if (a.getPhase() != pe.getPhase() || a.getTiming() != pe.getTiming()){
+							break;
+						}
 					}
 
 					if ((autoAbility.isSelf() && e.getSourcePlayer().equals(player))
