@@ -72,7 +72,9 @@ public abstract class Ability implements Activatable, Checkable {
 				cost.execute(p1, p2);
 			}
 			for (AbilityInterface action : actions) {
-				action.execute(p1, p2);
+				if (action.isRequired() || p1.getChoice("Activate?")){
+					action.execute(p1, p2);
+				} 
 			}
 			used++;
 		}
