@@ -15,5 +15,10 @@ public class DiscardEvent extends GameEvent {
 	public Card getCard(){
 		return card;
 	}
+	
+	@Override
+	public String toString(){
+		return getSourcePlayer().getName() + " discarded " + System.lineSeparator() + card.toShortString();
+	}
 
 }

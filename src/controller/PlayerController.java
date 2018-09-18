@@ -93,6 +93,7 @@ public abstract class PlayerController {
 		 */
 		
 		for (GameEvent e : events) {
+			log(e);
 			for (Character character : chars) {
 				for (AutoAbility autoAbility : character.getAutoAbilities()) {
 					if (autoAbility.getTrigger() != e.getType()) {
