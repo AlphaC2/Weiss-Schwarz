@@ -13,7 +13,7 @@ public abstract class Action<T> implements AbilityInterface {
 	protected List<T> targets;
 	private String name;
 	private AbilityInterface nextAction = null;
-	private boolean isRequired = false;
+	private boolean isRequired = true;
 
 	public boolean isRequired() {
 		return isRequired;
