@@ -124,7 +124,7 @@ public abstract class PlayerController {
 		Iterator<AutoAbility> ite = choices.iterator();
 		while (ite.hasNext()){
 			AutoAbility auto = ite.next();
-			if ( auto.isResolved()){
+			if ( auto.isResolved() || !auto.canActivate()){
 				ite.remove();
 			}
 		}

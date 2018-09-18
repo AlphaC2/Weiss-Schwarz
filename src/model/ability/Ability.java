@@ -4,29 +4,30 @@ import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
+import model.ability.action.Action;
 import model.card.Card;
 
 public abstract class Ability implements Activatable, Checkable {
-	
+
 	private Card source;
 	private int max = Integer.MAX_VALUE;
 	private int used = 0;
 	private AbilityInterface cost;
 
 	List<AbilityInterface> actions = new ArrayList<>();
-	
-	protected Ability(Card source){
+
+	protected Ability(Card source) {
 		this.source = source;
 	}
-	
-	public void reset(){
+
+	public void reset() {
 		used = 0;
 	}
-	
+
 	public int getMax() {
 		return max;
 	}
-	
+
 	public void setMax(int max) {
 		this.max = max;
 	}
@@ -35,39 +36,53 @@ public abstract class Ability implements Activatable, Checkable {
 		return used;
 	}
 
-	public Card getSource(){
+	public Card getSource() {
 		return source;
 	}
 	
+	public void setTargets(PlayerController p1, PlayerController p2){
+		Action  current = (Action) cost;
+		while(current != null){
+			current.setValidTargets(p1, p2);
+			current = (Action) current.next();
+		}
+		
+		for (AbilityInterface ability : actions) {
+			Action action = (Action) ability;
+			action.setValidTargets(p1, p2);
+		}
+	}
 
-	public void addCost(AbilityInterface newCost){
-		if (cost == null){
+	public void addCost(AbilityInterface newCost) {
+		if (cost == null) {
 			cost = newCost;
 		} else {
 			cost.last().setNextAction(newCost);
 		}
 	}
-	
-	public void addAction(AbilityInterface action){
+
+	public void addAction(AbilityInterface action) {
 		actions.add(action);
 	}
 
 	@Override
-	public void execute(PlayerController p1, PlayerController p2){
-		if (canActivate()){
-			if (cost != null){
+	public void execute(PlayerController p1, PlayerController p2) {
+		if (canActivate()) {
+			if (cost != null) {
 				cost.execute(p1, p2);
 			}
-			for (AbilityInterface action: actions) {
+			for (AbilityInterface action : actions) {
 				action.execute(p1, p2);
 			}
 			used++;
 		}
 	}
-	
-	private boolean checkChain(AbilityInterface chain){
-		while(chain != null){
-			if (! chain.canActivate() ) return false;
+
+	private boolean checkChain(AbilityInterface chain) {
+		while (chain != null) {
+			if (!chain.canActivate()) {
+				return false;
+			}
 			chain = chain.next();
 		}
 		return true;

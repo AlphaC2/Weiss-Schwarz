@@ -10,7 +10,7 @@ public class TestPermutations {
 	
 	@Test
 	public void testingPermutations(){
-		int maxListSize = 20;
+		int maxListSize = 5;
 		int expectedSize = (int) Math.pow(2, maxListSize);
 		
 		Integer[] numbers = new Integer[maxListSize];

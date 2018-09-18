@@ -46,6 +46,7 @@ public abstract class AutoAbility extends Ability{
 	@Override
 	public void execute(PlayerController p1, PlayerController p2){
 		if (primed > 0){
+			primed--;
 			if (optional){
 				if (p1.getChoice("Activate this ability?")){
 					super.execute(p1, p2);
@@ -53,7 +54,6 @@ public abstract class AutoAbility extends Ability{
 			} else {
 				super.execute(p1, p2);
 			}
-			primed--;
 		}
 	}
 

@@ -72,11 +72,12 @@ public class GameManager {
 	}
 
 	public void execute(Activatable cmd, Player player) {
-		try {
+		cmd.execute(getController(player), getOpponent(getController(player)));
+		/*try {
 			cmd.execute(getController(player), getOpponent(getController(player)));
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 	
 	private PlayerController getController(Player player){

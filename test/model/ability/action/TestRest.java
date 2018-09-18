@@ -143,8 +143,9 @@ public class TestRest {
 		if (!flag) {
 			verify(mockPlayerController).log(rest.failureMessage());
 		}
-		assertEquals(mockCharacter, s.getCharacter());
-		assertEquals(expected, s.getPosition());
+		assertEquals(5, board.getStage().getSlots().size());
+		assertEquals(mockCharacter, board.getStage().getSlot(sp.s).getCharacter());
+		assertEquals(expected, board.getStage().getSlot(sp.s).getPosition());
 	}
 
 }

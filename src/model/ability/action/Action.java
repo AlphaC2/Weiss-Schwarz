@@ -65,6 +65,7 @@ public abstract class Action<T> implements AbilityInterface {
 	}
 	
 	public void setValidTargets(PlayerController p1, PlayerController p2){
+		targets.clear();
 		setTargets(p1,p2);
 		Iterator<T> ite = targets.iterator();
 		while (ite.hasNext()) {
