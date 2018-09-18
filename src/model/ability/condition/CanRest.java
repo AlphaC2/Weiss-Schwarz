@@ -11,6 +11,7 @@ public class CanRest extends Condition<Slot> {
 		super("Can Rest");
 	}
 
+
 	@Override
 	public boolean check() {
 		Character c = target.getCharacter();
