@@ -1,21 +1,19 @@
 package model.ability.auto;
 
 import controller.PlayerController;
-import model.ability.Ability;
+import model.ability.ConditionalAbility;
 import model.card.Card;
 import model.gameEvent.EventType;
 
-public abstract class AutoAbility extends Ability{
+public abstract class AutoAbility extends ConditionalAbility{
 
 	private EventType trigger;
-	private boolean self;
 	private int primed;
 	private boolean optional;
 	
 	AutoAbility(Card source, EventType trigger, boolean self, boolean optional) {
-		super(source);
+		super(source,self);
 		this.trigger = trigger;
-		this.self = self;
 		this.optional = optional;
 	}
 
@@ -33,10 +31,6 @@ public abstract class AutoAbility extends Ability{
 	
 	public int getPrimed() {
 		return primed;
-	}
-
-	public boolean isSelf(){
-		return self;
 	}
 
 	public boolean isResolved() {

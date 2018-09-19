@@ -1,10 +1,6 @@
 package model.card;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import model.ability.Ability;
-import model.ability.auto.AutoAbility;
 
 public class Character extends Card {
 	private String trait1;
@@ -12,7 +8,6 @@ public class Character extends Card {
 	private int basePower;
 	private int currentPower;
 	private int soul;
-	private List<Ability> abilities;
 		
 	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
 			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul) {
@@ -22,7 +17,6 @@ public class Character extends Card {
 		this.basePower = power;
 		this.currentPower = power;
 		this.soul = soul;
-		this.abilities = new ArrayList<Ability>();
 	}
 
 	public String getTrait1() {
@@ -52,39 +46,17 @@ public class Character extends Card {
 	public int getSoul() {
 		return soul;
 	}
-
-	public List<Ability> getAbilities() {
-		return abilities;
-	}
-	
-	public Ability getAbility(int i) {
-		return abilities.get(i);
-	}
 	
 	@Override
 	public String toString() {
 		return super.toString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", basePower=" + basePower + ", currentPower="
-				+ currentPower + ", soul=" + soul + ", abilities=" + abilities + "]";
+				+ currentPower + ", soul=" + soul + ", abilities=" + getAbilities() + "]";
 	}
 	
 	@Override
 	public String toShortString(){
 		return super.toShortString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", currentPower="
 				+ currentPower + ", soul=" + soul + "]"; 
-	}
-
-	public List<AutoAbility> getAutoAbilities() {
-		List<AutoAbility> list = new ArrayList<>();
-		for (Ability ability : abilities) {
-			if (ability instanceof AutoAbility){
-				list.add((AutoAbility) ability);
-			}
-		}
-		return list;
-	}
-
-	public void addAbility(Ability a){
-		abilities.add(a);
 	}
 
 }

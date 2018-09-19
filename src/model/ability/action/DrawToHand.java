@@ -37,7 +37,7 @@ public class DrawToHand extends Action<Card>{
 		p1.log(p1.getPlayer().getName() + " drew " + System.lineSeparator() +targets.get(0).toShortString());
 		List<GameEvent> events = new ArrayList<>();
 		events.add(new DrawEvent(p1.getPlayer()));
-		p1.addEvents(events);
+		p1.addEvents(events,p2);
 	}
 
 }

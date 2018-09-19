@@ -48,14 +48,14 @@ public class TakeDamage extends Action<ResolutionZone>{
 			zone.remove(cards);
 			List<GameEvent> events = new ArrayList<>();
 			events.add(new DamageCancelledEvent(p1.getPlayer(), climax));
-			p1.addEvents(events);
+			p1.addEvents(events,p2);
 		} else {
 			for (int i = 0; i <  cards.size(); i++) {
 				new TakeOneDamage().execute(p1, p2);;
 			}
 			List<GameEvent> events = new ArrayList<>();
 			events.add(new TakeDamageEvent(p1.getPlayer(), amount));
-			p1.addEvents(events);
+			p1.addEvents(events,p2);
 		}
 	}
 

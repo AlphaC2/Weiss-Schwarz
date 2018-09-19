@@ -31,7 +31,7 @@ public class CheckTiming extends Action<PlayerController>{
 	protected void executeAction(PlayerController p1, PlayerController p2) {
 		List<GameEvent> events = new ArrayList<>();
 		events.add(new PhaseEvent(p1.getPlayer(), timing));
-		p1.addEvents(events);
+		p1.addEvents(events,p2);
 	}
 
 }

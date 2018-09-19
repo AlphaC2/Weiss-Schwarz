@@ -35,7 +35,7 @@ public class DiscardFromHand extends Action<Card>{
 		p1.getBoard().getWaitingRoom().add(card);
 		List<GameEvent> events = new ArrayList<>();
 		events.add(new DiscardEvent(p1.getPlayer(),card));
-		p1.addEvents(events);
+		p1.addEvents(events,p2);
 	}
 
 }

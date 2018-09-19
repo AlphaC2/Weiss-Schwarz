@@ -7,6 +7,7 @@ import java.util.List;
 import model.ability.action.PlaceInDamageFromLibrary;
 import model.ability.auto.AutoAbility;
 import model.ability.auto.PhaseAutoAbility;
+import model.ability.continuous.ContinuousAbility;
 import model.board.Board;
 import model.card.Card;
 import model.card.Character;
@@ -58,20 +59,49 @@ public abstract class PlayerController {
 	public Player getPlayer() {
 		return player;
 	}
-	
-	public void checkTiming() {
-		while(activateAuto());
+
+	void checkTiming() {
+		while (activateAuto())
+			;
 	}
 
-	public void addEvents(List<GameEvent> events) {
+	public void addEvents(List<GameEvent> events, PlayerController opponent) {
+		checkContinuous(opponent);
+		opponent.checkContinuous(this);
 		prime(events);
-		gm.prime(events);
+		opponent.prime(events);
 		checkTiming();
-		gm.checkTiming();
+		opponent.checkTiming();
 		this.events.addAll(events);
 	}
-	
-	void prime(List<GameEvent> events){
+
+	void checkContinuous(PlayerController opponent) {
+		List<Card> cards = new ArrayList<>();
+		// check stage
+		cards.addAll(board.getStage().getCharacters());
+
+		// check hand
+		cards.addAll(board.getHand().getCards());
+
+		// check memory
+		cards.addAll(board.getMemoryZone().getCards());
+
+		// check level
+		cards.addAll(board.getLevel().getCards());
+
+		// check waiting room
+		cards.addAll(board.getWaitingRoom().getCards());
+		
+		for (Card card : cards) {
+			for (ContinuousAbility a : card.getContinuousAbilities()) {
+				a.setTargets(this, opponent);
+				a.setEnabled(true);
+			}
+		}
+
+	}
+
+	void prime(List<GameEvent> events) {
 		choices.clear();
 		List<Character> chars = new ArrayList<>();
 		// check stage
@@ -94,7 +124,7 @@ public abstract class PlayerController {
 		 * board.getWaitingRoom().getCardsOfType(Character.class)) {
 		 * choices.addAll(character.getAutoAbilities()); }
 		 */
-		
+
 		for (GameEvent e : events) {
 			log(e);
 			for (Character character : chars) {
@@ -102,11 +132,11 @@ public abstract class PlayerController {
 					if (autoAbility.getTrigger() != e.getType()) {
 						break;
 					}
-					
-					if (autoAbility.getTrigger() == EventType.PHASE){
+
+					if (autoAbility.getTrigger() == EventType.PHASE) {
 						PhaseAutoAbility a = (PhaseAutoAbility) autoAbility;
 						PhaseEvent pe = (PhaseEvent) e;
-						if (a.getPhase() != pe.getPhase() || a.getTiming() != pe.getTiming()){
+						if (a.getPhase() != pe.getPhase() || a.getTiming() != pe.getTiming()) {
 							break;
 						}
 					}
@@ -120,8 +150,8 @@ public abstract class PlayerController {
 			}
 		}
 	}
-	
-	private boolean activateAuto(){
+
+	private boolean activateAuto() {
 		// refresh point
 		if (refreshPoint > 0) {
 			new PlaceInDamageFromLibrary().execute(this, null);
@@ -134,18 +164,17 @@ public abstract class PlayerController {
 		// trigger (auto) abilities
 
 		Iterator<AutoAbility> ite = choices.iterator();
-		while (ite.hasNext()){
+		while (ite.hasNext()) {
 			AutoAbility auto = ite.next();
-			if ( auto.isResolved() || !auto.canActivate()){
+			if (auto.isResolved() || !auto.canActivate()) {
 				ite.remove();
 			}
 		}
-		
+
 		if (choices.isEmpty()) {
 			return false;
 		}
-		
-		
+
 		System.out.println(player.getName() + " has " + choices.size() + " auto abilities to activate");
 		AutoAbility choice = getChoice("Pick auto ability to activate", choices);
 		gm.execute(choice, player);

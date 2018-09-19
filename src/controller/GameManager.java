@@ -7,7 +7,6 @@ import io.ConsoleReadUserInput;
 import model.ability.Activatable;
 import model.ability.action.DrawToHand;
 import model.board.Hand;
-import model.gameEvent.GameEvent;
 import model.player.Player;
 import model.player.PlayerPhase;
 
@@ -108,14 +107,6 @@ public class GameManager {
 		this.alive = false;
 		pc.log("is loser");
 		getOpponent(pc).log("is winner");
-	}
-
-	public void checkTiming() {
-		getOpponent(currentPlayer).checkTiming();
-	}
-
-	public void prime(List<GameEvent> events) {
-		getOpponent(currentPlayer).prime(events);
 	}
 
 }

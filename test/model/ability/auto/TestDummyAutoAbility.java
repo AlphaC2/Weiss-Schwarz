@@ -129,7 +129,7 @@ public class TestDummyAutoAbility {
 		assertEquals(50, library.size());
 
 		// Perform Actions
-		new DrawToHand().execute(controller1, null);
+		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
 		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -159,7 +159,7 @@ public class TestDummyAutoAbility {
 		assertEquals(50, controller2.getBoard().getLibrary().size());
 		
 		// Perform Actions
-		new DrawToHand().execute(controller1, null);
+		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
 		assertEquals(mockCharacter, controller2.getBoard().getStage().getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -210,7 +210,7 @@ public class TestDummyAutoAbility {
 		assertEquals(50, library.size());
 
 		// Perform Actions
-		new DrawToHand().execute(controller1, null);
+		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
 		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -265,7 +265,7 @@ public class TestDummyAutoAbility {
 		assertEquals(50, controller2.getBoard().getLibrary().size());
 		
 		// Perform Actions
-		new DrawToHand().execute(controller1, null);
+		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
 		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -308,7 +308,7 @@ public class TestDummyAutoAbility {
 		assertEquals(50, library.size());
 
 		// Perform Actions
-		new DrawToHand().execute(controller1, null);
+		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
 		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -345,7 +345,7 @@ public class TestDummyAutoAbility {
 		assertEquals(50, library.size());
 		
 		// Perform Actions
-		new DrawToHand().execute(controller1, null);
+		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
 		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
