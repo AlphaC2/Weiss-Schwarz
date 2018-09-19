@@ -1,7 +1,6 @@
 package model.ability.auto;
 
 import model.card.Card;
-import model.gameEvent.EventType;
 import model.player.PhaseTiming;
 import model.player.PlayerPhase;
 

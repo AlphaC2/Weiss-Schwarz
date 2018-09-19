@@ -19,6 +19,7 @@ public abstract class Card {
 	private String flavourText;
 	private boolean visible;
 	private List<Ability> abilities;
+	private List<Ability> mods;
 
 	public Card(String name, String cardID, String imagePath, int level, int cost, Colour colour,
 			List<Trigger> passedTriggers, Rarity rarity, String flavourText) {
