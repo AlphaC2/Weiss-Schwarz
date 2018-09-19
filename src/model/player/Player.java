@@ -117,6 +117,8 @@ public class Player {
 	}
 
 	public void executeCommand() {
+		System.out.println("COMMANDS:" + commands.size());
+		System.out.println(commands.get(0));
 		if (commands.size() == 0){
 			endPhase();
 			return;

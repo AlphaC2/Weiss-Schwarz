@@ -15,6 +15,12 @@ public abstract class PhaseAutoAbility extends AutoAbility{
 		this.phase = phase;
 		this.timing = timing;
 	}
+	
+	PhaseAutoAbility(Card source, boolean self, PlayerPhase phase, PhaseTiming timing, boolean isOptional) {
+		super(source, EventType.PHASE, self, isOptional);
+		this.phase = phase;
+		this.timing = timing;
+	}
 
 	public PhaseTiming getTiming() {
 		return timing;

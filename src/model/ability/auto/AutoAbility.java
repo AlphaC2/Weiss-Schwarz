@@ -31,6 +31,10 @@ public abstract class AutoAbility extends Ability{
 		this.optional = optional;
 	}
 	
+	public int getPrimed() {
+		return primed;
+	}
+
 	public boolean isSelf(){
 		return self;
 	}
