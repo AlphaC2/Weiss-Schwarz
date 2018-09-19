@@ -22,5 +22,9 @@ public class PhaseEvent extends GameEvent {
 	public PhaseTiming getTiming() {
 		return timing;
 	}
+	
+	public String toString(){
+		return getSourcePlayer().getName() + " " + phase + " " + timing;
+	}
 
 }
