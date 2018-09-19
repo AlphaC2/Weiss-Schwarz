@@ -110,8 +110,8 @@ public class GameManager {
 		getOpponent(pc).log("is winner");
 	}
 
-	public void checkTiming(List<GameEvent> events) {
-		getOpponent(currentPlayer).checkTiming(events);
+	public void checkTiming() {
+		getOpponent(currentPlayer).checkTiming();
 	}
 
 	public void prime(List<GameEvent> events) {

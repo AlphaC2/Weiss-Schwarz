@@ -59,15 +59,15 @@ public abstract class PlayerController {
 		return player;
 	}
 	
-	public void checkTiming(List<GameEvent> events) {
+	public void checkTiming() {
 		while(activateAuto());
 	}
 
 	public void addEvents(List<GameEvent> events) {
 		prime(events);
 		gm.prime(events);
-		checkTiming(events);
-		gm.checkTiming(events);
+		checkTiming();
+		gm.checkTiming();
 		this.events.addAll(events);
 	}
 	
