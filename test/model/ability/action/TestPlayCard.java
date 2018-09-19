@@ -22,7 +22,8 @@ import model.card.Colour;
 
 public class TestPlayCard {
 	private Board board;
-	
+	private static int testNum = 0;
+	private static String testName = "TestPlayCard";
 	@Mock
 	Card mockCard;
 	
@@ -40,6 +41,8 @@ public class TestPlayCard {
 	
 	@Before
 	public void init(){
+		testNum++;
+		System.out.println(testName + " TestNumber " + testNum);
 		MockitoAnnotations.initMocks(this);
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
@@ -50,6 +53,7 @@ public class TestPlayCard {
 		when(mockPlayerController.getBoard()).thenReturn(board);
 		mockPlayerController.setReader(mockReader);
 		when(mockPlayerController.isAlive()).thenReturn(true);
+		when(mockCard.isFaceUp()).thenReturn(true);
 	}
 
 	//Setup Test
@@ -83,7 +87,7 @@ public class TestPlayCard {
 		when(mockCharacter.getLevel()).thenReturn(1);
 		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
 		board.getLevel().add(mockCard);
-
+		
 		//Check Preconditions
 		assertEquals(1, board.getLevel().size());
 		assertEquals(1, board.getHand().size());	
@@ -170,6 +174,7 @@ public class TestPlayCard {
 		board.getLevel().add(mockCharacter2);
 		when(mockCharacter.getColour()).thenReturn(Colour.YELLOW);
 		when(mockCharacter2.getColour()).thenReturn(Colour.YELLOW);
+		when(mockCharacter2.isFaceUp()).thenReturn(true);
 		
 		//Check Preconditions
 		assertEquals(2, board.getLevel().size());

@@ -21,8 +21,11 @@ public abstract class Zone {
 	}
 	
 	public void add(Card c){
-		if(visible)
+		if(visible){
 			c.flipFaceUp();
+		} else {
+			c.flipFaceDown();
+		}
 		cards.add(c);
 	}
 	

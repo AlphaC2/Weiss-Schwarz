@@ -94,6 +94,10 @@ public abstract class Card {
 
 	@Override
 	public String toString() {
+		if (!visible){
+			return "Face down card";
+		}
+		
 		String abilityText = "";
 		for (Ability ability : abilities) {
 			abilityText+= ability.toString() + System.lineSeparator() ;
@@ -104,6 +108,9 @@ public abstract class Card {
 	}
 
 	public String toShortString() {
+		if (!visible){
+			return "Face down card";
+		}
 		return "Card [name=" + name + ", cardID=" + cardID + ", level=" + level + ", cost=" + cost + ", colour="
 				+ colour + "]";
 	}

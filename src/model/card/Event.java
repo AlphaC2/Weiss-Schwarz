@@ -15,6 +15,9 @@ public class Event extends Card implements Activatable{
 	
 	@Override
 	public String toShortString() {
+		if (!isFaceUp()){
+			return "Face down card";
+		}
 		return super.toShortString() + " Event [ability=" + getAbilities().get(0) + "]";
 	}
 

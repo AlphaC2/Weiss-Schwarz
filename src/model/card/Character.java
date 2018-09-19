@@ -49,12 +49,18 @@ public class Character extends Card {
 	
 	@Override
 	public String toString() {
+		if (!isFaceUp()){
+			return "Face down card";
+		}
 		return super.toString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", basePower=" + basePower + ", currentPower="
 				+ currentPower + ", soul=" + soul + ", abilities=" + getAbilities() + "]";
 	}
 	
 	@Override
 	public String toShortString(){
+		if (!isFaceUp()){
+			return "Face down card";
+		}
 		return super.toShortString() + " Character [trait1=" + trait1 + ", trait2=" + trait2 + ", currentPower="
 				+ currentPower + ", soul=" + soul + "]"; 
 	}

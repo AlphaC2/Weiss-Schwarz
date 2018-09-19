@@ -97,6 +97,7 @@ public abstract class Action<T> implements AbilityInterface {
 			return;
 		}
 		if (canActivate()) {
+			
 			executeAction(p1,p2);
 			if (nextAction != null){
 				nextAction.execute(p1, p2);
