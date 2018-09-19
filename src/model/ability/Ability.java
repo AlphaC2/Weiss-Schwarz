@@ -11,7 +11,7 @@ public abstract class Ability implements Activatable, Checkable {
 
 	private Card source;
 	private int max = Integer.MAX_VALUE;
-	private int used = 0;
+	protected int used = 0;
 	private AbilityInterface cost;
 
 	List<AbilityInterface> actions = new ArrayList<>();

@@ -2,16 +2,17 @@ package model.ability.continuous;
 
 import java.util.List;
 
+import controller.PlayerController;
 import model.ability.ConditionalAbility;
 import model.ability.condition.Condition;
+import model.ability.continuous.mods.CardMod;
 import model.card.Card;
-import model.player.PlayerPhase;
 
 @SuppressWarnings("rawtypes")
 public class ContinuousAbility extends ConditionalAbility{
 
-	private PlayerPhase expirePhase;
 	private List<Condition> conditions;
+	private List<CardMod> mods;
 	private boolean enabled = false;
 	
 	protected ContinuousAbility(Card source) {
@@ -20,10 +21,6 @@ public class ContinuousAbility extends ConditionalAbility{
 	
 	protected ContinuousAbility(Card source, boolean self) {
 		super(source,self);
-	}
-
-	public PlayerPhase getExpirePhase() {
-		return expirePhase;
 	}
 	
 	public void setEnabled(boolean enabled){
@@ -42,6 +39,20 @@ public class ContinuousAbility extends ConditionalAbility{
 			}
 		}
 		return super.canActivate();
+	}
+	
+	@Override
+	public void setTargets(PlayerController p1, PlayerController p2){
+		
+	}
+	
+	@Override
+	public void execute(PlayerController p1, PlayerController p2) {
+		if (canActivate()) {
+			for (CardMod mod : mods) {
+				
+			}
+		}
 	}
 
 }
