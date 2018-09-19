@@ -44,7 +44,6 @@ public class TakeDamage extends Action<ResolutionZone>{
 		Card lastCard = cards.get(cards.size()-1);
 		if (lastCard instanceof Climax){
 			Climax climax = (Climax) lastCard;
-			p1.log("Damage cancelled on card " + climax);
 			p1.getBoard().getWaitingRoom().add(cards);
 			zone.remove(cards);
 			List<GameEvent> events = new ArrayList<>();
@@ -53,9 +52,6 @@ public class TakeDamage extends Action<ResolutionZone>{
 		} else {
 			for (int i = 0; i <  cards.size(); i++) {
 				new TakeOneDamage().execute(p1, p2);;
-			}
-			if(p1.isAlive()){
-				p1.log("took " + amount + " damage");
 			}
 			List<GameEvent> events = new ArrayList<>();
 			events.add(new TakeDamageEvent(p1.getPlayer(), amount));

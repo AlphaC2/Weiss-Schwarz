@@ -14,5 +14,9 @@ public class TakeDamageEvent extends GameEvent {
 	public int getAmount(){
 		return amount;
 	}
+	
+	public String toString(){
+		return getSourcePlayer().getName() + " took " + amount + "damage";
+	}
 
 }

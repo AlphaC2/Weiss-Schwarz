@@ -16,4 +16,9 @@ public class DamageCancelledEvent extends GameEvent {
 		return climax;
 	}
 	
+	@Override
+	public String toString(){
+		return getSourcePlayer().getName() + " cancelled damage with " + climax.toShortString(); 
+	}
+	
 }
