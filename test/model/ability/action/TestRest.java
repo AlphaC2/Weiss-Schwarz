@@ -30,35 +30,12 @@ import util.Util;
 @RunWith(Parameterized.class)
 public class TestRest {
 	private Board board;
-	static Collection<params> result = new ArrayList<>();
-	private params sp;
-	List<Condition> conditions;
-
-	public static class params {
-		public SlotType s;
-		public Position p;
-		public List<Condition> c;
-		public String trait1;
-		public String trait2;
-
-		params(SlotType s, Position p, List<Condition> c, List<String> trait) {
-			this.s = s;
-			this.p = p;
-			this.c = c;
-			if (trait.size() >= 1){
-				trait1 = trait.get(0);
-			}
-			if (trait.size() == 2){
-				trait2 = trait.get(1);
-			}
-		}
-		
-		public String toString(){
-			return "Params [slot=" + s + ", position=" + p + ", trait1=" + trait1 + ", trait2=" + trait2 + 
-					", condition=" + Arrays.toString(c.toArray());
-		}
-	}
-
+	private SlotType slotParam;
+	private Position positionParam;
+	private List<Condition> conditionParam;
+	private String traitParam1;
+	private String traitParam2;
+	
 	@Mock
 	Card mockCard;
 
@@ -72,7 +49,8 @@ public class TestRest {
 	ReadUserInput mockReader;
 
 	@Parameterized.Parameters(name = "{index} : parameters({0})")
-	public static Collection<params> parameters() {
+	public static Collection<Object[]> parameters() {
+		Collection<Object[]> result = new ArrayList<>();
 		List<Position> positions = Arrays.asList(Position.values());
 		List<SlotType> slotTypes = Arrays.asList(SlotType.values());
 		String trait = "MUSIC";
@@ -84,14 +62,23 @@ public class TestRest {
 		List<List<Condition>> conditionPermutations = Util.powerSet(conditions);
 
 		positions.forEach(p -> slotTypes.forEach(s -> conditionPermutations
-				.forEach(c -> traitList.forEach(item -> result.add(new params(s, p, c, item))))));
+				.forEach(c -> traitList.forEach(item -> result.add(new Object[] {s, p, c, item} )))));
 
 		return result;
 	}
-
-	public TestRest(params sp) {
-		this.sp = sp;
+	
+	public TestRest(SlotType s, Position p, List<Condition> c, List<String> trait){
+		this.slotParam = s;
+		this.positionParam = p;
+		this.conditionParam = c;
+		if (trait.size() > 0){
+			this.traitParam1 = trait.get(0);
+		}
+		if (trait.size() > 1){
+			this.traitParam1 = trait.get(1);
+		}
 	}
+	
 
 	@Before
 	public void init() {
@@ -110,29 +97,28 @@ public class TestRest {
 	@Test
 	public void testSlotPosition() {
 		boolean flag;
-		Slot s = board.getStage().getSlot(sp.s);
+		Slot s = board.getStage().getSlot(slotParam);
 		Position expected;
-
-		when(mockCharacter.getTrait1()).thenReturn(sp.trait1);
-		when(mockCharacter.getTrait2()).thenReturn(sp.trait2);
+		when(mockCharacter.getTrait1()).thenReturn(traitParam1);
+		when(mockCharacter.getTrait2()).thenReturn(traitParam2);
 		when(mockCharacter.toShortString()).thenReturn("MOCK");
 		when(mockPlayerController.getChoice(anyString(), anyList())).thenReturn(s);
 
 		s.setCharacter(mockCharacter);
-		s.setPosition(sp.p);
-		assertEquals(sp.p, s.getPosition());
+		s.setPosition(positionParam);
+		assertEquals(positionParam, s.getPosition());
 
 		Rest rest = new Rest();
-		for (Condition condition : sp.c) {
+		for (Condition condition : conditionParam) {
 			rest.addCondition(condition);
 		}
 		rest.setValidTargets(mockPlayerController, mockPlayerController);
 		flag = rest.canActivate();
 
-		if (sp.p == Position.STANDING && flag) {
+		if (positionParam == Position.STANDING && flag) {
 			expected = Position.RESTED;
 		} else {
-			expected = sp.p;
+			expected = positionParam;
 		}
 
 		try {
@@ -145,8 +131,8 @@ public class TestRest {
 			verify(mockPlayerController).log(rest.failureMessage());
 		}
 		assertEquals(5, board.getStage().getSlots().size());
-		assertEquals(mockCharacter, board.getStage().getSlot(sp.s).getCharacter());
-		assertEquals(expected, board.getStage().getSlot(sp.s).getPosition());
+		assertEquals(mockCharacter, board.getStage().getSlot(slotParam).getCharacter());
+		assertEquals(expected, board.getStage().getSlot(slotParam).getPosition());
 	}
 
 }
