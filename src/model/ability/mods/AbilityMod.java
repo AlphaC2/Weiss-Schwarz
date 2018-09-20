@@ -1,4 +1,4 @@
-package model.ability.continuous.mods;
+package model.ability.mods;
 
 import java.util.ArrayList;
 import java.util.List;

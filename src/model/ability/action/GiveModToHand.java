@@ -4,7 +4,7 @@ import java.util.List;
 
 import controller.PlayerController;
 import model.ability.continuous.ContinuousAbility;
-import model.ability.continuous.mods.CardMod;
+import model.ability.mods.CardMod;
 import model.card.Card;
 import model.player.PlayerPhaseTiming;
 

@@ -1,4 +1,4 @@
-package model.ability.continuous.mods;
+package model.ability.mods;
 
 public class NumberMod extends CardMod<Integer>{
 	

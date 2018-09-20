@@ -1,4 +1,4 @@
-package model.ability.continuous.mods;
+package model.ability.mods;
 
 import model.ability.continuous.ContinuousAbility;
 import model.player.PlayerPhaseTiming;

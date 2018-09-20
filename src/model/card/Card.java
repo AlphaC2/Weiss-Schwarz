@@ -9,7 +9,7 @@ import java.util.Map;
 import model.ability.Ability;
 import model.ability.auto.AutoAbility;
 import model.ability.continuous.ContinuousAbility;
-import model.ability.continuous.mods.*;
+import model.ability.mods.*;
 import model.player.PlayerPhaseTiming;
 
 @SuppressWarnings("rawtypes")
