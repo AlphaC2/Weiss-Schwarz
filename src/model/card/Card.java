@@ -9,9 +9,7 @@ import java.util.Map;
 import model.ability.Ability;
 import model.ability.auto.AutoAbility;
 import model.ability.continuous.ContinuousAbility;
-import model.ability.continuous.mods.CardMod;
-import model.ability.continuous.mods.ModType;
-import model.ability.continuous.mods.NumberMod;
+import model.ability.continuous.mods.*;
 import model.player.PlayerPhaseTiming;
 
 @SuppressWarnings("rawtypes")
@@ -49,6 +47,10 @@ public abstract class Card {
 	}
 
 	public List<Ability> getAbilities() {
+		List<Ability> abilities = this.abilities;
+		for (CardMod mod : map.get(ModType.ABILITY)) {
+			abilities = ((AbilityMod) mod).apply(abilities);
+		}
 		return abilities;
 	}
 
@@ -66,10 +68,18 @@ public abstract class Card {
 	}
 
 	public int getCost() {
+		Integer cost = this.cost;
+		for (CardMod mod : map.get(ModType.COST)) {
+			cost = ((NumberMod) mod).apply(cost);
+		}
 		return cost;
 	}
 
 	public Colour getColour() {
+		Colour colour = this.colour;
+		for (CardMod mod : map.get(ModType.COLOUR)) {
+			colour = ((ColourMod) mod).apply(colour);
+		}
 		return colour;
 	}
 

@@ -17,6 +17,9 @@ public class NumberMod extends CardMod<Integer>{
 
 	@Override
 	public Integer apply(Integer base) {
+		if (!isActive()){
+			return base;
+		}
 		return setFlag ? amount : base + amount;
 	}
 
