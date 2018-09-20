@@ -6,7 +6,7 @@ import java.util.List;
 
 import controller.PlayerController;
 import model.ability.AbilityInterface;
-import model.ability.condition.Condition;
+import model.ability.action.condition.Condition;
 
 public abstract class Action<T> implements AbilityInterface {
 	private List<Condition<T>> conditions;

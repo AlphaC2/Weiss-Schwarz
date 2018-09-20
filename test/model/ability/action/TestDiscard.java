@@ -15,7 +15,7 @@ import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
 import controller.ReadUserInput;
-import model.ability.condition.MatchesCardType;
+import model.ability.action.condition.MatchesCardType;
 import model.board.*;
 import model.card.*;
 import model.card.Character;

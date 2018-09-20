@@ -1,7 +1,7 @@
 package model.ability.action;
 
 import controller.PlayerController;
-import model.ability.condition.CanRest;
+import model.ability.action.condition.CanRest;
 import model.board.Slot;
 
 public class Rest extends Action<Slot> {

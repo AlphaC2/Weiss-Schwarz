@@ -1,4 +1,4 @@
-package model.ability.condition;
+package model.ability.action.condition;
 
 public abstract class Condition<T> {
 	private String name;

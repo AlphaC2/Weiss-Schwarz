@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
-import model.ability.condition.CanLevelUp;
+import model.ability.action.condition.CanLevelUp;
 import model.board.Board;
 import model.board.DamageZone;
 import model.card.Card;

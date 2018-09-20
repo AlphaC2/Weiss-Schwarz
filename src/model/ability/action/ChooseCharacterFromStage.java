@@ -1,7 +1,7 @@
 package model.ability.action;
 
 import controller.PlayerController;
-import model.ability.condition.CharacterOnStage;
+import model.ability.action.condition.CharacterOnStage;
 import model.board.Slot;
 
 public class ChooseCharacterFromStage extends Action<Slot> {

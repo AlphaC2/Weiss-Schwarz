@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
-import model.ability.condition.Condition;
-import model.ability.condition.HasStock;
+import model.ability.action.condition.Condition;
+import model.ability.action.condition.HasStock;
 import model.board.Board;
 import model.board.Stock;
 import model.card.Card;

@@ -4,9 +4,9 @@ package model.ability.action;
 import java.util.List;
 
 import controller.PlayerController;
-import model.ability.condition.HasColor;
-import model.ability.condition.HasLevel;
-import model.ability.condition.HasStockCard;
+import model.ability.action.condition.HasColor;
+import model.ability.action.condition.HasLevel;
+import model.ability.action.condition.HasStockCard;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;

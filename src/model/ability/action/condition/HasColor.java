@@ -1,4 +1,4 @@
-package model.ability.condition;
+package model.ability.action.condition;
 
 import java.util.List;
 

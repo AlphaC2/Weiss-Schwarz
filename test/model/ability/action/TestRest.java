@@ -17,8 +17,8 @@ import org.junit.runners.Parameterized;
 
 import controller.PlayerController;
 import controller.ReadUserInput;
-import model.ability.condition.Condition;
-import model.ability.condition.HasTrait;
+import model.ability.action.condition.Condition;
+import model.ability.action.condition.HasTrait;
 import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;

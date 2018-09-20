@@ -4,7 +4,7 @@ import java.util.List;
 
 import controller.PlayerController;
 import model.ability.Ability;
-import model.ability.condition.Condition;
+import model.ability.action.condition.Condition;
 import model.card.Card;
 
 @SuppressWarnings("rawtypes")
