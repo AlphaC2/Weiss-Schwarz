@@ -10,10 +10,10 @@ import org.junit.*;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
+import io.Writer;
 import model.ability.action.PayStock;
 import model.ability.action.TakeDamage;
 import model.board.Board;
@@ -46,7 +46,6 @@ public class TestPhaseTransitionAbilities {
 	private LevelZone level;
 	private AutoAbility dummy;
 	private List<AutoAbility> dummyList;
-	private GameManager gm;
 	
 	@Mock
 	Card mockCard;
@@ -64,8 +63,11 @@ public class TestPhaseTransitionAbilities {
 	Climax mockClimax;
 
 	@Mock
-	ReadUserInput mockReader;
-
+	Reader mockReader;
+	
+	@Mock
+	Writer mockWriter;
+	
 	@Before
 	public void init() {
 		testNumber++;
@@ -78,17 +80,15 @@ public class TestPhaseTransitionAbilities {
 		}
 
 		// Real Controller setup
-		controller1 = new ConsoleController("P1");
-		controller1.setReader(mockReader);
+		controller1 = new PlayerController("P1", mockReader, mockWriter);
 		controller1.setDeck(deck);
 		board = controller1.getBoard();
 
-		controller2 = new ConsoleController("P2");
-		controller2.setReader(mockReader);
+		controller2 = new PlayerController("P2", mockReader, mockWriter);
 		controller2.setDeck(deck);
 
 		// Gamemanager setup
-		gm = new GameManager(controller1, controller2);
+		new GameManager(controller1, controller2);
 
 		// Zone setup
 		library = board.getLibrary();

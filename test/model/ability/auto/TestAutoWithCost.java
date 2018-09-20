@@ -12,10 +12,12 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.ConsoleController;
+import app.App;
 import controller.GameManager;
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.ConsoleWriter;
+import io.Reader;
+import io.Writer;
 import model.ability.action.DiscardFromHand;
 import model.ability.action.DrawToHand;
 import model.ability.action.PayStock;
@@ -65,7 +67,10 @@ public class TestAutoWithCost {
 	Climax mockClimax;
 
 	@Mock
-	ReadUserInput mockReader;
+	Reader mockReader;
+	
+	@Mock
+	Writer mockWriter;
 
 	@Before
 	public void init() {
@@ -79,13 +84,11 @@ public class TestAutoWithCost {
 		}
 
 		// Real Controller setup
-		controller1 = new ConsoleController("P1");
-		controller1.setReader(mockReader);
+		controller1 = new PlayerController("P1", mockReader, mockWriter);
 		controller1.setDeck(deck);
 		board = controller1.getBoard();
 		
-		controller2 = new ConsoleController("P2");
-		controller2.setReader(mockReader);
+		controller2 = new PlayerController("P2", mockReader, mockWriter);
 		controller2.setDeck(deck);
 		
 		// Gamemanager setup

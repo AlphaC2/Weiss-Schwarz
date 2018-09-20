@@ -5,14 +5,32 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import controller.ReadUserInput;
+import model.card.Card;
+import model.exceptions.InvalidDeckException;
+import model.exceptions.InvalidIDException;
 
-public class ConsoleReadUserInput implements ReadUserInput{
+public class ConsoleReader extends Reader{
 	private BufferedReader r;
 	
-	public ConsoleReadUserInput() {
+	public ConsoleReader() {
 		super();
 		r = new BufferedReader(new InputStreamReader(System.in));
+	}
+	
+	@Override
+	public List<Card> readDeck() {
+		DeckBuilder db = new DeckBuilder();
+		try {
+			List<String> deckNames = db.getDecks();
+			String deckname = getChoice("Select your deck", deckNames);
+			return db.readDeck("Decks/" + deckname + ".xml");
+		} catch (InvalidIDException e) {
+			e.printStackTrace();
+		} catch (InvalidDeckException e) {
+			e.printStackTrace();
+		}
+		return null;
+
 	}
 	
 	public <T> T getChoice(String prompt, List<T> choices){
@@ -56,6 +74,11 @@ public class ConsoleReadUserInput implements ReadUserInput{
 			e.printStackTrace();
 		}
 		return false;
+	}
+
+	@Override
+	public void buildDeck() {
+		// TODO Auto-generated method stub
 	}
 	
 }

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import io.Reader;
+import io.Writer;
 import model.ability.action.PlaceInDamageFromLibrary;
 import model.ability.auto.AutoAbility;
 import model.ability.auto.PhaseAutoAbility;
@@ -16,20 +18,22 @@ import model.gameEvent.GameEvent;
 import model.gameEvent.PhaseEvent;
 import model.player.Player;
 
-public abstract class PlayerController {
+public class PlayerController {
 
 	private Player player;
 	private Board board;
-	private ReadUserInput reader;
+	private Reader reader;
+	private Writer writer;
 	private List<GameEvent> events;
 	private boolean isAlive = true;
 	private GameManager gm;
 	private int refreshPoint = 0;
 	private List<AutoAbility> choices = new ArrayList<>();
 
-	public PlayerController(String name, ReadUserInput reader) {
+	public PlayerController(String name, Reader reader, Writer writer) {
 		player = new Player(name);
 		this.reader = reader;
+		this.writer = writer;
 		events = new ArrayList<>();
 	}
 
@@ -42,10 +46,6 @@ public abstract class PlayerController {
 		board = new Board(deck);
 	}
 
-	public abstract void buildDeck();
-
-	public abstract void readDeck();
-
 	public final <T> T getChoice(String prompt, List<T> choices) {
 		return reader.getChoice(prompt, choices);
 	}
@@ -53,8 +53,6 @@ public abstract class PlayerController {
 	public final boolean getChoice(String prompt) {
 		return reader.getChoice(prompt);
 	}
-
-	public abstract void log(Object text);
 
 	public Player getPlayer() {
 		return player;
@@ -191,25 +189,13 @@ public abstract class PlayerController {
 		return true;
 	}
 
-	public abstract void displayStage();
-
-	public abstract void displayHand();
-
-	public abstract void displayWaitingRoom();
-
-	public abstract void displayDamageZone();
-
-	public abstract void displayLevel();
-
-	public abstract void displayStock();
-
 	public Board getBoard() {
 		return board;
 	}
 
 	// public abstract void handleException(NotEnoughStockException e);
 
-	public final void setReader(ReadUserInput reader) {
+	public final void setReader(Reader reader) {
 		this.reader = reader;
 	}
 
@@ -235,4 +221,37 @@ public abstract class PlayerController {
 	public void refresh() {
 		refreshPoint++;
 	}
+
+	public void readDeck() {
+		setDeck(reader.readDeck());
+	}
+	
+	public void displayStage(){
+		writer.displayStage();
+	}
+	
+	public void displayHand(){
+		writer.displayHand();
+	}
+	
+	public void displayWaitingRoom(){
+		writer.displayWaitingRoom();
+	}
+	
+	public void displayDamageZone(){
+		writer.displayDamageZone();
+	}
+	
+	public void displayLevel(){
+		writer.displayLevel();
+	}
+	
+	public void displayStock(){
+		writer.displayStock();
+	}
+	
+	public void log(Object text){
+		writer.log(text);
+	}
+	
 }

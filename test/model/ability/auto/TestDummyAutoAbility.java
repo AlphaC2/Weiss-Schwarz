@@ -11,10 +11,10 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
+import io.Writer;
 import model.ability.action.DrawToHand;
 import model.ability.action.PlaceInDamageFromLibrary;
 import model.board.Board;
@@ -27,7 +27,6 @@ import model.card.Card;
 import model.card.Character;
 import model.card.Climax;
 import model.gameEvent.EventType;
-import model.player.Player;
 
 public class TestDummyAutoAbility {
 	private Board board;
@@ -55,14 +54,11 @@ public class TestDummyAutoAbility {
 	Climax mockClimax;
 
 	@Mock
-	PlayerController mockPlayerController;
+	Reader mockReader;
 
 	@Mock
-	ReadUserInput mockReader;
-
-	@Mock
-	Player mockPlayer;
-
+	Writer mockWriter;
+	
 	@Before
 	public void init() {
 		testNumber++;
@@ -75,20 +71,12 @@ public class TestDummyAutoAbility {
 		}
 
 		// Real Controller setup
-		controller1 = new ConsoleController("Real Player");
-		controller1.setReader(mockReader);
+		controller1 = new PlayerController("Real Player", mockReader, mockWriter);
 		controller1.setDeck(deck);
 		board = controller1.getBoard();
 		
-		controller2 = new ConsoleController("Real Player2");
-		controller2.setReader(mockReader);
+		controller2 = new PlayerController("Real Player2", mockReader, mockWriter);
 		controller2.setDeck(deck);
-		
-		// Mock Controller setup
-		when(mockPlayerController.getBoard()).thenReturn(board);
-		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
-		mockPlayerController.setReader(mockReader);
-		doReturn("mockPlayer").when(mockPlayer).getName();
 		
 		// Gamemanager setup
 		new GameManager(controller1, controller2);

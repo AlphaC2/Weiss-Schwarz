@@ -44,11 +44,15 @@ public abstract class Card {
 		this.flavourText = flavourText;
 		this.visible = true;
 		abilities = new ArrayList<>();
+		for (ModType modType : ModType.values()) {
+			map.put(modType, new ArrayList<CardMod>());
+		}
 	}
 
 	public List<Ability> getAbilities() {
 		List<Ability> abilities = this.abilities;
 		for (CardMod mod : map.get(ModType.ABILITY)) {
+			System.out.println("asd");
 			abilities = ((AbilityMod) mod).apply(abilities);
 		}
 		return abilities;
@@ -164,12 +168,7 @@ public abstract class Card {
 
 	public void addMod(List<CardMod> newMods) {
 		for (CardMod mod : newMods) {
-			List<CardMod> list = null;
-			if (!map.containsKey(mod.getType())){
-				list = new ArrayList<>();
-				map.put(mod.getType(), list);
-			}
-			list.add(mod);
+			map.get(mod.getType()).add(mod);
 		}
 	}
 

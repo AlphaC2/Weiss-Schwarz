@@ -12,7 +12,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
 import model.board.Board;
 import model.board.Library;
 import model.board.ResolutionZone;
@@ -35,7 +35,7 @@ public class TestDrawDamageToResolution {
 	PlayerController mockPlayerController;
 	
 	@Mock
-	ReadUserInput mockReader;
+	Reader mockReader;
 	
 	@Before
 	public void init(){

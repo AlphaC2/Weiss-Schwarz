@@ -7,23 +7,25 @@ import org.junit.*;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.ConsoleController;
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
+import io.Writer;
 
 public class TestDoReturn {
 	PlayerController Controller;
 	
 	@Mock
-	ReadUserInput mockReader;
+	Reader mockReader;
+	
+	@Mock
+	Writer mockWriter;
 	
 	@Before
 	public void init(){
 		MockitoAnnotations.initMocks(this);
 
 		doReturn(true,false).when(mockReader).getChoice(anyString());
-		Controller = new ConsoleController("P1");
-		Controller.setReader(mockReader);
+		Controller = new PlayerController("P1", mockReader, mockWriter);
 	}
 	
 	@Test

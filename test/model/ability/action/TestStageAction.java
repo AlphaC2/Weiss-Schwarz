@@ -14,7 +14,7 @@ import org.mockito.MockitoAnnotations;
 import org.junit.runners.Parameterized;
 
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
 import model.ability.AbilityInterface;
 import model.board.Board;
 import model.board.Slot;
@@ -36,7 +36,7 @@ public class TestStageAction {
 	PlayerController mockPlayerController;
 	
 	@Mock
-	ReadUserInput mockReader;
+	Reader mockReader;
 	
 	public TestStageAction(AbilityInterface action) {
 		super();

@@ -3,7 +3,7 @@ package controller;
 import java.util.List;
 
 import command.*;
-import io.ConsoleReadUserInput;
+import io.ConsoleReader;
 import model.ability.Activatable;
 import model.ability.action.DrawToHand;
 import model.board.Hand;
@@ -13,14 +13,14 @@ import model.player.PlayerPhase;
 
 public class GameManager {
 	
-	ConsoleReadUserInput reader;
+	ConsoleReader reader;
 	PlayerController player1;
 	PlayerController player2;
 	PlayerController currentPlayer;
 	boolean alive = true;
 
 	public GameManager(PlayerController p1, PlayerController p2) {
-		reader = new ConsoleReadUserInput();
+		reader = new ConsoleReader();
 		player1 = p1;
 		player2 = p2;
 		currentPlayer = p1;

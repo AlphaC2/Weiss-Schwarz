@@ -13,10 +13,10 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.ConsoleController;
 import controller.GameManager;
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
+import io.Writer;
 import model.board.Board;
 import model.board.DamageZone;
 import model.board.LevelZone;
@@ -27,7 +27,6 @@ import model.card.Card;
 import model.card.Character;
 import model.card.Climax;
 import model.exceptions.EmptyLibraryException;
-import model.player.Player;
 
 public class TestTakeDamage {
 	private Board board;
@@ -39,9 +38,6 @@ public class TestTakeDamage {
 	private WaitingRoom waitingRoom;
 	private LevelZone level;
 
-	//@Rule
-	//public final ExpectedSystemExit exit;
-	
 	@Mock
 	Card mockCard;
 
@@ -55,13 +51,10 @@ public class TestTakeDamage {
 	Climax mockClimax;
 
 	@Mock
-	PlayerController mockPlayerController;
+	Reader mockReader;
 
 	@Mock
-	ReadUserInput mockReader;
-
-	@Mock
-	Player mockPlayer;
+	Writer mockWriter;
 
 	@Before
 	public void init() {
@@ -75,19 +68,12 @@ public class TestTakeDamage {
 		}
 
 		// Real Controller setup
-		controller = new ConsoleController("Real Player");
-		controller.setReader(mockReader);
+		controller = new PlayerController("P1", mockReader, mockWriter);
 		controller.setDeck(deck);
 		board = controller.getBoard();
-		
-		// Mock Controller setup
-		when(mockPlayerController.getBoard()).thenReturn(board);
-		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
-		mockPlayerController.setReader(mockReader);
-		doReturn("mockPlayer").when(mockPlayer).getName();
-		
+
 		// Gamemanager setup
-		new GameManager(controller, mockPlayerController);
+		new GameManager(controller, controller);
 		
 		// Zone setup
 		library = board.getLibrary();
@@ -114,7 +100,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(50, library.size());
@@ -135,7 +121,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(50, library.size());
@@ -161,7 +147,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(3).execute(controller, mockPlayerController);
+		new TakeDamage(3).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(50, library.size());
@@ -186,7 +172,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(3).execute(controller, mockPlayerController);
+		new TakeDamage(3).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(50, library.size());
@@ -220,7 +206,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(0, waitingRoom.size());
@@ -257,7 +243,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(2, library.size());
@@ -284,7 +270,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(49, library.size());
@@ -313,7 +299,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(2).execute(controller, mockPlayerController);
+		new TakeDamage(2).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(48, library.size());
@@ -344,7 +330,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 
 		// Perform Actions
-		new TakeDamage(2).execute(controller, mockPlayerController);
+		new TakeDamage(2).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(50, library.size());
@@ -387,7 +373,7 @@ public class TestTakeDamage {
 		assertEquals(0, level.size());
 
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 
 		// Check Postconditions
 		assertEquals(4, library.size());
@@ -417,7 +403,7 @@ public class TestTakeDamage {
 		assertEquals(0, resolution.size());
 		
 		// Perform Actions
-		new TakeDamage(1).execute(controller, mockPlayerController);
+		new TakeDamage(1).execute(controller, controller);
 		
 		// Check Postconditions
 		assertEquals(1, resolution.size());

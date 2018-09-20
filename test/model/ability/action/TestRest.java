@@ -16,7 +16,7 @@ import org.mockito.MockitoAnnotations;
 import org.junit.runners.Parameterized;
 
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
 import model.ability.action.condition.Condition;
 import model.ability.action.condition.HasTrait;
 import model.board.Board;
@@ -46,7 +46,7 @@ public class TestRest {
 	PlayerController mockPlayerController;
 
 	@Mock
-	ReadUserInput mockReader;
+	Reader mockReader;
 
 	@Parameterized.Parameters(name = "{index} : parameters({0})")
 	public static Collection<Object[]> parameters() {

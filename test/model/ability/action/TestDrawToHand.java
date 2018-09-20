@@ -10,7 +10,7 @@ import org.junit.*;
 import org.mockito.*;
 
 import controller.PlayerController;
-import io.ConsoleReadUserInput;
+import io.ConsoleReader;
 import model.ability.action.DrawToHand;
 import model.board.Board;
 import model.board.Hand;
@@ -30,7 +30,7 @@ public class TestDrawToHand {
 	PlayerController mockPlayerController;
 	
 	@Mock
-	private ConsoleReadUserInput reader;
+	private ConsoleReader reader;
 	
 	@Mock
 	Player mockPlayer;

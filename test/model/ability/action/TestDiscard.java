@@ -11,10 +11,11 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.ConsoleController;
+import app.App;
 import controller.GameManager;
 import controller.PlayerController;
-import controller.ReadUserInput;
+import io.Reader;
+import io.Writer;
 import model.ability.action.condition.MatchesCardType;
 import model.board.*;
 import model.card.*;
@@ -25,7 +26,7 @@ public class TestDiscard {
 	private Board board;
 	private PlayerController controller1;
 	private PlayerController controller2;
-	private ConsoleController realReader;
+	private App realReader;
 	private static int testNumber = 0;
 	private Library library;
 	private WaitingRoom waitingRoom;
@@ -50,14 +51,11 @@ public class TestDiscard {
 	Event mockEvent;
 
 	@Mock
-	PlayerController mockPlayerController;
+	Reader mockReader;
 
 	@Mock
-	ReadUserInput mockReader;
-
-	@Mock
-	Player mockPlayer;
-
+	Writer mockWriter;
+	
 	@Before
 	public void init() {
 		testNumber++;
@@ -69,24 +67,13 @@ public class TestDiscard {
 			deck.add(mockCard);
 		}
 		
-		// Real Reader setup
-		realReader = new ConsoleController("P1 RealReader");
-		realReader.setDeck(deck);
-
 		// Real Controller setup
-		controller1 = new ConsoleController("Real Player");
-		controller1.setReader(mockReader);
+		controller1 = new PlayerController("P1", mockReader, mockWriter);
 		controller1.setDeck(deck);
+		board = controller1.getBoard();
 		
-		controller2 = new ConsoleController("Real Player2");
-		controller2.setReader(mockReader);
+		controller2 = new PlayerController("P2", mockReader, mockWriter);
 		controller2.setDeck(deck);
-		
-		// Mock Controller setup
-		when(mockPlayerController.getBoard()).thenReturn(board);
-		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
-		mockPlayerController.setReader(mockReader);
-		doReturn("mockPlayer").when(mockPlayer).getName();
 		
 		// Gamemanager setup
 		new GameManager(controller1, controller2);
