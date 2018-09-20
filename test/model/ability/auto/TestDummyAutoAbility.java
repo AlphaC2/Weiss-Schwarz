@@ -13,6 +13,7 @@ import org.mockito.MockitoAnnotations;
 
 import controller.GameManager;
 import controller.PlayerController;
+import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
 import model.ability.action.DrawToHand;
@@ -25,7 +26,6 @@ import model.board.SlotType;
 import model.board.Stage;
 import model.card.Card;
 import model.card.Character;
-import model.card.Climax;
 import model.gameEvent.EventType;
 
 public class TestDummyAutoAbility {
@@ -33,25 +33,15 @@ public class TestDummyAutoAbility {
 	private PlayerController controller1;
 	private PlayerController controller2;
 	private static int testNumber = 0;
+	private String path = "CardData\\DummySet\\";
 	private Library library;
 	private DamageZone damage;
 	private Stage stage;
 	private Hand hand;
-	
-	//@Rule
-	//public final ExpectedSystemExit exit;
-	
+	private Character character;
+	private Character character2;
 	@Mock
 	Card mockCard;
-
-	@Mock
-	Character mockCharacter;
-
-	@Mock
-	Character mockCharacter2;
-
-	@Mock
-	Climax mockClimax;
 
 	@Mock
 	Reader mockReader;
@@ -65,9 +55,11 @@ public class TestDummyAutoAbility {
 		System.out.println("\nTest Number " + testNumber);
 
 		MockitoAnnotations.initMocks(this);
+		character = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		character2 = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
-			deck.add(mockCard);
+			deck.add(character);
 		}
 
 		// Real Controller setup
@@ -95,23 +87,21 @@ public class TestDummyAutoAbility {
 	@Test
 	public void SelfDrawSelfTakeDamage(){
 		// Setup Test
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true);
+		stage.place(character, SlotType.FRONT_CENTER);
+		AutoAbility dummy = new DummyAutoAbility(character, EventType.DREW_CARD, true);
+		character.addAbility(dummy);
 		dummy.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
+		assertEquals(dummy, character.getAutoAbilities().get(0));
 		assertEquals(0, damage.size());
 		assertEquals(5, hand.size());
 		assertEquals(50, library.size());
@@ -120,8 +110,8 @@ public class TestDummyAutoAbility {
 		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
 		assertEquals(1, damage.size());
 		assertEquals(6, hand.size());
 		assertEquals(48, library.size());
@@ -130,18 +120,16 @@ public class TestDummyAutoAbility {
 	@Test
 	public void SelfDrawOpponentTakeDamage(){
 		// Setup Test
-		controller2.getBoard().getStage().place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, false);
+		controller2.getBoard().getStage().place(character, SlotType.FRONT_CENTER);
+		AutoAbility dummy = new DummyAutoAbility(character, EventType.DREW_CARD, false);
+		character.addAbility(dummy);
 		dummy.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
 
 		// Check Preconditions
-		assertEquals(mockCharacter, controller2.getBoard().getStage().getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(character, controller2.getBoard().getStage().getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
+		assertEquals(dummy, character.getAutoAbilities().get(0));
 		assertEquals(0, damage.size());
 		assertEquals(0, controller2.getBoard().getHand().size());
 		assertEquals(50, controller2.getBoard().getLibrary().size());
@@ -150,8 +138,8 @@ public class TestDummyAutoAbility {
 		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, controller2.getBoard().getStage().getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
+		assertEquals(character, controller2.getBoard().getStage().getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
 		assertEquals(49, library.size());
 		assertEquals(0, damage.size());
 		assertEquals(1, hand.size());
@@ -163,35 +151,31 @@ public class TestDummyAutoAbility {
 	@Test
 	public void MultipleSelfDrawSelfTakeDamage(){
 		// Setup Test
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true);
+		stage.place(character, SlotType.FRONT_CENTER);
+		AutoAbility dummy = new DummyAutoAbility(character, EventType.DREW_CARD, true);
+		character.addAbility(dummy);
 		dummy.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		
-		stage.place(mockCharacter2, SlotType.FRONT_LEFT);
-		AutoAbility dummy2 = new DummyAutoAbility(mockCharacter2, EventType.DREW_CARD, true);
+		stage.place(character2, SlotType.FRONT_LEFT);
+		AutoAbility dummy2 = new DummyAutoAbility(character2, EventType.DREW_CARD, true);
+		character2.addAbility(dummy2);
 		dummy2.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList2 = new ArrayList<>();
-		dummyList2.add(dummy2);
-		when(mockCharacter2.getAutoAbilities()).thenReturn(dummyList2);
 		
 		doReturn(dummy, dummy2).when(mockReader).getChoice(anyString(), anyList());
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
+		assertEquals(dummy, character.getAutoAbilities().get(0));
 
-		assertEquals(mockCharacter2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter() );
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
-		assertEquals(dummy2, mockCharacter2.getAutoAbilities().get(0));
+		assertEquals(character2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter() );
+		assertEquals(1, character2.getAutoAbilities().size());
+		assertEquals(dummy2, character2.getAutoAbilities().get(0));
 		
 		assertEquals(0, damage.size());
 		assertEquals(5, hand.size());
@@ -201,11 +185,11 @@ public class TestDummyAutoAbility {
 		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
 		
-		assertEquals(mockCharacter2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter() );
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
+		assertEquals(character2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter() );
+		assertEquals(1, character2.getAutoAbilities().size());
 		
 		assertEquals(2, damage.size());
 		assertEquals(6, hand.size());
@@ -215,35 +199,31 @@ public class TestDummyAutoAbility {
 	@Test
 	public void P1DrawsTriggerBothTakeDamage(){
 		// Setup Test
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true);
+		stage.place(character, SlotType.FRONT_CENTER);
+		AutoAbility dummy = new DummyAutoAbility(character, EventType.DREW_CARD, true);
+		character.addAbility(dummy);
 		dummy.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		
-		controller2.getBoard().getStage().place(mockCharacter2, SlotType.FRONT_LEFT);
-		AutoAbility dummy2 = new DummyAutoAbility(mockCharacter2, EventType.DREW_CARD, false);
+		controller2.getBoard().getStage().place(character2, SlotType.FRONT_LEFT);
+		AutoAbility dummy2 = new DummyAutoAbility(character2, EventType.DREW_CARD, false);
+		character2.addAbility(dummy2);
 		dummy2.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList2 = new ArrayList<>();
-		dummyList2.add(dummy2);
-		when(mockCharacter2.getAutoAbilities()).thenReturn(dummyList2);
 		
 		doReturn(dummy, dummy2).when(mockReader).getChoice(anyString(), anyList());
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
+		assertEquals(dummy, character.getAutoAbilities().get(0));
 		
-		assertEquals(mockCharacter2, controller2.getBoard().getStage().getSlot(SlotType.FRONT_LEFT).getCharacter() );
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
-		assertEquals(dummy2, mockCharacter2.getAutoAbilities().get(0));
+		assertEquals(character2, controller2.getBoard().getStage().getSlot(SlotType.FRONT_LEFT).getCharacter() );
+		assertEquals(1, character2.getAutoAbilities().size());
+		assertEquals(dummy2, character2.getAutoAbilities().get(0));
 		
 		assertEquals(0, damage.size());
 		assertEquals(5, hand.size());
@@ -256,14 +236,14 @@ public class TestDummyAutoAbility {
 		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
 		assertEquals(1, damage.size());
 		assertEquals(6, hand.size());
 		assertEquals(48, library.size());
 		
-		assertEquals(mockCharacter2, controller2.getBoard().getStage().getSlot(SlotType.FRONT_LEFT).getCharacter() );
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
+		assertEquals(character2, controller2.getBoard().getStage().getSlot(SlotType.FRONT_LEFT).getCharacter() );
+		assertEquals(1, character2.getAutoAbilities().size());
 		assertEquals(1, controller2.getBoard().getDamageZone().size());
 		assertEquals(49, controller2.getBoard().getLibrary().size());
 		
@@ -272,25 +252,23 @@ public class TestDummyAutoAbility {
 	@Test
 	public void SelfDrawSelfTakeOptionalDamage(){
 		// Setup Test
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true, true);
+		stage.place(character, SlotType.FRONT_CENTER);
+		AutoAbility dummy = new DummyAutoAbility(character, EventType.DREW_CARD, true, true);
+		character.addAbility(dummy);
 		dummy.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
 		when(mockReader.getChoice(anyString())).thenReturn(true);
 		
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
+		assertEquals(dummy, character.getAutoAbilities().get(0));
 		assertEquals(0, damage.size());
 		assertEquals(5, hand.size());
 		assertEquals(50, library.size());
@@ -299,8 +277,8 @@ public class TestDummyAutoAbility {
 		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
 		assertEquals(1, damage.size());
 		assertEquals(6, hand.size());
 		assertEquals(48, library.size());
@@ -309,25 +287,24 @@ public class TestDummyAutoAbility {
 	@Test
 	public void SelfDrawSelfTakeNoOptionalDamage(){
 		// Setup Test
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		AutoAbility dummy = new DummyAutoAbility(mockCharacter, EventType.DREW_CARD, true, true);
+		stage.place(character, SlotType.FRONT_CENTER);
+		AutoAbility dummy = new DummyAutoAbility(character, EventType.DREW_CARD, true, true);
+		character.addAbility(dummy);
+		
 		dummy.addAction(new PlaceInDamageFromLibrary());
-		List<AutoAbility> dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		when(mockCharacter.getAutoAbilities()).thenReturn(dummyList);
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
 		when(mockReader.getChoice(anyString())).thenReturn(false);
 		
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
-		hand.add(mockCard);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
+		hand.add(character);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
+		assertEquals(dummy, character.getAutoAbilities().get(0));
 		assertEquals(0, damage.size());
 		assertEquals(5, hand.size());
 		assertEquals(50, library.size());
@@ -336,8 +313,8 @@ public class TestDummyAutoAbility {
 		new DrawToHand().execute(controller1, controller2);
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
+		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
+		assertEquals(1, character.getAutoAbilities().size());
 		assertEquals(0, damage.size());
 		assertEquals(6, hand.size());
 		assertEquals(49, library.size());

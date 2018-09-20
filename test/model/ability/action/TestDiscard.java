@@ -13,6 +13,7 @@ import org.mockito.MockitoAnnotations;
 
 import controller.GameManager;
 import controller.PlayerController;
+import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
 import model.ability.action.condition.MatchesCardType;
@@ -28,25 +29,13 @@ public class TestDiscard {
 	private Library library;
 	private WaitingRoom waitingRoom;
 	private Hand hand;
-	
-	//@Rule
-	//public final ExpectedSystemExit exit;
+	private Character character;
+	private Climax climax;
+	private Event event;
 	
 	@Mock
 	Card mockCard;
-
-	@Mock
-	Character mockCharacter;
-
-	@Mock
-	Character mockCharacter2;
-
-	@Mock
-	Climax mockClimax;
 	
-	@Mock
-	Event mockEvent;
-
 	@Mock
 	Reader mockReader;
 
@@ -74,6 +63,11 @@ public class TestDiscard {
 		
 		// Gamemanager setup
 		new GameManager(controller1, controller2);
+		
+		// Card Setup
+		character = (Character) CardXMLReader.read("CardData\\DummySet\\BasicCharacter.xml");
+		climax = (Climax) CardXMLReader.read("CardData\\DummySet\\DummyClimax.xml");
+		event = (Event) CardXMLReader.read("CardData\\DummySet\\DummyEvent.xml");
 		
 		// Zone setup
 		board = controller1.getBoard();
@@ -108,9 +102,8 @@ public class TestDiscard {
 	@Test
 	public void DiscardCardFromHand(){
 		// Setup Test
-		hand.add(mockCard);
-		when(mockReader.getChoice(anyString(), anyList())).thenReturn(mockCard);
-		//doReturn(mockCard).when(mockReader.getChoice(anyString(), anyList()));
+		hand.add(character);
+		when(mockReader.getChoice(anyString(), anyList())).thenReturn(character);
 		
 		// Check Preconditions
 		assertEquals(1, hand.size());
@@ -129,11 +122,11 @@ public class TestDiscard {
 	@Test
 	public void DiscardCardMeetingTypeFromHand(){
 		// Setup Test
-		hand.add(mockCharacter);
-		hand.add(mockClimax);
+		hand.add(character);
+		hand.add(climax);
 		DiscardFromHand discard = new DiscardFromHand();
 		discard.addCondition(new MatchesCardType(CardType.CHARACTER));
-		when(mockReader.getChoice(anyString(), anyList())).thenReturn(mockCharacter);
+		when(mockReader.getChoice(anyString(), anyList())).thenReturn(character);
 		
 		// Check Preconditions
 		assertEquals(2, hand.size());
@@ -145,20 +138,20 @@ public class TestDiscard {
 		
 		// Check Postconditions
 		assertEquals(1, hand.size());
-		assertEquals(mockClimax, hand.getCards().get(0));
+		assertEquals(climax, hand.getCards().get(0));
 		assertEquals(50, library.size());
 		assertEquals(1, waitingRoom.size());
-		assertEquals(mockCharacter, waitingRoom.getCards().get(0));
+		assertEquals(character, waitingRoom.getCards().get(0));
 	}
 	
 	@Test
 	public void DiscardWithNoneMeetingTypeFromHand(){
 		// Setup Test
-		hand.add(mockEvent);
-		hand.add(mockClimax);
+		hand.add(event);
+		hand.add(climax);
 		DiscardFromHand discard = new DiscardFromHand();
 		discard.addCondition(new MatchesCardType(CardType.CHARACTER));
-		when(mockReader.getChoice(anyString(), anyList())).thenReturn(mockCharacter);
+		when(mockReader.getChoice(anyString(), anyList())).thenReturn(character);
 		
 		// Check Preconditions
 		assertEquals(2, hand.size());
@@ -177,8 +170,8 @@ public class TestDiscard {
 	@Test
 	public void MultipleDiscard(){
 		// Setup Test
-		hand.add(mockCharacter);
-		when(mockReader.getChoice(anyString(), anyList())).thenReturn(mockCharacter);
+		hand.add(character);
+		when(mockReader.getChoice(anyString(), anyList())).thenReturn(character);
 		
 		// Check Preconditions
 		assertEquals(1, hand.size());

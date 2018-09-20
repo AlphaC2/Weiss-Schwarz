@@ -15,9 +15,7 @@ public class HasTrait extends Condition<Slot>{
 	public boolean check() {
 		if (trait != null){
 			Character c = target.getCharacter();
-			if(trait.equalsIgnoreCase(c.getTrait1()) || trait.equalsIgnoreCase(c.getTrait2())){
-				return true;
-			}
+			return c.getTraits().contains(trait.toUpperCase());
 		}
 		return false;
 	}

@@ -26,6 +26,17 @@ public abstract class Card {
 	private boolean visible;
 	private List<Ability> abilities;
 	private Map<ModType, List<CardMod>> map = new HashMap<>();
+	
+	public Card(){
+		init();
+	}
+	
+	private void init(){
+		abilities = new ArrayList<>();
+		for (ModType modType : ModType.values()) {
+			map.put(modType, new ArrayList<CardMod>());
+		}
+	}
 
 	public Card(String name, String cardID, String imagePath, int level, int cost, Colour colour,
 			List<Trigger> passedTriggers, Rarity rarity, String flavourText) {
@@ -43,16 +54,12 @@ public abstract class Card {
 		this.rarity = rarity;
 		this.flavourText = flavourText;
 		this.visible = true;
-		abilities = new ArrayList<>();
-		for (ModType modType : ModType.values()) {
-			map.put(modType, new ArrayList<CardMod>());
-		}
+		init();
 	}
 
 	public final List<Ability> getAbilities() {
 		List<Ability> abilities = this.abilities;
 		for (CardMod mod : map.get(ModType.ABILITY)) {
-			System.out.println("asd");
 			abilities = ((AbilityMod) mod).apply(abilities);
 		}
 		return abilities;

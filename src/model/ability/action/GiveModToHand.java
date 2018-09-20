@@ -1,5 +1,6 @@
 package model.ability.action;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
@@ -13,6 +14,20 @@ public class GiveModToHand extends Action<Card>{
 
 	private List<CardMod> mods;
 
+	public GiveModToHand(CardMod mod, ContinuousAbility ability) {
+		super("Give mod to hand");
+		mod.setAbility(ability);
+		mods = new ArrayList<>();
+		mods.add(mod);
+	}
+	
+	public GiveModToHand(CardMod mod, PlayerPhaseTiming pt) {
+		super("Give mod to hand");
+		mod.setExpiration(pt);
+		mods = new ArrayList<>();
+		mods.add(mod);
+	}
+	
 	public GiveModToHand(List<CardMod> mods, ContinuousAbility ability) {
 		super("Give mod to hand");
 		for (CardMod mod : mods) {

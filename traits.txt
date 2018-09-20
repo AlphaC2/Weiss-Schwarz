@@ -400,4 +400,3 @@ VOICE_ACTOR,声優
 ZEN,禅
 ZENNY,銭
 NONE,特徴なし
-

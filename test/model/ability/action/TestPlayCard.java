@@ -12,18 +12,20 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import controller.PlayerController;
+import io.CardXMLReader;
 import io.Reader;
 import model.board.Board;
 import model.board.Slot;
 import model.board.SlotType;
 import model.card.Card;
 import model.card.Character;
-import model.card.Colour;
 
 public class TestPlayCard {
 	private Board board;
 	private static int testNum = 0;
 	private static String testName = "TestPlayCard";
+	private String path = "CardData\\DummySet\\";
+	
 	@Mock
 	Card mockCard;
 	
@@ -44,16 +46,16 @@ public class TestPlayCard {
 		testNum++;
 		System.out.println(testName + " TestNumber " + testNum);
 		MockitoAnnotations.initMocks(this);
+		
+		//Setup Cards
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
 			deck.add(mockCard);
 		}
 		board = new Board(deck);
-		board.getHand().add(mockCharacter);
 		when(mockPlayerController.getBoard()).thenReturn(board);
 		mockPlayerController.setReader(mockReader);
 		when(mockPlayerController.isAlive()).thenReturn(true);
-		when(mockCard.isFaceUp()).thenReturn(true);
 	}
 
 	//Setup Test
@@ -64,14 +66,15 @@ public class TestPlayCard {
 	@Test
 	public void CharacterAbovePlayerLevel(){
 		//Setup Test
-		when(mockCharacter.getLevel()).thenReturn(3);
-		board.getLevel().add(mockCharacter2);
-
+		Character character = (Character) CardXMLReader.read(path + "LevelOneCharacter.xml");
+		board.getHand().add(character);
+		
 		//Check Preconditions
-		assertEquals(1, board.getLevel().size());
+		assertEquals(0, board.getLevel().size());
 		assertEquals(1, board.getHand().size());
-		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
-
+		assertEquals(character, board.getHand().getCards().get(0) );
+		assertEquals(1, character.getLevel());
+		
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
 		playCard.execute(mockPlayerController, mockPlayerController);
@@ -81,40 +84,45 @@ public class TestPlayCard {
 	}
 
 	@Test
-	public void CharacterSameLevel(){
+	public void CharacterSameLevelAndColour(){
 		//Setup Test
 		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
-		when(mockCharacter.getLevel()).thenReturn(1);
-		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
-		board.getLevel().add(mockCard);
+		Character character = (Character) CardXMLReader.read(path + "LevelOneCharacter.xml");
+		board.getHand().add(character);
+		
+		Character yellowCharacter = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		board.getLevel().add(yellowCharacter);
+		
+		doReturn(character,slot).when(mockReader).getChoice(anyString(), anyList());
 		
 		//Check Preconditions
 		assertEquals(1, board.getLevel().size());
 		assertEquals(1, board.getHand().size());	
-		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
+		assertEquals(character, board.getHand().getCards().get(0) );
+		assertEquals(1, character.getLevel());
 
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
 		playCard.execute(mockPlayerController, mockPlayerController);
 
 		//Check Postconditions
-		assertEquals(mockCharacter, slot.getCharacter());
+		assertEquals(character, slot.getCharacter());
 		assertEquals(0, board.getHand().size());
 	}
 
 	@Test
 	public void CharacterDoesNotMeetColourRequirement(){
 		//Setup Test
-		when(mockCharacter.getLevel()).thenReturn(1);
-		board.getLevel().add(mockCharacter2);
-		when(mockCharacter.getColour()).thenReturn(Colour.YELLOW);
-		when(mockCharacter2.getColour()).thenReturn(Colour.RED);
+		Character red = (Character) CardXMLReader.read(path + "RedCharacter.xml");
+		board.getLevel().add(red);
+		Character character = (Character) CardXMLReader.read(path + "LevelOneCharacter.xml");
+		board.getHand().add(character);
 		
 		//Check Preconditions
 		assertEquals(1, board.getLevel().size());
 		assertEquals(1, board.getHand().size());	
-		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
-		assertNotEquals(mockCharacter.getColour(), mockCharacter2.getColour());
+		assertEquals(character, board.getHand().getCards().get(0) );
+		assertNotEquals(character.getColour(), board.getLevel().getCards().get(0).getColour());
 		
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
@@ -127,7 +135,10 @@ public class TestPlayCard {
 	@Test
 	public void PlayCharacterWithNotEnoughCost(){
 		//Setup Test
-		when(mockCharacter.getCost()).thenReturn(1);
+		Character character = (Character) CardXMLReader.read(path + "CostOneCharacter.xml");
+		board.getHand().add(character);
+		//when(character.getCost()).thenReturn(1);
+		
 		
 		//Verify preconditions
 		assertEquals(0, board.getStock().size());
@@ -145,9 +156,10 @@ public class TestPlayCard {
 	public void PlayCharacterWithExactlyEnoughCost(){
 		//Setup Test
 		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
-		when(mockCharacter.getCost()).thenReturn(1);
-		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
+		Character costOne = (Character) CardXMLReader.read(path + "CostOneCharacter.xml");
+		board.getHand().add(costOne);
 		board.getStock().add(mockCard);
+		doReturn(costOne,slot).when(mockReader).getChoice(anyString(), anyList());
 		
 		//Verify preconditions
 		assertEquals(1, board.getStock().size());
@@ -161,60 +173,35 @@ public class TestPlayCard {
 		assertEquals(0, board.getStock().size());
 		assertEquals(0, board.getHand().size());
 		assertEquals(1, board.getWaitingRoom().size());
-		assertEquals(mockCharacter, slot.getCharacter());
+		assertEquals(costOne, slot.getCharacter());
 	}
 	
-	@Test
-	public void CharacterMeetsLevelAndColourRequirements(){
-		//Setup Test
-		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
-		when(mockCharacter.getLevel()).thenReturn(2);
-		doReturn(mockCharacter,slot).when(mockReader).getChoice(anyString(), anyList());
-		board.getLevel().add(mockCard);
-		board.getLevel().add(mockCharacter2);
-		when(mockCharacter.getColour()).thenReturn(Colour.YELLOW);
-		when(mockCharacter2.getColour()).thenReturn(Colour.YELLOW);
-		when(mockCharacter2.isFaceUp()).thenReturn(true);
-		
-		//Check Preconditions
-		assertEquals(2, board.getLevel().size());
-		assertEquals(2, mockCharacter.getLevel());
-		assertEquals(1, board.getHand().size());
-		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
-		assertEquals(mockCharacter.getColour(), mockCharacter2.getColour());
-		
-		//Perform Actions
-		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
-		
-		//Check Postconditions
-		assertEquals(mockCharacter, slot.getCharacter());
-		assertEquals(0, board.getHand().size());
-		assertEquals(2, board.getLevel().size());
-	}
-
 	@Test
 	public void PlayCharacterOnTopOfCharacter(){
 		//Setup Test
 		Slot slot = board.getStage().getSlot(SlotType.FRONT_CENTER);
-		slot.setCharacter(mockCharacter2);
-		doReturn(mockCharacter, slot).when(mockReader).getChoice(anyString(), anyList());
+		Character character = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		slot.setCharacter(character);
+		
+		Character character2 = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		board.getHand().add(character2);
+		doReturn(character2, slot).when(mockReader).getChoice(anyString(), anyList());
 		
 		//Check Preconditions
 		assertEquals(1, board.getHand().size());
 		assertEquals(0, board.getWaitingRoom().size());
-		assertEquals(mockCharacter, board.getHand().getCards().get(0) );
-		assertEquals(mockCharacter2, slot.getCharacter());
+		assertEquals(character2, board.getHand().getCards().get(0) );
+		assertEquals(character, slot.getCharacter());
 		
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
 		playCard.execute(mockPlayerController, mockPlayerController);
 
 		//Check Postconditions		
-		assertEquals(mockCharacter, slot.getCharacter());
+		assertEquals(character2, slot.getCharacter());
 		assertEquals(0, board.getHand().size());
 		assertEquals(1, board.getWaitingRoom().size());
-		assertEquals(mockCharacter2, board.getWaitingRoom().getCards().get(0));
+		assertEquals(character, board.getWaitingRoom().getCards().get(0));
 	}
 	
 }

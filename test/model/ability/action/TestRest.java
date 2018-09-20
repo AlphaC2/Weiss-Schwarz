@@ -33,8 +33,7 @@ public class TestRest {
 	private SlotType slotParam;
 	private Position positionParam;
 	private List<Condition> conditionParam;
-	private String traitParam1;
-	private String traitParam2;
+	private List<String> traitParams;
 	
 	@Mock
 	Card mockCard;
@@ -71,12 +70,7 @@ public class TestRest {
 		this.slotParam = s;
 		this.positionParam = p;
 		this.conditionParam = c;
-		if (trait.size() > 0){
-			this.traitParam1 = trait.get(0);
-		}
-		if (trait.size() > 1){
-			this.traitParam1 = trait.get(1);
-		}
+		traitParams = trait;
 	}
 	
 
@@ -99,8 +93,7 @@ public class TestRest {
 		boolean flag;
 		Slot s = board.getStage().getSlot(slotParam);
 		Position expected;
-		when(mockCharacter.getTrait1()).thenReturn(traitParam1);
-		when(mockCharacter.getTrait2()).thenReturn(traitParam2);
+		when(mockCharacter.getTraits()).thenReturn(traitParams);
 		when(mockCharacter.toShortString()).thenReturn("MOCK");
 		when(mockPlayerController.getChoice(anyString(), anyList())).thenReturn(s);
 

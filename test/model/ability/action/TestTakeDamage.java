@@ -15,6 +15,7 @@ import org.mockito.MockitoAnnotations;
 
 import controller.GameManager;
 import controller.PlayerController;
+import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
 import model.board.Board;
@@ -37,7 +38,9 @@ public class TestTakeDamage {
 	private DamageZone damage;
 	private WaitingRoom waitingRoom;
 	private LevelZone level;
-
+	private Climax climax;
+	private Character character;
+	
 	@Mock
 	Card mockCard;
 
@@ -62,9 +65,14 @@ public class TestTakeDamage {
 		System.out.println("\nTest Number " + testNumber);
 
 		MockitoAnnotations.initMocks(this);
+		
+		//Card setup
+		character = (Character) CardXMLReader.read("CardData\\DummySet\\BasicCharacter.xml");
+		climax = (Climax) CardXMLReader.read("CardData\\DummySet\\DummyClimax.xml");
+		
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
-			deck.add(mockCard);
+			deck.add(character);
 		}
 
 		// Real Controller setup
@@ -112,11 +120,11 @@ public class TestTakeDamage {
 	@Test
 	public void CancelOneDamage() {
 		// Setup Test
-		library.placeTop(mockClimax);
+		library.placeTop(climax);
 
 		// Check Preconditions
 		assertEquals(51, library.size());
-		assertEquals(mockClimax, library.peek());
+		assertEquals(climax, library.peek());
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
 
@@ -126,7 +134,7 @@ public class TestTakeDamage {
 		// Check Postconditions
 		assertEquals(50, library.size());
 		assertEquals(1, waitingRoom.size());
-		assertEquals(mockClimax, waitingRoom.getCards().get(0));
+		assertEquals(climax, waitingRoom.getCards().get(0));
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
 	}
@@ -134,15 +142,15 @@ public class TestTakeDamage {
 	@Test
 	public void TakeThreeDamage() {
 		// Setup Test
-		library.placeTop(mockCharacter);
-		library.placeTop(mockCharacter);
-		library.placeTop(mockCharacter);
+		library.placeTop(character);
+		library.placeTop(character);
+		library.placeTop(character);
 
 		// Check Preconditions
 		assertEquals(53, library.size());
-		assertEquals(mockCharacter, library.getCards().get(0));
-		assertEquals(mockCharacter, library.getCards().get(1));
-		assertEquals(mockCharacter, library.getCards().get(2));
+		assertEquals(character, library.getCards().get(0));
+		assertEquals(character, library.getCards().get(1));
+		assertEquals(character, library.getCards().get(2));
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
 
@@ -159,15 +167,15 @@ public class TestTakeDamage {
 	@Test
 	public void CancelThreeDamage() {
 		// Setup Test
-		library.placeTop(mockClimax);
-		library.placeTop(mockCharacter);
-		library.placeTop(mockCharacter);
+		library.placeTop(climax);
+		library.placeTop(character);
+		library.placeTop(character);
 
 		// Check Preconditions
 		assertEquals(53, library.size());
-		assertEquals(mockCharacter, library.getCards().get(0));
-		assertEquals(mockCharacter, library.getCards().get(1));
-		assertEquals(mockClimax, library.getCards().get(2));
+		assertEquals(character, library.getCards().get(0));
+		assertEquals(character, library.getCards().get(1));
+		assertEquals(climax, library.getCards().get(2));
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
 
@@ -177,7 +185,7 @@ public class TestTakeDamage {
 		// Check Postconditions
 		assertEquals(50, library.size());
 		assertEquals(3, waitingRoom.size());
-		assertTrue(waitingRoom.getCards().contains(mockClimax));
+		assertTrue(waitingRoom.getCards().contains(climax));
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
 	}
@@ -219,7 +227,7 @@ public class TestTakeDamage {
 	public void RefreshDamageWithClimax() {
 		// Setup Test
 		List<Card> cards = library.getCards();
-		library.placeTop(mockClimax);
+		library.placeTop(climax);
 		for (Card card : cards) {
 			try {
 				library.remove(card);
@@ -228,16 +236,16 @@ public class TestTakeDamage {
 				e.printStackTrace();
 			}
 		}
-		waitingRoom.add(mockClimax);
-		waitingRoom.add(mockClimax);
-		waitingRoom.add(mockClimax);
+		waitingRoom.add(climax);
+		waitingRoom.add(climax);
+		waitingRoom.add(climax);
 
 		// Check Preconditions
 		assertEquals(1, library.size());
 		assertEquals(3, waitingRoom.size());
 		List<Card> waitingCards = waitingRoom.getCards();
 		for (Card card : waitingCards) {
-			assertEquals(card, mockClimax);
+			assertEquals(card, climax);
 		}
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
@@ -255,13 +263,13 @@ public class TestTakeDamage {
 	@Test
 	public void TakeDamageLevelUp() {
 		// Setup Test
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCharacter);
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
 
 		// Check Preconditions
 		assertEquals(50, library.size());
@@ -277,20 +285,20 @@ public class TestTakeDamage {
 		assertEquals(0, damage.size());
 		assertEquals(1, level.size());
 		assertEquals(6, board.getWaitingRoom().size());
-		assertEquals(mockCharacter, level.getCards().get(0));
+		assertEquals(character, level.getCards().get(0));
 		assertEquals(0, resolution.size());
 	}
 
 	@Test
 	public void TakeDamageMoreThanLevelUp() {
 		// Setup Test
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCharacter);
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
 
 		// Check Preconditions
 		assertEquals(50, library.size());
@@ -306,22 +314,22 @@ public class TestTakeDamage {
 		assertEquals(1, damage.size());
 		assertEquals(1, level.size());
 		assertEquals(6, board.getWaitingRoom().size());
-		assertEquals(mockCharacter, level.getCards().get(0));
+		assertEquals(character, level.getCards().get(0));
 		assertEquals(0, resolution.size());
 	}
 
 	@Test
 	public void CancelDamageMoreThanLevelUp() {
 		// Setup Test
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCharacter);
-		library.placeTop(mockClimax);
-		library.placeTop(mockCard);
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		library.placeTop(climax);
+		library.placeTop(character);
 
 		// Check Preconditions
 		assertEquals(52, library.size());
@@ -343,9 +351,9 @@ public class TestTakeDamage {
 	@Test
 	public void RefreshLevelUp() {
 		// Setup Test
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
 		List<Card> cards = library.getCards();
-		library.placeTop(mockCard);
+		library.placeTop(character);
 		for (Card card : cards) {
 			try {
 				library.remove(card);
@@ -354,17 +362,17 @@ public class TestTakeDamage {
 				e.printStackTrace();
 			}
 		}
-		waitingRoom.add(mockCard);
-		waitingRoom.add(mockCard);
-		waitingRoom.add(mockCard);
-		waitingRoom.add(mockCard);
-		waitingRoom.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCharacter);
+		waitingRoom.add(character);
+		waitingRoom.add(character);
+		waitingRoom.add(character);
+		waitingRoom.add(character);
+		waitingRoom.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
 
 		// Check Preconditions
 		assertEquals(1, library.size());

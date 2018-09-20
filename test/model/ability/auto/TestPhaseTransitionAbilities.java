@@ -12,6 +12,7 @@ import org.mockito.MockitoAnnotations;
 
 import controller.GameManager;
 import controller.PlayerController;
+import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
 import model.ability.action.PayStock;
@@ -27,7 +28,6 @@ import model.board.Stock;
 import model.board.WaitingRoom;
 import model.card.Card;
 import model.card.Character;
-import model.card.Climax;
 import model.gameEvent.EventType;
 import model.player.PhaseTiming;
 import model.player.PlayerPhase;
@@ -36,6 +36,7 @@ public class TestPhaseTransitionAbilities {
 	private Board board;
 	private PlayerController controller1;
 	private PlayerController controller2;
+	private String path = "CardData\\DummySet\\";
 	private static int testNumber = 0;
 	private Library library;
 	private DamageZone damage;
@@ -45,23 +46,11 @@ public class TestPhaseTransitionAbilities {
 	private Stock stock;
 	private LevelZone level;
 	private AutoAbility dummy;
-	private List<AutoAbility> dummyList;
+	private Character basicCharacter;
+	private Character character1;
+	private Character character2;
+	private Character character3;
 	
-	@Mock
-	Card mockCard;
-
-	@Mock
-	Character mockCharacter;
-
-	@Mock
-	Character mockCharacter2;
-	
-	@Mock
-	Character mockCharacter3;
-	
-	@Mock
-	Climax mockClimax;
-
 	@Mock
 	Reader mockReader;
 	
@@ -74,9 +63,14 @@ public class TestPhaseTransitionAbilities {
 		System.out.println("\nTest Number " + testNumber);
 
 		MockitoAnnotations.initMocks(this);
+		basicCharacter = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		character1 = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		character2 = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		character3 = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
+		
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
-			deck.add(mockCard);
+			deck.add(basicCharacter);
 		}
 
 		// Real Controller setup
@@ -100,17 +94,16 @@ public class TestPhaseTransitionAbilities {
 		level = board.getLevel();
 		
 		// Setup Dummy Ability
-		dummy = new DummyPhaseAutoAbility(mockCharacter, true, PlayerPhase.DRAW, PhaseTiming.START);		
+		dummy = new DummyPhaseAutoAbility(character1, true, PlayerPhase.DRAW, PhaseTiming.START);		
 		dummy.addCost(new PayStock(1));
 		dummy.addAction(new TakeDamage(1));
-		dummyList = new ArrayList<>();
-		dummyList.add(dummy);
-		doReturn(dummyList).when(mockCharacter).getAutoAbilities();
+		
+		character1.addAbility(dummy);
 		doReturn(dummy).when(mockReader).getChoice(anyString(), anyList());
 		
 		//Basic Preconditions
-		assertEquals(1, mockCharacter.getAutoAbilities().size());
-		assertEquals(dummy, mockCharacter.getAutoAbilities().get(0));
+		assertEquals(1, character1.getAutoAbilities().size());
+		assertEquals(dummy, character1.getAutoAbilities().get(0));
 	}
 	
 	// Setup Test
@@ -122,12 +115,12 @@ public class TestPhaseTransitionAbilities {
 	public void BeginningOfDrawPhaseTrigger(){
 		// Setup Test
 		controller1.getPlayer().endPhase();
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		stock.add(mockCard);
+		stage.place(character1, SlotType.FRONT_CENTER);
+		stock.add(basicCharacter);
 		dummy.setTargets(controller1, controller2);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
+		assertEquals(character1, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
 		assertEquals(PlayerPhase.STAND ,controller1.getPlayer().getPhase());
 		assertEquals(0, hand.size());
 		assertEquals(50, library.size());
@@ -139,7 +132,7 @@ public class TestPhaseTransitionAbilities {
 		controller1.getPlayer().endPhase();
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
+		assertEquals(character1, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
 		assertEquals(PlayerPhase.DRAW,controller1.getPlayer().getPhase());
 		assertEquals(0, hand.size());
 		
@@ -153,27 +146,25 @@ public class TestPhaseTransitionAbilities {
 	@Test
 	public void TwoAutoAbilitiesTriggerDifferentTimes(){
 		// Setup Test
-		PhaseAutoAbility dummy2 = new DummyPhaseAutoAbility(mockCharacter2, true, PlayerPhase.STAND, PhaseTiming.END);
+		PhaseAutoAbility dummy2 = new DummyPhaseAutoAbility(character2, true, PlayerPhase.STAND, PhaseTiming.END);
 		dummy2.addCost(new PayStock(1));
 		dummy2.addAction(new TakeDamage(1));
-		ArrayList<PhaseAutoAbility> dummyList2 = new ArrayList<>();
-		dummyList2.add(dummy2);
-		doReturn(dummyList2).when(mockCharacter2).getAutoAbilities();
+		character2.addAbility(dummy2);
 		doReturn(dummy2, dummy).when(mockReader).getChoice(anyString(), anyList());
 		
 		controller1.getPlayer().endPhase();
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		stage.place(mockCharacter2, SlotType.FRONT_LEFT);
-		stock.add(mockCard);
-		stock.add(mockCard);
+		stage.place(character1, SlotType.FRONT_CENTER);
+		stage.place(character2, SlotType.FRONT_LEFT);
+		stock.add(basicCharacter);
+		stock.add(basicCharacter);
 		dummy.setTargets(controller1, controller2);
 		dummy2.setTargets(controller1, controller2);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
-		assertEquals(mockCharacter2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
-		assertEquals(dummy2, mockCharacter2.getAutoAbilities().get(0));
+		assertEquals(character1, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
+		assertEquals(character2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
+		assertEquals(1, character2.getAutoAbilities().size());
+		assertEquals(dummy2, character2.getAutoAbilities().get(0));
 		assertEquals(PlayerPhase.STAND,controller1.getPlayer().getPhase());
 
 		assertEquals(0, hand.size());
@@ -186,10 +177,10 @@ public class TestPhaseTransitionAbilities {
 		controller1.getPlayer().endPhase();
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
-		assertEquals(mockCharacter2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
-		assertEquals(dummy2, mockCharacter2.getAutoAbilities().get(0));
+		assertEquals(character1, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
+		assertEquals(character2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
+		assertEquals(1, character2.getAutoAbilities().size());
+		assertEquals(dummy2, character2.getAutoAbilities().get(0));
 		assertEquals(PlayerPhase.DRAW,controller1.getPlayer().getPhase());
 		assertEquals(0, hand.size());
 		assertEquals(0, stock.size());
@@ -203,48 +194,44 @@ public class TestPhaseTransitionAbilities {
 	public void ThreeAutoAbilitiesTriggerDifferentTimes(){
 		// Setup Test
 		//Ability 2 setup
-		PhaseAutoAbility dummy2 = new DummyPhaseAutoAbility(mockCharacter2, true, PlayerPhase.DRAW, PhaseTiming.END);
+		PhaseAutoAbility dummy2 = new DummyPhaseAutoAbility(character2, true, PlayerPhase.DRAW, PhaseTiming.END);
 		dummy2.addCost(new PayStock(1));
 		dummy2.addAction(new TakeDamage(1));
-		ArrayList<PhaseAutoAbility> dummyList2 = new ArrayList<>();
-		dummyList2.add(dummy2);
-		doReturn(dummyList2).when(mockCharacter2).getAutoAbilities();
-
+		character2.addAbility(dummy2);
+		
 		//Ability 3
-		AutoAbility dummy3 = new DummyAutoAbility(mockCharacter3, EventType.DREW_CARD, true);
+		AutoAbility dummy3 = new DummyAutoAbility(character3, EventType.DREW_CARD, true);
 		dummy3.addCost(new PayStock(1));
 		dummy3.addAction(new TakeDamage(1));
-		ArrayList<AutoAbility> dummyList3 = new ArrayList<>();
-		dummyList3.add(dummy3);
-		doReturn(dummyList3).when(mockCharacter3).getAutoAbilities();
-
-		doReturn(dummy, dummy3, dummy2, mockCard).when(mockReader).getChoice(anyString(), anyList());
-		stage.place(mockCharacter, SlotType.FRONT_CENTER);
-		stage.place(mockCharacter2, SlotType.FRONT_LEFT);
-		stage.place(mockCharacter3, SlotType.FRONT_RIGHT);
+		character3.addAbility(dummy3);
+		
+		doReturn(dummy, dummy3, dummy2, basicCharacter).when(mockReader).getChoice(anyString(), anyList());
+		stage.place(character1, SlotType.FRONT_CENTER);
+		stage.place(character2, SlotType.FRONT_LEFT);
+		stage.place(character3, SlotType.FRONT_RIGHT);
 		controller1.getPlayer().endPhase();
-		stock.add(mockCard);
-		stock.add(mockCard);
-		stock.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		level.add(mockCard);
-		level.add(mockCard);
-		level.add(mockCard);
+		stock.add(basicCharacter);
+		stock.add(basicCharacter);
+		stock.add(basicCharacter);
+		damage.add(basicCharacter);
+		damage.add(basicCharacter);
+		damage.add(basicCharacter);
+		damage.add(basicCharacter);
+		level.add(basicCharacter);
+		level.add(basicCharacter);
+		level.add(basicCharacter);
 		dummy.setTargets(controller1, controller2);
 		dummy2.setTargets(controller1, controller2);
 		dummy3.setTargets(controller1, controller2);
 		
 		// Check Preconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
-		assertEquals(mockCharacter2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
-		assertEquals(mockCharacter3, stage.getSlot(SlotType.FRONT_RIGHT).getCharacter());
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
-		assertEquals(dummy2, mockCharacter2.getAutoAbilities().get(0));
-		assertEquals(1, mockCharacter3.getAutoAbilities().size());
-		assertEquals(dummy3, mockCharacter3.getAutoAbilities().get(0));
+		assertEquals(character1, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
+		assertEquals(character2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
+		assertEquals(character3, stage.getSlot(SlotType.FRONT_RIGHT).getCharacter());
+		assertEquals(1, character2.getAutoAbilities().size());
+		assertEquals(dummy2, character2.getAutoAbilities().get(0));
+		assertEquals(1, character3.getAutoAbilities().size());
+		assertEquals(dummy3, character3.getAutoAbilities().get(0));
 
 		assertEquals(PlayerPhase.STAND, controller1.getPlayer().getPhase());
 		
@@ -260,13 +247,13 @@ public class TestPhaseTransitionAbilities {
 		controller1.getPlayer().executeCommand();
 		
 		// Check Postconditions
-		assertEquals(mockCharacter, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
-		assertEquals(mockCharacter2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
-		assertEquals(mockCharacter3, stage.getSlot(SlotType.FRONT_RIGHT).getCharacter());
-		assertEquals(1, mockCharacter2.getAutoAbilities().size());
-		assertEquals(dummy2, mockCharacter2.getAutoAbilities().get(0));
-		assertEquals(1, mockCharacter3.getAutoAbilities().size());
-		assertEquals(dummy3, mockCharacter3.getAutoAbilities().get(0));
+		assertEquals(character1, stage.getSlot(SlotType.FRONT_CENTER).getCharacter());
+		assertEquals(character2, stage.getSlot(SlotType.FRONT_LEFT).getCharacter());
+		assertEquals(character3, stage.getSlot(SlotType.FRONT_RIGHT).getCharacter());
+		assertEquals(1, character2.getAutoAbilities().size());
+		assertEquals(dummy2, character2.getAutoAbilities().get(0));
+		assertEquals(1, character3.getAutoAbilities().size());
+		assertEquals(dummy3, character3.getAutoAbilities().get(0));
 		assertEquals(PlayerPhase.CLOCK,controller1.getPlayer().getPhase());
 		assertEquals(1, hand.size());
 		assertEquals(0, stock.size());

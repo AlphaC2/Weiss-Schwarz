@@ -25,7 +25,7 @@ public class CardXMLReader {
 		super();
 	}
 
-	public Card read(String filePath) {
+	public static Card read(String filePath) {
 		//System.out.println(filePath);
 		Card c = null;
 		try {
@@ -53,8 +53,8 @@ public class CardXMLReader {
 			switch (type){
 				case CHARACTER:
 					int power = Integer.parseInt(doc.getElementsByTagName("Power").item(0).getTextContent());
-					String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent();
-					String trait2 = doc.getElementsByTagName("Trait").item(1).getTextContent();
+					String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent().toUpperCase();
+					String trait2 = doc.getElementsByTagName("Trait").item(1).getTextContent().toUpperCase();
 					int soul = Integer.parseInt(doc.getElementsByTagName("Soul").item(0).getTextContent());
 					List<Ability> abilities = new ArrayList<Ability>();
 					

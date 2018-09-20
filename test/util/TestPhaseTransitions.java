@@ -1,6 +1,5 @@
 package util;
 
-//import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
@@ -62,10 +61,10 @@ public class TestPhaseTransitions {
 		}
 	}
 	
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void invalidPhaseTransitions(){
 		for (PlayerPhase phase : invalidPhases) {
-			PlayerPhase.nextPhase(phase);			
+			assertThrows(IllegalArgumentException.class, () -> PlayerPhase.nextPhase(phase));			
 		}
 	}
 	
