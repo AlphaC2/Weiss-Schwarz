@@ -1,12 +1,20 @@
 package model.card;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import model.ability.Ability;
 import model.ability.auto.AutoAbility;
 import model.ability.continuous.ContinuousAbility;
+import model.ability.continuous.mods.CardMod;
+import model.ability.continuous.mods.ModType;
+import model.ability.continuous.mods.NumberMod;
+import model.player.PlayerPhaseTiming;
 
+@SuppressWarnings("rawtypes")
 public abstract class Card {
 	private String name;
 	private String cardID;
@@ -19,7 +27,7 @@ public abstract class Card {
 	private String flavourText;
 	private boolean visible;
 	private List<Ability> abilities;
-	private List<Ability> mods;
+	private Map<ModType, List<CardMod>> map = new HashMap<>();
 
 	public Card(String name, String cardID, String imagePath, int level, int cost, Colour colour,
 			List<Trigger> passedTriggers, Rarity rarity, String flavourText) {
@@ -45,6 +53,10 @@ public abstract class Card {
 	}
 
 	public int getLevel() {
+		Integer level = this.level;
+		for (CardMod mod : map.get(ModType.LEVEL)) {
+			level = ((NumberMod) mod).apply(level);
+		}
 		return level;
 	}
 
@@ -95,13 +107,13 @@ public abstract class Card {
 
 	@Override
 	public String toString() {
-		if (!visible){
+		if (!visible) {
 			return "Face down card";
 		}
-		
+
 		String abilityText = "";
 		for (Ability ability : abilities) {
-			abilityText+= ability.toString() + System.lineSeparator() ;
+			abilityText += ability.toString() + System.lineSeparator();
 		}
 		return "Card [name=" + name + ", cardID=" + cardID + ", imagePath=" + imagePath + ", level=" + level + ", cost="
 				+ cost + ", colour=" + colour + ", triggers=" + triggers + ", rarity=" + rarity + ", flavourText="
@@ -109,7 +121,7 @@ public abstract class Card {
 	}
 
 	public String toShortString() {
-		if (!visible){
+		if (!visible) {
 			return "Face down card";
 		}
 		return "Card [name=" + name + ", cardID=" + cardID + ", level=" + level + ", cost=" + cost + ", colour="
@@ -140,4 +152,21 @@ public abstract class Card {
 		return list;
 	}
 
+	public void addMod(List<CardMod> newMods) {
+		for (CardMod mod : newMods) {
+			map.get(mod.getType()).add(mod);
+		}
+	}
+
+	public void removeExpiredMods(PlayerPhaseTiming pt) {
+		for (Map.Entry<ModType, List<CardMod>> entry : map.entrySet()) {
+			Iterator<CardMod> ite = entry.getValue().iterator();
+			while (ite.hasNext()) {
+				CardMod mod = ite.next();
+				if (mod.isExpired(pt)) {
+					ite.remove();
+				}
+			}
+		}
+	}
 }

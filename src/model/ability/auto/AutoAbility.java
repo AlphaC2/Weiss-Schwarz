@@ -1,11 +1,11 @@
 package model.ability.auto;
 
 import controller.PlayerController;
-import model.ability.ConditionalAbility;
+import model.ability.startup.StartUpAbility;
 import model.card.Card;
 import model.gameEvent.EventType;
 
-public abstract class AutoAbility extends ConditionalAbility{
+public abstract class AutoAbility extends StartUpAbility{
 
 	private EventType trigger;
 	private int primed;

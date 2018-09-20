@@ -3,17 +3,15 @@ package model.ability.continuous;
 import java.util.List;
 
 import controller.PlayerController;
-import model.ability.ConditionalAbility;
+import model.ability.Ability;
 import model.ability.condition.Condition;
-import model.ability.continuous.mods.CardMod;
 import model.card.Card;
 
 @SuppressWarnings("rawtypes")
-public class ContinuousAbility extends ConditionalAbility{
+public class ContinuousAbility extends Ability{
 
-	private List<Condition> conditions;
-	private List<CardMod> mods;
 	private boolean enabled = false;
+	private List<Condition> conditions;
 	
 	protected ContinuousAbility(Card source) {
 		super(source);
@@ -34,25 +32,23 @@ public class ContinuousAbility extends ConditionalAbility{
 	@Override
 	public boolean canActivate() {
 		for (Condition condition : conditions) {
-			if ( !condition.check()){
+			if (!condition.check()){
 				return false;
 			}
 		}
-		return super.canActivate();
+		return true;
 	}
-	
-	@Override
-	public void setTargets(PlayerController p1, PlayerController p2){
-		
-	}
-	
+
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
 		if (canActivate()) {
-			for (CardMod mod : mods) {
-				
-			}
+			
 		}
 	}
 
+	@Override
+	public void setTargets(PlayerController p1, PlayerController p2) {
+		// TODO Auto-generated method stub
+		
+	}
 }

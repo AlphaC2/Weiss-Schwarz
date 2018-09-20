@@ -13,7 +13,10 @@ public class ColourMod extends CardMod<Colour>{
 
 	@Override
 	public final Colour apply(Colour base) {
-		return colour;
+		if (isActive()){
+			return colour;
+		}
+		return base;
 	}
 
 

@@ -66,6 +66,7 @@ public abstract class PlayerController {
 	}
 
 	public void addEvents(List<GameEvent> events, PlayerController opponent) {
+		removeExpiredMods(events);
 		checkContinuous(opponent);
 		opponent.checkContinuous(this);
 		prime(events);
@@ -74,31 +75,39 @@ public abstract class PlayerController {
 		opponent.checkTiming();
 		this.events.addAll(events);
 	}
-
-	void checkContinuous(PlayerController opponent) {
+	
+	private List<Card> getAbilityCards(){
 		List<Card> cards = new ArrayList<>();
 		// check stage
 		cards.addAll(board.getStage().getCharacters());
-
 		// check hand
 		cards.addAll(board.getHand().getCards());
-
 		// check memory
 		cards.addAll(board.getMemoryZone().getCards());
-
 		// check level
 		cards.addAll(board.getLevel().getCards());
-
 		// check waiting room
 		cards.addAll(board.getWaitingRoom().getCards());
-		
-		for (Card card : cards) {
+		return cards;
+	}
+
+	private void removeExpiredMods(List<GameEvent> events) {
+		for (GameEvent event : events) {
+			if (event.getType() == EventType.PHASE){
+				for (Card card : getAbilityCards()) {
+					card.removeExpiredMods( ((PhaseEvent) event).getPt()  );
+				}
+			}
+		}
+	}
+
+	void checkContinuous(PlayerController opponent) {
+		for (Card card : getAbilityCards()) {
 			for (ContinuousAbility a : card.getContinuousAbilities()) {
 				a.setTargets(this, opponent);
 				a.setEnabled(true);
 			}
 		}
-
 	}
 
 	void prime(List<GameEvent> events) {
@@ -136,7 +145,7 @@ public abstract class PlayerController {
 					if (autoAbility.getTrigger() == EventType.PHASE) {
 						PhaseAutoAbility a = (PhaseAutoAbility) autoAbility;
 						PhaseEvent pe = (PhaseEvent) e;
-						if (a.getPhase() != pe.getPhase() || a.getTiming() != pe.getTiming()) {
+						if (a.getPhase() != pe.getPt().getPhase() || a.getTiming() != pe.getPt().getTiming()) {
 							break;
 						}
 					}
@@ -176,6 +185,7 @@ public abstract class PlayerController {
 		}
 
 		System.out.println(player.getName() + " has " + choices.size() + " auto abilities to activate");
+		System.out.println(choices.get(0));
 		AutoAbility choice = getChoice("Pick auto ability to activate", choices);
 		gm.execute(choice, player);
 		return true;

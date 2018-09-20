@@ -4,96 +4,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
-import model.ability.action.Action;
 import model.card.Card;
 
 public abstract class Ability implements Activatable, Checkable {
 
 	private Card source;
-	private int max = Integer.MAX_VALUE;
-	protected int used = 0;
-	private AbilityInterface cost;
-
-	List<AbilityInterface> actions = new ArrayList<>();
+	private boolean self;
+	protected List<AbilityInterface> actions = new ArrayList<>();
 
 	protected Ability(Card source) {
 		this.source = source;
 	}
-
-	public void reset() {
-		used = 0;
+	
+	protected Ability(Card source, boolean self) {
+		this(source);
+		this.self = self;
 	}
 
-	public int getMax() {
-		return max;
-	}
-
-	public void setMax(int max) {
-		this.max = max;
-	}
-
-	public int getUsed() {
-		return used;
-	}
-
-	public Card getSource() {
+	public final Card getSource() {
 		return source;
 	}
 	
-	@SuppressWarnings("rawtypes")
-	public void setTargets(PlayerController p1, PlayerController p2){
-		Action  current = (Action) cost;
-		while(current != null){
-			current.setValidTargets(p1, p2);
-			current = (Action) current.next();
-		}
-		
-		for (AbilityInterface ability : actions) {
-			Action action = (Action) ability;
-			action.setValidTargets(p1, p2);
-		}
+	public final boolean isSelf(){
+		return self;
 	}
+	
+	public abstract void setTargets(PlayerController p1, PlayerController p2);
 
-	public void addCost(AbilityInterface newCost) {
-		if (cost == null) {
-			cost = newCost;
-		} else {
-			cost.last().setNextAction(newCost);
-		}
-	}
-
-	public void addAction(AbilityInterface action) {
+	public final void addAction(AbilityInterface action) {
 		actions.add(action);
-	}
-
-	@Override
-	public void execute(PlayerController p1, PlayerController p2) {
-		if (canActivate()) {
-			if (cost != null) {
-				cost.execute(p1, p2);
-			}
-			for (AbilityInterface action : actions) {
-				if (action.isRequired() || p1.getChoice("Activate?")){
-					action.execute(p1, p2);
-				} 
-			}
-			used++;
-		}
-	}
-
-	private boolean checkChain(AbilityInterface chain) {
-		while (chain != null) {
-			if (!chain.canActivate()) {
-				return false;
-			}
-			chain = chain.next();
-		}
-		return true;
-	}
-
-	@Override
-	public boolean canActivate() {
-		return checkChain(cost) && used < max;
 	}
 
 }
