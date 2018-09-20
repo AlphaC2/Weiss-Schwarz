@@ -49,7 +49,7 @@ public abstract class Card {
 		}
 	}
 
-	public List<Ability> getAbilities() {
+	public final List<Ability> getAbilities() {
 		List<Ability> abilities = this.abilities;
 		for (CardMod mod : map.get(ModType.ABILITY)) {
 			System.out.println("asd");
@@ -58,7 +58,7 @@ public abstract class Card {
 		return abilities;
 	}
 
-	public int getLevel() {
+	public final int getLevel() {
 		Integer level = this.level;
 		for (CardMod mod : map.get(ModType.LEVEL)) {
 			level = ((NumberMod) mod).apply(level);
@@ -66,12 +66,12 @@ public abstract class Card {
 		return level;
 	}
 
-	public List<Trigger> getTrigger() {
+	public final List<Trigger> getTrigger() {
 		List<Trigger> result = new ArrayList<Trigger>(triggers);
 		return result;
 	}
 
-	public int getCost() {
+	public final int getCost() {
 		Integer cost = this.cost;
 		for (CardMod mod : map.get(ModType.COST)) {
 			cost = ((NumberMod) mod).apply(cost);
@@ -79,7 +79,7 @@ public abstract class Card {
 		return cost;
 	}
 
-	public Colour getColour() {
+	public final Colour getColour() {
 		Colour colour = this.colour;
 		for (CardMod mod : map.get(ModType.COLOUR)) {
 			colour = ((ColourMod) mod).apply(colour);
@@ -87,15 +87,15 @@ public abstract class Card {
 		return colour;
 	}
 
-	public String getName() {
+	public final String getName() {
 		return name;
 	}
 
-	public String getCardID() {
+	public final String getCardID() {
 		return cardID;
 	}
 
-	public String getImagePath() {
+	public final String getImagePath() {
 		return imagePath;
 	}
 
@@ -103,19 +103,19 @@ public abstract class Card {
 		return rarity;
 	}
 
-	public String getFlavourText() {
+	public final String getFlavourText() {
 		return flavourText;
 	}
 
-	public void flipFaceDown() {
+	public final void flipFaceDown() {
 		visible = false;
 	}
 
-	public void flipFaceUp() {
+	public final void flipFaceUp() {
 		visible = true;
 	}
 
-	public boolean isFaceUp() {
+	public final boolean isFaceUp() {
 		return visible;
 	}
 
@@ -142,11 +142,11 @@ public abstract class Card {
 				+ colour + "]";
 	}
 
-	public void addAbility(Ability a) {
+	public final void addAbility(Ability a) {
 		abilities.add(a);
 	}
 
-	public List<AutoAbility> getAutoAbilities() {
+	public final List<AutoAbility> getAutoAbilities() {
 		List<AutoAbility> list = new ArrayList<>();
 		for (Ability ability : getAbilities()) {
 			if (ability instanceof AutoAbility) {
@@ -156,7 +156,7 @@ public abstract class Card {
 		return list;
 	}
 
-	public List<ContinuousAbility> getContinuousAbilities() {
+	public final List<ContinuousAbility> getContinuousAbilities() {
 		List<ContinuousAbility> list = new ArrayList<>();
 		for (Ability ability : getAbilities()) {
 			if (ability instanceof ContinuousAbility) {
@@ -166,13 +166,13 @@ public abstract class Card {
 		return list;
 	}
 
-	public void addMod(List<CardMod> newMods) {
+	public final void addMod(List<CardMod> newMods) {
 		for (CardMod mod : newMods) {
 			map.get(mod.getType()).add(mod);
 		}
 	}
 
-	public void removeExpiredMods(PlayerPhaseTiming pt) {
+	public final void removeExpiredMods(PlayerPhaseTiming pt) {
 		for (Map.Entry<ModType, List<CardMod>> entry : map.entrySet()) {
 			Iterator<CardMod> ite = entry.getValue().iterator();
 			while (ite.hasNext()) {
