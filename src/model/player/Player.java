@@ -26,7 +26,6 @@ public class Player {
 		commands.clear();
 		CheckTiming check = new CheckTiming(PhaseTiming.END);
 		gm.execute(check, this);
-		phase = PlayerPhase.nextPhase(phase);
 		switch (phase) {
 		case STAND:
 			commands.add(new Draw());
@@ -67,7 +66,7 @@ public class Player {
 		default:
 			break;
 		}
-		
+		phase = PlayerPhase.nextPhase(phase);
 		gm.log(this, System.lineSeparator());
 		check = new CheckTiming(PhaseTiming.START);
 		gm.execute(check, this);

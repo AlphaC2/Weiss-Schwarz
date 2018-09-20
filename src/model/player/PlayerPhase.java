@@ -9,14 +9,7 @@ public enum PlayerPhase {
 		if (phase == END_OF_ATTACK) {
 			return ATTACK_DECLARATION;
 		}
-		if (phase == ATTACK) {
-			return ENCORE;
-		}
-		if (phase == OPPONENTS_TURN) {
-			return STAND;
-		}
-		if ((phase.compareTo(STAND) >= 0 && phase.compareTo(CLIMAX) <= 0) 
-				|| (phase == ENCORE || phase == END)){
+		if (phase.compareTo(ATTACK) >= 0 && phase.compareTo(DAMAGE) <= 0) {
 			return values()[phase.ordinal() + 1];
 		}
 		throw new IllegalArgumentException(phase.toString());
@@ -29,7 +22,8 @@ public enum PlayerPhase {
 		if (phase == ATTACK) {
 			return ENCORE;
 		}
-		if (phase.compareTo(STAND) >= 0 && phase.compareTo(CLIMAX) <= 0) {
+		if ((phase.compareTo(STAND) >= 0 && phase.compareTo(CLIMAX) <= 0) 
+				|| (phase == ENCORE || phase == END)){
 			return values()[phase.ordinal() + 1];
 		}
 		throw new IllegalArgumentException(phase.toString());
