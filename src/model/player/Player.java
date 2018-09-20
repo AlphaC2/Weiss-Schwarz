@@ -26,17 +26,15 @@ public class Player {
 		commands.clear();
 		CheckTiming check = new CheckTiming(PhaseTiming.END);
 		gm.execute(check, this);
+		phase = PlayerPhase.nextPhase(phase);
 		switch (phase) {
 		case STAND:
-			phase = PlayerPhase.DRAW;
 			commands.add(new Draw());
 			break;
 		case DRAW:
-			phase = PlayerPhase.CLOCK;
 			commands.add(new Clock());
 			break;
 		case CLOCK:
-			phase = PlayerPhase.MAIN;
 			commands.add(new DisplayHand());
 			commands.add(new DisplayDamage());
 			commands.add(new DisplayWaitingRoom());
@@ -47,33 +45,25 @@ public class Player {
 			break;
 		case MAIN:
 			commands.add(new PlayClimax());
-			phase = PlayerPhase.CLIMAX;
 			break;
 		case CLIMAX:
 			commands.add(new AttackPhase());
-			phase = PlayerPhase.ATTACK;
 			break;
 		case ATTACK:
-			phase = PlayerPhase.ENCORE;
 			break;
 		case ATTACK_DECLARATION:
-			phase = PlayerPhase.ENCORE;
 			commands.add(new Encore());
 			break;
 		case ENCORE:
-			phase = PlayerPhase.END;
 			break;
 
 		case END:
-			phase = PlayerPhase.OPPONENTS_TURN;
 			gm.endTurn(this);
 			break;
 			
 		case OPPONENTS_TURN:
-			phase = PlayerPhase.STAND;
 			commands.add(new StandPhase());
 			break;
-			
 		default:
 			break;
 		}
@@ -84,28 +74,7 @@ public class Player {
 	}
 
 	public void nextStep() {
-		switch (phase) {
-		case ATTACK:
-			phase = PlayerPhase.ATTACK_DECLARATION;
-			break;
-		case ATTACK_DECLARATION:
-			phase = PlayerPhase.TRIGGER;
-			break;
-		case TRIGGER:
-			phase = PlayerPhase.COUNTER;
-			break;
-		case COUNTER:
-			phase = PlayerPhase.DAMAGE;
-			break;
-		case DAMAGE:
-			phase = PlayerPhase.END_OF_ATTACK;
-			break;
-		case END_OF_ATTACK:
-			phase = PlayerPhase.ATTACK_DECLARATION;
-			break;
-		default:
-			break;
-		}
+		phase = PlayerPhase.nextAttackStep(phase);
 	}
 
 	public PlayerPhase getPhase() {
