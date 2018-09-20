@@ -154,7 +154,12 @@ public abstract class Card {
 
 	public void addMod(List<CardMod> newMods) {
 		for (CardMod mod : newMods) {
-			map.get(mod.getType()).add(mod);
+			List<CardMod> list = null;
+			if (!map.containsKey(mod.getType())){
+				list = new ArrayList<>();
+				map.put(mod.getType(), list);
+			}
+			list.add(mod);
 		}
 	}
 
