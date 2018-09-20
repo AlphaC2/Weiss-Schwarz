@@ -12,10 +12,8 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.App;
 import controller.GameManager;
 import controller.PlayerController;
-import io.ConsoleWriter;
 import io.Reader;
 import io.Writer;
 import model.ability.action.DiscardFromHand;

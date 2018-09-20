@@ -11,7 +11,6 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import app.App;
 import controller.GameManager;
 import controller.PlayerController;
 import io.Reader;
@@ -20,13 +19,11 @@ import model.ability.action.condition.MatchesCardType;
 import model.board.*;
 import model.card.*;
 import model.card.Character;
-import model.player.Player;
 
 public class TestDiscard {
 	private Board board;
 	private PlayerController controller1;
 	private PlayerController controller2;
-	private App realReader;
 	private static int testNumber = 0;
 	private Library library;
 	private WaitingRoom waitingRoom;
