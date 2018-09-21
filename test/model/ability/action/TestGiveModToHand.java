@@ -13,7 +13,6 @@ import static org.mockito.Mockito.*;
 
 import controller.GameManager;
 import controller.PlayerController;
-import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
 import model.ability.action.condition.Self;
@@ -23,14 +22,9 @@ import model.ability.mods.ModType;
 import model.ability.mods.NumberMod;
 import model.board.Board;
 import model.board.Hand;
-import model.board.Library;
-import model.board.WaitingRoom;
 import model.card.Card;
-import model.card.Character;
-import model.card.Climax;
 import model.card.DummyFactory;
 import model.card.DummyName;
-import model.card.Event;
 import model.player.PhaseTiming;
 import model.player.PlayerPhase;
 import model.player.PlayerPhaseTiming;
@@ -39,10 +33,9 @@ public class TestGiveModToHand {
 	private Board board;
 	private PlayerController controller1;
 	private PlayerController controller2;
-	private String path = "CardData\\DummySet\\";
 	private static int testNumber = 0;
 	private Hand hand;
-	private CardMod mod;
+	private CardMod<Integer> mod;
 	private Card target;
 	private Card dummy;
 	private Card dummy2;
@@ -204,7 +197,41 @@ public class TestGiveModToHand {
 		
 		assertEquals(1, target.getLevel());
 		assertEquals(1, dummy.getLevel());
+	}
+	
+	@Test
+	public void OtherCardsGetsContinuousMod(){
+		// Setup Test
+		doReturn(true, true, false, false).when(ability).isEnabled();
+		mod = new NumberMod(ModType.LEVEL, -1);
+		hand.add(dummy);
+		hand.add(dummy2);
 		
+		// Check Preconditions
+		assertNotNull(target);
+		assertNotNull(dummy);
+		assertNotNull(dummy2);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		assertEquals(1, dummy2.getLevel());
+		assertEquals(3, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		assertEquals(dummy, hand.getCards().get(1));
+		assertEquals(dummy2, hand.getCards().get(2));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(mod, ability);
+		action.addCondition(new Self(target, true));
+		action.execute(controller1, controller2);
+		
+		// Check Postconditions		
+		assertEquals(1, target.getLevel());
+		assertEquals(0, dummy.getLevel());
+		assertEquals(0, dummy2.getLevel());
+		
+		assertEquals(1, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		assertEquals(1, dummy2.getLevel());
 	}
 	
 	
