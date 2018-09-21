@@ -16,13 +16,13 @@ public enum PlayerPhase {
 	}
 	
 	public static PlayerPhase nextPhase(PlayerPhase phase){
-		if (phase == END) {
-			return OPPONENTS_TURN;
+		if (phase.ordinal() == PlayerPhase.values().length-1) {
+			return PlayerPhase.values()[0];
 		}
 		if (phase == ATTACK) {
 			return ENCORE;
 		}
-		if ((phase.compareTo(OPPONENTS_TURN) >= 0 && phase.compareTo(CLIMAX) <= 0) 
+		if ((phase.ordinal() >= 0 && phase.compareTo(CLIMAX) <= 0) 
 				|| (phase == ENCORE)){
 			return values()[phase.ordinal() + 1];
 		}
