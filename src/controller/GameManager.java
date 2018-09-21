@@ -56,11 +56,12 @@ public class GameManager {
 	}
 
 	public void endTurn(Player player) {
+		System.out.println("GM end turn");
 		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
 			new Discard().execute(getController(player), getOpponent(getController(player)));
 		}
 		
-		if (player.getPhase() == PlayerPhase.OPPONENTS_TURN){
+		if (player.getPhase() == PlayerPhase.END){
 			if (currentPlayer == player1){
 				currentPlayer = player2;
 			}else if (currentPlayer == player2){
@@ -72,11 +73,6 @@ public class GameManager {
 
 	public void execute(Activatable cmd, Player player) {
 		cmd.execute(getController(player), getOpponent(getController(player)));
-		/*try {
-			cmd.execute(getController(player), getOpponent(getController(player)));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}*/
 	}
 	
 	private PlayerController getController(Player player){

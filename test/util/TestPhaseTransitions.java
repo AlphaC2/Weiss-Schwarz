@@ -30,6 +30,7 @@ public class TestPhaseTransitions {
 		validPhases.add(PlayerPhase.MAIN);
 		validPhases.add(PlayerPhase.CLIMAX);
 		validPhases.add(PlayerPhase.ATTACK);
+		validPhases.add(PlayerPhase.ATTACK_DECLARATION);
 		validPhases.add(PlayerPhase.ENCORE);
 		validPhases.add(PlayerPhase.END);
 		validPhases.add(PlayerPhase.OPPONENTS_TURN);
@@ -83,7 +84,7 @@ public class TestPhaseTransitions {
 		case MAIN: return PlayerPhase.CLIMAX;
 		case CLIMAX: return PlayerPhase.ATTACK;
 		case ATTACK: return PlayerPhase.ENCORE;
-		case ATTACK_DECLARATION: throw new IllegalArgumentException(current.toString());
+		case ATTACK_DECLARATION: return PlayerPhase.ENCORE;
 		case TRIGGER: throw new IllegalArgumentException(current.toString());
 		case COUNTER: throw new IllegalArgumentException(current.toString());
 		case DAMAGE: throw new IllegalArgumentException(current.toString());

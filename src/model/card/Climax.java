@@ -18,7 +18,7 @@ public class Climax extends Card implements Activatable{
 		if (!isFaceUp()){
 			return "Face down card";
 		}
-		return super.toShortString() + " Climax [ability=" + getAbilities().get(0) + "]";
+		return super.toShortString() + " Climax [ability=" + (getAbilities().size() > 0 ? getAbilities().get(0) : "") + "]";
 	}
 
 	@Override

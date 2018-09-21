@@ -19,7 +19,7 @@ public enum PlayerPhase {
 		if (phase.ordinal() == PlayerPhase.values().length-1) {
 			return PlayerPhase.values()[0];
 		}
-		if (phase == ATTACK) {
+		if (phase == ATTACK || phase == PlayerPhase.ATTACK_DECLARATION) {
 			return ENCORE;
 		}
 		if ((phase.ordinal() >= 0 && phase.compareTo(CLIMAX) <= 0) 

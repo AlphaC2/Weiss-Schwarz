@@ -38,6 +38,7 @@ public class Player {
 			commands.add(new DisplayDamage());
 			commands.add(new DisplayWaitingRoom());
 			commands.add(new DisplayStage());
+			commands.add(new DisplayLevel());
 			commands.add(new PlayCharacter());
 			commands.add(new SwapCharacters());
 			commands.add(new EndPhase());
