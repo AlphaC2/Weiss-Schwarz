@@ -25,6 +25,9 @@ public abstract class CardMod<T> implements ICardMod<T>{
 	}
 
 	protected boolean isActive(){
+		if (ability == null){
+			return true;
+		}
 		return ability.isEnabled();
 	}
 	
