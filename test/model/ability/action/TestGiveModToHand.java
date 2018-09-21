@@ -15,6 +15,7 @@ import controller.PlayerController;
 import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
+import model.ability.action.condition.Self;
 import model.ability.mods.CardMod;
 import model.ability.mods.ModType;
 import model.ability.mods.NumberMod;
@@ -25,6 +26,8 @@ import model.board.WaitingRoom;
 import model.card.Card;
 import model.card.Character;
 import model.card.Climax;
+import model.card.DummyFactory;
+import model.card.DummyName;
 import model.card.Event;
 import model.player.PhaseTiming;
 import model.player.PlayerPhase;
@@ -34,12 +37,13 @@ public class TestGiveModToHand {
 	private Board board;
 	private PlayerController controller1;
 	private PlayerController controller2;
+	private String path = "CardData\\DummySet\\";
 	private static int testNumber = 0;
-	private Library library;
-	private WaitingRoom waitingRoom;
 	private Hand hand;
 	private CardMod mod;
 	private Card target;
+	private Card dummy;
+	private Card dummy2;
 	
 	@Mock
 	Card mockCard;
@@ -74,15 +78,13 @@ public class TestGiveModToHand {
 		
 		// Zone setup
 		board = controller1.getBoard();
-		library = board.getLibrary();
-		waitingRoom = board.getWaitingRoom();
 		hand = board.getHand();
 		
-		//Mod setup
-		mod = new NumberMod(ModType.LEVEL, -1);
-		
 		// Target setup
-		target = CardXMLReader.read("CardData\\AB\\W11\\AB-W11-101.xml");
+		target = DummyFactory.createCard(DummyName.LevelOneCharacter);
+		dummy = DummyFactory.createCard(DummyName.LevelOneCharacter);
+		dummy2 = DummyFactory.createCard(DummyName.LevelOneCharacter);
+		hand.add(target);
 	}
 
 	// Setup Test
@@ -93,19 +95,82 @@ public class TestGiveModToHand {
 	public void CardGetsMod(){
 		// Setup Test
 		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		mod = new NumberMod(ModType.LEVEL, -1);
 		
 		// Check Preconditions
 		assertNotNull(target);
 		assertEquals(1, target.getLevel());
-		
+		assertEquals(1, hand.size());
+		assertEquals(target, hand.getCards().get(0));
 		
 		// Perform Actions
-		Action action = new GiveModToHand(mod, ppt);
-//		action.addCondition(new );
-		//action.execute(controller1, controller2);
+		GiveModToHand action = new GiveModToHand(mod, ppt);
+		action.addCondition(new Self(target));
+		action.execute(controller1, controller2);
+		
 		
 		// Check Postconditions
-//		assertEquals(0, target.getLevel());
+		assertEquals(0, target.getLevel());
 	}
+	
+	@Test
+	public void OnlyCardGetsMod(){
+		// Setup Test
+		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		mod = new NumberMod(ModType.LEVEL, -1);
+		hand.add(dummy);
+		
+		// Check Preconditions
+		assertNotNull(target);
+		assertNotNull(dummy);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		assertEquals(2, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		assertEquals(dummy, hand.getCards().get(1));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(mod, ppt);
+		action.addCondition(new Self(target));
+		action.execute(controller1, controller2);
+		
+		
+		// Check Postconditions
+		assertEquals(0, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+	}
+	
+	@Test
+	public void AllOtherCardGetsMod(){
+		// Setup Test
+		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		mod = new NumberMod(ModType.LEVEL, -1);
+		hand.add(dummy);
+		hand.add(dummy2);
+		
+		// Check Preconditions
+		assertNotNull(target);
+		assertNotNull(dummy);
+		assertNotNull(dummy2);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		assertEquals(1, dummy2.getLevel());
+		assertEquals(3, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		assertEquals(dummy, hand.getCards().get(1));
+		assertEquals(dummy2, hand.getCards().get(2));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(mod, ppt);
+		action.addCondition(new Self(target, true));
+		action.execute(controller1, controller2);
+		
+		// Check Postconditions
+		assertEquals(1, target.getLevel());
+		assertEquals(0, dummy.getLevel());
+		assertEquals(0, dummy2.getLevel());
+	}
+	
+	
 	
 }

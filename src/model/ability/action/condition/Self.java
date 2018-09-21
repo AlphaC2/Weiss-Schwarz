@@ -7,11 +7,11 @@ public class Self extends Condition<Card>{
 	private Card card;
 	private boolean other;
 	
-	protected Self(Card card) {
+	public Self(Card card) {
 		this(card, false);
 	}
 	
-	protected Self(Card card, boolean other) {
+	public Self(Card card, boolean other) {
 		super("Self");
 		this.card = card;
 		this.other = other;
@@ -19,7 +19,7 @@ public class Self extends Condition<Card>{
 
 	@Override
 	public boolean check() {
-		return !other && card == target;
+		return (other) == (card != target);
 	}
 
 }
