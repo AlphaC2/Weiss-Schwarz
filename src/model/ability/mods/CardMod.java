@@ -1,6 +1,7 @@
 package model.ability.mods;
 
 import model.ability.continuous.ContinuousAbility;
+import model.player.Player;
 import model.player.PlayerPhaseTiming;
 
 public abstract class CardMod<T> implements ICardMod<T>{
@@ -17,7 +18,7 @@ public abstract class CardMod<T> implements ICardMod<T>{
 	}
 	
 	public boolean isExpired(PlayerPhaseTiming e){
-		return phaseTiming.compareTo(e) >= 0;
+		return (phaseTiming.compareTo(e) >= 0);
 	}
 	
 	public void setAbility(ContinuousAbility ability) {

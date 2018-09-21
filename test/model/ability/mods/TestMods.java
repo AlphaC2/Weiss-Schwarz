@@ -74,16 +74,19 @@ public class TestMods {
 		target = DummyFactory.createCard(DummyName.LevelOneCharacter);
 		dummy = DummyFactory.createCard(DummyName.LevelOneCharacter);
 		dummy2 = DummyFactory.createCard(DummyName.LevelOneCharacter);
+		hand.add(target);
 	}
 
 	// Setup Test
 	// Check Preconditions
 	// Perform Actions
 	// Check Postconditions
+	
+	//TODO
 	@Test
 	public void modsAreAdded(){
 		// Setup Test
-		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.DRAW, PhaseTiming.END);
 		mod = new NumberMod(ModType.LEVEL, -1);
 		
 		// Check Preconditions
@@ -91,15 +94,37 @@ public class TestMods {
 		assertEquals(1, target.getLevel());
 		assertEquals(1, hand.size());
 		assertEquals(target, hand.getCards().get(0));
+		assertEquals(PlayerPhase.OPPONENTS_TURN, controller1.getPlayer().getPhase());
 		
 		// Perform Actions
 		GiveModToHand action = new GiveModToHand(mod, ppt);
 		action.addCondition(new Self(target));
 		action.execute(controller1, controller2);
 		
-		
 		// Check Postconditions
 		assertEquals(0, target.getLevel());
+		assertEquals(PlayerPhase.OPPONENTS_TURN, controller1.getPlayer().getPhase());
+		
+		// Perform Actions
+		controller1.getPlayer().endPhase();
+		
+		// Check PostConditions
+		assertEquals(PlayerPhase.STAND, controller1.getPlayer().getPhase());
+		assertEquals(0, target.getLevel());
+
+		// Perform Actions
+		controller1.getPlayer().endPhase();
+		
+		// Check PostConditions
+		assertEquals(PlayerPhase.DRAW, controller1.getPlayer().getPhase());
+		assertEquals(0, target.getLevel());
+		
+		// Perform Actions
+		controller1.getPlayer().endPhase();
+		
+		// Check PostConditions
+		assertEquals(PlayerPhase.MAIN, controller1.getPlayer().getPhase());
+		assertEquals(1, target.getLevel());
 		
 	}
 	
