@@ -11,6 +11,7 @@ public class DisplayLevel extends Command {
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
 		p1.displayLevel();
+		p2.displayLevel();
 	}
 
 }

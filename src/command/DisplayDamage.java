@@ -11,6 +11,7 @@ public class DisplayDamage extends Command {
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
 		p1.displayDamageZone();
+		p2.displayDamageZone();
 	}
 
 }

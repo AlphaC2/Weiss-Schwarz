@@ -29,6 +29,7 @@ public class PlaceInDamageFromLibrary extends Action<Card>{
 		} catch (EmptyLibraryException e) {
 			new Refresh().execute(p1, p2);
 		}
+		
 		p1.log("took 1 damage");
 	}
 

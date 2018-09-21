@@ -31,7 +31,6 @@ public class TakeOneDamage extends Action<ResolutionZone> {
 		if (p1.getBoard().getDamageZone().size() >= DamageZone.cardsPerLevel) {
 			new LevelUp().execute(p1, p2);
 		}
-
 	}
 
 }

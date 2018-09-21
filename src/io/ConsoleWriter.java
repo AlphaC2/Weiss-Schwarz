@@ -31,13 +31,13 @@ public class ConsoleWriter extends Writer {
 
 	@Override
 	public void displayDamageZone() {
-		System.out.println(pc.getBoard().getDamageZone());
+		System.out.println(pc.getPlayer().getName() + " " + pc.getBoard().getDamageZone());
 	}
 	
 
 	@Override
 	public void displayLevel() {
-		System.out.println(pc.getBoard().getLevel());
+		System.out.println(pc.getPlayer().getName() + " " + pc.getBoard().getLevel());
 	}
 
 	@Override
