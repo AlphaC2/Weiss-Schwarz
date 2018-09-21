@@ -20,7 +20,8 @@ public class NumberMod extends CardMod<Integer>{
 		if (!isActive()){
 			return base;
 		}
-		return setFlag ? amount : base + amount;
+		int value = setFlag ? amount : base + amount;
+		return value < 0 ? 0 : value;
 	}
 
 }
