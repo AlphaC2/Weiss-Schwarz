@@ -36,6 +36,7 @@ public class TestGiveModToHand {
 	private static int testNumber = 0;
 	private Hand hand;
 	private CardMod<Integer> mod;
+	private List<CardMod> modList;
 	private Card target;
 	private Card dummy;
 	private Card dummy2;
@@ -79,6 +80,7 @@ public class TestGiveModToHand {
 		hand = board.getHand();
 		
 		// Target setup
+		modList = new ArrayList<>();
 		target = DummyFactory.createCard(DummyName.LevelOneCharacter);
 		dummy = DummyFactory.createCard(DummyName.LevelOneCharacter);
 		dummy2 = DummyFactory.createCard(DummyName.LevelOneCharacter);
@@ -234,5 +236,73 @@ public class TestGiveModToHand {
 		assertEquals(1, dummy2.getLevel());
 	}
 	
+	@Test
+	public void CardGetsMultipleTimingMod(){
+		// Setup Test
+		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		modList.add(new NumberMod(ModType.LEVEL, -1));
+		modList.add(new NumberMod(ModType.LEVEL, +2));
+		modList.add(new NumberMod(ModType.LEVEL, 32, true));
+		modList.add(new NumberMod(ModType.LEVEL, -16));
+		
+		// Check Preconditions
+		assertNotNull(target);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(modList, ppt);
+		action.addCondition(new Self(target));
+		action.execute(controller1, controller2);
+		
+		// Check Postconditions
+		assertEquals(16, target.getLevel());
+	}
+	
+	@Test
+	public void CardGetsTimingModBelowZero(){
+		// Setup Test
+		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		modList.add(new NumberMod(ModType.LEVEL, -2));
+		
+		// Check Preconditions
+		assertNotNull(target);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(modList, ppt);
+		action.addCondition(new Self(target));
+		action.execute(controller1, controller2);
+		
+		// Check Postconditions
+		assertEquals(0, target.getLevel());
+	}
+	
+	@Test
+	public void CardGetsMultipleTimingModBelowZero(){
+		// Setup Test
+		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
+		modList.add(new NumberMod(ModType.LEVEL, -1));
+		modList.add(new NumberMod(ModType.LEVEL, +2));
+		modList.add(new NumberMod(ModType.LEVEL, -5));
+		modList.add(new NumberMod(ModType.LEVEL, +4));
+		
+		// Check Preconditions
+		assertNotNull(target);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(modList, ppt);
+		action.addCondition(new Self(target));
+		action.execute(controller1, controller2);
+		
+		// Check Postconditions
+		assertEquals(4, target.getLevel());
+	}
 	
 }
