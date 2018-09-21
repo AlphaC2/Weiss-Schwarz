@@ -27,13 +27,9 @@ public abstract class Card {
 	private List<Ability> abilities;
 	private Map<ModType, List<CardMod>> map = new HashMap<>();
 	
-	public Card(){
-		init();
-	}
-	
 	private void init(){
 		abilities = new ArrayList<>();
-		for (ModType modType : ModType.values()) {
+		for (ModType modType : ModType.cardTypes(this)) {
 			map.put(modType, new ArrayList<CardMod>());
 		}
 	}
@@ -186,7 +182,7 @@ public abstract class Card {
 			while (ite.hasNext()) {
 				CardMod mod = ite.next();
 				if (mod.isExpired(pt)) {
-					System.out.println("Removing mod" + pt);
+					System.out.println("Removing " + mod.getType() +" mod on " + pt);
 					ite.remove();
 				}
 			}
