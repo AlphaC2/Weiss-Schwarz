@@ -25,24 +25,8 @@ public class TestMods {
 	private PlayerController controller2;
 	private static int testNumber = 0;
 	private Library library;
-	private WaitingRoom waitingRoom;
 	private Hand hand;
 	
-	@Mock
-	Card mockCard;
-
-	@Mock
-	Character mockCharacter;
-
-	@Mock
-	Character mockCharacter2;
-
-	@Mock
-	Climax mockClimax;
-	
-	@Mock
-	Event mockEvent;
-
 	@Mock
 	Reader mockReader;
 
@@ -57,7 +41,8 @@ public class TestMods {
 		MockitoAnnotations.initMocks(this);
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
-			deck.add(mockCard);
+			Card filler = DummyFactory.createCard(DummyName.BasicCharacter);
+			deck.add(filler);
 		}
 		
 		// Real Controller setup
@@ -74,7 +59,6 @@ public class TestMods {
 		// Zone setup
 		board = controller1.getBoard();
 		library = board.getLibrary();
-		waitingRoom = board.getWaitingRoom();
 		hand = board.getHand();
 	}
 

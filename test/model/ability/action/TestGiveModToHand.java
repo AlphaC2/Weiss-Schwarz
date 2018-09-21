@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import static org.mockito.Mockito.*;
 
 import controller.GameManager;
 import controller.PlayerController;
@@ -16,6 +17,7 @@ import io.CardXMLReader;
 import io.Reader;
 import io.Writer;
 import model.ability.action.condition.Self;
+import model.ability.continuous.ContinuousAbility;
 import model.ability.mods.CardMod;
 import model.ability.mods.ModType;
 import model.ability.mods.NumberMod;
@@ -47,7 +49,10 @@ public class TestGiveModToHand {
 	
 	@Mock
 	Card mockCard;
-
+	
+	@Mock
+	ContinuousAbility ability;
+	
 	@Mock
 	Reader mockReader;
 
@@ -92,7 +97,7 @@ public class TestGiveModToHand {
 	// Perform Actions
 	// Check Postconditions
 	@Test
-	public void CardGetsMod(){
+	public void CardGetstimingMod(){
 		// Setup Test
 		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
 		mod = new NumberMod(ModType.LEVEL, -1);
@@ -114,7 +119,7 @@ public class TestGiveModToHand {
 	}
 	
 	@Test
-	public void OnlyCardGetsMod(){
+	public void OnlyCardGetsTimingMod(){
 		// Setup Test
 		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
 		mod = new NumberMod(ModType.LEVEL, -1);
@@ -141,7 +146,7 @@ public class TestGiveModToHand {
 	}
 	
 	@Test
-	public void AllOtherCardGetsMod(){
+	public void AllOtherCardGetsTimingMod(){
 		// Setup Test
 		PlayerPhaseTiming ppt = new PlayerPhaseTiming(PlayerPhase.END, PhaseTiming.END);
 		mod = new NumberMod(ModType.LEVEL, -1);
@@ -171,6 +176,36 @@ public class TestGiveModToHand {
 		assertEquals(0, dummy2.getLevel());
 	}
 	
+	@Test
+	public void SelfCardGetsContinuousMod(){
+		// Setup Test
+		doReturn(true, false).when(ability).isEnabled();
+		mod = new NumberMod(ModType.LEVEL, -1);
+		hand.add(dummy);
+		
+		// Check Preconditions
+		assertNotNull(target);
+		assertNotNull(dummy);
+		assertEquals(1, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		assertEquals(2, hand.size());
+		assertEquals(target, hand.getCards().get(0));
+		assertEquals(dummy, hand.getCards().get(1));
+		
+		// Perform Actions
+		GiveModToHand action = new GiveModToHand(mod, ability);
+		action.addCondition(new Self(target));
+		action.execute(controller1, controller2);
+		
+		
+		// Check Postconditions		
+		assertEquals(0, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		
+		assertEquals(1, target.getLevel());
+		assertEquals(1, dummy.getLevel());
+		
+	}
 	
 	
 }

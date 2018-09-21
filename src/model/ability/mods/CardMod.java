@@ -28,7 +28,8 @@ public abstract class CardMod<T> implements ICardMod<T>{
 		if (ability == null){
 			return true;
 		}
-		return ability.isEnabled();
+		boolean enabled = ability.isEnabled();
+		return enabled;
 	}
 	
 	public ModType getType(){
