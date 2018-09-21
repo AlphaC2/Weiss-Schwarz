@@ -36,6 +36,7 @@ public class TestGiveModToHand {
 	private static int testNumber = 0;
 	private Hand hand;
 	private CardMod<Integer> mod;
+	@SuppressWarnings("rawtypes")
 	private List<CardMod> modList;
 	private Card target;
 	private Card dummy;

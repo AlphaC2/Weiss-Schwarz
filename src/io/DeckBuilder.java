@@ -25,7 +25,6 @@ public class DeckBuilder {
 	public List<Card> readDeck(String DeckFilePath) throws InvalidIDException, InvalidDeckException{
 		//System.out.println(DeckFilePath);
 		List<Card> deck = new ArrayList<Card>(50);
-		CardXMLReader reader = new CardXMLReader();
 		try {
 			File fXmlFile = new File(DeckFilePath);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -45,7 +44,7 @@ public class DeckBuilder {
 				String filepath = "CardData\\"+ sections[0] + "\\" + sections[1] + "\\" + id+".xml";
 				
 				for (int j = 0; j < quantity; j++) {
-					Card c = reader.read(filepath);
+					Card c = CardXMLReader.read(filepath);
 					deck.add(c);
 				}
 				

@@ -17,7 +17,6 @@ import io.Reader;
 import model.board.Board;
 import model.board.Slot;
 import model.card.Card;
-import model.card.Character;
 
 public class TestChooseCharacterFromStage {
 	private Board board;

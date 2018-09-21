@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import model.player.PhaseTiming;
-import model.player.Player;
 import model.player.PlayerPhase;
 import model.player.PlayerPhaseTiming;
 
