@@ -30,6 +30,6 @@ public class DrawToResolution extends Action<Card> {
 		} catch (EmptyLibraryException e) {
 			new Refresh().execute(p1, p2);
 		}
-
+		System.out.println("Resolution size " +p1.getBoard().getResolutionZone().size());
 	}
 }

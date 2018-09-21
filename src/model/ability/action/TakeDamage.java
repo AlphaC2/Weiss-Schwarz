@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import controller.PlayerController;
-import model.ability.AbilityInterface;
 import model.board.ResolutionZone;
 import model.card.Card;
 import model.card.Climax;
@@ -15,7 +14,6 @@ import model.gameEvent.TakeDamageEvent;
 public class TakeDamage extends Action<ResolutionZone>{
 
 	private int amount = 1;
-	private AbilityInterface head;
 	
 	public TakeDamage(int amount) {
 		super("Take Damange");
@@ -30,15 +28,16 @@ public class TakeDamage extends Action<ResolutionZone>{
 	@Override
 	protected void setTargets(PlayerController p1, PlayerController p2) {
 		targets.add(p1.getBoard().getResolutionZone());
-		head = new DrawDamageToResolution();
-		for (int i = 1; i < amount; i++) {
-			head.last().setNextAction(new DrawDamageToResolution());
-		}
 	}
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		head.execute(p1, p2);
+		for (int i = 0; i < amount; i++) {
+			new DrawToResolution().execute(p1, p2);
+			if (p1.getBoard().getResolutionZone().getCardsOfType(Climax.class).size() > 0){
+				break;
+			}
+		}
 		ResolutionZone zone = targets.get(0);
 		List<Card> cards = zone.getCards();
 		Card lastCard = cards.get(cards.size()-1);

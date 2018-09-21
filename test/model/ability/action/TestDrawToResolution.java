@@ -19,7 +19,7 @@ import model.board.ResolutionZone;
 import model.card.Card;
 import model.card.Character;
 
-public class TestDrawDamageToResolution {
+public class TestDrawToResolution {
 	private Board board;
 	
 	@Mock
@@ -63,7 +63,7 @@ public class TestDrawDamageToResolution {
 		assertEquals(0, board.getResolutionZone().size());
 		
 		//Perform Actions
-		new DrawDamageToResolution().execute(mockPlayerController, mockPlayerController);
+		new DrawToResolution().execute(mockPlayerController, mockPlayerController);
 		
 		//Check Postconditions
 		assertEquals(50, library.size());
@@ -87,7 +87,7 @@ public class TestDrawDamageToResolution {
 		assertEquals(mockCharacter, board.getLibrary().peek());
 
 		//Perform Actions
-		new DrawDamageToResolution().execute(mockPlayerController, mockPlayerController);
+		new DrawToResolution().execute(mockPlayerController, mockPlayerController);
 		
 		//Check Postconditions
 		assertEquals(50, library.size());
