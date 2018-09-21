@@ -40,8 +40,6 @@ public class TestDummyAutoAbility {
 	private Hand hand;
 	private Character character;
 	private Character character2;
-	@Mock
-	Card mockCard;
 
 	@Mock
 	Reader mockReader;

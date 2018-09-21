@@ -30,9 +30,6 @@ public class TestRefresh {
 	Character mockCharacter;
 	
 	@Mock
-	Character mockCharacter2;
-	
-	@Mock
 	PlayerController mockPlayerController;
 	
 	@Mock

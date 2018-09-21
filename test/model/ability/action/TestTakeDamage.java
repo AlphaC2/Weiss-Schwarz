@@ -40,18 +40,6 @@ public class TestTakeDamage {
 	private LevelZone level;
 	private Climax climax;
 	private Character character;
-	
-	@Mock
-	Card mockCard;
-
-	@Mock
-	Character mockCharacter;
-
-	@Mock
-	Character mockCharacter2;
-
-	@Mock
-	Climax mockClimax;
 
 	@Mock
 	Reader mockReader;
@@ -99,11 +87,11 @@ public class TestTakeDamage {
 	@Test
 	public void TakeOneDamage() {
 		// Setup Test
-		library.placeTop(mockCharacter);
+		library.placeTop(character);
 
 		// Check Preconditions
 		assertEquals(51, library.size());
-		assertEquals(mockCharacter, library.peek());
+		assertEquals(character, library.peek());
 		assertEquals(0, damage.size());
 		assertEquals(0, resolution.size());
 
@@ -112,7 +100,7 @@ public class TestTakeDamage {
 
 		// Check Postconditions
 		assertEquals(50, library.size());
-		assertEquals(mockCharacter, damage.getCards().get(0));
+		assertEquals(character, damage.getCards().get(0));
 		assertEquals(1, damage.size());
 		assertEquals(0, resolution.size());
 	}
@@ -194,7 +182,7 @@ public class TestTakeDamage {
 	public void TakeDamageRefresh() {
 		// Setup Test
 		List<Card> cards = library.getCards();
-		library.placeTop(mockCharacter);
+		library.placeTop(character);
 		for (Card card : cards) {
 			try {
 				library.remove(card);
@@ -203,12 +191,12 @@ public class TestTakeDamage {
 				e.printStackTrace();
 			}
 		}
-		waitingRoom.add(mockCard);
-		waitingRoom.add(mockCard);
+		waitingRoom.add(character);
+		waitingRoom.add(character);
 
 		// Check Preconditions
 		assertEquals(1, library.size());
-		assertEquals(mockCharacter, library.peek());
+		assertEquals(character, library.peek());
 		assertEquals(0, damage.size());
 		assertEquals(2, waitingRoom.size());
 		assertEquals(0, resolution.size());
@@ -394,7 +382,7 @@ public class TestTakeDamage {
 	public void RefreshWithEmptyWaitingRoom() {
 		// Setup Test
 		List<Card> cards = library.getCards();
-		library.add(mockCard);
+		library.add(character);
 		for (Card card : cards) {
 			try {
 				library.remove(card);

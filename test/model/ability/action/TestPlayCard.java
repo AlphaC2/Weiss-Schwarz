@@ -30,12 +30,6 @@ public class TestPlayCard {
 	Card mockCard;
 	
 	@Mock
-	Character mockCharacter;
-	
-	@Mock
-	Character mockCharacter2;
-	
-	@Mock
 	PlayerController mockPlayerController;
 	
 	@Mock

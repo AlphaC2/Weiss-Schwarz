@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Card>
+	<Type>Character</Type>
+	<ID>Dummy</ID>
+	<Name>BasicDummyCharacter</Name>
+	<Colour>Yellow</Colour>
+	<Level>0</Level>
+	<Cost>0</Cost>
+	<Trigger>None</Trigger>
+	<Rarity>TD</Rarity>
+	<Character>
+		<Power>3000</Power>
+		<Trait>DEAD</Trait>
+		<Trait>MUSIC</Trait>
+		<Soul>1</Soul>
+	</Character>
+</Card>

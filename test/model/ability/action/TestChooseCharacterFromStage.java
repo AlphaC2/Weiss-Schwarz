@@ -26,9 +26,6 @@ public class TestChooseCharacterFromStage {
 	Card mockCard;
 	
 	@Mock
-	Character mockCharacter;
-	
-	@Mock
 	PlayerController mockPlayerController;
 	
 	@Mock

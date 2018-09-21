@@ -10,5 +10,4 @@ import com.googlecode.junittoolbox.WildcardPatternSuite;
 		"!**/scrapper/Test*.class"
 		})
 public class MySuite {
-
 }
