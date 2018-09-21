@@ -81,8 +81,6 @@ public class TestMods {
 	// Check Preconditions
 	// Perform Actions
 	// Check Postconditions
-	
-	//TODO
 	@Test
 	public void modsAreAdded(){
 		// Setup Test
@@ -123,7 +121,7 @@ public class TestMods {
 		controller1.getPlayer().endPhase();
 		
 		// Check PostConditions
-		assertEquals(PlayerPhase.MAIN, controller1.getPlayer().getPhase());
+		assertEquals(PlayerPhase.CLOCK, controller1.getPlayer().getPhase());
 		assertEquals(1, target.getLevel());
 		
 	}

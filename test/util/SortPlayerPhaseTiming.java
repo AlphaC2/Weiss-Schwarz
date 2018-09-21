@@ -59,4 +59,10 @@ public class SortPlayerPhaseTiming {
 		}
 	}
 
+	
+	@Test
+	public void t1(){
+		assertTrue(new PlayerPhaseTiming(PlayerPhase.DRAW, PhaseTiming.END)
+				.compareTo(new PlayerPhaseTiming(PlayerPhase.OPPONENTS_TURN, PhaseTiming.END))  > 0 );
+	}
 }

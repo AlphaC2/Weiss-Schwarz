@@ -180,12 +180,13 @@ public abstract class Card {
 	}
 
 	public final void removeExpiredMods(PlayerPhaseTiming pt) {
-		System.out.println("Removing mod" + pt);
+		
 		for (Map.Entry<ModType, List<CardMod>> entry : map.entrySet()) {
 			Iterator<CardMod> ite = entry.getValue().iterator();
 			while (ite.hasNext()) {
 				CardMod mod = ite.next();
 				if (mod.isExpired(pt)) {
+					System.out.println("Removing mod" + pt);
 					ite.remove();
 				}
 			}

@@ -18,7 +18,8 @@ public abstract class CardMod<T> implements ICardMod<T>{
 	}
 	
 	public boolean isExpired(PlayerPhaseTiming e){
-		return (phaseTiming.compareTo(e) >= 0);
+		return (phaseTiming.compareTo(e) <= 0);
+//		return phaseTiming.equals(e);
 	}
 	
 	public void setAbility(ContinuousAbility ability) {
