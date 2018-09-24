@@ -8,9 +8,13 @@ import game.model.card.Card;
 import game.model.exceptions.EmptyLibraryException;
 
 public class Library extends Zone implements Searchable{
+	
+	Library(){
+		super("Library", false);
+	}
 
 	Library(List<Card> cards) {
-		super("Library", false);
+		this();
 		super.add(cards);
 		for (Card card : this.cards) {
 			card.flipFaceDown();
@@ -64,6 +68,7 @@ public class Library extends Zone implements Searchable{
 	}
 	
 	public void placeTop(Card c){
+		c.flipFaceDown();
 		cards.add(0, c);
 	}
 	
@@ -73,6 +78,14 @@ public class Library extends Zone implements Searchable{
 	
 	public void shuffle(){
 		Collections.shuffle(cards);
+	}
+
+	public Library toRestricted() {
+		Library newLibrary = new Library();
+		for (int i = 0; i < cards.size(); i ++) {
+			newLibrary.placeTop(null);
+		}
+		return newLibrary;
 	}
 
 
