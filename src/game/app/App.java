@@ -16,6 +16,7 @@ public class App {
 		reader.setPC(c1);
 		writer.setPC(c1);
 		
+//		reader = new ConsoleReader();
 		reader = new RandomReader();
 		writer = new ConsoleWriter();
 		PlayerController c2 = new PlayerController("P2", reader, writer);

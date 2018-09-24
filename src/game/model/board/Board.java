@@ -15,9 +15,9 @@ public class Board {
 	private WaitingRoom waitingRoom;
 	private Hand hand;
 	private Stage stage;
-	private Climax climaxZone;
 	private ResolutionZone resolution;
-	
+	public Climax climaxZone;
+
 	public Board(List<Card> deck) {
 		super();
 		library = new Library(deck);
@@ -37,18 +37,6 @@ public class Board {
 	}
 	
 	/* Actions*/
-	public void playClimax(Climax c){
-		hand.remove(c);
-		climaxZone = c;
-	}
-	
-	public void endClimax(){
-		if(climaxZone != null){
-			waitingRoom.add(climaxZone);
-			climaxZone = null;
-		}
-	}
-
 	public Hand getHand(){
 		return hand;
 	}

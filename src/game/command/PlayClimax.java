@@ -23,7 +23,8 @@ public class PlayClimax extends Command{
 			if (choice) {
 				Card card = p1.getChoice("Choose a climax to play", list);
 				if (card instanceof Climax) {
-					p1.getBoard().playClimax((Climax) card);
+					p1.getBoard().getHand().remove(card);
+					p1.getBoard().climaxZone = (Climax) card;
 				} else {
 					p1.log("Not a climax");
 				}

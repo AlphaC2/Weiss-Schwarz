@@ -43,15 +43,12 @@ public class TakeDamage extends Action<ResolutionZone>{
 		Card lastCard = cards.get(cards.size()-1);
 		if (lastCard instanceof Climax){
 			Climax climax = (Climax) lastCard;
-			p1.getBoard().getWaitingRoom().add(cards);
-			zone.remove(cards);
+			new ResolutionToWaitingRoom().execute(p1, p2);
 			List<GameEvent> events = new ArrayList<>();
 			events.add(new DamageCancelledEvent(p1.getPlayer(), climax));
 			p1.addEvents(events,p2);
 		} else {
-			for (int i = 0; i <  cards.size(); i++) {
-				new TakeOneDamage().execute(p1, p2);;
-			}
+			new ResolutionToDamage().execute(p1, p2);
 			List<GameEvent> events = new ArrayList<>();
 			events.add(new TakeDamageEvent(p1.getPlayer(), amount));
 			p1.addEvents(events,p2);

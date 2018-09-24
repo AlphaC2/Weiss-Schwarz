@@ -21,7 +21,12 @@ public class ResolutionToStock extends Action<Card> {
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		p1.getBoard().getStock().add(targets);				
+		for (Card card : targets) {
+			p1.getBoard().getStock().add(card);
+			p1.getBoard().getResolutionZone().remove(card);
+		}
+		
+		
 	}
 
 }

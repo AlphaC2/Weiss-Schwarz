@@ -10,6 +10,7 @@ import game.command.DisplayDamage;
 import game.command.DisplayHand;
 import game.command.DisplayLevel;
 import game.command.DisplayStage;
+import game.command.DisplayStatus;
 import game.command.DisplayWaitingRoom;
 import game.command.Draw;
 import game.command.Encore;
@@ -48,6 +49,7 @@ public class Player {
 			commands.add(new Clock());
 			break;
 		case CLOCK:
+			commands.add(new DisplayStatus());
 			commands.add(new DisplayHand());
 			commands.add(new DisplayDamage());
 			commands.add(new DisplayWaitingRoom());

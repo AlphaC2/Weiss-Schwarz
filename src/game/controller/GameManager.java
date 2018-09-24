@@ -6,7 +6,9 @@ import game.command.Discard;
 import game.io.ConsoleReader;
 import game.model.ability.Activatable;
 import game.model.ability.action.DrawToHand;
+import game.model.board.Board;
 import game.model.board.Hand;
+import game.model.card.Climax;
 import game.model.player.Player;
 import game.model.player.PlayerPhase;
 
@@ -59,6 +61,12 @@ public class GameManager {
 		System.out.println("GM end turn");
 		while(getController(player).getBoard().getHand().size() > Hand.MAX_HAND_SIZE){
 			new Discard().execute(getController(player), getOpponent(getController(player)));
+		}
+		
+		Board board = getController(player).getBoard();
+		if (board.climaxZone != null){
+			board.getWaitingRoom().add(board.climaxZone);
+			board.climaxZone = null;
 		}
 		
 		if (player.getPhase() == PlayerPhase.END){

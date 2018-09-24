@@ -16,6 +16,7 @@ public enum ModType {
 			list.addAll(Arrays.asList(ModType.values()));
 			return list;
 		}
+		list.add(COLOUR);
 		list.add(LEVEL);
 		list.add(COST);
 		list.add(ABILITY);

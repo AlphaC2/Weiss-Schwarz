@@ -77,7 +77,7 @@ public class DeckBuilder {
 				climax++;
 		}
 		
-		return climax == 8;
+		return climax == 8 && deck.size() == 50;
 	}
 
 	public List<String> getDecks() {

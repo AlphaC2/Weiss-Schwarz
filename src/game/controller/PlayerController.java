@@ -11,6 +11,7 @@ import game.model.ability.auto.AutoAbility;
 import game.model.ability.auto.PhaseAutoAbility;
 import game.model.ability.continuous.ContinuousAbility;
 import game.model.board.Board;
+import game.model.board.Slot;
 import game.model.card.Card;
 import game.model.card.Character;
 import game.model.gameEvent.EventType;
@@ -29,7 +30,8 @@ public class PlayerController {
 	private GameManager gm;
 	private int refreshPoint = 0;
 	private List<AutoAbility> choices = new ArrayList<>();
-
+	private boolean testing = false;
+	
 	public PlayerController(String name, Reader reader, Writer writer) {
 		player = new Player(name);
 		this.reader = reader;
@@ -59,6 +61,39 @@ public class PlayerController {
 	}
 
 	void checkTiming() {
+		List<Slot> stage = board.getStage().getSlots();
+		int stageChars = 0, chars = 0;
+		for (Slot slot : stage) {
+			if (slot.getCharacter() != null)
+				stageChars++;
+		}
+		chars += stageChars;
+		chars += board.getLevel().size();
+		chars += board.getDamageZone().size();
+		chars += board.getHand().size();
+		chars += board.getStock().size();
+		chars += board.getWaitingRoom().size();
+		chars += board.getLibrary().size();
+		chars += board.getMemoryZone().size();
+		chars += board.getResolutionZone().size();
+		if (board.climaxZone != null) 
+			chars++;
+		
+		if (testing && chars != 50){
+			log("Level " + board.getLevel().size());
+			log("Damage " + board.getDamageZone().size());
+			log("Hand " + board.getHand().size());
+			log("Stage " + stageChars);
+			log("Stock " + board.getStock().size());
+			log("WaitingRoom " + board.getWaitingRoom().size());
+			log("Library " + board.getLibrary().size());
+			log("Memory " + board.getMemoryZone().size());
+			log("Resolution " + board.getResolutionZone().size());
+			System.exit(1);
+		}
+		
+		
+		
 		while (activateAuto())
 			;
 	}

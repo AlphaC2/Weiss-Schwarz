@@ -408,4 +408,34 @@ public class TestTakeDamage {
 		assertEquals(0, library.size());
 		assertFalse(controller.isAlive());
 	}
+	
+	@Test 
+	public void TakeDamageMultipleLevelUp(){
+		// Setup Test
+		doReturn(character, character).when(mockReader).getChoice(anyString(), anyList());
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+		damage.add(character);
+
+		// Check Preconditions
+		assertEquals(50, library.size());
+		assertEquals(6, damage.size());
+		assertEquals(0, level.size());
+		assertEquals(0, resolution.size());
+
+		// Perform Actions
+		new TakeDamage(8).execute(controller, controller);
+
+		// Check Postconditions
+		assertEquals(42, library.size());
+		assertEquals(0, damage.size());
+		assertEquals(12, board.getWaitingRoom().size());
+		assertEquals(2, level.size());
+		assertEquals(character, level.getCards().get(0));
+		assertEquals(character, level.getCards().get(1));
+		assertEquals(0, resolution.size());
+	}
 }

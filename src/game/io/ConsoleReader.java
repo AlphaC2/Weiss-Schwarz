@@ -56,6 +56,8 @@ public class ConsoleReader extends Reader{
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
+			} catch(IllegalArgumentException e){
+				
 			}
 		}
 	}

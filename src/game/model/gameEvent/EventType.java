@@ -9,6 +9,7 @@ public enum EventType {
 	REVERSED,
 	TOOK_DAMAGE,
 	CANCEL_DAMAGE,
+	CHARACTER_KILLED,
 	
 	//Other events
 	DREW_CARD,
