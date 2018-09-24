@@ -288,5 +288,12 @@ public class PlayerController {
 	public void log(Object text){
 		writer.log(text);
 	}
+
+	public PlayerController toRestricted() {
+		PlayerController newPC = new PlayerController(player.getName(), reader, writer);
+		newPC.board = board.toRestrictedBoard();
+		newPC.setGM(gm);
+		return newPC;
+	}
 	
 }
