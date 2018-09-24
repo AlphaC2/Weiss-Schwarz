@@ -1,10 +1,12 @@
 package game.model.card;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Character extends Card {
-	private List<String> traits;
+	private Set<String> traits;
 	private int basePower;
 	private int currentPower;
 	private int soul;
@@ -12,7 +14,7 @@ public class Character extends Card {
 	public Character(String name, String cardID, String imagePath, int level, int cost, Colour colour, List<Trigger> triggers,
 			Rarity rarity, String flavourText, String trait1, String trait2, int power, int soul) {
 		super(name, cardID, imagePath, level, cost, colour, triggers, rarity, flavourText);
-		traits = new ArrayList<>();
+		traits = new HashSet<>();
 		traits.add(trait1);
 		traits.add(trait2);
 		this.basePower = power;

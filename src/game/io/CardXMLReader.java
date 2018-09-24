@@ -2,12 +2,15 @@ package game.io;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
 
 import game.model.ability.Ability;
 import game.model.card.Card;
@@ -18,11 +21,26 @@ import game.model.card.Colour;
 import game.model.card.Event;
 import game.model.card.Rarity;
 import game.model.card.Trigger;
+import game.model.deck.CardSet;
 
 public class CardXMLReader {
+	
+	private final static String path = "CardData/";
 
 	public CardXMLReader() {
 		super();
+	}
+	
+	public static Set<Card> readSet(String setID){
+		File f = new File(path + setID.replace("-", "/"));
+		Set<Card> cardSet = new HashSet<>();
+		if (f.exists() && f.isDirectory()){
+			for (File card : f.listFiles()) {
+				Card c = read(card.getAbsolutePath());
+				cardSet.add(c);
+			}
+		}
+		return cardSet;
 	}
 	
 	private static String readString(Document doc, String tag){
@@ -65,8 +83,9 @@ public class CardXMLReader {
 			switch (type) {
 			case CHARACTER:
 				int power = Integer.parseInt(doc.getElementsByTagName("Power").item(0).getTextContent());
+				NodeList nodelist = doc.getElementsByTagName("Trait");
 				String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent().toUpperCase();
-				String trait2 = doc.getElementsByTagName("Trait").item(1).getTextContent().toUpperCase();
+				String trait2 = nodelist.getLength() > 1 ? nodelist.item(1).getTextContent().toUpperCase() : "NONE";
 				int soul = Integer.parseInt(doc.getElementsByTagName("Soul").item(0).getTextContent());
 				List<Ability> abilities = new ArrayList<Ability>();
 

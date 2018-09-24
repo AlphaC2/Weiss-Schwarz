@@ -4,9 +4,11 @@ import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.junit.Test;
 
+import game.model.card.Card;
 import game.model.card.CardFactory;
 import game.model.card.Character;
 import game.model.card.Colour;
@@ -30,8 +32,14 @@ public class TestCardXmlReader {
 		assertEquals(triggers,c.getTrigger());
 		assertEquals("まずは生き延びろ。全てはそれからだ",c.getFlavourText());
 		assertEquals(4500,c.getPower());
-		assertEquals("FUNERAL_PARLOR",c.getTraits().get(0));
-		assertEquals("WEAPON",c.getTraits().get(1));
+		assertTrue(c.getTraits().contains("FUNERAL_PARLOR"));
+		assertTrue(c.getTraits().contains("WEAPON"));
 		assertEquals(1,c.getSoul());
+	}
+	
+	@Test
+	public void testSet(){
+		Set<Card> set = CardXMLReader.readSet("GC-S16");
+		assertEquals(146, set.size());
 	}
 }
