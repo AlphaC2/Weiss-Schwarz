@@ -13,7 +13,11 @@ public final class Slot {
 	private Character character;
 	private List<Card> markers = new ArrayList<>();
 	private Position position = null;
-
+	
+	public Slot(SlotType slotType) {
+		this.slotType = slotType;
+	}
+	
 	public void stand() {
 		//if(character != null)
 			position = Position.STANDING;
@@ -42,10 +46,6 @@ public final class Slot {
 		}
 
 		return m + "]";
-	}
-
-	public Slot(SlotType slotType) {
-		this.slotType = slotType;
 	}
 
 	public Character getCharacter() {
