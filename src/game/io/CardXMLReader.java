@@ -24,6 +24,16 @@ public class CardXMLReader {
 	public CardXMLReader() {
 		super();
 	}
+	
+	private static String readString(Document doc, String tag){
+		String s;
+		try {
+			s = doc.getElementsByTagName(tag).item(0).getTextContent();
+		} catch (NullPointerException e){
+			s = "";
+		}
+		return s;
+	}
 
 	public static Card read(String filePath) {
 		// System.out.println(filePath);
@@ -39,8 +49,8 @@ public class CardXMLReader {
 			CardType type = CardType.parse(doc.getElementsByTagName("Type").item(0).getTextContent());
 			String cardID = doc.getElementsByTagName("ID").item(0).getTextContent();
 			String name = doc.getElementsByTagName("Name").item(0).getTextContent();
-			String imageUrl = doc.getElementsByTagName("ImageURL").item(0).getTextContent();
-			String flavourText = doc.getElementsByTagName("FlavourText").item(0).getTextContent();
+			String imageUrl = readString(doc,"ImageURL");
+			String flavourText = readString(doc,"FlavourText");
 			Colour colour = Colour.parseString(doc.getElementsByTagName("Colour").item(0).getTextContent());
 			int level = Integer.parseInt(doc.getElementsByTagName("Level").item(0).getTextContent());
 			int cost = Integer.parseInt(doc.getElementsByTagName("Cost").item(0).getTextContent());
