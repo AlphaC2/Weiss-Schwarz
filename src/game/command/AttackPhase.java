@@ -98,7 +98,7 @@ public class AttackPhase extends Command {
 		p1.log(player.getPhase());
 		player.nextStep();
 		
-		while (attackingChars.size() > 0) {
+		while (attackingChars.size() > 0 && p2.isAlive()) {
 			chooseAttacker(p1,p2);
 			if (attacking == null){
 				return;
