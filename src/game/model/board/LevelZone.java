@@ -25,5 +25,10 @@ public class LevelZone extends SearchableZone {
 		}
 		return total;
 	}
+
+	@Override
+	protected LevelZone newInstance() {
+		return new LevelZone();
+	}
 	
 }

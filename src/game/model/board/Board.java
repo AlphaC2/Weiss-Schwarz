@@ -17,10 +17,8 @@ public class Board {
 	private Stage stage;
 	private ResolutionZone resolution;
 	public Climax climaxZone;
-
-	public Board(List<Card> deck) {
-		super();
-		library = new Library(deck);
+	
+	public Board(){
 		stock = new Stock();
 		level = new LevelZone();
 		damage = new DamageZone();
@@ -30,6 +28,12 @@ public class Board {
 		stage = new Stage();
 		climaxZone = null;
 		resolution = new ResolutionZone();
+		library = new Library();
+	}
+
+	public Board(List<Card> deck) {
+		this();
+		library = new Library(deck);
 	}
 	
 	public boolean hasColour(Colour colour){
@@ -71,6 +75,14 @@ public class Board {
 	
 	public ResolutionZone getResolutionZone(){
 		return resolution;
+	}
+	
+	public Board toRestrictedBoard(){
+		Board newBoard = new Board();
+		newBoard.library = (Library) library.toRestricted();
+		newBoard.stock = (Stock) stock.toRestricted();
+		
+		return newBoard;
 	}
 
 }

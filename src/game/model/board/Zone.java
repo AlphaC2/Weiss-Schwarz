@@ -8,7 +8,7 @@ import game.model.card.Card;
 public abstract class Zone {
 	protected List<Card> cards;
 	private String name;
-	private boolean visible;
+	protected boolean visible;
 	
 	public Zone(String name){
 		this(name,false);
@@ -18,6 +18,18 @@ public abstract class Zone {
 		this.name = name;
 		this.visible = visible;
 		cards = new ArrayList<Card>();
+	}
+	
+	protected abstract Zone newInstance();
+	
+	public final Zone toRestricted() {
+		Zone newStock = this.newInstance();
+		List<Card> list = new ArrayList<>();
+		for (int i = 0; i < cards.size(); i ++) {
+			list.add(null);
+		}
+		newStock.cards = list;
+		return newStock;
 	}
 	
 	public void add(Card c){

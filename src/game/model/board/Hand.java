@@ -8,4 +8,9 @@ public class Hand extends SearchableZone {
 		super("Hand",true);
 	}
 
+	@Override
+	protected Hand newInstance() {
+		return new Hand();
+	}
+
 }

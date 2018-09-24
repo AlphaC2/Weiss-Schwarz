@@ -23,5 +23,9 @@ public class DamageZone extends SearchableZone {
 		}
 		return false;
 	}
+
+	public DamageZone newInstance() {
+		return new DamageZone();
+	}
 	
 }

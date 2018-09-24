@@ -6,4 +6,9 @@ public class MemoryZone extends SearchableZone{
 		super("Memory",true);
 	}
 
+	@Override
+	protected MemoryZone newInstance() {
+		return new MemoryZone();
+	}
+
 }

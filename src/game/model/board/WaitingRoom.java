@@ -16,4 +16,9 @@ public class WaitingRoom extends SearchableZone{
 		cards.clear();
 		return newList;
 	}
+
+	@Override
+	protected WaitingRoom newInstance() {
+		return new WaitingRoom();
+	}
 }

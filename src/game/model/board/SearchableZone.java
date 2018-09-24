@@ -5,7 +5,7 @@ import java.util.List;
 
 import game.model.card.Card;
 
-public class SearchableZone extends Zone implements Searchable{
+public abstract class SearchableZone extends Zone implements Searchable{
 
 	public SearchableZone(String name,boolean visible) {
 		super(name,visible);
@@ -44,6 +44,5 @@ public class SearchableZone extends Zone implements Searchable{
 		}
 		return results;
 	}
-
 
 }

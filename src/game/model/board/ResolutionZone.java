@@ -6,4 +6,9 @@ public class ResolutionZone extends SearchableZone{
 		super("Resolution Zone", true);
 	}
 
+	@Override
+	protected ResolutionZone newInstance() {
+		return new ResolutionZone();
+	}
+
 }

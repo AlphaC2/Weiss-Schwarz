@@ -80,12 +80,9 @@ public class Library extends Zone implements Searchable{
 		Collections.shuffle(cards);
 	}
 
-	public Library toRestricted() {
-		Library newLibrary = new Library();
-		for (int i = 0; i < cards.size(); i ++) {
-			newLibrary.placeTop(null);
-		}
-		return newLibrary;
+	@Override
+	public Library newInstance() {
+		return new Library();
 	}
 
 

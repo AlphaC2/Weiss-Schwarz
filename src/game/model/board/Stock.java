@@ -1,5 +1,6 @@
 package game.model.board;
 
+
 import game.model.card.Card;
 
 public class Stock extends Zone{
@@ -13,5 +14,12 @@ public class Stock extends Zone{
 		cards.remove(c);
 		return c;
 	}
+
+	@Override
+	public Stock newInstance() {
+		return new Stock();
+	}
+
+
 	
 }
