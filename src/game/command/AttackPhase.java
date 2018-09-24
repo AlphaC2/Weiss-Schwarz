@@ -75,11 +75,11 @@ public class AttackPhase extends Command {
 		// End of Attack
 		p1.log(player.getPhase());
 		if (attackType == AttackType.FRONT_ATTACK) {
-			if (attacking.getCharacter().getCurrentPower() > defending.getCharacter().getCurrentPower()) {
+			if (attacking.getCharacter().getPower() > defending.getCharacter().getPower()) {
 				defending.reverse();
-			} else if (attacking.getCharacter().getCurrentPower() < defending.getCharacter().getCurrentPower()) {
+			} else if (attacking.getCharacter().getPower() < defending.getCharacter().getPower()) {
 				attacking.reverse();
-			} else if (attacking.getCharacter().getCurrentPower() == defending.getCharacter().getCurrentPower()) {
+			} else if (attacking.getCharacter().getPower() == defending.getCharacter().getPower()) {
 				defending.reverse();
 				attacking.reverse();
 			} else {

@@ -23,25 +23,25 @@ public class Character extends Card {
 	public List<String> getTraits(){
 		return new ArrayList<String>(traits);
 	}
-
-	public int getBasePower() {
+	
+	public int getPower(boolean base) {
 		return basePower;
 	}
 
-	public int getCurrentPower() {
+	public int getPower() {
 		return currentPower;
-	}
-	
-	protected void setCurrentPower(int newPower){
-		this.currentPower = newPower;
-	}
-
-	protected void changePower(int change){
-		this.currentPower += change;
 	}
 	
 	public int getSoul() {
 		return soul;
+	}
+	
+	private String traitsString(){
+		String result = "";
+		for (String trait : traits) {
+			result += trait + ", ";
+		}
+		return result;
 	}
 	
 	@Override
@@ -53,12 +53,13 @@ public class Character extends Card {
 				+ currentPower + ", soul=" + soul + ", abilities=" + getAbilities() + "]";
 	}
 	
-	private String traitsString(){
-		String result = "";
-		for (String trait : traits) {
-			result += trait + ", ";
+	@Override
+	public String toBaseString() {
+		if (!isFaceUp()){
+			return "Face down card";
 		}
-		return result;
+		return super.toBaseString() + " Character [traits=" + traitsString() + " basePower=" + basePower + ", currentPower="
+		+ currentPower + ", soul=" + soul + ", abilities=" + getAbilities() + "]";
 	}
 	
 	@Override
