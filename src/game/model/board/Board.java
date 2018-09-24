@@ -79,8 +79,20 @@ public class Board {
 	
 	public Board toRestrictedBoard(){
 		Board newBoard = new Board();
+		
+		// Restricted
 		newBoard.library = (Library) library.toRestricted();
 		newBoard.stock = (Stock) stock.toRestricted();
+		newBoard.hand = (Hand) hand.toRestricted();
+		
+		// Public
+		newBoard.stage = stage;
+		newBoard.level = level;
+		newBoard.damage = damage;
+		newBoard.memory = memory;
+		newBoard.waitingRoom = waitingRoom;
+		newBoard.resolution = resolution;
+		newBoard.climaxZone = climaxZone;
 		
 		return newBoard;
 	}

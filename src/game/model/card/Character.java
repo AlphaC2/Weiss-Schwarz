@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Character extends Card {
+public class Character extends Card implements Cloneable{
 	private Set<String> traits;
 	private int basePower;
 	private int currentPower;

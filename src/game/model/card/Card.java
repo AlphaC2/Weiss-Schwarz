@@ -13,7 +13,7 @@ import game.model.ability.mods.*;
 import game.model.player.PlayerPhaseTiming;
 
 @SuppressWarnings("rawtypes")
-public abstract class Card {
+public abstract class Card{
 	private String name;
 	private String cardID;
 	private String imagePath;
@@ -124,7 +124,6 @@ public abstract class Card {
 	public final boolean isFaceUp() {
 		return visible;
 	}
-	
 
 	@Override
 	public String toString() {

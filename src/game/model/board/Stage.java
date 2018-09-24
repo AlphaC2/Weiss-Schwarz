@@ -6,7 +6,7 @@ import java.util.List;
 import game.model.card.Character;
 import game.model.card.Position;
 
-public class Stage {
+public class Stage implements Cloneable{
 	private List<Slot> slots = new ArrayList<>();
 
 	Stage() {
@@ -27,6 +27,13 @@ public class Stage {
 		}
 		System.out.println("Character not on Stage");
 		return null;
+	}
+	
+	@Override
+	public Stage clone(){
+		Stage newStage = new Stage();
+		newStage.slots = slots;
+		return newStage;
 	}
 	
 	public Slot getSlot(SlotType slotType){
