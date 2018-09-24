@@ -26,7 +26,7 @@ public class DisplayStatus extends Command{
 		p1.log("Damage " + board.getDamageZone().size());
 		p1.log("Hand " + board.getHand().size());
 		p1.log("Stage " + stageChars);
-		p1.log("Climax " + board.getResolutionZone().size());
+		p1.log("Climax " + board.climaxZone != null ? 1 : 0);
 		p1.log("Stock " + board.getStock().size());
 		p1.log("WaitingRoom " + board.getWaitingRoom().size());
 		p1.log("Library " + board.getLibrary().size());
