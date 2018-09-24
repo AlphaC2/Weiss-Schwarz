@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deck>
 	<Card>
-		<ID>AB-W11-104</ID>
-		<Quantity>42</Quantity>
+		<Desc>Lvl 0 searcher</Desc>
+		<ID>AB-W11-008</ID>
+		<Quantity>4</Quantity>
 	</Card>
+
+
+
 	<Card>
-		<ID>AB-W11-T07</ID>
-		<Quantity>8</Quantity>
+		<Desc>Hand Encore</Desc>
+		<ID>AB-W11-001</ID>
+		<Quantity>2</Quantity>
 	</Card>
+	
+	
+	
+	
+	
 </deck>
