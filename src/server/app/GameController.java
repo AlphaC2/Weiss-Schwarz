@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import game.controller.GameManager;
 import game.controller.GameState;
 import game.io.CardXMLReader;
 import game.model.card.Card;
@@ -26,9 +27,16 @@ public class GameController {
 	}
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/game")
-	public GameState getGameState(@RequestParam(value = "id", defaultValue = "1") String id) {
-		return null;
+	public GameState getGameState(@RequestParam(value = "id", defaultValue = "1") int id) {
+		GameState og = GameManager.getGameState(id);
+		return new GameState(og.getP1(), og.getP2().toRestricted());
 	}
 	
+
+	@RequestMapping(method = RequestMethod.POST, value = "/game")
+	public void playerInput(@RequestParam(value = "id", defaultValue = "1") int id,
+			@RequestParam(value = "choice", defaultValue = "true") int index) {
+		GameManager.getGameState(id).resume(index);
+	}
 	
 }

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import game.io.ConsoleReader;
 import game.io.Reader;
 import game.io.Writer;
 import game.model.ability.action.PlaceInDamageFromLibrary;
@@ -27,6 +30,7 @@ public class PlayerController {
 	private Writer writer;
 	private List<GameEvent> events;
 	private boolean isAlive = true;
+	@JsonIgnore
 	private GameManager gm;
 	private int refreshPoint = 0;
 	private List<AutoAbility> choices = new ArrayList<>();
@@ -53,7 +57,11 @@ public class PlayerController {
 	}
 
 	public final boolean getChoice(String prompt) {
-		return reader.getChoice(prompt);
+		boolean choice = reader.getChoice(prompt);
+		if (reader instanceof ConsoleReader){
+			gm.getGameState().resume(0);
+		}
+		return choice;
 	}
 
 	public Player getPlayer() {
@@ -258,7 +266,9 @@ public class PlayerController {
 	}
 
 	public void readDeck() {
-		setDeck(reader.readDeck());
+		List<Card> deck = reader.readDeck();
+		System.out.println(deck.size());
+		setDeck(deck);
 	}
 	
 	public void displayStage(){
@@ -291,9 +301,15 @@ public class PlayerController {
 
 	public PlayerController toRestricted() {
 		PlayerController newPC = new PlayerController(player.getName(), reader, writer);
-		newPC.board = board.toRestrictedBoard();
+		if (board != null){
+			newPC.board = board.toRestrictedBoard();
+		}
 		newPC.setGM(gm);
 		return newPC;
+	}
+
+	public GameManager getGM() {
+		return gm;
 	}
 	
 }

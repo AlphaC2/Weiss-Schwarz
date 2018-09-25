@@ -17,21 +17,6 @@ public class ConsoleReader extends Reader{
 		r = new BufferedReader(new InputStreamReader(System.in));
 	}
 	
-	@Override
-	public List<Card> readDeck() {
-		DeckBuilder db = new DeckBuilder();
-		try {
-			List<String> deckNames = db.getDecks();
-			String deckname = getChoice("Select your deck", deckNames);
-			return db.readDeck("Decks/" + deckname + ".xml");
-		} catch (InvalidIDException e) {
-			e.printStackTrace();
-		} catch (InvalidDeckException e) {
-			e.printStackTrace();
-		}
-		return null;
-
-	}
 	
 	public <T> T getChoice(String prompt, List<T> choices){
 		if (choices.size() == 1){

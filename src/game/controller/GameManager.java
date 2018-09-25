@@ -1,46 +1,61 @@
 package game.controller;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import game.command.Discard;
-import game.io.ConsoleReader;
 import game.model.ability.Activatable;
 import game.model.ability.action.DrawToHand;
 import game.model.board.Board;
 import game.model.board.Hand;
-import game.model.card.Climax;
 import game.model.player.Player;
 import game.model.player.PlayerPhase;
 
 
 public class GameManager {
 	
-	ConsoleReader reader;
-	PlayerController player1;
-	PlayerController player2;
+	GameState gameState;
 	PlayerController currentPlayer;
 	boolean alive = true;
+	private int id;
+	private static int counter = 1;
+	private static Map<Integer, GameState> map = new HashMap<>();
 
 	public GameManager(PlayerController p1, PlayerController p2) {
-		reader = new ConsoleReader();
-		player1 = p1;
-		player2 = p2;
+		id = counter;
+		gameState = new GameState(p1,p2);
+		map.put(id, gameState);
 		currentPlayer = p1;
 		p1.setGM(this);
 		p2.setGM(this);
+		counter++;
+	}
+	
+	public GameState getGameState(){
+		return gameState;
+	}
+	
+	public static GameState getGameState(int id){
+		GameState gameState = map.get(id);
+		return gameState;
+	}
+	
+	public int getID(){
+		return id;
 	}
 	
 	private void setup(){
-		player1.getBoard().getLibrary().shuffle();
-		player2.getBoard().getLibrary().shuffle();
-		player1.getPlayer().endPhase();
+		gameState.getP1().getBoard().getLibrary().shuffle();
+		gameState.getP2().getBoard().getLibrary().shuffle();
+		gameState.getP1().getPlayer().endPhase();
 		DrawToHand draw = new DrawToHand();
 		for (int i = 0; i < 4; i++) {
-			this.execute(draw, player1.getPlayer());
+			this.execute(draw, gameState.getP1().getPlayer());
 		}
 		
 		for (int i = 0; i < 5; i++) {
-			this.execute(draw, player2.getPlayer());
+			this.execute(draw, gameState.getP2().getPlayer());
 		}
 		
 	}
@@ -70,10 +85,10 @@ public class GameManager {
 		}
 		
 		if (player.getPhase() == PlayerPhase.END){
-			if (currentPlayer == player1){
-				currentPlayer = player2;
-			}else if (currentPlayer == player2){
-				currentPlayer = player1;
+			if (currentPlayer == gameState.getP1()){
+				currentPlayer = gameState.getP2();
+			}else if (currentPlayer == gameState.getP2()){
+				currentPlayer = gameState.getP1();
 			}else
 				System.out.println("ERROR");
 		}
@@ -84,18 +99,18 @@ public class GameManager {
 	}
 	
 	private PlayerController getController(Player player){
-		if (player1.getPlayer().equals(player)){
-			return player1;
+		if (gameState.getP1().getPlayer().equals(player)){
+			return gameState.getP1();
 		} else {
-			return player2;
+			return gameState.getP2();
 		}
 	}
 	
 	private PlayerController getOpponent(PlayerController player){
-		if (player1.equals(player)){
-			return player2;
+		if (gameState.getP1().equals(player)){
+			return gameState.getP2();
 		} else {
-			return player1;
+			return gameState.getP1();
 		}
 	}
 
@@ -112,5 +127,7 @@ public class GameManager {
 		pc.log("is loser");
 		getOpponent(pc).log("is winner");
 	}
+
+	
 
 }
