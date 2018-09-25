@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-T07</ID>
+    <Name>2代目ボーカリスト</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よろしくお願いしまッス！</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「オペレーション・トルネードfeat.ユイ」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000し、相手は『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

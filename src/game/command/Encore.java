@@ -11,6 +11,9 @@ import game.model.board.Slot;
 import game.model.board.SlotType;
 import game.model.card.Character;
 import game.model.card.Position;
+import game.model.gameEvent.DamageCancelledEvent;
+import game.model.gameEvent.GameEvent;
+import game.model.gameEvent.StageToWaitingRoomEvent;
 
 
 public class Encore extends Command{
@@ -34,6 +37,12 @@ public class Encore extends Command{
 			s = board.getStage().getSlot(current).getSlotType();
 			board.getWaitingRoom().add(current);
 			board.getStage().removeCharacter(s);
+			
+			List<GameEvent> events = new ArrayList<>();
+			events.add(new StageToWaitingRoomEvent(pc.getPlayer(), current));
+			pc.addEvents(events,po);
+			
+			
 			boolean choice = pc.getChoice(pc.getPlayer().getName() + " Encore:" + current.toShortString() + "?");
 			if (choice) {
 				new PayStock(3).execute(pc, po);

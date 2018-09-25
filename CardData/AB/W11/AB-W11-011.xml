@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W11-011</ID>
+    <Name>マウントポジション</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よくも卍固めにしまくってくれたな、このぉぉぉぉぉーー！！！！</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの『【自】アンコール［手札のキャラを1枚控え室に置く］』を持つキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

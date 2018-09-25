@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-WE10-31</ID>
+    <Name>かなでの友達</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abext/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>大丈夫よ、かなでちゃん</FlavourText>
+    <Ability>【永】前列の中央の枠にこのカードがいるなら、このカードのパワーを＋500し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

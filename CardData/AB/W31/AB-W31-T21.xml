@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>AB-W31-T21</ID>
+    <Name>影との戦い</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10021.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>馬鹿やってないで、援護し合って！</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、ソウルを＋2。</Ability>
+</Card>

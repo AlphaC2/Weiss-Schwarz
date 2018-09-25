@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-WE14-11</ID>
+    <Name>静かな佇まい</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abext2.0/10021.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…そうね</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

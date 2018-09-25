@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-120</ID>
+    <Name>これからのこと</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10151.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ここからどうするの？</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

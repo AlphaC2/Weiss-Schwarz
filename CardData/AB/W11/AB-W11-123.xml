@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W11-123</ID>
+    <Name>好物の麻婆豆腐</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10156.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>音無「辛いのが好きっつーより、麻婆豆腐が好物なんだな」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

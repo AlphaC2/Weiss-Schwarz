@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-WE10-26</ID>
+    <Name>“ゴッドファーザー”ゆり</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abext/10053.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>他のメンバーだって、『あなたたち』の仲間でしょ？</FlavourText>
+    <Ability>【自】他のあなたの《死》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

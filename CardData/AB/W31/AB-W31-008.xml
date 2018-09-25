@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-008</ID>
+    <Name>心配するかなで</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>無理しちゃダメ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【自】このカードが手札から舞台に置かれた時、あなたは他の自分の《死》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

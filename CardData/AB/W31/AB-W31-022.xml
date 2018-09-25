@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-022</ID>
+    <Name>いつでも元気</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10053.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ありゃ？今日のみなさんは、なんか頭良さそうですよ</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

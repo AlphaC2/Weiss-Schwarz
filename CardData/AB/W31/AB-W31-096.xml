@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-096</ID>
+    <Name>戦線の名コンビ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10127.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>音無「会えたらユイにもよろしく」日向「おう。運は残しまくってあるはずだからな」</FlavourText>
+    <Ability>【自】［あなたの控え室のキャラを2枚山札に戻す。その山札をシャッフルする］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

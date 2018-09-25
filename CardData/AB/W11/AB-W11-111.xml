@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W11-111</ID>
+    <Name>神に抗う少女</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10144.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたしは、本当に『神』がいるのなら、立ち向かいたいだけよ</FlavourText>
+    <Ability>【起】［(1)］あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

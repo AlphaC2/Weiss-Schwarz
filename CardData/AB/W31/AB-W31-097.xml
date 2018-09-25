@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-097</ID>
+    <Name>松下五段</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10128.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>どうするのだ？</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあり、あなたのレベルが2以上なら、あなたの『【自】アンコール［手札のキャラを1枚控え室に置く］』を持つキャラすべてに、次の能力を与える。『【自】このカードが【リバース】した時、このカードのバトル相手のレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

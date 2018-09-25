@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-035</ID>
+    <Name>自称神</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10066.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>貴様…僕は神だぞ？</FlavourText>
+    <Ability>【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

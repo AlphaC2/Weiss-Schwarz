@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-024</ID>
+    <Name>似たもの夫婦</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10055.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ユイ「おっと、ひなっち先輩、隙だらけじゃないですかっ」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

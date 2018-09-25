@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-WE14-07</ID>
+    <Name>いつでも一緒</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abext2.0/10013.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>入江「ユイ、歌うか弾くか、どっちかに専念したほうがいいんじゃないのぉ？」</FlavourText>
+    <Ability>【自】絆／「クールビューティー岩沢」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「クールビューティー岩沢」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

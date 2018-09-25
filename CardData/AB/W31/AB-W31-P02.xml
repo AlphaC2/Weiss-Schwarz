@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-P02</ID>
+    <Name>秩序を守る存在</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10192.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…あたしは天使なんかじゃないわ</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、他のあなたの《死》のキャラが1枚以下なら、このカードをクロック置場に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

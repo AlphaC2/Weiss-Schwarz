@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W11-068</ID>
+    <Name>正体不明</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>Comeon!!Let’sdance!!</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>DEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

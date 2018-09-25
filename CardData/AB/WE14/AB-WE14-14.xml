@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-WE14-14</ID>
+    <Name>何気ない仕草</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abext2.0/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…あの人たちとずっと一緒に居たい？</FlavourText>
+    <Ability>【永】記憶あなたのターン中、あなたの思い出が2枚以上なら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

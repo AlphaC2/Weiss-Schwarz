@@ -23,9 +23,9 @@ public class MatchesCardType extends Condition<Card>{
 	@Override
 	public boolean check() {
 		switch(type){
-		case CLIMAX: return (target instanceof Climax ^ !matches); 
-		case CHARACTER: return target instanceof Character ^ !matches; 
-		case EVENT: return target instanceof Event ^ !matches;
+			case CLIMAX: return (target instanceof Climax ^ !matches); 
+			case CHARACTER: return target instanceof Character ^ !matches; 
+			case EVENT: return target instanceof Event ^ !matches;
 		}
 		return false;
 	}

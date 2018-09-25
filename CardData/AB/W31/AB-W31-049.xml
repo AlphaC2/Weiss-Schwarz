@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AB-W31-049</ID>
+    <Name>催眠術</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10080.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>貴様は今から幸せな夢を見る</FlavourText>
+    <Ability>あなたは相手の前列のレベル2以下のキャラを1枚選び、思い出にする。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-045</ID>
+    <Name>不器用な対立</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10076.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あなたがそうしたければ、どうぞお好きに</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「舞い降りる天使」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

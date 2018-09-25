@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W11-010</ID>
+    <Name>戦う理由</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10036.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>壮絶な戦いだった…</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置き、あなたの【スタンド】しているキャラを1枚【レスト】する］このカードが舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「戦う理由かなで」を1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W11-012</ID>
+    <Name>ガルデモのリーダー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>さぁ、派手にやろうぜ！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。【永】記憶あなたの思い出が3枚以上なら、このカードは『【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。』を得る。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

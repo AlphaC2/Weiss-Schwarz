@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-116</ID>
+    <Name>悪魔のような司令</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10147.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>言われた通りにすれば、飛ばないし、爆発もしないで済むわよ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「推進エンジン」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AB-W31-098</ID>
+    <Name>オペレーション・トルネード</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10129.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>時間稼ぎが…、まさかこんな壮絶な事になるなんて…</FlavourText>
+    <Ability>集中あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルX以下の《死》のキャラを1枚選び、手札に戻す。Xはそれらのカードの《死》のキャラの枚数に等しい。</Ability>
+</Card>

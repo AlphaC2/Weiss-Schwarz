@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AB-W11-072</ID>
+    <Name>クライストとお呼びください</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10105.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゆり「よくやったわ、竹山くん」</FlavourText>
+    <Ability>このカードは、あなたの《死》のキャラが3枚以下なら、手札からプレイできない。あなたは相手の控え室のカードを1枚選び、思い出にする。このカードを思い出にする。</Ability>
+</Card>

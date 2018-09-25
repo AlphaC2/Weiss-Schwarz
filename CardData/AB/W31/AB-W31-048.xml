@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AB-W31-048</ID>
+    <Name>歌いたかった歌</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10079.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>岩沢『やっと…見つけた…』</FlavourText>
+    <Ability>【カウンター】あなたは自分の《死》のキャラを1枚選び、そのターン中、パワーを＋3500</Ability>
+</Card>

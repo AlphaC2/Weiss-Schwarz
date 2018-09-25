@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-086</ID>
+    <Name>天才ハッカー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10117.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゆり「彼、ハンドルネーム・竹山くんを作戦チームに登用」</FlavourText>
+    <Ability>【永】【クロック】アラームこのカードがクロックの1番上にあるなら、あなたの《死》のキャラすべてに、次の能力を与える。『【自】このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。』</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

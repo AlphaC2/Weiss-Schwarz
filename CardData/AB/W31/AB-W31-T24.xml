@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AB-W31-T24</ID>
+    <Name>冬の日の音無&amp;かなで</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/abre/10024.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>音無「みんな新しい人生に向かっていったんだ」</FlavourText>
+    <Ability>【永】記憶あなたの思い出が3枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【起】［あなたのキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1000。』【自】［(1)］あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>
