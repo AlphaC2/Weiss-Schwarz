@@ -3,6 +3,8 @@ package game.model.player;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import game.command.AttackPhase;
 import game.command.Clock;
 import game.command.Command;
@@ -23,9 +25,11 @@ import game.controller.GameManager;
 import game.model.ability.action.CheckTiming;
 
 public class Player {
+	@JsonIgnore
 	GameManager gm;
 	PlayerPhase phase;
 	String name;
+	@JsonIgnore
 	List<Command> commands = new ArrayList<>();
 
 	public Player(String name) {
