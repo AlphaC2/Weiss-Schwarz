@@ -7,9 +7,11 @@ import game.controller.PlayerController;
 import game.model.ability.action.condition.HasColor;
 import game.model.ability.action.condition.HasLevel;
 import game.model.ability.action.condition.HasStockCard;
+import game.model.ability.action.condition.MatchesCardType;
 import game.model.board.Board;
 import game.model.board.Slot;
 import game.model.card.Card;
+import game.model.card.CardType;
 import game.model.card.Character;
 import game.model.card.Event;
 
@@ -18,15 +20,18 @@ public class PlayCard extends Action<Card>{
 	private HasLevel haslevel;
 	private HasStockCard hasStock;
 	private HasColor hasColor;
+	private MatchesCardType type;
 	
 	public PlayCard() {
 		super("Play Card");
 		haslevel = new HasLevel();
 		hasStock = new HasStockCard();
 		hasColor = new HasColor();
+		type = new MatchesCardType(CardType.CLIMAX, false);
 		addCondition(haslevel);
 		addCondition(hasStock);
 		addCondition(hasColor);
+		addCondition(type);
 	}
 
 	@Override

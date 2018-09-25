@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deck>
+	<DeckData>
+		<LVL0>16</LVL0>
+		<LVL1>13</LVL1>
+		<LVL2>8</LVL2>
+		<LVL3>5</LVL3>
+		<C>8</C>
+		<E>0</E>
+		<Counter>3</Counter>
+	</DeckData>
+
 	<Card>
 		<Desc>Lvl 0 searcher</Desc>
 		<ID>AB-W11-008</ID>
 		<Quantity>4</Quantity>
 	</Card>
 
+	<Card>
+		<Desc>Lvl 0 Give 500 Power</Desc>
+		<ID>AB-W11-004</ID>
+		<Quantity>4</Quantity>
+	</Card>
 
+	<Card>
+		<Desc>Lvl 0 Killer</Desc>
+		<ID>AB-WE14-01</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>AB-W31-036</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 1 Counter</Desc>
+		<ID>AB-W11-017</ID>
+		<Quantity>1</Quantity>
+	</Card>
 
 	<Card>
 		<Desc>Hand Encore</Desc>
@@ -14,8 +46,65 @@
 		<Quantity>2</Quantity>
 	</Card>
 	
+	<Card>
+		<Desc>Lvl 1 Brainstorm</Desc>
+		<ID>AB-WE10-03</ID>
+		<Quantity>2</Quantity>
+	</Card>
 	
+	<Card>
+		<Desc>Lvl 1 Search CC</Desc>
+		<ID>AB-WE14-02</ID>
+		<Quantity>4</Quantity>
+	</Card>
 	
+	<Card>
+		<Desc>1/1</Desc>
+		<ID>AB-WE10-04</ID>
+		<Quantity>4</Quantity>
+	</Card>
 	
+	<Card>
+		<Desc>Lvl Assist</Desc>
+		<ID>AB-WE14-03</ID>
+		<Quantity>2</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 2 Counter</Desc>
+		<ID>AB-WE14-16</ID>
+		<Quantity>2</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 2 bouncer - Angel Alight</Desc>
+		<ID>AB-W11-018</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+
+	<Card>
+		<Desc>Lvl 3 Memory</Desc>
+		<ID>AB-W11-002</ID>
+		<Quantity>1</Quantity>
+	</Card>	
+	
+	<Card>
+		<Desc>New Lvl 3</Desc>
+		<ID>AB-W31-106</ID>
+		<Quantity>4</Quantity>
+	</Card>
+		
+	<Card>
+		<Desc>Climax - 1k1S - Angel Alight</Desc>
+		<ID>AB-W11-024</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Climax - 2k1D - Another Time, Another Place</Desc>
+		<ID>AB-W31-112</ID>
+		<Quantity>4</Quantity>
+	</Card>
 	
 </deck>
