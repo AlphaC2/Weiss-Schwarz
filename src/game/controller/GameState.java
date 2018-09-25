@@ -21,7 +21,7 @@ public class GameState {
 	}
 	
 	public GameState toRestricted(){
-		GameState newState = new GameState(p1,p2.toRestricted());
+		GameState newState = new GameState(p1.toRestricted(true),p2.toRestricted(false));
 		newState.status = status;
 		newState.choice = choice;
 		newState.sourcePlayer = sourcePlayer;

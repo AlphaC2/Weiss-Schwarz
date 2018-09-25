@@ -11,7 +11,6 @@ import game.io.Reader;
 import game.io.Writer;
 import game.model.ability.action.PlaceInDamageFromLibrary;
 import game.model.ability.auto.AutoAbility;
-import game.model.ability.auto.PhaseAutoAbility;
 import game.model.ability.continuous.ContinuousAbility;
 import game.model.board.Board;
 import game.model.board.Slot;
@@ -272,10 +271,10 @@ public class PlayerController {
 		writer.log(text);
 	}
 
-	public PlayerController toRestricted() {
+	public PlayerController toRestricted(boolean p1) {
 		PlayerController newPC = new PlayerController(player.getName(), reader, writer);
 		if (board != null) {
-			newPC.board = board.toRestrictedBoard();
+			newPC.board = board.toRestrictedBoard(p1);
 		}
 		newPC.setGM(gm);
 		return newPC;
@@ -283,6 +282,10 @@ public class PlayerController {
 
 	public GameManager getGM() {
 		return gm;
+	}
+
+	public boolean isConsole() {
+		return reader instanceof ConsoleReader;
 	}
 
 }

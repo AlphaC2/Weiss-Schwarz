@@ -98,7 +98,7 @@ public class GameManager {
 		cmd.execute(getController(player), getOpponent(getController(player)));
 	}
 	
-	private PlayerController getController(Player player){
+	public PlayerController getController(Player player){
 		if (gameState.getP1().getPlayer().equals(player)){
 			return gameState.getP1();
 		} else {

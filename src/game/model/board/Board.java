@@ -78,13 +78,21 @@ public class Board {
 	}
 	
 	public Board toRestrictedBoard(){
+		return toRestrictedBoard(false);
+	}
+	
+	public Board toRestrictedBoard(boolean p1){
 		Board newBoard = new Board();
 		
 		// Restricted
 		newBoard.library = (Library) library.toRestricted();
 		newBoard.stock = (Stock) stock.toRestricted();
-		newBoard.hand = (Hand) hand.toRestricted();
-		
+		if (p1){
+			newBoard.hand = hand;
+		} else {
+			newBoard.hand = (Hand) hand.toRestricted();
+		}
+				
 		// Public
 		newBoard.stage = stage;
 		newBoard.level = level;

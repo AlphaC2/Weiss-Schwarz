@@ -53,12 +53,14 @@ public class Player {
 			commands.add(new Clock());
 			break;
 		case CLOCK:
-			commands.add(new DisplayStatus());
-			commands.add(new DisplayHand());
-			commands.add(new DisplayDamage());
-			commands.add(new DisplayWaitingRoom());
-			commands.add(new DisplayStage());
-			commands.add(new DisplayLevel());
+			if (gm.getController(this).isConsole()){
+				commands.add(new DisplayStatus());
+				commands.add(new DisplayHand());
+				commands.add(new DisplayDamage());
+				commands.add(new DisplayWaitingRoom());
+				commands.add(new DisplayStage());
+				commands.add(new DisplayLevel());
+			}
 			commands.add(new PlayCharacter());
 			commands.add(new SwapCharacters());
 			commands.add(new EndPhase());

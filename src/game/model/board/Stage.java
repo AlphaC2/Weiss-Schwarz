@@ -3,6 +3,8 @@ package game.model.board;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import game.model.card.Character;
 import game.model.card.Position;
 
@@ -50,6 +52,7 @@ public class Stage implements Cloneable{
 		return slots;
 	}
 	
+	@JsonIgnore
 	public List<Character> getCharacters() {
 		List<Character> result = new ArrayList<Character>();
 		for (Slot slot : slots) {
@@ -71,6 +74,7 @@ public class Stage implements Cloneable{
 		return result;
 	}
 	
+	@JsonIgnore
 	public List<Character> getAttacking(){
 		List<Character> result = new ArrayList<Character>();
 		for (Slot slot : slots) {
