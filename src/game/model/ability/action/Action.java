@@ -28,7 +28,7 @@ public abstract class Action<T> implements AbilityInterface {
 		this.nextAction = nextAction;
 	}
 
-	Action(String name) {
+	protected Action(String name) {
 		this.name = name;
 		targets = new ArrayList<>();
 		conditions = new ArrayList<Condition<T>>();
