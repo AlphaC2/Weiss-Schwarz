@@ -8,6 +8,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import game.io.ConsoleReader;
 import game.io.Reader;
+import game.io.WebReader;
 import game.io.Writer;
 import game.model.ability.action.PlaceInDamageFromLibrary;
 import game.model.ability.auto.AutoAbility;
@@ -52,13 +53,15 @@ public class PlayerController {
 	}
 
 	public final <T> T getChoice(String prompt, List<T> choices) {
+		gm.getGameState().pause(this, prompt, choices);
 		return reader.getChoice(prompt, choices);
 	}
 
 	public final boolean getChoice(String prompt) {
+		gm.getGameState().pause(this, prompt);
 		boolean choice = reader.getChoice(prompt);
-		if (reader instanceof ConsoleReader) {
-			gm.getGameState().resume(0);
+		if (!(reader instanceof WebReader)) {
+			gm.getGameState().resume(choice ? 0 : 1);
 		}
 		return choice;
 	}
@@ -239,7 +242,6 @@ public class PlayerController {
 
 	public void readDeck() {
 		List<Card> deck = reader.readDeck();
-		System.out.println(deck.size());
 		setDeck(deck);
 	}
 

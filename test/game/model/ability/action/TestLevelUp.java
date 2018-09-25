@@ -11,49 +11,63 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import game.controller.GameManager;
 import game.controller.PlayerController;
+import game.io.CardXMLReader;
 import game.io.Reader;
+import game.io.Writer;
 import game.model.ability.action.LevelUp;
 import game.model.board.Board;
 import game.model.board.DamageZone;
+import game.model.board.Hand;
 import game.model.board.LevelZone;
+import game.model.board.Library;
+import game.model.board.Stage;
 import game.model.card.Card;
 import game.model.card.Character;
+import game.model.card.DummyFactory;
+import game.model.card.DummyName;
 import game.model.player.Player;
 
 public class TestLevelUp {
 	private Board board;
-	
-	@Mock
-	Card mockCard;
-	
-	@Mock
-	Character mockCharacter;
-	
-	@Mock
-	PlayerController mockPlayerController;
+	private PlayerController controller1;
+	private PlayerController controller2;
+	private static int testNumber = 0;
+	private String path = "CardData\\DummySet\\";
+	private Character character;
+	private Card dummyCard;
 	
 	@Mock
 	Reader mockReader;
-	
+
 	@Mock
-	Player mockPlayer;
+	Writer mockWriter;
 	
 	@Before
-	public void init(){
+	public void init() {
+		testNumber++;
+		System.out.println("\nTest Number " + testNumber);
+
 		MockitoAnnotations.initMocks(this);
+		dummyCard = DummyFactory.createCard(DummyName.BasicCharacter);
+		character = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
-			deck.add(mockCard);
+			deck.add(dummyCard);
 		}
-		board = new Board(deck);
-		board.getHand().add(mockCharacter);
-		when(mockPlayerController.getBoard()).thenReturn(board);
-		when(mockPlayerController.getPlayer()).thenReturn(mockPlayer);
-		mockPlayerController.setReader(mockReader);
-		doReturn("mockPlayer").when(mockPlayer).getName();
-		when(mockPlayerController.isAlive()).thenReturn(true);
-	}
+
+		// Real Controller setup
+		controller1 = new PlayerController("Real Player", mockReader, mockWriter);
+		controller1.setDeck(deck);
+		board = controller1.getBoard();
+		
+		controller2 = new PlayerController("Real Player2", mockReader, mockWriter);
+		controller2.setDeck(deck);
+		
+		// Gamemanager setup
+		new GameManager(controller1, controller2);
+	}	
 
 	//Setup Test
 	//Check Preconditions
@@ -63,17 +77,16 @@ public class TestLevelUp {
 	public void NotEnoughDamageToLevelUp(){
 		//Setup Test
 		DamageZone damage = board.getDamageZone();
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
 
 		//Check Preconditions
 		assertEquals(0, damage.size());
 		
 		//Perform Actions
 		LevelUp levelUp = new LevelUp();
-		levelUp.execute(mockPlayerController, mockPlayerController);
+		levelUp.execute(controller1, controller2);
 		
 		//Check Postconditions
-		verify(mockPlayerController).log(levelUp.failureMessage());
 	}
 	
 	@Test
@@ -81,58 +94,57 @@ public class TestLevelUp {
 		//Setup Test
 		LevelZone level = board.getLevel();
 		DamageZone damage = board.getDamageZone();
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCharacter);
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(character);
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
 		
 		//Check Preconditions
 		assertEquals(7, damage.size());
 		assertEquals(0, level.size());
 		
 		//Perform Actions
-		new LevelUp().execute(mockPlayerController, mockPlayerController);
+		new LevelUp().execute(controller1, controller2);
 		
 		//Check Postconditions
 		assertEquals(0, damage.size());
 		assertEquals(1, level.size());
 		assertEquals(6, board.getWaitingRoom().size());
-		assertEquals(mockCharacter, level.getCards().get(0));
+		assertEquals(character, level.getCards().get(0));
 	}
 	
 	@Test
 	public void Level4(){
 		//Setup Test
 		LevelZone level = board.getLevel();
-		level.add(mockCard);
-		level.add(mockCard);
-		level.add(mockCard);
+		level.add(dummyCard);
+		level.add(dummyCard);
+		level.add(dummyCard);
 		DamageZone damage = board.getDamageZone();
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCard);
-		damage.add(mockCharacter);
-		doReturn(mockCharacter).when(mockReader).getChoice(anyString(), anyList());
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(dummyCard);
+		damage.add(character);
+		doReturn(character).when(mockReader).getChoice(anyString(), anyList());
 		
 		//Check Preconditions
 		assertEquals(7, damage.size());
 		assertEquals(3, level.size());
 		
 		//Perform Actions
-		new LevelUp().execute(mockPlayerController, mockPlayerController);
+		new LevelUp().execute(controller1, controller2);
 		
 		//Check Postconditions
 		assertEquals(0, damage.size());
 		assertEquals(4, level.size());
 		assertEquals(6, board.getWaitingRoom().size());
-		assertEquals(mockCharacter, level.getCards().get(3));
-		verify(mockPlayerController).level4();
+		assertEquals(character, level.getCards().get(3));
 	}
 }

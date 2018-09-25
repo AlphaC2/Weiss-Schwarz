@@ -56,8 +56,10 @@ public class Encore extends Command{
 
 	@Override
 	public void execute(PlayerController p1, PlayerController p2) {
-		encore(p1, p2);
-		encore(p2, p2);
+		if(p1.isAlive() && p2.isAlive())
+			encore(p1, p2);
+		if(p1.isAlive() && p2.isAlive())
+			encore(p2, p2);
 	}
 
 }

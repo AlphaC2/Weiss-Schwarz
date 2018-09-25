@@ -80,7 +80,6 @@ public class Stage implements Cloneable{
 		for (Slot slot : slots) {
 			Character c = slot.getCharacter() ;
 			if (c != null && SlotType.isFront(slot.getSlotType()) && slot.getPosition() == Position.STANDING){
-				System.out.println("attacking " +slot );
 				result.add(c);
 			}
 				

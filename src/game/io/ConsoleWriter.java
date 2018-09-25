@@ -7,7 +7,9 @@ public class ConsoleWriter extends Writer {
 	
 	@Override
 	public void log(Object text) {
-		System.out.println(pc.getPlayer().getName() + ": " + text.toString());
+		if (text != null && !text.equals(System.lineSeparator())){
+			System.out.println(pc.getPlayer().getName() + ": " + text.toString());
+		}
 	}
 	
 	@Override

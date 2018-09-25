@@ -14,8 +14,10 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import game.controller.GameManager;
 import game.controller.PlayerController;
 import game.io.Reader;
+import game.io.Writer;
 import game.model.ability.action.Rest;
 import game.model.ability.action.condition.Condition;
 import game.model.ability.action.condition.HasTrait;
@@ -36,6 +38,8 @@ public class TestRest {
 	private Position positionParam;
 	private List<Condition> conditionParam;
 	private List<String> traitParams;
+	private PlayerController controller1;
+	private PlayerController controller2;
 	
 	@Mock
 	Card mockCard;
@@ -44,10 +48,10 @@ public class TestRest {
 	Character mockCharacter;
 
 	@Mock
-	PlayerController mockPlayerController;
+	Reader mockReader;
 
 	@Mock
-	Reader mockReader;
+	Writer mockWriter;
 
 	@Parameterized.Parameters(name = "{index} : parameters({0})")
 	public static Collection<Object[]> parameters() {
@@ -84,9 +88,18 @@ public class TestRest {
 			deck.add(mockCard);
 		}
 		board = new Board(deck);
-		when(mockPlayerController.getBoard()).thenReturn(board);
-		mockPlayerController.setReader(mockReader);
-		when(mockPlayerController.isAlive()).thenReturn(true);
+
+		// Real Controller setup
+		controller1 = new PlayerController("Real Player", mockReader, mockWriter);
+		controller1.setDeck(deck);
+		board = controller1.getBoard();
+		
+		controller2 = new PlayerController("Real Player2", mockReader, mockWriter);
+		controller2.setDeck(deck);
+		
+		// Gamemanager setup
+		new GameManager(controller1, controller2);
+		
 	}
 
 	@SuppressWarnings("unchecked")
@@ -97,7 +110,7 @@ public class TestRest {
 		Position expected;
 		when(mockCharacter.getTraits()).thenReturn(traitParams);
 		when(mockCharacter.toShortString()).thenReturn("MOCK");
-		when(mockPlayerController.getChoice(anyString(), anyList())).thenReturn(s);
+		doReturn(s).when(mockReader).getChoice(anyString(), anyList());
 
 		s.setCharacter(mockCharacter);
 		s.setPosition(positionParam);
@@ -107,7 +120,7 @@ public class TestRest {
 		for (Condition condition : conditionParam) {
 			rest.addCondition(condition);
 		}
-		rest.setValidTargets(mockPlayerController, mockPlayerController);
+		rest.setValidTargets(controller1, controller2);
 		flag = rest.canActivate();
 
 		if (positionParam == Position.STANDING && flag) {
@@ -117,13 +130,13 @@ public class TestRest {
 		}
 
 		try {
-			rest.execute(mockPlayerController, mockPlayerController);
+			rest.execute(controller1, controller2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 		if (!flag) {
-			verify(mockPlayerController).log(rest.failureMessage());
+//			verify(controller1).log(rest.failureMessage());
 		}
 		assertEquals(5, board.getStage().getSlots().size());
 		assertEquals(mockCharacter, board.getStage().getSlot(slotParam).getCharacter());

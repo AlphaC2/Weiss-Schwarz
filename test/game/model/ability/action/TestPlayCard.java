@@ -11,9 +11,11 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import game.controller.GameManager;
 import game.controller.PlayerController;
 import game.io.CardXMLReader;
 import game.io.Reader;
+import game.io.Writer;
 import game.model.ability.action.PlayCard;
 import game.model.board.Board;
 import game.model.board.Slot;
@@ -26,15 +28,17 @@ public class TestPlayCard {
 	private static int testNum = 0;
 	private static String testName = "TestPlayCard";
 	private String path = "CardData\\DummySet\\";
+	private PlayerController controller1;
+	private PlayerController controller2;
 	
 	@Mock
 	Card mockCard;
 	
 	@Mock
-	PlayerController mockPlayerController;
-	
-	@Mock
 	Reader mockReader;
+
+	@Mock
+	Writer mockWriter;
 	
 	@Before
 	public void init(){
@@ -48,16 +52,24 @@ public class TestPlayCard {
 			deck.add(mockCard);
 		}
 		board = new Board(deck);
-		when(mockPlayerController.getBoard()).thenReturn(board);
-		mockPlayerController.setReader(mockReader);
-		when(mockPlayerController.isAlive()).thenReturn(true);
+
+		// Real Controller setup
+		controller1 = new PlayerController("Real Player", mockReader, mockWriter);
+		controller1.setDeck(deck);
+		board = controller1.getBoard();
+		
+		controller2 = new PlayerController("Real Player2", mockReader, mockWriter);
+		controller2.setDeck(deck);
+		
+		// Gamemanager setup
+		new GameManager(controller1, controller2);
+		
 	}
 
 	//Setup Test
 	//Check Preconditions
 	//Perform Actions
 	//Check Postconditions
-
 	@Test
 	public void CharacterAbovePlayerLevel(){
 		//Setup Test
@@ -72,10 +84,9 @@ public class TestPlayCard {
 		
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
+		playCard.execute(controller1, controller2);
 
 		//Check Postconditions
-		verify(mockPlayerController).log(playCard.failureMessage());
 	}
 
 	@Test
@@ -98,7 +109,7 @@ public class TestPlayCard {
 
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
+		playCard.execute(controller1, controller2);
 
 		//Check Postconditions
 		assertEquals(character, slot.getCharacter());
@@ -121,10 +132,9 @@ public class TestPlayCard {
 		
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
+		playCard.execute(controller1, controller2);
 		
 		//Check Postconditions
-		verify(mockPlayerController).log(playCard.failureMessage());
 	}
 	
 	@Test
@@ -141,10 +151,9 @@ public class TestPlayCard {
 		
 		//Perform actions
 		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
+		playCard.execute(controller1, controller2);
 		
 		//Verify postconditions
-		verify(mockPlayerController).log(playCard.failureMessage());
 	}
 
 	@Test
@@ -162,7 +171,7 @@ public class TestPlayCard {
 		
 		//Perform actions
 		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
+		playCard.execute(controller1, controller2);
 		
 		//Verify postconditions
 		assertEquals(0, board.getStock().size());
@@ -190,7 +199,7 @@ public class TestPlayCard {
 		
 		//Perform Actions
 		PlayCard playCard = new PlayCard();
-		playCard.execute(mockPlayerController, mockPlayerController);
+		playCard.execute(controller1, controller2);
 
 		//Check Postconditions		
 		assertEquals(character2, slot.getCharacter());

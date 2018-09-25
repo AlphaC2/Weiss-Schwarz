@@ -95,7 +95,9 @@ public class GameManager {
 	}
 
 	public void execute(Activatable cmd, Player player) {
-		cmd.execute(getController(player), getOpponent(getController(player)));
+		if(getController(player).isAlive()){
+			cmd.execute(getController(player), getOpponent(getController(player)));
+		}
 	}
 	
 	public PlayerController getController(Player player){

@@ -40,6 +40,9 @@ public class TakeDamage extends Action<ResolutionZone>{
 		}
 		ResolutionZone zone = targets.get(0);
 		List<Card> cards = zone.getCards();
+		if (cards.size() == 0){
+			return;
+		}
 		Card lastCard = cards.get(cards.size()-1);
 		if (lastCard instanceof Climax){
 			Climax climax = (Climax) lastCard;

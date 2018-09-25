@@ -10,8 +10,6 @@ public class WebReader extends Reader {
 	@SuppressWarnings("unchecked")
 	@Override
 	public <T> T getChoice(String prompt, List<T> choices) {
-		System.out.println("BEFORE List CHOICE");
-		pc.getGM().getGameState().pause(pc, prompt, choices);
 		if (choices.size() == 1){
 			return choices.get(0);
 		}
