@@ -6,15 +6,14 @@ import java.util.List;
 import game.model.player.Player;
 
 public class GameState {
-
+	private GameStatus status;
+	private String prompt;
+	private List<Object> choices;
+	private Object choice;	
+	private Player sourcePlayer;
 	private PlayerController p1;
 	private PlayerController p2;
-	private Player sourcePlayer;
-	private GameStatus status;
-	private List<Object> choices;
-	private Object choice;
 
-	
 	public GameState(PlayerController p1, PlayerController p2){
 		this.p1 = p1;
 		this.p2 = p2;
@@ -27,6 +26,7 @@ public class GameState {
 		newState.choice = choice;
 		newState.sourcePlayer = sourcePlayer;
 		newState.choices = choices;
+		newState.prompt = prompt; 
 		return newState;
 				
 	}
@@ -42,6 +42,7 @@ public class GameState {
 		status = GameStatus.INTERUPTED;
 		sourcePlayer = playerController.getPlayer();
 		this.choices = new ArrayList<>(choices);
+		this.prompt = prompt; 
 	}
 	
 	public void resume(int index) {
@@ -56,6 +57,22 @@ public class GameState {
 		sourcePlayer = playerController.getPlayer();
 	}
 
+	public GameStatus getStatus(){
+		return status;
+	}
+	
+	public String getPrompt() {
+		return prompt;
+	}
+	
+	public List<Object> getChoices(){
+		return choices;
+	}
+
+	public Object getChoice() {
+		return choice;
+	}
+	
 	public Player getSourcePlayer() {
 		return sourcePlayer;
 	}
@@ -68,22 +85,8 @@ public class GameState {
 		return p2;
 	}
 	
-	public GameStatus getStatus(){
-		return status;
-	}
-	
-	public List<Object> getChoices(){
-		return choices;
-	}
-
-	public Object getChoice() {
-		return choice;
-	}
-	
 	@Override
 	public String toString(){
 		return status + sourcePlayer.getName();
 	}
-
-
 }

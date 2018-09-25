@@ -22,20 +22,22 @@ public class Application {
 		reader.setPC(c1);
 		writer.setPC(c1);
 		
-		reader = new ConsoleReader();
-//		reader = new RandomReader();
+//		reader = new ConsoleReader();
+		reader = new RandomReader();
 		writer = new ConsoleWriter();
 		PlayerController c2 = new PlayerController("P2", reader, writer);
 		reader.setPC(c2);
 		writer.setPC(c2);
 		
-		new GameManager(c1, c2);
+		GameManager gm = new GameManager(c1, c2);
 		c1.readDeck();
 		c2.readDeck();
+		gm.gameLoop();
 	}
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
         createGame();
+        
     }
 }
