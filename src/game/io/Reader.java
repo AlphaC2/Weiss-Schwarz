@@ -24,6 +24,7 @@ public abstract class Reader {
 		try {
 			List<String> deckNames = db.getDecks();
 			String prompt = "Select your deck";
+			pc.getGM().getGameState().pause(pc, prompt, deckNames);
 			String deckname = getChoice(prompt, deckNames);
 			return db.readDeck("Decks/" + deckname + ".xml");
 		} catch (InvalidIDException e) {
