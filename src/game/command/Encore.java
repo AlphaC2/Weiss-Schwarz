@@ -39,7 +39,7 @@ public class Encore extends Command{
 			board.getStage().removeCharacter(s);
 			
 			List<GameEvent> events = new ArrayList<>();
-			events.add(new StageToWaitingRoomEvent(pc.getPlayer(), current));
+			events.add(new StageToWaitingRoomEvent(pc.getPlayer(), current, board.getStage().getSlot(s)));
 			pc.addEvents(events,po);
 			
 			

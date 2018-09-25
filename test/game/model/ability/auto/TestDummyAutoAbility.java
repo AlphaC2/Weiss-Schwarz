@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -28,6 +29,8 @@ import game.model.board.SlotType;
 import game.model.board.Stage;
 import game.model.card.Card;
 import game.model.card.Character;
+import game.model.card.DummyFactory;
+import game.model.card.DummyName;
 import game.model.gameEvent.EventType;
 
 public class TestDummyAutoAbility {
@@ -42,7 +45,8 @@ public class TestDummyAutoAbility {
 	private Hand hand;
 	private Character character;
 	private Character character2;
-
+	private Card dummyCard;
+	
 	@Mock
 	Reader mockReader;
 
@@ -55,11 +59,12 @@ public class TestDummyAutoAbility {
 		System.out.println("\nTest Number " + testNumber);
 
 		MockitoAnnotations.initMocks(this);
+		dummyCard = DummyFactory.createCard(DummyName.BasicCharacter);
 		character = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
 		character2 = (Character) CardXMLReader.read(path + "BasicCharacter.xml");
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
-			deck.add(character);
+			deck.add(dummyCard);
 		}
 
 		// Real Controller setup
@@ -92,11 +97,11 @@ public class TestDummyAutoAbility {
 		character.addAbility(dummy);
 		dummy.addAction(new PlaceInDamageFromLibrary());
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
 		
 		// Check Preconditions
 		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -162,11 +167,11 @@ public class TestDummyAutoAbility {
 		dummy2.addAction(new PlaceInDamageFromLibrary());
 		
 		doReturn(dummy, dummy2).when(mockReader).getChoice(anyString(), anyList());
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
 		
 		// Check Preconditions
 		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -210,11 +215,11 @@ public class TestDummyAutoAbility {
 		dummy2.addAction(new PlaceInDamageFromLibrary());
 		
 		doReturn(dummy, dummy2).when(mockReader).getChoice(anyString(), anyList());
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
 		
 		// Check Preconditions
 		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -259,11 +264,11 @@ public class TestDummyAutoAbility {
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
 		when(mockReader.getChoice(anyString())).thenReturn(true);
 		
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
 		
 		// Check Preconditions
 		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );
@@ -295,11 +300,11 @@ public class TestDummyAutoAbility {
 		when(mockReader.getChoice(anyString(), anyList())).thenReturn(dummy);
 		when(mockReader.getChoice(anyString())).thenReturn(false);
 		
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
-		hand.add(character);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
+		hand.add(dummyCard);
 		
 		// Check Preconditions
 		assertEquals(character, stage.getSlot(SlotType.FRONT_CENTER).getCharacter() );

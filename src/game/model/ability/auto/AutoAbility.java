@@ -4,6 +4,7 @@ import game.controller.PlayerController;
 import game.model.ability.startup.StartUpAbility;
 import game.model.card.Card;
 import game.model.gameEvent.EventType;
+import game.model.gameEvent.GameEvent;
 
 public abstract class AutoAbility extends StartUpAbility{
 
@@ -37,9 +38,18 @@ public abstract class AutoAbility extends StartUpAbility{
 		return primed == 0;
 	}
 	
-	public void prime(){
-		primed++;
+	public boolean prime(GameEvent e){
+		if (getTrigger() != e.getType()) {
+			return false;
+		}
+		
+		boolean checked = checkPrime(e);
+		if(checked){
+			primed++;
+		}
+		return checked;
 	}
+	protected abstract boolean checkPrime(GameEvent e);
 	
 	@Override
 	public void execute(PlayerController p1, PlayerController p2){

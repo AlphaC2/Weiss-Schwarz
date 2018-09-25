@@ -35,7 +35,7 @@ public class PlayerController {
 	private int refreshPoint = 0;
 	private List<AutoAbility> choices = new ArrayList<>();
 	private boolean testing = false;
-	
+
 	public PlayerController(String name, Reader reader, Writer writer) {
 		player = new Player(name);
 		this.reader = reader;
@@ -58,7 +58,7 @@ public class PlayerController {
 
 	public final boolean getChoice(String prompt) {
 		boolean choice = reader.getChoice(prompt);
-		if (reader instanceof ConsoleReader){
+		if (reader instanceof ConsoleReader) {
 			gm.getGameState().resume(0);
 		}
 		return choice;
@@ -84,10 +84,10 @@ public class PlayerController {
 		chars += board.getLibrary().size();
 		chars += board.getMemoryZone().size();
 		chars += board.getResolutionZone().size();
-		if (board.climaxZone != null) 
+		if (board.climaxZone != null)
 			chars++;
-		
-		if (testing && chars != 50){
+
+		if (testing && chars != 50) {
 			log("Level " + board.getLevel().size());
 			log("Damage " + board.getDamageZone().size());
 			log("Hand " + board.getHand().size());
@@ -99,9 +99,7 @@ public class PlayerController {
 			log("Resolution " + board.getResolutionZone().size());
 			System.exit(1);
 		}
-		
-		
-		
+
 		while (activateAuto())
 			;
 	}
@@ -116,8 +114,8 @@ public class PlayerController {
 		opponent.checkTiming();
 		this.events.addAll(events);
 	}
-	
-	private List<Card> getAbilityCards(){
+
+	private List<Card> getAbilityCards() {
 		List<Card> cards = new ArrayList<>();
 		// check stage
 		cards.addAll(board.getStage().getCharacters());
@@ -134,9 +132,9 @@ public class PlayerController {
 
 	private void removeExpiredMods(List<GameEvent> events) {
 		for (GameEvent event : events) {
-			if (event.getType() == EventType.PHASE){
+			if (event.getType() == EventType.PHASE) {
 				for (Card card : getAbilityCards()) {
-					card.removeExpiredMods( ((PhaseEvent) event).getPt()  );
+					card.removeExpiredMods(((PhaseEvent) event).getPt());
 				}
 			}
 		}
@@ -156,45 +154,20 @@ public class PlayerController {
 		List<Character> chars = new ArrayList<>();
 		// check stage
 		chars.addAll(board.getStage().getCharacters());
-
-		/*
-		 * // check hand for (Character character :
-		 * board.getHand().getCardsOfType(Character.class)) {
-		 * choices.addAll(character.getAutoAbilities()); }
-		 * 
-		 * // check memory for (Character character :
-		 * board.getMemoryZone().getCardsOfType(Character.class)) {
-		 * choices.addAll(character.getAutoAbilities()); }
-		 * 
-		 * // check level for (Character character :
-		 * board.getLevel().getCardsOfType(Character.class)) {
-		 * choices.addAll(character.getAutoAbilities()); }
-		 * 
-		 * // check waiting room for (Character character :
-		 * board.getWaitingRoom().getCardsOfType(Character.class)) {
-		 * choices.addAll(character.getAutoAbilities()); }
-		 */
+		chars.addAll(board.getHand().getCardsOfType(Character.class));
+		chars.addAll(board.getWaitingRoom().getCardsOfType(Character.class));
 
 		for (GameEvent e : events) {
 			log(e);
 			for (Character character : chars) {
 				for (AutoAbility autoAbility : character.getAutoAbilities()) {
-					if (autoAbility.getTrigger() != e.getType()) {
-						break;
-					}
-
-					if (autoAbility.getTrigger() == EventType.PHASE) {
-						PhaseAutoAbility a = (PhaseAutoAbility) autoAbility;
-						PhaseEvent pe = (PhaseEvent) e;
-						if (a.getPhase() != pe.getPt().getPhase() || a.getTiming() != pe.getPt().getTiming()) {
-							break;
-						}
-					}
 
 					if ((autoAbility.isSelf() && e.getSourcePlayer().equals(player))
 							|| (!autoAbility.isSelf() && !e.getSourcePlayer().equals(player))) {
-						autoAbility.prime();
-						choices.add(autoAbility);
+						boolean primed = autoAbility.prime(e);
+						if (primed) {
+							choices.add(autoAbility);
+						}
 					}
 				}
 			}
@@ -270,38 +243,38 @@ public class PlayerController {
 		System.out.println(deck.size());
 		setDeck(deck);
 	}
-	
-	public void displayStage(){
+
+	public void displayStage() {
 		writer.displayStage();
 	}
-	
-	public void displayHand(){
+
+	public void displayHand() {
 		writer.displayHand();
 	}
-	
-	public void displayWaitingRoom(){
+
+	public void displayWaitingRoom() {
 		writer.displayWaitingRoom();
 	}
-	
-	public void displayDamageZone(){
+
+	public void displayDamageZone() {
 		writer.displayDamageZone();
 	}
-	
-	public void displayLevel(){
+
+	public void displayLevel() {
 		writer.displayLevel();
 	}
-	
-	public void displayStock(){
+
+	public void displayStock() {
 		writer.displayStock();
 	}
-	
-	public void log(Object text){
+
+	public void log(Object text) {
 		writer.log(text);
 	}
 
 	public PlayerController toRestricted() {
 		PlayerController newPC = new PlayerController(player.getName(), reader, writer);
-		if (board != null){
+		if (board != null) {
 			newPC.board = board.toRestrictedBoard();
 		}
 		newPC.setGM(gm);
@@ -311,5 +284,5 @@ public class PlayerController {
 	public GameManager getGM() {
 		return gm;
 	}
-	
+
 }
