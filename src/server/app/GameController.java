@@ -29,7 +29,7 @@ public class GameController {
 	@RequestMapping(method = RequestMethod.GET, value = "/game")
 	public GameState getGameState(@RequestParam(value = "id", defaultValue = "1") int id) {
 		GameState og = GameManager.getGameState(id);
-		return new GameState(og.getP1(), og.getP2().toRestricted());
+		return og.toRestricted();
 	}
 	
 

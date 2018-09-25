@@ -21,6 +21,16 @@ public class GameState {
 		status = GameStatus.INITIALISED;
 	}
 	
+	public GameState toRestricted(){
+		GameState newState = new GameState(p1,p2.toRestricted());
+		newState.status = status;
+		newState.choice = choice;
+		newState.sourcePlayer = sourcePlayer;
+		newState.choices = choices;
+		return newState;
+				
+	}
+	
 	public void pause(PlayerController playerController, String prompt) {
 		List<Boolean> choices = new ArrayList<>();
 		choices.add(new Boolean(true));
