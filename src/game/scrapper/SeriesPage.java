@@ -17,7 +17,7 @@ public class SeriesPage {
 	private final static Logger log = Logger.getLogger(DeckPage.class);
 
 	public static void run() {
-		WebDriver driver = DriverUtilities.createDriver(false);
+		WebDriver driver = DriverUtilities.createDriver(false, false);
 		driver.get(url);
 		driver.findElement(By.className("item_single_card")).click();
 		WebElement navbar = driver.findElement(By.className("nav_list_second"));

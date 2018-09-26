@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverUtilities {
 
-	public static WebDriver createDriver(boolean headless) {
+	public static WebDriver createDriver(boolean headless, boolean images) {
 		String driverName = getDriverName();
 		switch (driverName) {
 		case "Google Chrome":
@@ -23,7 +23,9 @@ public class DriverUtilities {
 				 options.addArguments("--headless");
 			}
 			HashMap<String,Object> prefs = new HashMap<>();
-			prefs.put("profile.managed_default_content_settings.images", 2);
+			if(!images){
+				prefs.put("profile.managed_default_content_settings.images", 2);
+			}
 			options.setExperimentalOption("prefs", prefs);
 			return new ChromeDriver(options);
 
