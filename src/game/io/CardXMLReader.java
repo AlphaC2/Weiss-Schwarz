@@ -39,6 +39,8 @@ public class CardXMLReader {
 				Card c = read(card.getAbsolutePath());
 				cardSet.add(c);
 			}
+		} else {
+			return null;
 		}
 		return cardSet;
 	}
