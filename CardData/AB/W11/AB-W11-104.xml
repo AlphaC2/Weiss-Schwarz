@@ -2,12 +2,15 @@
 <Card>
 	<Type>Character</Type>
 	<ID>AB-W11-104</ID>
-	<Name>Yui, Big Fan of GirlDeMo</Name>
+	<Name>ガルデモの大ファン ユイ</Name>
+	<Rarity>TD</Rarity>
+	<ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10020.jpg</ImageURL>
 	<Colour>Yellow</Colour>
 	<Level>0</Level>
 	<Cost>0</Cost>
 	<Trigger>None</Trigger>
-	<Rarity>TD</Rarity>
+	<FlavourText></FlavourText>
+    <Ability></Ability>
 	<Character>
 		<Power>2500</Power>
 		<Trait>Dead</Trait>

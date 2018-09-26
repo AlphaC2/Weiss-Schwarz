@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Card>
-	<Type>Character</Type>
+	<Type>CHARACTER</Type>
 	<ID>AB-W11-103</ID>
-	<Name>Girl Who Fights Destiny</Name>
+	<Name>運命に立ち向かう少女</Name>
+	<Rarity>TD</Rarity>
+	<ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10018.jpg</ImageURL>
 	<Colour>Yellow</Colour>
 	<Level>1</Level>
 	<Cost>1</Cost>
 	<Trigger>None</Trigger>
-	<Rarity>TD</Rarity>
+	<FlavourText></FlavourText>
+    <Ability></Ability>
 	<Character>
 		<Power>7000</Power>
 		<Trait>Dead</Trait>

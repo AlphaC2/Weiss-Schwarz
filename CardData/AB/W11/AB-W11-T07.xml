@@ -2,13 +2,16 @@
 <Card>
 	<Type>Climax</Type>
 	<ID>AB-W11-T07</ID>
-	<Name>A Lady's Greatest Happiness</Name>
+	<Name>女の最高の幸せ</Name>
+	<Rarity>TD</Rarity>
+	<ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10008.jpg</ImageURL>
 	<Colour>Yellow</Colour>
 	<Level>0</Level>
 	<Cost>0</Cost>
 	<Trigger>Whirlwind</Trigger>
 	<Trigger>Soul</Trigger>
-	<Rarity>TD</Rarity>
+	<FlavourText></FlavourText>
+    <Ability></Ability>
 	<Climax>
 		<Ability></Ability>
 	</Climax>

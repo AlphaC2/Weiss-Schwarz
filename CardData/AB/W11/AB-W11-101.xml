@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Card>
-	<Type>Character</Type>
+	<Type>CHARACTER</Type>
 	<ID>AB-W11-101</ID>
-	<Name>Kanade, the Girl Called "Angel"</Name>
+	<Name>“天使”と呼ばれる少女 かなで</Name>
+	<Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10016.jpg</ImageURL>
 	<Colour>Yellow</Colour>
 	<Level>1</Level>
 	<Cost>0</Cost>
 	<Trigger>None</Trigger>
-	<Rarity>TD</Rarity>
+	<FlavourText></FlavourText>
+    <Ability></Ability>
 	<Character>
 		<Power>5000</Power>
 		<Trait>Dead</Trait>

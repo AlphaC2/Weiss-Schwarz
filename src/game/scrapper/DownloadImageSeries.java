@@ -2,16 +2,12 @@ package game.scrapper;
 
 import java.io.File;
 
-import org.openqa.selenium.WebDriver;
-
 public class DownloadImageSeries {
 	private String series;
-	private WebDriver driver;
 	
-	public DownloadImageSeries(String series, WebDriver driver) {
+	public DownloadImageSeries(String series) {
 		super();
 		this.series = series;
-		this.driver = driver;
 		run();
 	}
 	
@@ -23,15 +19,13 @@ public class DownloadImageSeries {
 		for (String	set: seriesFolder.list()) {
 			File setFolder = new File(seriesFolder + "/" + set);
 			for (String cardPath : setFolder.list()) {
-//				if(cardPath.equals("AB-W11-TEST.xml")){
 					System.out.println(setFolder + "/" + cardPath);
-					new DownloadImageFile(setFolder + "/" + cardPath, driver);
+					new DownloadImageFile(setFolder + "/" + cardPath);
 					try {
-						Thread.sleep(500);
+						Thread.sleep(100);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
-//				}
 			}
 			
 		}
