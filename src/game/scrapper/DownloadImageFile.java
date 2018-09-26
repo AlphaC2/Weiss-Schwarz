@@ -49,6 +49,8 @@ public class DownloadImageFile {
 			
 			//Get the output data
 			imageFilePath = fXmlFile.getAbsolutePath().replaceFirst("CardData", "Images").replaceFirst(".xml", ".jpg");
+			File imageFile = new File(imageFilePath);
+			imageFile.getParentFile().mkdirs();
 			
 			//Open image in browser
 			driver.get(imageUrl);
@@ -97,7 +99,7 @@ public class DownloadImageFile {
 
 //		System.out.println("PassedPath:" + url);
 //		System.out.println("FilePath:" + fXmlFile.getAbsolutePath());
-//		System.out.println("ImagePath:" + fXmlFile.getPath().replaceFirst("CardData", "Images"));
+//		System.out.println("ImageFilePath:" + imageFilePath);
 //		System.out.println("ImageURL:" + imageUrl);
 	}
 }
