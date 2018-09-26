@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RN-W16-T13</ID>
+    <Name>密室でふたりきり</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10014.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フラウ「か、勝ったら、鎖骨、ペロペロ、してあげるので……」</FlavourText>
+    <Ability>あなたは自分の控え室の《科学》のキャラを1枚選び、手札に戻す。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。このカードを思い出にする。</Ability>
+</Card>

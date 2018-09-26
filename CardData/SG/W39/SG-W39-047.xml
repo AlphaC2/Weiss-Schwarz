@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W39-047</ID>
+    <Name>ファウストローブ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ナリを理由に本気が出せなかったなどと、言い訳される訳にはいかないな…</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。このカードをストック置場に置く。</Ability>
+</Card>

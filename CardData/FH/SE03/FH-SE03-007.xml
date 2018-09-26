@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-007</ID>
+    <Name>平穏な日常セイバー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10014.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>せっかくの機会ですから、今日はこちらで過ごそうと思いまして</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【自】チェンジ［このカードをクロック置場に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水辺の王様セイバー」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

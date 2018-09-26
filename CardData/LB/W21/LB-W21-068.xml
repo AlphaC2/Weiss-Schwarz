@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-068</ID>
+    <Name>“すとらいくばっくす”クド</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10100.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みなさん！ わたし、ただいまなのです！</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「50ノーティカルマイルの空へ」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

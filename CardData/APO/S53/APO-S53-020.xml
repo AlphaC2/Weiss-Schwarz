@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-020</ID>
+    <Name>“竜告令呪”ジーク</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>俺に……どうして令呪が……</FlavourText>
+    <Ability>【永】他のあなたの、《マスター》か《サーヴァント》か《ホムンクルス》のキャラが2枚以上なら、このカードのパワーを＋2000。【自】［(1)］アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>HOMUNCULUS</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-008</ID>
+    <Name>パジャマの流子</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>神衣は今、洗濯中だ！</FlavourText>
+    <Ability>【自】絆／「喧嘩部部長マコ」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「喧嘩部部長マコ」を1枚選び、手札に戻す）【起】［(1)］そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

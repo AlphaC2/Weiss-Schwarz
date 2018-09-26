@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-031</ID>
+    <Name>ウェイバー・ベルベット</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ライダーよ、必ずや、最後までオマエが勝ち抜け</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはあなたの『応援』を持つキャラの枚数×500に等しい。【自】あなたのクライマックス置場に「王と臣下を結ぶ絆」が置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《王族》か《錬金術》のキャラならストック置場に置く。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>ALCHEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

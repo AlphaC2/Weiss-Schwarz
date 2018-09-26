@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-008</ID>
+    <Name>友利</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うちは貧乏だから、とっととメジャーデビューして独り立ちしてーな</FlavourText>
+    <Ability>【自】絆／「“ひとり、何を思う”友利奈緒」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“ひとり、何を思う”友利奈緒」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

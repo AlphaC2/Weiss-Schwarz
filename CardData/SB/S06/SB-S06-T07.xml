@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-T07</ID>
+    <Name>“戦国の風雲児”長曾我部元親</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10011.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はっは！　これが俺流の戦よ！</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

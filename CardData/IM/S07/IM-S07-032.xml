@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-032</ID>
+    <Name>動物大好き</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>皆の遺伝子に、自分の『ＮextLife』 埋め込んでみせるからね！</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「NeXtLife」が置かれた時、そのターン中、このカードのパワーを＋3000。【自】あなたのクライマックス置場に「NeXtLife」が置かれた時、前列にこのカードがいるなら、あなたは自分のクロック置場のレベル2以下のキャラを1枚選び、舞台の好きな枠に置いてよい。そうしたら、あなたは自分の山札の上から2枚を、クロック置場に置く。【起】［あなたのキャラを1枚【レスト】する］あなたの思い出置場の「寄り道」を1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

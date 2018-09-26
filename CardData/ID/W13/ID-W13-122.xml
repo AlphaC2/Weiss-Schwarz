@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W13-122</ID>
+    <Name>物欲しげなインデックス</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10155.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>大至急何かをたべさせてよ……とうまー</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「物欲しげなインデックス」を1枚選び、舞台の好きな枠に置く。【起】［あなたの《魔法》のキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

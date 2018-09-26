@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-WE21-10</ID>
+    <Name>出店めぐり</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbcmext/10021.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よーし、あっそぶぞー！</FlavourText>
+    <Ability>【永】他のあなたのカード名に「葉留佳」か「佳奈多」を含むキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】アンコール［あなたの山札の上から1枚をクロック置場に置く］』を得る。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MARBLE</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>RN-W16-099</ID>
+    <Name>ホワイト・クリスマス・イヴ</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10125.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>BOOK</Trigger>
+    <FlavourText>おでこにしますか？ ほっぺ？それとも、くちびる？アイリの第一希望は、おでこです</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（引＠：このカードがトリガーした時、あなたは1枚引いてよい）</Ability>
+</Card>

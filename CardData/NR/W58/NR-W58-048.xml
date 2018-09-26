@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NR-W58-048</ID>
+    <Name>ドキドキ空中散歩</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10049.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なのは「それっ！」</FlavourText>
+    <Ability>【カウンター】あなたの、《魔法》か《武器》のキャラが5枚以上なら、あなたは相手のキャラを1枚選び、【レスト】する。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-W03-030</ID>
+    <Name>水着のシエスタ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10036.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シエスタ「女としての魅力でミスヴァリエールに勝ってみせるわ！」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAID</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

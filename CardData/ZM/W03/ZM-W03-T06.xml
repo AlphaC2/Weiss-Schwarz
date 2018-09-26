@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-W03-T06</ID>
+    <Name>閃光のワルド</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10122.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>遠慮はいらぬ。全力で来たまえ</FlavourText>
+    <Ability>【自】あなたが『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、そのターン中、このカードのパワーを＋3000。【自】このカードがアタックした時、クライマックス置場に「手合わせ」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

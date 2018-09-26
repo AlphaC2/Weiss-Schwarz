@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-032</ID>
+    <Name>気まぐれな縫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キミ、邪魔だよ</FlavourText>
+    <Ability>【自】［(2)］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

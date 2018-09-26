@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-T15</ID>
+    <Name>“強制連行”アクア</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10015.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いやぁあああ!!こんな男と異世界行きだなんていやああああああ!!</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

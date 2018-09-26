@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-055</ID>
+    <Name>先輩と後輩</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>黒子「お姉さまらしいやさしさですわ」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《超能力》のキャラすべてに、レベルを＋1し、パワーを＋500。【自】［手札のクライマックス1枚を控え室に置く］あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが拾＠なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

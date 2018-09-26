@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-054</ID>
+    <Name>巡音ルカ“エターナルホワイト”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10082.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いつだって私は今よりもっと求めていたい...例え“　　”がわたしの最高の“個性色”だとしても・・・</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「DYE」があるなら、そのターン中、このカードは以下の能力のうちあなたが選んだ1つを得る。『【永】このカードのパワーを＋2000。』『【永】このカードのソウルを＋1。』</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

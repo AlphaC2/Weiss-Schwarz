@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-092</ID>
+    <Name>“アクシズ教団の元締め”アクア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>控えなさいリッチー!!</FlavourText>
+    <Ability>【自】他のあなたの、《冒険者》か《女神》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

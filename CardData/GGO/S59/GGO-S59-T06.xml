@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GGO-S59-T06</ID>
+    <Name>鋭い視線</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ggo/10006.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エム『右四十五度、７メートル前』</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの、《アバター》か《ネット》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

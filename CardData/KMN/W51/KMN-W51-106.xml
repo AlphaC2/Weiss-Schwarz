@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KMN-W51-106</ID>
+    <Name>“PPP”プラチナチケット</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10134.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サーバル「ふっふーん、博士たちにもらったんだ」</FlavourText>
+    <Ability>【カウンター】あなたは自分の、《フレンズ》か《メカ》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

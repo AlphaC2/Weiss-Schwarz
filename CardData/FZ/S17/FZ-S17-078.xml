@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-078</ID>
+    <Name>運命から逃げた男</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10108.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>俺は貴様らを許さない……</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

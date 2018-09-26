@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-P06</ID>
+    <Name>“潮干狩り”小泉</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10006.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>これでアサリのお味噌汁いっぱい作れますね♪ おにぎりを食べる手が進んじゃいます！</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

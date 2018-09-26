@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-P28</ID>
+    <Name>キラキラを求めて</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10242.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなで歌って弾くの、絶対キラキラだよ！</FlavourText>
+    <Ability>【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。 【自】［手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたのカード名に「香澄」か「たえ」か「りみ」か「沙綾」か「有咲」を含むキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「蔵の中にあったもの」を1枚までと「ハッピークリスマス♪ 香澄」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

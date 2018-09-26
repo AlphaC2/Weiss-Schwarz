@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-T11</ID>
+    <Name>“儀装の駆り手”カムシン・ネブハーウ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10011.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>協力して頂きたいのですよ。あなたは最適だと思われるので</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>RELICS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

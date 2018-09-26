@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-T13</ID>
+    <Name>“八神家”ザフィーラ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10013.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シグナム「我々は戸惑いながらも……静かな日々を過ごし始めていた」</FlavourText>
+    <Ability>【永】他のあなたの《魔法》のキャラすべてに、パワーを＋500。【起】【カウンター】助太刀3000レベル2［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>FAMILIAR</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

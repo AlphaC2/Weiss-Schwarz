@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W53-002</ID>
+    <Name>“未来の僕らは知ってるよ”津島善子</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「見えない力」があるなら、あなたは自分の控え室の、《音楽》か《動物》のキャラを1枚まで選び、手札に戻し、他の自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

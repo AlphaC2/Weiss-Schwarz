@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-059</ID>
+    <Name>“ステージ”牛込りみ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>キラキラドキドキなライブにしたいね!</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの控え室のイベントの枚数×1500に等しい。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POPPIN’PARTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

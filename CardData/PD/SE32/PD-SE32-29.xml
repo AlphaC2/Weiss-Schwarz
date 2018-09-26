@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-29</ID>
+    <Name>初音ミク“チョップスティック”</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10058.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>喝采なくした日雇いムービースターに売ったプライド　感情トリップ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。【自】チェンジ［(1)手札を1枚控え室に置き、このカードをクロック置場に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「初音ミク“ファイナルフュージョン”」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

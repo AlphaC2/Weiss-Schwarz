@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-077</ID>
+    <Name>サファイア・ロードナイト</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10090.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ああ！遅刻じゃ、遅刻！ 転校早々、大遅刻じゃー！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【起】［あなたの《悪魔》のキャラを1枚控え室に置く］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>ROYALTY</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

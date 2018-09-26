@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-114</ID>
+    <Name>平穏な日常</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10149.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>覚えてる？　図書館のこと</FlavourText>
+    <Ability>【永】他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>BOOK</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

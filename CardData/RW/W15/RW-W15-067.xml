@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W15-067</ID>
+    <Name>対峙</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ぎる「クリボイログ…鉄鉱石、同サイズ最強の捕食者、それに巨大生物の混合体…」</FlavourText>
+    <Ability>あなたは相手の前列のコスト1以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

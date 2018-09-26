@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AOT-S50-021</ID>
+    <Name>座標</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10023.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アァアアアアアアア</FlavourText>
+    <Ability>相手にＸダメージを与える。Ｘはあなたの思い出置場の「“追走”巨人」の枚数に等しい。（ダメージキャンセルは発生する）あなたは自分の思い出置場の「“追走”巨人」を1枚選び、控え室に置く。</Ability>
+</Card>

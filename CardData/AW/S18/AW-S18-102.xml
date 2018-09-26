@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-102</ID>
+    <Name>奇跡の生還</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……天も地もない暗闇の中で……キミの声だけが聞こえた</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。【起】［(1)このカードを【レスト】する］あなたは相手のレベル0以下のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>AVATAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

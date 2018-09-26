@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-003</ID>
+    <Name>元気が一番</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10026.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うわーい！みんな、亜美達の分まで、チョ→頑張ってねーっ！</FlavourText>
+    <Ability>【起】［あなたの思い出置場の「衣装変更」を1枚控え室に置く］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000し、ソウルを＋1。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

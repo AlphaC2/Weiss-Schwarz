@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-T05</ID>
+    <Name>目覚めた力</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10006.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはあなたの『応援』を持つキャラの枚数×500に等しい。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

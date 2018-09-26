@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-072</ID>
+    <Name>“雪の妖精”イリヤ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10072.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここで死ぬ人間に、何を語れと言うのかしら？</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「正式契約」があり、他のあなたの、《マスター》か《サーヴァント》のキャラが4枚以上なら、あなたは1枚引いてよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>HOMUNCULUS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-071</ID>
+    <Name>“優しい言葉”篝</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10103.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…感謝を、天王寺瑚太朗……利己的な私を、慈しんだ者…</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に｢可能性の系統樹｣があるなら、このカードのパワーを＋1500。【自】［(1)］このカードがアタックした時、クライマックス置場に「出会い」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。その後、あなたの手札が2枚以下なら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>KEY</Trait>
+        <Trait>TIME</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

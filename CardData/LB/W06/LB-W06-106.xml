@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-106</ID>
+    <Name>“なつかない猫”鈴</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10004.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…にゃ？</FlavourText>
+    <Ability>【永】相手の【スタンド〕しているキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

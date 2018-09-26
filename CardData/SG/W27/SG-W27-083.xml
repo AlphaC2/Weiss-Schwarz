@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W27-083</ID>
+    <Name>歴戦の手練れ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10092.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>貴様みたいのはそうやって…見下ろしてばかりだから勝機を見落すッ</FlavourText>
+    <Ability>【永】相手のターン中、相手のキャラが3枚以下なら、このカードのレベルを＋1し、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

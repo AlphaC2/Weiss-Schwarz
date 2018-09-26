@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-033</ID>
+    <Name>“ここにない世界”七野</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10058.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これからだよっ！絶対いい場面で使ってみせるさ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分の《能力者》のキャラを1枚選び、そのターン中、パワーを＋1000。【自】バトル中のこのカードが【リバース】した時、あなたは相手のクロックを1枚選び、控え室に置いてよい。そうしたら、相手は自分の山札の上から1枚を、クロック置場に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>GIFTED</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

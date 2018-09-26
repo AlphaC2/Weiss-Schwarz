@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-006</ID>
+    <Name>“秘蔵のネタ”小鳥</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よく見てごらんよ、ハロゲンヒーターがなななーんと３９０円也。チョーふしぎ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《植物》のキャラなら、そのターン中、このカードのソウルを＋1。そのカードが《オカルト》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>PLANT</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

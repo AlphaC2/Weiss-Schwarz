@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S21-004</ID>
+    <Name>一歩の勇気</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animeim/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>い、いえーーい！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが2枚以上なら、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TEA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

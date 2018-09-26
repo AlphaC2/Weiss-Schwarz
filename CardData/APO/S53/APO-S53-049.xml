@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-049</ID>
+    <Name>“庭園の中で”赤のアサシン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText/>
+    <Ability/>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>POISON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

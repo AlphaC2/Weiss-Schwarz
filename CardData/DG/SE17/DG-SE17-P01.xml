@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-SE17-P01</ID>
+    <Name>ディスガイア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>悪魔も天使も大暴れ！</FlavourText>
+    <Ability>あなたは自分のキャラを2枚選び【レスト】する。2枚【レスト】したなら、相手にXダメージを与える。Xはそれらのキャラのレベルの合計に等しい。（ダメージキャンセルは発生する）</Ability>
+</Card>

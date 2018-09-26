@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-070</ID>
+    <Name>若宮</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>姫、そろそろ教えてくれないかしら？私たちはもう好奇心で死んでしまいそうだわ</FlavourText>
+    <Ability>【自】［(2)］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

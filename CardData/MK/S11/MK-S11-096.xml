@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S11-096</ID>
+    <Name>コーデリアのお花畑</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10134.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>コーデリア「私の、お花畑…ー」</FlavourText>
+    <Ability>あなたは自分のクロックの上から2枚までを、控え室に置く。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。このカードを思い出にする。</Ability>
+</Card>

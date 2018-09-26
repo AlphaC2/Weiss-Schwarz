@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-029</ID>
+    <Name>“パジャマ姿の患者さん”宇田川巴</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>巴「これははやく治して、みんなにお礼を言わなきゃ、だな」</FlavourText>
+    <Ability>【自】あなたのクライマックスフェイズの始めに、あなたのクロックの1番上に『アラーム』を持つカードがあるなら、あなたは自分の《Afterglow》のキャラを1枚選び、そのターン中、パワーを＋1500。【起】集中［(1)あなたのキャラを2枚【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

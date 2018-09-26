@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-036</ID>
+    <Name>“布団の中で”乙坂</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ごめんね…</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「過酷な運命の結末」があるなら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>PIZZA_SAUCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

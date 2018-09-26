@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-094</ID>
+    <Name>繊細技巧</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10120.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>最後に、この飾りを上に乗せて、と…えっと、これで一通り完成したかな</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「運動合宿」があり、あなたのキャラすべてが赤なら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋4000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-065</ID>
+    <Name>チョココロネを手渡す沙綾</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10133.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えっと、気をつけてね</FlavourText>
+    <Ability>【永】あなたのクロックが0枚なら、このカードはアタックできない。【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

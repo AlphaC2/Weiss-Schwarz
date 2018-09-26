@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-083</ID>
+    <Name>黒雲内の走行</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10083.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>急いでレイン！</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの「意志のこもる瞳フーコ」がいるなら、このカードのパワーを＋2000。【自】加速［あなたの山札の上から1枚をクロック置場に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《アバター》か《ネット》のキャラなら、そのターン中、このカードは次の能力を得る。『【永】このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>AVATAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

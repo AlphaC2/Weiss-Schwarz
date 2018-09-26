@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-052</ID>
+    <Name>“クライブ”沙綾</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10120.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>君と奏でるコルネットはゆっくり大切に感じたの</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

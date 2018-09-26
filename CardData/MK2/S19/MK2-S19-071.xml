@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK2-S19-071</ID>
+    <Name>小衣ちゃんグッズ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さっさと起きろ！ 起きないなら一生寝てろー！</FlavourText>
+    <Ability>あなたは自分の【スタンド】しているキャラを2枚選び【レスト】する。2枚【レスト】したなら、あなたは自分の控え室の《警察》のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

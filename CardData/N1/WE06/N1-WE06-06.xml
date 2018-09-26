@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N1-WE06-06</ID>
+    <Name>教育係リニス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm/10014.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お嬢様・・・・・・お名前は？</FlavourText>
+    <Ability>【自】［あなたの舞台のカード名に「フェイト」を含むキャラを1枚クロック置場に置き、このカードを思い出にする］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「もうひとりの魔法少女フェイト」を1枚まで選び、後列の好きな枠に置く。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FAMILIAR</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

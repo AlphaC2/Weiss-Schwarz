@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-24</ID>
+    <Name>突然の転校生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10047.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>美遊・エーデルフェルトです</FlavourText>
+    <Ability>【永】他のあなたの前列のキャラがいないなら、このカードのパワーを＋1000し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

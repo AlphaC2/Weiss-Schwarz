@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-071</ID>
+    <Name>“決戦”黒のアーチャー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10099.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>然るべき刻、然るべき座標、然るべき速度。……必要なのは、ただそれだけだ</FlavourText>
+    <Ability>【自】［手札の、《マスター》か《サーヴァント》のキャラを1枚控え室に置き、あなたのレベル置場の表向きのカードを1枚裏向きにする］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《マスター》か《サーヴァント》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

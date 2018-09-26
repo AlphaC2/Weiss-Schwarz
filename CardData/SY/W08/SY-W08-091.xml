@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-091</ID>
+    <Name>スイカを食べる長門</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なに？</FlavourText>
+    <Ability>【自】チェンジ［(1)このカードを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水着のハルヒ＆長門」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>WATERMELON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

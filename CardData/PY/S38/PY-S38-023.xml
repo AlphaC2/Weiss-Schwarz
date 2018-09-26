@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-023</ID>
+    <Name>天真爛漫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>かわいさもあたしのほうが勝ちーっ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードに「きいろぷよ」があるなら、あなたのキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>DOUBLE_TOOTH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

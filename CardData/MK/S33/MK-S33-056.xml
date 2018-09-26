@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-056</ID>
+    <Name>“花崎マミュ”小衣</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アイドル界最強が誰か教えてやるわ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《警察》のキャラが4枚以上なら、あなたは自分の控え室の《警察》のキャラを1枚選び、ストック置場に置いてよい。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>POLICE</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

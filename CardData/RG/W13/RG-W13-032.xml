@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W13-032</ID>
+    <Name>初春のクラスメイト</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>相変わらずやってますねー</FlavourText>
+    <Ability>【永】他のあなたのカード名に「初春」を含むキャラがいるなら、このカードのパワーを＋2000し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>NONE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

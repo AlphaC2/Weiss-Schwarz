@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-014</ID>
+    <Name>最強の美少女</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>美少女コンテストで勝負だ！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの《ぷよ》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀1000レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>DOUBLE_TOOTH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

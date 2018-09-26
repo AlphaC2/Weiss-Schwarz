@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-090</ID>
+    <Name>勇者アルマース</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10105.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>姫様のためなら死ねる！！……できれば死にたくないけど！！</FlavourText>
+    <Ability>【永】相手のターン中、このカードのパワーを＋1000。【自】このカードがアタックした時、クライマックス置場に「魔王アルマース」があるなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>HERO</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

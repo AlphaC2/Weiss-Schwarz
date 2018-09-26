@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-T11</ID>
+    <Name>美琴のパートナー</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10011.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お、お姉さま、今…ずっと一緒って…</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

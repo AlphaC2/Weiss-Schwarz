@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-085</ID>
+    <Name>“女教皇”神裂</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だからここで見張っていて欲しいのですっ！</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを思い出にする］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“聖人”神裂」を1枚選び、このカードがいた枠に置く。【起】【カウンター】助太刀2000レベル1［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

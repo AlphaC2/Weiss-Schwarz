@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-001</ID>
+    <Name>ほむらとの対峙</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10004.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お互いに動きの読み合いね</FlavourText>
+    <Ability>【自】[(1)］このカードがアタックした時、クライマックス置場に「避けられぬ衝突」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>TEA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

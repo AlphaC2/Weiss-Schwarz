@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-WE30-20</ID>
+    <Name>体操着のななか</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcvslbdc/10039.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>大事に素直に、あの人の心に届くように歌うね</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【永】このカードの正面のキャラに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

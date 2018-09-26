@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-077</ID>
+    <Name>“毒霧”黒のアサシン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10105.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おかあさんはどこ？</FlavourText>
+    <Ability>【自】【CXコンボ】あなたのクライマックス置場に「解体聖母」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《マスター》か《サーヴァント》のキャラなら、相手の前列のキャラすべてに、そのターン中、パワーを?2000。【自】アンコール［あなたの舞台の青のキャラを1枚クロック置場に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>FOG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

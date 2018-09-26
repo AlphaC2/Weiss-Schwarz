@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-089</ID>
+    <Name>浴衣の長門&amp;キョンの妹</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>妹「ユキちゃんありがとーー」</FlavourText>
+    <Ability>【自】絆／「浴衣のキョン」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「浴衣のキョン」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

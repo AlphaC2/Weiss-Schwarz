@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-006</ID>
+    <Name>“筋金入りのド変態”ダクネス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10032.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お、お前とこのデュラハンは一体二人がかりでこの私をどうするつもりだっ!!</FlavourText>
+    <Ability>【永】相手のターン中、このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×4000に等しい。【自】相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WORRRIES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

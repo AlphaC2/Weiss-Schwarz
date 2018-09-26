@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-P01</ID>
+    <Name>姫百合&amp;ミルキィホームズ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10001.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>姫百合「カリオストロを追いましょう！！」シャロ「絶対に逃がしません！！」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>POLICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

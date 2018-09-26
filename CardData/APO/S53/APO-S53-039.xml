@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-039</ID>
+    <Name>“嫣然とした笑み”赤のアサシン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10066.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>無理だ</FlavourText>
+    <Ability>【自】［(1)］この能力は1ターンにつき1回まで発動する。あなたのカードがレベル置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《マスター》か《サーヴァント》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>POISON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

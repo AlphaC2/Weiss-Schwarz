@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-086</ID>
+    <Name>“託された希望”小町</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの《改造》のキャラが2枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】他のあなたの《改造》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-18</ID>
+    <Name>潜水ソ級</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたのキャラがいないなら、このカードのパワーを＋1500し、このカードは相手のキャラの【自】の効果によって【リバース】されない。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>SUBMARINE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-019</ID>
+    <Name>“南国ビーチリゾート”芽亜</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そっ、それってどんな!ー</FlavourText>
+    <Ability>【自】共鳴［手札の「金色の闇」を1枚公開する］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000し、ソウルを-1。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

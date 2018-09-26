@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MM-W17-098</ID>
+    <Name>さやかの願い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magica/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>後悔なんて、あるわけない</FlavourText>
+    <Ability>【カウンター】あなたは自分のカード名に「さやか」を含むキャラを1枚選び、控え室に置く。そうしたら、あなたは自分のクロックの上から1枚を、手札に戻し、このカードを思い出にする。</Ability>
+</Card>

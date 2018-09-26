@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK2-S19-096</ID>
+    <Name>メカコーデリア</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>コーデリアァァァ！</FlavourText>
+    <Ability>あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

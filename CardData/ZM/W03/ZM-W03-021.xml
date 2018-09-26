@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-021</ID>
+    <Name>使い魔品評会</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10025.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>コルベール「ただいまより、本年度の使い魔おひろめをとりおこないます」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。あなたは自分の《使い魔》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+</Card>

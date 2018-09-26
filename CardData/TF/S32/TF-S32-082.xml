@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-082</ID>
+    <Name>“幹部乗組員”ミッシェル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……なかなか想像力があるな私も…</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【起】［(2)このカードを【レスト】する］あなたは自分の控え室のカードすべてを、山札に戻す。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

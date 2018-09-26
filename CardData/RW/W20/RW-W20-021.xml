@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-021</ID>
+    <Name>“人為的な奇跡”瑚太朗</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10026.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>小鳥「瑚太朗君、これって」瑚太朗「ああ…間違いない。…あいつらだ」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

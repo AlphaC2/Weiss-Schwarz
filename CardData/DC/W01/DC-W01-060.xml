@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-060</ID>
+    <Name>美春&amp;音夢</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10065.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ちっちっちっ……女の子はなにかを買う目的なんかなくても買い物するんですよ</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

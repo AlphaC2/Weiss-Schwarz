@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>APO-S53-096</ID>
+    <Name>託されし盾</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>4</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>持ってけ。俺にはもう、盾は必要ないからな</FlavourText>
+    <Ability>【カウンター】あなたはバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】このカードはプレイヤーにダメージを与えることができない。』あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+</Card>

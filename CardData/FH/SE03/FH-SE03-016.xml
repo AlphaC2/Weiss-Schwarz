@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-016</ID>
+    <Name>過去の記憶</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10032.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ランサー「ああ、しかし―――どうしてこう、いい女にばっかり縁がないのかねぇ」</FlavourText>
+    <Ability>【永】あなたのストックが5枚以上なら、このカードのパワーを＋1000。【永】このカードの正面のキャラのソウルを-1。【起】［(1)］あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

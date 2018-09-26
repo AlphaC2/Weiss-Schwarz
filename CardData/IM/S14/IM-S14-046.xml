@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S14-046</ID>
+    <Name>どっとっぷTV</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10077.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今週のランキングを紹介するどっと！</FlavourText>
+    <Ability>あなたは自分のクロック置場のキャラを1枚まで選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。このカードを思い出にする。</Ability>
+</Card>

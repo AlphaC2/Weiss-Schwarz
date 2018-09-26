@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-053</ID>
+    <Name>中学三年生のなのは</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10082.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あの日出会った絆は……今もちゃんと結ばれて……</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたのカード名に「フェイト」を含むキャラすべてに、そのターン中、パワーを＋500。【自】絆／「“雷光”フェイト」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“雷光”フェイト」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

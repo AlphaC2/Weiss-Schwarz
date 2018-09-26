@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-09</ID>
+    <Name>普通の女の子</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10017.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そーだ。お兄ちゃん、家まで競争しよっか</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「誕生！魔法少女！」があるなら、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードすべてが《魔法》のキャラなら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

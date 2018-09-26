@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-103</ID>
+    <Name>衛宮家の居候</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10118.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>凛「セイバー、準備はいい？ほら、桜も笑って笑って！」</FlavourText>
+    <Ability>【自】バトルしているこのカードが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。【起】［(1)］あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

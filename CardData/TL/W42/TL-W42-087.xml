@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-087</ID>
+    <Name>“スポーツドリンク”春菜</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10087.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはあなたのレベル置場の、《動物》か《霊》のキャラの枚数×500に等しい。【自】あなたのクライマックス置場に「今だけは１人占め」が置かれた時、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】他のあなたの前列の中央の枠のキャラに、パワーを＋1500。』</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-076</ID>
+    <Name>ゲームマスター綺礼</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10088.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>―――命をかけろ。或いは、この身に届くかもしれん―――！</FlavourText>
+    <Ability>【永】他のあなたの《武器》のキャラすべてに、パワーを＋500。【起】［(5)このカードを【レスト】する］あなたは自分の手札のレベル2以下のキャラを1枚まで選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>GOD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-013</ID>
+    <Name>あたたかな心遣い</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さっきのこと、気にしてんのかと思って、なぐさめにきてやったっちゅーねん</FlavourText>
+    <Ability>【自】絆／「星の力せいら」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「星の力せいら」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>MERCHANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

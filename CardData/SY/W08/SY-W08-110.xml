@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-110</ID>
+    <Name>長門&amp;ハルヒ&amp;みくる</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10135.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハルヒ「入っていいわよ」</FlavourText>
+    <Ability>【永】他のあなたのカード名に「キョン」を含むキャラがいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

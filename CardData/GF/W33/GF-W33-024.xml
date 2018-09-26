@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-024</ID>
+    <Name>夕涼み</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>その代わり、夏の風物詩いろいろとか、暑いからできることもあるわけだし</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】チェンジ［(2)このカードを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「素顔の私を櫻井明音」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

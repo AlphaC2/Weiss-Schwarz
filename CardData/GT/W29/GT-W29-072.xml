@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GT-W29-072</ID>
+    <Name>遮られる光</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>＃＃＃……ウラ＆％＆……ヤマ……シイ％％……</FlavourText>
+    <Ability>あなたは自分の控え室の《悪魔》のキャラを3枚まで選び、手札に戻す。このカードをクロック置場に置く。</Ability>
+</Card>

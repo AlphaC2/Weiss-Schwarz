@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-019</ID>
+    <Name>イエロー・レディオ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10019.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やれやれ見ちゃいられませんねぇ</FlavourText>
+    <Ability>【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《アバター》か《ネット》のキャラなら、あなたは相手の控え室のカードを1枚選び、ストック置場に置き、相手はそのストックをシャッフルする。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>CLOWN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

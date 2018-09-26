@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-P04</ID>
+    <Name>お料理エリー</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10003.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ど…どうですか…？</FlavourText>
+    <Ability>【起】［(1)］そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

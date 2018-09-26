@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-T04</ID>
+    <Name>“STAR</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10004.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>星のコドウを　そっとつかまえたなら　その手でだきしめて―</FlavourText>
+    <Ability>【自】相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>CHOCO_CORONET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

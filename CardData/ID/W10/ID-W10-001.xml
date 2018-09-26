@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-001</ID>
+    <Name>幼い頃の記憶</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10024.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…どうしてこんな事になっちゃったかな</FlavourText>
+    <Ability>【永】記憶あなたのターン中、あなたの思い出置場の「御坂妹」が2枚以上なら、このカードのパワーを＋4000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

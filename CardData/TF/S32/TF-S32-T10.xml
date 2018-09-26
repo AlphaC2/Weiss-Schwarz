@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-T10</ID>
+    <Name>“バグズ2号の乗組員”小町</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10011.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>俺たちは戦って勝ちます！</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「既知との遭遇」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

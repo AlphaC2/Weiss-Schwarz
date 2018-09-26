@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-008</ID>
+    <Name>“無能力者”当麻</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そんなこと言われちまったら、死んでも抵抗したくなっちまうじゃねぇか！</FlavourText>
+    <Ability>【自】チェンジ［手札を1枚クロック置場に置き、このカードを思い出にする］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“幻想殺し”当麻」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

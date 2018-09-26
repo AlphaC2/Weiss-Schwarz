@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-080</ID>
+    <Name>湖の騎士</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>湖の騎士シャマルと風のリング「クラールヴィント」、癒しと補助が本領です</FlavourText>
+    <Ability>【永】他のあなたのカード名に「シグナム」を含むキャラすべてに、パワーを＋500。【自】あなたのクライマックス置場に「癒しの力」が置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードすべてが《魔法》のキャラなら、あなたは自分のクロックの上から1枚を、控え室に置く。【起】［このカードを【レスト】する］あなたは自分のカード名に「ヴィータ」を含むキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

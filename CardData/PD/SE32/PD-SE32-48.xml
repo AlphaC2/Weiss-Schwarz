@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-48</ID>
+    <Name>鏡音リン“オレンジこんこん”</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10099.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>なんで？どおして？頭ん中パニック</FlavourText>
+    <Ability>【永】他のあなたの「初音ミク“グリーンぽんぽこ”」がいるなら、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。【自】相手のアタックフェイズの始めに、あなたは自分の「初音ミク“グリーンぽんぽこ”」を1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>NINJA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

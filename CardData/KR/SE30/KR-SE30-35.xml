@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-35</ID>
+    <Name>“変形鏡面ガマ”架印</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10073.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>貴様ら…、ここでなにをしているっ！</FlavourText>
+    <Ability>【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SHINIGAMI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

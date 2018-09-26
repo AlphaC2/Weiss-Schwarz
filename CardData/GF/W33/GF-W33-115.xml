@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-115</ID>
+    <Name>夕涼み</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10141.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…ふう。お昼のうちは暑かったですけど…こうして日が落ちると、少し楽ですね</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの青のキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【自】このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

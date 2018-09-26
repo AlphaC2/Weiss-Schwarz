@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE29-15</ID>
+    <Name>同じ素質</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext2.0/10029.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私はお前と同じ素質を持っている</FlavourText>
+    <Ability>【自】［手札のクライマックスを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て『合体』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

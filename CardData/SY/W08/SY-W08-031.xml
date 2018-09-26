@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-031</ID>
+    <Name>時をかける少女みくる</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>信じてもらえないかもしれないけど、あたしはこの時代の人間ではありません</FlavourText>
+    <Ability>【自】チェンジ［(1)このカードをクロック置場に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「異時間同位体みくる＆みくる（大）」を1枚選び、このカードがいた枠に置く。【起】【カウンター】助太刀1500レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TIME</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

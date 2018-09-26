@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T60</ID>
+    <Name>“なにごともほどほどに”奥沢美咲</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10352.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だって……ミッシェルは、……あたしもそれなりに、気に入っ……</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラすべてに、パワーを＋500。【起】［(1)このカードを控え室に置く］あなたは自分の控え室の「“桜ミッシェル”奥沢美咲」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

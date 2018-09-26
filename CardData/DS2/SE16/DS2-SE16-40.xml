@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-40</ID>
+    <Name>“悪魔使い”オトメ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10081.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私って、ミステリアスな女でしょー</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《サマナー》のキャラすべてに、レベルを＋1し、パワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>SUMMER</Trait>
+        <Trait>DOCTOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

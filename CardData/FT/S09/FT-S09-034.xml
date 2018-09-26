@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-034</ID>
+    <Name>宝瓶宮のアクエリアス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>しばらく呼ぶな。一週間彼氏と旅行に行く。彼氏とな</FlavourText>
+    <Ability>【自】このカードが、手札か山札から舞台に置かれた時、すべてのプレイヤーに1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>KEY</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

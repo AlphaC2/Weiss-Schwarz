@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-T11</ID>
+    <Name>チューリップ組</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10014.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ちょっと、咲！ このアホ衣装係！</FlavourText>
+    <Ability>【起】【カウンター】助太刀2000レベル1［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>POLICE</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

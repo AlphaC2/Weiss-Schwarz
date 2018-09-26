@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DD-WE23-35</ID>
+    <Name>通りすがりの腕自慢</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10069.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>少しばかり腕自慢のな</FlavourText>
+    <Ability>【自】記憶このカードのバトル相手が【リバース】した時、あなたの思い出置場に「“追憶”フィー」があるなら、あなたはそのバトル相手を山札の上に置いてよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>BLACKSMITH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

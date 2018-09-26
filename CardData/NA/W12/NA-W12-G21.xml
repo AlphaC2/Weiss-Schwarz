@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-G21</ID>
+    <Name>モード黒騎士</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10167.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>トーマ 「大丈夫！　止まれないなら、俺達が止めるッ！」リリィ 「そうだよ！　私達が、きっと助けるからッッ！！」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

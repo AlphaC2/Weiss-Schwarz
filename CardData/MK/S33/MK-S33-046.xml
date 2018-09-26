@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S33-046</ID>
+    <Name>初めての怪盗</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10077.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>桃怪盗「あなたのトイズ、本当に怪盗向きなのね」</FlavourText>
+    <Ability>あなたは自分の山札を上から4枚まで見て、カード名に「アリス」か「カズミ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+</Card>

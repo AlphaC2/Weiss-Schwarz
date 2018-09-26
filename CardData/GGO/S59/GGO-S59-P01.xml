@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GGO-S59-P01</ID>
+    <Name>やる気充溢！レン</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ggo/10029.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いいよ！ 何でもやるよ！ 作戦を教えて！</FlavourText>
+    <Ability>【永】 あなたのストックが2枚以下なら、このカードのレベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

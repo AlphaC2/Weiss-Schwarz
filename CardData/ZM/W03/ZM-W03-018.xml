@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-018</ID>
+    <Name>ディスペル・マジック</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10022.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>デルフリンガー「そいつだ！解除だよ！」</FlavourText>
+    <Ability>集中あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードにクライマックスがあるなら、相手は自分の手札を2枚選び、控え室に置く。</Ability>
+</Card>

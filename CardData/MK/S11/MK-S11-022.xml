@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S11-022</ID>
+    <Name>食料集め</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、パワーを＋5000。相手のクロックが0枚なら、そのターン中、相手は『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+</Card>

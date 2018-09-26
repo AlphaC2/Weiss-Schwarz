@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-017</ID>
+    <Name>“出発”エヴァ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-T14</ID>
+    <Name>3人との出会い</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あれ〜、なんだか賑やかだねー？</FlavourText>
+    <Ability>【自】他のあなたの黄のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【起】［あなたの黄のキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GYARU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

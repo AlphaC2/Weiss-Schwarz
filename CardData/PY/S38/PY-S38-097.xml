@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-097</ID>
+    <Name>実験開始</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>じつに きょうみぶかい</FlavourText>
+    <Ability>【永】あなたのクロック置場に「りすくませんぱい」があるなら、あなたの手札のこのカードのレベルを-1。【自】あなたのクライマックス置場に「実験大成功」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《ぷよ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

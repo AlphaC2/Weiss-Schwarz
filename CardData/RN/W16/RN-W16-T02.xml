@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-T02</ID>
+    <Name>ロボ部部長</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんとしても部費を手に入れる。そうして、今年中にガンつく１を完成させるの</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>PY-S38-059</ID>
+    <Name>フィーバーモード</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10083.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヒカエオロウ</FlavourText>
+    <Ability>集中あなたは自分の山札の上から7枚をめくり、控え室に置く。相手にXダメージを与える。Xはそれらのカードの「みどりぷよ」の枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+</Card>

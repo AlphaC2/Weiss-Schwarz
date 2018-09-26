@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-091</ID>
+    <Name>Starrin’</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10159.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>い･･････いえーい</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】【CXコンボ】あなたのクライマックス置場に「私たちPoppin’Party」が置かれた時、あなたのレベルが3以上なら、あなたは他の自分のキャラを1枚選び、【スタンド】し、そのターン中、そのキャラのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BONSAI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-W03-066</ID>
+    <Name>炎蛇のコルベール</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>人の『死』に慣れるな。戦いに慣れるな、殺し合いに慣れるな</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあり、あなたのレベルが2以上なら、あなたの赤のキャラすべてに、次の能力を与える。『【自】このカードが【リバース】した時、このカードとバトルしているキャラのレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』【自】バトルしているこのカードが【リバース】した時、あなたはこのカードをクロック置場に置いてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

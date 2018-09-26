@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NR-W58-015</ID>
+    <Name>ワクワク空中散歩</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10016.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フェイト「観客席にご案内ー」</FlavourText>
+    <Ability>このカードは、あなたの、《魔法》か《武器》のキャラがいないなら、手札からプレイできない。以下の効果のうちあなたが選んだ1つを行う。『あなたは自分のストックの上から2枚を、控え室に置いてよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。』『あなたは自分の手札の「お花見ティータイムフェイト」を1枚選び、控え室に置いてよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。』</Ability>
+</Card>

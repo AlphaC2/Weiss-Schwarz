@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-057</ID>
+    <Name>バルトアンデルス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10081.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ガウガウガウ！ハッハッハ…</FlavourText>
+    <Ability>【自】［(2)］あなたがこのカードの『助太刀』を使った時、あなたの《ぷよ》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。【起】【カウンター】助太刀1500レベル1［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>MYSTERY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

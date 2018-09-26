@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-068</ID>
+    <Name>虚無の力</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サイトのバカあああー！</FlavourText>
+    <Ability>このカードは、あなたの《虚無》のキャラがいないなら、手札からプレイできない。あなたは相手の前列のレベル2以下のキャラを1枚選び、控え室に置く。あなたは自分の控え室の《使い魔》のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-091</ID>
+    <Name>スケート</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10117.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>せーのっ、ふわわわぁ〜 ツ、ツルツル〜せんぱーい、きゃぁ、あぁ、滑ります〜</FlavourText>
+    <Ability>【永】他のあなたの赤のキャラすべてに、パワーを＋500。【自】あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

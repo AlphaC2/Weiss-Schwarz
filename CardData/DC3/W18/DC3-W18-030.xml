@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-030</ID>
+    <Name>伝えたい気持ち</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わたしもね、兄さんが大好き。兄さんとしてだけじゃなくて、世界中の誰より、一番好き……</FlavourText>
+    <Ability>【自】他のあなたのコスト0以下のキャラが、手札から舞台に置かれた時、このカードが【スタンド】しているなら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

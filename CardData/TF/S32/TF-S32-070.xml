@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-070</ID>
+    <Name>“引き継いだ力”ミッシェル</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの《改造》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1000。【自】［(1)］このカードがアタックした時、クライマックス置場に「TERRAFORMARS彼方と此方」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

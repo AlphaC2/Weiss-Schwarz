@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W20-022</ID>
+    <Name>魚人ヨッシーノ捕獲!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちはや「ひえええええええええーっ！？」</FlavourText>
+    <Ability>このカードは、あなたの、《オカルト》か《不良》のキャラが1枚以下なら、手札からプレイできない。あなたのキャラすべてに、そのターン中、パワーを＋2000し、ソウルを＋1。このカードをクロック置場に置く。</Ability>
+</Card>

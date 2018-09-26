@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-013</ID>
+    <Name>差し入れでほっこり</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10041.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お礼を言うぞー</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《覇王流》なら、このカードのレベルを＋1し、パワーを＋1500。【自】バトル中のこのカードが【リバース】した時、そのターン中、あなたは『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

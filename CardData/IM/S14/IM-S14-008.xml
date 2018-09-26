@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-008</ID>
+    <Name>私服の真美</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ねえねえ、亜美ー！亜美もグラウンド整備手伝ってよー！</FlavourText>
+    <Ability>【自】絆／「竜宮小町亜美」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「竜宮小町亜美」を1枚選び、手札に戻す）【起】［あなたのキャラを2枚【レスト】する］あなたは相手の前列のレベル0以下のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

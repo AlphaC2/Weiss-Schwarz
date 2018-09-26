@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-097</ID>
+    <Name>情報連結解除</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10128.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あーあ、残念。所詮私はバックアップだったかぁ</FlavourText>
+    <Ability>【カウンター】あなたは相手のクライマックス置場のクライマックスを1枚選び、控え室に置く。</Ability>
+</Card>

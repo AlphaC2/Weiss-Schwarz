@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-002</ID>
+    <Name>“背負った宿命”エレン</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10002.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それがオレのなすべき償いだ</FlavourText>
+    <Ability>【自】このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたのカード名に「エレン」か「ミカサ」か「アルミン」を含むキャラの枚数×500に等しい。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「怒りの咆哮」があるなら、あなたは自分の控え室の「対巨人戦用『立体機動装置』」を1枚まで選び、手札に戻し、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>CORPS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

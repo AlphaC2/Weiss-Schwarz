@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-069</ID>
+    <Name>熾天覆う七つの円環</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>七枚の花弁はアーチャーを守護し、主を撃ち抜こうとする魔弾に対抗する――――！</FlavourText>
+    <Ability>【カウンター】あなたは自分の控え室のキャラを1枚選び、手札に戻す。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

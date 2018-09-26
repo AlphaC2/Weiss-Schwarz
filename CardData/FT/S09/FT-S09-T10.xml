@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-T10</ID>
+    <Name>若き竜</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10010.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>負けたくれぇでぐじぐじしてんじゃねえ！</FlavourText>
+    <Ability>【起】【カウンター】助太刀1500レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

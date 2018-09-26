@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-082</ID>
+    <Name>新たなる力</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10091.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋X。Xはあなたの《音楽》のキャラの枚数×500に等しい。【自】このカードがアタックした時、クライマックス置場に「羅刹零ノ型」があるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

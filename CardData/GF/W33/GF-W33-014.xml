@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-014</ID>
+    <Name>職業体験</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…ふむふむ、さすがに本物となると、しっかりしてるよね、このナース服。どう、似合ってる？</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分の黄のキャラを1枚選び、そのターン中、パワーを＋X。Xはそのキャラのソウル×1000に等しい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GIRL</Trait>
+        <Trait>NURSE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-WE19-03</ID>
+    <Name>“それは僕たちの奇跡”高坂</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/loveliveext/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「どんなときもずっと」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋7000し、相手は『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-04</ID>
+    <Name>我が道を行く</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10007.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あっ、やべっ</FlavourText>
+    <Ability>【自】相手のアタックフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。【起】集中［(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

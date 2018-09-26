@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W53-T21</ID>
+    <Name>TRAIN</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10021.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル1以上のカードがあるなら、あなたは自分の山札の上から2枚を、控え室に置く。あなたは自分の控え室のレベルＸ以下の《音楽》のキャラを1枚選び、手札に戻す。Ｘはこの効果で控え室に置かれたレベル1以上のカードの枚数に等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

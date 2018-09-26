@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-023</ID>
+    <Name>お見舞い</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10045.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>えへへ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

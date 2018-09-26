@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-083</ID>
+    <Name>うろたえるシオン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アリス、僕が言いすぎた。ごめん。だから落ち着いて……</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードは《怪盗》を得る。【永】他のあなたの、《怪盗》かカード名に「アリス」を含むキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは1枚引く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

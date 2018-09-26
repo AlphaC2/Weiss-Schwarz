@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-24</ID>
+    <Name>深淵なる闇の奇術師</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10047.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここからすべてが始まる…</FlavourText>
+    <Ability>【起】集中［(1)］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の《ギガント》のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MYSTERY</Trait>
+        <Trait>GIGANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

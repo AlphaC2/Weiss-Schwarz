@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-045</ID>
+    <Name>幻想御手使用者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あたしっ、能力者になったんだっ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「最高の友達」があるなら、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋4000し、次の能力を与える。『【自】このカードとバトル中のキャラが【リバース】した時、あなたは相手のキャラを1枚まで選び、そのターン中、パワーを-1500し、ターンの終わりに、このカードを思い出にする。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ESPER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

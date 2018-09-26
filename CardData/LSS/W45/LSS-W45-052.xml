@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W45-052</ID>
+    <Name>“素敵なこと”桜内</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>千歌ちゃん！</FlavourText>
+    <Ability>【自】この能力は1ターンにつき2回まで発動する。他のあなたのカード名に「千歌」を含むキャラが、手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

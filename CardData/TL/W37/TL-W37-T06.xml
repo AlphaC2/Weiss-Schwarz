@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-T06</ID>
+    <Name>“心の迷い”芽亜</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10006.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>どうして現れてくれないの？マスター……</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【起】［(2)あなたのキャラを2枚【レスト】する］あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

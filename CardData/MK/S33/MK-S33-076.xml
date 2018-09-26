@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-076</ID>
+    <Name>深夜のお茶会</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私達、教官とまた捜査できて嬉しかったです</FlavourText>
+    <Ability>【永】他のあなたの《探偵》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「修羅の王様」があるなら、あなたは自分の山札を見て《スポーツ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

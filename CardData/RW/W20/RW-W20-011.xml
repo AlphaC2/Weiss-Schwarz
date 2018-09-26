@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-011</ID>
+    <Name>“ニートのこころ”朱音(エラッタ前)</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10016.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もうおうち帰りたい…</FlavourText>
+    <Ability>【起】［(1)このカードを控え室に置く］あなたは自分のキャラを1枚選び、手札に戻す。
+エラッタ箇所：テキスト</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

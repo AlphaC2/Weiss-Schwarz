@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-T35</ID>
+    <Name>異世界へようこそ!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10182.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENTAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

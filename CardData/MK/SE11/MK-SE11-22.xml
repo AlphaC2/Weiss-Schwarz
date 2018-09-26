@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-22</ID>
+    <Name>ネコミミメイド</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10044.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ご主人様。お帰りなさいにゃ♪</FlavourText>
+    <Ability>【自】他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

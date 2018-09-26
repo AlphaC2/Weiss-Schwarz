@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T20</ID>
+    <Name>“みんな応援してます！”若宮イヴ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10293.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>芸の道も、ブシドーと一緒です!極めるには、たゆまぬ努力が必要なんですよねっ</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分の山札を上から1枚見る。（見たカードは元に戻す）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>0</Soul>
+    </Character>
+</Card>

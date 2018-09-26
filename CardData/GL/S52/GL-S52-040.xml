@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-040</ID>
+    <Name>螺旋王</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>思い知らせてやろう。本当の螺旋力というものを</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】チェンジ［このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ラゼンガン」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>DRILL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

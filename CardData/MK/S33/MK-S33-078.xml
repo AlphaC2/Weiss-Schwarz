@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-078</ID>
+    <Name>冬の贈り物</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これ…プレゼントです……</FlavourText>
+    <Ability>【永】応援相手のターン中、このカードの前のあなたのキャラすべてに、レベルを＋1し、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは自分の山札を見て《本》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

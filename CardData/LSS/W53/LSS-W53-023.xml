@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W53-023</ID>
+    <Name>複雑な心境黒澤ルビィ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10058.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ダイヤ「綺麗ですわね」</FlavourText>
+    <Ability>【自】このカードがアタックした時、相手のレベルが1以下で、あなたのクロックが相手のクロックより多いなら、そのターン中、このカードのパワーを＋2000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

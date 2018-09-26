@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-071</ID>
+    <Name>“兵士と戦士”ライナー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そんでもってその後のクリスタなんだが……ありゃどう見ても俺に気があるよな？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】［このカードを控え室に置く］他のあなたの、《兵団》か《巨人》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TITAN</Trait>
+        <Trait>CORPS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-014</ID>
+    <Name>自信満々な伊織</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>しょうがないわねぇ。ここは私にまかせなさい！</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたのこのカード以上のパワーのキャラがいないなら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>DOLL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

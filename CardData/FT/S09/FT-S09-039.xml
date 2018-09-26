@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-039</ID>
+    <Name>“ビーストアーム”エルフマン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ビーストアーム“黒牛”!!!!</FlavourText>
+    <Ability>【自】絆／「元・Ｓ級魔導士ミラジェーン」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「元・Ｓ級魔導士ミラジェーン」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

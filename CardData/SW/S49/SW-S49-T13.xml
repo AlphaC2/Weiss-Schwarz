@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-T13</ID>
+    <Name>“長い眠り”R2-D2</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10013.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>C-3PO「R2はマスター・ルークがいなくなってからというもの、ずっとパワー・モードが低いままです」</FlavourText>
+    <Ability>【永】他のあなたの前列のキャラがいないなら、このカードのパワーを＋1500。【自】相手のアタックフェイズの始めに、あなたはこのカードを前列の中央のキャラのいない枠に動かしてよい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

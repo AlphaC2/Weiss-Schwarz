@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W13-037</ID>
+    <Name>子ども達の先生</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>教師が生徒を諦めるなんてできない！！</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場の《超能力》のキャラが2枚以上なら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

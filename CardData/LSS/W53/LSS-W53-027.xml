@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W53-027</ID>
+    <Name>未来の食べ物</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10062.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ずらー</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。あなたは自分の控え室のレベル2以上のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-T16</ID>
+    <Name>“守るべき存在”レイ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10016.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いいえ……このドロイドは売り物じゃないの</FlavourText>
+    <Ability>【永】他のあなたの《フォースの覚醒》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

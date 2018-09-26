@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-040</ID>
+    <Name>“存続を賭けた戦い”小町</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10065.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>上等だよ、時代遅れの技術に頼っていやがれ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

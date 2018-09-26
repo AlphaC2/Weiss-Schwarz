@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-010</ID>
+    <Name>部室のキョン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>最近この理不尽空間に普通に馴染んでる自分に感心してな</FlavourText>
+    <Ability>【自】チェンジ［このカードをクロック置場に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“いつも”のキョン」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

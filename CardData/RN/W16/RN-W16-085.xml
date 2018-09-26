@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-085</ID>
+    <Name>モード移行</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>では、アイリをタップしてください。そうすると、『ゲジ姉』に切り替わりますのでー</FlavourText>
+    <Ability>【自】［(1)］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。【自】チェンジ［(2)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「モード移行ゲジ姉」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

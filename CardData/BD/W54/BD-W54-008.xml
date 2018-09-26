@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-008</ID>
+    <Name>“ステージ”北沢はぐみ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はぐみは、ハロー、ハッピーワールド!がみんなの笑顔のために、いろんなことするところが好きだなって、すごく思ったんだ</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置き、手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て黄のクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

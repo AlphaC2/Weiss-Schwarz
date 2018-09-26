@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-03</ID>
+    <Name>過去を奪われた犠牲者カナン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私には新しい光がある…希望の…</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「蛇の天敵」が置かれた時、このカードの正面のキャラが緑か赤なら、あなたのキャラすべてに、そのターン中、パワーを＋2000。【自】あなたのクライマックス置場に「蛇の天敵」が置かれた時、このカードの正面のキャラが黄か青なら、あなたのキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

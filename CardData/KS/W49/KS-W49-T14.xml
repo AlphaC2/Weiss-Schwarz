@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-T14</ID>
+    <Name>“お調子者で能天気”アクア</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10014.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ！見て見てカズマ！</FlavourText>
+    <Ability>【永】あなたの手札が6枚以上なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

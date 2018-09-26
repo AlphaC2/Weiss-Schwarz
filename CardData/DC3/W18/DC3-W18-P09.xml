@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-P09</ID>
+    <Name>素直になれない幼なじみ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10038.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>そ、そうかな。別に、普通だと思うけど……</FlavourText>
+    <Ability>【自】このカードが【リバース】した時、このカードのバトル相手のレベルが2以下なら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>NEWS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

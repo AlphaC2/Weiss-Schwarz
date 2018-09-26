@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W28-043</ID>
+    <Name>パジャマのにこ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif/10043.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>きゃー！セクシーだからってそんな見ちゃだめー♪</FlavourText>
+    <Ability>【自】チェンジ［(1)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“にこは人気者”にこ」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PAJAMAS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

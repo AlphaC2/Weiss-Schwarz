@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W53-078</ID>
+    <Name>“MY舞☆TONIGHT”松浦果南</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>さあ、やるよ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か「“MY舞☆TONIGHT”高海千歌」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードがアタックした時、他のあなたの《音楽》のキャラが4枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

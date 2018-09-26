@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N1-WE06-19</ID>
+    <Name>信じた思い</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm/10041.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>二人でせーの、で、一気に封印！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「ディバインバスター」があるなら、あなたは自分のカード名に「フェイト」を含むキャラを1枚選び、そのターン中、パワーを＋2000し、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

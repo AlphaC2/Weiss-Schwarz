@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-SP03-08</ID>
+    <Name>迷いなき志</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/killpset/10008.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>我が行動に一点の曇り無し！</FlavourText>
+    <Ability>【自】このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。【自】相手のアタックフェイズの始めに、あなたの控え室に「因縁の戦い」があるなら、そのターン中、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

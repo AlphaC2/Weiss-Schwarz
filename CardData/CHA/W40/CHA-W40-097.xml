@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>CHA-W40-097</ID>
+    <Name>歩未のピザソースオムライス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>有宇「甘…このピザソースを隠し味に使うのが、子供の舌には合っていたんだろうな…」</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋4000。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-086</ID>
+    <Name>“世界を識るため”エルフナイン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10095.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>どうしてキャロルは…錬金術だけでなく、自分の想い出まで僕に転送複写したのだろう…</FlavourText>
+    <Ability>【自】記憶あなたがこのカードの『助太刀』を使った時、あなたの思い出が2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀2500レベル2［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ALCHEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

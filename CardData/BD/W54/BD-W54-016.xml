@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-016</ID>
+    <Name>“ドラムとの出会い”大和麻弥</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>とある人のドラムを聴いて、猛烈に感動しまして!ジブンもあんな風にドラムが叩けたらなあって思ったんです</FlavourText>
+    <Ability>【永】あなたはイベントと『助太刀』を手札からプレイできない。【自】アンコール［あなたの舞台の《音楽》のキャラを1枚クロック置場に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

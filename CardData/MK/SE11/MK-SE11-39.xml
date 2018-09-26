@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-39</ID>
+    <Name>夢への一歩</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どんどん行きましょう！</FlavourText>
+    <Ability>【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

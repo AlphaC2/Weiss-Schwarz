@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-081</ID>
+    <Name>正義感溢れるトウマ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だったら、怖くても戦うしかないだろ</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「聖剣の力」があるなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

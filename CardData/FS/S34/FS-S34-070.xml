@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-070</ID>
+    <Name>召喚の儀</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>四方の門は閉じ、王冠より出で、王国に至る三叉路は循環せよ</FlavourText>
+    <Ability>【永】他のあなたの、《マスター》か《サーヴァント》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

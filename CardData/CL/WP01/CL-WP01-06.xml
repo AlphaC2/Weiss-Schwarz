@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CL-WP01-06</ID>
+    <Name>元気な挨拶</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/clpset/10006.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>岡崎さんっ。おはようございます</FlavourText>
+    <Ability>【永】経験あなたのレベル置場に、「元気な挨拶渚」と「仲良し夫婦渚＆朋也」があるなら、あなたの手札のこのカードのレベルを-1。【永】他のあなたの黄のキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>THEATER</Trait>
+        <Trait>DANGO</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-060</ID>
+    <Name>弾む切込み</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10060.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>平気です！</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【永】他のあなたの、《アバター》か《ネット》のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

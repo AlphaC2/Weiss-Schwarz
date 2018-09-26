@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DD-WE23-13</ID>
+    <Name>天真爛漫</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10025.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】あなたのレベルが1以上なら、このカードは次の能力を得る。『【自】あなたのクライマックスフェイズの始めに、あなたは自分のクロック置場の「勇者の休息ナナミ」を1枚とこのカードを選び、入れ替えてよい。』【自】相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>HERO</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-SE05-27</ID>
+    <Name>“純朴な人柄”真田</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10054.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>幸村「うああッ!!」</FlavourText>
+    <Ability>【永】他のあなたの《武器》のキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>HACHIMAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

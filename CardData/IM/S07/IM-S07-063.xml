@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-063</ID>
+    <Name>明るい笑顔やよい</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えへへ……。あの、頑張って下さい♪</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【自】他のあなたのバトルしているキャラが【リバース】した時、あなたは自分の「水瀬伊織」を1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

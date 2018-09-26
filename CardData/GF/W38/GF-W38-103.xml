@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-103</ID>
+    <Name>浮輪危機</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10103.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>こ、こら、きみまで掴まって休むな。一人用なんだぞ、一緒に沈んだらどうする！</FlavourText>
+    <Ability>【起】［あなたのキャラを2枚【レスト】する］あなたは自分の山札を上から1枚見て、山札の上か下に置く。【起】［(1)］あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

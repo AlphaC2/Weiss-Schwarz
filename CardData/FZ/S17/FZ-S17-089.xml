@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-089</ID>
+    <Name>言峰</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10119.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>禍を恐るるまじ、主が我と共にあるが故に</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【起】［(2)あなたのキャラを2枚【レスト】する］あなたは自分の山札を見て《マスター》か《サーヴァント》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>VOID</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-13</ID>
+    <Name>夢見がちな少女</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10025.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>まあ…つまり、アレでしょ？考えるな！空想しろ！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。【永】経験あなたのレベル置場のカードのレベルの合計が3以上なら、他のあなたの前列の中央の枠のキャラに、パワーを＋500。【自】チェンジ［(1)このカードを控え室に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Kaleidoscope”イリヤ」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

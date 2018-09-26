@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-037</ID>
+    <Name>禁書庫の番人</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10074.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>夜遅く上がりこんで言い出す内容がそれかしら</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「術式の破壊」があるなら、あなたは自分の山札の上から1枚を、控え室に置く。そのカードが《魔法》か《武器》のキャラなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

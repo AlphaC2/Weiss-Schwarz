@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-051</ID>
+    <Name>“筋肉旋風(センセーション)”真人</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10082.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>意外なことにオレもそう思ってるぜ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500し、《筋肉》を与える。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSCLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

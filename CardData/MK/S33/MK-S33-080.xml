@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-080</ID>
+    <Name>偉大なライバル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>その調子では、夜が明けてしまうわね</FlavourText>
+    <Ability>【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>THIEF</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

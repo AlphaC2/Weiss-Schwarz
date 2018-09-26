@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-101</ID>
+    <Name>癒しの天然キャラ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10129.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの《フレンズ》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【永】経験あなたのレベル置場の《フレンズ》のキャラ1枚につき、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

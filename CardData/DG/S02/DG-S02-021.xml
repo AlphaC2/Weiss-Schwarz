@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-021</ID>
+    <Name>大切な…仲間?</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10024.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ラズベリル「へへ、覚えときな。その暑苦しさが友情ってんだよ」</FlavourText>
+    <Ability>あなたは自分の控え室のカードを1枚選び、山札に戻す。その山札をシャッフルする。このカードを思い出にする。</Ability>
+</Card>

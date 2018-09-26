@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-057</ID>
+    <Name>“新探偵服”三森すずこ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの《探偵》のキャラが2枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

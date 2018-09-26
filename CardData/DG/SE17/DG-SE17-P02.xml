@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-P02</ID>
+    <Name>強大な魔力の持ち主</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10079.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今すぐ知ってること全部吐けっての！でないと、ここであんたを殺すよ。</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《プリニー》かカード名に「エトナ」を含むキャラなら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

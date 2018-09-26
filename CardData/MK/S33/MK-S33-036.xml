@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-036</ID>
+    <Name>激おこ!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ミルキィさんをバカにするお兄ちゃんなんて大っ嫌い！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたのカード名に「アリス」か「カズミ」を含むキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀2500レベル2［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FZ-S17-025</ID>
+    <Name>冬芽探し</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10055.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わーっ！ 高い高い！</FlavourText>
+    <Ability>すべてのプレイヤーは自分の山札の上から3枚を、控え室に置く。あなたのこの効果で控え室に置かれたレベル1以下のキャラの枚数が、相手のこの効果で控え室に置かれたレベル0以下のキャラの枚数より多いなら、あなたは1枚引いてよい。このカードをストック置場に置く。</Ability>
+</Card>

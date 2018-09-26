@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-019</ID>
+    <Name>姿幼き魔法少女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10022.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いざとなったら、私かさやかか、どっちか無事な方が預かっていた本当の記憶をまどかに返す手筈だったのです</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>CHEESE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

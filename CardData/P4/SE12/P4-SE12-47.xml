@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>P4-SE12-47</ID>
+    <Name>現役美少女アイドル</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10083.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>こんなトコまで来るなんてりせちー、超うれしー！</FlavourText>
+    <Ability>【自】このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、ソウルを＋3。</Ability>
+</Card>

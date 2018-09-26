@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-047</ID>
+    <Name>突き穿つ死翔の槍</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>―――行くぞ。この一撃、手向けとして受け取るがいい……！</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+</Card>

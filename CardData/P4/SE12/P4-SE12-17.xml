@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-17</ID>
+    <Name>“必殺の蹴り”千枝</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10033.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>飛んでけぇぇぇ！</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

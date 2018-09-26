@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE29-17</ID>
+    <Name>抜群の連携</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10033.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アリス「間に合ってよかったです！」カズミ「私たちもミルキィさんと気持ちはひとつ！」</FlavourText>
+    <Ability>【永】他のあなたの「抜群の連携アリス＆カズミ」1枚につき、このカードのパワーを＋1000。【自】バトル中のこのカードが【リバース】した時、そのターン中、あなたは『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

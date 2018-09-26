@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-089</ID>
+    <Name>奔走する阿良々木暦</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10127.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それは忍野も考えてたけれど……そのストレスの元がわからないじゃないか</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《委員長》のキャラすべてに、パワーを＋500。【自】絆／「羽川翼」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「羽川翼」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>BLOOD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

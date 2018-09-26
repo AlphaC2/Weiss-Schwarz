@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-041</ID>
+    <Name>創作教室</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10067.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…ここをこうして、こんな感じで… あれ、曲がっちゃったかな？</FlavourText>
+    <Ability>【永】あなたのターン中、このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋3000し、ソウルを＋2。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

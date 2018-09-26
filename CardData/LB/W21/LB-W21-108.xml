@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-108</ID>
+    <Name>“マウンド上の精密機械”鈴</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10143.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、あたしの球はへぼいぞ、打たれるぞ。それでもいいか？</FlavourText>
+    <Ability>【起】［(1)］そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

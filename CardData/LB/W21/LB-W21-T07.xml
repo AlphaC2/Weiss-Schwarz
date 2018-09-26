@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W21-T07</ID>
+    <Name>夜空を見上げて</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>拓也「マッチ売りの少女は、最後の流れ星と一緒に天国へのぼっていきました…」</FlavourText>
+    <Ability>あなたは自分の【スタンド】している《お菓子》のキャラを1枚選び【レスト】する。そうしたら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000し、ソウルを＋2。ターンの終わりに、そのキャラを思い出にする。このカードをクロック置場に置く。</Ability>
+</Card>

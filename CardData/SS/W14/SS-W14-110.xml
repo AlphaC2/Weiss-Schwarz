@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-110</ID>
+    <Name>無類のメロンパン好き</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10023.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>このかりかりもふもふの触感が大事なのよ。分かる？</FlavourText>
+    <Ability>【自】他のあなたのバトル中のキャラが【リバース】した時、、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MELON_BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

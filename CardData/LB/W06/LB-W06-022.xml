@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-022</ID>
+    <Name>おさかな観察</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ぼー・・・ほわっ</FlavourText>
+    <Ability>あなたは2枚引き、自分の山札の上から2枚を、ストック置場に置く。あなたのメインフェイズを終了しエンドフェイズに進む。</Ability>
+</Card>

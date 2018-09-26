@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-005</ID>
+    <Name>“瑚太朗のライバル”井上</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>調査する者同士、正々堂々と相手をだしぬいていきましょう！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。あなたは自分の手札を1枚選び、控え室に置く。【自】このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

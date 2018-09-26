@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-10</ID>
+    <Name>人見知り</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10021.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>今、好きって言いました？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】他のあなたの《サマナー》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SUMMER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

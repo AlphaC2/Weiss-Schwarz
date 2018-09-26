@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-056</ID>
+    <Name>ララ・サタリン・デビルーク</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>でもリトは私の事も好き…そうだよね？</FlavourText>
+    <Ability>【永】他のあなたのキャラが1枚以下なら、このカードのパワーを＋1500。【自】共鳴［手札の「“お座り”ララ」を1枚公開する］相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを前列のキャラのいない枠に動かす。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

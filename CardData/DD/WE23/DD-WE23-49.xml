@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DD-WE23-49</ID>
+    <Name>英雄結晶</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10097.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シンク「英雄結晶…発動！」</FlavourText>
+    <Ability>【カウンター】あなたは自分の手札の「英雄結晶」を1枚選び、控え室に置いてよい。そうしたら、あなたはバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】このカードはプレイヤーにダメージを与えることができない。』</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-024</ID>
+    <Name>新政府新総司令</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>生き残るんだ。どんな手段を使っても</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが0以下ならストック置場に置く。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）【起】［(1)このカードをクロック置場に置く］あなたは自分の手札の「アークグレン」を1枚まで選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

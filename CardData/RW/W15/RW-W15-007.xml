@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-007</ID>
+    <Name>“昔なじみ”小鳥</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いいチョイスだねぇ。さすがわかってるねぇ</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「当たり前の楽しみ」があるなら、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>PLANT</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

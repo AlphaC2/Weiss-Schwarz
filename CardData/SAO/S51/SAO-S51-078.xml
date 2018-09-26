@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-078</ID>
+    <Name>願ってもない援護</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10078.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>SAOサーバーに残っていたセーブデータから皆さんの分をロードしました</FlavourText>
+    <Ability>【永】このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。【自】【CXコンボ】［手札を1枚ストック置場に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分のクライマックス置場の「お待たせしました！」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

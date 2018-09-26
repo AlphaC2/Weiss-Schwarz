@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE08-32</ID>
+    <Name>水着のななか</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>せっかくだから、ふたりっきりで遊ぼ？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。（そうでないなら元に戻す。クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

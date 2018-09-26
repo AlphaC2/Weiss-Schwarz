@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W28-020</ID>
+    <Name>“秘密の診察室”真姫</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif/10020.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちょっと複雑な気持ちだけど……トーゼン似合っちゃうわよね♪</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>DOCTOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-T07</ID>
+    <Name>どちらを選ぶ?</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10009.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お客様は鬼二人のどちらと仲良くしたいと思うの？願うばかりで尻拭いは人任せの赤鬼と、自己犠牲に浸る馬鹿な青鬼と</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

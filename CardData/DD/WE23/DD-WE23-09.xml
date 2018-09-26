@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DD-WE23-09</ID>
+    <Name>英雄王の子孫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの、《勇者》か《王族》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、他のあなたの、《勇者》か《王族》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-053</ID>
+    <Name>ナツ&amp;ハッピー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ナツ「ありがとなっ!!!」</FlavourText>
+    <Ability>【永】他のあなたの《竜》のキャラすべてに、パワーを＋500。【永】あなたが自分の手札か舞台のキャラの【起】のコストを払うとき、このカードの下のマーカーを、ストック1枚のかわりに控え室に置いてよい。【自】［あなたの【スタンド】しているキャラを2枚【レスト】する］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-086</ID>
+    <Name>理知的な視線</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どんなときも注意を払って行動しないとダメよ</FlavourText>
+    <Ability>【永】他のあなたの《怪盗》のキャラが2枚以上なら、このカードのレベルを＋1し、パワーを＋500。【永】舞台にこのカードがいるなら、このカードは《怪盗》を得る。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

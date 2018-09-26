@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-015</ID>
+    <Name>エプロン姿の古泉</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>古泉一樹です、…よろしく</FlavourText>
+    <Ability>【永】他のあなたの《団長》のキャラがいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

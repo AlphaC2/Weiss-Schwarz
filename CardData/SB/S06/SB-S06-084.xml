@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-084</ID>
+    <Name>“南蛮我道”ザビー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10106.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>レッツ・ゴー・ザビーズ</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《愛》のキャラすべてに、パワーを＋1000。【自】［(1)］あなたのクライマックス置場に「愛の戦士」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“南蛮我道”ザビー」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。そのターン中、そのキャラのパワーを＋2000し、《メカ》を与える。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-031</ID>
+    <Name>“自由を掴むため”リヴァイ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10034.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おい、止まるな。迷子になっちまうだろうが</FlavourText>
+    <Ability>【永】他のあなたの《兵団》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「絶望を切り裂く刃」があり、他のあなたの《兵団》のキャラがいるなら、あなたは自分の控え室の《兵団》のキャラを1枚まで選び、ストック置場に置き、自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>CORPS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

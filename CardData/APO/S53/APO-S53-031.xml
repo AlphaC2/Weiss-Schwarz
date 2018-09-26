@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-031</ID>
+    <Name>“再戦の約束”赤のランサー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10058.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いよいよか？</FlavourText>
+    <Ability>【自】［手札のクライマックスを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《マスター》か《サーヴァント》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>SUN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

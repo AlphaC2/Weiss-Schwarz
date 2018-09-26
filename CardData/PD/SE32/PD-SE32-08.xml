@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-08</ID>
+    <Name>鏡音レン“ホーリィランサー”</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10015.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>0.02mmの壁がすげーもどかしくなって真っ白sunshine　すぐに入れたくなるのは君の性</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「聖槍爆裂ボーイ」を1枚選び、手札に戻す。【自】他のあなたの《音楽》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-061</ID>
+    <Name>誘惑するリームシアン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おまえは、魔族の女に興味はないのか？</FlavourText>
+    <Ability>【自】［(1)］このカードがサイドアタックした時、クライマックス置場に「ラ・ヴァースの誘惑」があるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】このカードはアタックできない。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

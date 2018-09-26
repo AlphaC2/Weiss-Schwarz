@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-023</ID>
+    <Name>“マスターに教わった考え”芽亜</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10052.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>心なんてそう簡単に変わるものじゃないってコトだよ</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「あたたかい街“彩南”」が置かれた時、前列にこのカードがいるなら、あなたは相手の手札を見て、自分の、《変身》か《家事》のキャラを1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

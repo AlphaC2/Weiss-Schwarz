@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W27-023</ID>
+    <Name>“凶祓い”の力</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10032.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>戦わない事だけが、本当に暖かい世界を約束してくれる。戦いから解放してあげないと</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-001</ID>
+    <Name>窮地のシルバー・クロウ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10025.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>負けるにしても…足掻いて足掻いて、見苦しく負けろ。せめてそれくらいできなきゃ…</FlavourText>
+    <Ability>【永】前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。【起】集中［(1)］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>AVATAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

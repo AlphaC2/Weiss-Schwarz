@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-088</ID>
+    <Name>“命よりお金”ボルネ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10129.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ギルナ、ヒカネよく覚えておくんだぞ。１度つかまえたカモは、絶対に逃がしちゃいかん……！</FlavourText>
+    <Ability>【起】［(2)このカードを【レスト】する］あなたは自分の山札を見て《武器》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。【起】［このカードを【レスト】する］あなたは自分の手札を1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>MERCHANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

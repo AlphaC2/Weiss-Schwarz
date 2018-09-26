@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-093</ID>
+    <Name>魔法の札</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10129.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ギルドは何としても守るんだよ!!!</FlavourText>
+    <Ability>【永】応援相手のターン中、このカードの前のあなたのキャラすべてに、レベルを＋1し、パワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>FORTUNE_READING</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

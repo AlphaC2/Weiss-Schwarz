@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-062</ID>
+    <Name>みんな大好き!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10093.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ねえねえ、プロデューサー！自分をほめて！　いや、ほめろー！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【起】［(1)あなたの思い出置場の「BKMANIAC」を1枚控え室に置く］あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

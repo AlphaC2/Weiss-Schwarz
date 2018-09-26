@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE09-14</ID>
+    <Name>幼児体型</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext/10027.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…ぃしょ、ぃしょ</FlavourText>
+    <Ability>【永】他のあなたの《探偵》のキャラすべてに、『【自】アンコール［(2)］』を与える。【自】このカードがアタックした時、他のあなたの【スタンド】しているキャラすべてを、【レスト】する。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

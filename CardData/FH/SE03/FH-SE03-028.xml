@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-028</ID>
+    <Name>魔法少女カレイドルビー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お待たせ！ 魔法少女カレイドルビー、ここに誕生！</FlavourText>
+    <Ability>【自】［(1)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックス置場に「ミミック遠坂」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のコスト1以下のカード名に「凛」を含むキャラを1枚選び、このカードがいた枠に置く。【起】集中［(1)］あなたは自分の山札の上から4枚をめくり、控え室に置く。あなたは自分の山札を見てカード名に「凛」を含むキャラをX枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分の手札をX枚選び、控え室に置く。Xはそれ</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

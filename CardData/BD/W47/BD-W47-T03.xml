@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-T03</ID>
+    <Name>自己紹介</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10003.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私、小さい頃『星の鼓動』を聞いたことがあって！</FlavourText>
+    <Ability>【起】［(1)手札のクライマックスを1枚控え室に置く］あなたは自分の控え室のキャラを1枚選び、手札に戻す。【起】集中［(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>STAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

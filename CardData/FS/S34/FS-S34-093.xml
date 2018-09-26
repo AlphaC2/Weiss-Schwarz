@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-093</ID>
+    <Name>破戒の宝具</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フッ…</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「破戒の宝具」があるなら、あなたは相手の舞台にいるキャラの特徴を1つ選び、相手のキャラすべては、そのターン中、その特徴をすべて失う。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

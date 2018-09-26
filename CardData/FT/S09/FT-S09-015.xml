@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-015</ID>
+    <Name>S級魔導士</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>てめえのケツをふけねえ魔導士は、このギルドにはいねえ。だろ？</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1000。【起】［(1)］このカードの下にマーカーがないなら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

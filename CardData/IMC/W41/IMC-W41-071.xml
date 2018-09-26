@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IMC-W41-071</ID>
+    <Name>new</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10166.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>あなたは自分の山札の上から3枚を、控え室に置いてよい。あなたは自分の控え室の、黄のキャラを1枚までと赤のキャラを1枚までと青のキャラを1枚まで選び、手札に戻す。このカードをクロック置場に置く。</Ability>
+</Card>

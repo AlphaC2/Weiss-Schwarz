@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-057</ID>
+    <Name>マイファーストスター</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10152.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードは、あなたの《音楽》のキャラが2枚以下なら、手札からプレイできない。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>CLOVER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

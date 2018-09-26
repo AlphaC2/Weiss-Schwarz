@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>GL-S52-T08</ID>
+    <Name>俺を誰だと思っていやがる!!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10008.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>WHIRLWIND</Trigger>
+    <FlavourText>合体ってのは！気合と気合のぶつかり合いなんだよ!!</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）</Ability>
+</Card>

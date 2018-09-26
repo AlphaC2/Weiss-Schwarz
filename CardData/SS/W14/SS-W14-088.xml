@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-088</ID>
+    <Name>“探耽求究”ダンタリオン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すぅーべてが計・画・どおり！！</FlavourText>
+    <Ability>【起】［(1)］あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

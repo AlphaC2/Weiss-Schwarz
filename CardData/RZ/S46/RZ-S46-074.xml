@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-074</ID>
+    <Name>憧れの眼差し</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『やっぱりお姉ちゃんはすごい。どうやったって敵わない。だったらレムはもう何もしなくてもいい…。ただお姉ちゃんの後ろをついて歩くだけで…』</FlavourText>
+    <Ability>【永】あなたはイベントと『助太刀』を手札からプレイできない。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

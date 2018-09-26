@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-SE29-13</ID>
+    <Name>敗者復活の宝石</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10025.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>んみゃー！</FlavourText>
+    <Ability>【カウンター】あなたは自分の山札の上からX枚までを、ストック置場に置き、バトル中のキャラを1枚選び、そのターン中、ソウルを-X。Xはあなたの【リバース】しているキャラの枚数に等しい。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-060</ID>
+    <Name>約束の言葉</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんだっけ。あの時言った言葉……</FlavourText>
+    <Ability>【永】他のあなたの《鍵》のキャラすべてに、パワーを＋500。【永】記憶あなたの思い出置場の「約束のペンダント」が2枚以上なら、このカードは『【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。』を得る。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>DAUGHTER</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

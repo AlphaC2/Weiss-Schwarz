@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AW-S18-025</ID>
+    <Name>裏切り</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私は……目の前で友情を説き不戦を訴える赤の王の意表をつき、首を落とした</FlavourText>
+    <Ability>このカードは、あなたの黄のキャラが2枚以下なら、手札からプレイできない。あなたは相手のレベル1以下のキャラを1枚選び、ストック置場に置く。</Ability>
+</Card>

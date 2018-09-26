@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-027</ID>
+    <Name>高次縫製師</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ステキステキ！こんなの隠してたなんて、さすがは纏博士だわ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［手札の「変装」を1枚控え室に置き、このカードを【レスト】する］あなたは自分のクロック置場のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

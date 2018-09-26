@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-022</ID>
+    <Name>日本文化</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10022.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>とりあえずやってみるとしようかー案外面白かったりするかもしれないし</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。【自】このカードがアタックした時、あなたは自分の《ガール》のキャラを2枚まで選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

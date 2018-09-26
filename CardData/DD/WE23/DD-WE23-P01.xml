@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DD-WE23-P01</ID>
+    <Name>素敵な1日</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10106.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなに笑顔をくれる素敵な3人。勇者3人の帰還の日なんです。</FlavourText>
+    <Ability>【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

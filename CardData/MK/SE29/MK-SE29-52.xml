@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE29-52</ID>
+    <Name>“ギルティホームズ”佐々木未来</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10102.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふふ…かかってきなさい…</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「総天然色祭」があるなら、そのターン中、このカードのパワーを＋Xし、このカードは緑と赤と青を得る。Xはあなたの《探偵》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>VOICE_ACTOR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

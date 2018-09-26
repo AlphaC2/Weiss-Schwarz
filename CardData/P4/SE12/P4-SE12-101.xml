@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-101</ID>
+    <Name>ペルソナ発動!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4/10015.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……ペ・ル・ソ・ナ……！！</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードのカード名は「ペルソナ発動！主人公」としても扱う。【起】［(1)］あなたは自分の山札の上から1枚を、控え室に置く。あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋X。Xはこの効果で控え室に置かれたカードのレベルに等しい。（クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-P01</ID>
+    <Name>俺達グレン団！</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10153.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText/>
+    <Ability>【自】 あなたがこのカードの『助太刀』を使った時、あなたの《大グレン団》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。 【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

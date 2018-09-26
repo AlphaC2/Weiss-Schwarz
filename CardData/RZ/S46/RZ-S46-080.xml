@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-080</ID>
+    <Name>激しい怒り</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>見ればわかるだろ、というのは意地悪な話か</FlavourText>
+    <Ability>【永】他のあなたのキャラがいないなら、このカードのパワーを＋10000。【自】このカードが控え室から舞台に置かれた時かアタックした時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。【自】相手のターンの終わりに、このカードの下のマーカーが3枚以上なら、あなたは自分の手札を1枚選び、控え室に置き、このカードの下のマーカーすべてと、このカード以外のすべてのプレイヤーのキャラすべてを、控え室に置き、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻す。その後、それらの山札をシャッフルする。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENTAL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

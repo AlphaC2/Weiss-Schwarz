@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-WP03-06</ID>
+    <Name>素直になれない美琴</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/irspset/10006.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、いやお見舞いとかじゃなくって…</FlavourText>
+    <Ability>【永】相手の後列のキャラ1枚につき、このカードのパワーを＋500。【自】バトル中のこのカードが【リバース】した時、そのターン中、あなたは『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

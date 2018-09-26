@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-015</ID>
+    <Name>イウォーク族</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>C-3PO「すばらしい！仲間と認められた」</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの黄のキャラが3枚以上なら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>RETURN_OF_THE_JEDI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

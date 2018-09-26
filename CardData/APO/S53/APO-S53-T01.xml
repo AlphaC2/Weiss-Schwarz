@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-T01</ID>
+    <Name>“召喚”獅子劫界離</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10001.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>汝三大の言霊を纏う七天、抑止の輪より来たれ、天秤の守り手よ―――</FlavourText>
+    <Ability>【永】他のあなたの「“召喚”赤のセイバー」すべてに、パワーを＋1000。【自】絆／「“召喚”赤のセイバー」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“召喚”赤のセイバー」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>DEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

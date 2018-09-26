@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-076</ID>
+    <Name>スカウト・トルーパー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>スピーダー・バイクに急いで乗れ</FlavourText>
+    <Ability>【永】このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。【自】このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの赤のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>RETURN_OF_THE_JEDI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

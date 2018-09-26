@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-023</ID>
+    <Name>“重なり合う青薔薇”今井リサ</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10035.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>備えあれば憂いなし、ね？まぁ、確かにそうかもだけど……</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。【自】バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

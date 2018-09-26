@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-048</ID>
+    <Name>“スーパー変身タイム”リオ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>じゃあソル、いくよーへん・しんっ！！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中の《格闘》のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀1000レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MELEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-085</ID>
+    <Name>“無限六爪流”伊達</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>Ha！…覚悟はいいか？</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋4000し、このカードの正面のキャラのソウルを＋1。【自】あなたのクライマックス置場に「キング・オブ・伊達男」が置かれた時、このカードの下にマーカーがないなら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

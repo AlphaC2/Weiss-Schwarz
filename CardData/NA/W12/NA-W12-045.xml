@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-045</ID>
+    <Name>お宅訪問</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10071.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すずか「こんにちわー」　アリサ「来たよー」</FlavourText>
+    <Ability>あなたは自分のクロック置場の《動物》のキャラを1枚選び、手札に戻す。このカードをクロック置場に置く。</Ability>
+</Card>

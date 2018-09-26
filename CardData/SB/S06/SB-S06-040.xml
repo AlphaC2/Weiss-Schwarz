@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-040</ID>
+    <Name>“虚張声勢”今川</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>にょほほ、それはまろの影武者おじゃ</FlavourText>
+    <Ability>【自】アンコール［あなたの舞台の《扇子》のキャラを1枚クロック置場に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

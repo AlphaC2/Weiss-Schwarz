@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-018</ID>
+    <Name>坂井</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>簡単なようで難しい質問ね、シャナちゃん</FlavourText>
+    <Ability>【永】他のあなたの《炎》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

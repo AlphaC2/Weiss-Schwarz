@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-013</ID>
+    <Name>“アネックス1号の乗組員”ニーナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何を見て赤くなっているのかしら</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。【起】［(1)このカードを【レスト】する］あなたは自分の《改造》のキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

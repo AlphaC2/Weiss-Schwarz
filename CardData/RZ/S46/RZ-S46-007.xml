@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-007</ID>
+    <Name>剣聖</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>武器を失ったのなら、投降をおすすめします</FlavourText>
+    <Ability>【永】大活躍（相手がアタックする時、【リバース】していないこのカードが前列の中央の枠にいるなら、かわりに相手はこのカードにフロントアタックする）【永】経験あなたのレベル置場のカードのレベルの合計が6以上で、他のあなたのキャラがいないなら、このカードのパワーを＋10000し、このカードは次の5つの能力を得る。『【永】このカードは相手の効果に選ばれず、相手のキャラの【自】の効果によって【リバース】されない。』『【永】このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』『【自】［手札を1枚控え室に置く］このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。』『【自】相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。』（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>KNIGHT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

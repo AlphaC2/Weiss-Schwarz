@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-029</ID>
+    <Name>姉御肌のプリニー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>同じ悲しみは一度だけでいい……そういう愛の形もあるのです</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ラハール」を含むキャラすべてに、パワーを＋500。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500し、《愛》を与える。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>PRINNY</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

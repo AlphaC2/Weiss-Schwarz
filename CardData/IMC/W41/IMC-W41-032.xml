@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-032</ID>
+    <Name>お揃いのライブTシャツ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10127.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードは、あなたのキャラが3枚以下なら、手札からプレイできない。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GYARU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

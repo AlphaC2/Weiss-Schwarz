@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-SE04-11</ID>
+    <Name>ビューティフルガール貴音</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imd/10022.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>突き刺さるように青い月の光……。月は、私の心をいつも、ざわつかせるのです……</FlavourText>
+    <Ability>【自】この能力は1ターンに1回まで発動する。あなたがイベントをプレイした時、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

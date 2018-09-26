@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-023</ID>
+    <Name>“危険察知”ダクネス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私の強敵を嗅ぎつける嗅覚が、まだ香ばしい危険の香りを嗅ぎとっている</FlavourText>
+    <Ability>【永】他のあなたの、「“不安でいっぱい”カズマ」と「“紅魔族”めぐみん」と「“魔力提供”アクア」がいるなら、このカードのソウルを＋4。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WORRRIES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

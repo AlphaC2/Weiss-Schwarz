@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-010</ID>
+    <Name>戦闘中</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10036.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日は5万ユーロや！インフレやでー！</FlavourText>
+    <Ability>【自】［(1)手札の「１００万ドル金貨」を1枚控え室に置く］相手のアタックフェイズの始めに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>COIN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KMN-W51-056</ID>
+    <Name>力を合わせてどっこいしょ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10084.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>「「「んんっ、んんんん」」」</FlavourText>
+    <Ability>あなたの《フレンズ》のキャラが3枚以上なら、あなたは自分のクロック置場の《フレンズ》のキャラを1枚選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

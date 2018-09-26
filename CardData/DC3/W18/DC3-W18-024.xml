@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-024</ID>
+    <Name>正義の魔法使い</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これが――覚悟……</FlavourText>
+    <Ability>【自】［(3)このカードをクロック置場に置く］あなたのクライマックス置場に「心を繋げる魔法」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「伝えたい気持ち姫乃」を1枚までと「通じあった心清隆＆姫乃」を1枚まで選び、舞台の別々の枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

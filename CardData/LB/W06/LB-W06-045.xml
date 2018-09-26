@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-045</ID>
+    <Name>涙とめどなく…</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もうちょっとだけ、泣かせてくれ・・・</FlavourText>
+    <Ability>あなたは自分のストックの上から1枚を見る。そのカードがコスト1以下の《スポーツ》のキャラなら、舞台の好きな枠に置いてよい。（そうでないなら元に戻す）</Ability>
+</Card>

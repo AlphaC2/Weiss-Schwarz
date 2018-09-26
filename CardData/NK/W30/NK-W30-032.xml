@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-032</ID>
+    <Name>デート気分</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10060.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……というか、この格好、恥ずかしすぎる……！</FlavourText>
+    <Ability>【自】［手札を1枚クロック置場に置く］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《武器》か《令嬢》のキャラを1枚選び、手札に戻す。【自】チェンジ［(2)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「乙女心誠士郎」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

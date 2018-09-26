@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE20-11</ID>
+    <Name>帰ってきた学園長</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcsakuraext/10022.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日はおもいっきり楽しませてもらうね！</FlavourText>
+    <Ability>【自】あなたのアンコールステップの始めに、クライマックス置場に「夢のような景色」があるなら、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「帰ってきた学園長さくら」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋3500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

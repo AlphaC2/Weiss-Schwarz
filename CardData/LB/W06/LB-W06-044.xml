@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-044</ID>
+    <Name>空虚なディナー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>・・・先週もしたよ、この話は</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードとバトルしているレベル1以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』このカードをストック置場に置く。</Ability>
+</Card>

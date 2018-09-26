@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-T13</ID>
+    <Name>三角関係?</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10013.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>二人はその……付き合って……？</FlavourText>
+    <Ability>【永】他のあなたの《鍵》のキャラすべてに、パワーを＋500。【起】［あなたのキャラを2枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

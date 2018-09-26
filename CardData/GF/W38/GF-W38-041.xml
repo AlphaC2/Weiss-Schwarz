@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-041</ID>
+    <Name>撮影コーチ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10041.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>感謝して、たっくさん撮りなさいねー♪…と言いつつ被写体になるのは慣れてないんだけどねー</FlavourText>
+    <Ability>【永】他のあなたの「夏準備村上文緒」すべてに、パワーを＋1000。【自】絆／「夏準備村上文緒」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「夏準備村上文緒」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

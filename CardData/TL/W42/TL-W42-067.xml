@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-067</ID>
+    <Name>“信じる心”ナナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10067.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>戻ろう！</FlavourText>
+    <Ability>【自】他のあなたの「“信じる心”モモ」がアタックした時、前列にこのカードがいるなら、あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

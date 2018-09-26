@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AOT-S50-046</ID>
+    <Name>お願いか…命令か…</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10052.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>話すか黙るかハッキリしろよ、お願いですから！</FlavourText>
+    <Ability>このカードは、あなたの《兵団》のキャラがいないなら、手札からプレイできない。以下の効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を見て《兵団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』『あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000し、このカードをストック置場に置く。』</Ability>
+</Card>

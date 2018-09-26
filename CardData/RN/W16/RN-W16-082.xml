@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-082</ID>
+    <Name>大好物の差し入れ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10108.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>スコォォォル！</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《科学》のキャラが2枚以上なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

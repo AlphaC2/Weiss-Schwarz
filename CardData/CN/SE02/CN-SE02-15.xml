@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-15</ID>
+    <Name>心に咲いた花ハッコー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10031.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サンタナ「いや……お前は、俺の心に咲いた花だよ。ハッコー」</FlavourText>
+    <Ability>【永】あなたのレベルが3以上なら、このカードの正面のキャラのソウルを-1。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>ILLNESS</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

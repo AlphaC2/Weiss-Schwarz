@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-066</ID>
+    <Name>女王の副官ルルネーゼル</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10103.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もったいない、お言葉……。光栄でございます</FlavourText>
+    <Ability>【永】他のあなたの《王族》のキャラすべてに、パワーを＋500。【起】［(4)このカードを【レスト】する］相手に6ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

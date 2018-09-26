@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S36-096</ID>
+    <Name>バーサーカーの意志</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10096.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あなたは自分の意志で、私を守ってくれてたんだね</FlavourText>
+    <Ability>【カウンター】あなたは自分のカード名に「イリヤ」か「バーサーカー」を含むキャラを1枚選び、控え室に置く。そうしたら、あなたは自分の山札を上から4枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。</Ability>
+</Card>

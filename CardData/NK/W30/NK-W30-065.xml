@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-065</ID>
+    <Name>待ちに待った再開</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10093.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私は楽様の許嫁でございます</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「楽の許嫁万里花」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>POLICE</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

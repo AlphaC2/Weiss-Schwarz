@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-040</ID>
+    <Name>いつも全力</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アライさんにお任せなのだ！</FlavourText>
+    <Ability>【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「捕獲完了？」があるなら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、ストック置場に置いてよい。』【自】［手札を1枚控え室に置く］あなたの「虫眼鏡かばんちゃん」が舞台から控え室に置かれた時、控え室にこのカードがあるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

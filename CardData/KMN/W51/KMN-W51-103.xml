@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-103</ID>
+    <Name>ちょっと休憩</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10131.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが青なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。【起】【カウンター】助太刀2500レベル2［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

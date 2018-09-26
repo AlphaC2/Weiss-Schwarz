@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>N2-W25-022</ID>
+    <Name>仲良しお散歩</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm2/10022.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>このカードを思い出にする。【永】記憶思い出置場にこのカードがあるなら、あなたの前列の中央の枠のカード名に「フェイト」を含むキャラに、パワーを＋1000。</Ability>
+</Card>

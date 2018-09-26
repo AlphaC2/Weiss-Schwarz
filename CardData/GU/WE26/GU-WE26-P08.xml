@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-P08</ID>
+    <Name>もふもふあったかい</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText/>
+    <Ability>【自】［手札の青のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置き、そのターン中、このカードのパワーを＋1000。【自】 このカードがアタックした時、他のあなたの青のキャラが2枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1500。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

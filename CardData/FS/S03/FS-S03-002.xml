@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-002</ID>
+    <Name>騎士王セイバー</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10002.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>違う夢ではなく、目を瞑れば、また同じものが現れると……？</FlavourText>
+    <Ability>【永】他のあなたの《マスター》のキャラ1枚につき、このカードのパワーを＋500。【永】他のあなたの「衛宮士郎」がいるなら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

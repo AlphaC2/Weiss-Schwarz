@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-WE21-25</ID>
+    <Name>破顔十笑</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbcmext/10051.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハッハッハ！</FlavourText>
+    <Ability>【永】他のあなたの、《スポーツ》か《筋肉》のキャラ1枚につき、このカードのパワーを＋500。【自】［手札を1枚控え室に置く］相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>SPORTS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

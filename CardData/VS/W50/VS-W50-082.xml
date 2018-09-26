@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-082</ID>
+    <Name>改まった雰囲気</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10110.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>失礼します</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】【CXコンボ】あなたのクライマックス置場に「過酷な練習」が置かれた時、他のあなたの《格闘》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《格闘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>TRAINER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

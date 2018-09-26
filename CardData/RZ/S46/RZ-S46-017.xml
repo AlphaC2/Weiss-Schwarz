@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-017</ID>
+    <Name>感謝の気持ち</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>命を助けてもらったんだ恩知らずな真似はできねぇー</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、相手は自分の手札を公開してよい。そうしたら、それらのカードにクライマックスがあるなら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>DOUBLE_TOOTH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

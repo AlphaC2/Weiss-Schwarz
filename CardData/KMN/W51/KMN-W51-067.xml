@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-067</ID>
+    <Name>鉄壁の守り</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フッ！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの《フレンズ》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀1000レベル1［手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>SHIELD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

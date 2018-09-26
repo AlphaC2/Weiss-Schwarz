@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-015</ID>
+    <Name>休日のランサー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10030.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>キエーーーー！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「お気に入りの空間」があるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】このカードとバトル中のキャラが【リバース】した時、あなたは自分の山札の上からX枚までを、ストック置場に置く。Xはそのキャラのレベルに等しい。』【起】［あなたの舞台の、《サーヴァント》か《武器》のキャラを1枚クロック置場に置く］そのターン中、このカードのパワーを＋5000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

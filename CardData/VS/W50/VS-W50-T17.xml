@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-T17</ID>
+    <Name>リンネの専属コーチ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10017.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《格闘》のキャラの枚数×1000に等しい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>TRAINER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

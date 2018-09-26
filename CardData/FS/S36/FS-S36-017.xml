@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-017</ID>
+    <Name>“神話の対決”ギルガメッシュ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>神話の闘い、ここに再現するとしようか</FlavourText>
+    <Ability>【永】あなたのクライマックス置場に黄のクライマックスがあるなら、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

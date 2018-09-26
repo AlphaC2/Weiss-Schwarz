@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-021</ID>
+    <Name>ミッシェルシール</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10053.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はいはーい、みんな大好きミッシェルだよー</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。このカードを思い出にする。あなたは自分の山札の上から2枚までを、ストック置場に置き、自分のキャラを1枚選び、そのターン中、パワーを＋2000。あなたの思い出置場の「ミッシェルシール」が2枚以上なら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。あなたの思い出置場の「ミッシェルシール」が3枚以上なら、あなたは自分のクロックの上から1枚を、控え室に置いてよい。あなたの思い出置場の「ミッシェルシール」が4枚以上なら、相手に4ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+</Card>

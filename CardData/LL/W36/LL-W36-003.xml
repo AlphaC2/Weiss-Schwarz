@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-003</ID>
+    <Name>“夏祭りデート”東條</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10043.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>祭りは楽しんだもん勝ちやで？　ほら、行こ行こ♪</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。【自】このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1000。【自】［(1)］このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

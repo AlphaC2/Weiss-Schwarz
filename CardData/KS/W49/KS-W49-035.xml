@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-035</ID>
+    <Name>めぐみん</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10061.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>見せてあげますよ、本物の爆裂魔法を!!</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。【自】【CXコンボ】［(1)］あなたのアタックフェイズの始めに、クライマックス置場に「本物の爆裂魔法」があり、このカードが前列にいて【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、あなたはこのカードの正面のレベル3以下のキャラを1枚選び、クロック置場に置き、このカードを【レスト】する。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

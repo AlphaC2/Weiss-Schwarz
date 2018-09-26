@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-091</ID>
+    <Name>幼い頃の記憶</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もしかして、あれがママが言ってた…ダエモニア……！？</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを思い出にする］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「淋しげな微笑みせいら」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

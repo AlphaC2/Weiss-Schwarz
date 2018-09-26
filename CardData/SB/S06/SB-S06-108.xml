@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-108</ID>
+    <Name>“クールガイ”伊達政宗</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10143.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やれやれ、クールにいこうぜ？</FlavourText>
+    <Ability>【自】［(2)］このカードとバトル中のキャラが【レスト】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

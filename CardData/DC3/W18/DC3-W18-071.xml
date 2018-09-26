@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-071</ID>
+    <Name>フラワーズは大忙し!</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>え！？　清隆さん？　何してるんですか？</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【起】［(2)このカードを【レスト】する］あなたは自分の控え室のカードすべてを、山札に戻す。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>NEWS</Trait>
+        <Trait>WAITRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

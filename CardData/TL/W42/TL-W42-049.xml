@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TL-W42-049</ID>
+    <Name>Adhesion</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10049.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【カウンター】あなたの、《動物》か《植物》のキャラが5枚以上なら、あなたは相手のキャラを1枚選び、【レスト】する。</Ability>
+</Card>

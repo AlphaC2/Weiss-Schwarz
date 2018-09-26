@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>PD-S22-071</ID>
+    <Name>MEGANE</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>メガネに写る君の幻想でボクは満たされる</FlavourText>
+    <Ability>あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-17</ID>
+    <Name>『輝爍の撒き手』レベッカ・リード</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10033.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>レベッカ「美味しいところ取ってくようで悪いけどよ」バラル「そこは適材適所ってことでご勘弁願いたいね」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>RELICS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

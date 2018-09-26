@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-019</ID>
+    <Name>池</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いいぞ…吉田さんがボクに注目している</FlavourText>
+    <Ability>【起】［(1)このカードを【レスト】する］あなたは自分のキャラを１枚選び、そのターン中、パワーを＋2500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

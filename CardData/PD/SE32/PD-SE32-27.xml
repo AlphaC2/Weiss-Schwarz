@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-27</ID>
+    <Name>初音ミク“卑怯グリーン”</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>凍りついた世界に新しい風が吹く時計の針はもう動き出すから　今すぐに走り出せ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「卑怯」を含むキャラが2枚以上なら、このカードはサイドアタックしてもソウルが減少しない。【自】このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HERO(CS/PY)</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

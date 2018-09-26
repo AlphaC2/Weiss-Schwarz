@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-051</ID>
+    <Name>天真爛漫</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>リンネさんとお話できました？</FlavourText>
+    <Ability>【自】［手札のクライマックスを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《格闘》のキャラを1枚選び、手札に戻す。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>ODD_EYE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

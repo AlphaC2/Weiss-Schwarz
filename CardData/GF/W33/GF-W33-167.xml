@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-167</ID>
+    <Name>戦場レポート</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10235.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おっとぉ、ここで歴史研二名が続けて脱落！これで勝負はわからなくなってきたぁ！</FlavourText>
+    <Ability>【起】【カウンター】助太刀3000レベル2[(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-082</ID>
+    <Name>運命を知るもの</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ジラ「もう1人のマスターが、シリルなの」</FlavourText>
+    <Ability>【永】応援相手のターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。【起】［このカードを【レスト】する］あなたは自分の山札を上から1枚見る。（見たカードは元に戻す）</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>BOOK</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

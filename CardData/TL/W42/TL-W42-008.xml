@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-008</ID>
+    <Name>“スクール水着”ヤミ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10008.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《変身》か《家事》のキャラなら、そのターン中、このカードのソウルを＋1。（公開したカードは元に戻す）【自】絆／「“本当のわたし”芽亜」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“本当のわたし”芽亜」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>TAIYAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-031</ID>
+    <Name>クッションの海</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あんた、まだそのアバター使ってんのね。変えればいいのに</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、パワーを＋500。【自】［(1)あなたの【スタンド】しているキャラを2枚【レスト】する］あなたが『加速』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-041</ID>
+    <Name>“戦闘のプロフェッショナル”ボバ・フェット</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10064.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハン・ソロ「ボバ・フェット？どこだ？」</FlavourText>
+    <Ability>【永】あなたのキャラすべてが緑なら、このカードのパワーを＋1000し、ソウルを＋1。【永】他のあなたの緑のキャラ1枚につき、このカードのパワーを＋1000。【自】アンコール［手札の緑のカードを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>RETURN_OF_THE_JEDI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

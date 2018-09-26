@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AW-S43-097</ID>
+    <Name>ゲイルスラスター</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10097.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>着装、《ゲイルスラスター》！</FlavourText>
+    <Ability>カウンター＠あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの、《アバター》か《ネット》のキャラの枚数×1000に等しい。</Ability>
+</Card>

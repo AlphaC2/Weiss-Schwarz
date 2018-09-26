@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>SY-W08-025</ID>
+    <Name>閉鎖空間</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>FIRE</Trigger>
+    <FlavourText>さて、僕も参加しなければ</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（射＠：このカードがトリガーした時、そのバトル中、あなたのキャラが次に与えたダメージがキャンセルされた時、相手に1ダメージを与える。）</Ability>
+</Card>

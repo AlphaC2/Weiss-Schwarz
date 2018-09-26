@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-106</ID>
+    <Name>風紀委員長ラズベリル&amp;王女サファイア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10141.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ラズベリル「うおー！ すっげー！ 本物の勇者だ！超レアキャラ発見！」</FlavourText>
+    <Ability>【永】他のあなたの、《勇者》かカード名に「主人公」を含むキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-026</ID>
+    <Name>優秀なオペレーター</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちょっと待ってくださいね。今、調べてみます</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「“無能力者”佐天」があるなら、このカードのパワーを＋1000。【自】［(1)］このカードがアタックした時、クライマックス置場に「風紀委員の覚悟」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《風紀委員》かに「佐天」を含むキャラを1枚まで選んで相手に見せ、手札に加える。残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-20</ID>
+    <Name>可憐な美少女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10039.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はじめまして。よろしくおねがいします</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分の《ギガント》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GIGANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

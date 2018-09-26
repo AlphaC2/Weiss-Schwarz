@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RG-W13-071</ID>
+    <Name>手掛かり</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>衿衣｢枝先絆理ちゃんって言うの｣</FlavourText>
+    <Ability>あなたは自分の《超能力》のキャラを2枚まで選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

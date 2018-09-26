@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-T14</ID>
+    <Name>コイツの名前はグレン</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10014.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードの下にマーカーがないなら、このカードのパワーを-4000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の、「“アニキ”カミナ」か「グレン団リーダーカミナ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>SUNGLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

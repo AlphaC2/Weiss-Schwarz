@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-053</ID>
+    <Name>“優秀なスパイ?”沙耶</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ようは空間の認識力ね。なんのために訓練を受けてきたかっての</FlavourText>
+    <Ability>【永】このカードは相手のキャラの【自】の効果によって【リバース】されない。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

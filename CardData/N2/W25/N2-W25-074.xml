@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W25-074</ID>
+    <Name>悪い子にはお仕置き</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm2/10074.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>こーらヴィータ！お見舞いに来てくれたみんなにどーゆー対応や</FlavourText>
+    <Ability>【起】［あなたのキャラを2枚【レスト】する］そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

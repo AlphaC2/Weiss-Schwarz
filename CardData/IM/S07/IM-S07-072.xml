@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-072</ID>
+    <Name>ボイスレッスン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10134.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>プロデューサー、まだまだレッスンが足りません もう３時間ほどお願いします</FlavourText>
+    <Ability>【カウンター】あなたの《音楽》のキャラすべてに、そのターン中、『【自】アンコール［(1)］』を与える。</Ability>
+</Card>

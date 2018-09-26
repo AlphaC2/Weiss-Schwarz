@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-041</ID>
+    <Name>健気な娘</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10048.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>でも頑張ってもらわない方が嬉しいです、わたし</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあるなら、あなたのレベル2以上のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

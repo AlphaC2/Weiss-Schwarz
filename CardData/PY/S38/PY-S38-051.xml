@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-051</ID>
+    <Name>みどりぷよ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。【永】他のあなたの前列の「みどりぷよ」1枚につき、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>PUYO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

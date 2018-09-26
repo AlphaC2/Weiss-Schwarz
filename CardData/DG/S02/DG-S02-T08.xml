@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-T08</ID>
+    <Name>弓、復活!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10126.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やっと…やっと帰ってきたー！</FlavourText>
+    <Ability>【カウンター】あなたは自分の控え室の、クライマックス以外のカードを5枚まで選び、山札に戻す。その山札をシャッフルする。5枚戻したなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを-1500。</Ability>
+</Card>

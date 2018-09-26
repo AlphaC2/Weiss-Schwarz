@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-T33</ID>
+    <Name>はじめてのお仕事</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10043.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText/>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>CLOVER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

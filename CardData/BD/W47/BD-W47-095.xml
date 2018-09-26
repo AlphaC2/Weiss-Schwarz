@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-095</ID>
+    <Name>“SPACE”オーナー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10163.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここは練習スタジオじゃないよ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、以下の効果のうちあなたが選んだ1つを行ってよい。『あなたは自分のストックの上から2枚を、控え室に置いてよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、舞台の好きな枠に置く。』『あなたは自分のストックの上から1枚を、控え室に置いてよい。そうしたら、あなたは自分の控え室のレベル0以下のキャラを1枚選び、舞台の好きな枠に置く。』</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

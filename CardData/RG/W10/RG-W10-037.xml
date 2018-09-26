@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-037</ID>
+    <Name>“風紀委員”初春</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>疲れて寝ちゃったんですよ</FlavourText>
+    <Ability>【自】チェンジ［(1)手札を1枚控え室に置き、このカードを思い出にする］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水着の初春」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ESPER</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

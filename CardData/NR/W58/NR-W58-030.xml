@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-030</ID>
+    <Name>月夜のお出かけ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10031.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>見えてきたよフェイトちゃん！</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】このカードのバトル相手が【リバース】した時、あなたは他の自分の、《魔法》か《武器》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

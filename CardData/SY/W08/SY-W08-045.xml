@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-045</ID>
+    <Name>みくるビーム</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みっみっ、みくるビィーム！</FlavourText>
+    <Ability>このカードは、あなたの《時間》のキャラがいないなら、手札からプレイできない。あなたは自分のクロック置場のキャラを1枚選び、手札に戻す。あなたは相手のキャラを1枚選び、そのターン中、パワーを-1000。このカードをクロック置場に置く。</Ability>
+</Card>

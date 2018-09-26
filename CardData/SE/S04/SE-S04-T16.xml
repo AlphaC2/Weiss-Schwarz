@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-T16</ID>
+    <Name>“2本の聖剣”トウマ&amp;シリル</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10018.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>トウマ「オレ、おまえに約束したよな。いっしょに、贄神と戦おうって」</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「運命の刃」があり、あなたの【リバース】しているカード名に「トウマ」か「シリル」を含むキャラがいるなら、あなたは1枚引き、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

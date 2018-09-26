@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-045</ID>
+    <Name>ガチガチ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>早く柔軟でもなんでもやってください！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、次の能力を与える。『【自】バトル中のこのカードが【リバース】した時、あなたのストックが相手のストックより少ないなら、あなたはこのカードをストック置場に置いてよい。』【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

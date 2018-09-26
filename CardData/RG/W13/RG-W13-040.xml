@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W13-040</ID>
+    <Name>大脳生理学者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>礼を言わせてくれ</FlavourText>
+    <Ability>【起】［(1)あなたのキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SK-WE05-27</ID>
+    <Name>小川で遊ぼう!</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext2.0/10031.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いつき「サイズが合いませんか？怪奇課の標準装備なんですけど」秋葉「ううん、ピッタリ」</FlavourText>
+    <Ability>あなたは2枚まで引き、自分の手札を2枚選び、山札の上に置く。</Ability>
+</Card>

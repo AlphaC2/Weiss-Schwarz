@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-069</ID>
+    <Name>大火の兎兎丸</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>全ての炎は私によって制御される</FlavourText>
+    <Ability>【自】［手札のキャラを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしないなら、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DS2-SE16-27</ID>
+    <Name>死に顔動画</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10055.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>新しい死に顔動画が着信しました</FlavourText>
+    <Ability>あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、あなたは自分のキャラを1枚選び、控え室に置く。そうでないなら、あなたのキャラすべてに、次の相手のターンの終わりまで、次の能力を与える。『【自】このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』（公開したカードは元に戻す）</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-19</ID>
+    <Name>冷静沈着な使者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10037.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ロボ娘です</FlavourText>
+    <Ability>【起】［(1)このカードをカード名に「万博」を含むキャラの下にマーカーとして表向きに置く］あなたは自分の山札を上から4枚まで見て、カード名に「万博」を含むキャラか「万博の発明品」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FOREIGNER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

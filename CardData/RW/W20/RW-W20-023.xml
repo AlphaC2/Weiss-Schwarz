@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W20-023</ID>
+    <Name>この良き日に、真心こめて。</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10028.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『僕たち結婚します！』</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの黄のキャラが1枚以下なら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+</Card>

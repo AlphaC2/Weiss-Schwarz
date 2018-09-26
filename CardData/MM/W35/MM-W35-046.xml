@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-046</ID>
+    <Name>二人は親友</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10049.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まどか「私だけが誰にも会えなくなるほど遠くに一人で行っちゃうなんてありっこないよ」</FlavourText>
+    <Ability>【永】他のあなたの《魔法》のキャラが2枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-040</ID>
+    <Name>“ステージ”羽沢つぐみ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>この衣装に見劣りしないように、もっと演奏も上手になりたいし、メンバーとしてちゃんとやらなきゃって思うんだ</FlavourText>
+    <Ability>【永】あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

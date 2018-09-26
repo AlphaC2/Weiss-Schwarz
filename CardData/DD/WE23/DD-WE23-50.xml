@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>DD-WE23-50</ID>
+    <Name>竜の森</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10099.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>PANTS</Trigger>
+    <FlavourText>本当に…勇者様だったんだ…</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（門＠：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）</Ability>
+</Card>

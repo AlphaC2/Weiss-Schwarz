@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W17-026</ID>
+    <Name>弓の魔法少女</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magica/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それでも――わたしは魔法少女だから。みんなのこと守らなきゃいけないから</FlavourText>
+    <Ability>【永】あなたのストックが4枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

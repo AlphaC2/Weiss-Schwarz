@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-001</ID>
+    <Name>“天真爛漫”いつき</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10021.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おらたちの怒り、見せてやるベ！</FlavourText>
+    <Ability>【自】他のあなたのカード名に「いつき」を含むキャラがアタックした時、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SNOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

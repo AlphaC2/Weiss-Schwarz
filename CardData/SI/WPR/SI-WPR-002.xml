@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SI-WPR-002</ID>
+    <Name>応援しよ子</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10005.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いっしょに応援、しよ！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、《元気》を与える。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>CARD_GAME</Trait>
+        <Trait>HACHIMAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

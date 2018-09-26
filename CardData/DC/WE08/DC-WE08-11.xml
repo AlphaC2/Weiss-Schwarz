@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE08-11</ID>
+    <Name>風見学園の生徒</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10023.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この学園は美夏の胸に刻み込まれた。だから、いつでも出て行ける</FlavourText>
+    <Ability>【永】大活躍（相手がアタックする時、【リバース】していないこのカードが前列の中央の枠にいるなら、かわりに相手はこのカードにフロントアタックする）【自】このカードがアタックした時、クライマックス置場に「バナナフッズエンド」があるなら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻してよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

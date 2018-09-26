@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-029</ID>
+    <Name>初音ミク“サマーメモリー”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>唐突に鳴り響く　僕を呼ぶ別れの音見慣れたその泣き顔も　しばらくは見れないね</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「タイムマシン」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋5500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

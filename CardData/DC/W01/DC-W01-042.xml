@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-042</ID>
+    <Name>大和撫子</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10045.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……人の未来なんて知りたくないのに……</FlavourText>
+    <Ability>【自】このカードがプレイされて舞台に置かれた時、あなたは相手の山札を上から3枚まで見て、山札の上に好きな順番で置く。【自】このカードがアタックした時、クライマックス置場に「わたくしの大切な人のために……」があるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、そのターン中、このカードのパワーを＋3000。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-084</ID>
+    <Name>“連携攻撃”エギル</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10084.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まさか、二年も経ってここを見ることになるとはな……</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを＋3000。【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-T03</ID>
+    <Name>猪突猛進!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10004.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>食らえー！　タネガシアッパー！</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「追い続ける夢」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000し、ソウルを＋1。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

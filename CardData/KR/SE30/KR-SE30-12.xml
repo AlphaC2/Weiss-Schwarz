@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-12</ID>
+    <Name>“強力な協力”桜</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10023.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>魔狭人君、悪いけど、あなたの全財産おろしたよ</FlavourText>
+    <Ability>【永】他のあなたの、緑か《契約黒猫》のキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］このカードの下にマーカーがないなら、あなたは自分の控え室の、緑か《契約黒猫》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。【起】［このカードを【レスト】する］あなたはこのカードの下のマーカーを1枚ストック置場に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

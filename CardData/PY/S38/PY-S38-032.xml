@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-032</ID>
+    <Name>フェーリ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>このしんきくさいカンジ…キケンな　あ・く・りょ・う…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。</Ability>
+    <Character>
+        <Power>11000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

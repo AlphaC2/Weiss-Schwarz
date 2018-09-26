@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-009</ID>
+    <Name>エトの願い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10051.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ねえ、もしこの童話みたいに、ひとつだけ願いを叶えるとしたら、エトはどんなことをお願いする？</FlavourText>
+    <Ability>【永】あなたは自分のクライマックスフェイズに、クライマックスを手札からプレイできない。【自】チェンジ［手札を1枚控え室に置き、このカードを思い出にする］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“サンタの初恋”シャルル」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

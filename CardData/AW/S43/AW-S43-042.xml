@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-042</ID>
+    <Name>円盤形のエネミー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10042.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。【起】集中［(1)あなたのキャラを2枚【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て「ノックスコーア」を1枚まで選び、舞台の好きな枠に置く。その後、その山札をシャッフルし、次の相手のターンの終わりまで、そのキャラのパワーを＋1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ENEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

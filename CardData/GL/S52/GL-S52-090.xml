@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-090</ID>
+    <Name>メッセンジャー・ニア</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>宇宙に出たとして、彼等を待っているのは絶望です</FlavourText>
+    <Ability>【自】【CXコンボ】［手札を1枚控え室に置く］あなたのクライマックス置場に「人類殲滅システム」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ムガン」を2枚まで選び、舞台の別々の枠に置く。【起】集中［(1)あなたのキャラを2枚【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードに「ムガン」があるなら、あなたは自分の山札を見て《アンチスパイラル》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ANTI_SPIRAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

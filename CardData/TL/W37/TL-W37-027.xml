@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TL-W37-027</ID>
+    <Name>ダークネス計画</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10056.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>“ダークネス”は危うい力だ</FlavourText>
+    <Ability>【カウンター】あなたはバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】このカードはプレイヤーにダメージを与えることができない。』あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+</Card>

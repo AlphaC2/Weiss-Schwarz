@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-012</ID>
+    <Name>“グロウアップロック”青葉モカ</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10024.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>なんかモカちゃん、ワクワクしてきたよ?</FlavourText>
+    <Ability>【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。【自】このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

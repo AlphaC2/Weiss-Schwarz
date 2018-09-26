@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-044</ID>
+    <Name>弓道部副部長</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10071.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>部活を辞めてから何をしてるかと思えば、生徒会長の太鼓持ちかい？</FlavourText>
+    <Ability>【永】経験あなたのレベル置場の「自意識過剰慎二」1枚につき、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>BOOK</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

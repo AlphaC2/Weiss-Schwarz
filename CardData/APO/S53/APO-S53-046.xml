@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-046</ID>
+    <Name>“天穹の弓”赤のアーチャー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10073.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText/>
+    <Ability>【永】応援このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】このカードは相手のキャラの【自】の効果によって【リバース】されない。』</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>SERVANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-059</ID>
+    <Name>のんきなアシスタント</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゆず「いつでも遊びにこいよー」夕陽「今度は新聞部のみんなも連れてきてね」</FlavourText>
+    <Ability>【永】あなたのストックが3枚以下なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>PARABLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

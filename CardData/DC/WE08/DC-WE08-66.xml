@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE08-66</ID>
+    <Name>花咲</Name>
+    <Rarity>S-C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10095.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ようやくこの茜さんの魅力に気付いて、誘う気になったのね。遅いぞ♪</FlavourText>
+    <Ability>【起】［(1)］そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

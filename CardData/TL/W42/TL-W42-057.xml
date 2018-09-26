@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-057</ID>
+    <Name>“ハーレムの障害”モモ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10057.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私…ハーレム建設の一番の障害はリトさんの命を狙うあの人だと思ってたんですよ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。【自】他のあなたの、《宇宙人》か《植物》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

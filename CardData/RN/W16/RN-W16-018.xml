@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-018</ID>
+    <Name>青空の下</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お兄ちゃん、お散歩行きましょう♪いい天気ですよ</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の《科学》のキャラを2枚まで選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

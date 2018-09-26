@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BM-S15-021</ID>
+    <Name>本気でケンカ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『小学生女子を２回も殴りつけ失神させたあげくに、ニヒルを気取ってたそがれている男子高校生の姿が、そこにはあった』</FlavourText>
+    <Ability>あなたのキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+</Card>

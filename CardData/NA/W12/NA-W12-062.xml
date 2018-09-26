@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-062</ID>
+    <Name>“八神家”ヴィータ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10092.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>はやてのごはんはギガうまだしな！</FlavourText>
+    <Ability>【永】記憶あなたの思い出が3枚以上なら、このカードは次の能力を得る。【自】他のあなたのバトル中のキャラが【リバース】した時、そのターン中、このカードのパワーを＋2000。』</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DOLL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

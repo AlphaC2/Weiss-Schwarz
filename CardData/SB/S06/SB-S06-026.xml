@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-026</ID>
+    <Name>“天才軍師”竹中</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10046.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そこの君、秀吉はまだ本気じゃないよ？</FlavourText>
+    <Ability>【永】他のあなたのカード名に「秀吉」を含むキャラすべてに、パワーを＋500。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

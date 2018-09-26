@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-025</ID>
+    <Name>毎日が宝物</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10049.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>改めて言われると難しいな……</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そうしたら、そのカードのトリガーアイコンの1つにつき、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

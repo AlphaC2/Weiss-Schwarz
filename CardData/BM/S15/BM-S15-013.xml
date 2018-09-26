@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-013</ID>
+    <Name>“わざとじゃない”八九寺真宵</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>失礼。噛みました</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(2)］あなたは相手のレベル0以下のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>SPIRIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

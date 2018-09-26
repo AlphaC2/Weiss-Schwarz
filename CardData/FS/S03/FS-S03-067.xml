@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-067</ID>
+    <Name>凛&amp;セイバー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>セイバー「凛は必ず私が守ります」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>SERVANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

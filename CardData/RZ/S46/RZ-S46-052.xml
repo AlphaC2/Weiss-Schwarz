@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-052</ID>
+    <Name>辺境伯</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いーぃんじゃないかい？王選云々ってーぇのとは別のお話で。スバルくんが王都へ行くのは、お礼参りと、それにもうひとつ、治療目的ってえーぇことで</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ODD_EYE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

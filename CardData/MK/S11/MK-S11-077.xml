@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S11-077</ID>
+    <Name>チームのまとめ役</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10112.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あなたたち、もう少し行儀よく食べなさいよ…</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたのキャラすべてに、パワーを＋1000。【自】チェンジ［(1)このカードを控え室に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「頼れるお姉さんコーデリア」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

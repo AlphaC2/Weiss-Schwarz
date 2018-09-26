@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-056</ID>
+    <Name>凛のサーヴァント</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ああ、これが致命的なのだが、とにかく可愛さが判りづらい</FlavourText>
+    <Ability>【自】他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の《武器》のキャラを1枚選び、そのターン中、パワーを＋500。【起】集中[(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の《武器》のキャラを1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

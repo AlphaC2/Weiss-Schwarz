@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-027</ID>
+    <Name>新たなる物語</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10028.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>たくさんの人の努力と期待がこもってる場所だから壊したくないの！</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置き、このカードを思い出にする］バトル中のこのカードが【リバース】した時、他のあなたの、《魔法》か《武器》のキャラが2枚以上で、あなたの思い出が2枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《魔法》か《武器》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

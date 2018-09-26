@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-030</ID>
+    <Name>堀</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10125.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>サイキック逮捕ー！</FlavourText>
+    <Ability>【永】相手の【レスト】しているキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは相手の【スタンド】しているキャラを1枚選び、【レスト】してよい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ESPER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

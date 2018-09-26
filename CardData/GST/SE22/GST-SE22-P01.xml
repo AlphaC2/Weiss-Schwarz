@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-P01</ID>
+    <Name>ギガントシューター</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>世界一のギガントシューターを目指すぜ！</FlavourText>
+    <Ability>【永】このカードの正面のキャラに、《ギガント》を与える。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>GIGANT</Trait>
+        <Trait>PROTAGONIST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

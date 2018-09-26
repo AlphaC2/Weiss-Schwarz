@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-056</ID>
+    <Name>“才色兼備の優等生”凛</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここでカタをつけてあげる♪</FlavourText>
+    <Ability>【永】他のあなたの《武器》のキャラがいるなら、このカードのパワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《マスター》か《サーヴァント》のキャラでないならクロック置場に置く。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

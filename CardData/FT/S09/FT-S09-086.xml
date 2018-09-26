@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-086</ID>
+    <Name>決意のグレイ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>デリオラはオレが封じる!!!!</FlavourText>
+    <Ability>【自】［手札のキャラを1枚思い出にする］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしないなら、このカードを控え室に置く。【自】［(1)］このカードがアタックした時、クライマックス置場に「氷雪砲」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

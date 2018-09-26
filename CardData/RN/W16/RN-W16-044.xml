@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-044</ID>
+    <Name>与四郎くん</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10070.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>コンニチワ。ボクノナマエハ、ヨシロウ。ミンナノ、オトモダチロボットダヨ。ヨロシクネ</FlavourText>
+    <Ability>【自】このカードが手札か控え室から、舞台に置かれた時、あなたは他の自分の《科学》のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AW-S18-077</ID>
+    <Name>災禍の鎧</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>黒雪姫「取り憑かれた者が討伐されても、《災禍の鎧》だけは消えず、また別のバーストリンカーへ取り憑いては人格を変貌させる」</FlavourText>
+    <Ability>このカードを思い出にする。【永】記憶思い出置場にこのカードがあるなら、あなたの前列の中央の枠の《アバター》のキャラに、パワーを＋1500し、次の能力を与える。『【自】バトル中のこのカードが【リバース】した時、このカードをクロック置場に置く。』</Ability>
+</Card>

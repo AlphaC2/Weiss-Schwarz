@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-P19</ID>
+    <Name>キラキラ有咲</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10235.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヤ、ヤベー･･･</FlavourText>
+    <Ability>【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋1500し、このカードは『自動能力＠ アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を得る。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BONSAI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

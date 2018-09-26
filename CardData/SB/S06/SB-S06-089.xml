@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-089</ID>
+    <Name>“副将”片倉</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あなたの背中は守る…存分になされよ！</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたのキャラすべてに、パワーを＋500。【自】他のあなたの《眼帯》のキャラが控え室から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

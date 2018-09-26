@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-P05</ID>
+    <Name>“音楽家”シャロ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10163.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ピロピロー</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《探偵》なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

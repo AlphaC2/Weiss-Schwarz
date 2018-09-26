@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-034</ID>
+    <Name>エティア・ヴィスコンティ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10060.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうもありがとう</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、パワーを＋1000。【起】［(1)このカードを【レスト】する］あなたは他の自分の《タロット》のキャラを1枚選び、【スタンド】する。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>PARASOL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

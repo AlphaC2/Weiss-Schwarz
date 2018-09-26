@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-061</ID>
+    <Name>Sprin’PARTY</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10129.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふああー、緊張しちゃうー</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>CHOCO_CORONET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

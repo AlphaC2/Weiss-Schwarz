@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-22</ID>
+    <Name>アインツベルン家</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10043.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>リズ「そうそう。セラは心配しすぎ」セラ「あなたは放任しすぎなんです！」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分の《マスター》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>HOMUNCULUS</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

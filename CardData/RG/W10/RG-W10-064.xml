@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-064</ID>
+    <Name>婚后</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>このぶんだと、超能力に到達するのは、わたくしの方が先かしら。</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックス1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ESPER</Trait>
+        <Trait>FAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-133</ID>
+    <Name>嬉し涙</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10159.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そ、その…お返し貰えて嬉しいわ</FlavourText>
+    <Ability>【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「星の思い出」があり、あなたのキャラすべてが青なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

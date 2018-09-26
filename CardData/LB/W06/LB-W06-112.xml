@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-112</ID>
+    <Name>水着の沙耶</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10146.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>見たい？</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたのキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

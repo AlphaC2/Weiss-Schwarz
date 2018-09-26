@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-042</ID>
+    <Name>高木順一朗</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ウオッホン！仲良きことは美しきことかな。 諸君、団結の心を、忘れてはならんぞ？</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあるなら、あなたのキャラすべてに、次の能力を与える。『【起】［あなたの《音楽》のキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1500。』</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SHADOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

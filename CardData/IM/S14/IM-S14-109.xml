@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-109</ID>
+    <Name>スノーフレークリリパット</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>伊織「やよいもなかなか似合ってるじゃない！」やよい「伊織ちゃんもすっごくかわいいですー！」</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

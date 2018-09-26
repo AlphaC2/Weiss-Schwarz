@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-080</ID>
+    <Name>神崎</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10175.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>我が魂の、赴くままにっ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードがアタックした時、クライマックス置場に「-LEGNE-仇なす剣光の旋律」があるなら、あなたは自分の山札の上から5枚を、控え室に置き、相手にXダメージを与え、そのターン中、このカードのパワーを＋2000。Xはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>DARKNESS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-S06-045</ID>
+    <Name>伝説の舞台</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>身のほどをわきまえぬ下賤の者共、今川のいくさぶり、とくとみてたも！</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、【スタンド】する。あなたのキャラすべてに、そのターン中、パワーを＋1000。</Ability>
+</Card>

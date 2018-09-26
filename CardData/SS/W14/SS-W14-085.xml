@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-085</ID>
+    <Name>開かれる器</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10110.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>器を開きなさい…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［(1)］このカードがアタックした時、クライマックス置場に「器の回収」があるなら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

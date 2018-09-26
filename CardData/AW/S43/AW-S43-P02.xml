@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-P02</ID>
+    <Name>華やかな和装</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10126.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あまりじろじろ見ないでくれよ</FlavourText>
+    <Ability>【自】 このカードがアタックした時、あなたは他の自分の、《アバター》か《ネット》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、《アバター》か《ネット》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

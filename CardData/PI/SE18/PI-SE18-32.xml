@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-32</ID>
+    <Name>“友達”イリヤ&amp;美遊</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10063.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>イリヤ「なんでもできるよ…二人なら！」美遊「うん。前へ進もう」</FlavourText>
+    <Ability>【永】他のあなたの「“友達”イリヤ＆美遊」1枚につき、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

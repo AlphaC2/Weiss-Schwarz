@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W27-056</ID>
+    <Name>マリア・カデンツァヴナ・イヴ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10065.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これが私のガングニール。何物をも貫き徹す無双の一振り！</FlavourText>
+    <Ability>【永】あなたは自分のクロックフェイズに、手札のクライマックスをクロック置場に置いてカードを引くことができない。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

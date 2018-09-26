@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-010</ID>
+    <Name>“覇王流の師弟”アインハルト&amp;フーカ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10038.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>『覇王！断空拳ッ！』</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードに《覇王流》のキャラか緑のイベントが1枚以上なら、次の相手のターンの終わりまで、このカードのパワーを＋1500。2枚以上なら、あなたは自分のクロックの上から1枚までを、控え室に置く。3枚以上なら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

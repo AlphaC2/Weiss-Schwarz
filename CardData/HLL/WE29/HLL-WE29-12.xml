@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE29-12</ID>
+    <Name>大晦日の贅沢</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext2.0/10023.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>最高級の茹でタラバを取り寄せておいたんです?</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋1000。【自】あなたが『合体』を使った時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

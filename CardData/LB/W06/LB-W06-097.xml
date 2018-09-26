@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-097</ID>
+    <Name>たどり着いた答え</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10135.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>答えを知るにはまだ早いな</FlavourText>
+    <Ability>あなたの控え室のクライマックスが4枚以上なら、あなたは2枚まで引く。</Ability>
+</Card>

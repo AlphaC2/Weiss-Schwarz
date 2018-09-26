@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-021</ID>
+    <Name>運転中</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>かばん「大丈夫？サーバルちゃん……」</FlavourText>
+    <Ability>【永】前列の中央の枠にこのカードがいるなら、このカードのソウルを＋1。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-SE05-31</ID>
+    <Name>小田原城を攻める!</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わしにつづけぇいッ!!</FlavourText>
+    <Ability>【カウンター】あなたは自分の《武器》のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

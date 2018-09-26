@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-036</ID>
+    <Name>仲良し四人組</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>どうせなら賑やかな方がいいでしょ？</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。【自】あなたのクライマックス置場に「早く良くなってね」が置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

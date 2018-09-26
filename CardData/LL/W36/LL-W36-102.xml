@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-102</ID>
+    <Name>“水色の傘”絢瀬</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10169.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちゃんと勉強してる？ 分からないことがあったら、教えてあげるわよ♪</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの緑のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>UMBRELLA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

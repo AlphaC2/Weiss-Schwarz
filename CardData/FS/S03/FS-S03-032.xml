@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-032</ID>
+    <Name>間桐の後継者</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10039.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>先輩はライダーがいてもかまいませんよね？</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、レベルを＋1。【起】［このカードを【レスト】する］あなたは自分のカード名に「士郎」を含むキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

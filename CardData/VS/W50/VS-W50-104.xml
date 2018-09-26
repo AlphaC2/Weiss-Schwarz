@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-104</ID>
+    <Name>許せないもの</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10132.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>悪意を持って人を傷つける奴が嫌い！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの、《格闘》か《服》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《格闘》か《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

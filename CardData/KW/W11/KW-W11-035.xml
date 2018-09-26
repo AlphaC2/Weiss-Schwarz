@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-035</ID>
+    <Name>デートを満喫</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10064.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ばれてしまいました</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを思い出にする］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「果てしない高さへの一歩クド」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

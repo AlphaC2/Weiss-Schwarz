@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-056</ID>
+    <Name>複製者アーチャー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10067.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>期待に答えるとしよう―――</FlavourText>
+    <Ability>【自】［(4)］あなたのクライマックス置場に「UnlimitedBladeWorks」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル2以下の《武器》のキャラを2枚まで選び、前列の別々の枠に置く。アンコールステップの初めに、それらのキャラが舞台にいるなら、それらのキャラを山札に戻す。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

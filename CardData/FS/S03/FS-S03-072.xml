@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-072</ID>
+    <Name>宝石魔術</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>引いて、セイバー……！</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、控え室に置く。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

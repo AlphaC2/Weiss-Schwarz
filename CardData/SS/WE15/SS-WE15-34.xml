@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-34</ID>
+    <Name>幾万の願いの結晶</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10067.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「神威召還ヘカテー」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

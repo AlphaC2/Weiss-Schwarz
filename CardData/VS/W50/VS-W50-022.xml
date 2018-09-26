@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-022</ID>
+    <Name>どこか嬉し気</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10050.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キャリア一週間の初心者が、希代のワールドランカーに勝とうと言うんです、冗談以外にどう受け取れと</FlavourText>
+    <Ability>【永】他のあなたのキャラが1枚以下なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-056</ID>
+    <Name>“風紀委員?”美琴</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>目標、無事ゲット！</FlavourText>
+    <Ability>【自】チェンジ［(2)手札を1枚控え室に置き、このカードを思い出にする］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“超能力者”美琴」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ESPER</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

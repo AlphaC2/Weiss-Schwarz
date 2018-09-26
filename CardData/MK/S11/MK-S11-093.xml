@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S11-093</ID>
+    <Name>元名探偵</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10130.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>そのトイズはキミだけがおこせる奇跡なんだよ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。【起】［このカードを【レスト】する］あなたは自分の《探偵》のキャラを1枚選び、そのターン中、レベルを＋1。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

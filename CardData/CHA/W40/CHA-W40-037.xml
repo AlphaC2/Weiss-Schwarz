@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-037</ID>
+    <Name>“封印成功”乙坂</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ナイス警備！初めて、引っ越してきて良かったと思える出来事だ！</FlavourText>
+    <Ability>【永】他のあなたの《能力者》のキャラ1枚につき、このカードのパワーを＋500。【自】［(1)］このカードがアタックした時、クライマックス置場に「営業スマイル」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

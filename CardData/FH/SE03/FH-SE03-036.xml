@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-036</ID>
+    <Name>元気いっぱいのイリヤ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10072.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やっっっっはぁああ―――――！</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「おやすみの夜」が置かれた時、そのターン中、このカードのパワーを＋1000。【自】［(4)］あなたのクライマックス置場に「おやすみの夜」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札のレベル2以下の《サーヴァント》のキャラを1枚まで選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>HOMUNCULUS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

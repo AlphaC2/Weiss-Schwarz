@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-WE21-18</ID>
+    <Name>妄想ウェディング</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbcmext/10037.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…綺麗だね</FlavourText>
+    <Ability>【永】あなたの舞台のキャラの持つ色の合計が3色以上なら、このカードのパワーを＋3000。【起】［(1)］そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

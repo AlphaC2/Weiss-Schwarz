@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-026</ID>
+    <Name>Starrin’</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ブイ♪</FlavourText>
+    <Ability>【自】【CXコンボ】あなたのクライマックス置場に「私たちPoppin’Party」か「Poppin’Party初LIVE」が置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋500。【起】【CXコンボ】集中［［1］あなたのキャラを2枚【レスト】する］あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードの「私たちPoppin’Party」か「Poppin’Party初LIVE」1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

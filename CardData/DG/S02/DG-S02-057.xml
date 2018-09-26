@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-057</ID>
+    <Name>ニセラハール</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10068.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エトナ「完璧ね！　今日からアンタがラハール殿下よ！！」</FlavourText>
+    <Ability>【永】あなたの控え室に「魔界のプリンスラハール」があるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>PRINNY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

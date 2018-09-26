@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>WS-WPR-P02</ID>
+    <Name>えみゅーじっく♪</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10057.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなに届けなくちゃ…！</FlavourText>
+    <Ability>あなたのキャラすべてに、そのターン中、パワーを＋2000。このカードを思い出にする。</Ability>
+</Card>

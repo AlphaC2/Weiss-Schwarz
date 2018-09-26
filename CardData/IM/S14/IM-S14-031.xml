@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-031</ID>
+    <Name>竜宮小町</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日は、プロデューサーさんと２人きりですね。たまにはご飯でもいかがですか？　ふふっ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「9:02pm」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋2500し、あなたはイベントと『助太刀』を、手札からプレイできない。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

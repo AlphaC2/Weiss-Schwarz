@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-076</ID>
+    <Name>凄まじい気迫</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10103.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何！？</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「純潔」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

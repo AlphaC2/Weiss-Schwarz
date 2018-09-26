@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-034</ID>
+    <Name>“紅魔族”めぐみん</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10060.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>我と共に究極の深淵を覗く覚悟をせよ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置き、相手のレベルＸ以下のキャラを1枚まで選び、控え室に置く。Ｘはそのカードのレベルに等しい。（クライマックスのレベルは0として扱う）【自】【CXコンボ】［手札を1枚控え室に置く］あなたのアンコールステップの始めに、クライマックス置場に「爆裂魔法」があり、他のあなたの「“不安でいっぱい”カズマ」がいて、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

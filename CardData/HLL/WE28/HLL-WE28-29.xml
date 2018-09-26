@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-29</ID>
+    <Name>セクシーな使者</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10057.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>強敵ねぇー。やれるだけやってみましょう</FlavourText>
+    <Ability>【永】他のあなたのカード名に「弥生」を含むキャラすべてに、『【自】アンコール［(2)］』を与える。【起】［このカードを【レスト】する］あなたは自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>FOREIGNER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

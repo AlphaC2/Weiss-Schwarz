@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-010</ID>
+    <Name>“魔王の妻”濃姫</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>濃姫「やはり上総介様こそが天下人でございます」</FlavourText>
+    <Ability>【自】チェンジ［(2)このカードを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“慟哭スル魂”織田信長」を1枚選び、このカードがいた枠に置く。（アンコールステップの始めにこのカードがいないなら発動しない）</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE20-30</ID>
+    <Name>言い忘れたこと</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcsakuraext/10060.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>義之と一緒にいると、私、落ち着くの──</FlavourText>
+    <Ability>【自】他のあなたの、《魔法》か《演劇》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>THEATER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

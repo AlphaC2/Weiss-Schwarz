@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-053</ID>
+    <Name>“西海の鬼”長曾我部</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10074.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>鬼の力、見せてやるぜ</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「鬼ヶ島の鬼」があるなら、あなたは自分の山札を見て《眼帯》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。【自】チェンジ［(2)このカードを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“天衣無縫”長曾我部元親」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

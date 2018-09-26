@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-T15</ID>
+    <Name>“廃品回収の日々”レイ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10015.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>希望を持つことをあきらめないで</FlavourText>
+    <Ability>【自】他のあなたの《フォースの覚醒》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

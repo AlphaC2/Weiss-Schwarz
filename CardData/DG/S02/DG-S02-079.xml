@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-079</ID>
+    <Name>“ピンポンダッシュ”アクターレ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10093.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>嵐のようなピンポンダッシュとイタズラ電話で眠れなくしてやる！</FlavourText>
+    <Ability>【起】［(1)このカードを控え室に置く］相手は自分の控え室のカードすべてを、山札に戻す。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>DARK_HERO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

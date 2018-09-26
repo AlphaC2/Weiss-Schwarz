@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-016</ID>
+    <Name>王を抱くシルバー・クロウ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10016.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ずっと、ずっと、僕の傍に居てください。それだけが……僕の望みです</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋3000。【自】このカードが手札から舞台に置かれた時か「辛辣な忠告メタトロン」の【起】の効果で舞台に置かれた時、あなたは自分の控え室の「辛辣な忠告メタトロン」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】あなたのクライマックス置場に「二人の飛翔」が置かれた時、前列に、他のあなたの「《黒き死の睡蓮》ブラック・ロータス」とこのカードがいるなら、あなたは相手のキャラを1枚まで選び、手札に戻し、自分の「《黒き死の睡蓮》ブラック・ロータス」を1枚とこのカードを選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>AVATAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

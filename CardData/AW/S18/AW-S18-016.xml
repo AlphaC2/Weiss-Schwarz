@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-016</ID>
+    <Name>翼を求めた少年</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>僕も連れて行ってよ！ そこに行きたいんだ！もっと高く。もっと遠く！</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたのカード名に「黒雪姫」を含むキャラすべてに、そのターン中、パワーを＋500。【自】絆／「黄昏時の約束黒雪姫」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「黄昏時の約束黒雪姫」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

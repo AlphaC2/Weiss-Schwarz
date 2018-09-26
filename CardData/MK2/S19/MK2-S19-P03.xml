@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-P03</ID>
+    <Name>怪盗を追う二人</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10148.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シャロ「必ず捕まえてみせます！」小衣「覚悟よ、アルセーヌ！」</FlavourText>
+    <Ability>【自】あなたのキャラのトリガーチェックで「怪盗を追う二人シャロ＆小衣」がでた時、そのターン中、このカードは次の能力を得る。『【自】このカードが【リバース】した時、あなたはこのカードのバトル相手を【リバース】してよい。』</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>POLICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

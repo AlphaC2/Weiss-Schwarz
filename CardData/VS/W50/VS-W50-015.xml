@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-015</ID>
+    <Name>ハリー・トライベッカ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10043.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>晩飯かけるか？オレはヴィヴィのＫ．Ｏ．勝ちだ</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの《格闘》のキャラ1枚につき、このカードのパワーを＋1000。【自】［手札の《格闘》のキャラを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「エルス・タスミン」を1枚選び、舞台の好きな枠に置く。【自】他のあなたの《格闘》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>DELINQUENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

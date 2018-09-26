@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-059</ID>
+    <Name>ミスター・プレアデス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>7人の女神の祝福により、我、400光年の彼方よりここに降臨。アイアム――ミスター・プレアデス！</FlavourText>
+    <Ability>【起】［(1)］そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

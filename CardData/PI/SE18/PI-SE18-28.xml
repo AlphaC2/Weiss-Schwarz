@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-28</ID>
+    <Name>導かれた運命</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10055.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>乗って！！</FlavourText>
+    <Ability>【起】［手札の《魔法》のキャラを1枚控え室に置く］あなたは自分の山札の上から1枚を公開する。そのカードのレベルが0以下なら、そのターン中、このカードは次の能力を得る。『【永】このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』（クライマックスのレベルは0として扱う。公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

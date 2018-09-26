@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-T14</ID>
+    <Name>“歩き出す運命”ルーラー</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10014.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>この戦いの規律を守る義務があります</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分の、《マスター》か《サーヴァント》か《ホムンクルス》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、《マスター》か《サーヴァント》か《ホムンクルス》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>FLAG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

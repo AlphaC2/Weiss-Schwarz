@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-030</ID>
+    <Name>温泉の鶴屋さん</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>笑いが止まんないねっ</FlavourText>
+    <Ability>【起】集中［(2)］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは相手のキャラを1枚選び、そのターン中、パワーを-2000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FOREHEAD</Trait>
+        <Trait>DOUBLE_TOOTH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-15</ID>
+    <Name>『鬼功の繰り手』サーレ・ハビヒツブルグ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10029.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうなってんだ、こりゃ</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、あなたは自分の《炎》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>RELICS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

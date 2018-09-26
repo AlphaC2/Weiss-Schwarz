@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RG-W10-047</ID>
+    <Name>幻想猛獣</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10077.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>9</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>木山「あれは１万人の子供達の思念の塊だ」</FlavourText>
+    <Ability>あなたは相手の前列のレベル2以下のキャラを2枚まで選び、クロック置場に置く。</Ability>
+</Card>

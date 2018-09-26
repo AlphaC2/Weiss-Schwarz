@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-020</ID>
+    <Name>ジオフォートの守護者</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ようこそマスター、私の名はゼナス。この城の管理者だ</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、手札に戻す。そうしたら、あなたは自分の手札のレベル2以下でコスト2以下のキャラを1枚まで選び、舞台の好きな枠に置く。</Ability>
+</Card>

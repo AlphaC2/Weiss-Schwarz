@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-083</ID>
+    <Name>神代の魔女キャスター</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10098.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そろそろ終わりにしましょう</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《先生》のキャラすべてに、パワーを＋1000。【自】［(2)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「小次郎」を含むキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

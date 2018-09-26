@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-106</ID>
+    <Name>“MILKY</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10137.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたのキャラがいないなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋X。Xは相手のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

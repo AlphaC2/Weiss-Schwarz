@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-WE13-T14</ID>
+    <Name>聖国のルイズ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zmf/10015.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やっぱりサイトってば、私のこと、大好きでしょうがないんだわ</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>VOID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

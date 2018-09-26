@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-094</ID>
+    <Name>羽川翼</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10132.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>阿良々木くんの癖に、生意気だぞ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。【永】経験あなたのレベル置場のカードのレベルの合計が4以上なら、このカードは次の能力を得る。『【永】相手のターン中、他のあなたの《怪異》のキャラすべてに、パワーを＋500。』</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>CHAIRMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-044</ID>
+    <Name>すべてはあたしのモノ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたしのスイーツを奪うやつはブッ殺す！！</FlavourText>
+    <Ability>あなたは相手の控え室のクライマックスを1枚選び、山札に戻す。そうしたら、その山札をシャッフルし、あなたは自分の山札の上から2枚を、ストック置場に置く。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-036</ID>
+    <Name>朝が苦手</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたのカード名に「火憐」か「月火」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>BLOOD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

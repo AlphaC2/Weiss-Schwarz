@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-091</ID>
+    <Name>“戯睡郷”メア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>言ったでしょう。この世界では私の思い通りになる</FlavourText>
+    <Ability>【自】アラームこのカードがクロックの1番上にあるなら、あなたか相手のクライマックス置場にクライマックスが置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>NOBLE_PHANTASM</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

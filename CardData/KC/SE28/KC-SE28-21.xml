@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-21</ID>
+    <Name>港湾棲姫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10041.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>クルナ…ト……イッテイル…ノニ…</FlavourText>
+    <Ability>【永】あなたのクロックが1枚以下なら、このカードはアタックできない。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>PRINCESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

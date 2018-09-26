@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-070</ID>
+    <Name>乱暴な召喚</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……信じがたいが、君は本当に私のマスターらしいな</FlavourText>
+    <Ability>あなたは自分の控え室の「凛＆アーチャー」を1枚選び、舞台の好きな枠に置く。あなたは自分の手札を1枚選び、控え室に置く。</Ability>
+</Card>

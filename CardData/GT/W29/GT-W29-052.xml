@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-052</ID>
+    <Name>太陽の力</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>これが…太陽の力…</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋4000。【自】このカードが手札から舞台に置かれた時か「新人隊員あかり」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードがアタックした時、クライマックス置場に「クレシドラ」があるなら、あなたは自分の控え室の「太陽ひなた」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

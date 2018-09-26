@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-020</ID>
+    <Name>ジューンブライド</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お試しでも着てみると、何だろうこれ、恥ずかしいというか、むず痒いというか…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している黄のキャラを1枚選び、【レスト】する。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>DRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

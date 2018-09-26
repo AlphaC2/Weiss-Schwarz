@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-06</ID>
+    <Name>やまとなでしこ</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】あなたのクライマックスフェイズの始めに、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>POLICE</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

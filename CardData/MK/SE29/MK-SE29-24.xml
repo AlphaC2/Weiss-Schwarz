@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-SE29-24</ID>
+    <Name>消えた探偵服</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10047.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ストーンリバー「こ!!これは!!エルキュールの…!ー」</FlavourText>
+    <Ability>このカードを思い出にする。【自】記憶あなたがレベルアップした時、思い出置場にこのカードがあるなら、あなたは自分の控え室の《探偵》のキャラを2枚まで選び、ストック置場に好きな順番で置き、このカードをストック置場に置く。</Ability>
+</Card>

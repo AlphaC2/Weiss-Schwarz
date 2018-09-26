@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-068</ID>
+    <Name>“仲良し?三姉妹”モモ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私も…</FlavourText>
+    <Ability>【自】共鳴［手札の「“お座り”ララ」を1枚公開する］あなたのクライマックスフェイズの始めに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、他のあなたのキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

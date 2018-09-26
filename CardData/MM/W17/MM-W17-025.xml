@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W17-025</ID>
+    <Name>隠された思い</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magica/10050.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>本当の気持ちなんて、伝わるわけないのよ</FlavourText>
+    <Ability>【永】このカードは、あなたの《魔法》のキャラが2枚以下なら、手札からプレイできない。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-001</ID>
+    <Name>“笑顔のマジック”松原花音</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10013.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そうやって考えられるようになったのはハロハピに入って少しは成長したからかな？</FlavourText>
+    <Ability>【永】他のあなたの黄のキャラすべてに、パワーを＋500。【自】他のあなたの黄のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

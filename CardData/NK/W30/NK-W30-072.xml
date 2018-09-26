@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NK-W30-072</ID>
+    <Name>あなたのためなら…</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10100.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>万里花「私は楽様のためなら、どんな風にも変われます……！」</FlavourText>
+    <Ability>相手に5ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+</Card>

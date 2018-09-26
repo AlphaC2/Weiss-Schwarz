@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-036</ID>
+    <Name>“英霊”ライダー</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あなた始めから、私に捕らわれているのですから</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは相手のレベル2以下のキャラを1枚選び、控え室に置いてよい。そうしたら、相手は自分の控え室のレベル0以下のキャラを1枚まで選び、そのキャラがいた枠に置く。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「放課後に踊る」があるなら、あなたはそのキャラをクロック置場に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

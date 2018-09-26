@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-029</ID>
+    <Name>休日の戦場ヶ原ひたぎ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>阿良々木くんが腰の形で女子を区別できるのと、同じようなものと考えてくれていいわ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードが《怪異》のキャラでないなら、あなたは自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>ODDITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-10</ID>
+    <Name>覚醒天使</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10019.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>悪がはびこる魔界の大地に儚く咲いた一輪の花！覚醒天使ピュアフロンー</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、他のあなたの、《悪魔》か《天使》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《悪魔》か《天使》のキャラを1枚まで選んで相手に見せ、手札に加える。残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ANGEL</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

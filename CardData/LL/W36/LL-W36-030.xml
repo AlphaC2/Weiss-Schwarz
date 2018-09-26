@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LL-W36-030</ID>
+    <Name>新年のおまじない</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10070.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>空気が乾燥すると、手先がピリピリしてくるよね。新しいハンドクリーム、一緒に買いに行こ♪</FlavourText>
+    <Ability>あなたは自分の山札の上から1枚を公開する。そのカードがカード名に「希」を含むキャラなら、あなたは相手のキャラを1枚選び、そのターン中、パワーを-6000。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-055</ID>
+    <Name>諦めた夢</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もう、いいんです。もう、僕の夢は終わったんで</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「父親との軋轢」があるなら、そのターン中、このカードのパワーを＋X。Xは他のあなたの、《科学》かカード名に「宏武」を含むキャラの枚数×1000に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

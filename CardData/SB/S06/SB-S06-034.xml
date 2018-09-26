@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-034</ID>
+    <Name>“究極のめし”まつ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まつにござりまする。よしなに</FlavourText>
+    <Ability>【自】チェンジ［(1)このカードを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“豪放磊落”前田利家」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>BENTO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

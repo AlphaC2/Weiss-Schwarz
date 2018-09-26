@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-008</ID>
+    <Name>気まぐれ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10032.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ぐぐー♪</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《ぷよ》のキャラすべてに、パワーを＋1000し、次の能力を与える。『【永】このカードは相手の効果に選ばれない。』</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>MYSTERY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-46</ID>
+    <Name>六道</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10101.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いつまで逃げ切れるかな</FlavourText>
+    <Ability>【永】あなたはイベントと『助太刀』を手札からプレイできない。【永】他のあなたの前列の「六道鯖人」1枚につき、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>SHINIGAMI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-063</ID>
+    <Name>天元突破グレンラガン</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>俺たちを！！誰だと思っていやがる！！！！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室のカードを4枚まで選び、このカードの下にマーカーとして好きな順番で表向きに置く。【自】【CXコンボ】あなたのクライマックス置場に「俺のドリルは！天を創るドリルだァ！！！！」が置かれた時、他のあなたのキャラがいないなら、そのターン中、このカードは次の能力を得る。『【自】分離／「超銀河グレンラガン」［(2)手札を4枚控え室に置く］』（このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、あなたはこのカードのマーカーの「超銀河グレンラガン」を1枚選び、舞台の好きな枠に置き、このカードの下のマーカーすべてとこのカードを、そのキャラの下にマーカーとして好きな順番で表向きに置く）</Ability>
+    <Character>
+        <Power>11500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-020</ID>
+    <Name>ミツルギ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うおおおおおーーー!!</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋3000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「“クエストクリア”アクア」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】このカードのバトル相手が【リバース】した時、あなたは他の自分の、《冒険者》か《女神》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-008</ID>
+    <Name>新入部員歓迎会</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10034.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それじゃ、新入部員のスバルとジュンを歓迎して、かんぱーい♪</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。【起】［あなたのキャラを1枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

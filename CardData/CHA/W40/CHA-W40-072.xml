@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>CHA-W40-072</ID>
+    <Name>おまじないシリーズ13『仲直りのおまじない</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なっかなっおり！なっかなっおり！</FlavourText>
+    <Ability>あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-076</ID>
+    <Name>頼れる助っ人</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10076.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>随分な気合の入れようね</FlavourText>
+    <Ability>【永】他のあなたの、《アバター》か《ネット》のキャラ1枚につき、このカードのパワーを＋500。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「信頼の射撃」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《アバター》か《ネット》のキャラなら手札に加える。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

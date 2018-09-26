@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE01-05</ID>
+    <Name>堂島</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/p4ext/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>とちゅうまで、おんなじ道だから…いっしょに行こ</FlavourText>
+    <Ability>【自】絆／「主人公（Ｐ４）」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「主人公（Ｐ４）」を1枚選び、手札に戻す）【起】［(1)このカードを【レスト】する］あなたは自分の、《勇者》かカード名に「主人公」を含むキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TELEVISION</Trait>
+        <Trait>JUNES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

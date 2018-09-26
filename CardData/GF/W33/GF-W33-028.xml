@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-028</ID>
+    <Name>ファッションショー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10054.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うっわぁ、これはどうなのかなぁ…ちょっとこれ、あたしには可愛すぎない？</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「エール」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードがレベル1以上のキャラなら手札に加える。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

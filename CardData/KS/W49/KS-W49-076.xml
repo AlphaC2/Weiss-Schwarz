@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-076</ID>
+    <Name>“優しい微笑み”エリス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10102.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】あなたのクライマックス置場に「蘇生」が置かれた時、前列にこのカードがいて、他のあなたの《女神》のキャラがいるなら、あなたは自分の控え室のコスト0以下の、《冒険者》か《女神》のキャラを1枚選び、舞台の好きな枠に置いてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

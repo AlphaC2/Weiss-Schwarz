@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-018</ID>
+    <Name>「鉄の牙」副団長</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10051.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ねぇねぇお嬢お嬢、ミミもっと食べたい。頼んでいーい？</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】絆／「「鉄の牙」副団長ヘータロー」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「「鉄の牙」副団長ヘータロー」を1枚選び、手札に戻す）【自】共鳴［手札の「「鉄の牙」副団長ヘータロー」を1枚公開する］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋6000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BEASTMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-020</ID>
+    <Name>“風王結界”セイバー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よもや私の剣が鈍るものと期待してはいるまいな</FlavourText>
+    <Ability>【自】［手札のクライマックスを好きな枚数公開する］このカードのバトル中、あなたのバトルステップの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋X。Xは公開されたカードの枚数×1000に等しい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W28-015</ID>
+    <Name>“たべちゃうぞ?”穂乃果</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif/10015.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>がおー！たべちゃうぞー！？</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

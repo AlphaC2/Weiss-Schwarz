@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-027</ID>
+    <Name>“親愛なる探求者”ルチア</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10032.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私の手を取ってくれたのは、瑚太朗…お前だ</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1500。【自】このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《オカルト》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

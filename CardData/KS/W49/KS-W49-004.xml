@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-004</ID>
+    <Name>“羞恥責め”ダクネス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>こ、こういう責めは、私の望むタイプの羞恥責めとは違うかりゃっ……！</FlavourText>
+    <Ability>【自】［(1)手札を2枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《煩悩》か《盗賊》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。【自】このカードがアタックした時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのソウルを＋2。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WORRRIES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

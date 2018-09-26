@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-S06-072</ID>
+    <Name>傾奇者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>慶次「恋もケンカも押しの一手よ！」</FlavourText>
+    <Ability>あなたの《武器》のキャラすべてに、そのターン中、パワーを＋1500。</Ability>
+</Card>

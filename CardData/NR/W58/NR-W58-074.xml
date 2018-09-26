@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-074</ID>
+    <Name>本気の構え</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10075.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>無理だね！なぜならここでボクがキミをブチころがすからだ！</FlavourText>
+    <Ability>【永】他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】【CXコンボ】あなたのクライマックス置場に「王と臣下」が置かれた時、前列にこのカードがいるなら、あなたは他の自分のカード名に「ディアーチェ」か「シュテル」か「レヴィ」か「ユーリ」を含むキャラを1枚とこのカードを選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

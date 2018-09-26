@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-T09</ID>
+    <Name>私服のちはや</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10010.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わ、悪いには悪いですけど、こういうときに手を差し伸べてくれてもいいと思います…</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-077</ID>
+    <Name>“未知数の存在”氷川日菜</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ぶー!はずれー!正解は、彩ちゃんの真似でしたー</FlavourText>
+    <Ability>【永】あなたの舞台のキャラの持つ色の合計が4色以上なら、このカードのパワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードが手札から舞台に置かれた時、あなたの舞台のキャラの持つ色の合計が4色以上なら、あなたは自分の控え室の《音楽》のキャラを1枚選び、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

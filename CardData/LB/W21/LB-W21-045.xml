@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-045</ID>
+    <Name>“本当の願い”美鳥</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>その青は、どこからくるんだろうね…</FlavourText>
+    <Ability>【自】［(2)このカードを思い出にする］このカードが手札から舞台に置かれた時、あなたの山札が5枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを山札に戻し、自分の山札を見て「“ふたりはひとつ”美魚」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>SHADOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

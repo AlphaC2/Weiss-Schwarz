@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-060</ID>
+    <Name>ルーテシア・アルピーノ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>さーもうすぐ始めるからねー</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはあなたの『応援』を持つキャラの枚数×1000に等しい。【起】［(2)このカードを【レスト】する］あなたは自分のクロックの上から1枚を、控え室に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

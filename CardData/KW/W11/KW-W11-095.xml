@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KW-W11-095</ID>
+    <Name>凄惨なニュース</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10132.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うそですよね…リキ…そんなことって</FlavourText>
+    <Ability>このカードは、あなたの《科学》のキャラが2枚以下なら、手札からプレイできない。あなたは相手のコスト1以下のキャラを1枚選び、山札の下に置く。このカードを思い出にする。</Ability>
+</Card>

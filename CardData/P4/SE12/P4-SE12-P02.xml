@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-P02</ID>
+    <Name>“魔女探偵ラブリーン”菜々子</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10097.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>魔女犬「蜂の巣にされたいか！」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DETECTIVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

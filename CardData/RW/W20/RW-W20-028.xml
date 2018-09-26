@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-028</ID>
+    <Name>“旅立ちの日”ルチア</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10033.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>此花ルチアは永遠に、天王寺瑚太朗のものだって。……その印を付けて</FlavourText>
+    <Ability>【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「アカリの決意」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋3500し、ターンの終わりに、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>CLONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

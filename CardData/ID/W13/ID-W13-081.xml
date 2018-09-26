@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W13-081</ID>
+    <Name>いつも賑やか</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10115.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんだか美味しそうな匂いがするんだよ！とうま！</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「大した事ない？」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500し、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

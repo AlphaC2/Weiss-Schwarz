@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-031</ID>
+    <Name>シャナ&amp;アラストール</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>アラストール「シャナ…お前の道は、お前が選べ…」シャナ「……うん…」</FlavourText>
+    <Ability>【永】他のあなたの《炎》のキャラすべてに、パワーを＋500。【起】［あなたのキャラを2枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードのバトル相手でレベル1以上のキャラが【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

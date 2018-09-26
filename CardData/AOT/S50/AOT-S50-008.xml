@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-008</ID>
+    <Name>“一筋の光”エレン巨人</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10008.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>てめえはこの世にいちゃいけない奴だ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターンの次のターンの終わりまで、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。』【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「“紅蓮の闘志”エレン」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】［(1)このカードを控え室に置く］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のこのカードのマーカーだったカードを1枚選び、舞台の好きな枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>TITAN</Trait>
+        <Trait>CORPS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-013</ID>
+    <Name>マズ・カナタ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10036.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>長生きをすると、人は違っても同じ目をしてるのに出会うことがあるのさ</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの《フォースの覚醒》のキャラすべてに、パワーを＋500。【自】［手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「Lightsaber」を1枚選び、手札に戻す。【自】この能力は1ターンにつき1回まで発動する。あなたがイベントをプレイした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

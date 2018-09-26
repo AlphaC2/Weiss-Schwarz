@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-046</ID>
+    <Name>凶育委員会の陰謀</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何者ざます！？　いまから大事な改造手術を始めるところなのに</FlavourText>
+    <Ability>あなたは自分のキャラを2枚選び【レスト】する。2枚【レスト】したなら、あなたのキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+</Card>

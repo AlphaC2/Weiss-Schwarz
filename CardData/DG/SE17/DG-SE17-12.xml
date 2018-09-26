@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-12</ID>
+    <Name>プリニガーX</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10023.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>エトナ「戦いを極め、自我を捨て去ったプリニーが変形合体したと言われる伝説の姿！それが、プリニガーＸよ！」</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1500。【永】大活躍(相手がアタックする時、【リバース】していないこのカードが前列の中央の枠にいるなら、かわりに相手はこのカードにフロントアタックする)【起】［他のあなたの舞台の《プリニー》のキャラを1枚このカードの下にマーカーとして裏向きに置く］そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>PRINNY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

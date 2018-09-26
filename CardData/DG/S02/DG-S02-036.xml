@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-036</ID>
+    <Name>“愛マニア”フロン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10043.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>大丈夫！　友情パワーは勝利の源です！</FlavourText>
+    <Ability>【永】他のあなたの、《愛》かカード名に「愛」を含むキャラすべてに、パワーを＋1000。【自】あなたのクライマックス置場に「悪魔にも愛を」が置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>ANGEL</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

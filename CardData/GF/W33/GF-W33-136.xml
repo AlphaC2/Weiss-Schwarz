@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-136</ID>
+    <Name>隣の織姫</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10162.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>こんなに晴れて、星が綺麗で…天の川までよく見えますよ</FlavourText>
+    <Ability>【自】チェンジ［(2)このカードを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「彼女の日常椎名心実」を1枚選び、このカードがいた枠に置く。【起】［あなたの青のキャラを2枚【レスト】する］そのターン中、このカードはサイドアタックしてもソウルが減少しない。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

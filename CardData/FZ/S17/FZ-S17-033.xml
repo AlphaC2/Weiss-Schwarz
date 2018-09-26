@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-033</ID>
+    <Name>ケイネス・エルメロイ・アーチボルト</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ご客人にはケイネス・エルメロイの魔術工房をとっくり堪能してもらおうではないか</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［あなたのキャラを2枚【レスト】する］あなたは自分のカード名に「ランサー」を含むキャラを1枚選び、そのターン中、パワーを＋1500し、次の能力を与える。『【永】このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはアタックできない。』</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>ALCHEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-030</ID>
+    <Name>水着の小咲</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10058.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私、カナヅチなのにー</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《鍵》のキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【起】［あなたのキャラを2枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】記憶このカードのバトル相手が【リバース】した時、あなたの思い出置場に「約束のペンダント」があるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

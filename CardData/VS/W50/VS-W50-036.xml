@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-036</ID>
+    <Name>必殺の打撃</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10064.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>こういう時のための一撃必殺だ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《格闘》のキャラか「スターセイバー」を1枚選び、手札に戻してよい。【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「抜剣」があるなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

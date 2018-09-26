@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-084</ID>
+    <Name>“不完全な能力”高城</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この能力のおかげで何度病院送りになったことか…</FlavourText>
+    <Ability>【永】他のあなたのキャラが1枚以下なら、他のあなたのキャラすべてに、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

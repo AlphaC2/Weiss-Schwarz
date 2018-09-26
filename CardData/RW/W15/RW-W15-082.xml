@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-082</ID>
+    <Name>熟睡する小鳥</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>切らないでよぉ…</FlavourText>
+    <Ability>【永】このカードはあなたのスタンドフェイズに【スタンド】しない。【永】相手のターン中、他のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

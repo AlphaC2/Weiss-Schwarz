@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE05-21</ID>
+    <Name>玖我</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext2.0/10025.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>警察など、何も出来ないさ。この学園の裏に蠢く力の前にはな……</FlavourText>
+    <Ability>【永】他のあなたの「藤乃静留」がいないなら、このカードはアタックできない。【自】このカードがアタックした時、あなたの《エレメント》のキャラすべてに、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ELEMENT</Trait>
+        <Trait>BIKE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

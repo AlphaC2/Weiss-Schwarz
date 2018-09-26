@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>CHA-W40-022</ID>
+    <Name>山中のバーベキュー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>スペアリブうっま！</FlavourText>
+    <Ability>【カウンター】あなたは自分の《能力者》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-35</ID>
+    <Name>輸送ワ級</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10069.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《深海棲艦》なら、このカードのパワーを＋1000。【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>SUPPLY_SHIP</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

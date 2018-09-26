@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE29-21</ID>
+    <Name>降参?</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext2.0/10041.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まーちゃんにまで負けるなんてー</FlavourText>
+    <Ability>【永】他のあなたの前列の「降参?華凛」1枚につき、このカードのパワーを＋2000。【永】このカードの下にマーカーがあるなら、他のあなたの「降参?華凛」すべてに、パワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《定理者》か《使者》のキャラならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>FOREIGNER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

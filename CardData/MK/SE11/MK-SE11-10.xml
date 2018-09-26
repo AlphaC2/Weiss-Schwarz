@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-10</ID>
+    <Name>お願いするエリー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10020.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あの…みんなでお願いしてみたら…</FlavourText>
+    <Ability>【自】他のあなたのバトル中の《探偵》のキャラが【リバース】した時、あなたのクライマックス置場に「棺桶の恐怖」があり、前列にこのカードがいるなら、あなたはそのキャラを【レスト】し、そのターン中、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

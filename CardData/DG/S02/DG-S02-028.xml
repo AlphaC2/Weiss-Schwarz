@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-028</ID>
+    <Name>幼少エトナ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10034.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>食いモンが欲しけりゃ、自分で奪ってきな。それが魔界のルールってヤツよ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、レベルを＋1。【起】［このカードを【レスト】する］あなたは自分のカード名に「魔王」を含むキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

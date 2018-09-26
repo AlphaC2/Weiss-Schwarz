@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-086</ID>
+    <Name>陰謀の黒幕</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10112.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>今回はたまたま、君たちの行動がうまく行ったけど、毎回、そうなるとは限らない</FlavourText>
+    <Ability>【永】他のあなたのカード名に「みさ希」を含むキャラがいるなら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>DEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

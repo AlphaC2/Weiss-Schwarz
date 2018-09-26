@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-T09</ID>
+    <Name>カリスマJK</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>聞いたよ、ＣＤデビュー決まったんだってね</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GYARU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

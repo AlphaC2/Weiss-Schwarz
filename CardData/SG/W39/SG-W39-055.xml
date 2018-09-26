@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-055</ID>
+    <Name>強さを求める</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10064.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>強くなりたい…</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。【起】［あなたの《音楽》のキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-017</ID>
+    <Name>がんばりすぎのみくる&amp;キョン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キョン｢あのうかつで愛らしい方は、なかなかドアに施錠することを覚えないからなぁ」</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>TIME</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

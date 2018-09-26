@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-034</ID>
+    <Name>“プレゼント交換”チノ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10067.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ばっちりです</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《ラビットハウス》なら、このカードのパワーを＋1000。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「寝言むにゃむにゃ」があるなら、あなたは自分の山札を見て《ラビットハウス》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>COFFEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

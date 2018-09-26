@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-016</ID>
+    <Name>無邪気な少女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、あった！ イリヤも１個みーつけたっ！</FlavourText>
+    <Ability>【永】他のあなたの、《マスター》か《ホムンクルス》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>HOMUNCULUS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

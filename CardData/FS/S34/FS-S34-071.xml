@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S34-071</ID>
+    <Name>父の形見</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そうだ、ペンダント</FlavourText>
+    <Ability>あなたは自分の控え室の《宝石》のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。</Ability>
+</Card>

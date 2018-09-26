@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GL-S52-056</ID>
+    <Name>それを…待っていた!!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10082.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シモン！受け取れェェエ！！</FlavourText>
+    <Ability>【カウンター】あなたのクロックが4枚以上なら、あなたは自分の手札の《大グレン団》のキャラを2枚選び、控え室に置いてよい。そうしたら、以下の効果を好きな順番で1回ずつ行う。『あなたはバトル中のレベル3のキャラを1枚選び、そのターン中、ソウルを-3。』『あなたは自分の控え室の「ギガドリルブレイク」を1枚選び、手札に戻す。』『あなたは自分の山札の上から2枚までを、ストック置場に置く。』</Ability>
+</Card>

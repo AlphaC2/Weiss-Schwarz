@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-044</ID>
+    <Name>形式番号XMH_008</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>剣は剣でも私の剣は剣殺し…</FlavourText>
+    <Ability>【永】他のあなたの《錬金術》のキャラすべてに、パワーを＋1000。【自】このカードが手札から舞台に置かれた時、他のあなたの《錬金術》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>ALCHEMY</Trait>
+        <Trait>DOLL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

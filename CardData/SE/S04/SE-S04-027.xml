@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-027</ID>
+    <Name>迷子のファークリン</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ボク……もう、帰りたいな。あんなコワいめにもあったし……</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「ファークリンの自己紹介」があるなら、そのターン中、このカードは次の能力を得る。『【自】アンコールステップの始めに、あなたはこのカードを【レスト】して舞台の好きな枠に動かす。』</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

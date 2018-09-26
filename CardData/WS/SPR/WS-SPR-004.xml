@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>WS-SPR-004</ID>
+    <Name>安城トコハ役</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10054.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今度は私と必ず勝負してもらうからね！</FlavourText>
+    <Ability>【永】他のあなたの《ネオネクタール》のヴァンガードがいるなら、このカードのパワーを＋5000。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>CARD_GAME</Trait>
+        <Trait>VANGUARD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

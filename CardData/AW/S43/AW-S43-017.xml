@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-017</ID>
+    <Name>辛辣な忠告</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今のお前たちの実力ではビーイングニュクスを倒すなどまったくもって不可能！無謀！ナンセンス！</FlavourText>
+    <Ability>【永】あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［(1)このカードを控え室に置く］あなたは自分の控え室の「王を抱くシルバー・クロウ」を1枚選び、このカードがいた枠に置く。』【永】他のあなたの、《アバター》か《ネット》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>BEING</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

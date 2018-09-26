@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-061</ID>
+    <Name>少年ケルブレム</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>きみは自由だ</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻し、それらの山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>DEMON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

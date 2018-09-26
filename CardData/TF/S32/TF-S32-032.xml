@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-032</ID>
+    <Name>“アネックス1号の乗組員”マルコス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いけなくないと思います先生！</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋4000。【自】このカードがアタックした時、クライマックス置場に「ANIMA憧れ」があり、他のあなたのカード名に「アレックス」を含むキャラがいるなら、あなたは自分の思い出置場の「“太陽のような明るさ”シーラ」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

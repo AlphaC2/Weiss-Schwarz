@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-080</ID>
+    <Name>グレイの師匠</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10115.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おまえの闇は私が封じよう</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの《氷》のキャラが2枚以上なら、あなたは自分の控え室の「グレイの師匠ウル」を1枚選び、思い出にしてよい。【起】【カウンター】助太刀2000レベル1［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

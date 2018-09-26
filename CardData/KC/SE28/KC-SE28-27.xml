@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-27</ID>
+    <Name>最終形態</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10053.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サセヌ…サセヌワ…！</FlavourText>
+    <Ability>【永】他のあなたの《深海棲艦》のキャラ1枚につき、このカードのパワーを＋500。【自】バトル中のこのカードが【リバース】した時、そのターン中、あなたは『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>ONI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

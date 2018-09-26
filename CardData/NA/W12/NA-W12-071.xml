@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-071</ID>
+    <Name>はやてからの贈り物</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…………………（記号：ハート）</FlavourText>
+    <Ability>あなたは自分の控え室のカード名に「ヴィータ」を含むキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。</Ability>
+</Card>

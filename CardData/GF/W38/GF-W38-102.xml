@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-102</ID>
+    <Name>笑顔の記録</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>は〜い、ちょっとこっち向いて下さいね〜みんなで記念撮影を一枚。 はい、笑顔で〜</FlavourText>
+    <Ability>【起】［(1)］そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

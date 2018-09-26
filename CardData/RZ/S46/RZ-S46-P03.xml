@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-P03</ID>
+    <Name>恩返しの気持ち</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10033.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だ、だって、スバルの体が治らないのは私のせいでもあるもん。だから、これは恩返しっていうか、損失に対する正当な補填なの</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。【自】このカードがアタックした時、他のあなたの【スタンド】しているキャラすべてを、【レスト】する。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENTAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

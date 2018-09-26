@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-084</ID>
+    <Name>“魔術師”黒のキャスター</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10112.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>――我らに楽園を与え給え</FlavourText>
+    <Ability>【永】他のあなたの、《マスター》か《サーヴァント》かカード名に「叡智」を含むキャラすべてに、パワーを＋500。【自】［このカードをバトル中のキャラの下にマーカーとして表向きに置く］他のあなたのバトル中の「王冠：叡智の光」が【リバース】した時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを【レスト】する。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

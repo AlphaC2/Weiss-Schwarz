@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W13-124</ID>
+    <Name>賑やかな昼餐</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10157.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ナットーでもクサヤでも何でも来いって感じだよ！</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを-1。【永】他のあなたの、《魔法》かカード名に「当麻」を含むキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

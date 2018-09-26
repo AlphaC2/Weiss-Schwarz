@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-077</ID>
+    <Name>キャットイヤーのシリル</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……にゃん</FlavourText>
+    <Ability>【自】［(3)］このカードがアタックした時、クライマックス置場に「シリルの真実」があり、あなたのレベル2以上の《武器》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを2枚まで選び、控え室に置く。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

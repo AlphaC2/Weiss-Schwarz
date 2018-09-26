@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-055</ID>
+    <Name>もう一人の“西園美魚”美鳥</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>へぇ？　言い切れるのかなぁ？忘れちゃったくせに。これがなければ、思い出せなかった</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>SHADOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W45-062</ID>
+    <Name>ヨキソバ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10100.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はい！ヨキソバ!!</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。あなたは自分の山札の上から1枚を控え室に置く。そのカードのレベルが1以上なら、相手に5ダメージを与える。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）</Ability>
+</Card>

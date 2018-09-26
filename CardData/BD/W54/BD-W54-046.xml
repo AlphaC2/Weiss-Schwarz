@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-046</ID>
+    <Name>素直じゃないヤツ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>巴「しかし、あれだな。そんなに素直になられたらアタシの役目がなくなっちまうな」</FlavourText>
+    <Ability>このカードは、あなたの《Afterglow》のキャラがいないなら、手札からプレイできない。あなたは自分のクロックを1枚選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-006</ID>
+    <Name>変わった“トーチ”悠二</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>じゃあ、君はシャナだ…。ボクは今からそう呼ぶ！</FlavourText>
+    <Ability>【永】他のあなたの《炎》のキャラが2枚以上なら、あなたは相手のキャラの【自】の効果によるダメージを受けない。【永】応援このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>NOBLE_PHANTASM</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

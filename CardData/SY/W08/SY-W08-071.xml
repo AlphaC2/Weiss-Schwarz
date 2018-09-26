@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-071</ID>
+    <Name>色褪せた世界</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10100.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>みんながみんなやってる普通の日常なんだと思うと、途端になにもかもがつまらなくなった</FlavourText>
+    <Ability>あなたは自分のレベル1以上のキャラを1枚選び、控え室に置いてよい。そうしたら、あなたは自分の控え室のレベル0以下の《団長》のキャラを1枚まで選び、舞台の好きな枠に置き、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

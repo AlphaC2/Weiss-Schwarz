@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC3-W18-T08</ID>
+    <Name>はじめまして、るる姉。</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10010.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>弟が出来るのは嬉しいなって、それだったら行っても良いかなって思って、だから、その……そういう感じのがいいかなあ、なんて……</FlavourText>
+    <Ability>あなたは自分の控え室のレベル2以上のキャラを1枚選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-034</ID>
+    <Name>グリーン・グランデ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10034.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>パーセク・ウォール</FlavourText>
+    <Ability>【永】他のあなたの、《アバター》か《ネット》のキャラが3枚以上なら、このカードのパワーを＋2000。【起】［あなたのキャラを2枚【レスト】する］そのターン中、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>SHIELD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

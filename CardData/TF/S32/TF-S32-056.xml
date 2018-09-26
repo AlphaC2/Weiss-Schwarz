@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-056</ID>
+    <Name>“頼もしい乗組員”膝丸</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>助けに来たぜ</FlavourText>
+    <Ability>【自】他のあなたの《改造》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【自】相手の【スタンド】しているキャラが【レスト】した時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

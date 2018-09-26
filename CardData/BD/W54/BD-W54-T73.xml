@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-T73</ID>
+    <Name>レペゼン・ハロハピ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10365.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えーっと……ミ、ミッシェルは、ダンスは苦手なんだよー！ごめんねー！</FlavourText>
+    <Ability>このカードは、あなたの《ハロー、ハッピーワールド！》のキャラがいないなら、手札からプレイできない。以下の効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を見て《ハロー、ハッピーワールド！》のキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。』『あなたは自分の控え室の「ミッシェルシール」を1枚選び、手札に戻す。』</Ability>
+</Card>

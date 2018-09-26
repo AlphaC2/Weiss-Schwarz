@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-022</ID>
+    <Name>ふもっふ!</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すぐすみますよ</FlavourText>
+    <Ability>あなたは相手の前列のレベル3以下のキャラを1枚選び、ストック置場に置く。</Ability>
+</Card>

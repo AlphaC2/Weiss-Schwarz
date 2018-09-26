@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-P02</ID>
+    <Name>水着のアリス</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10030.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんだか私、楽しくなってきちゃった</FlavourText>
+    <Ability>【永】他のあなたのカード名に「カズミ」を含むキャラがいるなら、他のあなたの前列の中央の枠のキャラに、パワーを＋1500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

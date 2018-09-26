@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-006</ID>
+    <Name>士郎&amp;セイバー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シロウ、手を―――！</FlavourText>
+    <Ability>【永】あなたの山札が5枚以下なら、あなたの手札のこのカードのレベルを-1。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［(1)］このカードがアタックした時、クライマックス置場に「黄金の別離」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル2以下のキャラを1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>SERVANT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

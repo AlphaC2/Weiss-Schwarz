@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-073</ID>
+    <Name>遠き日の思い出</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10103.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText/>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分の《宝石》のキャラを1枚選び、そのターン中、パワーを＋1000。【自】［(2)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

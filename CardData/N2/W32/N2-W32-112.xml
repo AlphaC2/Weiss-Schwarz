@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W32-112</ID>
+    <Name>“守護騎士”ヴィータ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm1m2/10112.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あと少しで、はやてが元気になってあたしたちのとこに帰って来るんだ</FlavourText>
+    <Ability>【永】あなたのクロックが0枚なら、このカードはアタックできない。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DOLL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

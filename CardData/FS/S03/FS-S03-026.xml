@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-026</ID>
+    <Name>マスター桜</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10030.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ライダーのマスターとして、全力で戦います</FlavourText>
+    <Ability>【永】他のあなたの《動物》のキャラすべてに、パワーを＋500。【起】集中［(1)］あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードに「ゴルゴンの末女ライダー」があるなら、あなたは自分の控え室の「ゴルゴンの末女ライダー」を1枚選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

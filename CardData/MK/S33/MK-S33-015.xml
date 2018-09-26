@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-015</ID>
+    <Name>春の通学路</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ミルキィさんだ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のカード名に「カズミ」を含むキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

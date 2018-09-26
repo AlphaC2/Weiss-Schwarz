@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W53-074</ID>
+    <Name>“MY舞☆TONIGHT”黒澤ダイヤ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>奇跡が生まれ</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「みんなと挑むステージ」があるなら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-003</ID>
+    <Name>“撃ち抜く一撃”フーカ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10031.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>思いは、拳に乗せて</FlavourText>
+    <Ability>【永】あなたの《格闘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを-1。【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1500。【自】このカードがアタックした時、あなたは自分の山札を上から1枚見てよい。そうしたら、あなたはそのカードをこのカードの下にマーカーとして裏向きに置く。【自】【CXコンボ】［(2)このカードの下のマーカーすべてを控え室に置く］このカードがアタックした時、クライマックス置場に「雨上がりの決着」があるなら、あなたはコストを払ってよい。そうしたら、X回、次の行動を行う。『相手に1ダメージを与える。』Ｘはこの能力のコストで控え室に置かれたマーカーの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-011</ID>
+    <Name>“神造兵装”セイバー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上からX枚を、控え室に置いてよい。Xはあなたのカード名に「士郎」か「セイバー」か「凛」を含むキャラの枚数に等しい。【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋X。Xはあなたのクロックの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W21-038</ID>
+    <Name>ムヒョッス、最高だぜ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恭介「可愛いぞ、理樹」</FlavourText>
+    <Ability>あなたは自分のカード名に「理樹」を含むキャラを1枚選び、控え室に置いてよい。そうしたら、あなたは自分の控え室の「“お似合いの服”理樹」を1枚選び、舞台の好きな枠に置き、あなたのキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+</Card>

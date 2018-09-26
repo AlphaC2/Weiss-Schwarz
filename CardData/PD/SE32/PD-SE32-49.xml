@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>PD-SE32-49</ID>
+    <Name>ウミユリ海底譚</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10101.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>空中散歩と四拍子　僕は僕は僕は</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。次の行動を2回行う。『あなたは自分の山札を上から4枚まで見て、《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』</Ability>
+</Card>

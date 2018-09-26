@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-052</ID>
+    <Name>new</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10147.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>待っていてくださって、ありがとうございます！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】[(3)手札の《音楽》のキャラを1枚控え室に置く］このカードがアタックした時、クライマックス置場に「できたてEvo!Revo!Generation!」があり、他のあなたの前列の、「newgenerations未央」と「newgenerations凛」がいるなら、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。このダメージがキャンセルされたなら、あなたは自分のクロックの上から3枚までを、控え室に置く。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

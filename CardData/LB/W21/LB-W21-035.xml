@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-035</ID>
+    <Name>“クドのルームメイト”佳奈多</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日中に寮長に届け出を出しておくわ</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分のカード名に「葉留佳」か「佳奈多」か「クド」を含むキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-P10</ID>
+    <Name>聖夜の輝き</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10157.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうぞ、なんなりと</FlavourText>
+    <Ability>【自】[(2)]このカードが舞台から控室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控室の&lt;鍵&gt;のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>KEY</Trait>
+        <Trait>POLICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

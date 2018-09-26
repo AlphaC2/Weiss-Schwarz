@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-103</ID>
+    <Name>ぷち美柑</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10132.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>は――っ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の、《変身》か《家事》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Trait>BACKPACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

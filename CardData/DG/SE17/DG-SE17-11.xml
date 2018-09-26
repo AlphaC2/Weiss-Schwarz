@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-11</ID>
+    <Name>“孤高の魔神”エトナ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10021.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>言ったでしょ、フロンちゃん。アタシに兄貴なんていないし、欲しいとも思わないって</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《プリニー》かカード名に「エトナ」を含むキャラなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

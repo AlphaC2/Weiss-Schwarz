@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-040</ID>
+    <Name>宇宙刑事ジャスティス・フロン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10047.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなの声が、わたしの勇気！へんしぃぃぃいいん！　ジャスティス・フロン！！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「天界からの刺客」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋1000。【起】［あなたのキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>ANGEL</Trait>
+        <Trait>POLICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-082</ID>
+    <Name>“媚び諂う”アクア</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10108.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>カズマさあああん！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。【自】［(1)］アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

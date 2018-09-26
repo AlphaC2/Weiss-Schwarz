@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-040</ID>
+    <Name>“お兄ちゃん”クロノ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちょ、ちょっと部屋に急ぎの急用がっ</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《武器》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

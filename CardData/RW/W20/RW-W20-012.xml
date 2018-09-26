@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-012</ID>
+    <Name>“ヨッシーノの理想”スーパー吉野</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>知れたこと。これはオレの強さの現れ。紛いもんでも偽もんでもねえ。深淵に堕ちたる六枚の金色の翼。それがオレなのさ</FlavourText>
+    <Ability>【永】あなたの手札のイベントの「マッハナックル・コンマゼロ」に、【カウンター】を与える。【自】この能力は1ターンにつき1回まで発動する。あなたがイベントをプレイした時、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>DELINQUENT</Trait>
+        <Trait>AWAKEN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

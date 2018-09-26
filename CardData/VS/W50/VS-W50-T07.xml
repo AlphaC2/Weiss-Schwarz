@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-T07</ID>
+    <Name>出会いの朝</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10007.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【永】あなたが自分のキャラの『チェンジ』のコストを払う時、このカードの下のマーカー1枚を、ストック1枚のかわりに控え室に置いてよい。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。そうしたら、あなたはそのカードをこのカードの下にマーカーとして裏向きに置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

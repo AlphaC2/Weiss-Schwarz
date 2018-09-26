@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SS-W14-065</ID>
+    <Name>手料理への挑戦</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>むむむ……む、む…</FlavourText>
+    <Ability>相手に6ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+</Card>

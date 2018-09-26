@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-104</ID>
+    <Name>エコロ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10128.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いっしょに遊ぼうよ</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1500。【自】このカードのバトル相手が【リバース】した時、このカードの下のマーカーが4枚以上なら、あなたはこのカードの下のマーカーをすべて控え室に置き、そのバトル相手をクロック置場に置く。【起】［他のあなたの舞台の「あおぷよ」を1枚このカードの下にマーカーとして裏向きに置く］そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>MYSTERY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

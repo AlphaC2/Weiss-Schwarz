@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-105</ID>
+    <Name>“若き虎”真田幸村</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10140.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恐れを超えよ、それが誠の勇気なり！</FlavourText>
+    <Ability>【永】相手の【スタンド〕しているキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>HACHIMAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

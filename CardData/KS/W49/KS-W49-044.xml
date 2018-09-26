@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-044</ID>
+    <Name>“同時発射!!”ウィズ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10070.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>めぐみんさん、同時発射です!!……!?</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。【自】【CXコンボ】［(1)手札を2枚控え室に置く］あなたのアタックフェイズの始めに、クライマックス置場に「本物の爆裂魔法」があり、他のあなたの「めぐみん」がいるなら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

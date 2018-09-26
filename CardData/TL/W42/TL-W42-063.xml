@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-063</ID>
+    <Name>“スイーツのお誘い”ナナ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ん？何だ用事でもあるのか？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の、《宇宙人》か《動物》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

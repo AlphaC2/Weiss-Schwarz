@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-022</ID>
+    <Name>“スキル習得完了”カズマ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おお……！</FlavourText>
+    <Ability>【永】経験あなたのレベル置場のカードのレベルの合計が2以上なら、このカードは次の能力を得る。『【自】このカードがアタックした時、あなたはこのカードの正面のキャラを1枚選び、そのターン中、パワーを-1000し、このカードのパワーを＋1000。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

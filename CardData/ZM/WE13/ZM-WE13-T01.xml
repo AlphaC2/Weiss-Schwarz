@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-WE13-T01</ID>
+    <Name>ひそひそ話</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zmf/10001.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サイト「あの、姫様……俺達、来てよかったんですか？」</FlavourText>
+    <Ability>【永】あなたのストックが2枚以下なら、このカードのレベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>FAMILIAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

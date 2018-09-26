@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-032</ID>
+    <Name>“ここにない世界”熊耳</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>特殊能力発見能力者、といえば早いか</FlavourText>
+    <Ability>【自】このカードがアタックした時かこのカードがフロントアタックされた時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《能力者》のキャラなら、そのターン中、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>GIFTED</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

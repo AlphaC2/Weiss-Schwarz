@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-003</ID>
+    <Name>御坂妹</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>このジュースはどこまで運べば良いのでしょうか</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。【自】［(1)］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>CLONE</Trait>
+        <Trait>ESPER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

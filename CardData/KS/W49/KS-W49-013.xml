@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-013</ID>
+    <Name>“両手を広げて仁王立ち”ダクネス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>倒れた者を見捨てるなど　ぐっ……!!できる……ものかぁーー!!</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの《冒険者》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀2500レベル2［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WORRRIES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

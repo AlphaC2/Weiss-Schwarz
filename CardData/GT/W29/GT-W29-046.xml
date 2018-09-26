@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GT-W29-046</ID>
+    <Name>運命の輪</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>テネブライモード！運命の輪、発動！</FlavourText>
+    <Ability>あなたは自分のクロック置場のレベル2以下の《タロット》のキャラを1枚選び、舞台の好きな枠に置く。このカードをクロック置場に置く。</Ability>
+</Card>

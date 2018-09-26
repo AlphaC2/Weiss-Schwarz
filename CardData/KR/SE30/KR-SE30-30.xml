@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-30</ID>
+    <Name>“債権者”架印</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>現世でちまちま稼いだところで、返しきれないといってるんだ</FlavourText>
+    <Ability>【自】他のあなたの、赤か《死神》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SHINIGAMI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

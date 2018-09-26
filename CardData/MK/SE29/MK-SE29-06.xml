@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE29-06</ID>
+    <Name>のんきで悠々</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それ、今僕も言おうと思ったー</FlavourText>
+    <Ability>【永】他のあなたの《探偵》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードがアタックした時、クライマックス置場に「ダイレクトハック」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたは2枚引き、自分の手札を1枚選び、控え室に置き、このカードの正面のキャラを1枚まで選び、控え室に置く。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

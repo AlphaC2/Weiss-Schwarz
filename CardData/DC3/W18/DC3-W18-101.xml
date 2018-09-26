@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-101</ID>
+    <Name>クリパへようこそ!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10020.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お家でもクリスマス祝おうね！</FlavourText>
+    <Ability>【自】このカードの与えたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NEWS</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

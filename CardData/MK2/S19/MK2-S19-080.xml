@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-080</ID>
+    <Name>優雅な日常</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10106.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私の本当の狙いは誰にもわからないわ</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードは《怪盗》を得る。【自】［(1)他のあなたの前列のキャラを2枚控え室に置く］このカードがアタックした時、クライマックス置場に「ヤケ烏龍茶」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラすべてを、山札の下に好きな順番で置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

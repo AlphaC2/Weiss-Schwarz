@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-096</ID>
+    <Name>実にオサレだが実にヘン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ほいさっさ★</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「勝っちゃった★」があり、あなたの手札が4枚以上なら、あなたは自分の山札を上から4枚まで見て、《ぷよ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>CUP_AND_BALL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

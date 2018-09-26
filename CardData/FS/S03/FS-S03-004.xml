@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-004</ID>
+    <Name>最古の王ギルガメッシュ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>出番だ。起きるがいい、エア</FlavourText>
+    <Ability>【起】［(2)］あなたは自分の山札を見てクライマックスを1枚まで選び、控え室に置く。その山札をシャッフルする。1枚控え室に置いたなら、あなたは相手の前列のレベル2以下のキャラを1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

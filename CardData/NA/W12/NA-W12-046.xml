@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-046</ID>
+    <Name>遠い日の思い出</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>グレアム「私のミスだった……」</FlavourText>
+    <Ability>あなたは相手のキャラを1枚選び、そのターン中、パワーを-2000。このカードを思い出にする。</Ability>
+</Card>

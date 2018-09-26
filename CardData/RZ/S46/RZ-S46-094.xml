@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RZ-S46-094</ID>
+    <Name>死に戻り</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10131.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…っていろ　俺が必ず、お前を……</FlavourText>
+    <Ability>集中あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の、《魔法》か《武器》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《魔法》か《武器》のキャラの枚数に等しい。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードを思い出にする。</Ability>
+</Card>

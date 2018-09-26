@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-081</ID>
+    <Name>新政府防衛隊のエース</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10107.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>総司令が出るまでも無いんだよ！</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの「射撃の腕は超一流ダリー」がいるなら、このカードのパワーを＋2000。【自】相手のアタックフェイズの始めに、あなたは自分の「射撃の腕は超一流ダリー」を1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

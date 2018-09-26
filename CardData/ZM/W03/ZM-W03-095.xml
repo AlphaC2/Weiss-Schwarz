@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-095</ID>
+    <Name>エクレールダムールの花</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ジュリオ「離れていてもお互いの事がわかる マジックフラワー…」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』あなたはバトルしているキャラを1枚選び、そのターン中、ソウルを-1。</Ability>
+</Card>

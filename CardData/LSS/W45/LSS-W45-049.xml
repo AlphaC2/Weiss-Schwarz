@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W45-049</ID>
+    <Name>“静寂が戻る砂浜”桜内</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…ありがとう</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの《音楽》のキャラが3枚以上なら、そのターン中、このカードのパワーを＋2000。【自】［(1)］このカードがアタックした時、クライマックス置場に「“私たち、輝きたい！”曜&amp;千歌&amp;梨子」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラを1枚選び、控え室に置き、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

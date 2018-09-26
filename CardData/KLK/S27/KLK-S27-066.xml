@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KLK-S27-066</ID>
+    <Name>純潔</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10093.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>羅暁「純潔に心をゆだねなさい流子…」</FlavourText>
+    <Ability>【カウンター】あなたは自分の《服》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

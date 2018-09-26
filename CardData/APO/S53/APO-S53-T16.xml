@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-T16</ID>
+    <Name>“狂化”黒のバーサーカー</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10016.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ダ―ニック「では、残る二騎の戦いはお前たちに任せよう」</FlavourText>
+    <Ability>【永】他のあなたの、《マスター》か《サーヴァント》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>ELECTRICITY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

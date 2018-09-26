@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-090</ID>
+    <Name>クドの味方</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10127.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今も自分にできることを一途に頑張っている最中です</FlavourText>
+    <Ability>【永】他のあなたのカード名に「クド」を含むキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

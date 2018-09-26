@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-010</ID>
+    <Name>“ウーキーの咆哮”チューバッカ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ハン・ソロ「奇襲攻撃だな」</FlavourText>
+    <Ability>【永】このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>RETURN_OF_THE_JEDI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

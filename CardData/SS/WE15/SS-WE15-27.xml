@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-27</ID>
+    <Name>『参謀』ベルペオル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10053.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>断割せよ、タルタロス</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【起】［(1)］あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>FLAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

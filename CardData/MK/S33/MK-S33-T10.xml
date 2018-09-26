@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-T10</ID>
+    <Name>フェザーズ参上!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10010.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私たちは、フェザーズ！</FlavourText>
+    <Ability>【永】経験あなたのレベル置場のカードのレベルの合計が3以上なら、このカードのパワーを＋1000し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】あなたのクライマックス置場に「フェザーズ出動！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《探偵》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

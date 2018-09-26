@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-015</ID>
+    <Name>救出作戦</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［(3)手札の、「紙ヒコーキ」と「かまどの火」を1枚ずつ控え室に置く］相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、【レスト】し、自分の控え室のカード名に「かばん」を含むキャラを1枚まで選び、手札に戻す。【起】［このカードを【レスト】する］あなたは自分の《フレンズ》のキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

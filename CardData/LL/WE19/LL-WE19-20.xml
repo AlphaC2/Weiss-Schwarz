@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-WE19-20</ID>
+    <Name>デザイナー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/loveliveext/10041.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>一息ついたら少しイメージが湧いてきたよ</FlavourText>
+    <Ability>【自】［(1)］アタックフェイズの始めに、あなたのクライマックス置場に「ユメノトビラ」があり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《音楽》のキャラを1枚選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

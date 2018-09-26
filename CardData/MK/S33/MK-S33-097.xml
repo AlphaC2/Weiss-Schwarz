@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S33-097</ID>
+    <Name>突然の襲撃</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10128.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……！！</FlavourText>
+    <Ability>あなたは自分の手札の、「浴衣ドレスコーデリア」か「オーバードライブ！橘田いずみ」を1枚まで選び、舞台の好きな枠に置く。このカードを思い出にする。</Ability>
+</Card>

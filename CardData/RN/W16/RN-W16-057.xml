@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-057</ID>
+    <Name>家庭的な一面</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>えと、おかわり？ 遠慮なく食べてね。お口に合うと、いいんだけど</FlavourText>
+    <Ability>【自】［(1)］あなたのクライマックス置場に「子供たちの良きお姉さん」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋2000し、次の能力を与える。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

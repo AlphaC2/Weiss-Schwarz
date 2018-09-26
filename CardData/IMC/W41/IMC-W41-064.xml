@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-064</ID>
+    <Name>*(Asterisk)</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10159.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それじゃ、元気出していくにゃ！</FlavourText>
+    <Ability>【永】あなたのターン中、前列の中央の枠にこのカードがいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>CAT_CHARACTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

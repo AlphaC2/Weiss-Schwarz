@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-T26</ID>
+    <Name>大切な短冊(エラッタ前)</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10299.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>待ってー!! あたしの短冊ー!!</FlavourText>
+    <Ability>このカードを思い出にする。【自】記憶あなたのメインフェイズの始めに、思い出置場にこのカードがあるなら、あなたは自分の山札を見て《Pastel＊Palettes》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、このカードを控え室に置く。</Ability>
+</Card>

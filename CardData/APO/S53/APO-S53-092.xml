@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-092</ID>
+    <Name>“受け継ぐ心臓”黒のセイバー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>俺の力はお前の力。生きるためにその剣を振るえ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたの控え室に「“英霊”黒のセイバー」がないなら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

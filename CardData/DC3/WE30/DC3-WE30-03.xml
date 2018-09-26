@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-WE30-03</ID>
+    <Name>共に歩む未来</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcvslbdc/10005.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いいの。私が嬉しかったんだから</FlavourText>
+    <Ability>【永】他のあなたの《新聞》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。』【自】［手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>NEWS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

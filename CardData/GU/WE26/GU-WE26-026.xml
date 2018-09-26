@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-026</ID>
+    <Name>大変身!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10051.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お久しぶりです、魑魅魍魎も恥じらう乙女です</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードのカード名は「ロゼ」としても扱う。【自】［このカードを控え室に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「おしとやかにリゼ」を1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋2500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

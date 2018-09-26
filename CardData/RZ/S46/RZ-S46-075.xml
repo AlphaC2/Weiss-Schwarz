@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-075</ID>
+    <Name>大精霊</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10112.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>魔法使いは自分の中のマナを使って魔法を使う、逆に精霊使いは大気中のマナを使って術を使うんだよ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「エミリア」を含むキャラがいるなら、このカードのレベルを＋1し、パワーを＋2500。【自】バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENTAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

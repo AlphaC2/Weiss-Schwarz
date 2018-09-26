@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-096</ID>
+    <Name>“世界を凌駕する存在”超大型巨人</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エレン「お前ら本当にクソ野郎だよ……多分、人類史上こんなに悪いことした奴はいねえよ……」</FlavourText>
+    <Ability>【永】他のあなたの《巨人》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>TITAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

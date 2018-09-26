@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-089</ID>
+    <Name>“夢を追う若者”ルーク</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>レイア「彼には彼の行く道があるのよ。他人がそれを選ぶことはできないわ」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「Lightsaber」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。【自】【CXコンボ】［(2)手札の青のキャラを1枚控え室に置く］この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ANewHope」があり、このカードの下にマーカーがあるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>NEW_HOPE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

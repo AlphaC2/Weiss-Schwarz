@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-034</ID>
+    <Name>“ステージ”丸山彩</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>きらーんっ</FlavourText>
+    <Ability>【永】他のあなたの《Pastel＊Palettes》のキャラすべてに、パワーを＋500。【自】【CXコンボ】あなたのクライマックス置場に「しゅわりん☆どり?みん」が置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Pastel＊Palettes》のキャラならストック置場に置き、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

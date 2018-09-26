@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-018</ID>
+    <Name>“騎士のカガミ?”ダクネス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>や……やあ、その……騎士のカガミなどと……</FlavourText>
+    <Ability>【永】他のあなたの《冒険者》のキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは他のキャラを1枚選び、次の相手のターンの終わりまで、レベルを＋1。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WORRRIES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

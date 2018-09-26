@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-005</ID>
+    <Name>ケンタウロスの騎士ガドフォール</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>たとえ、どこに真実があろうとも、世界を滅ぼすことはできん</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《武器》のキャラすべてに、レベルを＋1し、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、《武器》を与える。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

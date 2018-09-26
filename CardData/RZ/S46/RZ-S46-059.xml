@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-059</ID>
+    <Name>銀髪の美少女</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10096.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ありがとう。私と、一緒にいてくれて</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「ゼロから始める異世界生活」があり、他のあなたの、《魔法》か《武器》のキャラが3枚以上なら、あなたは自分の山札を上から4枚まで見て、《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ELEMENTAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

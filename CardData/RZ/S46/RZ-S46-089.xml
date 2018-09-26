@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-089</ID>
+    <Name>有能なメイド</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10126.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたのカード名に「ラム」か「レム」を含むキャラが2枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。【自】［(3)このカードを控え室に置く］あなたのクライマックス置場に「鬼の微笑」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「鬼の形相レム」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

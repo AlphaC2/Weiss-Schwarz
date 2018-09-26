@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-067</ID>
+    <Name>遺跡板で眠っていた少女</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10068.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>高密度生命エネルギー結晶体『永遠結晶』</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《フォーミュラ》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。【自】このカードが手札から舞台に置かれた時、あなたは他の自分の《フォーミュラ》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>FORMULA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

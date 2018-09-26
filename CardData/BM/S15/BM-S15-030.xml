@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-030</ID>
+    <Name>毒舌家</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「重さの無い少女」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、レベルを＋1し、パワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ODDITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

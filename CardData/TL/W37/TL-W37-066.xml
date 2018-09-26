@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-066</ID>
+    <Name>“ささやかな応援”モモ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10095.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>がんばってくださいね、リトさん</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］あなたのクライマックス置場に「秘密の花園」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、コスト0以下のキャラを2枚まで選び、舞台の別々の枠に置き、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

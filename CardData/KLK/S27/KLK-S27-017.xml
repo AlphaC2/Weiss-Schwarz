@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KLK-S27-017</ID>
+    <Name>怪しいコロッケ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>好代「やだねぇ。一応、毒じゃないものしか入れてませんよ」</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。ターンの終わりに、そのキャラをストック置場に置く。</Ability>
+</Card>

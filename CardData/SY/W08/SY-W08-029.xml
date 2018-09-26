@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-029</ID>
+    <Name>朝比奈</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それからわたしのことでしたら、どうぞみくるちゃんとお呼び下さい</FlavourText>
+    <Ability>【自】［(2)］あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚と、このカードを選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置き、そのターン中、それらのキャラのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TIME</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

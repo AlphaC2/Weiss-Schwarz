@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W28-003</ID>
+    <Name>“ひつじのきもち”ことり</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>羊さんですよー。もふもふしててたのしー、です</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』【自】この能力は1ターンにつき1回まで発動する。このカードが手札からか『チェンジ』で、舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

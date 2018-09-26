@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TF-S32-046</ID>
+    <Name>バグズ手術</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10071.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>あなたは自分の【スタンド】しているカード名に「小吉」を含むキャラを1枚選び【レスト】する。そうしたら、あなたのキャラすべてに、次の相手のターンの終わりまで、パワーを＋1000。</Ability>
+</Card>

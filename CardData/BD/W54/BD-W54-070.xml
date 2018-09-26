@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-070</ID>
+    <Name>“鳥籠の歌姫”湊友希那</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10102.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>それでは、聴いてください――</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】【CXコンボ】［(3)手札を2枚控え室に置く］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「激しいシャウト」があるなら、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『相手に2ダメージを与える。』（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

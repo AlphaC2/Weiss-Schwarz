@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-084</ID>
+    <Name>“たったひとり”の篝</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…良い旅を、人類…</FlavourText>
+    <Ability>【永】相手のターン中、このカードの下のマーカー1枚につき、このカードのパワーを＋1500。【自】このカードが控え室から舞台に置かれた時かアタックした時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。【自】相手のターンの終わりに、このカードの下のマーカーが3枚以上なら、すべてのプレイヤーのキャラすべてを、控え室に置き、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻す。その後、それらの山札をシャッフルする。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>KEY</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

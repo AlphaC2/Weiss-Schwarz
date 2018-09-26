@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-P11</ID>
+    <Name>ナツイロ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10155.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>中学の頃は、こうして一条君と海に来るなんて想像もしなかった</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「約束のペンダント」があるなら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

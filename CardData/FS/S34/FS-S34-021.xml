@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-021</ID>
+    <Name>士郎の親友</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>衛宮、早く弁当を食べないと昼休みが終わってしまうぞ</FlavourText>
+    <Ability>【永】他のあなたの「放課後の戦い士郎」1枚につき、このカードのパワーを＋1500し、このカードの正面のキャラのソウルを＋1。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

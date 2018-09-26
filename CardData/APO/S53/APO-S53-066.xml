@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-066</ID>
+    <Name>“殺戮”黒のアサシン</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10094.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おかあさん、おなかすいた</FlavourText>
+    <Ability>【永】このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】［手札を2枚控え室に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>FOG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

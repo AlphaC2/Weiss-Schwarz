@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-51</ID>
+    <Name>雪子&amp;コノハナサクヤ</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>逃げたい…誰かに救って欲しい…そうね…確かに、私の気持ち</FlavourText>
+    <Ability>【永】手札のこのカードをプレイするにあたり、あなたは自分の「天城雪子」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。【永】相手の【レスト】しているキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは【スタンド】している相手のキャラを1枚選び、【レスト】する。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>FAN</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

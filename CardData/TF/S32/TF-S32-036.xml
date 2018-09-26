@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-036</ID>
+    <Name>“アネックス1号の乗組員”シーラ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>こいつら子供んときからずっとこうなの</FlavourText>
+    <Ability>【永】他のあなたの《改造》のキャラすべてに、パワーを＋1000。【起】［このカードを【レスト】する］あなたは自分のカード名に「マルコス」か「アレックス」か「小吉」を含むキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

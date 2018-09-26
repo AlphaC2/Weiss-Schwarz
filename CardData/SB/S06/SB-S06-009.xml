@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-009</ID>
+    <Name>“幻妖言惑”お市</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10029.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>長政さまの敵は…全部殺すの…</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「花の誓い」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「“信義不倒”浅井長政」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。【自】チェンジ［あなたの舞台のキャラすべてを控え室に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“魔王の妹”お市」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SHADOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

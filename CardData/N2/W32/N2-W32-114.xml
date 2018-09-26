@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W32-114</ID>
+    <Name>幸せな日々</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm1m2/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わたしは、べつに今のままでもじゅーぶん幸せや</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「ふたりきりの時間」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、次の相手のターンの終わりまで、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

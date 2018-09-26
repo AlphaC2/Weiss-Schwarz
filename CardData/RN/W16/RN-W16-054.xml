@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-054</ID>
+    <Name>キルバラ対決!フラウ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ぐぬぬ……？</FlavourText>
+    <Ability>【永】他のあなたのキャラがいないなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>OTAKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-T04</ID>
+    <Name>鈴&amp;小毬</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10010.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>りんちゃんと私、お友達だから</FlavourText>
+    <Ability>【自】相手がレベルアップした時、あなたは自分の山札の上から1枚を、ストック置場に置く。【起】［(3)］自分のキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

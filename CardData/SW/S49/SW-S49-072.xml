@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-072</ID>
+    <Name>ファースト・オーダー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>全中隊緊急発進せよ！</FlavourText>
+    <Ability>【永】このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。【永】他のあなたの前列の「ファースト・オーダーストームトルーパー」1枚につき、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

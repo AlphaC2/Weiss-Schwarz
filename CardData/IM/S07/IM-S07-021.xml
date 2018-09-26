@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-021</ID>
+    <Name>衣装変更</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うわあ、かわいい衣装ですね。 あ、あの、ありがとうございます、プロデューサー！</FlavourText>
+    <Ability>あなたは自分の山札を見て《音楽》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分の手札を1枚選び、控え室に置く。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC3-W18-096</ID>
+    <Name>枯れない桜の奇跡</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10138.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>7</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『桜が咲いたら、約束のあの場所でお花見をしようね！』</FlavourText>
+    <Ability>【カウンター】相手のキャラすべてに、そのターン中、ソウルを＋5し、次の能力を与える。『【永】このカードはサイドアタックできない。』</Ability>
+</Card>

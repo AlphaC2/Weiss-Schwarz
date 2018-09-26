@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-016</ID>
+    <Name>じいや</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10019.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ほっほっほっ……。こんなこともあろうかと―――</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあるなら、あなたのキャラすべてに、次の能力を与える。『【自】このカードとバトルしているキャラが【リバース】した時、あなたはそのキャラをストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>BUTLER</Trait>
+        <Trait>HERO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

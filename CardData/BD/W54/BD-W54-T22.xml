@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T22</ID>
+    <Name>“全力応援”丸山彩</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10295.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>明日、千聖ちゃんに謝ろう!それで、応援してるんだよって伝えよう!</FlavourText>
+    <Ability>【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「しゅわりん☆どり?みん」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《Pastel＊Palettes》のキャラなら手札に加える。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>0</Soul>
+    </Character>
+</Card>

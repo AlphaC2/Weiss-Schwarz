@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-081</ID>
+    <Name>“クリスマスデート”西木野</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>街がライトアップされてると、そんなにワクワクするものかしら？</FlavourText>
+    <Ability>【永】あなたの手札が6枚以上なら、このカードのパワーを＋1500。【自】［(1)］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「真姫の隠し事」があるなら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

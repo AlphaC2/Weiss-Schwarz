@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-061</ID>
+    <Name>“楽しい時間”小毬</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10093.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おやつがいいよー</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】このカードのバトル相手でレベル1以上のキャラが【リバース】した時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>FAIRY_TALE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

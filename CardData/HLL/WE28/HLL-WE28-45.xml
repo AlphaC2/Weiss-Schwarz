@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-45</ID>
+    <Name>1年Sクラス副担任</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10089.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>試験中にトランスできるのは2回までです</FlavourText>
+    <Ability>【自】他のあなたの「1年Sクラス担任静葉」がアタックした時、そのターン中、このカードのパワーを＋2500。【自】［(1)手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のカード名に「静葉」を含むキャラを1枚選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

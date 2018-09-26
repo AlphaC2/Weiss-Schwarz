@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S11-021</ID>
+    <Name>お菓子な探偵</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>4</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どう？お菓子食べる？</FlavourText>
+    <Ability>あなたは相手の控え室のカードを6枚まで選び、山札に戻す。相手はその山札をシャッフルする。</Ability>
+</Card>

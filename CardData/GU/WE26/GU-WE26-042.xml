@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-042</ID>
+    <Name>いつの日か</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10083.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はい……</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ココア」か「リゼ」を含むキャラがいるなら、このカードのパワーを＋3000。【自】このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ラビットハウス》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>COFFEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

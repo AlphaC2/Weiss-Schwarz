@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-T07</ID>
+    <Name>“挑発”赤のライダー</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10007.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いやあ、俺も甘く見られたもんだねえ</FlavourText>
+    <Ability>【永】他のあなたの、《マスター》か《サーヴァント》のキャラが2枚以上なら、このカードのパワーを＋3000。【自】アンコール［手札の、《マスター》か《サーヴァント》のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>UNDEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

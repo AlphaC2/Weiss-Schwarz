@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-021</ID>
+    <Name>もう一つの聖剣</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>4</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゼナス「聖剣シャイニングフォースは、2本で1対となる存在……」</FlavourText>
+    <Ability>あなたのキャラすべてに、そのターン中、パワーを＋3000し、ソウルを＋1。</Ability>
+</Card>

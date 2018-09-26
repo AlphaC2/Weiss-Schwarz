@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-WE27-06</ID>
+    <Name>“未熟DREAMER”黒澤</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivessext/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「未熟DREAMER」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加える。（そうでないなら元に戻す）【自】［(1)］バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

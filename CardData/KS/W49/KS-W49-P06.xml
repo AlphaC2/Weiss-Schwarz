@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-P06</ID>
+    <Name>“土木工事の作業員”アクア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10157.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>カズマ「労働者やりに来たんじゃないぞ」</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

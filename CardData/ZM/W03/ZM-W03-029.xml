@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-W03-029</ID>
+    <Name>次女</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10034.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>カトレア「…お帰りなさい　小さなルイズ」</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ルイズ」を含むキャラすべてに、パワーを＋500。【起】［(1)このカードを【レスト】する］あなたは自分の《虚無》のキャラを１枚選び、【スタンド】する。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

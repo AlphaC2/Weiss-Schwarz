@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ID-W10-022</ID>
+    <Name>待ち合わせ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>待ったー？　って言ってんでしょうが無視すんなやごらぁー</FlavourText>
+    <Ability>あなたは自分の山札を見て《超能力》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。このカードを思い出にする。</Ability>
+</Card>

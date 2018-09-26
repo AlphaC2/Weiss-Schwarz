@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-030</ID>
+    <Name>海辺のバカンス</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10030.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>なに勿体ぶってんのよ</FlavourText>
+    <Ability>【永】他のあなたの、《アバター》か《ネット》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】加速［(1)あなたの山札の上から1枚をクロック置場に置く］このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【永】このカードの正面のキャラのソウルを-2。』</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>NET</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

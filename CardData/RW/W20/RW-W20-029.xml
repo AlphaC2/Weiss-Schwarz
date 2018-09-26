@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-029</ID>
+    <Name>“最強の座”静流</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10034.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>瑚太朗「静流…約束、守りに来たぜ」</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「守られた約束」があるなら、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>JUDGEMENT</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

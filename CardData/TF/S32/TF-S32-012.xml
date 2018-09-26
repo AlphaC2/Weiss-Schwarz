@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-012</ID>
+    <Name>“幹部乗組員”劉</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>地雷オッケー！！！</FlavourText>
+    <Ability>【永】このカードの正面のキャラのソウルを-1。【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。【自】あなたのクライマックスフェイズの始めに、あなたは自分のストックすべてを、控え室に置き、次の相手のターンの終わりまで、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

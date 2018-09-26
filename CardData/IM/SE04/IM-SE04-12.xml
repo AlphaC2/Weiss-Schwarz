@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-SE04-12</ID>
+    <Name>歌への自信</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imd/10024.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ミキの歌には、思い出がたくさん詰まってるの。だから、そうカンタンには勝てないって思うな！</FlavourText>
+    <Ability>【起】［あなたのキャラを2枚レストする］そのターン中、このカードは次の能力を得る。『【自】このカードとバトル中のキャラがリバースした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-011</ID>
+    <Name>“ダークネスの真相”ネメシス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ああダークネスとは何か…だったか？</FlavourText>
+    <Ability>【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。【自】バトル中のこのカードが【リバース】した時、相手はあなたの控え室のキャラを1枚選び、山札の上に置いてよい。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>DANGO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

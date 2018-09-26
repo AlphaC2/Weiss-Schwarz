@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-063</ID>
+    <Name>両手いっぱいの花束ハルヒ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10092.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>え、いいの？</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【自】［(1)］あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが拾＠なら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>BRIGADE_CHIEF</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

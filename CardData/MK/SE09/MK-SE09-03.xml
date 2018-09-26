@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE09-03</ID>
+    <Name>メアリー&amp;ケイト</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>メアリー「心は１つ！」　ケイト「体は２つ！」『メアリー＆ケイト！』</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見て、山札の上に好きな順番で置く。【自】［手札の《お菓子》のキャラを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>THIEF</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-057</ID>
+    <Name>やる気たっぷり真</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>皆さん！ボクの渾身の１曲、聞いて下さい！ 曲のタイトルは……『迷走Ｍind』！</FlavourText>
+    <Ability>【永】あなたの思い出置場に「プレゼント」があるなら、このカードのパワーを＋1500。【自】［(4)］このカードがサイドアタックした時、クライマックス置場に「迷走Mind」があるなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

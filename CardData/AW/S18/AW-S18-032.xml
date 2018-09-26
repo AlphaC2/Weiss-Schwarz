@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-032</ID>
+    <Name>《治癒師》ライム・ベル</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そーーーれ！</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「シトロン・コール」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の【リバース】している、《アバター》か《ネット》のキャラすべてを、【レスト】する。【自】加速［あなたの山札の上から1枚をクロック置場に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「クワイアー・チャイム」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

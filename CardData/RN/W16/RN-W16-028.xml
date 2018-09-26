@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-028</ID>
+    <Name>天王寺</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それは、デートのお誘い、だったりして</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「ひと夏のアバンチュール」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《科学》のキャラを1枚選び、ストック置場に置き、自分の《科学》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

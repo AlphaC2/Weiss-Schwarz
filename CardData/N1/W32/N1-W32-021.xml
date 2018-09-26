@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N1-W32-021</ID>
+    <Name>分け合う気持ち</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm1m2/10021.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>フェイト「防御が固い、だけど……二人でなら……！」なのは「うん、うんッ！」</FlavourText>
+    <Ability>【永】他のあなたの「分け合う気持ちなのは＆フェイト」すべてに、パワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>CLONE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

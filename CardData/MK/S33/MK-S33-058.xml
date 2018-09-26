@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-058</ID>
+    <Name>何かを企む十津川</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私たちが築く、新しい大怪盗時代のアイコンとして、あなたはまだ必要なの</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードは《怪盗》を得る。【永】他のあなたの、《警察》か《怪盗》のキャラすべてに、パワーを＋500。【自】チェンジ［このカードを控え室に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「桃怪盗“麗しき破滅の桃”」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>POLICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

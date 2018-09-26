@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-022</ID>
+    <Name>士郎VSギルガメッシュ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10025.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>逃が――――すかってんだ、このヤロウ――――！</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、山札の上に置く。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

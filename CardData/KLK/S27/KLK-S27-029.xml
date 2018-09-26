@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-029</ID>
+    <Name>“精神仮縫い”羅暁</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>戦力のつもりだったかもしれないが、こうすれば私の駒になる</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、パワーを＋500。【起】［(1)このカードを【レスト】する］あなたは自分の、マーカーを持つキャラを1枚選び、そのターン中、パワーを＋2500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>CEO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

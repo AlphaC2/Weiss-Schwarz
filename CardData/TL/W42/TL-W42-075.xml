@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TL-W42-075</ID>
+    <Name>必殺ビーム</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>あなたは自分の【スタンド】している《宇宙人》のキャラを2枚選び【レスト】する。2枚【レスト】したなら、相手に1ダメージを与え、相手に1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+</Card>

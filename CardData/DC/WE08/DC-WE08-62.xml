@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC-WE08-62</ID>
+    <Name>ごめんね。そして、ありがとう</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10091.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたしは、すごく嬉しかったんだ</FlavourText>
+    <Ability>このカードは、あなたの《生徒会》のキャラがいないなら、手札からプレイできない。あなたは自分のクロックを1枚選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

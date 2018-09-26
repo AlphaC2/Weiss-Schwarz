@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-034</ID>
+    <Name>“玉座の間”赤のアサシン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10061.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>くっ……ははははは！</FlavourText>
+    <Ability>【自】【CXコンボ】［(1)］このカードがアタックした時、クライマックス置場に「空中庭園」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>POISON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

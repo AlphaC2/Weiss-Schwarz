@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-080</ID>
+    <Name>恋人同士</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】経験あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋500し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】［(1)］このカードがアタックした時、クライマックス置場に「私のすべて」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から5枚まで見て《怪異》のキャラを1枚まで選んで相手に見せ、手札に加える。その後、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>BLOOD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

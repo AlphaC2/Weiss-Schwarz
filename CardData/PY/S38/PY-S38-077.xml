@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-077</ID>
+    <Name>プリンプ魔導学校の生徒</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>は、はい！</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「えへっ嬉しいな」があるなら、あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、相手の控え室のカードを1枚まで選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>HORN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

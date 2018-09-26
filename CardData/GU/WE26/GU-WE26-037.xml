@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-037</ID>
+    <Name>毎日が宝物</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10073.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［(1)あなたのクライマックス置場の「宝物がいっぱい」を1枚思い出にする］あなたのクライマックス置場に「宝物がいっぱい」が置かれた時、他のあなたの、「毎日が宝物シャロ」と「毎日が宝物千夜」と「毎日が宝物ココア」と「毎日が宝物リゼ」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは3枚まで引く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>COFFEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

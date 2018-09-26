@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-090</ID>
+    <Name>思案顔のヴィクトーリア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>Ｄブロックはアインハルトで決まりでしょう</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの《格闘》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

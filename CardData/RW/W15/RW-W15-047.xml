@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W15-047</ID>
+    <Name>ルチアVS静流</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10079.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ルチア「これで終わりだッ、静流ぅううううううううううううううう！！」静流「この分からず屋ぁああああああああああああああああああ！！」</FlavourText>
+    <Ability>【カウンター】あなたは自分の緑のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+</Card>

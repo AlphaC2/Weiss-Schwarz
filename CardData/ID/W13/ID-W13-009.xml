@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W13-009</ID>
+    <Name>いたずらっ子</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ミサカはミサカは気の毒そうな視線を向けてみたり！</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたのカード名に「一方通行」を含むキャラすべてに、そのターン中、パワーを＋500。【自】絆／「裏社会に生きる少年一方通行」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「裏社会に生きる少年一方通行」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>CLONE</Trait>
+        <Trait>ESPER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

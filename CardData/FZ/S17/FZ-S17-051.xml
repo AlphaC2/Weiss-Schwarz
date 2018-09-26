@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FZ-S17-051</ID>
+    <Name>宝剣と魔槍</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10081.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここで勝利すべきは、我らが奉じた『騎士の道』――</FlavourText>
+    <Ability>このカードを思い出にする。【永】記憶思い出置場にこのカードがあるなら、あなたのカード名に「セイバー」か「ランサー」を含むキャラすべてに、パワーを＋1000。</Ability>
+</Card>

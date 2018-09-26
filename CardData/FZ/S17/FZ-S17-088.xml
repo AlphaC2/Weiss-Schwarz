@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-088</ID>
+    <Name>嗜虐の芸術家</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ご期待あれ、リュウノスケ。</FlavourText>
+    <Ability>【自】［他のあなたの舞台のキャラを1枚控え室に置く］このカードがアタックした時、クライマックス置場に青のクライマックスがあるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

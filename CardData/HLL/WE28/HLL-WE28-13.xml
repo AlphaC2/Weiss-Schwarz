@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-13</ID>
+    <Name>天真爛漫なお姫様</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10025.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>大丈夫！応援するから！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-065</ID>
+    <Name>がんばれパン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>実は、りみりんにがんばってもらいたくて、みんなでパンを焼いてきたの</FlavourText>
+    <Ability>相手のストックすべてを、控え室に置き、相手は自分の山札の上から同じ枚数をストック置場に置く。</Ability>
+</Card>

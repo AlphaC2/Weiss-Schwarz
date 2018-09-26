@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-055</ID>
+    <Name>“戦神覇王”武田</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10077.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>幸村！！</FlavourText>
+    <Ability>【永】他のあなたの「“天覇絶槍”真田幸村」がいるなら、このカードは次の能力を得る。『【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』【永】応援このカードの前のあなたのコスト1以上のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

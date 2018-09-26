@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC3-W18-095</ID>
+    <Name>小さな身体</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10137.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>葵「すみません……もう少しだけ、このままでもいいですか？」</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの思い出が2枚以下なら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4500。</Ability>
+</Card>

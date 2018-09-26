@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W21-057</ID>
+    <Name>教室まで飛ばせ!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恭介「鈴を３階へ投げ入れるんだ。真人と謙吾が協力すれば簡単なことだ」</FlavourText>
+    <Ability>あなたの舞台のキャラの持つ色の合計が3色以上なら、あなたは自分の控え室のキャラを3枚まで選び、手札に戻し、自分の手札を2枚選び、控え室に置く。</Ability>
+</Card>

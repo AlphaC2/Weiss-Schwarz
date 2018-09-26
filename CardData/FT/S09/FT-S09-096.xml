@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FT-S09-096</ID>
+    <Name>月の雫</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10132.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『一つに収束された月の魔力は、いかなる魔法をも解除する力を持っているの』</FlavourText>
+    <Ability>あなたは自分の山札を見てレベル3以上のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分のクロックの上から1枚を、控え室に置いてよい。このカードを思い出にする。</Ability>
+</Card>

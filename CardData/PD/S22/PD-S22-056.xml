@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-056</ID>
+    <Name>MEIKO“ブルークリスタル”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「Nostalogic」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラを1枚まで選び、控え室に置き、そのターン中、このカードのパワーを＋X。Xはあなたの控え室の「ＭＥＩＫＯ“ブルークリスタル”」の枚数×2000に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>DRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

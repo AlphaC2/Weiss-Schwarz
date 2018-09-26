@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N1-WE06-17</ID>
+    <Name>時空管理局提督リンディ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm/10037.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>終わりですよ･･････次元震はわたしが押さえてます</FlavourText>
+    <Ability>【自】［(2)］このカードが手札から舞台に置かれた時、あなたはコストを払ってもよい。そしたら、次の相手のターンの終わりまで、相手は舞台にいるキャラの【起】を使えない。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>TEA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

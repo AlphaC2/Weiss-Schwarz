@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-T13</ID>
+    <Name>魔界のプリンス</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10131.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>魔界の後継者ラハールとはこのオレさまのことだ</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「地球の王」があるなら、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。【自】絆／「エトナ＆フロン」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「エトナ＆フロン」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

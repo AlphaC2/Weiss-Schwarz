@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-067</ID>
+    <Name>泣き虫ファークリン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ご、ごめんよぉ……アミちゃん</FlavourText>
+    <Ability>【自】［(2)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の『応援』を持つキャラを1枚選び、手札に戻す。【自】この能力は1ターンにつき3回まで発動できる。他のあなたの『応援』を持つキャラが、手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

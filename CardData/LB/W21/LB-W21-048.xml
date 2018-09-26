@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-048</ID>
+    <Name>“ふたりの秘密”美魚</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>白鳥は　哀しからずや　空の青うみのあをにも　染まずただよふ</FlavourText>
+    <Ability>【自】［このカードをクロック置場に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「もう一人の“西園美魚”美鳥」を1枚選び、舞台のキャラのいない枠に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>BOOK</Trait>
+        <Trait>PARASOL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

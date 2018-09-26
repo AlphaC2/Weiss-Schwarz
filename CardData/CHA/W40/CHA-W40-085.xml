@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-085</ID>
+    <Name>“夏制服”乙坂</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10110.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>でも、本当に見たい彗星は別にあるのですーー！！</FlavourText>
+    <Ability>【自】他のあなたの《能力者》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>PIZZA_SAUCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

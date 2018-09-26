@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-WE19-23</ID>
+    <Name>後輩想いの希</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/loveliveext/10047.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フフフ、頑張ってるかね？　キミ達？</FlavourText>
+    <Ability>【永】他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FORTUNE_READING</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

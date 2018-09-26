@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-085</ID>
+    <Name>“威力偵察”獣の巨人</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10095.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ユミル「その猿って獣の巨人が今回の騒ぎの元凶だよ。壁の中に巨人を発生させたんだ」</FlavourText>
+    <Ability>【自】［手札の「“捕食”巨人」を1枚控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラを1枚選び、山札の下に置く。【起】集中［(1)あなたのキャラを2枚【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の「“捕食”巨人」を2枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>TITAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

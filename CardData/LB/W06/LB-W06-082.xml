@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-082</ID>
+    <Name>“影のない少女”美鳥</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お姉ちゃんを―――お願いね</FlavourText>
+    <Ability>【永】他のあなたのカード名に「美魚」を含むキャラすべてに、《メガネ》を与える。【自】絆／「【浮世離れ】美魚」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「【浮世離れ】美魚」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SHADOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

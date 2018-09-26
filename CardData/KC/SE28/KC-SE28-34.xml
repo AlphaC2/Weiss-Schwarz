@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-34</ID>
+    <Name>防空棲姫</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10067.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>フフ……キタンダァ……？ヘーエ……キタンダァ……</FlavourText>
+    <Ability>【永】中央以外の前列の枠にこのカードがいるなら、このカードのパワーを-4000。【永】前列の中央の枠にこのカードがいるなら、他のあなたの前列の、【リバース】しているキャラ1枚かキャラのいない枠1つにつき、このカードのパワーを-2000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。【自】［(3)あなたのクライマックス置場の「ウッフフ…ドオ？イタイ？」を1枚控え室に置く］このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。</Ability>
+    <Character>
+        <Power>13000</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>PRINCESS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

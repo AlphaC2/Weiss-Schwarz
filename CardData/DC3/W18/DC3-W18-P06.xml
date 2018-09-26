@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-P06</ID>
+    <Name>真面目で頑張り屋さん</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10035.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あ、先輩。待って下さい。せっかくだから一緒に行きませんか？</FlavourText>
+    <Ability>【永】相手のターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>NEWS</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

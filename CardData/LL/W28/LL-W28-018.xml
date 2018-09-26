@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W28-018</ID>
+    <Name>“炎の心”穂乃果</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif/10018.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>穂乃果隊員！出動です！</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの前列の中央の枠のキャラに、そのターン中、レベルを＋1し、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FIREFIGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

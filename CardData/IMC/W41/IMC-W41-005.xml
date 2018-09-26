@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-005</ID>
+    <Name>城ヶ崎</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10100.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>みんなー！ありがとねー！</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［手札の「TOKIMEKIエスカレート」を1枚控え室に置く］あなたのクライマックスフェイズの始めに、このカードの下にマーカーがないなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下のキャラを3枚まで選んで相手に見せ、このカードの下に好きな順番でマーカーとして裏向きに置き、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GYARU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

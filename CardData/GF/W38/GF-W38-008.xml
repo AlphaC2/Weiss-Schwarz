@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-008</ID>
+    <Name>料理コンテスト</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10008.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ふっふーん、今日はやる気マンマンです。え？ 食材は大丈夫かって？ ご心配なく！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードがアタックした時、クライマックス置場に「仲良し【燈＆ゆらら】」があるなら、あなたは自分の山札を見て《ガール》のキャラを1枚まで選んで相手に見せ、手札に加える。その後、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

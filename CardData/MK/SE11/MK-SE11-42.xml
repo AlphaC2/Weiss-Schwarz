@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-42</ID>
+    <Name>豆まきシャロ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>スキありーっ！</FlavourText>
+    <Ability>【永】他のあなたの『応援』を持つキャラが2枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-038</ID>
+    <Name>プリニー隊</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10045.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エトナ「プリニー隊、カモーン！！」エトナ「出てこいっつってんだろ、おめーら！！」</FlavourText>
+    <Ability>【永】このカードと同じ名前のカードは、デッキに好きな枚数入れることができる。【起】［あなたの《プリニー》のキャラを1枚控え室に置く］あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを-1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>PRINNY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

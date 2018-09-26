@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-012</ID>
+    <Name>サイキョー姉妹!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>真美達が、あの姉妹を抜いて芸能界サイキョー姉妹だよー！</FlavourText>
+    <Ability>【自】この能力は1ターンにつき2回まで発動する。他のあなたの《双子》のキャラが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

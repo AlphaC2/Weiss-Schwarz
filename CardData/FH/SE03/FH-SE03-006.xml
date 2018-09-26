@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-006</ID>
+    <Name>巫女服のセイバー(サイン入り)</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10092.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恐れ入ります。これでも神に仕える身ですし</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが1枚以下なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

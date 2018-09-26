@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-046</ID>
+    <Name>任意同行?</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>4</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんなんですかー？　ここどこですか。何であたし連れてこられたんですか</FlavourText>
+    <Ability>あなたは自分のクロック置場のレベル2以下の《SOS団》のキャラを1枚選び、舞台の好きな枠に置く。このカードをクロック置場に置く。</Ability>
+</Card>

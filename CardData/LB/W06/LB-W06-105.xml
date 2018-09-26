@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-105</ID>
+    <Name>“一等賞”小毬&amp;鈴</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>小毬「やったね、鈴ちゃん」鈴「これも小毬ちゃんのおかげだ」</FlavourText>
+    <Ability>【永】相手のレベルがあなたのレベル以上なら、このカードのパワーを-1500。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

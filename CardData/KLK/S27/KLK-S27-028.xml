@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-028</ID>
+    <Name>鬼龍院家筆頭執事</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>皐月お嬢様、その服の持ち出しはお母様から固く禁じられています</FlavourText>
+    <Ability>【自】あなたが山札をリフレッシュした時、あなたはこのカードをストック置場に置いてよい。【起】［(1)このカードを【レスト】する］あなたは自分のクロックを1枚選び、手札に戻し、自分の手札を1枚選び、クロック置場に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>BUTLER</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

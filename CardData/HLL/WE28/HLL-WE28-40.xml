@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-40</ID>
+    <Name>先手必勝</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10079.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お先にー</FlavourText>
+    <Ability>【永】他のあなたの「崖登り華恋」すべてに、レベルを＋1し、パワーを＋500。【自】絆／「崖登り華恋」［手札を1枚控え室に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「崖登り華恋」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>FOREIGNER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

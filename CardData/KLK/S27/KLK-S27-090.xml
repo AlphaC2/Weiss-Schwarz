@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-090</ID>
+    <Name>変身するたび変態</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>死縛の装の本当のおそろしさ、見せてやろう！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「本能字四天王、極戦装束！」があるなら、あなたは他の自分の、《服》かカード名に「マコ」を含むキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

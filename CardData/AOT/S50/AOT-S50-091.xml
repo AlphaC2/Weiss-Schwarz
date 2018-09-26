@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-091</ID>
+    <Name>“人類の仇”超大型巨人</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10105.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハンジ「今だ！削ぎ取れ!!」</FlavourText>
+    <Ability>【永】前列にこのカードがいるなら、あなたの《巨人》のキャラすべてに、パワーを＋1500。【自】［手札の《巨人》のキャラを3枚控え室に置く］相手のアタックフェイズの始めに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚選び、そのターン中、ソウルを-1し、次の能力を与える。『【永】このカードはフロントアタックできない。』</Ability>
+    <Character>
+        <Power>11000</Power>
+        <Trait>TITAN</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

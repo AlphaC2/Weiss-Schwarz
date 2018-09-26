@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-078</ID>
+    <Name>ラガンインパクト!</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ラガン！！インパクトォオオ！！！！！！！</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《大グレン団》のキャラか「コアドリル」ならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）【自】このカードがアタックした時、他のあなたのキャラがいないなら、そのターン中、このカードのソウルを＋1し、このカードは次の能力を得る。『【永】このカードは【リバース】しない。』</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

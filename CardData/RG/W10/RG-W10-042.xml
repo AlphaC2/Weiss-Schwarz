@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-042</ID>
+    <Name>幻想御手開発者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お友達が目覚めたときに、キミが倒れていては元も子もないだろう</FlavourText>
+    <Ability>【起】［(2)］あなたは他の自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋4000。ターンの終わりに、そのキャラを思い出にする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

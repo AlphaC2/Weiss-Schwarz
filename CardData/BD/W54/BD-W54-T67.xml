@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T67</ID>
+    <Name>“これも儚さ”瀬田薫</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10359.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おお、君は、松明に輝き方を教えている――儚いね</FlavourText>
+    <Ability>【永】他のあなたの「“うれしい変化だね”松原花音」がいるなら、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

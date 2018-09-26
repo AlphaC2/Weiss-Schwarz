@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-087</ID>
+    <Name>情報統合思念体の端末</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わたしという個体もあなたには戻ってきて欲しいと感じている</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「私のこと、あなたに教えておく」があるなら、あなたは他の自分のキャラを2枚まで選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置き、そのターン中、それらのキャラのパワーを＋1500。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

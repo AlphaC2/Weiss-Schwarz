@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-T11</ID>
+    <Name>ゼナス&amp;ジラ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10013.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ジラ「アタシが守護している聖剣を抜いたのがシリルなのよ」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、レベルを＋1。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

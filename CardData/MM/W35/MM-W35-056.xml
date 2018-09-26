@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MM-W35-056</ID>
+    <Name>ほむらの絶望</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ああ、これが、私の、絶望</FlavourText>
+    <Ability>あなたは自分の手札のカード名に「ほむら」を含むキャラを1枚まで選び、舞台の好きな枠に置く。</Ability>
+</Card>

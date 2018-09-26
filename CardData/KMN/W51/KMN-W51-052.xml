@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-052</ID>
+    <Name>博士</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10080.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここまでたどり着いた子は初めてです。これは期待できるです</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、相手は0以下か1以上を選ぶ。あなたは自分の山札の上から1枚を、控え室に置き、そのカードが相手の選んだレベルのカードでないなら、あなたは相手のキャラを1枚選び、手札に戻してよい。（クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-053</ID>
+    <Name>“夏制服”西森</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はいっ、こちらこそ色々とご面倒をかけると思いますが、よろしくお願いしまっす！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分の『チェンジ』を持つキャラを1枚選び、そのターン中、パワーを＋2000。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

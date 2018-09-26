@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-008</ID>
+    <Name>“猫まっしぐら!”鈴</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10034.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>恭介「鈴はふたりの力を借りて、３階まで一気にジャンプする」</FlavourText>
+    <Ability>【起】［手札のクライマックスを1枚控え室に置く］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。【起】集中［あなたの、カード名に「真人」を含むキャラとカード名に「謙吾」を含むキャラを1枚ずつ【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、そのターン中、このカードのパワーを＋3500し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

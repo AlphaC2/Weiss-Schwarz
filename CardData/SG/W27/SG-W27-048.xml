@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-048</ID>
+    <Name>ソロモンの杖</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いつもいつもッ！都合のいいところで！</FlavourText>
+    <Ability>このカードは、あなたの「ウェル博士」がいないなら、手札からプレイできない。あなたは自分の山札を見てコスト0以下の《ノイズ》のキャラを4枚まで選び、舞台の別々の枠に置く。その山札をシャッフルする。</Ability>
+</Card>

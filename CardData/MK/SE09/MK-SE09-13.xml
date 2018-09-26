@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE09-13</ID>
+    <Name>6月のシャロ(サイン入り)</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext/10055.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わあ！</FlavourText>
+    <Ability>【起】［あなたの《探偵》のキャラを2枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

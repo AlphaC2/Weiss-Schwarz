@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-047</ID>
+    <Name>フィーネの目覚め</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何が…どうなってるデスか…？</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚まで選び、そのターン中、パワーを＋3000。このカードをクロック置場に置く。</Ability>
+</Card>

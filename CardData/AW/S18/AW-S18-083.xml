@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-083</ID>
+    <Name>穏やかな微笑</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>その涙は、加速世界にあなたの真実が存在することの証です</FlavourText>
+    <Ability>【永】前列にこのカードがいるなら、このカードはあなたのスタンドフェイズに【スタンド】しない。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

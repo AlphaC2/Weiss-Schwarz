@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE29-01</ID>
+    <Name>“憧れの舞台”ネロ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10001.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>僕の歌を聴けーー！</FlavourText>
+    <Ability>【永】あなたのクロック置場に「逆襲のネロ」があるなら、あなたの手札のこのカードのレベルを-1。【永】経験あなたのレベル置場のカードのレベルの合計が6以上なら、このカードのパワーを＋1500。【自】この能力は1ターンにつき2回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

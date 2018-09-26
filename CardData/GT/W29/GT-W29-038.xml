@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-038</ID>
+    <Name>急接近!?</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10064.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あかり「るなちゃんが自分の気持ちを整理するまで。それまで……一緒にここに居る……」</FlavourText>
+    <Ability>【起】［あなたの「急接近!?あかり＆るな」を2枚【レスト】する］あなたは自分の山札の上から1枚を、ストック置場に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TAROT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

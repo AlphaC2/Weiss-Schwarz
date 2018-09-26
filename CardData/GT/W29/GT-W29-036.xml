@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-036</ID>
+    <Name>強い虚栄心</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置き、このカードを思い出にする］あなたのクライマックス置場に「月蝕」が置かれた時、他のあなたの前列のキャラが1枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「オオカミ少女るな」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

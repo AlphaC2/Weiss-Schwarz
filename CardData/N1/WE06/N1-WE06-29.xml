@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N1-WE06-29</ID>
+    <Name>戦闘態勢フェイト</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm/10061.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>バルディッシュ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のカード名に「フェイト」を含むキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>CLONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

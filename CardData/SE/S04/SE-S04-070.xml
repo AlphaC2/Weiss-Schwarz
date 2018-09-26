@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-070</ID>
+    <Name>解き放たれた天空船</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10107.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>メーベル「贄神の船……すべての災厄の元凶……って、聞いたことがあるわ」</FlavourText>
+    <Ability>あなたは相手のレベル0以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

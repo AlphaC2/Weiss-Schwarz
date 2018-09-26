@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-065</ID>
+    <Name>無敵ロボット</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サーズデイ　アナタタチ　ト　サイゴマデ　イッショ　ニ　タタカイタイ……</FlavourText>
+    <Ability>【永】他のあなたの、《勇者》かカード名に「主人公」を含むキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MECHA</Trait>
+        <Trait>HERO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

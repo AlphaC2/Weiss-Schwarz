@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-029</ID>
+    <Name>有月</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>このぐらい、へーきだよ</FlavourText>
+    <Ability>【起】［あなたの《動物》のキャラを2枚【レスト】する］あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを-1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

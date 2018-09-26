@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-083</ID>
+    <Name>“軍神”上杉</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10105.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そなたをやすらかにねむらせてあげましょう</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは相手のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>ROSE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

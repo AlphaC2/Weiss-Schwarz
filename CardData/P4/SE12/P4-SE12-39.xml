@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-39</ID>
+    <Name>“契約の鍵”主人公</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10075.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>イゴール「貴方が支払うべき代価は１つ…」</FlavourText>
+    <Ability>【永】このカードの効果で選んだキャラがいるなら、このカードのパワーを＋2000。【自】このカードが舞台に置かれた時、あなたは他の自分のキャラを1枚選ぶ。【自】このカードが舞台から控え室に置かれた時、あなたはこのカードの効果で選んだキャラを控え室に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

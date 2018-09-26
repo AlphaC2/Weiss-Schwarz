@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-052</ID>
+    <Name>巡音ルカ“紅玉”</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>はにかみながら怒ったって 目を伏せながら笑ったってそんなの、どうせ、つまらないわ！」</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「ワールズエンド・ダンスホール」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>DRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

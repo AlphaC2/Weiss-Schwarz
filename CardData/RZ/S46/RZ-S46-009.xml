@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-009</ID>
+    <Name>治癒術師</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やーだなー、もう。フェリちゃんはただ、『酒宴でも開くのかもですネ』って言っただけじゃないですかぁー</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のカード名に「クルシュ」を含むキャラに、パワーを＋1500。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは自分のクロックの上から1枚を、控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>KNIGHT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

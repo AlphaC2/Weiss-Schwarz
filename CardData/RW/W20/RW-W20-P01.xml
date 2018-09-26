@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-P01</ID>
+    <Name>“美しい友情”ルチア</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10001.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>え…あ、ああ、ありがとう…</FlavourText>
+    <Ability>【永】他のあなたの「“美しい友情”静流」すべてに、パワーを＋500し、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

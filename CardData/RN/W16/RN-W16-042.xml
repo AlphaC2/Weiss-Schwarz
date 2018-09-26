@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-042</ID>
+    <Name>長深田</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>インパクトォォォ！これ！ これよお！これこそワシが求めとったインパクトじゃ！</FlavourText>
+    <Ability>【起】［(3)あなたのキャラを2枚【レスト】する］あなたのキャラすべてに、そのターン中、パワーを＋3000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

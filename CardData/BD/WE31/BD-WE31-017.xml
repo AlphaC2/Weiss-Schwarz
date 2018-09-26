@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-017</ID>
+    <Name>“煌めくステージへ”丸山彩</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10029.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>えへへ、だって嬉しいんだも??ん！！</FlavourText>
+    <Ability>【永】このカードは、色条件を満たさずに手札からプレイできる。【永】あなたの《Pastel＊Palettes》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを?1。【自】【CXコンボ】［手札を1枚控え室に置く］あなたのクライマックス置場に「煌めくステージへ」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《Pastel＊Palettes》のキャラなら舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋3000。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

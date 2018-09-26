@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-004</ID>
+    <Name>野生児トウマ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日の晩メシはイノブタ鍋だ！</FlavourText>
+    <Ability>【自】このカードがフロントアタックした時、クライマックス置場に「ＶＳイノブタ」があり、このカードとバトルしているキャラのレベルがこのカードのレベルより低いなら、あなたのキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

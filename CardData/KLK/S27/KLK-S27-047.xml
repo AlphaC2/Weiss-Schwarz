@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-047</ID>
+    <Name>“暴走”流子</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10074.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>皐月「いかん！それが狙いか、針目縫」</FlavourText>
+    <Ability>【永】このカードは相手のキャラの【自】の効果によって【リバース】されない。【自】このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から1枚を、クロック置場に置く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

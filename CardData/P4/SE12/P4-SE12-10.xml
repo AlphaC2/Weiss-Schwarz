@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>P4-SE12-10</ID>
+    <Name>ペルソナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10019.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これが、俺の、チカラ――</FlavourText>
+    <Ability>あなたは自分の手札の「悠＆イザナギ」を1枚まで選び、舞台の好きな枠に置く。</Ability>
+</Card>

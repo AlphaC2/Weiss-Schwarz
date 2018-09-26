@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-018</ID>
+    <Name>ロンドン観光</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>沢山の名探偵を生んだミステリーのふるさと！</FlavourText>
+    <Ability>【永】他のあなたのカード名に「シャロ」か「シャーロック」を含むキャラが2枚以上なら、このカードのパワーを＋1000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

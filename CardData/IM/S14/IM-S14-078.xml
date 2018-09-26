@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-078</ID>
+    <Name>歌に全てを賭ける</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私、歌います！　私の歌が、みんなの力になるというのなら…！</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《音楽》のキャラすべてに、パワーを＋500。【永】記憶相手のターン中、あなたの思い出置場に「765プロ地獄の特訓」があるなら、他のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

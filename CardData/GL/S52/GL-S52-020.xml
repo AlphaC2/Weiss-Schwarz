@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-020</ID>
+    <Name>黒の兄妹</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】絆／「黒の兄妹キタン」［手札を1枚控え室に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「黒の兄妹キタン」を1枚選び、手札に戻す）【起】［このカードを【レスト】する］あなたは自分の「黒の兄妹キタン」を1枚選び、次の相手のターンの終わりまで、パワーを＋2000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-097</ID>
+    <Name>ダンスレッスン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10106.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>プロデューサーも、一緒にどうですか？ ２人でいい汗、かきましょうよ！</FlavourText>
+    <Ability>あなたの手札があるなら、あなたは自分の手札をランダムに1枚選び公開し、自分の控え室のレベルX以下のキャラを1枚選び、手札に戻す。Xは公開されたカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE03-008</ID>
+    <Name>元気っ子</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext1.0/10004.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんだ、お前も一人なのか</FlavourText>
+    <Ability>【起】［手札を1枚控え室に置く］そのターン中、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ELEMENT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

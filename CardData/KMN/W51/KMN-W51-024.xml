@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-024</ID>
+    <Name>突然の涙</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10052.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>早起きしたからかな？</FlavourText>
+    <Ability>【永】舞台のこのカードのレベルを-1。【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

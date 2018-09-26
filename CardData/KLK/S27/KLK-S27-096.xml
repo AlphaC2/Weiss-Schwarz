@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KLK-S27-096</ID>
+    <Name>揃の紅茶</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>最初は苦かったお前のお茶も、今ではこんなにおいしいと感じる</FlavourText>
+    <Ability>【カウンター】あなたは1枚引き、自分の手札を1枚選び、控え室に置く。あなたは自分の《服》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

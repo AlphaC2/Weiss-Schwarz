@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-02</ID>
+    <Name>囚われのシャナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>悠二の、手……。恐くて、たまらなかった</FlavourText>
+    <Ability>【自】チェンジ［手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「闘争の渦シャナ」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MELON_BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

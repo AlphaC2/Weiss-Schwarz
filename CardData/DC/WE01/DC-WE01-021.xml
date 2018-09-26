@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE01-021</ID>
+    <Name>たとえ好きな恋人まひる</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10224.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>それは無粋です。例えるなら――</FlavourText>
+    <Ability>【起】[このカードを思い出にする]あなたは自分の《お菓子》のキャラを1枚選び、そのターン中、パワーを＋4000し、ソウルを＋2。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>PARABLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

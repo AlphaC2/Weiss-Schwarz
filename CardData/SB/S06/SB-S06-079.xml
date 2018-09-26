@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-079</ID>
+    <Name>“竜の右目”片倉</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10101.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お任せあれ！　この小十郎、全てを賭けて！</FlavourText>
+    <Ability>【永】他のあなたの「“奥州の雄”伊達政宗」がいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

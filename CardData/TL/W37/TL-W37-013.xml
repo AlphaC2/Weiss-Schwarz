@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-013</ID>
+    <Name>“戦うために生まれた兵器”芽亜</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>はい、わかってますよマスター</FlavourText>
+    <Ability>【永】あなたのクロック置場に「金色の闇」があるなら、あなたの手札のこのカードのレベルを-1。【永】他のあなたの、《変身》か《家事》のキャラが3枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

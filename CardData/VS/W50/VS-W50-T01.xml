@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-T01</ID>
+    <Name>ナカジマジム会長</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10001.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アインハルトから聞いてるだろ？アイツのお客さんだよ</FlavourText>
+    <Ability>【永】他のあなたの「選手兼アルバイトフーカ」すべてに、パワーを＋1000。【自】絆／「選手兼アルバイトフーカ」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「選手兼アルバイトフーカ」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>TRAINER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

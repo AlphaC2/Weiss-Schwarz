@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-027</ID>
+    <Name>日野</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10122.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日のライブ、全力で熱く燃えましょう！</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】あなたのアンコールステップの始めに、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HOT_BLOODED</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

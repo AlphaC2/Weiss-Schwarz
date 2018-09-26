@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-S06-097</ID>
+    <Name>伝説の忍</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10119.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>かすが「忍は皆、その名を知っている…　だが、本当にこの世にいるのか誰も知らない」</FlavourText>
+    <Ability>あなたは自分の山札を上からX枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Xはあなたの《忍》のキャラの枚数に等しい。</Ability>
+</Card>

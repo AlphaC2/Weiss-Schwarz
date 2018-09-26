@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-067</ID>
+    <Name>地球勇者助手ジェニファー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ラハール「だから、そのムチムチした体をオレさまに近づけるな！！」</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあるなら、あなたの、《勇者》かカード名に「主人公」を含むキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>HERO</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

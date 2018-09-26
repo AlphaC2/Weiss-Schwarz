@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-SE04-15</ID>
+    <Name>スペシャルコーチ真</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imd/10030.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>え？こんなにかわいい涼が男の子だって？アハハ！ナイスジョーク！</FlavourText>
+    <Ability>【永】他のあなたのカード名に「涼」を含むキャラすべてに、レベルを＋1。【起】［(1)手札のクライマックスを1枚控え室に置く］あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

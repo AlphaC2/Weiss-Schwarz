@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-080</ID>
+    <Name>“キャスターのマスター”葛木宗一郎</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>侮ったなセイバー</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の、《マスター》か《サーヴァント》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

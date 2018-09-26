@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-047</ID>
+    <Name>お引越し</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10077.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふぅ・・・ふぅ・・・よし、が、がんばるぞっ</FlavourText>
+    <Ability>あなたは自分のクロックを1枚選び、手札に戻す。このカードをクロック置場に置く。</Ability>
+</Card>

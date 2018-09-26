@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-031</ID>
+    <Name>レムレス</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お近づきのしるしに、あまーいお菓子をあげようね</FlavourText>
+    <Ability>【永】経験あなたのレベル置場すべてが《ぷよ》のキャラなら、このカードのパワーを＋1500。【自】［手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

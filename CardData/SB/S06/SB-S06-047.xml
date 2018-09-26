@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-S06-047</ID>
+    <Name>夢心地</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちょいと一服…</FlavourText>
+    <Ability>あなたは自分の【スタンド】しているキャラを1枚選び【レスト】する。そうしたら、あなたは自分の控え室のカードを1枚選び、ストック置場に置き、自分の《動物》のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

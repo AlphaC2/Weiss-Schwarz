@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RG-W13-047</ID>
+    <Name>ビッグスパイダー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10076.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>固法「居場所、か…」</FlavourText>
+    <Ability>【カウンター】あなたは自分の《風紀委員》のキャラを1枚選び、そのターン中、パワーを＋4000。このカードを思い出にする。</Ability>
+</Card>

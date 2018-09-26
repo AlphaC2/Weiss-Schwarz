@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-027</ID>
+    <Name>令呪の発動</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10054.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>なら、今度は俺の番だ</FlavourText>
+    <Ability>【自】[(1)このカードを手札に戻す］あなたのクライマックス置場に「セイバーの召喚」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「結界内の攻防セイバー」を1枚まで選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

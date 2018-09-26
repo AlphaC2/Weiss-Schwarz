@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-035</ID>
+    <Name>元・S級魔導士</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10064.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エルフマン・・・・</FlavourText>
+    <Ability>【起】［(2)］あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WAITRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

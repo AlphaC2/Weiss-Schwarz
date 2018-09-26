@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-016</ID>
+    <Name>レン・エルシ・ジュエリア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふぇっくしゅん!!</FlavourText>
+    <Ability>【自】［(1)手札を1枚控え室に置く］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ルン・エルシ・ジュエリア」を1枚選び、手札に戻し、自分の控え室の「“ブルーメタリア”ルン」を1枚選び、このカードがいた枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>TRANSFORMATION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

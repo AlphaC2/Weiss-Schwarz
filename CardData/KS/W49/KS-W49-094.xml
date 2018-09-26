@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-094</ID>
+    <Name>“美味しい飲み方”アクア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私が今から、これの美味しい飲み方を教えてあげるわ</FlavourText>
+    <Ability>【永】あなたのクロック置場に「“媚び諂う”アクア」があるなら、あなたの手札のこのカードのレベルを-1。【自】あなたがレベルアップした時、そのターン中、このカードは『【自】アンコール［(1)］』を得る。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>GODDESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

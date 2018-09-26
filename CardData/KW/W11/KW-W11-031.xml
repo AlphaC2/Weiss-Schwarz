@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-031</ID>
+    <Name>几帳面な佳奈多</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10058.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だって…えぐっ…レシピ守らないと、おいしくできないでしょ…？</FlavourText>
+    <Ability>【永】記憶あなたの思い出が3枚以上なら、このカードは次の能力を得る。『【自】このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは相手のキャラを1枚選び、そのターン中、パワーを-2000。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

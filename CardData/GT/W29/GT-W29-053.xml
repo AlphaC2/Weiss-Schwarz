@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-053</ID>
+    <Name>天道三姉妹</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ムッ、バカにしてるでしゅ</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたの舞台のキャラの持つ色の合計が3色以上なら、あなたのキャラすべてに、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>HOMUNCULUS</Trait>
+        <Trait>TAROT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

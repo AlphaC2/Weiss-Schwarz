@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-070</ID>
+    <Name>捕まった沙耶</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10105.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いいわよ、とっとと煮るなり焼くなりしなさいよ・・・</FlavourText>
+    <Ability>あなたは相手の前列のコスト1以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

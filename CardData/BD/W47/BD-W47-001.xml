@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-001</ID>
+    <Name>Glitter*Green</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>追いかけ追いついて感じてたい熱を―</FlavourText>
+    <Ability>【自】【CXコンボ】あなたのクライマックス置場に「私たちのステージ！」が置かれた時、あなたのレベルが3以上なら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分のキャラすべてに、そのターン中、パワーを＋500。【自】［1］この能力は1ターンにつき1回まで発動する。あなたのカードがレベル置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、カード名に「ゆり」か「七菜」か「リィ」か「ひなこ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

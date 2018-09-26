@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-077</ID>
+    <Name>夏準備</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10077.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何故だか頼まれてしまって、断れなくて</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたのカード名に「エレナ」を含むキャラがいるなら、このカードのレベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

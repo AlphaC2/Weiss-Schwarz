@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-067</ID>
+    <Name>おもてなし</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>遠慮なんかしなくていいから</FlavourText>
+    <Ability>【永】他のあなたのカード名に「シャロ」か「シャーロック」を含むキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは自分の控え室のカード名に「シャロ」か「シャーロック」を含むキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

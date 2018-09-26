@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-066</ID>
+    <Name>“高町なのは”リーゼアリア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10096.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ねえ、はやてちゃん……君は病気なんだよ……</FlavourText>
+    <Ability>【自】［(1)このカードを思い出にする］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>TWINS</Trait>
+        <Trait>FAMILIAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

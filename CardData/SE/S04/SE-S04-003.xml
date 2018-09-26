@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-003</ID>
+    <Name>アウトロー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そんなふうにシリルに言われると、なんか居心地が悪りぃなぁ……</FlavourText>
+    <Ability>【永】他のあなたの『応援』を持つキャラがいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-034</ID>
+    <Name>くんくんクド</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これは…その、あ、あの、アレです…アレなのです</FlavourText>
+    <Ability>【永】あなたは自分のクライマックスフェイズに、クライマックスを手札からプレイできない。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

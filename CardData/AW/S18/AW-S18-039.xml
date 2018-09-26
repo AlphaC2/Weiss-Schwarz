@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-039</ID>
+    <Name>能美</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゲームオーバーです、有田先輩…、いえ、《シルバー・クロウ》</FlavourText>
+    <Ability>【起】［あなたの、《アバター》か《ネット》のキャラを2枚【レスト】する］あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを-1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

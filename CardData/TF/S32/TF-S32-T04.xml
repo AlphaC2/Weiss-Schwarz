@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TF-S32-T04</ID>
+    <Name>種の激変</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10005.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>―周囲には無数の屈強なゴキブリ。その手には恐らくバグズ１号に残された近代兵器―</FlavourText>
+    <Ability>あなたは自分の【スタンド】している《虫》のキャラを1枚選び【レスト】する。そうしたら、あなたは自分の山札を見て「“害虫の王”テラフォーマー」を3枚まで選び、舞台の別々の枠に置き、その山札をシャッフルする。</Ability>
+</Card>

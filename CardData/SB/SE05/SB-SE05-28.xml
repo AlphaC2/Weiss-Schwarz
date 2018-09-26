@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-SE05-28</ID>
+    <Name>“六爪”正宗&amp;“二槍”幸村</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>政宗「久しぶりだな、真田幸村。You doing, okey？」幸村「この時を待ちわびていた！独眼竜...</FlavourText>
+    <Ability>【起】［あなたの《武器》のキャラを2枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、...</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

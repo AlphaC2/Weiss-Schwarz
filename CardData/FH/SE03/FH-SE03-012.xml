@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-012</ID>
+    <Name>ステンノ&amp;エウリュアレ(サイン入り)</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10093.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>じゃあ、私と私が、お仕置きしてあげないと</FlavourText>
+    <Ability>【永】他のあなたの「ステンノ＆エウリュアレ」がいるなら、他のあなたのカード名に「ライダー」を含むキャラすべてに、パワーを＋1000。【永】他のあなたのカード名に「ライダー」を含むキャラすべてに、次の能力を与える。『【永】このカードは相手のキャラの【自】の効果によって【リバース】されない。このカードはサイドアタックできない。』</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>GOD</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

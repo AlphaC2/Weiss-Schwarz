@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-103</ID>
+    <Name>涼宮ハルヒの憂鬱</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10001.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>名前ならたったいま考えたから――　SOS団！</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SOS_BRIGADE</Trait>
+        <Trait>BRIGADE_CHIEF</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

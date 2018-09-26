@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-085</ID>
+    <Name>“ネコネコハプニング”春菜</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10085.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ゆ…結城くん…？</FlavourText>
+    <Ability>【永】あなたのクロック置場に「“料理を作ると吉”春菜」があるなら、あなたの手札のこのカードのレベルを-1。【自】あなたのクライマックス置場に「予期せぬ事態」が置かれた時、他のあなたの前列のキャラが1枚以下なら、あなたは2枚まで引き、次の相手のターンの終わりまで、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

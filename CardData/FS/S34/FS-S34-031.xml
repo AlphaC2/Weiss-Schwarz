@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S34-031</ID>
+    <Name>自己鍛錬</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10058.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>基本骨子解明構成材質解明！</FlavourText>
+    <Ability>あなたのキャラすべてに、そのターン中、パワーを＋1500し、次の能力を与える。『【永】このカードは相手の効果に選ばれない。』</Ability>
+</Card>

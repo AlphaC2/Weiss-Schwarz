@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>BD-W54-T54</ID>
+    <Name>怖さはんぶんこ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10336.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>蘭「……早く、先進もう！！」</FlavourText>
+    <Ability>【カウンター】あなたの、カード名に「つぐみ」を含むキャラと「蘭」を含むキャラと「モカ」を含むキャラが別々に1枚ずついるなら、あなたは自分の《Afterglow》のキャラを2枚まで選び、そのターン中、パワーを＋1500。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-103</ID>
+    <Name>“友情の予感”BB-8</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10128.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>フィン「なるべく早くそこへ連れて行ってくれ」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以下ならストック置場に置く。（そうでないなら元に戻す。クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

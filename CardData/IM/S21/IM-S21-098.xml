@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S21-098</ID>
+    <Name>凸凹コンビ</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animeim/10140.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私がアイドル始めて以来の大一番なんだから あなたも、できる限り、手を貸す事。いいわね！</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1500。【自】このカードとバトル中のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FEMALE_OUTFIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

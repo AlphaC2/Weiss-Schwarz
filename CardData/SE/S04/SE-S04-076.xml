@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-076</ID>
+    <Name>聖剣の主シリル</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ありがとう……トウマ……。</FlavourText>
+    <Ability>【永】他のあなたの「ゼナス＆ジラ」がいるなら、他のあなたの「聖剣の主トウマ」すべてに、レベルを＋1し、パワーを＋1000。【自】相手のアタックフェイズの初めに、あなたは自分のカード名に「トウマ」を含むキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

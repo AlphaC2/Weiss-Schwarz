@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC3-WE30-09</ID>
+    <Name>打ち上げ花火</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcvslbdc/10017.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>小恋「な、ななか、なに言ってるの?！そ、そそ、そんなんじゃー」</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から4枚まで見て、《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+</Card>

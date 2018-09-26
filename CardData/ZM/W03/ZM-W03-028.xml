@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-W03-028</ID>
+    <Name>スカロン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10033.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>スカロン「遂にわたしの美しさが世間に認められたのよ！」</FlavourText>
+    <Ability>【永】他のあなたの、《メイド》と《ウェイトレス》のキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］他のあなたの、《メイド》と《ウェイトレス》のキャラすべてに、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>DRAG_QUEEN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SAO-S51-095</ID>
+    <Name>調査の報告</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10095.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>パパ、ママ、一つわかったことがあります</FlavourText>
+    <Ability>このカードを思い出にする。【永】記憶相手のターン中、思い出置場にこのカードがあるなら、あなたの、《アバター》か《ネット》のキャラすべてに、パワーを＋1000。</Ability>
+</Card>

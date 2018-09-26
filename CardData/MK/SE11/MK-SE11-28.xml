@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-28</ID>
+    <Name>来栖</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シャーロック先輩…</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのカード名に「シャロ」を含むキャラすべてに、パワーを＋1000し、《宝石》を与える。【自】このカードがアタックした時、あなたは他の自分の前列のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

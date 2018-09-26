@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-063</ID>
+    <Name>朝の一コマ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10131.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>行ってきまーす！</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、パワーを＋1000。【永】応援このカードの下にマーカーがあるなら、このカードの前のあなたのキャラすべてに、パワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「夜空の下で」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

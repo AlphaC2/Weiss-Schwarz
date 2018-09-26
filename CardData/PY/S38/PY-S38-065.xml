@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-065</ID>
+    <Name>ばっちぐー!</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>まだまだ行くよー</FlavourText>
+    <Ability>【永】あなたのクロック置場に「“ばたんきゅー”アミティ」があるなら、あなたの手札のこのカードのレベルを-1。【永】他のあなたの《ぷよ》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上からX枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Xはあなたの《ぷよ》のキャラの枚数に等しい。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>HAT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

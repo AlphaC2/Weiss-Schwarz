@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-018</ID>
+    <Name>優しい母親</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>母さんも、リニスもアリシアも、みんなあなたのそばにいるわ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「フェイト」を含むキャラすべてに、次の能力を与える。『【永】このカードは相手の効果に選ばれない。』【永】あなたのターン中、他のあなたのキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

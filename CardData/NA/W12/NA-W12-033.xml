@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-033</ID>
+    <Name>初めての学校</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あのっ、フェイト・テスタロッサといいますよろしくお願いしますっ</FlavourText>
+    <Ability>【永】他のあなたの《動物》のキャラが2枚以上なら、このカードのレベルを＋1し、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>CLONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

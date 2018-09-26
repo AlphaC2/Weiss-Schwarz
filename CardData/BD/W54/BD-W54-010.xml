@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-010</ID>
+    <Name>“ステージ”弦巻こころ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>世界中を笑顔にするんですもの、ワイドどころかワイルドくらいに行かないと大変よ!</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。【自】【CXコンボ】あなたのクライマックス置場に「えがおのオーケストラっ！」が置かれた時、前列にこのカードがいるなら、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】このカードの与えたダメージがキャンセルされた時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

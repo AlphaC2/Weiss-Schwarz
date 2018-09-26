@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-052</ID>
+    <Name>拭えぬ過去</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あのね、上手くいくかどうかはわからないけど、お姉ちゃんがその玩具を出してみるね</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「終わりのプレゼント」があるなら、あなたは自分の控え室の「拭えぬ過去シャルル」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

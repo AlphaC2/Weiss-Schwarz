@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-P02</ID>
+    <Name>しあわせ満面</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10114.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>本当に夢みたい、私……私……</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>AMA_USA_AN</Trait>
+        <Trait>WAGASHI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

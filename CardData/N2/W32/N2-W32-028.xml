@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W32-028</ID>
+    <Name>雷の帰還</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm1m2/10028.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シグナム「行くぞ、テスタロッサ」フェイト「はい…シグナム！」</FlavourText>
+    <Ability>【永】あなたの山札が5枚以下なら、あなたの手札のこのカードのレベルを-1。【永】記憶あなたの思い出置場の《魔法》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>CLONE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

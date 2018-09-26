@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-004</ID>
+    <Name>喧嘩部部長</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だって、やっと掴んだ贅沢だもん！もう貧乏には戻れないもん！</FlavourText>
+    <Ability>【永】他のあなたの、《服》か《家族》のキャラが3枚以上なら、このカードのパワーを＋1000し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FAMILY</Trait>
+        <Trait>CLOTH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

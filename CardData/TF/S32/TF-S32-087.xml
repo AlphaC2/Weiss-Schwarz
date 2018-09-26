@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-087</ID>
+    <Name>“高い戦闘力”膝丸</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［(1)手札を1枚控え室に置く］このカードがアタックした時、クライマックス置場に「ザ・セカンド」があるなら、あなたはコストを払ってよい。そうしたら、相手の【スタンド】しているキャラすべてを、【レスト】し、あなたは相手のレベル3以下のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。その後、あなたは他の自分の《改造》のキャラを2枚まで選び、そのターン中、次の能力を与える。『【永】このカードはサイドアタックしてもソウルが減少しない。』【自】相手の【スタンド】しているキャラが【レスト】した時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

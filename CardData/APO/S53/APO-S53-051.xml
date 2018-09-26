@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-051</ID>
+    <Name>“狩人”赤のアーチャー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お前を殺して、私は願いを叶える</FlavourText>
+    <Ability>【永】舞台のこのカードのレベルを-1。【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>SERVANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

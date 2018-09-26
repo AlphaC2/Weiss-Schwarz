@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S43-062</ID>
+    <Name>神宮の戦闘</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フー姉！</FlavourText>
+    <Ability>【永】他のあなたの、《アバター》か《ネット》のキャラすべてに、パワーを＋500。【自】［手札を1枚控え室に置く］あなたのクライマックス置場に「火焔豪雨」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

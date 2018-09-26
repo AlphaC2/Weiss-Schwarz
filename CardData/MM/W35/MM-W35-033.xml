@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-033</ID>
+    <Name>変わらない笑顔</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10036.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私はメロン♪メロンが割れたら甘い夢♪</FlavourText>
+    <Ability>【自】［手札の《魔法》のキャラを1枚控え室に置き、あなたの【スタンド】している《魔法》のキャラを1枚【レスト】する］このカードがアタックした時、クライマックス置場に「穏やかな毎日」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《魔法》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

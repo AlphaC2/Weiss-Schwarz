@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-046</ID>
+    <Name>魔導の城</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10079.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゼナス「すべての機能が目覚めたら、この世界を支配することも可能だろう」</FlavourText>
+    <Ability>あなたは相手の手札を見る。あなたは相手のキャラを1枚まで選び、そのターン中、パワーを-1000。あなたは自分のクロック置場のキャラを1枚まで選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-093</ID>
+    <Name>アシュタンガ級</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10119.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの《アンチスパイラル》のキャラすべてに、パワーを＋1000。【自】クライマックスフェイズの始めに、あなたのキャラすべてが《アンチスパイラル》なら、すべてのプレイヤーは自分の、レベルが自分のレベルより高いキャラすべてを、山札の下に好きな順番で置く。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ANTI_SPIRAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

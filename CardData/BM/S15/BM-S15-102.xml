@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-102</ID>
+    <Name>疑り深い戦場ヶ原ひたぎ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10016.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何でもないの。ならいいわ</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の《怪異》のキャラを2枚まで選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>ODDITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

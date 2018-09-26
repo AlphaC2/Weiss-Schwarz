@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TF-S32-021</ID>
+    <Name>雷雨の一粒</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>―一属一種の“電気生物”である―</FlavourText>
+    <Ability>このカードは、あなたのカード名に「アドルフ」を含むキャラがいないなら、手札からプレイできない。【カウンター】あなたは自分の《改造》のキャラを1枚選び、そのターン中、パワーを＋3500し、ソウルを＋1。</Ability>
+</Card>

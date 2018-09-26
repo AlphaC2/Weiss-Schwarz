@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-101</ID>
+    <Name>代理マスター</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>セイバー、聖杯を手に入れて。あなたと、あなたのマスターのために</FlavourText>
+    <Ability>【永】このカードの正面のキャラのソウルを＋1。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>HOMUNCULUS</Trait>
+        <Trait>ALCHEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

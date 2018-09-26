@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-05</ID>
+    <Name>稀有なる資質</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>誰かに期待しちゃだめだ。考えるんだ。今俺にできる、最善のことを！</FlavourText>
+    <Ability>【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SUMMER</Trait>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

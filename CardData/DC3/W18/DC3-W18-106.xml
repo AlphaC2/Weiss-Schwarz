@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-106</ID>
+    <Name>ちび葵</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10143.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さあ、清隆さん。清隆さんは一体誰が一番好きなんですか？</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの、《メイド》か《ウェイトレス》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NEWS</Trait>
+        <Trait>WAITRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

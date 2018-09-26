@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W15-046</ID>
+    <Name>アサヒハルカの呪い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……私の手、…昨夜からおかしいんだ…</FlavourText>
+    <Ability>このカードは、あなたのカード名に「ルチア」を含むキャラがいないなら、手札からプレイできない。相手のキャラすべてに、そのターン中、パワーを-1500。</Ability>
+</Card>

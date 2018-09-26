@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-SP03-03</ID>
+    <Name>片太刀鋏武滾流猛怒</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/killpset/10003.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いくぜ！片太刀鋏武滾流猛怒！</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋4000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の、「流子の一張羅鮮血」か「“人衣一体”鮮血」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「因縁の戦い」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

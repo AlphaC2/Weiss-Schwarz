@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-027</ID>
+    <Name>たどり着いた答</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10036.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だったら…カッコ良くなるしかないデス</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを-1。【永】他のあなたの「たどり着いた答調」1枚につき、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ふたりのユニゾン」があるなら、あなたはそのキャラをクロック置場に置いてよい。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

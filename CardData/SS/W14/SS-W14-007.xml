@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-007</ID>
+    <Name>吉田</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10032.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>出来る、大丈夫、言える……</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分のレベル1のキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

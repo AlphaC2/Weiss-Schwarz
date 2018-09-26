@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-P10</ID>
+    <Name>“朝の挨拶”クド</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10151.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ぐっどもーにんぐなのです！</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の《動物》のキャラを2枚まで選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

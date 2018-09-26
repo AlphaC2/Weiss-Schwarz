@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>APO-S53-095</ID>
+    <Name>恐慌呼び起こせし魔笛</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>散れっ！</FlavourText>
+    <Ability>このカードは、あなたのカード名に「黒のライダー」を含むキャラがいないなら、手札からプレイできない。あなたは自分の手札を1枚選び、控え室に置いてよい。そうしたら、相手のキャラすべてに、そのターン中、パワーを-1500。</Ability>
+</Card>

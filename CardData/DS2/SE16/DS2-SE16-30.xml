@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-30</ID>
+    <Name>“憂う者”アルコル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10061.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヤマト、君が進もうとしている道は……真っ暗だよ？</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のカード名に「ヤマト」を含むキャラを1枚選び、そのターン中、パワーを＋1500。【自】このカードがアタックした時、あなたは他の自分のカード名に「ヒビキ」を含むキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>SEPTENTRION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

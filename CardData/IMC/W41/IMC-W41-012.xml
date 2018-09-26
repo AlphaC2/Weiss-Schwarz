@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-012</ID>
+    <Name>凸レーション</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10107.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いーっぱい集まってくれて、すっごく嬉しい！</FlavourText>
+    <Ability>【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「LET’SGOHAPPY!!」があるなら、あなたは自分の控え室のカードを1枚まで選び、山札に戻し、その山札をシャッフルする。【自】このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GYARU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

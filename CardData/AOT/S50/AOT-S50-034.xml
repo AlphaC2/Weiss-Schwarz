@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-034</ID>
+    <Name>“自由を掴むため”エルヴィン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10037.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……私の代わりはいる！それよりエレンを連れて離脱しろ！……一刻も早く！</FlavourText>
+    <Ability>【永】他のあなたの《兵団》のキャラ1枚につき、このカードのパワーを＋500。【自】［(1)手札の《兵団》のキャラを1枚控え室に置く］あなたのターンの終わりに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>CORPS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-042</ID>
+    <Name>無口なゆうレイ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ごあんなーい……</FlavourText>
+    <Ability>【永】他のあなたの前列の「明るいユウれいユウちゃん」1枚につき、このカードのパワーを＋1000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>FEEBLE_JOKE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

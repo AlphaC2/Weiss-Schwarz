@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-021</ID>
+    <Name>雨の日の帰り道</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ハルヒ「もっとこっちに寄せなさいよ、あたしが濡れるでしょ」</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの前列のキャラが3枚以上なら、手札からプレイできない。あなたのキャラすべてに、そのターン中、パワーを＋2500。</Ability>
+</Card>

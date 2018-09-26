@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-009</ID>
+    <Name>現場監督</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>むむむ、ちょっとギリギリで作りすぎたか…。もう少し余裕がないと危ないのだなぁ</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの黄のキャラ1枚につき、このカードのパワーを＋1000。【永】このカードは相手の効果に選ばれない。【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

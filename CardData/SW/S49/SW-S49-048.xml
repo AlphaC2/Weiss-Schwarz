@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-048</ID>
+    <Name>Cantina</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>FigrinD’anandtheModalNodes</FlavourText>
+    <Ability>このカードは、あなたの緑のキャラが2枚以下なら、手札からプレイできない。あなたは自分の控え室の緑のキャラを1枚選び、ストック置場に置いてよい。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードをストック置場に置く。</Ability>
+</Card>

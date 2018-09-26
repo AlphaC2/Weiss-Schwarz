@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VA-WPR-P05</ID>
+    <Name>“炎のグラフィッカー”Na-Ga</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10014.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おぉっ！ペンタブさえあれば1人力じゃわいっ！</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、このカードをクロック置場に置く。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>VISUAL_ARTS</Trait>
+        <Trait>SHADOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

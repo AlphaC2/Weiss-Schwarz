@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-S06-046</ID>
+    <Name>食通夫婦</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>利家「われら二人を邪魔するものは！」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1500し、《愛》を与える。</Ability>
+</Card>

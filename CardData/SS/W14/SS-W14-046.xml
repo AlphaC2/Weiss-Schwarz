@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-046</ID>
+    <Name>紅蓮の双翼</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10071.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうしてだろう……身体が動く。……それに何だか……熱い！</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「何でもできる」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

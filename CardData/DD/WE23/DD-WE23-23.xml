@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DD-WE23-23</ID>
+    <Name>獅子姫の見合い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10045.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>………</FlavourText>
+    <Ability>【カウンター】このカードは、あなたのストックが6枚以上なら、手札からプレイできない。あなたは自分の山札を上から4枚まで見て、《動物》か《勇者》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-084</ID>
+    <Name>“ちいさな魔王”宇田川あこ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おねーちゃんは世界一カッコイイドラマーだよ!!並みのドラマーなわけないよっ</FlavourText>
+    <Ability>【永】アタックフェイズ中、あなたは自分のカードの効果で自分の控え室のキャラを手札に戻せない。【自】あなたがレベルアップした時、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROSELIA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

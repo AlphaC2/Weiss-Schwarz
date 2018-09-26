@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-023</ID>
+    <Name>御崎高校の生徒</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お互いがんばろうね、シャナちゃん</FlavourText>
+    <Ability>【永】経験あなたのターン中、あなたのレベル置場のカードのレベルの合計が3以上なら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

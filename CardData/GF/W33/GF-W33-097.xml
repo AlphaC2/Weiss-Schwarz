@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-097</ID>
+    <Name>タペストリ?優木苗</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10123.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…凄いけど、やっぱり絵日記っぽい？ えぇ〜</FlavourText>
+    <Ability>【永】他のあなたの「海辺の迷子時谷小瑠璃」すべてに、パワーを＋2000。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-016</ID>
+    <Name>風見鶏の学園長</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10058.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ええ。ここだけの秘密だから、みんなには内緒ね？</FlavourText>
+    <Ability>【永】あなたのストックが3枚以下なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

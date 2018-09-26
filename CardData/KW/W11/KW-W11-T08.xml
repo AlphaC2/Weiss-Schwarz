@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-T08</ID>
+    <Name>科学部の部長</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10009.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>名乗ってなかったわね。併設校３年。科学部部長、氷室よ</FlavourText>
+    <Ability>【起】［あなたのキャラを2枚【レスト】する］次の相手のターンの終わりまで、このカードのパワーを＋１000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

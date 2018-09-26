@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-017</ID>
+    <Name>チャーミングヴィーナス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>うわーっ！この衣装、ピカピカでキラキラで、きれいかもーっ！</FlavourText>
+    <Ability>【自】記憶このカードが手札から舞台に置かれた時、あなたの思い出置場に「LUCKYRABBIT」があるなら、そのターン中、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

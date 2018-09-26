@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-112</ID>
+    <Name>お正月ハルヒ&amp;長門&amp;みくる</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10146.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハルヒ「勝負ね！とぉっ！」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、あなたのキャラすべての持つ異なる特徴1つにつき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>SOS_BRIGADE</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

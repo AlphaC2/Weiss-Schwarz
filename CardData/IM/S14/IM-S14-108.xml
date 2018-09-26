@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-108</ID>
+    <Name>新たなる挑戦!</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10004.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>律子「アニメの方も、しっかりチェックしてくださいね！」</FlavourText>
+    <Ability>【起】[(2)このカードを【レスト】する]あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TELEVISION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

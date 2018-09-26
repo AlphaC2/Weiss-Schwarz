@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-41</ID>
+    <Name>駆逐棲姫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10081.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヤラセハ…シナイ…ヨ……ッ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。【自】あなたのクライマックス置場に「オチロッ！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《深海棲艦》のキャラなら、そのターン中、このカードのパワーを＋5000。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>PRINCESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

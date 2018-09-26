@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-090</ID>
+    <Name>死の美学</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10120.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そうです！その通りです！さすがリュウノスケ！</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「運命の悪戯」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見てレベル0以下のキャラを1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

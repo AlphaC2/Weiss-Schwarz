@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-031</ID>
+    <Name>“フォーミュラスーツ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10032.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はやてさん！動かないで、そのままで</FlavourText>
+    <Ability>【自】このカードがフロントアタックされた時、このカードを控え室に置く。（バトル相手がいなくなってもダイレクトアタックにはならない）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>FORMULA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

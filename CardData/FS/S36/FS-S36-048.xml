@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-048</ID>
+    <Name>“ロンドンへの誘い”凛</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10048.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私と一緒に行ってくれる？</FlavourText>
+    <Ability>【永】他のあなたのカード名に「凛」か「アーチャー」を含むキャラが3枚以上なら、このカードのパワーを＋1000。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「いたずらな微笑み」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-003</ID>
+    <Name>たこ焼き大好き</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10029.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここは『実戦は実戦で学べ』がモットーやしな</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。【自】バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>MERCHANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

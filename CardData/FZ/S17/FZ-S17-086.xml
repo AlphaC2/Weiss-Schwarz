@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-086</ID>
+    <Name>内なる虚無</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>認めよう。確かに私は空虚な人間だ</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《マスター》のキャラすべてに、パワーを＋1000。【自】チェンジ［(4)手札のクライマックスを1枚控え室に置き、このカードを控え室に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「言峰綺礼」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>VOID</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

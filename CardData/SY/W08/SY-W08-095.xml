@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-095</ID>
+    <Name>しおりの伝言</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10126.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>このカードは、あなたの《宇宙人》のキャラがいないなら、手札からプレイできない。あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。あなたは自分のクロックの上から1枚を、控え室に置いてよい。このカードを思い出にする。</Ability>
+</Card>

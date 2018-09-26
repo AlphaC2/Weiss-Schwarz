@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-062</ID>
+    <Name>新歓</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お昼しか勧誘できないんでは、天文部のアピールは難しいですよねー…妙案がある？　それってなんですかぁ？</FlavourText>
+    <Ability>【永】このカードは、あなたの《ガール》のキャラが2枚以下なら、手札からプレイできない。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

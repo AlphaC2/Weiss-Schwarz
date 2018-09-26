@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-018</ID>
+    <Name>無理を通して道理を蹴っ飛ばす!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>それが俺達、グレン団のやり方だろうが！</FlavourText>
+    <Ability>【自】このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>SUNGLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

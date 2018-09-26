@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-044</ID>
+    <Name>“クリスマスデート”南</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>クリスマスといえばー、クリスマスケーキだよね♪　今年はどんなケーキにしようかな？</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「口溶けスイーツ♪」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「素敵な初夢」か「その場しのぎ」を1枚選び、手札に戻し、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-SE05-21</ID>
+    <Name>“若き猛将”真田</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10042.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お館様！この幸村、必ずやお館様のご期待に応えてみせまする！</FlavourText>
+    <Ability>【自】絆／「“甲斐の虎”武田信玄」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“甲斐の虎”武田信玄」を1枚選び、手札に戻す）【起】［あなたのキャラを2枚【レスト】する］そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>HACHIMAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

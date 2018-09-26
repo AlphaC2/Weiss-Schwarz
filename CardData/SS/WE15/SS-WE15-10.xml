@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-10</ID>
+    <Name>“ペルソナ”装着</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10019.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ヴィルヘルミナ「まただ……また、私は拒まれて……」ティアマトー「使命、消失」</FlavourText>
+    <Ability>【永】他のあなたのカード名に「シャナ」を含むキャラがいるなら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

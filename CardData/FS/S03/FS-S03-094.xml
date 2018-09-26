@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-094</ID>
+    <Name>仲良し三人組</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>三枝「おいしいね」蒔寺「私はたいやきでもよかったんだけどな」</FlavourText>
+    <Ability>あなたは自分のクロックを3枚まで選び、控え室に置く。このカードを思い出にする。</Ability>
+</Card>

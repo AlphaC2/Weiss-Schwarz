@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-014</ID>
+    <Name>紫</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10015.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シャケおにぎり、おいし……</FlavourText>
+    <Ability>【起】［(3)］あなたはレベル1以下の相手の前列のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

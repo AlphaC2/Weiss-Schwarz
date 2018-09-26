@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GL-S52-084</ID>
+    <Name>コアドリル</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10110.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>集中このカードは、あなたの《大グレン団》のキャラがいないなら、手札からプレイできない。あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《大グレン団》のキャラを1枚選び、手札に戻し、自分のキャラを1枚選び、そのターン中、パワーを＋3000。Ｘはそれらのカードの《大グレン団》のキャラの枚数に等しい。</Ability>
+</Card>

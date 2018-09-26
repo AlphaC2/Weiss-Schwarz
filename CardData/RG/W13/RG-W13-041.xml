@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W13-041</ID>
+    <Name>鉄装</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10070.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>もうすぐ完全下校時刻ですよ！</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあるなら、あなたの《超能力》のキャラすべてに、次の能力を与える。『【起】［(1)］そのターン中、このカードのパワーを＋2000。』</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

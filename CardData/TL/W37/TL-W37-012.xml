@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-012</ID>
+    <Name>“ドキドキバスタイム”芽亜</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だから……仲良くしよ(記号：ハート)って事</FlavourText>
+    <Ability>【永】他のあなたの、《変身》か《家事》のキャラが3枚以上なら、このカードのパワーを＋1500し、このカードは相手のキャラの【自】の効果によって【リバース】されない。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

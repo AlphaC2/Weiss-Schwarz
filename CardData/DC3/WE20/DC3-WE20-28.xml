@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-WE20-28</ID>
+    <Name>可愛い部長</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcsakuraext/10056.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あるのは努力を続ける才能。これも立派な才能だからね。しかも、何をするにも役に立つ最強の才能</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの《スポーツ》のキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【自】あなたのアタックフェイズの始めに、あなたは自分の【レスト】している《スポーツ》のキャラを1枚選び、【スタンド】してよい。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

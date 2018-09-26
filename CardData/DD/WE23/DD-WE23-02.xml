@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DD-WE23-02</ID>
+    <Name>パスティヤージュの勇者</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ただいま、クー様</FlavourText>
+    <Ability>【永】あなたのクロック置場に「愛され領主クーベル」があるなら、あなたの手札のこのカードのレベルを-1。【自】このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「魔神結晶」があるなら、相手に1ダメージを与え、このカードを思い出にし、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「パスティヤージュの勇者レベッカ」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋3500。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>HERO</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

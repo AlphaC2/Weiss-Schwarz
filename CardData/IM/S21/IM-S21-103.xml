@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S21-103</ID>
+    <Name>夢をあきらめない涼</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animeim/10145.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>僕が、こうして、男の子アイドルとして、 最高の舞台に立てたように……君も！</FlavourText>
+    <Ability>【自】［(2)］このカードがアタックした時、クライマックス置場に「DazzlingWorld」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、思い出にする。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FEMALE_OUTFIT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

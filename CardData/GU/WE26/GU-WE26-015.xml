@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-015</ID>
+    <Name>お嬢様!?ゲーム</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10029.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>みんながメイドさんになったところで、あれにしましょ</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「苦しゅうない、面をあげい」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードがカード名に「シャロ」か「千夜」を含むキャラなら、あなたは相手のキャラを1枚選び、そのターン中、パワーを-4000。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>AMA_USA_AN</Trait>
+        <Trait>WAGASHI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

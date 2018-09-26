@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-037</ID>
+    <Name>“大好物”鈴</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それは・・・のりたま！？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の後列のカード名に「真人」を含むキャラを1枚選び、ストック置場に置いてよい。【起】［あなたの《動物》のキャラを1枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

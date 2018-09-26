@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-087</ID>
+    <Name>“再襲”鎧の巨人</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10097.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ミカサ「エレンの攻撃も……私の刃も効かなかった……」</FlavourText>
+    <Ability>【永】このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。【自】【CXコンボ】［(1)］このカードがアタックした時、クライマックス置場に「交戦」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】このカードの正面のキャラのソウルを-2。』【自】相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>TITAN</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

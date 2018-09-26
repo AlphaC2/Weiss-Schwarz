@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-T03</ID>
+    <Name>“ムードメーカー”小毬</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなでいっぱい食べちゃってくださいっ</FlavourText>
+    <Ability>【永】応援あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。【起】［手札のクライマックスを1枚控え室に置く］あなたは相手の前列のコスト0以下のキャラを1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>FAIRY_TALE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

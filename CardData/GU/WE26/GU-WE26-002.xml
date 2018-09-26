@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-002</ID>
+    <Name>照れ笑い</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>しょうがないわね</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚と控え室のカード名に「シャロ」か「千夜」を含むキャラを1枚を選び、入れ替えてよい。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>フルール・ド・ラパン</Trait>
+        <Trait>特待生</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

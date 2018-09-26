@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-029</ID>
+    <Name>女子制服</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10057.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なぜ私がこんな格好を……</FlavourText>
+    <Ability>【永】他のあなたの、《武器》か《令嬢》のキャラ1枚につき、このカードのパワーを＋500。【自】［(1)］このカードがアタックした時、クライマックス置場に「“密室空間”」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《武器》か《令嬢》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

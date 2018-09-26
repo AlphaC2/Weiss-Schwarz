@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-24</ID>
+    <Name>マーロ国の王女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10048.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>名探偵シャーロック！いえ、名名名名名名名名名名探偵シャーロック！あなたに不可能はありません！</FlavourText>
+    <Ability>【永】他のあなたの《探偵》のキャラすべてに、《除湿機》を与える。【自】［(1)］相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のカード名に「シャロ」を含むキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替える。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

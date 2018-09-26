@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-090</ID>
+    <Name>“スキンヘッド型”テラフォーマー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】相手のクライマックス置場にクライマックスがあるなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋X。Xはあなたのカード名に「テラフォーマー」を含むキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

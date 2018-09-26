@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RN-W16-096</ID>
+    <Name>「あねもね」号集団失神事件</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10122.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>この発作は生まれつきのものじゃない。今から８年前に起きた、とある事故の後遺症</FlavourText>
+    <Ability>このカードは、あなたの《科学》のキャラがいないなら、手札からプレイできない。あなたは相手のレベル3以下のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。</Ability>
+</Card>

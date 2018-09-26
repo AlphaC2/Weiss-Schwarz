@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-061</ID>
+    <Name>人工知能</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10062.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キリエ、本当にいいの？危険な旅なのよ</FlavourText>
+    <Ability>【自】【CXコンボ】［(1)］このカードがアタックした時、クライマックス置場に「残酷な言葉」があり、他のあなたの《フォーミュラ》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フォーミュラ》かカード名に「ユーリ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、相手の【スタンド】しているキャラすべてを、【レスト】し、そのターン中、このカードのパワーを＋1000。【自】相手の【スタンド】しているキャラが【レスト】した時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>FORMULA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

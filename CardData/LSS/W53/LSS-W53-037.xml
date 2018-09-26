@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W53-037</ID>
+    <Name>“MY舞☆TONIGHT”高海千歌</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10072.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。【自】【CXコンボ】［(4)手札を1枚控え室に置く］このカードのアタックの終わりに、クライマックス置場に「みんなと挑むステージ」があり、このカードの下のカード名に「MY舞☆TONIGHT」を含む表向きのマーカーが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「“MY舞☆TONIGHT”国木田花丸」を1枚までと「“MY舞☆TONIGHT”津島善子」を1枚までと「“MY舞☆TONIGHT”小原鞠莉」を1枚までと「“MY舞☆TONIGHT”松浦果南」を1枚まで選び、舞台のキャラのいない別々の枠に置く。【自】ターンの終わりに、あなたはこのカードの下のマーカーをすべて控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

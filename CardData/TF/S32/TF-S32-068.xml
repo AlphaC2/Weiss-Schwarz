@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-068</ID>
+    <Name>“アネックス1号の乗組員”柳瀬川</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10093.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それっぽっちで大和撫子を買収できるとでも？これだから貧困系男子は…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、相手は自分の手札を公開してよい。そうしたら、それらのカードにクライマックスがあるなら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

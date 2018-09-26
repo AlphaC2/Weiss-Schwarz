@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC3-W18-066</ID>
+    <Name>年越しキス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10108.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>じゃ、じゃあ……改めて、もう一度、キス……しましょ？</FlavourText>
+    <Ability>あなたは自分の控え室の《生徒会》のキャラを1枚選び、手札に戻す。あなたは自分の控え室の「年越しキス」を1枚選び、思い出にする。このカードを思い出にする。</Ability>
+</Card>

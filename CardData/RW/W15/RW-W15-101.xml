@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-101</ID>
+    <Name>木陰で憩う小鳥</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10018.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うん、もちろんだよ。森は庭みたいなものだもの</FlavourText>
+    <Ability>【自】このカードがアタックした時、他のあなたの《オカルト》のキャラが2枚以上なら、あなたのキャラすべてに、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>PLANT</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

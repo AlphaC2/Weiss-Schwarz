@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-017</ID>
+    <Name>“スキル習得の誘い”クリス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>君、役に立つスキルが欲しいみたいだね。盗賊系のスキルなんてどうかな？</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの「“危険察知”ダクネス」すべてに、パワーを＋2000。【自】絆／「“危険察知”ダクネス」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“危険察知”ダクネス」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>ROGUE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

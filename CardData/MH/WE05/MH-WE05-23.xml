@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE05-23</ID>
+    <Name>藤野</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext2.0/10027.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ええのよ。他ならぬなつきの頼みやからね……</FlavourText>
+    <Ability>【永】他のあなたの「玖我なつき」がいないなら、このカードはアタックできない。【永】相手のターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>ELEMENT</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

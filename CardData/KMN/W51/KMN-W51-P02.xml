@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-P02</ID>
+    <Name>はじめての料理</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10028.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText/>
+    <Ability/>
+    <Character>
+        <Power>6000</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-SE05-08</ID>
+    <Name>“豊臣の軍師”竹中</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10015.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>君もきっと心酔するよ。彼の、圧倒的な“強さ”にね――</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【起】［このカードを【レスト】する］あなたは自分のレベル3以上のキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

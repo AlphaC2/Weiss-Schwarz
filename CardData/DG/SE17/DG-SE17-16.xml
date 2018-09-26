@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-16</ID>
+    <Name>“ピンチリバイバル”ピュアフロン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10031.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ピュアフロンの天使技『ラブ・ネゴシエーション』で、悪魔のみなさんを説得してみせましょう！</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1500。【自】このカードが控え室から舞台に置かれた時、あなたは自分の控え室の《天使》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】アンコール［あなたの山札の上から1枚をクロック置場に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ANGEL</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

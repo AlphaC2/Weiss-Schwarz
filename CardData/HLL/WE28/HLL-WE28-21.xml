@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-21</ID>
+    <Name>お花見</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10041.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>面倒なんでおかず全部入れてもらったっす</FlavourText>
+    <Ability>【永】他のあなたのマーカーを持つキャラがいるなら、このカードのパワーを＋4500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

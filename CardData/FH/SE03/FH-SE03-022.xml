@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-022</ID>
+    <Name>水着のセラ&amp;リズ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10044.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>セラ「……ふん。私たちは必要以上に肌をさらしませんから」</FlavourText>
+    <Ability>【起】［あなたの《マスター》のキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MAID</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

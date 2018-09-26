@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-024</ID>
+    <Name>“フォートレスモード”なのは</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10025.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>無理でもなんでも…物わかり良く諦めちゃうと後悔するから</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《魔法》か《武器》なら、このカードのパワーを＋1000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ツインブレイカー」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-063</ID>
+    <Name>M45</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『死角ゼロの全方位迎撃！一度間合いに入った獲物は、決して逃がさないのだァ！』</FlavourText>
+    <Ability>【永】他のあなたの「ミスター・プレアデス」すべてに、パワーを＋1000。【自】絆／「ミスター・プレアデス」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ミスター・プレアデス」を1枚選び、手札に戻す)</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

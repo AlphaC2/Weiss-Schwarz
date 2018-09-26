@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S21-050</ID>
+    <Name>生っすか!?</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animeim/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あがめたてまつりなさいっ！</FlavourText>
+    <Ability>【起】［(3)あなたの舞台のレベル2以上のキャラを1枚とこのカードを控え室に置く］あなたは自分の山札を見て「全員集合！765プロ」を3枚まで選び、前列の別々の枠に置き、自分の控え室の「全員集合！765プロ」を3枚まで選び、前列の別々の枠に置く。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

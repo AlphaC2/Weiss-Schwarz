@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-055</ID>
+    <Name>“叛逆者”赤のバーサーカー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10082.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>すべての、圧制者に、ことごとく、死を与えよう！</FlavourText>
+    <Ability>【永】舞台のこのカードのレベルを-2。【自】このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋4000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MUSCLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

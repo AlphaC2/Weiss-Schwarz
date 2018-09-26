@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-010</ID>
+    <Name>約束を胸に</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10010.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>キリト「信じて、待っててくれ、アスナ」</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「流星の約束アスナ」があるなら、このカードのパワーを＋5000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

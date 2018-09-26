@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-005</ID>
+    <Name>おめでとうの会</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ナワバリはまだ決まってないですが、これから探そうと思います</FlavourText>
+    <Ability>【永】記憶思い出置場にこのカードがあるなら、すべてのプレイヤーはそれぞれの相手のキャラの【自】の効果による1以下のダメージを受けない。【自】［(1)あなたの山札の上から1枚をクロック置場に置く］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、あなたのレベルが2以下なら、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>HAT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

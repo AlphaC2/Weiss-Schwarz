@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-045</ID>
+    <Name>表現力レッスン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10076.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えっと、今度は怒って、今度は笑って…… ああもう、ワケわかんないのーっ！</FlavourText>
+    <Ability>あなたの手札があるなら、あなたは自分の手札をランダムに1枚選び公開し、あなたのキャラすべてに、パワーを＋X。Xは公開されたカードのレベル×1500に等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-063</ID>
+    <Name>HM-A06型</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10068.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>美夏はな、義之……人間とロボットをつなぐ懸け橋になりたいのだ</FlavourText>
+    <Ability>【永】他の《バナナ》のあなたのキャラがいるなら、このカードのパワーを＋1500。【起】［(2)このカードを【レスト】する］あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MECHA</Trait>
+        <Trait>BANANA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

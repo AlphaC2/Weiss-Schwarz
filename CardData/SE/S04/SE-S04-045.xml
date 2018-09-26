@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-045</ID>
+    <Name>追いかけっこ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ファークリン「やだーっ！　やだーっ！」</FlavourText>
+    <Ability>【カウンター】あなたは自分のフロントアタックされているキャラを1枚選び、ストック置場に置く。このカードをストック置場に置く。</Ability>
+</Card>

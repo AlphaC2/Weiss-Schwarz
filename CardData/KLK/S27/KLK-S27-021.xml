@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-021</ID>
+    <Name>繭星降誕を謀る羅暁</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10048.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>皐月は所詮、生命戦維を着る器ではなかったということだ</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは自分の「凄まじい気迫皐月」の下のマーカーを1枚このカードの下にマーカーとして置いてよい。【自】［(1)］このカードがアタックした時、クライマックス置場に「神羅纐纈、絶対服従！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《服》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>CEO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

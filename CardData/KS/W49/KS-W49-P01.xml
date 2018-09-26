@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-P01</ID>
+    <Name>“旅路の途中”ダクネス</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10026.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ガンガン前に出るので盾代わりにこき使って欲しい！</FlavourText>
+    <Ability>【永】 このカードはサイドアタックできない。【永】 あなたのクロックが3枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>WORRRIES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

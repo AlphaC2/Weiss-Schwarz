@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-023</ID>
+    <Name>やんちゃな性格</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あんにゃろーそんなんが通るかいまから行って張り倒してやらあ</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』【自】共鳴［(1)手札の「ハリーと仲良し？エルス」を1枚公開する］このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MELEE</Trait>
+        <Trait>DELINQUENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

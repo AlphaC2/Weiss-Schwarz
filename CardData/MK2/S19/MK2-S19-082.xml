@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-082</ID>
+    <Name>素敵なお姉さん</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10108.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>みんなの、素敵な、お花畑ー♪</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《探偵》のキャラが2枚以上なら、このカードのパワーを＋2000。【自】このカードがアタックした時、クライマックス置場に「コーデリアの筋書き」があるなら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置き、そのターン中、このカードのパワーを＋1000。【自】このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-072</ID>
+    <Name>クリムゾンパレス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10109.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アダム「データ照会します。 東方、フィアガルム山の火口に浮かぶ、魔族の要塞」</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの《悪魔》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋2500。</Ability>
+</Card>

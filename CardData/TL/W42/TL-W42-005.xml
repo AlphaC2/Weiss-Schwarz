@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-005</ID>
+    <Name>“ミニスカメイド服”ネメシス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>メア…</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。【自】共鳴［(1)手札の「“ネコミミモード”ネメシス」を1枚公開する］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《変身》か《だんご》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>DANGO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

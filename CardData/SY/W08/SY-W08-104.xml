@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-104</ID>
+    <Name>好奇心ハルヒ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10132.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ただの人間には興味ありません</FlavourText>
+    <Ability>【永】このカードの正面のキャラが特徴を持たないなら、このカードは次の能力を得る。『【永】このカードはフロントアタックできない。』（サイドアタックできる）【自】このカードがフロントアタックされた時、このカードの正面のキャラが特徴を持たないなら、あなたはこのカードを手札に戻してよい。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>BRIGADE_CHIEF</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

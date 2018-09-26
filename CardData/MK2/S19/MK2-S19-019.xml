@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-019</ID>
+    <Name>“TKB”二十里</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>まずは、プリントを、みんなで、レッツ・Ｏ・Ｎ・ＤＯ・ＫＵ！！</FlavourText>
+    <Ability>【自】［あなたの【スタンド】しているキャラを1枚【レスト】する］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>THIEF</Trait>
+        <Trait>NARCISSIST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

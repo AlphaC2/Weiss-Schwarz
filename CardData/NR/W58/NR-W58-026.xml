@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-026</ID>
+    <Name>ヴァリアントザッパー</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10027.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あなたはそうやっていろんな事を諦めてきたんですね</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】【CXコンボ】［(1)］このカードがアタックした時、クライマックス置場に「救済の魔法使い」があり、あなたのキャラすべてが《フォーミュラ》なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋5000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>FORMULA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-022</ID>
+    <Name>ふたりの幸せ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10064.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わたしの幸せそうな顔を見たら、いいって言うに決まってます♪</FlavourText>
+    <Ability>【永】相手のストックが4枚以上なら、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

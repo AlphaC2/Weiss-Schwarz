@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-WE21-08</ID>
+    <Name>あなたといるから</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbcmext/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お風呂に行きましょ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたのクロックが2枚以下なら、あなたは自分の山札の上から1枚を、クロック置場に置く。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

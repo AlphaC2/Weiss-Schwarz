@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-065</ID>
+    <Name>“巧みな謀略”ダース・ベイダー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まだまだ驚かせてやる</FlavourText>
+    <Ability>【永】あなたのキャラすべてが赤なら、このカードのパワーを＋2000。【自】フォース［手札の赤のキャラを1枚控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚と、そのキャラ以外の相手のレベル0以下のキャラを1枚選び、それぞれを【スタンド】して入れ替える。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>EMPIRE_STRIKES_BACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

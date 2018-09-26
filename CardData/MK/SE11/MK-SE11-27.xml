@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE11-27</ID>
+    <Name>トランス系アイドル</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext2.0/10054.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おらーみんなーIQってるーーー？</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードは《警察》を得る。【自】このカードがアタックした時、クライマックス置場に「ココロノエデン」があるなら、あなたは自分の控え室の「正義の“警察官”小衣」を1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TELEVISION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-34</ID>
+    <Name>かわいらしい日々</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10067.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>主様が興味がありそうなことはリサーチしていますから</FlavourText>
+    <Ability>【永】他のあなたのカード名に「弥生」か「華凛」か「華恋」を含むキャラすべてに、パワーを＋500。【自】［このカードを控え室に置く］他のあなたのキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>NINJA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-04</ID>
+    <Name>重巡ネ級</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10007.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】バトル中のこのカードが【リバース】した時、相手はあなたの控え室のキャラを1枚選び、山札の上に置いてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>HEAVY_CRUISER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

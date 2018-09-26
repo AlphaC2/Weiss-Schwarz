@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-007</ID>
+    <Name>“魔王の妹”お市</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>頑張るから…見ててね長政さま…</FlavourText>
+    <Ability>【永】あなたのターン中、あなたの控え室に「“信義不倒”浅井長政」があるなら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SHADOW</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

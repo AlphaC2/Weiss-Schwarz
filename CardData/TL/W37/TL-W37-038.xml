@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-038</ID>
+    <Name>“ちょっと後悔?”唯</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10067.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>「マジカルキョーコいつも見てます」って…言えば良かったかな</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1500。【自】あなたのクライマックス置場に「ドキドキボイス」が置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。【自】このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>JUDGEMENT</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

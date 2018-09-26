@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-095</ID>
+    <Name>快楽殺人鬼</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10125.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やっちまェ青髭の旦那！</FlavourText>
+    <Ability>【自】他のあなたか相手の、バトル中のキャラが【リバース】した時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>DEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

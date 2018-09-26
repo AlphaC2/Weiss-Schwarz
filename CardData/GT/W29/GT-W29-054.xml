@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-054</ID>
+    <Name>朝日に輝く</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だからこそ、お互いのことをもっと知りたいし仲良くなりたい……</FlavourText>
+    <Ability>【起】［(1)手札のクライマックスを1枚控え室に置く］あなたは自分の控え室の《タロット》のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>FORTUNE_READING</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

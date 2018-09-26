@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-104</ID>
+    <Name>“たわむれバトル”ちみ超大型巨人</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ハンジ「人類の仇そのものだ！」</FlavourText>
+    <Ability>【永】アタックフェイズ中、あなたは自分のカードの効果で自分の控え室のキャラを手札に戻せない。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>TITAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-027</ID>
+    <Name>“受け止めたい思い”青葉モカ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10059.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>モカ「『冷たいコンクリート　打ちつける情熱（パトス）』……?」</FlavourText>
+    <Ability>【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「ThatIsHowIRoll!」があるなら、あなたは相手の山札を上から2枚まで見てカードを2枚まで選び、控え室に置き、残りのカードを山札の上に好きな順番で置き、自分の山札を上から2枚まで見てカードを2枚まで選び、控え室に置き、残りのカードを山札の上に好きな順番で置く。【自】このカードが手札から舞台に置かれたターン中、アンコールステップの始めに、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

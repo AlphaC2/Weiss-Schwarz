@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S11-010</ID>
+    <Name>ナルシスト</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10036.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>怪盗は、きっと、ボクのようにマーベラスにビューティフル！</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。【起】【カウンター】助太刀2000レベル1［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>THIEF</Trait>
+        <Trait>NARCISSIST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

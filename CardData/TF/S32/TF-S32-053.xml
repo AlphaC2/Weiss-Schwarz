@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-053</ID>
+    <Name>“火星への旅立ち”膝丸</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10078.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>生物としてその匂いに引き寄せられてしまうのはいけないことでしょぉーか！？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは相手の【スタンド】しているキャラを1枚選び、【レスト】してよい。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

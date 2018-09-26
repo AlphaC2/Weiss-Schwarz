@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-083</ID>
+    <Name>あそぶの大好き!</Name>
+    <Rarity>FR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あそんでくれるヒト、大ぼしゅう！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×500に等しい。【自】共鳴［手札の「あそぶの大好き！イロワケイルカ」を1枚公開する］あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

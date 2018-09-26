@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-WE24-29</ID>
+    <Name>女性シンガー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesimext/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>それを考えたら、答えはとても簡単だったよ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「穂乃果」を含むキャラすべてに、パワーを＋1000。【自】［(1)あなたの【スタンド】している《音楽》のキャラを2枚【レスト】する］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「穂乃果」を含むキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

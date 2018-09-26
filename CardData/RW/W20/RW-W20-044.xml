@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-044</ID>
+    <Name>“一緒に歩く道”ちはや</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10049.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>………ただいま、でした。それと…行ってきます</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、クロック置場に置く。【自】このカードがアタックした時、クライマックス置場に「守るべき人」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

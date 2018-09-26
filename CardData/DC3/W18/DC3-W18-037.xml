@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC3-W18-037</ID>
+    <Name>愛する恋人のために</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10079.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>清隆「サラさんの代わりに、俺がクリサリスの名をもう一度世に知らしめる、そんな魔法使いになりますから」</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、【スタンド】する。あなたは自分の《スポーツ》のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S36-027</ID>
+    <Name>理想の末路</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>士郎「決して！間違いなんかじゃないんだから…！」</FlavourText>
+    <Ability>あなたは自分のカード名に「士郎」を含むキャラを1枚選び、そのターン中、パワーを＋5000。このカードをストック置場に置く。</Ability>
+</Card>

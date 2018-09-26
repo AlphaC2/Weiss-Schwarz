@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-063</ID>
+    <Name>嬉し気な仕草</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>へへへ</FlavourText>
+    <Ability>【永】あなたのストックが3枚以下なら、このカードのパワーを＋1500。【永】このカードの正面のキャラに、『【自】アンコール［あなたの山札の上から1枚をクロック置場に置く］』を与える。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

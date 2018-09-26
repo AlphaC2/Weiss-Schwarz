@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W15-097</ID>
+    <Name>ほんの少しのお別れ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10129.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>静流「コタロー…、大好きだ…。誰よりも、何よりも、コタローが大好きだ…」</FlavourText>
+    <Ability>あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。</Ability>
+</Card>

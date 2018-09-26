@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-008</ID>
+    <Name>“信義不倒”浅井</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10028.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>この花に誓い、必ずや辿り着こう！</FlavourText>
+    <Ability>【自】このカードとバトル中のキャラが【リバース】した時、あなたは自分の山札を見てカード名に「お市」を含むキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>HERO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-25</ID>
+    <Name>一刀両断</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10049.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お豆腐買って帰らなきゃ…</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたのストックが3枚以上なら、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>FAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

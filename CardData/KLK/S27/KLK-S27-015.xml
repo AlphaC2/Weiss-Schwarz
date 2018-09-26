@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-015</ID>
+    <Name>満艦飾家に居候</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10042.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>マコ「ぼやぼやしてないで食べる！」</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「いただきまーす！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《服》か《家族》のキャラなら、あなたのキャラすべてに、そのターン中、パワーを＋2000。（公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

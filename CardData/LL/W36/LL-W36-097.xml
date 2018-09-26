@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LL-W36-097</ID>
+    <Name>今年は大吉!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10137.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はっ、はっ……　冬は走ってると、息が白くなるのが面白いにゃー</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラが2枚以下なら、手札からプレイできない。あなたは相手のコスト1以下のキャラを1枚選び、山札の下に置く。このカードを思い出にする。</Ability>
+</Card>

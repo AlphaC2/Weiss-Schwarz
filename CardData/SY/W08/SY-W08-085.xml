@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-085</ID>
+    <Name>ビーチバレー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>問題ない。そちらに追い込む</FlavourText>
+    <Ability>【自】［(1)］あなたがこのカードの『助太刀』を使った時、あなたの《団長》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。【起】【カウンター】助太刀1500レベル1［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

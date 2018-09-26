@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-036</ID>
+    <Name>ウェイトレス鶴屋さん</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>どうだいっ。この衣装めがっさ似合ってると思わないかなっ？</FlavourText>
+    <Ability>【永】他のあなたの《時間》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードがアタックした時、クライマックス置場に「もうボロ儲けだよっ！」があるなら、あなたは相手のキャラを1枚選び、そのターン中、パワーを-X。Xはあなたの《時間》のキャラの枚数×1000に等しい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FOREHEAD</Trait>
+        <Trait>WAITRESS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

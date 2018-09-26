@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-012</ID>
+    <Name>一方通行</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>さァて問題です。学園都市最強の超能力者と言えば、誰でしょーか？</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】あなたのクライマックス置場に「学園都市最強の敵」が置かれた時、このカードの下にマーカーがないなら、あなたは自分の控え室の「妹達」を3枚まで選び、このカードの下にマーカーとして裏向きに置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>ESPER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

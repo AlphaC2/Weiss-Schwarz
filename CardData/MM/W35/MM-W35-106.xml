@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-106</ID>
+    <Name>SDさやか</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10109.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>まあなに？人生経験ってやつですか</FlavourText>
+    <Ability>【永】他のあなたの「SD杏子」すべてに、パワーを＋2000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

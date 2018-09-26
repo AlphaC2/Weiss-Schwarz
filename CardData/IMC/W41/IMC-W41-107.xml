@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IMC-W41-107</ID>
+    <Name>封印されし魔導書</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10202.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私は･･･魂を同じくする下部達と尊い祝祭を上げる･･･</FlavourText>
+    <Ability>あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。あなたは自分の青のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

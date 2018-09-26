@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-020</ID>
+    <Name>演技力レッスン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>兄ちゃん、亜美達、わかったよ！ これが演技力の極意なんだね！</FlavourText>
+    <Ability>あなたの手札があるなら、あなたは自分の手札をランダムに1枚選び公開し、自分のキャラをX枚まで選び、そのターン中、パワーを＋1000し、ソウルを＋2。Xは公開されたカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

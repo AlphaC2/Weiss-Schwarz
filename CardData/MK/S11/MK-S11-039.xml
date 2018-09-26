@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S11-039</ID>
+    <Name>マイペース</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10070.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あんた心配性だねー？ハゲるよー？</FlavourText>
+    <Ability>【起】［(2)］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>POLICE</Trait>
+        <Trait>HEADPHONES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

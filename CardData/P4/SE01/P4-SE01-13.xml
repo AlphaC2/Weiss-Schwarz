@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE01-13</ID>
+    <Name>天城</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/p4ext/10013.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よし、怯んだ！仕掛けるよ！</FlavourText>
+    <Ability>【自】［(1)］あなたのクライマックス置場に「突撃逆ナン大作戦」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「雪子＆コノハナサクヤ」を1枚選び、手札に戻す。【起】［このカードを【レスト】する］あなたは自分のカード名に「千枝」を含むキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FAN</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

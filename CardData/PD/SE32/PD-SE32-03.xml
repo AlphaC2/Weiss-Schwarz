@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-03</ID>
+    <Name>鏡音リン“アストレイ”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>正しいのがどれか悩んでいりゃどれも不正解というオチでした</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ロストワンの号哭」があるなら、あなたは自分の山札の上から2枚を、公開し、山札の下に好きな順番で置き、あなたは自分の控え室の《音楽》のキャラを1枚まで選び、手札に戻す。この効果で公開されたカードにクライマックスがあるなら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

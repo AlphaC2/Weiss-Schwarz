@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-T17</ID>
+    <Name>“オオスズメバチ”小町</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10018.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>―「最も危険な野生動物」は…“熊”でも“鮫”でもない“蜂”である―</FlavourText>
+    <Ability>【永】他のあなたの《改造》のキャラが2枚以上なら、このカードのパワーを＋2000。【永】このカードの正面のキャラのソウルを-1。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

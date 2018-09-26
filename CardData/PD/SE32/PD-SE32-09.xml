@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>PD-SE32-09</ID>
+    <Name>聖槍爆裂ボーイ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>Maximuminsertなう。Areyouready?　愛撫ハニー　指噛み</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、【スタンド】し、自分の控え室のキャラを1枚選び、山札の下に置き、このカードをストックに置く。</Ability>
+</Card>

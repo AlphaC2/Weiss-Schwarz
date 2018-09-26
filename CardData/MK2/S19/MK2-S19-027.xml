@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-027</ID>
+    <Name>対怪盗事件捜査チーム</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>G3「ヨコハマ警察、ジーニアス３です！」</FlavourText>
+    <Ability>【永】他のあなたのカード名に「対怪盗事件捜査チーム」を含むキャラがいるなら、このカードのパワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［(2)］あなたのクライマックス置場に「G3の休日」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場のレベル2以下のキャラを1枚選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>POLICE</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

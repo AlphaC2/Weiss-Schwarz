@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-045</ID>
+    <Name>江坂</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10077.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>って何故かぁああああぁぁあぁーーっ！</FlavourText>
+    <Ability>【永】相手のキャラが4枚以上なら、このカードのパワーを＋1000。【永】あなたの控え室のクライマックスが4枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>FEEBLE_JOKE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

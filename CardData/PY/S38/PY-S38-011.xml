@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-011</ID>
+    <Name>ハイテンション</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふぃーーーーっしゅ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、相手は0か1か2か3を宣言する。あなたは自分の山札の上から1枚を公開し、そのカードが相手の宣言したレベルのキャラなら、舞台の好きな枠に置く。（そうでないなら元に戻す）【自】相手のクライマックスがクライマックス置場に置かれた時、あなたはこのカードをストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>DANCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

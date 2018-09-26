@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-T06</ID>
+    <Name>“唯我独尊”佐々美</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10012.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>宮沢様のほうがよっぽど素敵なんですからねっ</FlavourText>
+    <Ability>【永】このカードの正面のキャラのソウルを-1。【自】このカードとバトルしているキャラが【リバース】した時、あなたはそのキャラをストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>SPORTS</Trait>
+        <Soul>3</Soul>
+    </Character>
+</Card>

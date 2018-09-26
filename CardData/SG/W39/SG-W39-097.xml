@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W39-097</ID>
+    <Name>引き継がれる命</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10106.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>響「キャロル…ちゃん…」</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋4000。このカードを思い出にする。</Ability>
+</Card>

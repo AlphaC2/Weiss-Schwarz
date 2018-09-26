@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-066</ID>
+    <Name>“リトルバスターズ”恭介</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10098.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>理樹、おまえは少しもちっぽけなんかじゃない。おまえは自分がどれだけのことをしたか気がついてないんだ</FlavourText>
+    <Ability>【永】あなたの手札が5枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

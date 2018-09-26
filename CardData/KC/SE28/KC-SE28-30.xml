@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-30</ID>
+    <Name>南方棲鬼</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10059.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>イラッシャイ……カンゲイスルワネ…</FlavourText>
+    <Ability>【永】他のあなたの《深海棲艦》のキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>ONI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

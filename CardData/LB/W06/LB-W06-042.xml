@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-042</ID>
+    <Name>“比較される姉妹”葉留佳&amp;佳奈多</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>佳奈多「誰も誰かの代わりになんかなれない、か・・・」</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「BestShot！」が置かれた時、あなたは自分の、《ビー玉》のキャラと《委員長》のキャラを1枚ずつ選び、そのターン中、次の能力を与える。『【自】このカードとバトルしているレベル1以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』【起】［あなたの、《ビー玉》のキャラと《委員長》のキャラを1枚ずつ【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MARBLE</Trait>
+        <Trait>CHAIRMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-22</ID>
+    <Name>不良小学生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10043.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お前らのギガントを全部出しやがれ！</FlavourText>
+    <Ability>【起】［あなたのキャラを2枚【レスト】する］あなたは自分の《ギガント》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>DELINQUENT</Trait>
+        <Trait>GIGANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

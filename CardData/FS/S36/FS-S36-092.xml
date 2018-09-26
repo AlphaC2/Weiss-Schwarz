@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-092</ID>
+    <Name>“来客の訪れ”イリヤ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10092.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>士郎が来る…お母様がいたこの城に</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを-1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>HOMUNCULUS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

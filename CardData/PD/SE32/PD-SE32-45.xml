@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-45</ID>
+    <Name>KAITO“卑怯ブルー”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10093.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ああ　僕らの戦士「うろたんだー」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】【CXコンボ】［(3)］アンコールステップの始めに、あなたのクライマックス置場に「卑怯戦隊うろたんだー」があり、前列にこのカードがいて、他のあなたの、「初音ミク“卑怯グリーン”」と「ＭＥＩＫＯ“卑怯レッド”」と「鏡音リン“卑怯オレンジ”」と「鏡音レン“卑怯イエロー”」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、以下の効果のうちあなたが選んだ1つを行う。『相手に3ダメージを与える。』『相手に4ダメージを与える。』『相手に5ダメージを与える。』（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HERO(CS/PY)</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

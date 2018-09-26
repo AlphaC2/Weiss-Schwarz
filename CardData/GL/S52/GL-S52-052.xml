@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-052</ID>
+    <Name>螺旋王四天王</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アンタはもうお姫様じゃねぇんだよ！</FlavourText>
+    <Ability>【永】記憶あなたのターン中、あなたの思い出置場に「螺旋王四天王怒涛のチミルフ」があるなら、このカードのパワーを＋4000。【自】バトル中のこのカードが【リバース】した時、あなたの思い出が2枚以下なら、あなたはこのカードを思い出にしてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>BEASTMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

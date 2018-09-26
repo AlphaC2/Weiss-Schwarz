@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-066</ID>
+    <Name>“天驚動地”宮本</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おれたち有利！　おれさまのおかげだ！</FlavourText>
+    <Ability>【自】アラームこのカードがクロックの1番上にあるなら、あなたの《武器》のキャラすべてに、次の能力を与える。『【自】このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。』</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>OAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

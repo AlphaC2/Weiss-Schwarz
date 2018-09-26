@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-020</ID>
+    <Name>竜の羽衣</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10024.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>サイト「まちがいねえ…ゼロ戦だ…」</FlavourText>
+    <Ability>あなたは相手のレベル2以下のキャラを1枚選び、ストック置場に置く。</Ability>
+</Card>

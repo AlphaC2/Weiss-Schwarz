@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-012</ID>
+    <Name>幽鬼の支配者のマスター・ジョゼ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>消せ</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の《エレメント》のキャラを2枚まで選び、山札に戻す。その山札をシャッフルする。2枚戻したなら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

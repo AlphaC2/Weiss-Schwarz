@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-018</ID>
+    <Name>セルリアンハンター</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>もう一回りでかいのも倒したことあるぞ</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋3000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「セルリアンハンターリカオン」を1枚までと「セルリアンハンターキンシコウ」を1枚まで選び、このカードの下にマーカーとして好きな順番で裏向きに置く。【自】【CXコンボ】あなたのクライマックス置場に「ハンターの一撃」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

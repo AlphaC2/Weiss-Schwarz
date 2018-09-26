@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-056</ID>
+    <Name>姫百合の先輩</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10082.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シャーロック、離れなさいー!!</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「ヨーヨー刑事」があるなら、あなたは自分の控え室の「チューリップ組小衣」を1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋3000。【自】この能力は1ターンにつき1回まで発動する。あなたが『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>POLICE</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

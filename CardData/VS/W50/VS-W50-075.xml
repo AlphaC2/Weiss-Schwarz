@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-075</ID>
+    <Name>強さを求める</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10103.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>痛いのも苦しいのもあの日を思い出せば我慢出来た</FlavourText>
+    <Ability>【永】あなたのキャラすべてが《格闘》か《服》なら、このカードのパワーを＋2500し、このカードの正面のキャラに、次の能力を与える。『【永】このカードはサイドアタックできない。』【自】相手のターン中、このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

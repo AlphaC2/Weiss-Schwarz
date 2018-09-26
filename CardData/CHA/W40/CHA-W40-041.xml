@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-041</ID>
+    <Name>“脱出”乙坂</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ピザソースの恨み…晴らす！！</FlavourText>
+    <Ability>【永】他のあなたの《能力者》のキャラが2枚以上なら、このカードのパワーを＋1000。【起】［あなたのキャラを2枚【レスト】する］そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>PIZZA_SAUCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

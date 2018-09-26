@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-018</ID>
+    <Name>お姉ちゃん大好き</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10113.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お姉ちゃーん！</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの黄のキャラすべてに、パワーを＋1000。【自】絆／「頼れる先輩美嘉」[(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「頼れる先輩美嘉」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GYARU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

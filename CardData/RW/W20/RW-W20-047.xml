@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-047</ID>
+    <Name>“輝く青空の下で”ちはや</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10052.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>瑚太朗、こっちですよー</FlavourText>
+    <Ability>【自】チェンジ［(1)このカードをクロック置場に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“一緒に歩く道”ちはや」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KS-W49-028</ID>
+    <Name>フリーズ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10054.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>くっ!?ぬかった!!</FlavourText>
+    <Ability>あなたのレベルが2以下で相手のレベルが1以下なら、あなたは自分の手札を3枚選び、控え室に置いてよい。そうしたら、このカードをレベル置場に置き、あなたは追加の1ターンを得る。</Ability>
+</Card>

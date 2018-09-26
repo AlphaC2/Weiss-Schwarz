@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE03-005</ID>
+    <Name>アリカ・ユメミヤ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext1.0/10002.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>マシロちゃんは、私が絶対に守ってみせる！</FlavourText>
+    <Ability>【永】あなたのターン中、あなたのレベル置場に「マシロ・ブラン・ド・ヴィントブルーム」があるなら、このカードのパワーを＋2000。【自】このカードがアタックした時、クライマックス置場に「空を舞う乙女」があるなら、あなたは他の自分のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ELEMENT</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

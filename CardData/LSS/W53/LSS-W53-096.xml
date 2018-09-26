@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W53-096</ID>
+    <Name>少しの我慢</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10131.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ダイヤ「ハァ…。ルビィ…。」</FlavourText>
+    <Ability>このカードは、あなたのカード名に「ダイヤ」を含むキャラがいないなら、手札からプレイできない。あなたは自分の控え室の自分のレベル以下のレベルのカード名に「ルビィ」を含むキャラを1枚選び、舞台の好きな枠に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+</Card>

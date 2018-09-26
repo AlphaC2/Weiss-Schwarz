@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-051</ID>
+    <Name>“大正娘”高坂</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あなたのためだけの特別なおまんじゅう、作っちゃおうかな♪</FlavourText>
+    <Ability>【自】他のあなたのバトル中の《音楽》のキャラが【リバース】した時、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>UMBRELLA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

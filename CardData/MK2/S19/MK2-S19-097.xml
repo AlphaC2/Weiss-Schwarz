@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK2-S19-097</ID>
+    <Name>アルセーヌの帰還</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……あなたたちは、またわたくしを、主人と呼ぶのですか？</FlavourText>
+    <Ability>【カウンター】あなたは自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋4500。</Ability>
+</Card>

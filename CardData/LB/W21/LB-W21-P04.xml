@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-P04</ID>
+    <Name>“猫とひなたぼっこ”鈴</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10028.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お前、今日も手紙ないのか？</FlavourText>
+    <Ability>【永】応援あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

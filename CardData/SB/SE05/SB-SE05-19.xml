@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-SE05-19</ID>
+    <Name>まつのめし</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10038.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これが前田のまつ様の手料理にございまするか…</FlavourText>
+    <Ability>このカードは、あなたの《動物》のキャラがいないなら、手札からプレイできない。あなたは自分のクロック置場のキャラを1枚選び、手札に戻し、自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードをクロック置場に置く。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-059</ID>
+    <Name>強打者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>『ミウラ選手、一閃！リンネ選手を斬って落としました！』</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《格闘》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。【自】この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《格闘》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

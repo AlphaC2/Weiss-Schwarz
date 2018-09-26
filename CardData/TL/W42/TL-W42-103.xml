@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-103</ID>
+    <Name>ちびモモ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10103.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うふ(記号：ハート)ジョーダンですよぅ(記号：ハート)</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠の、《宇宙人》か《植物》のキャラに、パワーを＋1000し、次の能力を与える。『【永】このカードは相手のキャラの【自】の効果によって【リバース】されない。』</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

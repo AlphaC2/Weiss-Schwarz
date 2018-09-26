@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC-WE08-45</ID>
+    <Name>小川で遊ぼう!</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10074.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>環「ええ、とっても。気持ち良いですよ」</FlavourText>
+    <Ability>あなたは2枚まで引き、自分の手札を2枚選び、山札の上に置く。</Ability>
+</Card>

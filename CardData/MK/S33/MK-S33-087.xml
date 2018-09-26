@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-087</ID>
+    <Name>紫怪盗“バイオレット・シャドウ”</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>次の標的は裏切り者の怪盗子爵ビスコンテ、その一番大切なお宝を頂戴する！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの、《怪盗》かカード名に「アリス」を含むキャラすべてに、パワーを＋1500。【自】あなたのアンコールステップの始めに、クライマックス置場に「カラー・ザ・ファントム」があるなら、あなたは他の自分の、《怪盗》かカード名に「アリス」を含むキャラを2枚まで選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置き、そのターン中、それらのキャラのパワーを＋2000。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>THIEF</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

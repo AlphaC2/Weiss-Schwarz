@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-068</ID>
+    <Name>“いつかどこか”の篝</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10073.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>優しい言葉たちが俺たちを包む。数万人以上の言葉が、泡沫のように周囲に広がる</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「いっときの夢」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>TIME</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

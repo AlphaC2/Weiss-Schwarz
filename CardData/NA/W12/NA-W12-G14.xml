@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-G14</ID>
+    <Name>双子の使い魔</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10160.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>リーゼアリア 「幸いにも２対１！　ロッテ！コンビネーションで仕留めるよ！」リーゼロッテ 「おうともアリア！電光石火で、ブッとばすっ！！」</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分の《使い魔》のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>TWINS</Trait>
+        <Trait>FAMILIAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

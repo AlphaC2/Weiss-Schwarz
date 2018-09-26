@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-049</ID>
+    <Name>“猫の着信音”唯</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この着信音…結城君…！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】このカードがアタックした時、クライマックス置場に「魅惑ボイス」があるなら、そのターン中、このカードのパワーを＋Xし、相手は『助太刀』を手札からプレイできない。Xは他のあなたの、《動物》か《植物》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>JUDGEMENT</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

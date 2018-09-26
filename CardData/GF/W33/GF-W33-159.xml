@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>GF-W33-159</ID>
+    <Name>クールメイド</Name>
+    <Rarity>CR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10185.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>SOUL</Trigger>
+    <Trigger>PANTS</Trigger>
+    <FlavourText>それで、ご注文はどうしますか？</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（門＠：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）</Ability>
+</Card>

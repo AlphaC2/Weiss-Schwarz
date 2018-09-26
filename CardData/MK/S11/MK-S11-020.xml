@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S11-020</ID>
+    <Name>万能のトイズ?</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>僕のこと、そんなふうに考えてたんだ</FlavourText>
+    <Ability>【カウンター】あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋2500し、ソウルを＋1。</Ability>
+</Card>

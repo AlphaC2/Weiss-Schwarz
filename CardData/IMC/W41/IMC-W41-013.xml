@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-013</ID>
+    <Name>星</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10108.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シメジも一緒に行っていい？</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋2000。【起】［このカードを【レスト】する］あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>MUSHROOM</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

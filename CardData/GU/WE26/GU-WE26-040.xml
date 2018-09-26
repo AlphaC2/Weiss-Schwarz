@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-040</ID>
+    <Name>先輩ウェイトレス</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10079.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>むぅ……</FlavourText>
+    <Ability>【永】他のあなたの青のキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは他のキャラを1枚選び、そのターン中、レベルを＋2。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>COFFEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-008</ID>
+    <Name>生活感溢れる剣豪</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10034.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すまない。子供を預けてたら遅くなった…ッ！</FlavourText>
+    <Ability>【自】このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

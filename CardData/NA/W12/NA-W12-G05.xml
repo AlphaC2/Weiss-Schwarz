@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-G05</ID>
+    <Name>ストライクアーツ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10151.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ジェットステップ、ＧＯーーッ！</FlavourText>
+    <Ability>【自】相手のアタックフェイズの始めに、あなたはこのカードを正面に相手のキャラがいる、自分のキャラのいない枠に動かしてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>ODD_EYE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

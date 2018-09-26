@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-079</ID>
+    <Name>“散る桜の宿命”咲夜</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>任せておいてください。…兄弟</FlavourText>
+    <Ability>【自】［このカードを控え室に置く］他のあなたのキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。【起】［このカードを【レスト】する］あなたは自分のカード名に「ちはや」か「瑚太朗」を含むキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>FAMILIAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

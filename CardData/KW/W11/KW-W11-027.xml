@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-027</ID>
+    <Name>夢を追う女の子</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>すぺーすしゃとるだ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。（そうでないなら元に戻す。クライマックスのレベルは0として扱う）【自】このカードがアタックした時、クライマックス置場に「暴発事故」があるなら、あなたは他の自分のキャラを1枚まで選び、ストック置場に置き、自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

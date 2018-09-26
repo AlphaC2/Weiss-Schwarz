@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-SP03-04</ID>
+    <Name>“暴走”流子</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/killpset/10004.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ウウウウウウウウウウウウウウ！！</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】このカードが手札から舞台に置かれた時か「鮮血との出会い流子」の【自】の効果で舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラならストック置場に置く。（そうでないなら元に戻す）【自】バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

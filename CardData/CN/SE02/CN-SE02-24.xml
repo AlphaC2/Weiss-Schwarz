@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-24</ID>
+    <Name>アルファルド&amp;リャン・チー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10050.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>リャン・チー「そう…テロの時代はもう終わり、愛の時代ですお姉さま！」</FlavourText>
+    <Ability>【永】他のあなたの「テロリストアルファルド」がいるなら、このカードのパワーを＋1000。【永】他のあなたの《愛》のキャラがいるなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

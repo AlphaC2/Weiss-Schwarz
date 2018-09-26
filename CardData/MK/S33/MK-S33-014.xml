@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-014</ID>
+    <Name>ロンドン観光</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>小林、テレビ見てたかなー</FlavourText>
+    <Ability>【自】［(1)手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《お菓子》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。【自】このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋X。Xはそのキャラのソウル×1000に等しい</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

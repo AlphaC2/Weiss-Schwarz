@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SAO-S51-068</ID>
+    <Name>かつての強敵</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10068.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キリト「第十層ボスモンスター、《カガチ・ザ・サムライロード》！」アスナ「強敵だよ……」</FlavourText>
+    <Ability>相手に4ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+</Card>

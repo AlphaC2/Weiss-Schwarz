@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-052</ID>
+    <Name>美少女ヒロイン</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10087.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>うふふふふ……♪アミタリリ伝説の幕開けよ！</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「いつかラ・ヴァースになる！」が置かれた時、前列にこのカードがいるなら、あなたは自分の控え室のコスト1以下の《動物》のキャラを1枚まで選び、手札に戻すか、舞台の好きな枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

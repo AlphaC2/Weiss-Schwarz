@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-045</ID>
+    <Name>“きよしこの夜”園田</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私がサンタに、ですか？　……行事をより楽しむためにも、事前に調べておく必要がありそうですね</FlavourText>
+    <Ability>【永】経験あなたのレベル置場に「“Happymaker!”園田海未」があるなら、このカードのパワーを＋1500。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「秘めた想い」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

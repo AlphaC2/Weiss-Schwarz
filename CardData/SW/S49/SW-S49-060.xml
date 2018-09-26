@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-060</ID>
+    <Name>“悪に染まりし者”ダース・ベイダー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私がやる。援護しろ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Youarebeaten.」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NEW_HOPE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

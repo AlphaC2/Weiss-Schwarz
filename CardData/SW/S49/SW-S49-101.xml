@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-101</ID>
+    <Name>オビ=ワン・ケノービ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10126.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お前がもしも私を打ち倒しても、私はお前が想像できないほどの力を得ることになるのだ</FlavourText>
+    <Ability>【永】他のあなたの青のキャラが3枚以上なら、このカードのパワーを＋1000。【永】このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。【自】フォース［手札の青のキャラを1枚控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚と、そのキャラ以外の相手のレベル1以下のキャラを1枚選び、それぞれを【スタンド】して入れ替える。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NEW_HOPE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

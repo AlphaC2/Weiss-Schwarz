@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KW-W11-046</ID>
+    <Name>ランニング</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>では五千の半分、二千五百からはじめましょう</FlavourText>
+    <Ability>このカードを思い出にする。記憶思い出置場にこのカードがあるなら、あなたのカード名に「クド」を含むキャラすべてに、パワーを＋500。</Ability>
+</Card>

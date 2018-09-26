@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE05-13</ID>
+    <Name>ハルカ&amp;アリカ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext2.0/10013.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハルカ「アリカちゃん、オトメに必要なものは？」アリカ「はい！力と技と、根性です！」</FlavourText>
+    <Ability>【永】他のあなたの《エレメント》のキャラが2枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>ELEMENT</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

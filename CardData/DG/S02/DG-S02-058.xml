@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-058</ID>
+    <Name>“キザな悪魔</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10069.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ラハール「お前の名前なんか、どうでもいい。ただの『中ボス』で十分だ」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【自】バトルしているこのカードが【リバース】した時、あなたはこのカードを山札に戻してよい。そうしたら、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

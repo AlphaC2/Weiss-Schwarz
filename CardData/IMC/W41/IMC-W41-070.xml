@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IMC-W41-070</ID>
+    <Name>スタミナドリンク</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10165.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ちひろ「毎晩遅くまで大変ですね」</FlavourText>
+    <Ability>【カウンター】以下の効果のうちあなたが選んだ1つを行う。『あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋3500。』『あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。』『あなたは自分の山札を見て「エナジードリンク」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。』</Ability>
+</Card>

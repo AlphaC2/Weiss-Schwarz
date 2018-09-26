@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S14-072</ID>
+    <Name>クインテットライブ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10103.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>響「もう時間なのに、まだ２人が来ないぞー！」春香「あれ？美希も居なくなってる！？ど、どうしましょう、プロデューサーさん！」</FlavourText>
+    <Ability>集中あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードにクライマックスがあるなら、あなたは自分の控え室のコスト1以下の『応援』を持つキャラを2枚まで選び、舞台の別々の枠に置く。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE29-23</ID>
+    <Name>ナウい装備</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhmovie/10045.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>午後7時12分、確保なう</FlavourText>
+    <Ability>【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、他のあなたの《警察》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>POLICE</Trait>
+        <Trait>HEADPHONES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

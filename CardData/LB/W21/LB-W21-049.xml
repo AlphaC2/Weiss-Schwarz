@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-049</ID>
+    <Name>“心からの信頼”葉留佳</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ありがとう理樹君…はるちんはずっとずぅぅーっと、応援してるからね！</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、パワーを＋500。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはあなたの『応援』を持つキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MARBLE</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

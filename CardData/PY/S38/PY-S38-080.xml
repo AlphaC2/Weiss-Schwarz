@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-080</ID>
+    <Name>いつからか左目と左手がヘン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10104.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それより、ムシがきになる…</FlavourText>
+    <Ability>【永】他のあなたの《ぷよ》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】このカードがアタックした時、クライマックス置場に「かったのか」があるなら、そのターン中、このカードのパワーを＋2000。【自】このカードがアタックした時、クライマックス置場に「かったのか」があるなら、あなたは相手のキャラを1枚とそのキャラの特徴を1つ選び、そのターン中、そのキャラはその特徴をすべて失う。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

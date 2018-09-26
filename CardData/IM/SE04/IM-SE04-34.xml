@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-SE04-34</ID>
+    <Name>ネットアイドルCINERIA</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imd/10069.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>エヘヘヘヘッ、アタシはいっつもELLIEセンパイの味方デスヨ♪</FlavourText>
+    <Ability>【自】絆／「マルチアーティスト絵理」［あなたの山札の上から1枚をクロック置場に置く］(このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「マルチアーティスト絵理」を1枚選び、手札に戻す)</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>OTAKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W25-057</ID>
+    <Name>一心同体</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm2/10057.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】記憶相手のターン中、あなたの思い出置場の、《魔法》かカード名に「はやて」を含むキャラが2枚以上なら、このカードのパワーを＋2000。【自】［(1)あなたの【スタンド】している《魔法》のキャラを2枚【レスト】する］このカードがアタックした時、クライマックス置場に「石化の槍ミストルティン」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、あなたは相手のレベル3以下のキャラを2枚まで選ぶ。それらのキャラは次の相手のスタンドフェイズに【スタンド】しない。【自】このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

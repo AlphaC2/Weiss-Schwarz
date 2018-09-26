@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W15-T10</ID>
+    <Name>学園の魔女</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ようこそジプシー、我が神秘の部屋に</FlavourText>
+    <Ability>集中あなたは自分のキャラを1枚選び、そのターン中、パワーを＋5000。相手は1か2か3を宣言する。あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードの《オカルト》のキャラの枚数が相手の宣言した数と同じなら、あなたは1枚引く。</Ability>
+</Card>

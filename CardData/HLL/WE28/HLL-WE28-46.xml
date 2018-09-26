@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-46</ID>
+    <Name>一番を目指して</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10091.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さあ、早速トレーニングを始めますわよ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。【自】このカードがアタックした時、他のあなたの【スタンド】しているキャラすべてを、【レスト】する。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

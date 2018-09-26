@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-018</ID>
+    <Name>レティシア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……ああ……</FlavourText>
+    <Ability>【永】あなたのレベルが3以上なら、このカードの正面のキャラのソウルを-1。【起】［このカードを山札の下に置く］あなたは自分の手札の自分のレベル以下のレベルの「“我が神はここにありて”ルーラー」を1枚まで選び、舞台の好きな枠に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

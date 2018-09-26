@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-057</ID>
+    <Name>“保健室の天使”南</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ケガしちゃったんですか？ことりが絆創膏貼ってあげますね♪</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のカード名に「ことり」を含むキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>INFIRMARY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

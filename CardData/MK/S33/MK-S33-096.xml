@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>MK-S33-096</ID>
+    <Name>怪盗への誘い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10127.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>一緒に来るんだ、アリス。そして、怪盗になるんだ</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの控え室のクライマックスが1枚以下なら、手札からプレイできない。あなたは自分の山札を上から4枚まで見て、《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。</Ability>
+</Card>

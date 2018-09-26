@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-052</ID>
+    <Name>お手製弁当を持つ音夢と由夢</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10056.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>兄さん…これ、お弁当</FlavourText>
+    <Ability>【起】［(3)このカードを控え室に置く］あなたはレベル2以下の相手の前列のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BENTO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

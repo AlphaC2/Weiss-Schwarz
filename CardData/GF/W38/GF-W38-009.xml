@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-009</ID>
+    <Name>驚愕の音</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>我ながら酷い音が出たわ…自分の耳にも来るわね、キンキンいってる。…ところで、盛大にずっこけたみたいだけど、大丈夫？</FlavourText>
+    <Ability>【永】他のあなたの「文化祭天都かなた」すべてに、パワーを＋500し、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【自】絆／「文化祭天都かなた」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「文化祭天都かなた」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

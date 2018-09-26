@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE29-36</ID>
+    <Name>楽しい毎日</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext2.0/10071.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>卒業おめでとうですわ</FlavourText>
+    <Ability>【永】他のあなたの、《生徒会》かカード名に「夕子」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。【永】このカードはサイドアタックできない。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-057</ID>
+    <Name>幽鬼の支配者最強の男</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>やっと決着をつけれるな、火竜</FlavourText>
+    <Ability>【起】［(3)］あなたは自分の山札を見てクライマックスを1枚まで選び、控え室に置く。その山札をシャッフルする。1枚控え室に置いたなら、あなたは相手の前列のレベル2以下のキャラを1枚選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

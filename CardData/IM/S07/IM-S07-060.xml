@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-060</ID>
+    <Name>ドジっ娘</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>えへへ♪　床がメチャメチャ濡れてますけど、いまから、そっちに行きますね♪</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの『【自】アンコール［手札のキャラを1枚控え室に置く］』を持つキャラすべてに、パワーを＋1000。【自】【スタンド】しているこのカードが【レスト】した時、すべてのプレイヤーに、1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FZ-S17-050</ID>
+    <Name>令呪</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10080.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>令呪をもって命じる</FlavourText>
+    <Ability>【カウンター】あなたは自分の《サーヴァント》のキャラを1枚選び、そのターン中、パワーを＋4500。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-05</ID>
+    <Name>元マスター</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10009.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ルビー「お二人のケンカに巻き込まないで欲しいものですねー」</FlavourText>
+    <Ability>【永】他のあなたの「元マスター凛」1枚につき、このカードのパワーを＋1500し、このカードの正面のキャラのソウルを＋1。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>JEWEL</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

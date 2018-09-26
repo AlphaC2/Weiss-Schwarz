@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-101</ID>
+    <Name>誰かの悪戯</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10127.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…よいしょ、っと。大分綺麗になったし、もう少しやれば終わりそうだね〜…はい？ 私が泡まみれ？ え、どこどこ？…あららぁ、いつの間にこんなことに〜</FlavourText>
+    <Ability>【永】他のあなたのカード名に「砂夜」を含むキャラがいるなら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

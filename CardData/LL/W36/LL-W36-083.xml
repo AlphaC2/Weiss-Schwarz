@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LL-W36-083</ID>
+    <Name>“ゴシックガール”西木野</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キミが私の言うことを聞くなら、紅茶の一杯くらい持ってきてあげてもいいけど？</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《音楽》のキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは1枚引く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-01</ID>
+    <Name>ジャーナリスト</Name>
+    <Rarity>SP</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>マリア「この目で、それを見てしまうのは……痛すぎるし、辛すぎるから」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(1)このカードを【レスト】する］次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】相手のキャラすべてに、黄と緑と赤と青を与える。』</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>CAMERA</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

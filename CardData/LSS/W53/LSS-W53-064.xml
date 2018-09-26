@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W53-064</ID>
+    <Name>奇跡の大躍進</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>からのー敬礼！</FlavourText>
+    <Ability>あなたは自分の控え室の《音楽》のキャラを2枚まで選び、手札に戻し、自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

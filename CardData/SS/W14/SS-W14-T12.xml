@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SS-W14-T12</ID>
+    <Name>トーチとフレイムヘイズ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10012.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>悠二「ただのトーチなのに無理しすぎたかな…」シャナ「ただのなんて言わないで。お前は坂井悠二よ」</FlavourText>
+    <Ability>あなたは自分の山札を見て《炎》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-T06</ID>
+    <Name>三角関係?</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10006.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>そっ！そうよ、誰がこんな……！！</FlavourText>
+    <Ability>【永】他のあなたの、《鍵》か《武器》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>DAUGHTER</Trait>
+        <Trait>KEY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

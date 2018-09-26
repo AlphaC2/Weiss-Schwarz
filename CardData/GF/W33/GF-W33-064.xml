@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-064</ID>
+    <Name>品行方正</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>後はこれを… あ、持ってくれるの？ うん、ありがとう。じゃ、行こっか</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置く］このカードがアタックした時、クライマックス置場に赤のクライマックスがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の赤のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

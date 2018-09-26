@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-13</ID>
+    <Name>つかさを慕う</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10025.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まったく、つかささんからは目が離せませんよ</FlavourText>
+    <Ability>【永】他のあなたの《ギガント》のキャラすべてに、パワーを＋500。【起】集中［(2)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のクライマックスを1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>GLASSES</Trait>
+        <Trait>GIGANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

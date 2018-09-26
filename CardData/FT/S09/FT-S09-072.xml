@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FT-S09-072</ID>
+    <Name>ドラゴンの卵</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10105.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ナツ「見ろよ。この辺の模様とか竜の爪みてーだし」</FlavourText>
+    <Ability>あなたは自分の手札のクライマックスを1枚選び、控え室に置いてよい。そうしたら、あなたは自分の控え室のレベル2以下の『チェンジ』を持つキャラを1枚選び、舞台の好きな枠に置く。</Ability>
+</Card>

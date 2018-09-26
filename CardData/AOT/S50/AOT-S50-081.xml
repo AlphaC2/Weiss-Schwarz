@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AOT-S50-081</ID>
+    <Name>殺意の目</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>?</FlavourText>
+    <Ability>あなたは自分のカード名に「エレン」を含むキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋4500。</Ability>
+</Card>

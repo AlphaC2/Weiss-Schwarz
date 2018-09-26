@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-010</ID>
+    <Name>子供の世界</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>そんな……</FlavourText>
+    <Ability>【永】あなたのターン中、このカードが《音楽》を持つなら、他のあなたのキャラすべてに、パワーを＋2000。【自】他のあなたのキャラのバトル相手が【リバース】した時、あなたのキャラすべてに、そのターン中、《音楽》を与える。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T71</ID>
+    <Name>“ハッピー革命!”弦巻こころ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10363.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ここは、ふんふんふーん♪……がいいわ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】【CXコンボ】あなたのクライマックス置場に「えがおのオーケストラっ！」が置かれた時、前列にこのカードがいるなら、あなたは自分の《ハロー、ハッピーワールド！》のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1し、次の能力を与える。『【自】この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

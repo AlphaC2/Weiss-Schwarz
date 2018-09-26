@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-02</ID>
+    <Name>異世界への興味</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10003.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>近くに何かいるっすね！</FlavourText>
+    <Ability>【永】あなたのターン中、あなたのキャラすべてが《定理者》か《使者》なら、このカードのパワーを＋2000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「“ゲートアクセス!!トリトミー!”」があるなら、あなたは自分の控え室の、《定理者》か《使者》のキャラか「万博の発明品」を1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>FOREIGNER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

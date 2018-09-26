@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-051</ID>
+    <Name>小さくても力持ち</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10077.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>神代さん……っ、せめて……っ、少しは歩こうとして……っ</FlavourText>
+    <Ability>【永】他のあなたの《科学》のキャラすべてに、パワーを＋1000。【永】経験あなたのレベル置場のカードのレベルの合計が4以上なら、このカードは次の能力を得る。『【起】［あなたのキャラを2枚【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

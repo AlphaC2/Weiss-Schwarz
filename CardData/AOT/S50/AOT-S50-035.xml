@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-035</ID>
+    <Name>“お掃除”リヴァイ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10038.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>できそうかどうかじゃねえだろ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】あなたのクライマックスフェイズの始めに、あなたは自分の《兵団》のキャラを1枚選び、そのターン中、パワーを＋500し、そのキャラが「“運命への抗い”リヴァイ」なら、そのターン中、そのキャラに次の能力を与える。『【永】このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>CORPS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

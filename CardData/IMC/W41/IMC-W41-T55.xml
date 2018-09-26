@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IMC-W41-T55</ID>
+    <Name>ハナコ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10072.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【カウンター】あなたは自分のクロックの上から1枚を、控え室に置いてよい。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードを思い出にする。</Ability>
+</Card>

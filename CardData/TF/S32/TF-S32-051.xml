@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-051</ID>
+    <Name>“アネックス1号の乗組員”アレックス</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10076.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>テストにゃ出ないぜっ！</FlavourText>
+    <Ability>【永】他のあなたの《改造》のキャラすべてに、パワーを＋500。【起】集中［(1)］あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは相手の前列のコスト0以下のキャラを1枚まで選び、控え室に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

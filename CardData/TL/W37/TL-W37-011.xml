@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-011</ID>
+    <Name>“明日につながる記憶”ヤミ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10040.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>少しだけ――…昔話をしましょうか</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの、《変身》か《家事》のキャラすべてに、パワーを＋500し、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【自】あなたのクライマックス置場に「たいやきのキーホルダー」が置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>TAIYAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

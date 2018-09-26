@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-078</ID>
+    <Name>月火ちゃんの同級生</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10113.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そ、その……</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(1)このカードを【レスト】する］あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>ODDITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

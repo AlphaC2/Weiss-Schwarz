@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-042</ID>
+    <Name>“真実の人”ウェル</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>久方振りの聖遺物…この味は、甘く蕩けてクセになるぅぅぅぅぅ…</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋4000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の、「ガングニール」か「イチイバル」か「天羽々斬」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

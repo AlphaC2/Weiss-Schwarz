@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-006</ID>
+    <Name>最優の騎士</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お取り込み中、失礼するよ</FlavourText>
+    <Ability>【永】あなたのターン中、あなたのキャラすべてが《魔法》か《武器》か《商人》なら、このカードのパワーを＋2000。【永】他のあなたの、《魔法》か《武器》か《商人》のキャラが3枚以上なら、このカードのパワーを＋500し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>KNIGHT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

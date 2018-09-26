@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-055</ID>
+    <Name>魔王の家来エトナ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10065.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>はい、殿下。このエトナもお供させていただきまーす</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「魔王ゼノン倒される！！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《プリニー》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。【起】［(1)］あなたは自分の《プリニー》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードが【リバース】した時、このカードとバトルしているキャラのレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

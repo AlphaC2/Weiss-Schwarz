@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-SP03-02</ID>
+    <Name>“人衣一体”鮮血</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/killpset/10002.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いくぞ！流子ぉおお！！</FlavourText>
+    <Ability>【永】他のあなたの、《服》か《家族》のキャラすべてに、パワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を見てよい。そうしたら、あなたはそのカードをこのカードの下にマーカーとして裏向きに置く。【起】［このカードの下のマーカーを1枚控え室に置く］あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>BLOOD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

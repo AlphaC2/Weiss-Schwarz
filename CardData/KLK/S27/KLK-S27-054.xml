@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-054</ID>
+    <Name>気持ちは一緒!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だって鮮血ちゃん着てるのは、一番好きだからでしょう！？</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1500し、このカードは《服》を得る。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「流子の一張羅鮮血」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FAMILY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

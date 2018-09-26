@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-030</ID>
+    <Name>竜宮小町</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さあ、兄ちゃん！　今日もガンガンギンギンいくＹＯ→！</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「ポジティブ！」が置かれた時、前列にこのカードがいるなら、あなたの前列の《音楽》のキャラすべてに、そのターン中、次の2つの能力を与える。『【永】このカードはサイドアタックできない。』『【自】このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

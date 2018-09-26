@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-017</ID>
+    <Name>感謝の証</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>アンタに、これあげるわ。……きょ、今日は特別なんだからね！勘違いしないでよ！？</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの思い出置場に「衣装変更」があるなら、あなたは自分のバトルしているキャラを1枚選び、そのターン中、パワーを＋1000。【起】【カウンター】助太刀1500レベル1［(1)手札のこのカードを控え室に置く］（あなたはフロントアタックされている自分のキャラを1枚選び、そのターン中、パワーを＋1500）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>DOLL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

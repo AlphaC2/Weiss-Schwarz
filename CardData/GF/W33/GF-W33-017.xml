@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-017</ID>
+    <Name>節分大会</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんか最近、このあたしがイベントに、参加させられてる率が高い気ガス</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの黄のキャラ1枚につき、このカードのパワーを＋500。【自】［(1)］このカードがアタックした時、クライマックス置場に「頭を使え」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-103</ID>
+    <Name>うわさの幽霊!?</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10018.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>やっと、見つけてくれましたね</FlavourText>
+    <Ability>【永】このカードは相手の効果に選ばれない。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

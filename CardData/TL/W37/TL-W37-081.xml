@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TL-W37-081</ID>
+    <Name>楽園計画</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10110.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>創りましょう…！リトさんの“楽園”を</FlavourText>
+    <Ability>あなたは自分の控え室の《宇宙人》のキャラを2枚まで選び、手札に戻す。このカードをクロック置場に置く。</Ability>
+</Card>

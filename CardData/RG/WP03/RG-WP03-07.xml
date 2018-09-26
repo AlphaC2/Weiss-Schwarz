@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-WP03-07</ID>
+    <Name>“ただそれだけ”美琴</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/irspset/10007.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この子達は私の妹だから、ただそれだけよ</FlavourText>
+    <Ability>【永】あなたのクロック置場に「夏の楽しみ黒子」があるなら、あなたの手札のこのカードのレベルを-1。【自】［手札のキャラを1枚控え室に置く］あなたのクライマックス置場に「超電磁砲」が置かれた時、前列にこのカードがいて、他のあなたの《超能力》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、控え室に置き、自分の山札の上から1枚を公開する。そのカードが特徴を持たないか《超能力》のキャラなら、あなたは相手の後列のレベル2以下のキャラを1枚選び、控え室に置く。【自】相手のターン中、あなたの受けたダメージがキャンセルされなかった時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>ESPER</Trait>
+        <Trait>FROG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

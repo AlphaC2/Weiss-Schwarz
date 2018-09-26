@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DC-WE08-82</ID>
+    <Name>悪魔の手のひらの上で</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10110.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>小恋「あああああああああああっ！！」義之「いやぁぁぁぁぁぁぁぁあっ！！」渉「うがあああああああああっ！！」ななか「きゃぁぁぁぁあぁあああっ！！」</FlavourText>
+    <Ability>あなたは自分の、《音楽》か《お菓子》のキャラを1枚選び、クロック置場に置く。そうしたら、あなたはそのカード以外の自分のクロック置場の、《音楽》か《お菓子》のキャラを1枚選び、手札に戻す。あなたは自分の山札を見てコスト0以下の、《音楽》か《お菓子》のキャラを1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。</Ability>
+</Card>

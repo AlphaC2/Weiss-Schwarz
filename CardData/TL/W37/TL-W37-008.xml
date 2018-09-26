@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-008</ID>
+    <Name>“また、今までのように”ヤミ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ええ…厄介ですよ、この彩南は…</FlavourText>
+    <Ability>【自】このカードが控え室から舞台に置かれた時、そのターン中、このカードのソウルを＋1。【自】チェンジ［このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“リト抹殺指令”ヤミ」を1枚選び、このカードがいた枠に置く。（クライマックスフェイズの始めにこのカードがいないなら発動しない）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>TAIYAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

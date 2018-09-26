@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-18</ID>
+    <Name>呆れるエトナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あーあ、ヘンなスイッチ入っちゃってますよ。どうします？　殿下</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】しているキャラを2枚選び、【レスト】する。</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

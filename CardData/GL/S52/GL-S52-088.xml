@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CLIMAX</Type>
+    <ID>GL-S52-088</ID>
+    <Name>俺のドリルは!天を創るドリルだァ!!!!</Name>
+    <Rarity>CC</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10114.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>DOOR</Trigger>
+    <FlavourText>倒れていった者の願いと、後から続く者の希望。二つの想いを、二重螺旋に織り込んで…明日へと続く道を掘る！それが天元突破！！それがグレンラガン！！！</FlavourText>
+    <Ability>【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）</Ability>
+</Card>

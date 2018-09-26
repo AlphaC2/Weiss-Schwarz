@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-048</ID>
+    <Name>宣戦布告!</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…またゆっくり話をきかせてもらうぜ、鬼龍院皐月！</FlavourText>
+    <Ability>【永】他のあなたの《服》のキャラすべてに、パワーを＋1000。【自】このカードが手札から舞台に置かれた時、このカードを【レスト】する。【自】あなたのクライマックス置場に「因縁の戦い」が置かれた時、前列にこのカードがいるなら、このカードを【スタンド】し、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-100</ID>
+    <Name>お花見</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10126.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>今日は、裏の庭の方ですよ。…この辺りの何本かが、桜です。まあ、見ればわかりますよね〜</FlavourText>
+    <Ability>【永】他のあなたのカード名に「五十鈴」を含むキャラがいるなら、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>GIRL</Trait>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

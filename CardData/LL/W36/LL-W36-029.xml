@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LL-W36-029</ID>
+    <Name>福娘ここにあり</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>寒くても、それを口にはしないの。なぜならにこは、誇り高きアイドルだから☆</FlavourText>
+    <Ability>あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。このカードをストック置場に置く。</Ability>
+</Card>

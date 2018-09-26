@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-016</ID>
+    <Name>“すてきなこと”小毬</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>絵本をかこう。野球もしよう。あまいもの食べて、小次郎おじいちゃんにも会いに行こう</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>FAIRY_TALE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

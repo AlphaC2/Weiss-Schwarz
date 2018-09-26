@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-05</ID>
+    <Name>天界からの贈り物</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>こうなったら、奥の手を出すんだから</FlavourText>
+    <Ability>【自】［このカードをストック置場に置く］あなたの「新魔王誕生」がクライマックス置場から控え室に置かれた時、相手の前列のキャラがいないなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“魔王”シシリー」を1枚選び、このカードがいた枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>ANGEL</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

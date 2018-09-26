@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-096</ID>
+    <Name>歌詞レッスン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10133.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これ、本当にいい歌詞ですねー。 あ、歌詞といえば、昨日もらったお菓子なんですけどー</FlavourText>
+    <Ability>あなたの手札があるなら、あなたは自分の手札をランダムに1枚選び公開し、X枚引く。Xは公開されたカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

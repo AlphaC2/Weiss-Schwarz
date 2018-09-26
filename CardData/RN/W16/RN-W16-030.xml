@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-030</ID>
+    <Name>初めての対戦</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あー、惜しかった……やりますね、海翔くん</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、他のあなたの《科学》のキャラが3枚以上なら、あなたはこのカードをストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

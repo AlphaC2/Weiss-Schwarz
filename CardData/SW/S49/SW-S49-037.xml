@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-037</ID>
+    <Name>ボバ・フェット</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10060.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ソロ船長を積荷倉庫に運び込め</FlavourText>
+    <Ability>【永】他のあなたのレベル3以上のキャラがいるなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】【CXコンボ】［(2)手札を1枚控え室に置く］あなたのクライマックス置場に「Bountyhunter」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の2つの能力を得る。『【永】このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>EMPIRE_STRIKES_BACK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

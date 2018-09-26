@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-014</ID>
+    <Name>“アネックス1号の乗組員”エレナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10039.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……女は、恋をすべきよ、どんなときでもね…</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋X。Xはそのキャラのソウル×1000に等しい。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MODIFICATION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

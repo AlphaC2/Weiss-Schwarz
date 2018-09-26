@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VA-WPR-P10</ID>
+    <Name>“最弱の実力を持つ”yucchi</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10019.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>key開発室に栄光あれえぇ！！ぎゃあぁあ！！！</FlavourText>
+    <Ability>【自】［(1)］バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>VISUAL_ARTS</Trait>
+        <Trait>ODDITY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

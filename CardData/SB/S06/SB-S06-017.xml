@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-017</ID>
+    <Name>“第六天魔王”織田</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>平伏せい！　我こそが第六天より来たりし魔王なり！</FlavourText>
+    <Ability>【自】他のあなたのカード名に「魔王」を含むキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【自】このカードがアタックした時、クライマックス置場に「天下統一の野望」があるなら、あなたは相手の前列のコスト1以下のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

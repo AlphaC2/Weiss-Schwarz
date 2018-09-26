@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-T07</ID>
+    <Name>小学生</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10007.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>そして、戦場ヶ原さんのほうが、阿良々木さんの彼女さん</FlavourText>
+    <Ability>【永】他のあなたの《怪異》のキャラが2枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>SPIRIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

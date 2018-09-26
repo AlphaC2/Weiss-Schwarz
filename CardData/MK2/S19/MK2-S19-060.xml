@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-060</ID>
+    <Name>お茶の間デビュー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>応援しないと逮捕よ！た・い・ほ！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(1)このカードを【レスト】する］あなたは自分の《警察》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000し、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>POLICE</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

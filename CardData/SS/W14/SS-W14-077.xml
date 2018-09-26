@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-077</ID>
+    <Name>対峙の時</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10102.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…じゃまもの…</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「直接対決！」があるなら、あなたは自分の山札を見て《炎》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。【自】アンコール［あなたの舞台の《炎》のキャラを1枚クロック置場に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

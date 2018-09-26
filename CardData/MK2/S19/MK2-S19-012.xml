@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-012</ID>
+    <Name>エラリー姫百合</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>はい、探偵の…エラリー姫百合の名に賭けて、必ず！</FlavourText>
+    <Ability>【自】［あなたの【スタンド】している《探偵》のキャラを1枚【レスト】する］このカードがアタックした時、クライマックス置場に「突然の転入辞令」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋1000。【自】アンコール［手札のキャラを1枚控え室に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>POLICE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

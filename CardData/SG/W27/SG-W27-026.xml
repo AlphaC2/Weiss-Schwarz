@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-026</ID>
+    <Name>神獣鏡</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ナスターシャ「あれは封印解除に不可欠なれど、人の心を惑わす力」</FlavourText>
+    <Ability>あなたは相手の前列のレベル2以下のキャラを1枚選び、ストック置場に置く。</Ability>
+</Card>

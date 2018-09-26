@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RG-W10-072</ID>
+    <Name>ちぇいさーっ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10106.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>あなたは自分の【スタンド】している《カエル》のキャラを2枚選び【レスト】する。2枚【レスト】したなら、相手にXダメージを与える。Xはあなたのキャラの中で、レベルが1番高いキャラのレベルに等しい。（ダメージキャンセルは発生する）</Ability>
+</Card>

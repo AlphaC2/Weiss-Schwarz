@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-051</ID>
+    <Name>新人隊員</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10077.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>教えて、何があったのかを……！どうしたらあなたの心を救えるのかを……！</FlavourText>
+    <Ability>【自】［(1)手札の「拓かれた運命」を1枚控え室に置き、このカードをクロック置場に置く］バトル中のこのカードが【リバース】した時、他のあなたの《タロット》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは自分の控え室の「太陽の力あかり」を1枚選び、このカードがいた枠に【レスト】して置く。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TAROT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

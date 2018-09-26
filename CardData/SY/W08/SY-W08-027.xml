@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-027</ID>
+    <Name>ドジっ娘みくる</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あわわ…わわっ</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1500。【自】このカードが手札から舞台に置かれた時、他のあなたの《時間》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>TIME</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-059</ID>
+    <Name>“呪文詠唱”めぐみん</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>紅き黒炎、万界の王、天地の法を敷衍すれど、我は万象照応の理、崩壊破壊の別名なり。永劫の鉄槌は我が元に下れ……</FlavourText>
+    <Ability>【自】あなたのアンコールステップの始めに、前列にこのカードがいるなら、相手は自分の山札の上から1枚を公開する。そのカードがレベル3以上のキャラなら、相手はそのキャラを舞台の好きな枠に置いてよい。（そうしないなら元に戻す）</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

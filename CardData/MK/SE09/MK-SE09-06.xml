@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE09-06</ID>
+    <Name>トゥエンティ&amp;トゥエンティ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ああ・・！思い出したくないような、そうでもないような</FlavourText>
+    <Ability>【自】絆／「“自分大好き”トゥエンティ」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“自分大好き”トゥエンティ」を1枚選び、手札に戻す）【自】チェンジ［(1)このカードを控え室に置く］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「悩殺の視線アルセーヌ」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>THIEF</Trait>
+        <Trait>NARCISSIST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

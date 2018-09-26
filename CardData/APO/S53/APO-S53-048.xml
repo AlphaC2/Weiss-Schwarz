@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-048</ID>
+    <Name>“疵獣の咆吼”赤のバーサーカー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>我が鉄の意志は止められぬ！</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1000。【自】バトル中のこのカードが【リバース】した時、あなたのレベルが2以下なら、あなたは自分のストックの上から1枚を、このカードの下にマーカーとして置き、このカードを【レスト】する。そうでないなら、あなたは自分の手札を3枚選び、控え室に置き、相手にＸダメージを与え、このカードを控え室に置く。Ｘはこのカードの下のマーカーの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>MUSCLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

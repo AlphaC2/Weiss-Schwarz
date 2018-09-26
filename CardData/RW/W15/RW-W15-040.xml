@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-040</ID>
+    <Name>ひまわり畑のルチア</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お別れだ……、……瑚太朗……</FlavourText>
+    <Ability>【永】このカードが【レスト】しているなら、このカードは《手袋》をすべて失い、すべてのプレイヤーの前列のカード名に「ルチア」か｢静流｣を含まないキャラすべてに、パワーを-500。【起】［このカードを【レスト】する］あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GLOVES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

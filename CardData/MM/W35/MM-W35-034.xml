@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-034</ID>
+    <Name>悪魔となったほむら</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10037.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>やっと、捕まえた</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋8500。【自】このカードが手札から舞台に置かれた時、あなたは自分の「アルティメットまどか」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。そうしたら、あなたは自分の控え室の「新世界のまどか」を1枚選び、舞台の好きな枠に置く。【自】[(2)手札を1枚控え室に置く］このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>DEMON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

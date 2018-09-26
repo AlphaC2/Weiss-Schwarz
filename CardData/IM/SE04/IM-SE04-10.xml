@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-SE04-10</ID>
+    <Name>凸凹コンビ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imd/10020.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私がアイドル始めて以来の大一番なんだからあなたも、できる限り、手を貸すこと。いいわね！</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1500。【自】このカードとバトル中のキャラがリバースした時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>FEMALE_OUTFIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

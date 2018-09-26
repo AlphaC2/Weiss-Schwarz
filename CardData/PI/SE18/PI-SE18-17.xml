@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PI-SE18-17</ID>
+    <Name>“Kaleidoscope”イリヤ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fpi/10033.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>美遊がしてくれたみたいに、私だって美遊の力になりたい！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】［手札の「クラスカードセイバー」を1枚控え室に置く］あなたのクライマックス置場に「クラスカードセイバー」が置かれた時、他のあなたの「“Kaleidoscope”美遊」がいるなら、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが1以下なら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】このカードがアタックした時、相手に1ダメージを与える。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

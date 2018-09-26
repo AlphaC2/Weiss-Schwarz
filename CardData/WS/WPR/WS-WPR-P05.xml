@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>WS-WPR-P05</ID>
+    <Name>ちょこたん</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10062.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うにたんもふもふー</FlavourText>
+    <Ability>【永】あなたは語尾にニャーを付けてよい。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>VOICE_ACTOR</Trait>
+        <Trait>CARD_GAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

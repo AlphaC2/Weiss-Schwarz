@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W53-063</ID>
+    <Name>理想の移動方法</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私、今、水色の風になってるの――</FlavourText>
+    <Ability>あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋5500し、次の能力を与える。『【永】このカードは相手の効果に選ばれない。』</Ability>
+</Card>

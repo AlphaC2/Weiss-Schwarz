@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W39-046</ID>
+    <Name>LiNKER</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10055.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>弦十郎「あいつらメディカルルームからリンカーを持ち出しやがった！」</FlavourText>
+    <Ability>【カウンター】あなたは自分の、カード名に「切歌」を含むキャラとカード名に「調」を含むキャラを1枚ずつ別々に選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

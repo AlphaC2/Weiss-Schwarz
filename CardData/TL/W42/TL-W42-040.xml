@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-040</ID>
+    <Name>モーニングコール”美柑</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10040.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どんな夢見てんだか…</FlavourText>
+    <Ability>【自】他のあなたの、《変身》か《家事》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Trait>BACKPACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

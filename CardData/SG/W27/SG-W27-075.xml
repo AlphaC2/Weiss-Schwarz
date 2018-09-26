@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-075</ID>
+    <Name>本当にやりたい事</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>マリア姉さんが本当にやりたい事を教えて</FlavourText>
+    <Ability>あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-05</ID>
+    <Name>“希望の地”カナン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シャム「お前は今日から――希望の地……カナンだ」</FlavourText>
+    <Ability>【永】このカードの正面のキャラが緑か赤なら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードとバトル中の、黄か青のキャラが【リバース】した時、あなたはそのキャラを山札の上に置いてよい。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

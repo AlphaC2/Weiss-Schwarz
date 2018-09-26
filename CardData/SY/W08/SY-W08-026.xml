@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-026</ID>
+    <Name>異時間同位体</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あなたの知ってる私よりもっと未来から来ました</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「禁則事項です」があるなら、次の相手のターンの終わりまで、相手はイベントを手札からプレイできない。【自】このカードがアタックした時、クライマックス置場に「禁則事項です」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>TIME</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

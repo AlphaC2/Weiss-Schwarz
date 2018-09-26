@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SAO-S51-035</ID>
+    <Name>≪An</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】【CXコンボ】［(2)手札を4枚控え室に置き、あなたのクライマックス置場の「白の聖大樹」を1枚このカードの下にマーカーとして裏向きに置く］あなたのアンコールステップの始めに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックすべてを、控え室に置く。【自】【CXコンボ】［(6)手札を3枚控え室に置き、このカードの下のマーカーを1枚控え室に置く］相手のアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『相手に3ダメージを与える。』（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>ENEMY</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-009</ID>
+    <Name>フレンズとこんにちは</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それに派手だったねぇー</FlavourText>
+    <Ability>【自】他のあなたのキャラのバトル相手が【リバース】した時、あなたは自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋1500。【自】［このカードを控え室に置く］他のあなたのカード名に「サーバル」か「かばん」を含むキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

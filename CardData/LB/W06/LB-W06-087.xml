@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-087</ID>
+    <Name>ドジなスパイ沙耶</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10125.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>周りのパンだけ食べて餡だけにしてやろうかしらっ</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあり、あなたの手札が相手の手札より多いなら、あなたのキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

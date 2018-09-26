@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-039</ID>
+    <Name>“護身術の授業”ルヴィア</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10039.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>護身術。生命力を身体能力で示す授業</FlavourText>
+    <Ability>【永】他のあなたのカード名に「凛」を含むキャラがいるなら、このカードのパワーを＋2000し、このカードはサイドアタックできない。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>JEWEL</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

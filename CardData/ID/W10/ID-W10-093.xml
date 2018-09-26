@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-093</ID>
+    <Name>ステイル=マグヌス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10132.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>重要なのは魔法名を名乗り上げた事でね僕達の間では、むしろ『殺し名』かな</FlavourText>
+    <Ability>【自】記憶このカードとバトル中のキャラが【リバース】した時、あなたの思い出置場に「修道女インデックス」があるなら、あなたはそのバトル中のキャラを山札の下に置いてよい。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>TOBACCO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

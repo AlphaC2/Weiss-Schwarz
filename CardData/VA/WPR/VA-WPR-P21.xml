@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VA-WPR-P21</ID>
+    <Name>“雑用王”D坂本</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんでも運びます</FlavourText>
+    <Ability>【起】［このカードを【レスト】する］あなたはキャラを2枚まで選び、そのターン中、《ビジュアルアーツ》を与える。【起】［このカードを控え室に置く］あなたは自分の《ビジュアルアーツ》のキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>VISUAL_ARTS</Trait>
+        <Trait>WEAK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

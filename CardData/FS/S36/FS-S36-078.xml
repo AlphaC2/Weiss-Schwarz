@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-078</ID>
+    <Name>“最強の戦士”バーサーカー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10078.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【永】このカードの下のマーカー1枚につき、このカードのパワーを＋1000。【自】バトル中のこのカードが【リバース】した時、このカードの下のマーカーが10枚以下なら、あなたは自分のストックの上から1枚を、このカードの下にマーカーとして置く。そうしたら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

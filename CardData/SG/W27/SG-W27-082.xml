@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W27-082</ID>
+    <Name>抜身の刀身</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10091.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ならば聴くがいい！防人の歌を！！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か「天羽々斬」の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［(1)］このカードがアタックした時、クライマックス置場に「千ノ落涙」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、次の相手のターンの終わりまで、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

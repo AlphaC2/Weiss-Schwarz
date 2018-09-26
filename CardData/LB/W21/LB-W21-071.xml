@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-071</ID>
+    <Name>“雨のち晴れ”西園美魚</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10103.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この世界に…生きています。…生きています</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋1500し、このカードは《影》を得て、次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』【自】あなたのクライマックス置場に「――行こう…生きよう。」が置かれた時、このカードの下にマーカーがないなら、あなたは自分の控え室のカード名に「美鳥」を含むキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>BOOK</Trait>
+        <Trait>MANAGER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

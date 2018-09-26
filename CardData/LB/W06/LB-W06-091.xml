@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-091</ID>
+    <Name>“浮世離れ”美魚</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10129.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>三角がおにぎりで、丸いとおむすびです・・・逆だったかも知れません</FlavourText>
+    <Ability>【自】バトルしているこのカードが【リバース】した時、このカードが《メガネ》を持つなら、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>BOOK</Trait>
+        <Trait>PARASOL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

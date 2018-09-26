@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-086</ID>
+    <Name>ふたりの進展</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>一条君が家にくる約束になってるの</FlavourText>
+    <Ability>【自】あなたのアンコールステップの始めに、クライマックス置場に「うそ……ついちゃった……」があるなら、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「ふたりの進展小咲」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋3500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

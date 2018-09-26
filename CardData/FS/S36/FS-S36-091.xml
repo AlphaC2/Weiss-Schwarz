@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-091</ID>
+    <Name>“望みを果たす”葛木</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10091.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>悲嘆する事はない。お前の望みは私が代わりに果たすだけだ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「キャスター」を含むキャラがいるなら、このカードのパワーを＋1500。【永】このカードの正面のキャラのソウルを＋1。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

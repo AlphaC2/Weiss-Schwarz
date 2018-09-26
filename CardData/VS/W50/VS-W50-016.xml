@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-016</ID>
+    <Name>エルス・タスミン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10044.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>身内びいきと分析の末に…ヴィヴィオさんの判定勝ちで</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《格闘》のキャラ1枚につき、このカードのパワーを＋1000。【永】他のあなたの《格闘》のキャラが2枚以上なら、このカードはサイドアタックしてもソウルが減少しない。【自】相手のアタックフェイズの始めに、あなたは自分の「ハリー・トライベッカ」を1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MELEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

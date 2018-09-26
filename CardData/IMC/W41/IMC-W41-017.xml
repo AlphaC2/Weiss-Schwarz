@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-017</ID>
+    <Name>安部</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10112.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ウサミンこと、安部菜々でーす！キャハッ☆</FlavourText>
+    <Ability>【永】あなたのターン中、舞台のこのカードのレベルを-1。【自】バトル中のこのカードが【リバース】した時、あなたは自分のストックの上から1枚を、控え室に置く。そうしたら、このカードをストック置場に置く。</Ability>
+    <Character>
+        <Power>3017</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>USAMIN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

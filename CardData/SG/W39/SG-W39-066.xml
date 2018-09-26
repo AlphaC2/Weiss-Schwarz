@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-066</ID>
+    <Name>頼れる先輩</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたしは年上で、学校では先輩！</FlavourText>
+    <Ability>【自】［(2)］あなたのクライマックス置場に「あたしがいてもいいところ」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下の《音楽》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。【自】このカードがアタックした時、そのターン中、このカードのパワーを＋X。Xは他のあなたの《音楽》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE03-014</ID>
+    <Name>アリカ&amp;ニナ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext1.0/10008.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ニナ「あんたも、ちゃんとやりなさいよ」</FlavourText>
+    <Ability>【永】他のあなたの《宝石》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ELEMENT</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-102</ID>
+    <Name>格闘技への誘い</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10130.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フーカさん格闘技に興味はありませんか？</FlavourText>
+    <Ability>【永】あなたのストックが2枚以下なら、このカードはアタックできない。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

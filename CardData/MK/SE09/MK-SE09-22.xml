@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-SE09-22</ID>
+    <Name>ボヨヨンの女</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmhext/10043.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これは…シャーロックの…？</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードは《怪盗》を得る。【永】このカードの正面のキャラのソウルを＋1。【自】このカードのバトル中、あなたの受けたダメージがキャンセルされた時、そのターン中、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

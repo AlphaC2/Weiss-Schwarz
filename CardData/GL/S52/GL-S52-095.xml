@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-095</ID>
+    <Name>上級ムガン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10121.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋4500。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「ムガン」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ANTI_SPIRAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

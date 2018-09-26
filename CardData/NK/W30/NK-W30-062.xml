@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NK-W30-062</ID>
+    <Name>デートの約束</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おはようございます！お待ちしておりましたわ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋X。Xはあなたの《鍵》のキャラの枚数×500に等しい。【自】［(1)］このカードがアタックした時、クライマックス置場に「アドリブ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の《鍵》のキャラを1枚選び、そのターン中、パワーを＋5500し、次の能力を与える。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>POLICE</Trait>
+        <Trait>KEY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

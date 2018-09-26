@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-011</ID>
+    <Name>晴れ舞台</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10037.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…さあさ、どうだったかな？人の多さといい、カメラの列といい…ミッチーさん、なかなかのもんでしょ〜</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「さあコレを！」があり、あなたのキャラすべてが黄なら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>COSPLAY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

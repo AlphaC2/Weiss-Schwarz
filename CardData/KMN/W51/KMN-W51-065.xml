@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-065</ID>
+    <Name>森の王</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10093.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>さて、そんな良いタイミングで我々に仲間が加わったぞ</FlavourText>
+    <Ability>【永】あなたの《フレンズ》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを-1。【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

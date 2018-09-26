@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-046</ID>
+    <Name>メドゥーサの眼鏡</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あれ？　は、はずれねー！</FlavourText>
+    <Ability>あなたは相手の山札を上から4枚まで見て、山札の上に好きな順番で置く。</Ability>
+</Card>

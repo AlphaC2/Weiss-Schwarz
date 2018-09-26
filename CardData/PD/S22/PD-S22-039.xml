@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-039</ID>
+    <Name>“39ゲット!”初音ミク</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10065.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>キミと奏でたい、ずっと――</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ミク」を含むキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分のカード名に「ミク」を含むキャラを1枚選び、そのターン中、パワーを＋500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

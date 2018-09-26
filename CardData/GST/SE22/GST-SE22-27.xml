@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-27</ID>
+    <Name>吹き抜ける清涼な風</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10053.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…メンコは、投げなきゃひっくり返らない…</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋3500し、ソウルを＋1。【自】あなたのクライマックス置場に「シャイニンググラスホッパー」が置かれた時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「吹き抜ける清涼な風マナブ」を1枚選び、舞台の好きな枠に置き、自分の山札の上から1枚を、そのキャラの下にマーカーとして置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>GLASSES</Trait>
+        <Trait>GIGANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-021</ID>
+    <Name>ロボト</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ランド「何しに来たんだ？」ハン・ソロ「ああ、修理だ。おまえなら手を貸してくれるかと思って」</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、他のあなたの黄のキャラが1枚以下なら、このカードをクロック置場に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>EMPIRE_STRIKES_BACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

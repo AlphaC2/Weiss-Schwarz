@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-054</ID>
+    <Name>“庭園の中で”シロウ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>……でも、ありがとうございます</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、他のあなたの、《マスター》か《サーヴァント》のキャラ1枚につき、このカードのパワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「“庭園の中で”赤のアサシン」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>PRIEST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

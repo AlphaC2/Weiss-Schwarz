@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE08-02</ID>
+    <Name>帰って来たカノジョ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10004.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あはは……ども</FlavourText>
+    <Ability>【自】［(1)手札の「へーよーぶらざー」を1枚控え室に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《たとえ話》か《委員長》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。【自】［(1)］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>PARABLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

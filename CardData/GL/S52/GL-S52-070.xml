@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-070</ID>
+    <Name>超銀河グレンラガン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10096.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>天上天下！一騎当神！</FlavourText>
+    <Ability>【永】このカードの下にマーカーがないなら、このカードのパワーを-3000。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の、「アークグレンラガン」か「愛する女を救うためシモン」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。【自】このカードが「天元突破グレンラガン」のマーカー置場から舞台に置かれた時、そのターン中、このカードは次の能力を得る。『【自】分離／「アークグレンラガン」［(1)］』</Ability>
+    <Character>
+        <Power>11000</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

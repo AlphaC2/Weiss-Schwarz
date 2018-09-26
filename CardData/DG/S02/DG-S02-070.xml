@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-070</ID>
+    <Name>メカジェニファー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10081.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>「やはりアレか？」 「改造ですか」 「改造でしょう」</FlavourText>
+    <Ability>相手にXダメージを与える。Xはあなたの控え室のクライマックスの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+</Card>

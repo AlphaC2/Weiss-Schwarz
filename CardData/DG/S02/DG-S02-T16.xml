@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-T16</ID>
+    <Name>“ビューティー男爵”中ボス</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10134.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わたくしをただの中ボスとあなどっていると後悔することになりますよ！！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）【自】バトルしているこのカードが【リバース】した時、あなたはこのカードを山札に戻してよい。そうしたら、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

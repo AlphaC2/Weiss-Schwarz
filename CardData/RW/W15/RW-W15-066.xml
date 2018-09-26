@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W15-066</ID>
+    <Name>魔物の誕生</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>魔物は自力では動けないの。だから自分の命を少し注ぐ…</FlavourText>
+    <Ability>あなたは自分の控え室のレベル1以下のキャラを1枚選び、舞台の好きな枠に置く。アンコールステップの始めに、そのキャラが舞台にいるなら、そのキャラを控え室に置く。このカードをクロック置場に置く。</Ability>
+</Card>

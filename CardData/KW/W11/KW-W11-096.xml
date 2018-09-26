@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KW-W11-096</ID>
+    <Name>Icarus</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10133.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>クド「はい。今、私達が出来る中で、一番高い場所へ行ける唯一の手段です」</FlavourText>
+    <Ability>このカードを思い出にする。記憶相手のターン中、思い出置場にこのカードがあるなら、あなたの《科学》のキャラすべてに、パワーを＋1000。</Ability>
+</Card>

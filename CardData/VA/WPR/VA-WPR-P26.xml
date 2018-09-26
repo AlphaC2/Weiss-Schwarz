@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VA-WPR-P26</ID>
+    <Name>“万年化粧品貧乏”なかおよしえ</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お疲れさまです。お昼になりましたー</FlavourText>
+    <Ability>【自】絆／「“草食系動物”伊倉ナギサ」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“草食系動物”伊倉ナギサ」を1枚選び、手札に戻す）【起】［あなたのキャラを2枚【レスト】する］あなたは相手の前列のレベル0以下のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>VISUAL_ARTS</Trait>
+        <Trait>MILK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-060</ID>
+    <Name>実は奥ゆかしい?</Name>
+    <Rarity>FR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わたし、つい…じっと見ちゃうんだよね…</FlavourText>
+    <Ability>【永】このカードは他の枠に動かせない。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置く。残りのカードを山札の上に好きな順番で置く。【自】［(1)手札のクライマックスを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>11000</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

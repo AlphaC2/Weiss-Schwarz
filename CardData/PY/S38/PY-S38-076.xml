@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-076</ID>
+    <Name>ちょっぴりイヤミな</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10100.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>まっ、実力だね</FlavourText>
+    <Ability>【永】他のあなたのレベル3以上のキャラがいるなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時、他のあなたの《ぷよ》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

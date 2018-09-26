@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SB-S06-070</ID>
+    <Name>同郷</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10092.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>佐助「ま、“俺たち”は俺たちで仲良くいこうぜ……」</FlavourText>
+    <Ability>このカードは、あなたの《忍》のキャラがいないなら、手札からプレイできない。あなたは自分の控え室の《忍》のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

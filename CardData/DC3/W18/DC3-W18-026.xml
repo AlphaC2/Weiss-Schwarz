@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-026</ID>
+    <Name>兄妹水入らず</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうですー♪　美味しいですかー？兄さんのお口に合うといいんだけどー</FlavourText>
+    <Ability>【起】集中［(1)］あなたは自分の山札の上から1枚をめくり、控え室に置く。そのカードが《魔法》のキャラなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを-2000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BENTO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

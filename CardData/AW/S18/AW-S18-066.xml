@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-066</ID>
+    <Name>心の闇</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10090.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ナラバ、壊セ。壊シテ喰ラエ</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「黒い波動」があるなら、そのターン中、このカードのパワーを＋5500し、アンコールステップの始めに、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>AVATAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

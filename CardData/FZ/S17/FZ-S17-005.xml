@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-005</ID>
+    <Name>寡黙なる助手</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そんな私を拾ったのは切嗣だ。だから切嗣が好きなように使ってくれればいい</FlavourText>
+    <Ability>【永】あなたのクライマックス置場に黄のクライマックスがあるなら、このカードのソウルを＋1。【永】他のあなたの「信じる正義切嗣」すべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

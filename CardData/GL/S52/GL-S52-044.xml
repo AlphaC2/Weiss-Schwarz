@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-044</ID>
+    <Name>因縁の対決</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10070.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヴィラル「カミナ！今度こそ俺の兜を返してもらうぞ！」</FlavourText>
+    <Ability>【永】このカードの下にマーカーがないなら、このカードのパワーを-4500。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の、「人間掃討軍極東方面部隊長ヴィラル」か「顔二つエンキ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。【自】［(1)］アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>BEASTMAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

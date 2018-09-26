@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-001</ID>
+    <Name>“プレゼント交換”シャロ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10001.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>喜んでもらえるかしら</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを-1。【自】［手札のカード名に「シャロ」か「千夜」を含むキャラを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、手札に戻す。【自】この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたのカード名に「シャロ」か「千夜」を含むキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>フルール・ド・ラパン</Trait>
+        <Trait>特待生</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

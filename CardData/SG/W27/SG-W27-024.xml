@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-024</ID>
+    <Name>ガングニール</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>Balwisyall Nescell gungnir tron…</FlavourText>
+    <Ability>あなたは自分のレベル2以上のカード名に「響」を含むキャラを1枚選び、クロック置場に置いてよい。そうしたら、あなたは自分の控え室の「“撃槍・ガングニール”響」を1枚選び、舞台の好きな枠に置き、そのターン中、相手は『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）このカードを思い出にする。</Ability>
+</Card>

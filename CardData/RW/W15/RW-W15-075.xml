@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-075</ID>
+    <Name>“二人で一緒に”静流</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>コタローは隠しておきたいようなことを、私に見せてくれた</FlavourText>
+    <Ability>【永】相手のターン中、あなたのストックが4枚以上なら、このカードのパワーを＋1500。【自】このカードがアタックした時、クライマックス置場に「失くした記憶」があるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>JUDGEMENT</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

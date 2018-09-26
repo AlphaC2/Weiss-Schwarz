@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-02</ID>
+    <Name>“切り札”となる力</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>マーガレット「それは、正しく心を育めば、どんな試練とも戦い得る“切り札”となる力」</FlavourText>
+    <Ability>【永】あなたのターン中、あなたのストックが4枚以下なら、このカードのパワーを＋2000。【永】舞台にこのカードがいるなら、このカードのカード名は「“切り札”となる力主人公」としても扱う。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GLASSES</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

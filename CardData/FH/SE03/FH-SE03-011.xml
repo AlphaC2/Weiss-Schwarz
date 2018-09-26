@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FH-SE03-011</ID>
+    <Name>終わりなき聖杯戦争バゼット</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fh/10022.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>――――――では、貴方は私の敵か</FlavourText>
+    <Ability>【自】このカードがアタックした時、先攻プレイヤーの第１ターンなら、そのターン中、あなたは2枚までアタックできる。【自】バトル中のこのカードが【リバース】した時、あなたに2ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>MALE_DRESSING</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

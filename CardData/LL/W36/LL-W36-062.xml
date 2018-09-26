@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LL-W36-062</ID>
+    <Name>素敵な初夢</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>窓に『はぁー』って息をふきかけると、白くなるよねー　ことりはマカロンの絵を描いちゃった♪</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードが【リバース】した時、このカードのバトル相手のレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』</Ability>
+</Card>

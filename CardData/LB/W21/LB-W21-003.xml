@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-003</ID>
+    <Name>“リトルバスターズ”小毬</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10032.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>辛いことや悲しいことから逃さないこと。みんなと一緒なら笑っていられること</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは他の自分のレベル1以下のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>FAIRY_TALE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

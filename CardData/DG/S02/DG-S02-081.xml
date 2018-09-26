@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-081</ID>
+    <Name>殺りくマッスィーン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10095.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>やられる前に殺る、というわけじゃ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「アルマース」を含むキャラがいるなら、このカードのパワーを＋1500。【自】このカードとバトルしているキャラが【リバース】した時、あなたのクライマックス置場に「新婚女王」があるなら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ROYALTY</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

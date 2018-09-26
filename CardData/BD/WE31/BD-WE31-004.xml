@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-004</ID>
+    <Name>“笑顔のマジック”弦巻こころ</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10016.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなでマジックをすればきっと世界中を笑顔にできるわっ</FlavourText>
+    <Ability>【永】あなたのターン中、このカードのパワーを＋1000。【自】【CXコンボ】あなたのクライマックス置場に「笑顔のマジック」が置かれた時、他のあなたの《音楽》のキャラがいるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】このカードのトリガーチェックでトリガーアイコンにがあるカードがでた時、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HELLO_HAPPY_WORLD!</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

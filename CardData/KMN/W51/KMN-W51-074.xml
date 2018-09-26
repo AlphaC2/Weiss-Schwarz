@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-074</ID>
+    <Name>大将戦</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、すべてのプレイヤーは自分の山札の上から1枚を公開する。あなたのこの効果で公開したカードのレベルが相手のこの効果で公開したカードのレベルより高いなら、あなたは相手の前列のコスト0以下のキャラを1枚選び、控え室に置いてよい。相手の方が高いなら、このカードを【レスト】する。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

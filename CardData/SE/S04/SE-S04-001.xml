@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-001</ID>
+    <Name>謎多き少女シリル</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ええ、わかったわ……</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「シリルの想い」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「シリルの想い」を1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。【自】このカードの与えたダメージがキャンセルされた時、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-T16</ID>
+    <Name>アニキを救え!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10016.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>アニキィィーーー！</FlavourText>
+    <Ability>【自】この能力は1ターンにつき2回まで発動する。他のあなたの《大グレン団》のキャラが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《大グレン団》のキャラなら、そのターン中、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

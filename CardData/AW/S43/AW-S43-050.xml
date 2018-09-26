@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AW-S43-050</ID>
+    <Name>現実への帰還</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10050.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ま、友達かな</FlavourText>
+    <Ability>あなたのキャラすべてに、そのターン中、『【自】アンコール［(1)］』を与える。このカードをストック置場に置く。</Ability>
+</Card>

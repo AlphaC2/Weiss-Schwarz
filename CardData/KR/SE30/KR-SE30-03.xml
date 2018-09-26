@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-03</ID>
+    <Name>“輪廻への導き”りんね</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10005.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>すみやかに輪廻の輪に乗るように</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ここから先は死神の仕事だ!!」があるなら、相手は自分の山札の上から5枚を公開し、このカードのバトル相手と同じカード名のキャラを1枚選び、クロック置場に置き、その山札をシャッフルし、あなたはそのバトル相手をクロック置場に置いてよい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>SHINIGAMI</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

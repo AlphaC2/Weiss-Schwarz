@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S03-086</ID>
+    <Name>イリヤ&amp;バーサーカー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10101.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>――――ねえ、お話は終わり？</FlavourText>
+    <Ability>【永】このカードの正面のキャラのソウルを-1。【自】このカードがアタックした時、クライマックス置場に「冬の森」があるなら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】アンコール［手札のキャラを1枚控え室に置く］</Ability>
+    <Character>
+        <Power>9000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>SERVANT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

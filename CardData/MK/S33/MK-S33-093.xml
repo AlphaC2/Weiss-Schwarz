@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-093</ID>
+    <Name>“うなぎのぼり”エリー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>うなぎのぼり……です……</FlavourText>
+    <Ability>【自】［あなたの山札の上から1枚をクロック置場に置き、手札を1枚控え室に置く］このカードがアタックした時、クライマックス置場に「私は男子」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル3以下のキャラを1枚選び、山札の下に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

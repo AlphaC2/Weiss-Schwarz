@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-008</ID>
+    <Name>“スキル講義”クリス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10034.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>盗賊系のスキルには“敵感知”や“潜伏”とかいろいろあるけど……特に私の一押しはこれ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「窃盗スキル」があるなら、あなたは自分の山札の上から1枚を、控え室に置く。そのカードがレベル0以下のキャラなら、相手は自分の山札の上から1枚までを、ストック置場に置く。そうでないなら、あなたは自分の山札の上から2枚を、ストック置場に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>ADVENTURER</Trait>
+        <Trait>ROGUE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

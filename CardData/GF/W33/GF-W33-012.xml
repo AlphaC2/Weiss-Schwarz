@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-012</ID>
+    <Name>背水の陣</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>それじゃもう少しトレーニングいくよ〜今日はもうちょっとやらないとダメなんだ</FlavourText>
+    <Ability>【永】あなたの黄のキャラが4枚以上なら、あなたの手札のこのカードのレベルを-1。【自】このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。【自】バトル中のこのカードが【リバース】した時、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

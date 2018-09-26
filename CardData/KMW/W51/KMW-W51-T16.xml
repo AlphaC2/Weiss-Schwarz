@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMW-W51-T16</ID>
+    <Name>みんなを乗せて</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10016.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>平気平気！まっかせて！</FlavourText>
+    <Ability>【永】他のあなたの《フレンズ》のキャラが2枚以上なら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FRIENDS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

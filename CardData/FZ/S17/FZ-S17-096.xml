@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-096</ID>
+    <Name>信仰の護り手</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10126.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…娯楽、即ち愉悦だと？</FlavourText>
+    <Ability>【永】あなたの手札が5枚以上なら、このカードのパワーを＋1000。【自】このカードがアタックした時、クライマックス置場に「第八の契約」があるなら、あなたは1枚引いてよい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>VOID</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

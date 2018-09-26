@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-049</ID>
+    <Name>両手に花</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ただし、ラムも一緒に行くわ。両手に花というやつよ、バルス</FlavourText>
+    <Ability>【永】他のあなたの「両手に花レム」すべてに、パワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、「両手に花レム」を1枚まで選び、舞台の好きな枠に置き、残りのカードを控え室に置く。【自】このカードがアタックした時、他のあなたの「両手に花レム」がいるなら、そのターン中、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

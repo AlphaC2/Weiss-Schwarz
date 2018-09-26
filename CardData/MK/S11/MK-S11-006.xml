@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S11-006</ID>
+    <Name>浴衣のシャロ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんなで回るお祭りは楽しいですね！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「オペラとの出会い」があるなら、次の相手のターンの終わりまで、相手はイベントを手札からプレイできない。【自】このカードがアタックした時、クライマックス置場に「オペラとの出会い」があるなら、そのターン中、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

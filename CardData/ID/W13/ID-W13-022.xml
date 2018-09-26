@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ID-W13-022</ID>
+    <Name>劇画ショック</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お姉さま……すでにそこまで視野に入れた未来設計を……</FlavourText>
+    <Ability>あなたの《超能力》のキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+</Card>

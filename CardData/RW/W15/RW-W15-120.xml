@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-120</ID>
+    <Name>“命の回廊”篝</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10158.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>『いつかまた君と会いたい　天王寺瑚太朗』</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置く］この能力は1ターンに1回まで発動する。あなたがイベントをプレイした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】アンコールステップの始めに、あなたは1枚引いてよい。』</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>KEY</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VA-WPR-P01</ID>
+    <Name>vavaしゃちょー</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10010.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>いつもココロに太陽を！</FlavourText>
+    <Ability>【永】他のあなたの《ビジュアルアーツ》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［(1)］あなたのクライマックス置場に「鬼召集！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル2以下のキャラを1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋1000し、《ビジュアルアーツ》と《太陽》を与える。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>VISUAL_ARTS</Trait>
+        <Trait>SUN</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-072</ID>
+    <Name>仲直り</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フロン「えーと……。これで仲直りは大成功ー！……ですよね？」</FlavourText>
+    <Ability>あなたは相手の控え室のクライマックスを1枚選び、山札に戻す。そうしたら、その山札をシャッフルし、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

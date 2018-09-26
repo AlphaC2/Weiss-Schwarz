@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-062</ID>
+    <Name>秘密の共有</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だ、だれにも言えない秘密の共有。デュフフ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分の《科学》のキャラを1枚選び、そのターン中、パワーを＋1000。【自】チェンジ［(1)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「神代フラウ」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>OTAKU</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

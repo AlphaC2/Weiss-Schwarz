@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-011</ID>
+    <Name>“グロウアップロック”上原ひまり</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10023.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>せっかくの、私達だけの新衣装！……だもんね？</FlavourText>
+    <Ability>【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「グロウアップロック」があるなら、あなたは自分の控え室の『アラーム』を持つキャラを1枚選び、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

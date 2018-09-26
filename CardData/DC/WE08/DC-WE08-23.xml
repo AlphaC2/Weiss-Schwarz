@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE08-23</ID>
+    <Name>デートを楽しむエリカ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10047.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わたしが作ったのよ？　美味しいに決まってるでしょ</FlavourText>
+    <Ability>【永】他のあなたの《生徒会》のキャラが3枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

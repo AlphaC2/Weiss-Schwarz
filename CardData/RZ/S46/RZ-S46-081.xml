@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-081</ID>
+    <Name>王都の果物屋</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>何も買わずに質問とか、いい度胸してんな</FlavourText>
+    <Ability>【永】他のあなたのキャラが1枚以下なら、他のあなたのキャラすべてに、パワーを＋1500。【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「死に戻り」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MERCHANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

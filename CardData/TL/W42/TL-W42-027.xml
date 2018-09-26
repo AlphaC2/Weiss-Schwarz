@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>TL-W42-027</ID>
+    <Name>ワームホール</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ほらエンリョせずにー</FlavourText>
+    <Ability>このカードは、あなたの、《変身》か《家事》のキャラがいないなら、手札からプレイできない。あなたは相手の前列のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

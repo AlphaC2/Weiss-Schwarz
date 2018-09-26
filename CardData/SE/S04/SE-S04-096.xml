@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-096</ID>
+    <Name>ジオフォートの目覚め</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10137.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ゼナス「この城は『ジオフォート』という。聖剣の主を守り、ともに戦うための城だ」</FlavourText>
+    <Ability>あなたは自分のキャラを2枚選び【レスト】する。2枚【レスト】したなら、あなたは相手の前列のレベル1以下のキャラを2枚まで選び、山札の下に好きな順番で置く。</Ability>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-T09</ID>
+    <Name>トウマの意地</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>トウマ「皇帝だか、なんだか知らねえけど、ぶっ飛ばしてやる！！」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。あなたの控え室のクライマックスが4枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+</Card>

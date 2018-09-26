@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SG-W39-081</ID>
+    <Name>作られた存在</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10090.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>その答えを知りたくて、僕はキャロルから世界を守ると決めて…</FlavourText>
+    <Ability>【永】相手のターン中、あなたの手札が5枚以上なら、このカードのパワーを＋4000。【自】［(1)］このカードがアタックした時、クライマックス置場に「PROJECTIGNITE」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>ALCHEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-006</ID>
+    <Name>“冷眼下瞰”明智</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10026.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私の布陣は済みました…　あなた、もう負けても結構ですよ</FlavourText>
+    <Ability>【自】［(3)］あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てコスト1以下の《武器》のキャラを1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

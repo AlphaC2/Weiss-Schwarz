@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-SE05-43</ID>
+    <Name>“軍神”謙信&amp;“つるぎ”かすが</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sbext1.0/10087.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>謙信「わたくしのうつくしきつるぎ…これからも、このしふくをわたくしに」かすが「は、は、はい…！」</FlavourText>
+    <Ability>【永】あなたのストックが5枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>NINJA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-094</ID>
+    <Name>new</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10189.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>雨、大変だけど、盛り上がるように頑張ります！</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラすべてに、パワーを＋1000。【自】このカードがアタックした時、クライマックス置場に「できたてEvo!Revo!Generation!」があり、他のあなたの前列の、「newgenerations未央」と「newgenerations卯月」がいるなら、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋5000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

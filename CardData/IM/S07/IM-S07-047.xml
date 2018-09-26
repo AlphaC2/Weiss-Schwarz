@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-047</ID>
+    <Name>いつもの光景</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10078.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うわあ、ちょっとハム蔵、ウサ江、いぬ美！？ 逃げちゃダメだってばーっ！？</FlavourText>
+    <Ability>相手のストックすべてを、控え室に置き、相手は自分の山札の上から同じ枚数をストック置場に置く。</Ability>
+</Card>

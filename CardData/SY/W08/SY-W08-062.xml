@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-062</ID>
+    <Name>Happy</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>うん、完璧！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「HappyValentine」があるなら、あなたは他の自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】このカードとバトル中のキャラが【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>BRIGADE_CHIEF</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DS2-SE16-43</ID>
+    <Name>龍脈</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10087.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>新田さん…死、なんて……そんな選択選ばないでくれ……</FlavourText>
+    <Ability>このカードは、あなたのカード名に「ヤマト」か「ヒビキ」を含むキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋4000。このカードを思い出にする。</Ability>
+</Card>

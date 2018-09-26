@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-105</ID>
+    <Name>しっかり者</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10133.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>またわけのわからないことを……</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋6000。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「引っ込み思案キタキツネ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>SNOW</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

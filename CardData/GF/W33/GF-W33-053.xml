@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-053</ID>
+    <Name>兎を狙う兎</Name>
+    <Rarity>RR+</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ビバッ、イースターバニー！ ありがとう！</FlavourText>
+    <Ability>【永】あなたの赤のキャラが4枚以上なら、あなたの手札のこのカードのレベルを-1。【自】［(1)］このカードがアタックした時、クライマックス置場に「ストライク！」があり、あなたのキャラすべてが赤なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、次の相手のターンの終わりまで、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

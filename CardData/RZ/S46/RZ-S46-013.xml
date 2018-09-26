@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-013</ID>
+    <Name>貧民街のプライド</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あんなやつらといっしょにすんなあいつらみんな口だけでつよくもなんともねえ性根のしみったれた人生の負け犬どもだよ</FlavourText>
+    <Ability>【自】［手札の「疾風の少女」を1枚控え室に置き、このカードを控え室に置く］このカードが手札から舞台に置かれた時、あなたの山札が5枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを山札に戻し、自分の山札を見てカード名に「フェルト」か「ロム爺」か「ラインハルト」を含むキャラを1枚まで選んで相手に見せ、手札に加え、自分の山札を見て「王選候補者フェルト」を1枚まで選び、このカードがいた枠に置く。その後、その山札をシャッフルし、そのターン中、そのキャラのパワーを＋1000。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>DOUBLE_TOOTH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

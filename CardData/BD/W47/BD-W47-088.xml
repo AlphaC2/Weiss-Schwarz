@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-088</ID>
+    <Name>盆栽女子</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10156.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「有咲、トネガワを売る」があるなら、あなたは自分の山札を見て「イラつくあいつ」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分の山札の上から1枚までを、ストック置場に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>BONSAI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

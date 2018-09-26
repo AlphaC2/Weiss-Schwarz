@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NR-W58-040</ID>
+    <Name>エルトリアの少女</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsr/10041.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>はやてさんや皆さんは私がお守りします！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「幼き頃のアミタ」を1枚選び、ストック置場に置いてよい。【自】この能力は1ターンにつき1回まで発動する。あなたが『加速』を使った時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>FORMULA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

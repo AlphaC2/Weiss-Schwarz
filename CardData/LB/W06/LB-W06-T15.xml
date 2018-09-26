@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-T15</ID>
+    <Name>不思議な既視感</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10021.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あたし、理樹くんのことが好き</FlavourText>
+    <Ability>あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを山札の上に好きな順番で置く。</Ability>
+</Card>

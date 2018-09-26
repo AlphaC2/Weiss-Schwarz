@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-25</ID>
+    <Name>ダイダラ社社長カミングズ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10052.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>リ、リャン・チー様…？</FlavourText>
+    <Ability>【永】あなたの控え室に「社長秘書リャン・チー」があるなら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>GLASSES</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

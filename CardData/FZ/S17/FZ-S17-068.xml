@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FZ-S17-068</ID>
+    <Name>命の代償</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10098.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>待ってろよ…桜…</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、次の能力を与える。『【自】［(1)］このカードが【リバース】した時、このカードのバトル相手のレベルがこのカードのレベル以下なら、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを【リバース】する。』</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CL-WP01-04</ID>
+    <Name>だんご大家族</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/clpset/10004.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>渚「町も人も、みんな家族です。だんご大家族です」</FlavourText>
+    <Ability>【永】記憶あなたの思い出置場に「共に歩む道程渚」があるなら、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>LOVE</Trait>
+        <Trait>DANGO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

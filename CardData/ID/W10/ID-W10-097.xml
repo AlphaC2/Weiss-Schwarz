@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ID-W10-097</ID>
+    <Name>回復魔術</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10136.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>テーブルの上に作った神殿は、この部屋とリンクしています</FlavourText>
+    <Ability>【カウンター】このカードは、あなたの《本》のキャラが1枚以下なら、手札からプレイできない。あなたは自分のクロックの上から2枚を、控え室に置く。このカードを思い出にする。</Ability>
+</Card>

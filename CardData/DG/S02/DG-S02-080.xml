@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-080</ID>
+    <Name>珍妙なカエル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10094.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あれれ？　ぼくは、いったい何を……？</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが4枚以上なら、このカードのパワーを＋2000。【起】［(3)このカードを控え室に置く］あなたは相手の前列のレベル2以下のキャラを1枚選び、山札の下に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>FROG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

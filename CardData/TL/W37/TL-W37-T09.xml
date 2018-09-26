@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-T09</ID>
+    <Name>“ダークネス”ヤミ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ふふふ、会いたいな。えっちぃあの人に…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】［手札を1枚控え室に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋3500。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>TAIYAKI</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

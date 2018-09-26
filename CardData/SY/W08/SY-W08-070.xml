@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-070</ID>
+    <Name>市内探索ツアー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>3</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ふむ、この組み合わせね</FlavourText>
+    <Ability>あなたは自分の山札の上から5枚を裏向きのまま思い出にする。相手はそれらのカードを見て2枚と3枚に分ける。あなたは裏向きのまま一方を選び、手札に加える。残りのカードを山札に戻す。その山札をシャッフルする。</Ability>
+</Card>

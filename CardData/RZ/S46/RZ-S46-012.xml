@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-012</ID>
+    <Name>ロム爺</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…誰じゃ？</FlavourText>
+    <Ability>【永】他のあなたのカード名に「フェルト」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。【自】このカードが手札から舞台に置かれた時、他のあなたのカード名に「フェルト」を含むキャラがいるなら、そのターン中、このカードのパワーを＋2000。【自】［(1)このカードを控え室に置く］他のあなたのカード名に「フェルト」を含むキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋2500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>TITAN</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-003</ID>
+    <Name>“受け継ぐ祈り”ジーク</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>これは、俺が選んだ道だ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。【自】【CXコンボ】［手札を1枚控え室に置き、あなたの思い出置場の「“唸り”黒のバーサーカー」を1枚控え室に置き、このカードを控え室に置く］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「磔刑の雷樹」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「“邪竜”ファヴニール」を1枚まで選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>HOMUNCULUS</Trait>
+        <Trait>MASTER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

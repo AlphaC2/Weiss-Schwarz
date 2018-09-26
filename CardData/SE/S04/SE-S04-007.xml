@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-007</ID>
+    <Name>選ばれし者トウマ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10035.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>オレは王になりたい……この世界の王に……</FlavourText>
+    <Ability>【永】このカードのバトル中、このカードとバトルしているキャラのレベルがこのカードのレベルより低いなら、このカードのパワーを＋1000。【自】このカードがアタックした時、クライマックス置場に「聖剣シャイニングフォース」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

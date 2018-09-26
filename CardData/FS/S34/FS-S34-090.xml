@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-090</ID>
+    <Name>凛のクラスメイト</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あ、あの、遠坂さんっ！よかったら、お昼ゴハン一緒に食べませんか！</FlavourText>
+    <Ability>【永】他のあなたの、「凛のクラスメイト氷室鐘」と「凛のクラスメイト蒔寺楓」すべてに、パワーを＋500。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>MANAGER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

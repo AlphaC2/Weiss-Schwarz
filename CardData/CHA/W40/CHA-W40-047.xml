@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>CHA-W40-047</ID>
+    <Name>金さんラーメン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>有宇「全部金さんラーメンかよっ…！」</FlavourText>
+    <Ability>相手のストックすべてを、控え室に置き、相手は自分の山札の上から同じ枚数をストック置場に置く。</Ability>
+</Card>

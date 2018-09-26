@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-039</ID>
+    <Name>夜空の下で</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10107.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ね、さーやも歌おっ</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠の「初ライブ香澄」に、パワーを＋1500し、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【起】［このカードを【レスト】する］あなたは自分の、《音楽》かカード名に「明日香」を含むキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>STAR</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IMC-W41-108</ID>
+    <Name>合わない2人</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10203.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みく「解散にゃ！」</FlavourText>
+    <Ability>【カウンター】あなたの、赤のキャラと青のキャラがそれぞれ2枚以上なら、あなたは相手のキャラを1枚選び、【レスト】する。</Ability>
+</Card>

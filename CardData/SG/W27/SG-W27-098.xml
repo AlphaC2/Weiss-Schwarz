@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-098</ID>
+    <Name>奏の残した言葉</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だから――翼のやりたいことは、あたしが助けてやる…</FlavourText>
+    <Ability>あなたは1枚まで引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードを思い出にする。</Ability>
+</Card>

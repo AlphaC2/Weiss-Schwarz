@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-095</ID>
+    <Name>自分たちの詞</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10190.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私も、気持ちは同じだから</FlavourText>
+    <Ability>【永】あなたの、赤のキャラと青のキャラがそれぞれ2枚以上なら、あなたの手札のこのカードのレベルを-1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ROCK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

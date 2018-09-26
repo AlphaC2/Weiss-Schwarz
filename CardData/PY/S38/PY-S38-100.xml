@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-100</ID>
+    <Name>ハーピー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あなたのためにー♪歌いますー♪聞いてくださいーーー♪</FlavourText>
+    <Ability>【自】他のあなたの《ぷよ》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>ANGEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

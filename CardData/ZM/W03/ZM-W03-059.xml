@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ZM-W03-059</ID>
+    <Name>伝説の剣</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10071.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ワゴンセールの投げ売り品かよ</FlavourText>
+    <Ability>【永】他のあなたの《武器》のキャラすべてに、パワーを＋500。【起】集中［(1)このカードを【レスト】する］あなたは自分の山札の上から4枚をめくり、控え室に置く。あなたは相手にXダメージを与える。Xはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

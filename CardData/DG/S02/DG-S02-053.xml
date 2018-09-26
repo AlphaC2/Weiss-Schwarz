@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-053</ID>
+    <Name>ビッグスター様</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やれやれ。手が焼ける子供だ</FlavourText>
+    <Ability>【自】他のあなたのバトルしているキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>ROSE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

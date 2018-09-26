@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-020</ID>
+    <Name>闇の魔導師</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おまえをこの　闇の剣でうちたおし　オレはさきへすすむ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の《ぷよ》のキャラを1枚選び、そのターン中、パワーを＋1000し、あなたのクロック置場に「きいろぷよ」があるなら、自分の《ぷよ》のキャラを1枚選び、そのターン中、パワーを＋1000。【自】バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

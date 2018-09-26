@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W13-035</ID>
+    <Name>普通の女の子</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10064.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>この音が…</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「私にできること」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋6000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

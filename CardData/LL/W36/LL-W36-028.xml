@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LL-W36-028</ID>
+    <Name>内緒のお年玉</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10068.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ね、早く起きてちょうだい♪　私と遊ぶ時間が減っちゃうわ</FlavourText>
+    <Ability>あなたは自分のクロック置場のコスト0以下のカード名に「絵里」を含むキャラを1枚選び、舞台の好きな枠に置く。あなたは自分のカード名に「絵里」を含むキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。このカードをクロック置場に置く。</Ability>
+</Card>

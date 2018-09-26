@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-014</ID>
+    <Name>時代錯誤の悪ガキ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>すんげぇ腕なんだよ。半分裸みたいな格好でハサミふるってさ</FlavourText>
+    <Ability>【起】［(2)］あなたは相手のキャラを1枚選び、そのターン中、パワーを-500し、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>FAMILY</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

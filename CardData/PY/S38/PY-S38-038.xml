@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-038</ID>
+    <Name>ユウちゃん&amp;レイくん</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>クイズやギャグをデリバリー！</FlavourText>
+    <Ability>【自】このカードがアタックした時、そのターン中、このカードのパワーを＋X。Xはあなたのストックの枚数×500に等しい。【自】［(5)手札を1枚控え室に置き、他のあなたの舞台のキャラを1枚とこのカードを控え室に置く］このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の、「明るいユウれいユウちゃん」を1枚までと「無口なゆうレイレイくん」を1枚まで選び、舞台の別々の枠に置く。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>FEEBLE_JOKE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

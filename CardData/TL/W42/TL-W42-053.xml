@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-053</ID>
+    <Name>“裸Yシャツ”モモ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10053.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いい夢は見られました……？</FlavourText>
+    <Ability>【永】他のあなたの、《宇宙人》か《植物》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードがアタックした時、クライマックス置場に「愛しい想い」があり、あなたの手札が4枚以下なら、あなたは自分の控え室の、《宇宙人》か《植物》のキャラを1枚選び、手札に戻してよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>PLANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

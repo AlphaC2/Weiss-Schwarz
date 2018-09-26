@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-088</ID>
+    <Name>夕景演出</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10088.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おお、これは…ふむ、思ったよりは手の込んだものだなぁ</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「不測の事態」があるなら、あなたの《ガール》のキャラすべてに、そのターン中、パワーを＋1500し、次の能力を与える。『【自】このカードのバトル相手が【リバース】した時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-036</ID>
+    <Name>“リッチー”ウィズ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私には、まだやるべき事があるんです……</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを-1。【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】このカードが手札から舞台に置かれた時、相手は自分の控え室のコスト0以下のキャラを1枚選び、舞台の好きな枠に置いてよい。</Ability>
+    <Character>
+        <Power>11000</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

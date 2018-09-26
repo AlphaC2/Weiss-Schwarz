@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NK-W30-046</ID>
+    <Name>約束のペンダント</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nisekoi/10074.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>楽「……一つだけ聞いてもいいかな……」</FlavourText>
+    <Ability>このカードは、あなたの《鍵》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋3500。このカードを思い出にする。</Ability>
+</Card>

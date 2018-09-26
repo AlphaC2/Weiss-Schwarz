@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-008</ID>
+    <Name>new</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10103.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>聞いて下さい！newgenerationsで…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。【自】［あなたの【スタンド】している《音楽》のキャラを1枚【レスト】する］このカードがアタックした時、クライマックス置場に「できたてEvo!Revo!Generation!」があり、他のあなたの前列の、「newgenerations卯月」と「newgenerations凛」がいるなら、あなたはコストを払ってよい。そうしたら、そのターン中、あなたのキャラすべては【リバース】せず、相手はイベントと『助太刀』を手札からプレイできない。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

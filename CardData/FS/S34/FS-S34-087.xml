@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-087</ID>
+    <Name>戦いの前の忠告</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10114.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>早く呼び出さないと死んじゃうよ。お兄ちゃん</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードは『【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。【自】このカードが手札から舞台に置かれた時、あなたは自分の手札の「戦いの前の忠告イリヤ」を1枚まで選んで相手に見せ、このカードの下にマーカーとして裏向きに置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>HOMUNCULUS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

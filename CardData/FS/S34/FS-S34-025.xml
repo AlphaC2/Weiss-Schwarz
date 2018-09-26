@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-025</ID>
+    <Name>生徒会長</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10052.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>げ、遠坂…</FlavourText>
+    <Ability>-</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

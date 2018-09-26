@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-24</ID>
+    <Name>生田目</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10047.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ハァッ、ハァッ、ハァッ</FlavourText>
+    <Ability>【自】［(7)］相手のドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手の【スタンド】しているレベル3以下のキャラを1枚選び、【レスト】し、相手にXダメージを与える。Xはそのキャラのソウルに等しい。（ダメージキャンセルは発生する）【起】［(1)あなたの山札の上から1枚をクロック置場に置く］あなたは相手の前列のレベル0以下のキャラを1枚選び、山札の上に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>SECRETARY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

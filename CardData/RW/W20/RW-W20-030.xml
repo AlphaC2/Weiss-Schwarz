@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W20-030</ID>
+    <Name>“神速攻撃!”静流</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10035.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>うるとらしょっと！　へい！</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを-1。【自】このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋3000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>JUDGEMENT</Trait>
+        <Trait>OCCULT</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

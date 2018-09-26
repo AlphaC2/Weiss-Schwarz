@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-079</ID>
+    <Name>ゴルド・ムジーク・ユグドミレニア</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>何もするなだと！くそ！</FlavourText>
+    <Ability>【永】他のあなたの「ホムンクルス」すべてに、パワーを＋1000。【永】応援このカードの前のあなたの、《マスター》か《サーヴァント》か《ホムンクルス》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。【起】［このカードを【レスト】する］あなたは自分の《ホムンクルス》のキャラを1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>MASTER</Trait>
+        <Trait>ALCHEMY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

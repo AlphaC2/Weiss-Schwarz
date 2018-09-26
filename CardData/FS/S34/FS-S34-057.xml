@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-057</ID>
+    <Name>遅参する</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>主の異状を察知して駆けつけた。もっとも、遅すぎたようだがね</FlavourText>
+    <Ability>【永】あなたのキャラすべてが、《マスター》か《サーヴァント》なら、このカードのパワーを＋1000。【自】[(1)あなたの山札の上から1枚をクロック置場に置く］あなたのクライマックス置場に「狙い穿つ」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のコスト0以下のキャラを1枚選び、控え室に置き、そのターン中、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

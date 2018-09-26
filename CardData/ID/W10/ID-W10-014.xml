@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-014</ID>
+    <Name>妹達</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10041.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…ただの実験ですよ、とミサカは答えます</FlavourText>
+    <Ability>【永】他のあなたの「妹達」が2枚以上なら、このカードのパワーを＋1500。【永】このカードと同じのカードは、デッキに好きな枚数入れることができる。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>CLONE</Trait>
+        <Trait>ESPER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

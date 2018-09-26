@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-028</ID>
+    <Name>水着のるな</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あかりさん……</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【永】他のあなたの「朝日に輝くせいら」がいるなら、このカードは次の能力を得る。『【起】［このカードを控え室に置く］あなたは自分の控え室の「強い虚栄心るな」を1枚選び、このカードがいた枠に置く。』</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

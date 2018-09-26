@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-043</ID>
+    <Name>テッペリンの主</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10069.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よかろう。だが次の機会は無いと心得よ</FlavourText>
+    <Ability>【自】あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。【自】【CXコンボ】［(1)］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「獣人を統べる者」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て緑のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

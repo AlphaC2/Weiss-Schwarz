@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SF-S04-103</ID>
+    <Name>シャイニング・フォース</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10025.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>異なる羽は、やがて大きな翼に変わる。</FlavourText>
+    <Ability>あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+</Card>

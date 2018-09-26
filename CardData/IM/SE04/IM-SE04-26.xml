@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-SE04-26</ID>
+    <Name>事件の予感</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imd/10053.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うーん、何か変なのよね。意志を感じるの。真相をごまかそうとしているような意志を</FlavourText>
+    <Ability>【永】他のあなたのカード名に「涼」を含むキャラすべてに、パワーを＋500。【起】［このカードをレストする］あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら手札に加え、自分の手札1枚を選び、控え室に置く。(そうでないなら元に戻す)</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

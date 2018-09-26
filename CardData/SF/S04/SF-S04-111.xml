@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SF-S04-111</ID>
+    <Name>闇に生きる貴公子</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10147.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>その姿に魅了された女性は、自ら彼に身をささげ、生涯忠誠を誓うという</FlavourText>
+    <Ability>【自】[(1)]このカードがアタックした時、クライマックス置場に「クロスエリュシオン」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。【起】集中[(1)あなたのキャラを2枚【レスト】する]あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《武器》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

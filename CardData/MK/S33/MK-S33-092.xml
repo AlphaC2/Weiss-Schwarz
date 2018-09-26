@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-092</ID>
+    <Name>黒怪盗“ダークサイド・レボリューション”</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お兄様は、僕らだけのお兄様だ</FlavourText>
+    <Ability>【永】他のあなたの「白怪盗“偉大な白き堕天使”」がいるなら、このカードのパワーを＋4000し、このカードは次の能力を得る。『【自】ターンの終わりに、このカードを控え室に置く。』【自】このカードがアタックした時、クライマックス置場に「カラー・ザ・ファントム」があるなら、あなたは自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋2500。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>THIEF</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

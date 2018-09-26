@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W45-T14</ID>
+    <Name>みんなで叶える物語</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10014.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここから彼女たちの「みんなで叶える物語」が始まった！</FlavourText>
+    <Ability>あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。</Ability>
+</Card>

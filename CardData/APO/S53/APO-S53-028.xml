@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-028</ID>
+    <Name>“最後の一閃”赤のセイバー</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10055.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だから、オレの願いはただ一つだ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。【自】【CXコンボ】［(2)あなたのレベル置場の表向きのカードを1枚裏向きにする］このカードがアタックした時、クライマックス置場に「燦然と輝く王剣」があるなら、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋3500。Ｘはあなたのレベル置場の裏向きのカードの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

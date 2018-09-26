@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE02-030</ID>
+    <Name>制服のミコト</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10233.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【起】[あなたの《武器》のキャラを1枚【レスト】する]そのターン中、このカードのパワーを＋1000。【起】[このカードを【レスト】する]あなたは自分のカード名に「レオ」を含むキャラを1枚選び、そのターン中、『【自】アンコール[手札のキャラを1枚控え室に置く]』を与える。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

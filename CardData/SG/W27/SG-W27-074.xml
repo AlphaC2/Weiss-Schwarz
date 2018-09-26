@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-074</ID>
+    <Name>イチイバル</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10083.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>killter Ichaival tron…</FlavourText>
+    <Ability>あなたは自分のレベル2以上のカード名に「クリス」を含むキャラを1枚選び、控え室に置いてよい。そうしたら、あなたは自分の手札の「“長射程広域攻撃”クリス」を1枚まで選び、舞台の好きな枠に置く。あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W10-106</ID>
+    <Name>学園都市の美琴&amp;黒子</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10141.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>黒子「お姉さまとお買いものですかーー」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】[(2)あなたの《カエル》のキャラを2枚【レスト】する]あなたは相手の前列のレベル1以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>FROG</Trait>
+        <Trait>JUDGEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

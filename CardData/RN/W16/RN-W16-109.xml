@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-109</ID>
+    <Name>スティングーマ(エラッタ前)</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10146.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エルリー・カインが搭乗する、空中戦が得意な異色のカートルーパー</FlavourText>
+    <Ability>【自】［(2)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「スナイデル」か「ボルトヴァリアン」か「スターラプター」を1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。
+エラッタ箇所：テキスト</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SCIENCE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

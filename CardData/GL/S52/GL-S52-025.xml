@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-025</ID>
+    <Name>頼れるメカニック</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10051.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今ので全部出しちゃったけどー？</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの《大グレン団》のキャラすべてに、パワーを＋1000。【永】他のあなたの《大グレン団》のキャラすべてに、『【自】アンコール［(2)］』を与える。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>MECHA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

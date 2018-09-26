@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-008</ID>
+    <Name>初めての気持ち</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10033.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>通じあいたい、悠二と</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見て、山札の上に元の順番で置く。【自】チェンジ［(2)手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「大いなる器シャナ」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MELON_BREAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

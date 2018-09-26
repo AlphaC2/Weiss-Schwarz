@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-092</ID>
+    <Name>“勇敢なサポーター”C-3PO</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10117.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>向きが逆だよ！この毛むくじゃら！</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【自】このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>EMPIRE_STRIKES_BACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

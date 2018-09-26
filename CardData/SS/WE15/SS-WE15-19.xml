@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-19</ID>
+    <Name>闘争の渦</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10037.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私は悠二の採点係じゃ、ない！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している《炎》のキャラを1枚選び、【レスト】する。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S07-086</ID>
+    <Name>生真面目</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10123.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私と今、目が逢った皆さん。是非、そのまま、聞いて下さい。『目が逢う瞬間』です、どうぞ</FlavourText>
+    <Ability>【自】このカードがサイドアタックした時、クライマックス置場に「目が逢う瞬間」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋3000し、あなたはこのカードの正面のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】このカードはサイドアタックできない。このカードは他の枠に動かせない。』</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-060</ID>
+    <Name>煉獄の業火リームシアン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>魔族の長ともあろう者が、こうも恥をかかされて黙ってはおれん</FlavourText>
+    <Ability>【自】このカードの与えたダメージがキャンセルされた時、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

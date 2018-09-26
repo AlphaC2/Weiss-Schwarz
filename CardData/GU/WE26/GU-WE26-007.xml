@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-007</ID>
+    <Name>部活の助っ人?</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10013.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>わ、私も一緒に部活の助っ人ですか</FlavourText>
+    <Ability>【永】あなたのキャラすべてがカード名に「シャロ」か「千夜」を含むなら、このカードのパワーを＋2000。【自】［(1)］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「百発百中」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、手札に戻し、自分の山札を見てカード名に「シャロ」か「千夜」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>フルール・ド・ラパン</Trait>
+        <Trait>特待生</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

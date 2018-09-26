@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-T10</ID>
+    <Name>“手作り料理の毎日”乙坂</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10010.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今日の夕食は、じゃん！有宇お兄ちゃんの大好きなオムライスですーー！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(1)］あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>PIZZA_SAUCE</Trait>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-T06</ID>
+    <Name>勝利宣言</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10007.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あらゆる邪魔者たちを蹴散らして、SOS団は宇宙かなたまでその名を轟かせるのよ！</FlavourText>
+    <Ability>【自】チェンジ［(1)このカードをクロック置場に置く］あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「トラブルガールハルヒ」を1枚選び、このカードがいた枠に置く。【起】集中［(3)］あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルX以下の《団長》のキャラを1枚選び、舞台の好きな枠に置く。Xはそれらのカードの《団長》のキャラの枚数に等しい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>BRIGADE_CHIEF</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

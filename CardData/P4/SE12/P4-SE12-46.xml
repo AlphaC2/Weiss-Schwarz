@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-46</ID>
+    <Name>千枝&amp;トモエ</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4ext1.0/10082.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>吹き飛べー！</FlavourText>
+    <Ability>【永】手札のこのカードをプレイするにあたり、あなたは自分の「里中千枝」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。【自】［(2)］あなたのターン中、相手の【スタンド】しているキャラが【レスト】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の【スタンド】しているキャラを1枚選び、思い出にする。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>SPORTS</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

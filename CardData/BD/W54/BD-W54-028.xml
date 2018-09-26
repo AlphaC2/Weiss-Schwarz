@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-028</ID>
+    <Name>“素顔の姿”大和麻弥</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10060.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>まさかジブンがアイドルにスカウトされるなんて思わなかったですからね。いまだに実感がないんですよ</FlavourText>
+    <Ability>【永】応援あなたの舞台のキャラの持つ色の合計が4色以上なら、このカードの前のあなたのキャラすべてに、パワーを＋1000。【自】あなたのメインフェイズの始めに、あなたは自分のクロックの下から1枚と控え室の《Pastel＊Palettes》のキャラを1枚選び、入れ替えてよい。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

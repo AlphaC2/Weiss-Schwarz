@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DD-WE23-16</ID>
+    <Name>好戦的</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ddext3.0/10031.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>俺らが追いかけてそいつをきっちりぶちのめしてやるからよ！</FlavourText>
+    <Ability>【永】あなたのクロック置場に「若き獅子姫レオ」があるなら、あなたの手札のこのカードのレベルを-1。【自】このカードがアタックした時、クライマックス置場に「空海での決闘」があるなら、あなたは他の自分のキャラを1枚とこのカードを選び、そのターン中、パワーを＋1500し、次の能力を与える。『【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。』</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

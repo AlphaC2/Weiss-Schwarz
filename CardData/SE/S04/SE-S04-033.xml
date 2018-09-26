@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-033</ID>
+    <Name>名工ガンテツ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……なんだ？　装備をきたえてほしいのか？</FlavourText>
+    <Ability>【起】［(1)このカードを【レスト】する］あなたは自分の《武器》のキャラを1枚選び、そのターン中、パワーを＋2500。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>BLACKSMITH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

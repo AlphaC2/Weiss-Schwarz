@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>PD-S22-046</ID>
+    <Name>WeekenderGirl</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10072.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>幸せ離したくないの　ほら　両手を高く上げてプリズムの向こう側　待ちきれない　Weekender Girl</FlavourText>
+    <Ability>このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を見て《音楽》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+</Card>

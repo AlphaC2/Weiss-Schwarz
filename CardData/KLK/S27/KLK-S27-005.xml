@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-005</ID>
+    <Name>大阪観光</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10032.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あれが大阪の新名所、なにわスカイタワー！</FlavourText>
+    <Ability>【自】このカードがアタックした時、そのターン中、このカードのパワーを＋X。Xは他のあなたの、《服》か《家族》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>FAMILY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

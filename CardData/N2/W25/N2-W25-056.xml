@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W25-056</ID>
+    <Name>ユニゾンイン!</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm2/10056.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>夜天の光に、祝福を…リインフォース、ユニゾン・インッ！</FlavourText>
+    <Ability>【永】他のあなたの、《魔法》か《本》のキャラすべてに、パワーを＋1000。【起】［(2)あなたの舞台の「まどろみの時リインフォース」を1枚とこのカードを思い出にする］あなたは自分の控え室の「一心同体はやて＆リインフォース」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

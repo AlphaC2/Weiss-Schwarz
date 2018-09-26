@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LL-W36-096</ID>
+    <Name>お餅もお米</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivesif2.0/10136.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>風が冷たい日は、誰かと一緒に帰りたくなっちゃいますねー</FlavourText>
+    <Ability>あなたは自分の【スタンド】しているカード名に「花陽」を含むキャラを1枚選び【レスト】する。そうしたら、あなたは自分の山札を上から4枚まで見て、カードを1枚選び、手札に加え、残りのカードを山札の上に好きな順番で置き、自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

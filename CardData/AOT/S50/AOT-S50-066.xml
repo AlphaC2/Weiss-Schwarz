@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-066</ID>
+    <Name>“知られざる真実”ベルトルト</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>やるんだな！？今！ここで！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《巨人》のキャラがいるなら、あなたは相手の前列のコスト0以下のキャラを1枚まで選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。【起】［(3)このカードをクロック置場に置く］あなたは自分の控え室の「“人類の仇”超大型巨人」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>TITAN</Trait>
+        <Trait>CORPS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

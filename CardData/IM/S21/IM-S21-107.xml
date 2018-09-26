@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S21-107</ID>
+    <Name>明るい親子</Name>
+    <Rarity>RE</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animeim/10149.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>舞「あなたが一番したいことをすればいいじゃない？」 愛「ママ、あたし歌ってくる。アイドルするために！」</FlavourText>
+    <Ability>【自】［(1)］このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを思い出にする。【自】チェンジ［手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“とつげき豆タンク”愛」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

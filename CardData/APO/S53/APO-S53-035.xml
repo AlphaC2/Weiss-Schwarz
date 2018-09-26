@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-035</ID>
+    <Name>“円卓の騎士”赤のセイバー</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>――取ろうぜ、聖杯</FlavourText>
+    <Ability>【自】【CXコンボ】［(1)］このカードがアタックした時、クライマックス置場に「紅い雷鳴」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“最後の一閃”赤のセイバー」を1枚までと「ふたつのタバコ」を1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>ROYALTY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-085</ID>
+    <Name>古龍ガリュウ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10126.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シリル「これは……！ まさか、これが『ガリュウ』なの？」</FlavourText>
+    <Ability>【自】このカードが舞台に置かれた時、あなたは自分の手札の「古龍ガリュウ」を1枚選び、控え室に置いてよい。そうしたら、あなたは1枚引く。そうしないなら、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>DRAGON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-037</ID>
+    <Name>“人類の脅威”テラフォーマー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10062.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたのカード名に「テラフォーマー」を含むキャラ1枚につき、このカードのパワーを＋1000。【自】［(2)］このカードのバトル相手が【リバース】した時、他のあなたのカード名に「テラフォーマー」を含むキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたはそのバトル相手をクロック置場に置く。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>BUG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

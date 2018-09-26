@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W06-017</ID>
+    <Name>ルームメイト</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>勘違いでソースの濃い口をかけてしまったうどんを、おまえのうまそうなきつねうどんと交換してくれ！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの《筋肉》のキャラが4枚以上なら、あなたのキャラすべてに、そのターン中、パワーを＋4000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MUSCLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

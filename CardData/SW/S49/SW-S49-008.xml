@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-008</ID>
+    <Name>“新しい呼び名”フィン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ポー「なんでおれを助けてくれるんだ？」フィン「正しいことだからさ」</FlavourText>
+    <Ability>【永】他のあなたの《フォースの覚醒》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Icandothis!」があるなら、あなたは自分の山札を見て《フォースの覚醒》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

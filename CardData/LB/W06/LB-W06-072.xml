@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LB-W06-072</ID>
+    <Name>すべては夢の中</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbe/10107.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>多分、もうすぐこの夢は終わるんだ</FlavourText>
+    <Ability>あなたは自分の手札のクライマックスを1枚選び、控え室に置く。そうしたら、あなたは相手の控え室のカードを1枚選び、思い出にする。このカードを思い出にする。</Ability>
+</Card>

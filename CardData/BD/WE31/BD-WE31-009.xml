@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-009</ID>
+    <Name>“グロウアップロック”宇田川巴</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10021.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あはは、自信満々だな</FlavourText>
+    <Ability>【自】【CXコンボ】あなたのクライマックス置場に「グロウアップロック」が置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、自分の山札の上から1枚を公開する。そのカードが『アラーム』を持つキャラならストック置場に置く。（そうでないなら元に戻す）【自】あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

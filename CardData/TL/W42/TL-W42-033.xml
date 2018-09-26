@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-033</ID>
+    <Name>“夕食の誘い”美柑</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10033.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…</FlavourText>
+    <Ability>【永】他のあなたの、《変身》か《家事》のキャラすべてに、レベルを＋1。【自】絆／「“大切な妹”ヤミ」［手札を1枚控え室に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“大切な妹”ヤミ」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Trait>BACKPACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

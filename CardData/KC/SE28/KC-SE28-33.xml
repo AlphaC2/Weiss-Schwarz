@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KC-SE28-33</ID>
+    <Name>離島棲鬼</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kancolleext/10065.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>コリナイコタチ…</FlavourText>
+    <Ability>【永】他のあなたの《深海棲艦》のキャラすべてに、パワーを＋1000。【起】［(2)このカードを【レスト】する］あなたは自分の山札を見て《深海棲艦》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>ABYSSAL_SHIP</Trait>
+        <Trait>ONI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

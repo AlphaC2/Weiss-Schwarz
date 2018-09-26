@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RW-W15-074</ID>
+    <Name>“月明かりの下で”瑚太朗&amp;篝</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rw/10106.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>指先を絡めて、くるくる回る。地球と月みたいに、エレガントには行かないが</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分のレベル1以下のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。【自】相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>KEY</Trait>
+        <Trait>TIME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

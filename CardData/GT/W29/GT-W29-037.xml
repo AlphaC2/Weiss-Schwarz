@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-037</ID>
+    <Name>月の力</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10063.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>聞こえる、私にも、あの人の声……</FlavourText>
+    <Ability>【永】他のあなたの《タロット》のキャラすべてに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。【自】このカードが手札から舞台に置かれた時か「新人隊員るな」の【自】の効果で舞台に置かれた時、あなたは自分の山札を上からX枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Xはあなたの《タロット》のキャラの枚数に等しい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>MOON</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-061</ID>
+    <Name>“さらなる追撃”アーチャー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10061.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたのカード名に「凛」か「アーチャー」を含むキャラすべてに、パワーを＋500。【起】［(2)このカードを【レスト】する］あなたは自分の控え室のカード名に「凛」か「アーチャー」を含むキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

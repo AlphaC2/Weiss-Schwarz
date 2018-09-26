@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-056</ID>
+    <Name>“真っ白な居場所”白鷺千聖</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10088.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>彩ちゃんのために、もう少しだけ手を貸してほしいの</FlavourText>
+    <Ability>【永】あなたの舞台のキャラの持つ色の合計が4色以上なら、このカードのパワーを＋1500。【自】バトル中のこのカードが【リバース】した時、他のあなたの《音楽》のキャラが1枚以下なら、このカードをクロック置場に置く。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

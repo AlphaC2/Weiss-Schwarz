@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W27-096</ID>
+    <Name>天羽々斬</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogearg/10105.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>Imyuteus amenohabakiri tron…</FlavourText>
+    <Ability>あなたは自分のレベル2以上のカード名に「翼」を含むキャラを1枚選び、控え室に置いてよい。そうしたら、あなたは自分の手札の「抜身の刀身翼」を1枚まで選び、舞台の好きな枠に置き、次の相手のターンの終わりまで、そのキャラのパワーを＋3000。</Ability>
+</Card>

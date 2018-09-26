@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MH-WE03-010</ID>
+    <Name>舞衣&amp;アリカ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mhext1.0/10005.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>舞衣「行くわよ！アリカちゃん」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、相手は0か1か2か3を宣言する。あなたは自分の山札の上から1枚を公開し、そのカードが相手の宣言したレベルのキャラなら、舞台のいずれかの枠に置く。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>ELEMENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-021</ID>
+    <Name>“大ピンチ”恭子</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10021.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>そっ…そんな…！</FlavourText>
+    <Ability>【永】舞台のこのカードのレベルを-1。【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>FLAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

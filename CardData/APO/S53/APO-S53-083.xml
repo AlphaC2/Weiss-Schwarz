@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-083</ID>
+    <Name>“二つ重ねて”黒のアサシン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>玲霞「『私がいなくても』『あなたは大丈夫』」</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのパワーを＋5000。【起】［手札を2枚控え室に置き、あなたのレベル置場の表向きのカードを2枚裏向きにする］あなたは自分の山札を上から1枚見て、このカードの下にマーカーとして裏向きに置く。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>FOG</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

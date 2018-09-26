@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-028</ID>
+    <Name>“豪放磊落”前田</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10049.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これがわれらのー…夫婦道！</FlavourText>
+    <Ability>【永】他のあなたの「“賢才瞬麗”まつ」がいるなら、このカードのパワーを＋500。【永】他のあなたの「“賢才瞬麗”まつ」すべてに、パワーを＋500し、《愛》を与える。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MM-W35-051</ID>
+    <Name>立場逆転</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/magicamv/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ほむら「これからもあなた達の存在が必要なの。協力してもらうわよ、インキュベーター」</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、パワーを＋500。【自】この能力は1ターンにつき1回まで発動する。あなたが『シフト』を使った時、次の相手のターンの終わりまで、このカードは『【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。』を得る。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

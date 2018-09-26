@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-059</ID>
+    <Name>マイファーストスター</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10154.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】他のあなたの赤のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Star!!」があるなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

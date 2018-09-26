@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S03-044</ID>
+    <Name>姉妹の抱擁</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fs/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>5</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ありがと。そのリボン、ずっと着けていてくれて、嬉しかった</FlavourText>
+    <Ability>あなたは自分のクロック置場のレベル3以下のキャラを1枚選び、舞台の好きな枠に置く。次の相手のターンの終わりに、そのキャラをクロック置場に置く。</Ability>
+</Card>

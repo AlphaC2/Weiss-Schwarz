@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-11</ID>
+    <Name>“開幕!放課後レクイエムコメディ”りんね</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10021.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>りんね「覚悟しておけ。俺の仕事はキツイぞ」</FlavourText>
+    <Ability>【永】他のあなたのキャラすべてに、次の能力を与える。『【永】このカードはサイドアタックできない。』【自】このカードが手札から舞台に置かれた時、あなたのストックが1枚以下なら、このカードを控え室に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SHINIGAMI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

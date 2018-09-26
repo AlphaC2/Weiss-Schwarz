@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-085</ID>
+    <Name>振袖</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10111.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…あ、あけましておめでとうございます。今年もよろしくお願いしますね、先輩</FlavourText>
+    <Ability>【自】絆／「笑顔快晴葉月柚子」［あなたの山札の上から1枚をクロック置場に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「笑顔快晴葉月柚子」を1枚選び、手札に戻す）【起】［(1)このカードを【レスト】する］あなたは自分のカード名に「柚子」を含むキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>GIRL</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

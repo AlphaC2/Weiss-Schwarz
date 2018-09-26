@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-073</ID>
+    <Name>“命果てるまで”ユミル</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10082.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私がその秘密を明かした時…お前は元の名前を名乗って生きろ</FlavourText>
+    <Ability>【永】このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×2000に等しい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>TITAN</Trait>
+        <Trait>CORPS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

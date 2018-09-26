@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-P03</ID>
+    <Name>ハートに込めて</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10115.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ドキドキするわね</FlavourText>
+    <Ability>【永】 あなたのストックが3枚以下なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>フルール・ド・ラパン </Trait>
+        <Trait> 特待生</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-08</ID>
+    <Name>“悪魔使い”アイリ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10017.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あんたも行くのよ！</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ジュンゴ」を含むキャラがいるなら、このカードのパワーを＋2000し、ソウルを＋1。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>SUMMER</Trait>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

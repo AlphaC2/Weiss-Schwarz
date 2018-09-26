@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-093</ID>
+    <Name>家諦科凶師チャンプル先生</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10108.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>味道求心！　若者は、なにごとも強火で行けい！</FlavourText>
+    <Ability>【自】相手のターン中、このカードとバトルしているキャラが【リバース】した時、あなたは1枚引いてよい。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>TEACHER</Trait>
+        <Trait>COOK</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

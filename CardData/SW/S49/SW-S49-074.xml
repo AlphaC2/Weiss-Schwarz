@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-074</ID>
+    <Name>グランドモフ・ウィルハフ・ターキン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>退避だと？われらの勝利の瞬間を目の前にしてか？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分の赤のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの赤のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>NEW_HOPE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KLK-S27-084</ID>
+    <Name>天眼通を超える心眼通</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10111.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お前の心の動きが手に取るようにわかるぞ</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置く］あなたのクライマックス置場に「本能字四天王、極戦装束！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見てカードを1枚まで選び、山札の下に置く。その後、残りのカードを山札の上に好きな順番で置き、そのターン中、このカードのパワーを＋4000。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>CLOTH</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

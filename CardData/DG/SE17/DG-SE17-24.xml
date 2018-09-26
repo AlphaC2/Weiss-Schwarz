@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-24</ID>
+    <Name>魔界を牛耳る存在</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10047.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハーッハッハッハッハッ！！</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの、《悪魔》か《天使》のキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

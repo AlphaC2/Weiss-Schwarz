@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-097</ID>
+    <Name>守護騎士プログラム</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10131.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>闇の書の起動を確認しました</FlavourText>
+    <Ability>このカードを思い出にする。記憶思い出置場にこのカードがあるなら、あなたのカード名に「はやて」を含むキャラすべてに、パワーを＋500。</Ability>
+</Card>

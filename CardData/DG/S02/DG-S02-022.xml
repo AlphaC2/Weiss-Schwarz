@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>DG-S02-022</ID>
+    <Name>武闘会開催!</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10025.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ウサギ「腕に自身のある方は参加してみては？」</FlavourText>
+    <Ability>【カウンター】あなたのキャラすべてに、そのターン中、パワーを＋1000。</Ability>
+</Card>

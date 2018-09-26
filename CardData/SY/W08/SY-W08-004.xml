@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-004</ID>
+    <Name>謎の転校生</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>転校してきたばかりで至らぬ点もありましょうが、よろしくご教示願います</FlavourText>
+    <Ability>【永】応援あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。【自】［手札を1枚控え室に置く］あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが戻＠なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>ESPER</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

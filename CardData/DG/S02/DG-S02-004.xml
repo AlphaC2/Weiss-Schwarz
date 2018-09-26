@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-004</ID>
+    <Name>幼馴染ラズベリル</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>この手だけは決して離さない！この手はアンタとアタイの絆なんだからね！</FlavourText>
+    <Ability>【自】絆／「魔王マオ」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「魔王マオ」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>DELINQUENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

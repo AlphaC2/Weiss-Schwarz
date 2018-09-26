@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-001</ID>
+    <Name>“お姉さん”アリシア</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10023.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>じゃあ、いってらっしゃい、フェイト</FlavourText>
+    <Ability>【永】応援このカードの前のあなたの、《クローン》か《動物》のキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【起】［(3)手札のクライマックスを1枚控え室に置き、このカードを思い出にする］あなたは自分の手札の「“雷光”フェイト」を1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

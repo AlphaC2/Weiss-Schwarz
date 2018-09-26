@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RG-W13-046</ID>
+    <Name>誰かが見てる</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>うわぁぁぁぁぁぁぁぁぁ！！</FlavourText>
+    <Ability>このカードは、あなたの緑のキャラが2枚以下なら、手札からプレイできない。あなたは相手のキャラを2枚まで選び、そのターン中、パワーを-2500。</Ability>
+</Card>

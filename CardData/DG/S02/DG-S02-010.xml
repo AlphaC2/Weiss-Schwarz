@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-010</ID>
+    <Name>伝説の主席卒業生ラズベリル</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10013.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>明日禍「お姉様の無遅刻無欠席は、学園の歴史にさんぜんと輝き続けるでしょう！」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、あなたのキャラすべてに、そのターン中、ソウルを＋1。【自】［(2)］このカードがアタックした時、クライマックス置場に「そして、伝説へ……」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル2以下のキャラを1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>DELINQUENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

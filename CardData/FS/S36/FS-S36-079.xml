@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-079</ID>
+    <Name>“王との対峙”イリヤ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10079.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［手札を1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「バーサーカー」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。【自】［(2)このカードを手札に戻す］このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「“強靭な意思”バーサーカー」を1枚まで選び、このカードがいた枠に防御キャラとして置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>HOMUNCULUS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

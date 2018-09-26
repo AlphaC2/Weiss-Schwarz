@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IMC-W41-040</ID>
+    <Name>千川</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/imc/10135.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>それ以外に何か？</FlavourText>
+    <Ability>【自】他のあなたの《音楽》のキャラが手札から舞台に置かれた時、そのターン中、そのキャラのパワーを＋500し、《ドリンク》を与える。【起】[(2)このカードを【レスト】する］あなたは1枚引く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

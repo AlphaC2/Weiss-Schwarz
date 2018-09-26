@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RN-W16-045</ID>
+    <Name>臼井</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/robono/10071.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ですから、ロボ部をもう一度復活させるために、全員、入部届を書きなさいと言っているのです</FlavourText>
+    <Ability>【自】バトル中のこのカードが【リバース】した時、あなたは他の自分の《科学》のキャラを2枚まで選び、そのターン中、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。</Ability>
+    <Character>
+        <Power>8500</Power>
+        <Trait>TEACHER</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

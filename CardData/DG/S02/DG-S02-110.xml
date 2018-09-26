@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-110</ID>
+    <Name>卒業生第一号ラズベリル</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10147.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ア、アタイはちっこくなんかない！ココロはデッカイんだ！</FlavourText>
+    <Ability>【永】あなたの控え室のクライマックスが6枚以上なら、このカードのソウルを＋2。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

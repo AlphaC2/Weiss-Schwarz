@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-WE21-11</ID>
+    <Name>巫女神楽</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbcmext/10023.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>じっと見てるなんて、不躾じゃないの、あなた</FlavourText>
+    <Ability>【永】あなたのストックが4枚以上なら、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、他のあなたのカード名に「葉留佳」か「佳奈多」を含むキャラが3枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>CHAIRMAN</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

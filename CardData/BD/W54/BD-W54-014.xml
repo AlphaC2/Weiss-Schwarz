@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-014</ID>
+    <Name>“双子の苦悩”氷川日菜</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10046.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>......おねーちゃんっ、ありがとうっ!!</FlavourText>
+    <Ability>【永】あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［このカードを控え室に置く］あなたは自分の手札の「“双子の苦悩”氷川紗夜」を1枚まで選び、このカードがいた枠に置く。』【自】絆／「“双子の苦悩”氷川紗夜」［手札を1枚控え室に置く］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“双子の苦悩”氷川紗夜」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

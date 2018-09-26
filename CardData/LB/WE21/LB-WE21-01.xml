@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-WE21-01</ID>
+    <Name>想いのカタチ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lbcmext/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>あ、え、なな！</FlavourText>
+    <Ability>【永】他のあなたの《動物》のキャラ1枚につき、このカードのパワーを＋500。【自】［(1)］このカードがアタックした時、クライマックス置場に「うきうきなんかしてない！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋X。Xはあなたの《動物》のキャラの枚数×2000に等しい。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

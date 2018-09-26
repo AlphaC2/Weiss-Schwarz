@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GU-WE26-041</ID>
+    <Name>盤上の真剣勝負</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gochiusaext/10081.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ティッピーうるさいです</FlavourText>
+    <Ability>【永】他のあなたの《ラビットハウス》のキャラ1枚につき、このカードのパワーを＋500。【自】このカードのバトル相手が【リバース】した時、他のあなたのカード名に「ココア」を含むキャラがいるなら、次の相手のターンの終わりまで、このカードのカード名は「お姉ちゃんチノ」としても扱う。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>RABBIT_HOUSE</Trait>
+        <Trait>COFFEE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

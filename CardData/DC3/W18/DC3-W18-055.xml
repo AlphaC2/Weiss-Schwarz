@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-W18-055</ID>
+    <Name>ツンツン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc3/10097.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>……それだけですか？</FlavourText>
+    <Ability>【永】あなたの手札が5枚以上なら、このカードのパワーを＋1000。【永】あなたの手札が4枚以下なら、他のあなたの《新聞》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>NEWS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

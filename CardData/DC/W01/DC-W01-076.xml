@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-W01-076</ID>
+    <Name>水越</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dc/10082.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やっぱり、眠りながら歩くのって、危険なんでしょうか？</FlavourText>
+    <Ability>【永】相手のターン中、他の《鍋》のあなたのキャラすべてに、パワーを＋1000。【永】応援このカードの前のあなたのキャラすべてに、『【自】アンコール［手札のキャラを1枚控え室に置く］』という能力を与える。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>POT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

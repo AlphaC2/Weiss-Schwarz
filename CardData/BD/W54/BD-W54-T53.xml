@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T53</ID>
+    <Name>“七不思議伝承ー”青葉モカ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10335.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>羽丘女子学園に伝わる七不思議ってやつー？聞いたことない？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻してよい。【自】［(1)手札の『アラーム』を持つキャラを1枚控え室に置く］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

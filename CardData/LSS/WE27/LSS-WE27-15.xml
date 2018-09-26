@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-WE27-15</ID>
+    <Name>“未来との出会い”国木田</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivessext/10029.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>み、未来ずらーっ</FlavourText>
+    <Ability>【永】相手の控え室のクライマックスが3枚以下なら、あなたの手札のこのカードのレベルを-1。【永】他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SMARTPHONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

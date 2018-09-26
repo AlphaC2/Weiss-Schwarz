@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK2-S19-018</ID>
+    <Name>忠実なる臣下</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2.0/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ラット、ラット、ラットだっつーの！</FlavourText>
+    <Ability>【永】他のあなたの前列の、「忠実なる臣下ストーンリバー」と「忠実なる臣下トゥエンティ」がいるなら、このカードのパワーを＋2500。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>THIEF</Trait>
+        <Trait>FLAME</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

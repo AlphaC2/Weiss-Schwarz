@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S34-048</ID>
+    <Name>宝具開放</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ならば食らうか、我が必殺の一撃を</FlavourText>
+    <Ability>このカードは、あなたの緑のキャラが2枚以下なら、手札からプレイできない。相手のストックすべてを、控え室に置き、相手は自分の山札の上から同じ枚数をストック置場に置く。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RG-W13-027</ID>
+    <Name>水辺の佐天</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>なんか楽しそうですね！</FlavourText>
+    <Ability>【永】あなたのストックが5枚以上なら、このカードのパワーを＋1000。【永】このカードの正面のキャラのソウルを-1。【自】［(1)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、次の相手のターンの終わりまで、相手はイベントを手札からプレイできない。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>NONE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

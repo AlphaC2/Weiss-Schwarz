@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S34-052</ID>
+    <Name>デート日和</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10079.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。【自】このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している、《マスター》か《サーヴァント》のキャラを1枚選び、【レスト】する。【自】[(2)］このカードがアタックした時、クライマックス置場に「遠坂の魔術刻印」があるなら、あなたはコストを払ってよい。そうしたら、相手にXダメージを与える。Xはあなたの控え室のクライマックスの枚数に等しい。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

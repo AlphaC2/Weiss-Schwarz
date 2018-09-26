@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SE-S04-022</ID>
+    <Name>トウマの意地</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10051.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>トウマ「えらそうなことばっか言いやがって！やれるもんなら、やってみろ！」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。あなたの控え室のクライマックスが4枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-007</ID>
+    <Name>約束の日</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>プロデューサーとの約束があるから、私、強くなれるんですっ！</FlavourText>
+    <Ability>【永】前列の中央の枠にこのカードがいるなら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【永】記憶あなたの思い出置場の「LUCKYRABBIT」が2枚以上なら、このカードのパワーを＋1500。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TEA</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

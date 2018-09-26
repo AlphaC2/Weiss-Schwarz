@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-034</ID>
+    <Name>それでも前向き</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10062.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>コロナ「そばでずっと見てきたから知ってる。必死の練習で自分のものにしたんだもんね」</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《格闘》のキャラの枚数×500に等しい。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「二人きりの練習」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《格闘》のキャラか「セイクリッド・ハート」なら手札に加える。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>ODD_EYE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

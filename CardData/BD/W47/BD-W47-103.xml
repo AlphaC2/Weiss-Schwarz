@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-103</ID>
+    <Name>補習教室</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10171.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ピック･･･？</FlavourText>
+    <Ability>【永】他のあなたの前列の右の枠の「初ライブたえ」に、パワーを＋1500し、次の能力を与える。『【永】このカードのバトル中、相手は『助太刀』を手札からプレイできない。』【自】あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>RABBIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

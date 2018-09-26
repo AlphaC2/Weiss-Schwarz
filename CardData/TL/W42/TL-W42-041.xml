@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-041</ID>
+    <Name>“お出迎え?”唯</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10041.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>え！そ…そうなの？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚と控え室の、《動物》か《植物》のキャラを1枚を選び、入れ替えてよい。【自】このカードがアタックした時、あなたのクロック置場に「“朝のお目覚め”唯」があるなら、そのターン中、このカードのパワーを＋4000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>JUDGEMENT</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-011</ID>
+    <Name>いつも不機嫌</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10039.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>飲み食いの事しかアタマにないんか、お前は</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の《格闘》のキャラを1枚選び、そのターン中、パワーを＋1500。【自】［手札を1枚控え室に置き、このカードを控え室に置く］あなたのクライマックスフェイズの始めに、他のあなたのキャラがいないなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のカード名に「フーカ」を含むキャラを1枚選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MELEE</Trait>
+        <Trait>HAOURYU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

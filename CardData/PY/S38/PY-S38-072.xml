@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-072</ID>
+    <Name>プリンプ魔導学校の生徒</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10096.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>えーい　もんどうむよう！</FlavourText>
+    <Ability>【自】［(2)］このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。【自】［あなたの山札の上から1枚をクロック置場に置き、このカードを手札に戻す］あなたのクライマックス置場に「当然の結果ですわ」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下の《ぷよ》のキャラを1枚まで選び、このカードがいた枠に置き、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>DAUGHTER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

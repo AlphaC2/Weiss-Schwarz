@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-022</ID>
+    <Name>ヘキサゴン・マジック</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10026.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ウェールズ「水のトライアングルには風のトライアングルを！」</FlavourText>
+    <Ability>あなたの黄の《王族》のキャラがいるなら、あなたのキャラすべてに、そのターン中、ソウルを＋1。あなたの青の《王族》のキャラがいるなら、あなたは1枚引く。</Ability>
+</Card>

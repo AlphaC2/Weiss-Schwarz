@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-072</ID>
+    <Name>超長距離砲撃</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>いくよ、久しぶりの長距離砲撃！</FlavourText>
+    <Ability>あなたは相手のコスト1以下のキャラを1枚選び、山札の上に置く。このカードを思い出にする。</Ability>
+</Card>

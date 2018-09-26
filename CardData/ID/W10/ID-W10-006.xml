@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>ID-W10-006</ID>
+    <Name>“幻想殺し”当麻</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>神様…この世界があんたの作ったシステムの通りに動いてるってんなら、まずはその幻想をぶち殺す！！</FlavourText>
+    <Ability>【永】記憶あなたの思い出が2枚以上なら、舞台のこのカードのレベルを-1し、パワーを＋1500。【自】［(1)］このカードがアタックした時、クライマックス置場に「すべてを打ち消す力」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、相手は舞台にいるキャラの【起】を使えない。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

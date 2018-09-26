@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KW-W11-032</ID>
+    <Name>果てしない高さへの一歩</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ab/10060.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ロケット！　英語で言うとロケット！</FlavourText>
+    <Ability>【永】あなたのストックが5枚以上なら、このカードのパワーを＋2000し、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】このカードがアタックした時、クライマックス置場に「ロード・トゥ・マイルハイ」があるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、そのターン中、このカードのパワーを＋X。Xはあなたの、ストックの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>ANIMAL</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

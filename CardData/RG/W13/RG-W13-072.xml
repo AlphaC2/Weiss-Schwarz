@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RG-W13-072</ID>
+    <Name>執念</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir2.0/10105.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>テレスティーナ「この…クソガキどもが…！」</FlavourText>
+    <Ability>あなたは相手の前列のレベル3以下のキャラを1枚選び、山札の上に置く。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-22</ID>
+    <Name>イオ&amp;ルーグ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>人間とはいつの時代でも愚かしい</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「私、生きたい」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋2000し、相手は『【自】アンコール』を使えない。（ルールによる『【自】アンコール［(3)］』も使えない）</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>SUMMER</Trait>
+        <Trait>DEMON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-063</ID>
+    <Name>“全力投球”凛</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10063.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>出し惜しみなし、全財産ブチまけるわ</FlavourText>
+    <Ability>【永】他のあなたのカード名に「士郎」か「セイバー」を含むキャラすべてに、パワーを＋500。【起】［このカードを【レスト】する］あなたは自分の控え室のカード名に「士郎」か「セイバー」を含むキャラを1枚選び、ストック置場に置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>JEWEL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

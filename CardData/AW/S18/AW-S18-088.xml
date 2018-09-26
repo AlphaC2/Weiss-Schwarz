@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-088</ID>
+    <Name>清楚で可憐</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10112.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おはよう、鴉さん</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「心意の力」があるなら、あなたは他の自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>NET</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

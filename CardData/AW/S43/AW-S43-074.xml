@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AW-S43-074</ID>
+    <Name>乱暴な運転</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/awib/10074.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>スカーレット・レイン「くれぐれもドジ踏んで、転げ落ちないよう注意願いまーす」</FlavourText>
+    <Ability>このカードは、あなたの、《アバター》か《ネット》のキャラがいないなら、手札からプレイできない。あなたは相手の後列のコスト1以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

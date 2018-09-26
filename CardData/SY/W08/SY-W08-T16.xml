@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-T16</ID>
+    <Name>情報連結解除</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10017.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>…それまで涼宮さんとお幸せに。じゃあね</FlavourText>
+    <Ability>【カウンター】あなたは相手のクライマックス置場のクライマックスを1枚選び、控え室に置く。</Ability>
+</Card>

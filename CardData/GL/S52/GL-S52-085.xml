@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GL-S52-085</ID>
+    <Name>ギガドリルブレイク</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10111.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ギガ！ドリル！ブレイクゥ！！</FlavourText>
+    <Ability>あなたは自分のカード名に「グレンラガン」を含むキャラか「キングキタン」を1枚選び、そのターン中、次の能力を与える。『【自】アンコールステップの始めに、前列にこのカードがいるなら、あなたは相手に4ダメージを与えてよい。』（ダメージキャンセルは発生する）</Ability>
+</Card>

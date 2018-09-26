@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W53-094</ID>
+    <Name>シャイ煮プレミアム</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess2.0/10129.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここに新たに誕生したのデース</FlavourText>
+    <Ability>すべてのプレイヤーは自分の山札の上から3枚を、控え室に置く。あなたのこの効果で控え室に置かれたレベル1以下のキャラの枚数が、相手のこの効果で控え室に置かれたレベル0以下のキャラの枚数より多いなら、あなたは1枚引いてよい。このカードをストック置場に置く。</Ability>
+</Card>

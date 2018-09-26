@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GF-W33-105</ID>
+    <Name>体力測定</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10131.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>せめて、一回くらいは頑張ります… う、う〜〜ん…</FlavourText>
+    <Ability>あなたの赤のキャラが5枚以上なら、あなたは相手の後列のレベル2以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

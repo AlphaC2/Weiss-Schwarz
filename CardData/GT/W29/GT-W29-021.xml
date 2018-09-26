@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GT-W29-021</ID>
+    <Name>闘いからの帰還</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ウチは……あんたのおかげで戻って来れたんや！</FlavourText>
+    <Ability>このカードは、あなたの《タロット》のキャラがいないなら、手札からプレイできない。あなたは相手のレベル0以下のキャラを1枚まで選び、手札に戻す。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

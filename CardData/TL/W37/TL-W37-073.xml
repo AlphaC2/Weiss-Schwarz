@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-073</ID>
+    <Name>“信頼の絆”ララ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10102.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>でもリトが行ってくれるなら大丈夫だね、きっと</FlavourText>
+    <Ability>【自】共鳴［手札の「“お座り”ララ」を1枚公開する］このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはコストを払ってよい。そうしたら、あなたはそのバトル相手を【リバース】する。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>ALIEN</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

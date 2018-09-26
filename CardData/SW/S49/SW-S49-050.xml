@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SW-S49-050</ID>
+    <Name>The</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10075.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>C-3PO「サーラックの胃の中で1000年以上かけてゆっくりと消化され、心の痛みと苦しみとは何かを知るでしょう」</FlavourText>
+    <Ability>【カウンター】あなたは自分の緑のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

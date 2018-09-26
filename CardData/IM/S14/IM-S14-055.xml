@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-055</ID>
+    <Name>南国少女</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あははは！　やっぱり砂浜はいいな！なんか童心に帰れる気がするぞ！</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「shinysmile」があるなら、そのターン中、このカードのパワーを＋X。Xはこのカードの正面のキャラのレベル×1500に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

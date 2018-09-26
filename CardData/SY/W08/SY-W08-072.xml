@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SY-W08-072</ID>
+    <Name>ただの人間には興味ありません</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10101.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>この中に宇宙人、未来人、異世界人、超能力者がいたらあたしのところに来なさい。以上！</FlavourText>
+    <Ability>このカードは、あなたの《団長》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を見て《SOS団》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分の手札を1枚選び、控え室に置く。</Ability>
+</Card>

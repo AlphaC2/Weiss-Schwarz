@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CL-WP01-05</ID>
+    <Name>やりたい演劇</Name>
+    <Rarity>PS</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/clpset/10005.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>世界にたったひとり残された女の子のお話です。それはとてもとても悲しい…冬の日の、幻想物語なんです</FlavourText>
+    <Ability>【永】他のあなたのカード名に「汐」を含むキャラがいるなら、このカードのパワーを＋1500。【自】このカードのバトル相手がリバースした時、あなたのクライマックス置場に「家族の絆」があるなら、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>THEATER</Trait>
+        <Trait>DANGO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-034</ID>
+    <Name>ネコミミ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10061.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうにょろ？</FlavourText>
+    <Ability>【自】［(1)］あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが＠溜なら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、パワーを-1000。【自】絆／「ネコミミみくる」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ネコミミみくる」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>FOREHEAD</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-062</ID>
+    <Name>“新探偵服”シャロ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10093.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おめかしできました！</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、パワーを＋X。Xはこのカードの下のマーカーの枚数×1000に等しい。【永】応援このカードの前のあなたのキャラすべてに、パワーを＋1000。【自】あなたのクライマックス置場に「春への坂道」が置かれた時、あなたは自分の控え室の《探偵》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>DETECTIVE</Trait>
+        <Trait>CAMERA</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

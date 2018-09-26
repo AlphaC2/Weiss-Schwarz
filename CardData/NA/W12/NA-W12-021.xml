@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-021</ID>
+    <Name>主への想い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10044.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>我等の不義理をお許し下さい……！</FlavourText>
+    <Ability>このカードを思い出にする。記憶思い出置場にこのカードがあるなら、あなたの「“強敵”シグナム」と「“八神家”シグナム」すべてに、パワーを＋1000。</Ability>
+</Card>

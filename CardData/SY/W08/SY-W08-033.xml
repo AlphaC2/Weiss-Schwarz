@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SY-W08-033</ID>
+    <Name>おめかしみくる</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sh/10060.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>わたしがお嫁にいけなくなったら、もらってくれますか？</FlavourText>
+    <Ability>【永】他のあなたの《SOS団》のキャラすべてに、レベルを＋1し、パワーを＋500。【自】［手札を1枚控え室に置く］相手が『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、パワーを-2000。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>TIME</Trait>
+        <Trait>SOS_BRIGADE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

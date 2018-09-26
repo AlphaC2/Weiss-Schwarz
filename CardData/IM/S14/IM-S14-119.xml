@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-119</ID>
+    <Name>パレスオブドラゴン</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10031.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>オッケーだよ、いおりん！あずさお姉ちゃんも、よろよろー！！</FlavourText>
+    <Ability>【永】他のあなたの「パレスオブドラゴンあずさ」がいるなら、他のあなたの「パレスオブドラゴン伊織」すべてに、パワーを＋1500。【永】他のあなたの《音楽》のキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>TWINS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

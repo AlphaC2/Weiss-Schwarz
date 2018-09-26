@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-065</ID>
+    <Name>ウッカリマーメイド</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>本当にいるんだね、そういう人たちって。ちょっとびっくりしちゃった</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している赤のキャラを1枚選び、【レスト】する。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SWIMSUIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

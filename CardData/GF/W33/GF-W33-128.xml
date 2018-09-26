@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-128</ID>
+    <Name>寝起き</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10154.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ここは… 教室だねぇ〜う〜ん？ 待ってる間に寝ちゃってたぁ。それで、私に用事って、なぁに〜？</FlavourText>
+    <Ability>【永】他のあなたの前列の中央の枠のキャラに、パワーを＋500。【起】［あなたのキャラを2枚【レスト】する］あなたは自分の山札を上から1枚見て、山札の上か下に置く。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

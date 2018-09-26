@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-088</ID>
+    <Name>両手に花</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10125.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの「両手に花ラム」がいるなら、このカードのパワーを＋2000。【永】他のあなたの「両手に花ラム」すべてに、パワーを＋1000。【自】相手のアタックフェイズの始めに、あなたは自分の「両手に花ラム」を1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

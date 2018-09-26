@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-089</ID>
+    <Name>“架空の英霊”アサシン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10089.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>無名のまま死んでいった私にもし望みがあったとしたら…</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの、《マスター》か《サーヴァント》のキャラが4枚以上なら、そのターン中、このカードはサイドアタックしてもソウルが減少しない。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>NA-W12-106</ID>
+    <Name>はやて&amp;ヴィータ&amp;シグナム</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10140.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シグナム「我ら夜天の主のもとに集いし騎士」ヴィータ「我らが主、夜天の王……八神はやての名のもとに！」</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《魔法》のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

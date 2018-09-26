@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>GL-S52-098</ID>
+    <Name>デススパイラルマシン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アンチスパイラル「螺旋の墓場だ…」</FlavourText>
+    <Ability>【カウンター】あなたはバトル中以外の相手のキャラを2枚選び、それぞれを【スタンド】して入れ替える。</Ability>
+</Card>

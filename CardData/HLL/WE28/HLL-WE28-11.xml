@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-11</ID>
+    <Name>編入組の定理者</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10021.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>瑞希「そこの葵が会計」</FlavourText>
+    <Ability>【永】他のあなたの、《生徒会》かカード名に「夕子」を含むキャラが2枚以上なら、このカードのパワーを＋2000。【自】相手のアタックフェイズの始めに、あなたはこのカードを前列の中央のキャラのいない枠に動かしてよい。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>STUDENT_COUNCIL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

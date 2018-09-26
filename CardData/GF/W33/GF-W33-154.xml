@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-154</ID>
+    <Name>猫コス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10180.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>１番さんケーキセット二つですにゃ。これは５番さん？ 持って行きますにゃん</FlavourText>
+    <Ability>【永】他のあなたの青のキャラが3枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】このカードがアタックした時、クライマックス置場に「猫も休憩」があるなら、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>GIRL</Trait>
+        <Trait>COSPLAY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

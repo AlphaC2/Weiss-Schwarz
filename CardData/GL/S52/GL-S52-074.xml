@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-074</ID>
+    <Name>貫き通す想い</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10100.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>時間だろうが、空間だろうが、多元宇宙だろうが、そんなこと知ったことじゃねぇ！</FlavourText>
+    <Ability>【永】他のあなたの、マーカーを持つ《大グレン団》のキャラすべてに、パワーを＋1500。【起】［このカードを【レスト】する］あなたは自分の「アークグレンラガン」を1枚選び、そのターン中、ソウルを＋1。【起】【CXコンボ】［あなたの舞台のキャラを3枚控え室に置く］あなたは自分の控え室の「俺のドリルは！天を創るドリルだァ！！！！」を1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

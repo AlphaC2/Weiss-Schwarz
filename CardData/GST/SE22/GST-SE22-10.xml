@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GST-SE22-10</ID>
+    <Name>燃え盛る炎の落とし子</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gstext/10019.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おれたちは、死ぬまで一緒だぜっ</FlavourText>
+    <Ability>【自】あなたのクライマックスフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら、あなたは自分の手札をランダムに1枚選び、控え室に置く。（公開したカードは元に戻す）【自】アンコール［あなたの山札の上から1枚をクロック置場に置く］（このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>GIGANT</Trait>
+        <Trait>PROTAGONIST</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

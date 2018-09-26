@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-S02-008</ID>
+    <Name>リリアンの狂子</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dg/10011.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さすがはお姉様！ 不良の鏡です！</FlavourText>
+    <Ability>【永】相手の控え室にクライマックスがないなら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>DEMON</Trait>
+        <Trait>DELINQUENT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

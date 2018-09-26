@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-149</ID>
+    <Name>チャイナドレス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10175.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さあ、格好だけ決まってても駄目よね。お茶会自体も、きちんとやらないと</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの青のキャラが3枚以上なら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>DRESS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

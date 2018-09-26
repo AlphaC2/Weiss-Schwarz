@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KMN-W51-078</ID>
+    <Name>目印づくり</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10106.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>今からいうところを一緒に抜いてもらってもいいですか？</FlavourText>
+    <Ability>【カウンター】あなたは自分の控え室の、《フレンズ》か《メカ》のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

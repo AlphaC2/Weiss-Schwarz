@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>RW-W20-038</ID>
+    <Name>奇跡と温もりの中で</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rwhf/10043.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ルチア「ずっと……、一緒にいてくれるかッ！？」瑚太朗「ああッ！！　ずっと！　俺が一緒にいてやるッ！！この天王寺瑚太朗がッ、ずっと一緒にいてやるッ！！」</FlavourText>
+    <Ability>あなたは自分のキャラを1枚選び、そのターン中、パワーを＋6000。このカードを思い出にする。【永】記憶思い出置場にこのカードがあるなら、あなたのカード名に「瑚太朗」を含むキャラすべてのカード名は、「“ルチアの毒に打ち克つ力”瑚太朗」としても扱う。</Ability>
+</Card>

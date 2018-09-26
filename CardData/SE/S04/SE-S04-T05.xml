@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-T05</ID>
+    <Name>黄金の騎士アバロン</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>１０００年前の心残り、これで、やっと果たせるな！</FlavourText>
+    <Ability>【永】アラームこのカードがクロックの1番上にあり、あなたの手札が相手の手札より少ないなら、あなたのキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>3500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>UNDEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

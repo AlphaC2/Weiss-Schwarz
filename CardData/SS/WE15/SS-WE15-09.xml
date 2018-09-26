@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-09</ID>
+    <Name>最終決戦</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10017.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>最後のお仕事、ね</FlavourText>
+    <Ability>【起】［(1)あなたの《炎》のキャラを1枚【レスト】する］そのターン中、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

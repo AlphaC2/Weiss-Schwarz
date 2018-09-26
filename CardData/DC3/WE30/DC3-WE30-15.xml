@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC3-WE30-15</ID>
+    <Name>仲良し雪月花</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcvslbdc/10029.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>茜「えーい！小恋ちゃんゲットーー！」小恋「も、もー、茜ったらーっ」</FlavourText>
+    <Ability>【永】あなたの後列のキャラが1枚以下なら、このカードはアタックできない。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「もう、忘れない」があるなら、あなたは自分の後列のキャラを1枚選び、自分の山札を見て特徴を持たないかそのキャラと同じ特徴を1つ以上持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>THEATER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

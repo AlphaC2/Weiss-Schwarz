@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-SE32-16</ID>
+    <Name>“罪の名前”初音ミク</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/mikuext1.0/10032.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>悪夢のような魔法はほら　解けたみたい</FlavourText>
+    <Ability>【永】このカードの下に裏向きのマーカーがあるなら、このカードのパワーを?1500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。【自】【CXコンボ】このカードがアタックした時、クライマックス置場に「罪の名前」があり、このカードの下にマーカーがあるなら、このカードの下の裏向きのマーカーを1枚選び、表向きにし、そのターン中、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻してよい。』</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

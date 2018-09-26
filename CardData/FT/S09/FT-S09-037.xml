@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FT-S09-037</ID>
+    <Name>星霊魔導士</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10066.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ここは妖精の尻尾一の星霊魔導士、ルーシィ様にまかせて！</FlavourText>
+    <Ability>【永】このカードの正面のキャラのソウルを-1。【永】記憶あなたの思い出が4枚以上なら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】あなたのクライマックス置場に「強制閉門」が置かれた時、前列にこのカードがいるなら、あなたのキャラすべてに、そのターン中、パワーを＋3000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>KEY</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

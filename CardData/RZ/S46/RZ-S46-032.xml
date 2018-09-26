@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>RZ-S46-032</ID>
+    <Name>ロズワール邸のメイド</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rz/10069.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】あなたのキャラすべてがカード名に「ロズワール」か「ラム」か「レム」を含むなら、このカードのパワーを＋1000。【自】［(1)］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「姉として」があり、あなたのキャラすべてがカード名に「ロズワール」か「ラム」か「レム」を含むなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「ロズワール」か「ラム」か「レム」を含むキャラを2枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MAGIC</Trait>
+        <Trait>MAID</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

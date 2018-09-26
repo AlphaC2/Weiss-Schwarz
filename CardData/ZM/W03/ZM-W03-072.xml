@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-072</ID>
+    <Name>ダングルテールの虐殺</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>3</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アニエス「私の生まれた村は軍によって焼き払われた…」</FlavourText>
+    <Ability>集中あなたは自分の山札の上から1枚をめくり、控え室に置く。あなたは相手にXダメージを与える。Xはそのカードのレベルに等しい。（クライマックスのレベルは0として扱う）（ダメージキャンセルは発生する）</Ability>
+</Card>

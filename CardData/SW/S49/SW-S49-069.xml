@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-069</ID>
+    <Name>“遺志を継ぐもの”カイロ・レン</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10094.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>だが、われわれは最後のピースが必要なのだ</FlavourText>
+    <Ability>【自】【CXコンボ】［このカードを控え室に置く］このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Showme」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、自分の手札の「カイロ・レン」を1枚まで選び、このカードがいた枠に【レスト】して置く。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

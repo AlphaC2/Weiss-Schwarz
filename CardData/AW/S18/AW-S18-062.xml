@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AW-S18-062</ID>
+    <Name>《赤の王》スカーレット・レイン</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>来いっ、強化外装ーーーっ！！</FlavourText>
+    <Ability>【永】前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。【自】［(1)あなたの山札の上から1枚をクロック置場に置く］このカードがアタックした時、クライマックス置場に「ヘイルストーム・ドミネーション」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル3以下のキャラを1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>AVATAR</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

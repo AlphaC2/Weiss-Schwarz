@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-002</ID>
+    <Name>黒咲</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>「…素敵(記号：ハート)」</FlavourText>
+    <Ability>【永】あなたのターン中、他のあなたの、《変身》か《家事》のキャラ1枚につき、このカードのパワーを＋1000。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札を上からX枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Xはあなたの、《変身》か《家事》のキャラの枚数に等しい。</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>SWEETS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

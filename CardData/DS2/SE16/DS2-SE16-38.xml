@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DS2-SE16-38</ID>
+    <Name>不思議な存在</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ds2ext/10077.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ヤマトとこんな風に楽しいのはいつ以来だろうね</FlavourText>
+    <Ability>【自】［(1)手札を1枚控え室に置く］このカードがアタックした時、クライマックス置場に「ヤマトVSアルコル」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「ヤマト」を含むキャラを1枚までとカード名に「ヒビキ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>SEPTENTRION</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

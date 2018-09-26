@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SB-S06-110</ID>
+    <Name>“英雄”政宗&amp;幸村</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/sb/10144.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>幸村「この幸村、竜を喰らって見せようぞ！」政宗「Hahn？寝言は寝てから言うもんだぜ」</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの《武器》のキャラ1枚につき、このカードのパワーを＋500。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>EYEPATCH</Trait>
+        <Trait>HACHIMAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

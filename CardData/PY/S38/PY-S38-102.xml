@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-102</ID>
+    <Name>頭脳明晰</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10126.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>解けた！ビビッってきた！</FlavourText>
+    <Ability>【永】このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1000。【自】このカードのバトル相手が【リバース】した時、あなたは自分の控え室の「あおぷよ」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】あなたのカードがこのカードの下にマーカーとして置かれた時、このカードの下のマーカーが4枚以上なら、このカードをストック置場に置き、あなたは自分の手札の《ぷよ》のキャラを1枚まで選び、舞台の好きな枠に【レスト】して置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>SCIENCE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

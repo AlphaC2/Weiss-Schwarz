@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KMN-W51-033</ID>
+    <Name>紙ヒコーキ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10061.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>3</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>かばんちゃんはこんなにすっごい技を持ってるんだもん！</FlavourText>
+    <Ability>【カウンター】あなたは相手のキャラを1枚選び、【レスト】する。</Ability>
+</Card>

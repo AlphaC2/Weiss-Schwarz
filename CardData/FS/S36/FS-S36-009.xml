@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>FS-S36-009</ID>
+    <Name>“本気の強襲”士郎</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw2.0/10009.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「“熾天覆う七つの円環”」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上からX枚を、このカードの下にマーカーとして置き、そのターン中、このカードのパワーを＋1500。Xはあなたの、《武器》か《宝石》のキャラの枚数に等しい。【自】相手のアタックフェイズの始めに、あなたはこのカードの下のマーカーをすべて控え室に置く。それらのカードのトリガーアイコンのソウルアイコン＠1つにつき、そのターン中、このカードの正面のキャラのソウルを-1。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>MASTER</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

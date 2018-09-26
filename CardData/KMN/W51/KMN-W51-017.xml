@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KMN-W51-017</ID>
+    <Name>じゃぱり図書館へ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kmn/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ぐねぐねしてるね……</FlavourText>
+    <Ability>【永】このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「まだ見ぬ先へ」があるなら、あなたは自分の山札を上から2枚まで見て、レベル1以上のカードを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>FRIENDS</Trait>
+        <Trait>HAT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

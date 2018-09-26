@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-044</ID>
+    <Name>“料理上手”美柑</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10073.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>私は好きでやってんだから余計な気遣わないの！</FlavourText>
+    <Ability>【自】他のあなたの、《変身》か《家事》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【自】このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、次の相手のターンの終わりまで、このカードのパワーを＋3000。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>HOUSE_KEEPING</Trait>
+        <Trait>BACKPACK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W47-087</ID>
+    <Name>Sprin’PARTY</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd/10155.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>みんな、いい表情</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのパワーを＋4500。【自】このカードが手札から舞台に置かれた時、あなたは自分の控え室の「はじめて聴いたギター」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。【自】このカードがアタックした時、前列の右の枠にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>RABBIT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

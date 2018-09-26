@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-096</ID>
+    <Name>旅の鏡</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10130.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>3</Level>
+    <Cost>5</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>リンカーコア、捕獲……蒐集、開始……！</FlavourText>
+    <Ability>あなたは相手の山札を上から6枚まで見てカードを6枚まで選び、控え室に置く。残りのカードを山札に戻す。その山札をシャッフルする。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-014</ID>
+    <Name>“煌めくステージへ”若宮イヴ</Name>
+    <Rarity>NR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10026.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>なるほど……でもパスパレは５人ですから、じゃあ、五人六脚です！</FlavourText>
+    <Ability>【自】相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「煌めくステージへ」があるなら、あなたは自分の山札を見て《Pastel＊Palettes》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>PASTEL*PALETTES</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

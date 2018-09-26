@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KS-W49-T19</ID>
+    <Name>エリス教徒の同情</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10019.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あはは……女神だって信じてもらえなかったんですけど</FlavourText>
+    <Ability>あなたは自分の山札を見て《冒険者》か《女神》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+</Card>

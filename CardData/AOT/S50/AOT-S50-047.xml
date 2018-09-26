@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AOT-S50-047</ID>
+    <Name>安寧</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10053.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>リヴァイ「ハンジ……おい、クソメガネ」</FlavourText>
+    <Ability>あなたは自分の山札を見て《兵団》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+</Card>

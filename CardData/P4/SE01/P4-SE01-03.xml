@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE01-03</ID>
+    <Name>堂島</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/p4ext/10003.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>これからしばらくは家族同士だ。自分んちと思って気楽にやってくれ</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の、《勇者》かカード名に「主人公」を含むキャラを1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1。【自】あなたのターンの終わりに、あなたの思い出置き場にキャラがあるなら、このカードを手札に戻す。</Ability>
+    <Character>
+        <Power>2500</Power>
+        <Trait>POLICE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

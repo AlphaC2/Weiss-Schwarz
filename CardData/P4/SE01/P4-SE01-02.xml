@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE01-02</ID>
+    <Name>陽介&amp;ジライヤ</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/p4ext/10002.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>お前は、俺で…俺は、お前か。全部ひっくるめて、俺だって事だな</FlavourText>
+    <Ability>【永】手札のこのカードをプレイするにあたり、あなたは自分の「花村陽介」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのソウルを＋1。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>JUNES</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

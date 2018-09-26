@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W42-018</ID>
+    <Name>“トラブルメーカー”ネメシス</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd2.0/10018.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お前の現状を探るのにメアの方が適任だっただけだよ</FlavourText>
+    <Ability>【永】このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋1500。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《変身》か《だんご》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>DANGO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

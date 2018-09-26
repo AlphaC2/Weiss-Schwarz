@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FZ-S17-081</ID>
+    <Name>ヴィマーナ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fz/10111.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アーチャー「またしてもあの狂犬か……面白い…」</FlavourText>
+    <Ability>あなたは自分の控え室のカード名に「アーチャー」を含むキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスならクロック置場に置く。（そうでないなら元に戻す）</Ability>
+</Card>

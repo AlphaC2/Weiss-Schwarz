@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-004</ID>
+    <Name>幸せな時間</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10030.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>永瀧名物、チリンチリンアイスやで！</FlavourText>
+    <Ability>【自】チェンジ［(2)あなたの山札の上から1枚をクロック置場に置き、このカードを思い出にする］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「お父さんっ子ぎんか」を1枚選び、このカードがいた枠に置く。【起】［このカードを【レスト】する］このカードの下にマーカーがないなら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。【起】［このカードを【レスト】する］あなたはこのカードの下のマーカーを1枚ストック置場に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>MERCHANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

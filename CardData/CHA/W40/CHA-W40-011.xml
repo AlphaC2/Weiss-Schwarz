@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CHA-W40-011</ID>
+    <Name>“喧嘩っ早い性格”美砂</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/charlotte1.0/10036.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>なんでてめーの指図に従わなくちゃならねーんだよ！</FlavourText>
+    <Ability>【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「おまじないシリーズ1『大丈夫のおまじない』」があるなら、あなたは自分の山札を見て《能力者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。【自】チェンジ［このカードをストック置場に置く］あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“刹那の本気”西森柚咲」を1枚選び、このカードがいた枠に置く。（クライマックスフェイズの始めにこのカードがいないなら発動しない）</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>GIFTED</Trait>
+        <Trait>DEAD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ID-W10-021</ID>
+    <Name>竜王の顎</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ir/10048.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>テメェ、まさか右腕をぶった切った程度で、俺の幻想殺しを潰せると思ってたんじゃねぇだろうなァ？</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、控え室に置いてよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、レベルを＋2し、パワーを＋2000。</Ability>
+</Card>

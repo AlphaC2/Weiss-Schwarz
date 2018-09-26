@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-059</ID>
+    <Name>その先を見据えるシャナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>確かなのは今行くしかないって事</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「茜色の死闘」があるなら、あなたは自分のキャラを1枚まで選び、そのターン中、次の能力を与える。『【自】このカードが【リバース】した時、このカードのバトル相手のレベルが3以下なら、あなたはそのキャラを【リバース】してよい。』</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

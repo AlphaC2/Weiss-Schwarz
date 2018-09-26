@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-WE15-28</ID>
+    <Name>創造神“祭礼の蛇”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ssext/10055.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>仰ぎ見よ。余こそ神さぶ、奇しき業なり</FlavourText>
+    <Ability>【永】このカードは、あなたの、「『巫女』ヘカテー」と「『将軍』シュドナイ」と「『参謀』ベルペオル」がいる場合を除き、手札からプレイできない。【永】他のあなたの《炎》のキャラすべてに、パワーを＋1000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>SNAKE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

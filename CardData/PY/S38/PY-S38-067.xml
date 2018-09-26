@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-067</ID>
+    <Name>ポポイは腹話術?</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>せいとに　なにかあったらこまりますからね</FlavourText>
+    <Ability>【自】［(1)あなたの山札の上から1枚をクロック置場に置く］相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「ポポイ」を1枚まで選び、舞台の好きな枠に置く。【自】このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。</Ability>
+    <Character>
+        <Power>1000</Power>
+        <Trait>PUYO</Trait>
+        <Trait>TEACHER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

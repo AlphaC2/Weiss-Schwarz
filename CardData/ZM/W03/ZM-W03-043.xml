@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-W03-043</ID>
+    <Name>ルイズのアルバイト</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zm/10051.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふざけないで！！</FlavourText>
+    <Ability>あなたは自分のクロック置場の、《メイド》か《ウェイトレス》のキャラを1枚まで選び、手札に戻す。このカードをクロック置場に置く。あなたは自分の山札の上から1枚を、ストック置場に置く。</Ability>
+</Card>

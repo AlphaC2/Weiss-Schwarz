@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DC-WE08-48</ID>
+    <Name>魂を送るまひる</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dcext3.0/10077.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>約束したんです。理想の恋愛を叶えるって</FlavourText>
+    <Ability>【永】このカードは相手の効果に選ばれない。【自】このカードが舞台から控え室に置かれた時、このカードを思い出にする。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>PARABLE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

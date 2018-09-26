@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FT-S09-022</ID>
+    <Name>妖精の法律</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ft/10049.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>4</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>エルザ「術者が敵と認識したものだけを討つもはや伝説の一つに数えられる超魔法だ」</FlavourText>
+    <Ability>このカードは、あなたの思い出が2枚以下なら、手札からプレイできない。あなたは相手の前列のレベル2以下のキャラを3枚まで選び、ストック置場に置く。</Ability>
+</Card>

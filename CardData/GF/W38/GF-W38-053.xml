@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-053</ID>
+    <Name>文化祭</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10053.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ええっと、挨拶の原稿どこかしらー？昨日渡されて、内容の確認をしてー…どこかに置いてなかった？</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたの「驚愕の音篠宮りさ」がいないなら、このカードを【レスト】する。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-WE27-34</ID>
+    <Name>一人じゃとても作れない大きな輝き</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivessext/10067.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私や曜ちゃんや普通のみんなが集まって、一人じゃとても作れない大きな輝きを作る</FlavourText>
+    <Ability>あなたは自分の山札を上から2枚まで見て、《音楽》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。このカードを思い出にする。</Ability>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W38-076</ID>
+    <Name>弓場の雨情</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf2.0/10076.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>お礼と言うほどではないけど、ほら、お茶</FlavourText>
+    <Ability>【自】他のあなたの《ガール》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。【自】［(1)］このカードがアタックした時、クライマックス置場に「仲良し【芽以＆秋穂】」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ガール》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>GIRL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

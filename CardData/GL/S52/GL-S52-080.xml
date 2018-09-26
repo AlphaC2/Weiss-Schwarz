@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GL-S52-080</ID>
+    <Name>失意のシモン</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gurren/10106.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>嫌なんだ！もう人が死ぬのを見るのは！</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ニア」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。【自】このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《大グレン団》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>DAI_GURREN_BRIGADE</Trait>
+        <Trait>DRILL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

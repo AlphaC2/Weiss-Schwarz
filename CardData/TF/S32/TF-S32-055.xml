@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-055</ID>
+    <Name>“火星への旅立ち”アレックス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10080.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>どうしたのマルコスくん！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、他のあなたのカード名に「マルコス」を含むキャラがいるなら、そのターン中、このカードのパワーを＋2000。【自】あなたのクライマックス置場に「するべきこと」が置かれた時、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

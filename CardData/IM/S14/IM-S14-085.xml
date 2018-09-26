@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-085</ID>
+    <Name>イメージチェンジ!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>あの、ボク髪を伸ばしてみたんですけどどうですか？ちょっとは…かわいいですか？</FlavourText>
+    <Ability>【自】［手札を2枚控え室に置く］あなたのクライマックス置場に「エージェント夜を往く」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てコスト1以下の《音楽》のキャラを1枚まで選び、舞台の好きな枠に置く。その後、その山札をシャッフルし、アンコールステップの始めに、そのキャラが舞台にいるなら、そのキャラを手札に戻す。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

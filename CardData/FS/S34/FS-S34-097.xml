@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>FS-S34-097</ID>
+    <Name>略奪</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fsubw/10124.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>2</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>セイバーは今や私の傀儡</FlavourText>
+    <Ability>あなたは自分の【スタンド】している《マスター》のキャラを1枚選び【レスト】する。そうしたら、あなたは相手のレベル2以下のキャラを1枚選び、山札の下に置く。</Ability>
+</Card>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-078</ID>
+    <Name>大御巫</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10103.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>…解かれよ…</FlavourText>
+    <Ability>【自】このカードがアタックした時、クライマックス置場に「この世での徒の誕生」があるなら、他のあなたのキャラすべてに、次の相手のターンの終わりまで、『【自】アンコール［(1)］』を与える。</Ability>
+    <Character>
+        <Power>8000</Power>
+        <Trait>FLAME</Trait>
+        <Trait>MIKO</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

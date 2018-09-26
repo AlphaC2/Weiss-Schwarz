@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KS-W49-049</ID>
+    <Name>“街の有名人”ウィズ</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/konosuba/10075.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>一応冒険者の資格を持っているので、私もお手伝いに……</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードのレベルを-1し、このカードは《冒険者》を得る。【永】このカードの正面のキャラに、『【自】アンコール［あなたの山札の上から1枚をクロック置場に置く］』を与える。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>DEAD</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

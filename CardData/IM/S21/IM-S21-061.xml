@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S21-061</ID>
+    <Name>新たなる約束</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animeim/10088.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>約束するよ　夢を叶える Thank you for love</FlavourText>
+    <Ability>【自】［手札のクライマックスを1枚控え室に置く］このカードが手札から舞台に置かれた時、あなたのキャラすべてが《音楽》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「約束」を1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。【自】［(1)］このカードがアタックした時、クライマックス置場に「約束」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、他のあなたの《音楽》のキャラ1枚につき、そのターン中、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

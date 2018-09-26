@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>KR-SE30-45</ID>
+    <Name>“複雑な事情”美人秘書</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/rinneext/10099.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>鯖人「実は最近、この生き別れた妹と再会してお金が必要になったんだ」</FlavourText>
+    <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋X。Xはそのキャラのレベル×500に等しい。【起】［このカードを【レスト】する］あなたは自分の青のキャラを1枚選び、そのターン中、パワーを＋1000し、あなたのクロック置場に「“ぬいぐるみ部隊”だまし神」があるなら、自分の青のキャラを1枚選び、そのターン中、パワーを＋1000。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>SHINIGAMI</Trait>
+        <Trait>SECRETARY</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>CN-SE02-23</ID>
+    <Name>蛇の頭アルファルド</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ca/10049.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>シャム「……もし、目的でなく、個人としての欲望をもったのなら……アルファルド…お前は無敵だ…」</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「空を舞う蛇」が置かれた時、このカードの正面のキャラが黄か青なら、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。【自】あなたのクライマックス置場に「空を舞う蛇」が置かれた時、このカードの正面のキャラが赤か緑なら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

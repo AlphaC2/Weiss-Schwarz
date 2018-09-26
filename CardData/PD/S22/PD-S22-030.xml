@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-030</ID>
+    <Name>初音ミク“壱ノ桜・桜花”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>千本桜　夜ニ紛レ　君ノ声モ届カナイヨ此処は宴　鋼の檻　その断頭台で見下ろして</FlavourText>
+    <Ability>【自】［(1)］このカードがアタックした時、クライマックス置場に「千本桜」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋X。Xはこのカードの正面のキャラのレベル×3000に等しい。</Ability>
+    <Character>
+        <Power>5000</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>WAFUKU</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

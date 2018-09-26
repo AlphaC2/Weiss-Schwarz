@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>DG-SE17-30</ID>
+    <Name>“サディスティック”エトナ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/dgd2ext/10059.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>殿下。いい加減ウザいんでさっさと殺っちゃいましょう</FlavourText>
+    <Ability>【自】このカードがアタックした時、相手のクロックが0枚なら、そのターン中、このカードのパワーを＋3000。【自】絆／「先代魔王の息子ラハール」［(1)］（このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「先代魔王の息子ラハール」を1枚選び、手札に戻す）</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>DEMON</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

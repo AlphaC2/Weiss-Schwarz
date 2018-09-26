@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>IM-S07-071</ID>
+    <Name>プレゼント</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im/10105.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>プロデューサーさん。これ、昨日焼いたクッキーなんですけど……。あの、１ついかがですか？</FlavourText>
+    <Ability>あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。このカードを思い出にする。</Ability>
+</Card>

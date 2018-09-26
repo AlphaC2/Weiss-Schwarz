@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SG-W39-045</ID>
+    <Name>チフォージュ・シャトー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10054.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>これが世界の分解だ！</FlavourText>
+    <Ability>あなたは自分の山札を上から3枚まで見て、緑のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。</Ability>
+</Card>

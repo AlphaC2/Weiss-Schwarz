@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SAO-S51-096</ID>
+    <Name>オーディナル・ナンバー1</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/saoos/10096.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>このカードは、あなたの、《アバター》か《ネット》のキャラがいないなら、手札からプレイできない。あなたは自分の山札の上から1枚を、控え室に置き、相手のレベルＸ以下のキャラを1枚選び、山札の下に置く。Ｘはそのカードのレベルに等しい。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

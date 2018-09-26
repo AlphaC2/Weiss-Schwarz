@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GT-W29-008</ID>
+    <Name>気さくな関西人</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/genei/10034.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おばちゃん、角煮まんじゅう４つ！！</FlavourText>
+    <Ability>【永】他のあなたの《タロット》のキャラすべてに、パワーを＋500。【起】［手札の「白金弥太郎」を1枚控え室に置き、このカードを【レスト】する］あなたのキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>TAROT</Trait>
+        <Trait>MERCHANT</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

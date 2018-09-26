@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-002</ID>
+    <Name>ドレス姿の一美</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10027.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>今日から二回戦スタートだもん</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは他の自分のキャラを2枚まで選び、そのターン中、パワーを＋1000し、ソウルを＋1。【自】このカードがアタックした時、クライマックス置場に「校舎裏の宣戦布告」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋3000。【永】経験あなたのターン中、あなたのレベル置場のカードのレベルの合計が4以上なら、このカードのパワーを＋2000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>LOVE</Trait>
+        <Trait>DRESS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

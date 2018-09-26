@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VS-W50-056</ID>
+    <Name>教会の治療士</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/vvs/10084.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ノーヴェ「イクスがそばについてくれてる」</FlavourText>
+    <Ability>【自】他のあなたのバトル中の《格闘》のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。【自】［(1)あなたの山札の上から1枚をクロック置場に置く］この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>NONE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

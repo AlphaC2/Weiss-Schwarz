@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LSS-W45-080</ID>
+    <Name>“仲良し姉妹”黒澤</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10118.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>やっぱり、そういうことになってしまったのですね今のスクールアイドルの中では……</FlavourText>
+    <Ability>【永】あなたのストックが4枚以上なら、このカードのパワーを＋1000。【永】他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

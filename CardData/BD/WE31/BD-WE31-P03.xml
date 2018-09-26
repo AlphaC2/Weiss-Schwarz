@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-WE31-P03</ID>
+    <Name>“憧れのお姉ちゃん”牛込ゆり</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bdsp/10005.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText/>
+    <Ability>【永】 経験 あなたのレベル置場に、「Glitter*Green 鰐部七菜」と「Glitter*Green 二十騎ひなこ」があるなら、あなたの手札のこのカードのレベルを−1。 【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。』</Ability>
+    <Character>
+        <Power>9500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>GLITTER*GREEN</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

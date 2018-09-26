@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>VA-WPR-P11</ID>
+    <Name>“高レベル雑用”藤井知貴</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/promo/10020.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>忙しいのはわかるけど、皆さん休んで！残業しすぎる社員に注意する役目</FlavourText>
+    <Ability>【自】あなたがこのカードの『助太刀』を使った時、あなたの《ビジュアルアーツ》のキャラすべてに、そのターン中、《元気》を与える。【起】【カウンター】助太刀3000レベル2［(1)手札のこのカードを控え室に置く］（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>VISUAL_ARTS</Trait>
+        <Trait>MANAGER</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

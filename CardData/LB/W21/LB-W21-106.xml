@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-106</ID>
+    <Name>“新リーダー”理樹</Name>
+    <Rarity>PR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10141.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>3</Level>
+    <Cost>2</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>僕たちが今できることを思いっきりやろう！</FlavourText>
+    <Ability>【自】あなたのクライマックスフェイズの始めに、他のあなたの、「“兄貴分”恭介」と「“マウンド上の精密機械”鈴」と「“筋肉の革命児”真人」と「“単純馬鹿”謙吾」がいるなら、あなたのキャラすべてに、そのターン中、パワーを＋10000。</Ability>
+    <Character>
+        <Power>10000</Power>
+        <Trait>NONE</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

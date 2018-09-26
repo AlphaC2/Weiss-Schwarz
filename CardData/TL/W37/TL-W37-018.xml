@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TL-W37-018</ID>
+    <Name>“沈着冷静”ヤミ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tld2nd/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>私に何か用ですか？</FlavourText>
+    <Ability>【永】あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［手札を1枚控え室に置き、このカードを控え室に置く］あなたは自分の控え室の「“自分の心”ヤミ」を1枚選び、このカードがいた枠に置く。』【起】［(1)手札のクライマックスを1枚クロック置場に置き、このカードをクロック置場に置く］あなたは自分の手札の「金色の闇」を1枚まで選び、このカードがいた枠に置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>TRANSFORMATION</Trait>
+        <Trait>TAIYAKI</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

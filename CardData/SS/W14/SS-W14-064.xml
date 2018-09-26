@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SS-W14-064</ID>
+    <Name>銀の炎</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>は…はははは！……見つけた…私の…私の全て…！</FlavourText>
+    <Ability>このカードは、あなたの《炎》のキャラがいないなら、手札からプレイできない。あなたは相手の後列のコスト1以下のキャラを1枚選び、控え室に置く。</Ability>
+</Card>

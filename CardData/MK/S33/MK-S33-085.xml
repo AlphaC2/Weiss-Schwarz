@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-085</ID>
+    <Name>白怪盗“偉大な白き堕天使”</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10116.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>素敵です、お兄様</FlavourText>
+    <Ability>【永】他のあなたの「黒怪盗“ダークサイド・レボリューション”」がいるなら、このカードのパワーを＋4000し、このカードは次の能力を得る。『【自】ターンの終わりに、このカードを控え室に置く。』【自】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「カラー・ザ・ファントム」があるなら、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>THIEF</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

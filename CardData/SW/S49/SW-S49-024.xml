@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-024</ID>
+    <Name>“救出作戦”ハン・ソロ</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10047.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>おまえの計画は？</FlavourText>
+    <Ability>【永】他のあなたの「“ウーキー族”チューバッカ」がいるなら、このカードのパワーを＋3000し、ソウルを＋1。【永】記憶あなたの思い出置場に「MillenniumFalcon」があるなら、このカードのパワーを＋3000。【自】このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>NEW_HOPE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

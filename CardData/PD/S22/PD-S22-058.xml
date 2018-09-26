@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-058</ID>
+    <Name>初音ミク“リンちゃん愛し隊1号”</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10086.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>-</FlavourText>
+    <Ability>【永】他のあなたの《音楽》のキャラすべてに、パワーを＋500。【自】［あなたの山札の上から1枚をクロック置場に置き、あなたの【スタンド】しているキャラを1枚【レスト】する］あなたのクライマックス置場に「リンちゃんなう！」が置かれた時、あなたはコストを払ってよい。そうしたら、他のあなたのカード名に「リン」を含むキャラすべてに、そのターン中、パワーを＋2000。</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>LOVE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

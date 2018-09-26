@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W45-028</ID>
+    <Name>美少女の微笑み</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10066.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>曜「美少女…」</FlavourText>
+    <Ability>【カウンター】あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋3500。</Ability>
+</Card>

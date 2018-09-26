@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SS-W14-083</ID>
+    <Name>“逆理の裁者”ベルペオル</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10108.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>久方ぶりだねえ。天壌の劫火、それに万条の仕手</FlavourText>
+    <Ability>【永】経験あなたのレベル置場のカードのレベルの合計が2以上なら、このカードは次の能力を得る。『【起】［(1)］そのターン中、このカードはサイドアタックしてもソウルが減少しない。』</Ability>
+    <Character>
+        <Power>5500</Power>
+        <Trait>FLAME</Trait>
+        <Trait>EYEPATCH</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>SS-W14-027</ID>
+    <Name>清秋祭始まる</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/ss/10052.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>シャナ「……これは多分、楽しい」</FlavourText>
+    <Ability>【カウンター】あなたは自分の《炎》のキャラを1枚選び、そのターン中、パワーを＋4500。</Ability>
+</Card>

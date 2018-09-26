@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-053</ID>
+    <Name>ツッコミ役</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10085.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>違う、わざとだ……</FlavourText>
+    <Ability>【永】あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［(3)あなたの山札の上から1枚をクロック置場に置く］あなたは自分の手札の「蟹に行き遭った少女戦場ヶ原ひたぎ」を1枚選び、舞台の好きな枠に置く。』【永】他のあなたのカード名に「ひたぎ」を含むキャラすべてに、パワーを＋500。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>BLOOD</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

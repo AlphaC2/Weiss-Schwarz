@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>PY-S38-026</ID>
+    <Name>レッツぷよ勝負!</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>3</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>アミティ&amp;アルル「レッツぷよ勝負！」</FlavourText>
+    <Ability>このカードは、あなたの《ぷよ》のキャラがいないなら、手札からプレイできない。あなたのキャラすべてに、そのターン中、パワーを＋2500。すべてのプレイヤーは自分の山札の上から1枚を、控え室に置く。あなたのこの効果で控え室に置かれたカードのレベルが相手のこの効果で控え室に置かれたカードのレベルより高いなら、あなたのキャラすべてに、そのターン中、パワーを＋2500。（クライマックスのレベルは0として扱う）</Ability>
+</Card>

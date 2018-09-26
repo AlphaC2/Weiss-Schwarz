@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-T02</ID>
+    <Name>“英雄”ハン・ソロ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10002.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>フィン「あんた反乱軍とともに戦ったあの有名なハン・ソロなんだな」</FlavourText>
+    <Ability>【自】このカードがアタックした時、あなたは自分の《フォースの覚醒》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>2</Soul>
+    </Character>
+</Card>

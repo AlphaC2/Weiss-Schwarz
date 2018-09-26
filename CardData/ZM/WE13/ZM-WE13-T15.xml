@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>ZM-WE13-T15</ID>
+    <Name>ディスペル発動!</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/zmf/10016.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>デルフリンガー「俺にディスペルをかけろ！」</FlavourText>
+    <Ability>【カウンター】集中あなたは自分の、《魔法》か《使い魔》のキャラを1枚選び、そのターン中、パワーを＋3500。あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードにクライマックスがあるなら、このカードをストック置場に置く。</Ability>
+</Card>

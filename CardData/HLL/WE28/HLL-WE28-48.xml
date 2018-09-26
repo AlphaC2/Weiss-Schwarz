@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>HLL-WE28-48</ID>
+    <Name>かわいらしい日々</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/hinaext1.0/10095.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>帰りましょう、リオネスさん</FlavourText>
+    <Ability>【永】他のあなたの、《定理者》か《使者》のキャラ1枚につき、このカードのパワーを＋1000。【起】［あなたのキャラの下のマーカーを1枚控え室に置く］他のあなたの、《定理者》か《使者》のキャラが4枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>6000</Power>
+        <Trait>LOGICALIST</Trait>
+        <Trait>BOOK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

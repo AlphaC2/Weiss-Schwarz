@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PY-S38-002</ID>
+    <Name>魔法薬作りを勉強中</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/puyopuyo/10026.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おいっス！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋X。Xはあなたの《ぷよ》のキャラの枚数×500に等しい。【自】このカードがアタックした時、クライマックス置場に「お馬鹿さんね」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ぷよ》のキャラなら手札に加える。（そうでないなら元に戻す）</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>PUYO</Trait>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

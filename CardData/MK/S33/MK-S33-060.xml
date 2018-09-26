@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>MK-S33-060</ID>
+    <Name>桃怪盗“麗しき破滅の桃”</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tmh2nd/10091.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ビスコンテの宝、確かにいただくわ</FlavourText>
+    <Ability>【永】舞台にこのカードがいるなら、このカードは《警察》を得る。【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、クロック置場に置く。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>THIEF</Trait>
+        <Trait>MASK</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

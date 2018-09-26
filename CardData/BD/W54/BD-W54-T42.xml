@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BD-W54-T42</ID>
+    <Name>“幼馴染の意義”青葉モカ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bd2.0/10324.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ふふ、なんか懐かしかったねー？昔もこんな風に、よく一緒に隠れてたもんだよ、うんうん</FlavourText>
+    <Ability>【永】他のあなたの「“クールな友達想い”美竹蘭」すべてに、パワーを＋1000。【起】［手札の「“クールな友達想い”美竹蘭」を1枚控え室に置く］あなたは自分のクロック置場の《Afterglow》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場の下に置く。</Ability>
+    <Character>
+        <Power>1500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>AFTERGLOW</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

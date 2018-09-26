@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>IM-S14-076</ID>
+    <Name>ピンクダイヤモンド765</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/im2.0/10107.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>四条さん、それに、真。このステージ、大事にしていきましょう！</FlavourText>
+    <Ability>【永】他のあなたの「ピンクダイヤモンド７６５真」1枚につき、他のあなたの「ピンクダイヤモンド７６５貴音」すべてに、パワーを＋1000。【永】応援このカードの前のあなたのキャラすべてに、『【自】アンコール［手札のキャラを1枚控え室に置く］』を与える。</Ability>
+    <Character>
+        <Power>3000</Power>
+        <Trait>MUSIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

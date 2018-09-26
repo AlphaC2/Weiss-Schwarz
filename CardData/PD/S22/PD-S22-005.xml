@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>PD-S22-005</ID>
+    <Name>鏡音レン“スターマイン”</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/miku/10031.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>人生の途中が　線香花火だとしたら一瞬でも　ふたり照らす向日葵の様に</FlavourText>
+    <Ability>【永】前列の中央の枠にこのカードがいるなら、このカードは『【自】アンコール［手札のキャラを1枚控え室に置く］』を得る。【自】［(1)］このカードがアタックした時、クライマックス置場に「Fire◎Flower」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋4500し、このカードのパワーを＋4500。</Ability>
+    <Character>
+        <Power>7500</Power>
+        <Trait>MUSIC</Trait>
+        <Trait>HEADPHONES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

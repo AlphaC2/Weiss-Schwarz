@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SE-S04-002</ID>
+    <Name>トウマ&amp;ゼナス</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/se/10029.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>トウマ「オレは王様になりたいんだ。どうしたらいいか教えてくれよ、ゼナス」</FlavourText>
+    <Ability>【自】［(3)］このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを手札に戻し、自分の手札の「ウィッチハットのシリル」を1枚選び、このカードがいた枠に防御キャラとして置く。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>WEAPON</Trait>
+        <Trait>ANIMAL</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

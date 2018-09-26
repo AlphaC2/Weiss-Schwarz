@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-108</ID>
+    <Name>ルーク・スカイウォーカー</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10133.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>オビ=ワン「フォースは君と共にあるのだ。いかなる時も」</FlavourText>
+    <Ability>【永】このカードはサイドアタックできない。【永】あなたの後列のキャラが1枚以下なら、このカードはアタックできない。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>NEW_HOPE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

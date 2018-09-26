@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>N2-W32-079</ID>
+    <Name>サポート役</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsm1m2/10079.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>ごめんなさいね…ちょっとだけ、じっとしてて</FlavourText>
+    <Ability>【永】相手のターン中、他のあなたの、《魔法》か《本》のキャラすべてに、パワーを＋500。【起】［(1)］あなたは自分の、《魔法》か《本》のキャラを1枚選び、そのターン中、次の能力を与える。『【永】このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』</Ability>
+    <Character>
+        <Power>500</Power>
+        <Trait>MAGIC</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

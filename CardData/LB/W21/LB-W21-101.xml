@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>LB-W21-101</ID>
+    <Name>“幸せスパイラル理論”小毬</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animelb/10015.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>五円でも優しさがこもっていればそれはとってもプライスレス！</FlavourText>
+    <Ability>【自】あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>SWEETS</Trait>
+        <Trait>FAIRY_TALE</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

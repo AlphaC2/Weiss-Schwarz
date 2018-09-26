@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>KLK-S27-018</ID>
+    <Name>古典的な罠</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/kill/10045.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>流子「マコ！あぶない！」</FlavourText>
+    <Ability>【カウンター】あなたは自分のキャラを1枚選び、手札に戻す。</Ability>
+</Card>

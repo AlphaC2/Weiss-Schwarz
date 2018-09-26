@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>P4-SE12-T04</ID>
+    <Name>陽気なクラスメイト</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/animep4/10004.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>よぉぉぉし！いくか！！</FlavourText>
+    <Ability>【自】あなたのクライマックス置場に「ジライヤ発動」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「面倒見のいいムードメーカー陽介」を1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>JUNES</Trait>
+        <Trait>GLASSES</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

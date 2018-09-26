@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>LSS-W45-061</ID>
+    <Name>素直なことば</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/lovelivess/10099.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>だって……私が泣いたら、みんな落ち込むでしょ？今まで頑張ってきたのに、せっかくスクールアイドルやってくれたのに……悲しくなっちゃうでしょ？</FlavourText>
+    <Ability>あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。あなたは自分の手札を1枚選び、控え室に置いてよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。</Ability>
+</Card>

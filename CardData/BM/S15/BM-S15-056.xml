@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>BM-S15-056</ID>
+    <Name>悪魔の左手</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/bake/10089.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>全てが中途半端だったからな</FlavourText>
+    <Ability>【永】他のあなたのカード名に「ひたぎ」を含むキャラがいるなら、このカードのパワーを＋1500。【自】［(1)］このカードがアタックした時、クライマックス置場に「悪魔が去ったのち」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>ODDITY</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

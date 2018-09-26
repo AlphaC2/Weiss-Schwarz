@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>TF-S32-031</ID>
+    <Name>“火星への旅立ち”マルコス</Name>
+    <Rarity>R</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/tf/10056.jpg</ImageURL>
+    <Colour>GREEN</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>おー重力あるわ〜</FlavourText>
+    <Ability>【永】他のあなたのカード名に「アレックス」を含むキャラが2枚以上なら、このカードのパワーを＋500し、このカードは相手のキャラの【自】の効果によって【リバース】されない。</Ability>
+    <Character>
+        <Power>6500</Power>
+        <Trait>MODIFICATION</Trait>
+        <Trait>BUG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

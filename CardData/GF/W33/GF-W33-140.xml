@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>GF-W33-140</ID>
+    <Name>真剣修練</Name>
+    <Rarity>C</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/gf/10166.jpg</ImageURL>
+    <Colour>BLUE</Colour>
+    <Level>0</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>さあ、それではここからは個別練習です。合宿ですから、もちろんしっかりと</FlavourText>
+    <Ability>【永】相手のターン中、相手のキャラが3枚以下なら、このカードのレベルを＋1し、パワーを＋1500。【自】［(1)］このカードがアタックした時、クライマックス置場に「エール」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2500。</Ability>
+    <Character>
+        <Power>2000</Power>
+        <Trait>GIRL</Trait>
+        <Trait>SPORTS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

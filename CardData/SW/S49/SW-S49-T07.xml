@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>SW-S49-T07</ID>
+    <Name>“新たなる決意を胸に”チューバッカ</Name>
+    <Rarity>TD</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/starwars/10007.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>1</Cost>
+    <Trigger>SOUL</Trigger>
+    <FlavourText>ハン・ソロ「チューイ、こいつらをポッドにいれろ」</FlavourText>
+    <Ability>【永】他のあなたの「“新たなる決意を胸に”ハン・ソロ」がいるなら、このカードのパワーを＋2000。【自】このカードが手札から舞台に置かれた時か「“新たなる決意を胸に”ハン・ソロ」の【自】の効果で舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フォースの覚醒》のキャラの枚数×500に等しい。</Ability>
+    <Character>
+        <Power>7000</Power>
+        <Trait>FORCE_AWAKENS</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

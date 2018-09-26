@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>APO-S53-011</ID>
+    <Name>“令呪をもって”ルーラー</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/fapo/10038.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>令呪をもって命じる！</FlavourText>
+    <Ability>【自】このカードが手札から舞台に置かれた時、あなたは自分の、《マスター》か《サーヴァント》か《ホムンクルス》のキャラを1枚選び、そのターン中、パワーを＋1500。【自】［(1)あなたのレベル置場の表向きのカードを1枚裏向きにする］このカードがアタックした時、あなたはコストを払ってよい。そうしたら、他のあなたの《サーヴァント》のキャラすべてに、そのターン中、ソウルを＋1。</Ability>
+    <Character>
+        <Power>4000</Power>
+        <Trait>SERVANT</Trait>
+        <Trait>FLAG</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

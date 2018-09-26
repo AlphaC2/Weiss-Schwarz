@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>CHARACTER</Type>
+    <ID>AOT-S50-051</ID>
+    <Name>“女神の微笑”クリスタ</Name>
+    <Rarity>RR</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aot2.0/10059.jpg</ImageURL>
+    <Colour>RED</Colour>
+    <Level>1</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>無事だったんだね！？</FlavourText>
+    <Ability>【永】他のあなたの《兵団》のキャラが2枚以上なら、このカードのパワーを＋1000。【自】【CXコンボ】このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「私の名前…」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の控え室の「対巨人戦用『立体機動装置』」を1枚まで選び、手札に戻す。</Ability>
+    <Character>
+        <Power>4500</Power>
+        <Trait>CORPS</Trait>
+        <Trait>WEAPON</Trait>
+        <Soul>1</Soul>
+    </Character>
+</Card>

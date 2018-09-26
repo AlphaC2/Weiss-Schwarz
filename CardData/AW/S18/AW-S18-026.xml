@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>AW-S18-026</ID>
+    <Name>ゲイルスラスター</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/aw/10050.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>2</Level>
+    <Cost>0</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>――着装！ 《ゲイルスラスター》！！</FlavourText>
+    <Ability>【カウンター】あなたは自分の、《アバター》か《ネット》のキャラを1枚選び、そのターン中、パワーを＋3000。</Ability>
+</Card>

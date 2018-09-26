@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Card>
+    <Type>EVENT</Type>
+    <ID>NA-W12-020</ID>
+    <Name>CVK792導入</Name>
+    <Rarity>U</Rarity>
+    <ImageURL>https://yuyu-tei.jp/card_image/ws/front/nsa/10043.jpg</ImageURL>
+    <Colour>YELLOW</Colour>
+    <Level>1</Level>
+    <Cost>1</Cost>
+    <Trigger>NONE</Trigger>
+    <FlavourText>レイジングハート……バルディッシュ……本気なの……？</FlavourText>
+    <Ability>【カウンター】あなたは自分のカード名に「なのは」を含むキャラを1枚選び、そのターン中、パワーを＋1500。あなたは自分のに「フェイト」を含むキャラを1枚選び、そのターン中、パワーを＋1500。</Ability>
+</Card>
