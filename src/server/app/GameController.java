@@ -28,7 +28,8 @@ public class GameController {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/card")
 	public Card getCard(@RequestParam(value = "id", defaultValue = "GC-S16-001") String id) {
-		return CardFactory.createCard(id);
+		Card card = CardFactory.createCard(id);
+		return card;
 	}
 	
 
