@@ -4,11 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 import game.model.card.Card;
+import game.model.card.Colour;
 
 public abstract class SearchableZone extends Zone implements Searchable{
 
 	public SearchableZone(String name,boolean visible) {
 		super(name,visible);
+	}
+	
+	
+	final boolean hasColour(Colour colour){
+		for (Card card : cards) {
+			if (card.getColour() == colour && card.isFaceUp())
+				return true;
+		}
+		return false;
 	}
 	
 	public void remove(Card c) {
