@@ -25,6 +25,7 @@ public class PlayClimax extends Command{
 				if (card instanceof Climax) {
 					p1.getBoard().getHand().remove(card);
 					p1.getBoard().climaxZone = (Climax) card;
+					card.flipFaceUp();
 				} else {
 					p1.log("Not a climax");
 				}
