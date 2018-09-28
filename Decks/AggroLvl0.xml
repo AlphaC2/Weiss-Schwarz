@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deck>
+	<DeckData>
+		<LVL0>42</LVL0>
+		<LVL1>0</LVL1>
+		<LVL2>0</LVL2>
+		<LVL3>0</LVL3>
+		<C>8</C>
+		<E>0</E>
+		<Counter>0</Counter>
+	</DeckData>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>APO-S53-089</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>AW-S18-091</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>BD-W47-107</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>BM-S15-092</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>CHA-W40-090</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>CHA-W40-T12</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>DC-W01-090</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>DC-W01-103</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>DC-W01-090</ID>
+		<Quantity>4</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>DC-WE01-026</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Lvl 0 Vanilla</Desc>
+		<ID>DG-S02-087</ID>
+		<Quantity>2</Quantity>
+	</Card>
+
+	<Card>
+		<Desc>Climax - +2S </Desc>
+		<ID>DC-W01-098</ID>
+		<Quantity>4</Quantity>
+	</Card>
+	
+	<Card>
+		<Desc>Climax - +2S </Desc>
+		<ID>DC-W09-097</ID>
+		<Quantity>4</Quantity>
+	</Card>
+</deck>
