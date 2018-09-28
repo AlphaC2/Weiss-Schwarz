@@ -22,7 +22,7 @@ import game.command.PlayClimax;
 import game.command.StandPhase;
 import game.command.SwapCharacters;
 import game.controller.GameManager;
-import game.model.ability.action.CheckTiming;
+import game.model.ability.action.concrete.CheckTiming;
 
 public class Player {
 	@JsonIgnore

@@ -49,6 +49,7 @@ public abstract class AutoAbility extends StartUpAbility{
 		}
 		return checked;
 	}
+	
 	protected abstract boolean checkPrime(GameEvent e);
 	
 	@Override

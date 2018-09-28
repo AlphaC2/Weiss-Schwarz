@@ -1,30 +1,29 @@
-package game.model.ability.action.condition;
+package game.model.ability.action.concrete;
 
 import game.controller.PlayerController;
 import game.model.ability.action.TargetedAction;
+import game.model.board.Library;
 
-public class PlaceOnStage extends TargetedAction{
+public class ShuffleLibrary extends TargetedAction<Library>{
 
-	PlaceOnStage() {
-		super("Play Character On Stage");
+	ShuffleLibrary() {
+		super("Shuffle Library");
 	}
 
 	@Override
 	public String failureMessage() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Can't shuffle library";
 	}
 
 	@Override
 	protected void setTargets(PlayerController p1, PlayerController p2) {
- 		// TODO Auto-generated method stub
-		
+		targets.add(p1.getBoard().getLibrary());
 	}
 
 	@Override
 	protected void executeAction(PlayerController p1, PlayerController p2) {
-		// TODO Auto-generated method stub
-		
+		targets.get(0).shuffle();
+		p1.log("Shuffled library");
 	}
 
 }

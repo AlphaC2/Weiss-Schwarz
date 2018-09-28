@@ -9,7 +9,6 @@ import game.model.card.Card;
 
 @SuppressWarnings("rawtypes")
 public class ContinuousAbility extends Ability{
-
 	private boolean enabled = false;
 	private List<Condition> conditions;
 	
@@ -21,10 +20,6 @@ public class ContinuousAbility extends Ability{
 		super(source,self);
 	}
 	
-	public void setEnabled(boolean enabled){
-		this.enabled = enabled;
-	}
-	
 	public boolean isEnabled(){
 		return enabled;
 	}
@@ -33,10 +28,12 @@ public class ContinuousAbility extends Ability{
 	public boolean canActivate() {
 		for (Condition condition : conditions) {
 			if (!condition.check()){
-				return false;
+				enabled = false;
+				return enabled;
 			}
 		}
-		return true;
+		enabled = true;
+		return enabled;
 	}
 
 	@Override
@@ -48,7 +45,8 @@ public class ContinuousAbility extends Ability{
 
 	@Override
 	public void setTargets(PlayerController p1, PlayerController p2) {
-		// TODO Auto-generated method stub
-		
+		for (Condition condition : conditions) {
+
+		}
 	}
 }

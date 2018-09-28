@@ -6,6 +6,6 @@ public class DownloadImages {
 
 	@Test
 	public void downloadDirectory(){
-		new DownloadImageSeries("AB");
+		new DownloadImageSeries("AB ");
 	}
 }

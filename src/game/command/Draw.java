@@ -1,7 +1,7 @@
 package game.command;
 
 import game.controller.PlayerController;
-import game.model.ability.action.DrawToHand;
+import game.model.ability.action.concrete.DrawToHand;
 
 public class Draw extends Command{
 

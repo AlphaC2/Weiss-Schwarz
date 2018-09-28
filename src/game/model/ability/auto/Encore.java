@@ -1,17 +1,19 @@
 package game.model.ability.auto;
 
 import game.model.ability.AbilityInterface;
-import game.model.ability.action.PayStock;
+import game.model.ability.action.concrete.PayStock;
+import game.model.board.Slot;
 import game.model.card.Card;
 import game.model.gameEvent.EventType;
 import game.model.gameEvent.GameEvent;
 import game.model.gameEvent.StageToWaitingRoomEvent;
 
 public class Encore extends AutoAbility{
-	
+
 	Encore(Card source, AbilityInterface cost) {
 		super(source, EventType.STAGE_TO_WAITINGROOM, true, true);
 		addCost(cost);
+//		addAction(playCharacterOnStage(c,s) );
 	}
 	
 	Encore(Card source) {
@@ -23,6 +25,7 @@ public class Encore extends AutoAbility{
 		if (e.getType() == EventType.STAGE_TO_WAITINGROOM){
 			StageToWaitingRoomEvent stageToWaitingRoomEvent = (StageToWaitingRoomEvent) e;
 			if (stageToWaitingRoomEvent.getCharacter() == getSource()){
+//				s = e.getSlot();
 				return true;
 			}
 		}

@@ -1,8 +1,8 @@
 package game.command;
 
 import game.controller.PlayerController;
-import game.model.ability.action.DrawToHand;
-import game.model.ability.action.LevelUp;
+import game.model.ability.action.concrete.DrawToHand;
+import game.model.ability.action.concrete.LevelUp;
 import game.model.board.DamageZone;
 import game.model.card.Card;
 

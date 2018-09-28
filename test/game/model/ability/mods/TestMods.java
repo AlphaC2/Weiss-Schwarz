@@ -15,7 +15,7 @@ import game.controller.GameManager;
 import game.controller.PlayerController;
 import game.io.Reader;
 import game.io.Writer;
-import game.model.ability.action.GiveModToHand;
+import game.model.ability.action.concrete.GiveModToHand;
 import game.model.ability.action.condition.Self;
 import game.model.ability.mods.CardMod;
 import game.model.ability.mods.ModType;

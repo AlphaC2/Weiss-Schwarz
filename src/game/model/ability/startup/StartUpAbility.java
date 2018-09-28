@@ -3,7 +3,7 @@ package game.model.ability.startup;
 import game.controller.PlayerController;
 import game.model.ability.Ability;
 import game.model.ability.AbilityInterface;
-import game.model.ability.action.Action;
+import game.model.ability.action.TargetedAction;
 import game.model.card.Card;
 
 public abstract class StartUpAbility extends Ability {
@@ -38,14 +38,14 @@ public abstract class StartUpAbility extends Ability {
 	
 	@SuppressWarnings("rawtypes")
 	public void setTargets(PlayerController p1, PlayerController p2){
-		Action  current = (Action) cost;
+		TargetedAction  current = (TargetedAction) cost;
 		while(current != null){
 			current.setValidTargets(p1, p2);
-			current = (Action) current.next();
+			current = (TargetedAction) current.next();
 		}
 		
 		for (AbilityInterface ability : actions) {
-			Action action = (Action) ability;
+			TargetedAction action = (TargetedAction) ability;
 			action.setValidTargets(p1, p2);
 		}
 	}

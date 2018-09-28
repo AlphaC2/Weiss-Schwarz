@@ -21,7 +21,6 @@ import game.model.card.Colour;
 import game.model.card.Event;
 import game.model.card.Rarity;
 import game.model.card.Trigger;
-import game.model.deck.CardSet;
 
 public class CardXMLReader {
 	

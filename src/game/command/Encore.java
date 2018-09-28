@@ -5,13 +5,12 @@ import java.util.Iterator;
 import java.util.List;
 
 import game.controller.PlayerController;
-import game.model.ability.action.PayStock;
+import game.model.ability.action.concrete.PayStock;
 import game.model.board.Board;
 import game.model.board.Slot;
 import game.model.board.SlotType;
 import game.model.card.Character;
 import game.model.card.Position;
-import game.model.gameEvent.DamageCancelledEvent;
 import game.model.gameEvent.GameEvent;
 import game.model.gameEvent.StageToWaitingRoomEvent;
 

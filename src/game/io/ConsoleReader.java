@@ -5,10 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import game.model.card.Card;
-import game.model.exceptions.InvalidDeckException;
-import game.model.exceptions.InvalidIDException;
-
 public class ConsoleReader extends Reader{
 	private BufferedReader r;
 	

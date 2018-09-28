@@ -6,7 +6,7 @@ import java.util.Map;
 
 import game.command.Discard;
 import game.model.ability.Activatable;
-import game.model.ability.action.DrawToHand;
+import game.model.ability.action.concrete.DrawToHand;
 import game.model.board.Board;
 import game.model.board.Hand;
 import game.model.player.Player;

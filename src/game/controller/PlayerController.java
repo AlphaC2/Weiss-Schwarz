@@ -10,7 +10,7 @@ import game.io.ConsoleReader;
 import game.io.Reader;
 import game.io.WebReader;
 import game.io.Writer;
-import game.model.ability.action.PlaceInDamageFromLibrary;
+import game.model.ability.action.concrete.PlaceInDamageFromLibrary;
 import game.model.ability.auto.AutoAbility;
 import game.model.ability.continuous.ContinuousAbility;
 import game.model.board.Board;
@@ -146,7 +146,7 @@ public class PlayerController {
 		for (Card card : getAbilityCards()) {
 			for (ContinuousAbility a : card.getContinuousAbilities()) {
 				a.setTargets(this, opponent);
-				a.setEnabled(true);
+				a.canActivate();
 			}
 		}
 	}

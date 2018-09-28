@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import game.controller.PlayerController;
-import game.model.ability.action.TakeDamage;
-import game.model.ability.action.TriggerAction;
+import game.model.ability.action.concrete.TakeDamage;
+import game.model.ability.action.concrete.TriggerAction;
 import game.model.board.AttackType;
 import game.model.board.Board;
 import game.model.board.Slot;
