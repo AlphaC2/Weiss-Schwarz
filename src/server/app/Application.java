@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import game.controller.GameManager;
 import game.controller.PlayerController;
+import game.io.BetterRandomReader;
 import game.io.ConsoleReader;
 import game.io.ConsoleWriter;
 import game.io.RandomReader;
@@ -23,7 +24,7 @@ public class Application {
 		writer.setPC(c1);
 		
 //		reader = new ConsoleReader();
-		reader = new RandomReader();
+		reader = new BetterRandomReader();
 		writer = new ConsoleWriter();
 		PlayerController c2 = new PlayerController("P2", reader, writer);
 		reader.setPC(c2);

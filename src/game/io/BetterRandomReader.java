@@ -7,6 +7,12 @@ public class BetterRandomReader extends RandomReader{
 
 	@Override
 	public <T> T getChoice(String prompt, List<T> choices) {
+		if (prompt.contains("deck")){
+			for (T t : choices) {
+				if (t.equals("AggroLvl0"))
+					return t;
+			}
+		}
 		if (prompt.contains("Pick card to clock")){
 			for (int i = 0; i < choices.size(); i++) {
 				if (! (choices.get(i) instanceof Character)){

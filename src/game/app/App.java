@@ -3,6 +3,7 @@ package game.app;
 
 import game.controller.GameManager;
 import game.controller.PlayerController;
+import game.io.BetterRandomReader;
 import game.io.ConsoleReader;
 import game.io.ConsoleWriter;
 import game.io.RandomReader;
@@ -10,7 +11,7 @@ import game.io.RandomReader;
 public class App {
 
 	public static void main(String[] args) {
-		ConsoleReader reader = new RandomReader();
+		ConsoleReader reader = new BetterRandomReader();
 		ConsoleWriter writer = new ConsoleWriter();
 		PlayerController c1 = new PlayerController("P1", reader, writer);
 		reader.setPC(c1);
