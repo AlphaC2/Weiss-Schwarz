@@ -30,16 +30,25 @@ import game.model.card.Position;
 import game.util.Util;
 
 import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameter;
 @SuppressWarnings("rawtypes")
 @RunWith(Parameterized.class)
 public class TestRest {
 	private Board board;
-	private SlotType slotParam;
-	private Position positionParam;
-	private List<Condition> conditionParam;
-	private List<String> traitParams;
 	private PlayerController controller1;
 	private PlayerController controller2;
+	
+	@Parameter(0)
+	public SlotType slotParam;
+	
+	@Parameter(1)
+	public Position positionParam;
+	
+	@Parameter(2)
+	public List<Condition> conditionParam;
+	
+	@Parameter(3)
+	public List<String> traitParams;
 	
 	@Mock
 	Card mockCard;
@@ -72,12 +81,12 @@ public class TestRest {
 		return result;
 	}
 	
-	public TestRest(SlotType s, Position p, List<Condition> c, List<String> trait){
-		this.slotParam = s;
-		this.positionParam = p;
-		this.conditionParam = c;
-		traitParams = trait;
-	}
+//	public TestRest(SlotType s, Position p, List<Condition> c, List<String> trait){
+//		this.slotParam = s;
+//		this.positionParam = p;
+//		this.conditionParam = c;
+//		traitParams = trait;
+//	}
 	
 
 	@Before
