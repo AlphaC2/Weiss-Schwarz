@@ -11,14 +11,14 @@ import game.io.RandomReader;
 public class App {
 
 	public static void main(String[] args) {
-		ConsoleReader reader = new BetterRandomReader();
+		ConsoleReader reader = new ConsoleReader();
 		ConsoleWriter writer = new ConsoleWriter();
 		PlayerController c1 = new PlayerController("P1", reader, writer);
 		reader.setPC(c1);
 		writer.setPC(c1);
 		
 //		reader = new ConsoleReader();
-		reader = new RandomReader();
+		reader = new BetterRandomReader();
 		writer = new ConsoleWriter();
 		PlayerController c2 = new PlayerController("P2", reader, writer);
 		reader.setPC(c2);

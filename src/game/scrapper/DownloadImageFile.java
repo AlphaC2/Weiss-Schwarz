@@ -41,16 +41,18 @@ public class DownloadImageFile {
 			File imageFile = new File(imageFilePath);
 			imageFile.getParentFile().mkdirs();
 			
-			try(InputStream in = new URL(imageUrl).openStream()){
-				Files.copy(in, Paths.get(imageFilePath));
-			}catch(IOException e){
-				e.printStackTrace();
+			if(!imageFile.exists()){
+				try(InputStream in = new URL(imageUrl).openStream()){
+					Files.copy(in, Paths.get(imageFilePath));
+				}catch(IOException e){
+					e.printStackTrace();
+				}
+			}else{
+				System.out.println("File already exists: " + imageFile.getName());
 			}
 			
 		} catch (Exception e1) {
-			System.out.println("File already exists: " + e1.getMessage());
+			e1.printStackTrace();
 		}
-
-
 	}
 }
