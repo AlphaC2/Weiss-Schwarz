@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Card>
+<?xml version="1.0" encoding="UTF-8"?><Card>
     <Type>CHARACTER</Type>
     <ID>SG-W39-088</ID>
-    <Name>謎の少女</Name>
+    <Name>謎の少女 エルフナイン</Name>
     <Rarity>C</Rarity>
     <ImageURL>https://yuyu-tei.jp/card_image/ws/front/symphogeargx/10097.jpg</ImageURL>
     <Colour>BLUE</Colour>
     <Level>0</Level>
     <Cost>0</Cost>
-    <Trigger>NONE</Trigger>
+    <Trigger>BLANK</Trigger>
     <FlavourText>それを可能とするのが錬金術です</FlavourText>
     <Ability>【永】応援このカードの前のあなたのキャラすべてに、パワーを＋500。【起】［(1)］あなたは1枚引き、自分の手札を1枚選び、控え室に置く。</Ability>
     <Character>
