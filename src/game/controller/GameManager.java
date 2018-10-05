@@ -14,9 +14,9 @@ import game.model.player.PlayerPhase;
 public class GameManager implements Runnable {
 	GameState gameState;
 	PlayerController currentPlayer;
-	boolean alive = true;
-	Thread thread;
-	LocalDateTime lastAction;
+	private boolean alive = true;
+	private Thread thread;
+	private LocalDateTime lastAction;
 	
 	public GameManager(PlayerController p1, PlayerController p2) {
 		gameState = new GameState(p1,p2);
@@ -134,6 +134,9 @@ public class GameManager implements Runnable {
 		getController(p).log(text);
 	}
 
+	public boolean isAlive(){
+		return alive;
+	}
 	@Override
 	public void run() {
 		gameLoop();

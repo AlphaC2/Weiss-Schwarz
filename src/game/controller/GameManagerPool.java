@@ -3,6 +3,7 @@ package game.controller;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 
 import game.io.BetterRandomReader;
 import game.io.ConsoleWriter;
@@ -56,11 +57,11 @@ public class GameManagerPool {
 		
 		System.out.println(games.size() + " games Currently Running");
 		System.out.println("IDs:");
-		for (Integer tempId : games.keySet()) {
-			System.out.println(tempId);
+		for (Integer printId : games.keySet()) {
+			System.out.println(printId);
 		}
 		
-		System.out.println("FINISHED MAKING GM");
+//		System.out.println("FINISHED MAKING GM");
 		return id;
 	}
 	
@@ -82,7 +83,7 @@ public class GameManagerPool {
 		return true;
 	}
 	
-	protected static Map<Integer, GameManager> getGames(){
-		return new HashMap<Integer, GameManager>(games);
+	protected static Set<Integer> getGameIDs(){
+		return games.keySet();
 	}
 }

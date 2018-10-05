@@ -50,14 +50,13 @@ public class GameController {
 		if (og == null) {
 			return new ResponseEntity<>("Incorrect game id " + id, HttpStatus.NOT_FOUND);
 		}
-		
+
 		if (index == -1) {
-			System.out.println("Request Recieved with gameID");
+//			System.out.println("Request Recieved with gameID");
 			return new ResponseEntity<>(og.getGameState().toRestricted(), HttpStatus.OK);
-			
+
 		} else {
-			
-			System.out.println("Request Recieved with choice");
+//			System.out.println("Request Recieved with choice");
 			int size = og.getGameState().getChoices().size();
 			if (index >= 0 && index < size) {
 				GameManagerPool.getGameManager(id).getGameState().resume(index);
@@ -68,19 +67,6 @@ public class GameController {
 			}
 		}
 	}
-	
-	// @RequestMapping(method = RequestMethod.GET, value = "/game")
-	// public ResponseEntity getGameState(@RequestParam(value = "id",
-	// defaultValue = "1") int id) {
-	// System.out.println("Request Recieved with gameID");
-	// GameManager og = GameManagerPool.getGameManager(id);
-	// if ( og == null){
-	// return new ResponseEntity<>("Incorrect game id " +
-	// id,HttpStatus.NOT_FOUND);
-	// }
-	// return new
-	// ResponseEntity<>(og.getGameState().toRestricted(),HttpStatus.OK);
-	// }
 
 	@RequestMapping(method = RequestMethod.GET, value = "/endGame")
 	public ResponseEntity endGame(@RequestParam(value = "id", defaultValue = "1") int id) {
