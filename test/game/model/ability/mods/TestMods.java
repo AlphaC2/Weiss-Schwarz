@@ -22,7 +22,6 @@ import game.model.ability.mods.ModType;
 import game.model.ability.mods.NumberMod;
 import game.model.board.Board;
 import game.model.board.Hand;
-import game.model.board.Library;
 import game.model.card.Card;
 import game.model.card.DummyFactory;
 import game.model.card.DummyName;
@@ -35,12 +34,9 @@ public class TestMods {
 	private PlayerController controller1;
 	private PlayerController controller2;
 	private static int testNumber = 0;
-	private Library library;
 	private Hand hand;
 	private CardMod<Integer> mod;
 	private Card target;
-	private Card dummy;
-	private Card dummy2;
 	
 	@Mock
 	Reader mockReader;
@@ -73,13 +69,10 @@ public class TestMods {
 		
 		// Zone setup
 		board = controller1.getBoard();
-		library = board.getLibrary();
 		hand = board.getHand();
 		
 		//Card Setup
 		target = DummyFactory.createCard(DummyName.LevelOneCharacter);
-		dummy = DummyFactory.createCard(DummyName.LevelOneCharacter);
-		dummy2 = DummyFactory.createCard(DummyName.LevelOneCharacter);
 		hand.add(target);
 	}
 

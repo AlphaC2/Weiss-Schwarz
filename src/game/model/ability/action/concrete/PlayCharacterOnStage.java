@@ -2,13 +2,11 @@ package game.model.ability.action.concrete;
 
 import game.controller.PlayerController;
 import game.model.ability.action.DelayedTargetAction;
-import game.model.ability.action.TargetedAction;
 import game.model.ability.action.condition.MatchesCardType;
 import game.model.ability.action.condition.Self;
 import game.model.board.Slot;
 import game.model.card.Card;
 import game.model.card.CardType;
-import game.model.card.Character;
 
 public class PlayCharacterOnStage extends DelayedTargetAction<Card>{
 	private Slot s;

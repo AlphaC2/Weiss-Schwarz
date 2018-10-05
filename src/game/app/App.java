@@ -1,8 +1,8 @@
 package game.app;
 
-
 import game.controller.GameManager;
-import game.controller.PlayerController;
+import game.controller.GameManagerGarbageCollector;
+import game.controller.GameManagerPool;
 import game.io.BetterRandomReader;
 import game.io.ConsoleReader;
 import game.io.ConsoleWriter;
@@ -11,22 +11,23 @@ import game.io.RandomReader;
 public class App {
 
 	public static void main(String[] args) {
-		ConsoleReader reader = new ConsoleReader();
-		ConsoleWriter writer = new ConsoleWriter();
-		PlayerController c1 = new PlayerController("P1", reader, writer);
-		reader.setPC(c1);
-		writer.setPC(c1);
+		ConsoleReader p1r = new ConsoleReader();
+		ConsoleWriter p1w = new ConsoleWriter();
 		
-//		reader = new ConsoleReader();
-		reader = new BetterRandomReader();
-		writer = new ConsoleWriter();
-		PlayerController c2 = new PlayerController("P2", reader, writer);
-		reader.setPC(c2);
-		writer.setPC(c2);
+		ConsoleReader p2r = new BetterRandomReader();
+		ConsoleWriter p2w = new ConsoleWriter();
+
+		int gameID = GameManagerPool.createGameManager(p1r, p1w, p2r, p2w);
+		GameManager gm = GameManagerPool.getGameManager(gameID);
+		GameManagerGarbageCollector.start();
+		System.out.println("APP GAME ID:" + gameID);
 		
-		GameManager gm = new GameManager(c1, c2);
-		c1.readDeck();
-		c2.readDeck();
-		gm.gameLoop();
+//		try {
+//			Thread.sleep(10000);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
+//		gm.alive = false;
+//		gm.getThread().interrupt();
 	}
 }

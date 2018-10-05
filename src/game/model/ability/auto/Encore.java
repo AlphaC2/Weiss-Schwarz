@@ -2,7 +2,6 @@ package game.model.ability.auto;
 
 import game.model.ability.AbilityInterface;
 import game.model.ability.action.concrete.PayStock;
-import game.model.board.Slot;
 import game.model.card.Card;
 import game.model.gameEvent.EventType;
 import game.model.gameEvent.GameEvent;

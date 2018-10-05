@@ -19,15 +19,11 @@ import game.io.Writer;
 import game.model.ability.action.concrete.LevelUp;
 import game.model.board.Board;
 import game.model.board.DamageZone;
-import game.model.board.Hand;
 import game.model.board.LevelZone;
-import game.model.board.Library;
-import game.model.board.Stage;
 import game.model.card.Card;
 import game.model.card.Character;
 import game.model.card.DummyFactory;
 import game.model.card.DummyName;
-import game.model.player.Player;
 
 public class TestLevelUp {
 	private Board board;

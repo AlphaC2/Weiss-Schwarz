@@ -20,27 +20,21 @@ import game.io.Writer;
 import game.model.ability.action.concrete.ResolutionToDamage;
 import game.model.board.Board;
 import game.model.board.DamageZone;
-import game.model.board.Hand;
 import game.model.board.LevelZone;
-import game.model.board.Library;
 import game.model.board.ResolutionZone;
 import game.model.board.WaitingRoom;
 import game.model.card.Card;
 import game.model.card.Character;
-import game.model.card.Climax;
 
 public class TestResolutionToDamage {
 	private Board board;
 	private PlayerController controller;
 	private static int testNumber = 0;
-	private Library library;
-	private Hand hand;
 	private ResolutionZone resolution;
 	private DamageZone damage;
 	private WaitingRoom waitingRoom;
 	private LevelZone level;
 	private Character character;
-	private Climax climax;
 	
 	@Mock
 	Reader mockReader;
@@ -57,7 +51,6 @@ public class TestResolutionToDamage {
 		
 		//Card setup
 		character = (Character) CardXMLReader.read("CardData\\DummySet\\BasicCharacter.xml");
-		climax = (Climax) CardXMLReader.read("CardData\\DummySet\\DummyClimax.xml");
 		
 		List<Card> deck = new ArrayList<>();
 		for (int i = 0; i < 50; i++) {
@@ -73,12 +66,10 @@ public class TestResolutionToDamage {
 		new GameManager(controller, controller);
 		
 		// Zone setup
-		library = board.getLibrary();
 		resolution = board.getResolutionZone();
 		damage = board.getDamageZone();
 		waitingRoom = board.getWaitingRoom();
 		level = board.getLevel();
-		hand = board.getHand();
 	}
 	
 	//Setup Test

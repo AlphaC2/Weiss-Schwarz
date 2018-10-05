@@ -1,8 +1,7 @@
 package game.controller;
 
-import java.util.HashMap;
+import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Map;
 
 import game.command.Discard;
 import game.model.ability.Activatable;
@@ -12,40 +11,29 @@ import game.model.board.Hand;
 import game.model.player.Player;
 import game.model.player.PlayerPhase;
 
-
-public class GameManager {
-	
+public class GameManager implements Runnable {
 	GameState gameState;
 	PlayerController currentPlayer;
 	boolean alive = true;
-	private int id;
-	private static int counter = 1;
-	private static Map<Integer, GameState> map = new HashMap<>();
-
+	Thread thread;
+	LocalDateTime lastAction;
+	
 	public GameManager(PlayerController p1, PlayerController p2) {
-		id = counter;
 		gameState = new GameState(p1,p2);
-		map.put(id, gameState);
 		currentPlayer = p1;
 		p1.setGM(this);
 		p2.setGM(this);
-		counter++;
+		thread = new Thread(this);
+		lastAction = LocalDateTime.now();
 	}
 	
 	public GameState getGameState(){
 		return gameState;
 	}
 	
-	public static GameState getGameState(int id){
-		GameState gameState = map.get(id);
-		return gameState;
-	}
-	
-	public int getID(){
-		return id;
-	}
-	
 	private void setup(){
+		gameState.getP1().readDeck();
+		gameState.getP2().readDeck();
 		gameState.getP1().getBoard().getLibrary().shuffle();
 		gameState.getP2().getBoard().getLibrary().shuffle();
 		gameState.getP1().getPlayer().endPhase();
@@ -63,13 +51,17 @@ public class GameManager {
 	public void gameLoop() {
 		setup();
 		while (alive) {
+			try {
+				Thread.sleep(50);
+			} catch (InterruptedException e) {
+				System.out.println("Stopping thread");
+				return;
+			}
+//			System.out.println("Updated:" + Duration.between(lastAction, LocalDateTime.now()).getSeconds());
+			lastAction = LocalDateTime.now();			
 			log(currentPlayer.getPlayer(),currentPlayer.getPlayer().getName() + ":" + currentPlayer.getPlayer().getPhase() + " Phase");
 			currentPlayer.getPlayer().executeCommand();
 		}
-	}
-	
-	public void log(Player p, Object text){
-		getController(p).log(text);
 	}
 
 	public void endTurn(Player player) {
@@ -129,7 +121,23 @@ public class GameManager {
 		pc.log("is loser");
 		getOpponent(pc).log("is winner");
 	}
-
 	
+	public Thread getThread(){
+		return thread;
+	}
+	
+	public LocalDateTime getLastAction() {
+		return lastAction;
+	}
+
+	public void log(Player p, Object text){
+		getController(p).log(text);
+	}
+
+	@Override
+	public void run() {
+		gameLoop();
+		System.out.println("Ended execution of game ");
+	}
 
 }

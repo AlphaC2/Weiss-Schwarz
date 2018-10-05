@@ -18,7 +18,7 @@ public class WebReader extends Reader {
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				//Terminate Game
 			}
 		}
 		System.out.println("WebReader:");

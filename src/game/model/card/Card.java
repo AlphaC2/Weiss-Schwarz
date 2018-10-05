@@ -125,36 +125,6 @@ public abstract class Card{
 		return visible;
 	}
 
-	@Override
-	public String toString() {
-		return "Card [name=" + name + ", cardID=" + cardID + ", imagePath=" + imagePath + ", level=" + level + ", cost="
-				+ cost + ", colour=" + colour + ", triggers=" + triggers + ", rarity=" + rarity + ", flavourText="
-				+ flavourText + ", visible=" + visible + ", abilities=" + abilities + ", map=" + map + "]";
-	}
-
-	public String toBaseString() {
-		if (!visible) {
-			return "Face down card";
-		}
-
-		String abilityText = "";
-		for (Ability ability : abilities) {
-			abilityText += ability.toString() + System.lineSeparator();
-		}
-		
-		return "Card [name=" + name + ", cardID=" + cardID + ", imagePath=" + imagePath + ", level=" + level + ", cost="
-				+ cost + ", colour=" + colour + ", triggers=" + triggers + ", rarity=" + rarity + ", flavourText="
-				+ flavourText + ", visible=" + visible + "]" + System.lineSeparator() + abilityText;
-	}
-
-	public String toShortString() {
-		if (!visible) {
-			return "Face down card";
-		}
-		return "Card [name=" + name + ", cardID=" + cardID + ", level=" + level + ", cost=" + cost + ", colour="
-				+ colour + "]";
-	}
-
 	public final void addAbility(Ability a) {
 		abilities.add(a);
 	}
@@ -197,5 +167,35 @@ public abstract class Card{
 				}
 			}
 		}
+	}
+	
+	@Override
+	public String toString() {
+		return "Card [name=" + name + ", cardID=" + cardID + ", level=" + getLevel() + ", cost=" + getCost()
+				+ ", colour=" + getColour() + ", triggers=" + triggers + ", rarity=" + rarity + ", flavourText="
+				+ flavourText + ", visible=" + visible + ", abilities=" + abilities + ", imagePath=" + imagePath + "]";
+	}
+
+	public String toBaseString() {
+		if (!visible) {
+			return "Face down card";
+		}
+
+		String abilityText = "";
+		for (Ability ability : abilities) {
+			abilityText += ability.toString() + System.lineSeparator();
+		}
+		
+		return "Card [name=" + name + ", cardID=" + cardID + ", imagePath=" + imagePath + ", level=" + level + ", cost="
+				+ cost + ", colour=" + colour + ", triggers=" + triggers + ", rarity=" + rarity + ", flavourText="
+				+ flavourText + ", visible=" + visible + "]" + System.lineSeparator() + abilityText;
+	}
+
+	public String toShortString() {
+		if (!visible) {
+			return "Face down card";
+		}
+		return "Card [name=" + name + ", cardID=" + cardID + ", level=" + level + ", cost=" + cost + ", colour="
+				+ colour + "]";
 	}
 }

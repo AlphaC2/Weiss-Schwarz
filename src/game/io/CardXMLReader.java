@@ -88,7 +88,7 @@ public class CardXMLReader {
 				String trait1 = doc.getElementsByTagName("Trait").item(0).getTextContent().toUpperCase();
 				String trait2 = nodelist.getLength() > 1 ? nodelist.item(1).getTextContent().toUpperCase() : "NONE";
 				int soul = Integer.parseInt(doc.getElementsByTagName("Soul").item(0).getTextContent());
-				List<Ability> abilities = new ArrayList<Ability>();
+//				List<Ability> abilities = new ArrayList<Ability>();
 
 				c = new Character(name, cardID, imageUrl, level, cost, colour, triggers, rarity, flavourText, trait1,
 						trait2, power, soul);
