@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import game.controller.GameManager;
 import game.controller.GameManagerPool;
+import game.controller.GameState;
 import game.io.CardXMLReader;
 import game.model.card.Card;
 import game.model.card.CardFactory;
@@ -41,33 +41,33 @@ public class GameController {
 			return new ResponseEntity<>("New Game Created, ID=" + gameID, HttpStatus.OK);
 		}
 	}
-
+	
 	@RequestMapping(method = RequestMethod.GET, value = "/game")
-	@ResponseBody
-	public ResponseEntity playerInput(@RequestParam(value = "id", defaultValue = "1") int id,
-			@RequestParam(value = "choice", defaultValue = "-1") int index) {
-		GameManager og = GameManagerPool.getGameManager(id);
-		if (og == null) {
-			return new ResponseEntity<>("Incorrect game id " + id, HttpStatus.NOT_FOUND);
+	public ResponseEntity getGameState(@RequestParam(value = "id", defaultValue = "1") int id) {
+		GameState og = GameManagerPool.getGameManager(id).getGameState();
+		if ( og == null){
+			return new ResponseEntity<>("Incorrect game id " + id,HttpStatus.NOT_FOUND);
 		}
-
-		if (index == -1) {
-//			System.out.println("Request Recieved with gameID");
-			return new ResponseEntity<>(og.getGameState().toRestricted(), HttpStatus.OK);
-
-		} else {
-//			System.out.println("Request Recieved with choice");
-			int size = og.getGameState().getChoices().size();
-			if (index >= 0 && index < size) {
-				GameManagerPool.getGameManager(id).getGameState().resume(index);
-				return new ResponseEntity<>(og.getGameState().toRestricted(), HttpStatus.OK);
-			} else {
-				return new ResponseEntity<>("Invalid choice " + index + " for " + size + " options",
-						HttpStatus.BAD_REQUEST);
-			}
-		}
+		return new ResponseEntity<>(og.toRestricted(),HttpStatus.OK);
 	}
 
+	@RequestMapping(method = RequestMethod.POST, value = "/game")
+	@ResponseBody
+	public ResponseEntity playerInput(@RequestParam(value = "id", defaultValue = "1") int id,
+			@RequestParam(value = "choice", defaultValue = "true") int index) {
+		GameState og = GameManagerPool.getGameManager(id).getGameState();
+		if (og == null){
+			return new ResponseEntity<>("Incorrect game id " + id,HttpStatus.NOT_FOUND);
+		}
+		int size = GameManagerPool.getGameManager(id).getGameState().getChoices().size();
+		if (index >= 0 && index < size){
+			GameManagerPool.getGameManager(id).getGameState().resume(index);
+			return new ResponseEntity<>(og.toRestricted(),HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>("Invalid choice " + index + " for " + size + " options",HttpStatus.BAD_REQUEST);
+		}
+	}
+	
 	@RequestMapping(method = RequestMethod.GET, value = "/endGame")
 	public ResponseEntity endGame(@RequestParam(value = "id", defaultValue = "1") int id) {
 		boolean success = GameManagerPool.endGame(id);
