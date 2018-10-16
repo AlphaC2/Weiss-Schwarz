@@ -26,11 +26,11 @@ public class GameManagerGarbageCollector implements Runnable{
 			try {
 				Thread.sleep(UPDATE);
 				for (Integer id: GameManagerPool.getGameIDs()) {
-					GameManager gm =GameManagerPool.getGameManager(id);
+					GameManager gm = GameManagerPool.getGameManager(id);
 					if ((Duration.between(gm.getLastAction(), LocalDateTime.now()).getSeconds() > TIMEOUT) ||
 							!gm.isAlive()){
-						GameManagerPool.endGame(id);
 						System.out.println("Garbage Collected game " + id);
+						GameManagerPool.endGame(id);
 					}
 				}
 			} catch (InterruptedException e) {

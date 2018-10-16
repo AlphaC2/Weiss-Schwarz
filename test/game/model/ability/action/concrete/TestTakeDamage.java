@@ -67,6 +67,7 @@ public class TestTakeDamage {
 		// Real Controller setup
 		controller = new PlayerController("P1", mockReader, mockWriter);
 		controller.setDeck(deck);
+		controller.testing();
 		board = controller.getBoard();
 
 		// Gamemanager setup

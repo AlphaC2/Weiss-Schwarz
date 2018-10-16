@@ -28,7 +28,6 @@ public class GameState {
 		newState.choices = choices;
 		newState.prompt = prompt;
 		return newState;
-
 	}
 
 	public void pause(PlayerController playerController, String prompt) {

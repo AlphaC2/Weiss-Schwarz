@@ -1,9 +1,9 @@
 package game.controller;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 import game.io.BetterRandomReader;
 import game.io.ConsoleWriter;
@@ -12,7 +12,7 @@ import game.io.WebReader;
 import game.io.Writer;
 
 public class GameManagerPool {
-	private static Map<Integer, GameManager> games = new HashMap<>();
+	private static Map<Integer, GameManager> games = new ConcurrentHashMap<>();
 	private static final int MAX_GAMES = 20;
 	
 	public static GameManager getGameManager(int id){
@@ -83,7 +83,7 @@ public class GameManagerPool {
 		return true;
 	}
 	
-	protected static Set<Integer> getGameIDs(){
+	public static Set<Integer> getGameIDs(){
 		return games.keySet();
 	}
 }

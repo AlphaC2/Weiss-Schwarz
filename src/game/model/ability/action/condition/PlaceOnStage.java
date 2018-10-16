@@ -3,7 +3,7 @@ package game.model.ability.action.condition;
 import game.controller.PlayerController;
 import game.model.ability.action.TargetedAction;
 
-public class PlaceOnStage extends TargetedAction{
+public class PlaceOnStage extends TargetedAction<Object>{
 
 	PlaceOnStage() {
 		super("Play Character On Stage");

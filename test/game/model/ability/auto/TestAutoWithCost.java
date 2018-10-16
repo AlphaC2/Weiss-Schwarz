@@ -73,10 +73,12 @@ public class TestAutoWithCost {
 		// Real Controller setup
 		controller1 = new PlayerController("P1", mockReader, mockWriter);
 		controller1.setDeck(deck);
+		controller1.testing();
 		board = controller1.getBoard();
 		
 		controller2 = new PlayerController("P2", mockReader, mockWriter);
 		controller2.setDeck(deck);
+		controller1.testing();
 		
 		// Gamemanager setup
 		new GameManager(controller1, controller2);

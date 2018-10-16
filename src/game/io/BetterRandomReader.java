@@ -1,9 +1,7 @@
 package game.io;
 
 import java.util.List;
-import java.util.Random;
 
-import game.model.board.Hand;
 import game.model.board.SlotType;
 import game.model.board.Stage;
 import game.model.card.Character;

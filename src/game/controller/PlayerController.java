@@ -89,7 +89,7 @@ public class PlayerController {
 		if (board.climaxZone != null)
 			chars++;
 
-		if (testing && chars != 50) {
+		if (!testing && chars != 50) {
 			log("Level " + board.getLevel().size());
 			log("Damage " + board.getDamageZone().size());
 			log("Hand " + board.getHand().size());
@@ -288,6 +288,10 @@ public class PlayerController {
 
 	public boolean isConsole() {
 		return reader instanceof ConsoleReader;
+	}
+	
+	public void testing(){
+		testing = true;
 	}
 
 }

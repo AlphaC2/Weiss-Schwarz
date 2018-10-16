@@ -47,7 +47,7 @@ public class TestStageAction {
 	}
 
 	 @Parameterized.Parameters
-	   public static Collection actions() {
+	   public static Collection<Object[]> actions() {
 	      return Arrays.asList(new Object[][] {
 	         { new Rest()},
 	         { new ChooseCharacterFromStage()}

@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -70,10 +69,12 @@ public class TestDummyAutoAbility {
 		// Real Controller setup
 		controller1 = new PlayerController("Real Player", mockReader, mockWriter);
 		controller1.setDeck(deck);
+		controller1.testing();
 		board = controller1.getBoard();
 		
 		controller2 = new PlayerController("Real Player2", mockReader, mockWriter);
 		controller2.setDeck(deck);
+		controller2.testing();
 		
 		// Gamemanager setup
 		new GameManager(controller1, controller2);
