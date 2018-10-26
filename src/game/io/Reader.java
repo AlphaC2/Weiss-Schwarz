@@ -16,7 +16,7 @@ public abstract class Reader {
 	
 	public abstract <T> T getChoice(String prompt, List<T> choices);
 	public abstract boolean getChoice(String prompt);
-	public abstract void buildDeck();
+//	public abstract void buildDeck();
 	
 	public List<Card> readDeck() {
 

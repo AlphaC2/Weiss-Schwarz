@@ -19,7 +19,10 @@ public class WebReader extends Reader {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				//Terminate Game
+//				System.out.println("WEBREADER INTERRUPT");
+				pc.getGM().getThread().interrupt();
 			}
+//			System.out.println("CHECK");
 		}
 		System.out.println("WebReader:");
 		System.out.println(pc.getGM().getGameState().getChoice());
@@ -27,11 +30,11 @@ public class WebReader extends Reader {
 		return (T) pc.getGM().getGameState().getChoice();
 	}
 
-	@Override
-	public void buildDeck() {
-		// TODO Auto-generated method stub
-
-	}
+//	@Override
+//	public void buildDeck() {
+//		// TODO Auto-generated method stub
+//
+//	}
 
 	@Override
 	public boolean getChoice(String prompt) {

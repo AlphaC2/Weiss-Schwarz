@@ -8,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import game.controller.GameManager;
@@ -66,7 +65,6 @@ public class GameController {
 	}
 
 	@RequestMapping(method = RequestMethod.POST, value = "/game")
-	@ResponseBody
 	public ResponseEntity playerInput(@RequestParam(value = "id", defaultValue = "1") int id,
 			@RequestParam(value = "choice", defaultValue = "true") int index) {
 		
@@ -86,7 +84,9 @@ public class GameController {
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/endGame")
 	public ResponseEntity endGame(@RequestParam(value = "id", defaultValue = "1") int id) {
+		GameManager gm = GameManagerPool.getGameManager(id);
 		boolean success = GameManagerPool.endGame(id);
+		gm.getGameState().resume(0);
 		if (!success) {
 			return new ResponseEntity<>("Incorrect game id " + id, HttpStatus.NOT_FOUND);
 		} else {

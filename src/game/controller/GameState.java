@@ -45,6 +45,7 @@ public class GameState {
 	}
 
 	public void resume(int index) {
+		System.out.println("RESUMED");
 		status = GameStatus.PLAYING;
 		choice = choices.get(index);
 	}

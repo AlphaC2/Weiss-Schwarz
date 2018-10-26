@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 public class GameManagerGarbageCollector implements Runnable{
 	private static GameManagerGarbageCollector gmgc;
-	private static final long TIMEOUT = 300; //seconds
+	private static final long TIMEOUT = 11; //seconds
 	private static final long UPDATE = 5000; //milliseconds
 	
 	private GameManagerGarbageCollector() {
@@ -29,8 +29,8 @@ public class GameManagerGarbageCollector implements Runnable{
 					GameManager gm = GameManagerPool.getGameManager(id);
 					if ((Duration.between(gm.getLastAction(), LocalDateTime.now()).getSeconds() > TIMEOUT) ||
 							!gm.isAlive()){
-						System.out.println("Garbage Collected game " + id);
 						GameManagerPool.endGame(id);
+						System.out.println("Garbage Collected game " + id);
 					}
 				}
 			} catch (InterruptedException e) {

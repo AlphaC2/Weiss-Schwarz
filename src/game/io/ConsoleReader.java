@@ -21,6 +21,9 @@ public class ConsoleReader extends Reader{
 		
 		
 		while(true){
+			if(pc.getGM().getThread().isInterrupted()){
+				System.out.println("DIE");
+			}
 			System.out.println();
 			System.out.println(prompt);
 			for (int i = 0; i < choices.size(); i++){
@@ -59,9 +62,9 @@ public class ConsoleReader extends Reader{
 		return false;
 	}
 
-	@Override
-	public void buildDeck() {
-		// TODO Auto-generated method stub
-	}
+//	@Override
+//	public void buildDeck() {
+//		// TODO Auto-generated method stub
+//	}
 	
 }

@@ -58,7 +58,7 @@ public class GameManager implements Runnable {
 				return;
 			}
 //			System.out.println("Updated:" + Duration.between(lastAction, LocalDateTime.now()).getSeconds());
-			lastAction = LocalDateTime.now();			
+			lastAction = LocalDateTime.now();
 			log(currentPlayer.getPlayer(),currentPlayer.getPlayer().getName() + ":" + currentPlayer.getPlayer().getPhase() + " Phase");
 			currentPlayer.getPlayer().executeCommand();
 		}
@@ -141,6 +141,11 @@ public class GameManager implements Runnable {
 	public void run() {
 		gameLoop();
 		System.out.println("Ended execution of game ");
+	}
+	
+	@Override
+	public void finalize(){
+		System.out.println("GM DEALLOCATED");
 	}
 
 }

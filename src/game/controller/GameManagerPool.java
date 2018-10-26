@@ -71,8 +71,10 @@ public class GameManagerPool {
 			return false;
 		}
 		
+		System.out.println("Removing game:" + id);
 		games.remove(id);
 		gm.getThread().interrupt();
+		gm.getGameState().resume(0);
 		
 		System.out.println(games.size() + " games Currently Running");
 		System.out.println("IDs:");
